@@ -1,0 +1,570 @@
+{
+ "עומר אדם": {
+  "genre": "mizrahi",
+  "region": "haifa-north"
+ },
+ "אייל גולן": {
+  "genre": "mizrahi",
+  "region": "tel-aviv-area"
+ },
+ "משה פרץ": {
+  "genre": "mizrahi"
+ },
+ "יהורם גאון": {
+  "genre": "folk-israeli",
+  "region": "jerusalem"
+ },
+ "זוהר ארגוב": {
+  "genre": "mizrahi",
+  "region": "center"
+ },
+ "חיים משה": {
+  "genre": "mizrahi"
+ },
+ "שלומי שבת": {
+  "genre": "mizrahi"
+ },
+ "דודו אהרון": {
+  "genre": "mizrahi"
+ },
+ "עופר לוי": {
+  "genre": "mizrahi"
+ },
+ "עברי לידר": {
+  "genre": "pop",
+  "region": "center"
+ },
+ "דודו טסה": {
+  "genre": "rock"
+ },
+ "הראל סקעת": {
+  "genre": "pop",
+  "region": "center"
+ },
+ "דוד ברוזה": {
+  "genre": "folk-israeli",
+  "region": "haifa-north"
+ },
+ "שלמה גרוניך": {
+  "genre": "jazz-soul"
+ },
+ "ברי סחרוף": {
+  "region": "abroad"
+ },
+ "ישי ריבו": {
+  "genre": "religious-pop"
+ },
+ "טונה": {
+  "genre": "hiphop",
+  "region": "jerusalem"
+ },
+ "פלד": {
+  "genre": "hiphop"
+ },
+ "סאבלימינל": {
+  "genre": "hiphop"
+ },
+ "שרית חדד": {
+  "genre": "mizrahi",
+  "region": "haifa-north"
+ },
+ "נועה קירל": {
+  "genre": "pop"
+ },
+ "עדן בן זקן": {
+  "genre": "mizrahi"
+ },
+ "עדן חסון": {
+  "genre": "mizrahi"
+ },
+ "נטע ברזילי": {
+  "region": "center"
+ },
+ "חוה אלברשטיין": {
+  "genre": "folk-israeli",
+  "region": "abroad"
+ },
+ "נינט טייב": {
+  "genre": "indie-alt"
+ },
+ "ריטה": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "ירדנה ארזי": {
+  "genre": "pop",
+  "region": "haifa-north"
+ },
+ "זהבה בן": {
+  "genre": "mizrahi"
+ },
+ "נסרין קדרי": {
+  "genre": "mizrahi"
+ },
+ "קרולינה": {
+  "genre": "indie-alt"
+ },
+ "עפרה חזה": {
+  "region": "tel-aviv-area"
+ },
+ "אסתר רדא": {
+  "genre": "jazz-soul"
+ },
+ "הדג נחש": {
+  "genre": "hiphop",
+  "region": "jerusalem"
+ },
+ "כוורת": {
+  "genre": "rock",
+  "region": "tel-aviv-area"
+ },
+ "משינה": {
+  "genre": "rock",
+  "region": "tel-aviv-area"
+ },
+ "אתניקס": {
+  "genre": "rock",
+  "region": "tel-aviv-area"
+ },
+ "מוניקה סקס": {
+  "genre": "rock",
+  "region": "tel-aviv-area"
+ },
+ "בלקן ביט בוקס": {
+  "genre": "ethnic-world",
+  "region": "abroad"
+ },
+ "אינפקטד מאשרום": {
+  "genre": "electronic",
+  "region": "haifa-north"
+ },
+ "אה-ווה": {
+  "genre": "ethnic-world"
+ },
+ "טיפקס": {
+  "genre": "rock",
+  "region": "south"
+ },
+ "סטטיק ובן אל": {
+  "genre": "pop"
+ },
+ "הפרויקט של עידן רייכל": {
+  "genre": "ethnic-world",
+  "region": "center"
+ },
+ "חיים טופול": {
+  "genre": "pop",
+  "region": "tel-aviv-area"
+ },
+ "עדן גולן": {
+  "genre": "pop"
+ },
+ "יזהר כהן": {
+  "genre": "pop",
+  "region": "tel-aviv-area"
+ },
+ "עמיר חדד": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "מירה עווד": {
+  "genre": "pop",
+  "region": "haifa-north"
+ },
+ "שירי מימון": {
+  "genre": "pop",
+  "region": "haifa-north"
+ },
+ "מיי פיינגולד": {
+  "genre": "rock"
+ },
+ "בועז מעודה": {
+  "genre": "pop",
+  "region": "haifa-north"
+ },
+ "ענבר לביא": {
+  "genre": "pop"
+ },
+ "אימרי זיו": {
+  "genre": "pop",
+  "region": "center"
+ },
+ "נדב גדג'": {
+  "genre": "pop"
+ },
+ "נועם בתן": {
+  "genre": "pop"
+ },
+ "חובי סטאר": {
+  "genre": "pop"
+ },
+ "מיכאל בן דוד": {
+  "genre": "pop"
+ },
+ "נעמי שמר": {
+  "genre": "folk-israeli",
+  "region": "haifa-north"
+ },
+ "אלונה טל": {
+  "genre": "pop"
+ },
+ "דליה לביא": {
+  "genre": "pop",
+  "region": "haifa-north"
+ },
+ "שושנה דמארי": {
+  "genre": "folk-israeli",
+  "region": "abroad"
+ },
+ "דפנה דקל": {
+  "genre": "pop"
+ },
+ "ליאור נרקיס": {
+  "genre": "mizrahi"
+ },
+ "ריקה זראי": {
+  "genre": "pop",
+  "region": "jerusalem"
+ },
+ "אישתאר": {
+  "genre": "pop"
+ },
+ "יפה ירקוני": {
+  "genre": "folk-israeli"
+ },
+ "קרן אן": {
+  "genre": "indie-alt",
+  "region": "center"
+ },
+ "אבישי כהן": {
+  "genre": "jazz-soul",
+  "region": "haifa-north"
+ },
+ "צביקה פיק": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "מייק בראנט": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "אבי טולדנו": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "אנה זק": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "קרן פלס": {
+  "genre": "pop",
+  "region": "haifa-north"
+ },
+ "רן דנקר": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "Guy Mardel": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "פנינה רוזנבלום": {
+  "genre": "pop"
+ },
+ "נועה תשבי": {
+  "genre": "pop",
+  "region": "tel-aviv-area"
+ },
+ "ריף כהן": {
+  "genre": "pop"
+ },
+ "מירי מסיקה": {
+  "genre": "pop"
+ },
+ "מרדכי בן דוד": {
+  "genre": "religious-pop",
+  "region": "abroad"
+ },
+ "שוקי לוי": {
+  "genre": "pop"
+ },
+ "מאיר בנאי": {
+  "genre": "folk-israeli",
+  "region": "jerusalem"
+ },
+ "אקי אבני": {
+  "genre": "pop"
+ },
+ "עוזי חיטמן": {
+  "genre": "folk-israeli"
+ },
+ "מיטל דוהן": {
+  "genre": "pop"
+ },
+ "עמית פרקש": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "שרי גבעתי": {
+  "genre": "pop"
+ },
+ "שמעון גרשון": {
+  "genre": "pop"
+ },
+ "דאנה איבגי": {
+  "genre": "indie-alt"
+ },
+ "יוסי בנאי": {
+  "genre": "folk-israeli",
+  "region": "jerusalem"
+ },
+ "אפרת גוש": {
+  "genre": "indie-alt"
+ },
+ "מארינה מקסימיליאן": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "שולי רנד": {
+  "genre": "religious-pop"
+ },
+ "צרויה להב": {
+  "genre": "folk-israeli",
+  "region": "haifa-north"
+ },
+ "מאיר אריאל": {
+  "genre": "folk-israeli"
+ },
+ "סופי צדקה": {
+  "genre": "pop"
+ },
+ "איה כורם": {
+  "genre": "indie-alt",
+  "region": "haifa-north"
+ },
+ "ליאל קולט": {
+  "genre": "folk-israeli",
+  "region": "haifa-north"
+ },
+ "ריקי גל": {
+  "genre": "pop"
+ },
+ "אביהו מדינה": {
+  "genre": "mizrahi"
+ },
+ "מירי אלוני": {
+  "genre": "pop"
+ },
+ "דודו פישר": {
+  "genre": "religious-pop"
+ },
+ "נעמי פולני": {
+  "genre": "folk-israeli"
+ },
+ "דניאל סיון": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "יגאל בשן": {
+  "genre": "pop",
+  "region": "center"
+ },
+ "צחי הלוי": {
+  "genre": "pop"
+ },
+ "מרגלית צנעני": {
+  "genre": "mizrahi",
+  "region": "abroad"
+ },
+ "בעז שרעבי": {
+  "genre": "mizrahi"
+ },
+ "אורלי זילברשץ": {
+  "genre": "pop"
+ },
+ "אריאל זילבר": {
+  "genre": "rock"
+ },
+ "מאיה בוסקילה": {
+  "genre": "pop"
+ },
+ "לינט": {
+  "genre": "mizrahi"
+ },
+ "נתן גושן": {
+  "genre": "pop",
+  "region": "center"
+ },
+ "תומר יוסף": {
+  "genre": "electronic"
+ },
+ "מוטי שטיינמץ": {
+  "genre": "religious-pop"
+ },
+ "יהונתן מרגי": {
+  "genre": "pop"
+ },
+ "רוני דלומי": {
+  "genre": "pop"
+ },
+ "עמיר בניון": {
+  "genre": "mizrahi"
+ },
+ "דני ליטני": {
+  "genre": "folk-israeli"
+ },
+ "שייקה לוי": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "רוני דואני": {
+  "genre": "pop"
+ },
+ "סיגל שחמון": {
+  "genre": "mizrahi"
+ },
+ "אברהם פריד": {
+  "genre": "religious-pop",
+  "region": "abroad"
+ },
+ "מיכאל מושונוב": {
+  "genre": "hiphop",
+  "region": "tel-aviv-area"
+ },
+ "ציפי שביט": {
+  "genre": "pop"
+ },
+ "ישראל פוליאקוב": {
+  "genre": "pop"
+ },
+ "יונתן רזאל": {
+  "genre": "religious-pop"
+ },
+ "ענר שפירא": {
+  "genre": "religious-pop"
+ },
+ "שימי תבורי": {
+  "genre": "mizrahi"
+ },
+ "אורלי ויינרמן": {
+  "genre": "pop"
+ },
+ "מוקי": {
+  "genre": "rock"
+ },
+ "שי גבסו": {
+  "genre": "mizrahi"
+ },
+ "דקלון": {
+  "genre": "mizrahi"
+ },
+ "דניאל סלומון": {
+  "genre": "pop"
+ },
+ "דני סנדרסון": {
+  "genre": "rock",
+  "region": "haifa-north"
+ },
+ "חנן גולדבלט": {
+  "genre": "pop"
+ },
+ "מיכל אמדורסקי": {
+  "genre": "pop"
+ },
+ "פיטר רוט": {
+  "genre": "rock"
+ },
+ "סטפן לגר": {
+  "genre": "pop"
+ },
+ "נונו": {
+  "genre": "pop"
+ },
+ "אריס סאן": {
+  "genre": "mizrahi",
+  "region": "abroad"
+ },
+ "יהושע סופר": {
+  "genre": "folk-israeli",
+  "region": "abroad"
+ },
+ "אריק לביא": {
+  "genre": "folk-israeli",
+  "region": "abroad"
+ },
+ "דני רובס": {
+  "genre": "rock",
+  "region": "south"
+ },
+ "Aaron Shust": {
+  "genre": "religious-pop",
+  "region": "abroad"
+ },
+ "חני נחמיאס": {
+  "genre": "pop"
+ },
+ "אפרת רייטן": {
+  "genre": "pop"
+ },
+ "גברי בנאי": {
+  "genre": "pop"
+ },
+ "מיקי גבריאלוב": {
+  "genre": "rock"
+ },
+ "שוקולד מנטה מסטיק": {
+  "genre": "pop",
+  "region": "tel-aviv-area"
+ },
+ "ווקה פיפל": {
+  "genre": "pop"
+ },
+ "שוטי הנבואה": {
+  "genre": "ethnic-world"
+ },
+ "אורפנד לנד": {
+  "genre": "rock",
+  "region": "tel-aviv-area"
+ },
+ "מלכאש": {
+  "genre": "rock",
+  "region": "jerusalem"
+ },
+ "סקאזי": {
+  "genre": "electronic"
+ },
+ "Vini Vici": {
+  "genre": "electronic",
+  "region": "tel-aviv-area"
+ },
+ "קורין אלאל": {
+  "genre": "rock",
+  "region": "abroad"
+ },
+ "יהודה פוליקר": {
+  "genre": "rock",
+  "region": "haifa-north"
+ },
+ "מוש בן ארי": {
+  "genre": "folk-israeli",
+  "region": "haifa-north"
+ },
+ "ארקדי דוכין": {
+  "genre": "rock",
+  "region": "abroad"
+ },
+ "דני בסן": {
+  "genre": "pop",
+  "region": "abroad"
+ },
+ "חנה לסלאו": {
+  "genre": "pop"
+ },
+ "ענת עצמון": {
+  "genre": "pop"
+ },
+ "תאמר נפאר": {
+  "genre": "hiphop",
+  "region": "center"
+ }
+}
