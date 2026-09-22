@@ -1,0 +1,37 @@
+{
+  "name": "amnal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "preview": "vite preview",
+    "typecheck": "tsc -b",
+    "data:validate": "tsx scripts/07-validate.ts",
+    "data": "tsx scripts/01-wikidata.ts && tsx scripts/02-musicbrainz.ts && tsx scripts/03-deezer.ts && tsx scripts/04-lastfm.ts && tsx scripts/05-pageviews.ts && tsx scripts/06-merge.ts && tsx scripts/07-validate.ts && tsx scripts/08-build-schedule.ts",
+    "data:stages": "tsx scripts/01-wikidata.ts && tsx scripts/02-musicbrainz.ts && tsx scripts/03-deezer.ts && tsx scripts/04-lastfm.ts && tsx scripts/05-pageviews.ts",
+    "data:merge": "tsx scripts/06-merge.ts && tsx scripts/07-validate.ts && tsx scripts/08-build-schedule.ts"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "jsdom": "^29.1.1",
+    "oxlint": "^1.81.0",
+    "tsx": "^4.23.15",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}

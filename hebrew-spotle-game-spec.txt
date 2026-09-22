@@ -1,0 +1,763 @@
+================================================================================
+ HEBREW "SPOTLE" - DAILY ISRAELI ARTIST GUESSING GAME
+ Build specification (written to be executed by an LLM coding agent)
+ Document date: 2026-09-21
+================================================================================
+
+--------------------------------------------------------------------------------
+0. HOW TO USE THIS DOCUMENT
+--------------------------------------------------------------------------------
+You are building a static web game. Follow the phases in section 15 in order.
+Do not ask the owner questions unless you are truly blocked; where a choice is
+open, section 16 gives a default. Record any deviation in DECISIONS.md.
+
+Rules for you, the builder:
+  - Everything visible to the player is in HEBREW, right-to-left.
+  - Code, comments, identifiers and commit messages are in English.
+  - Every pure function (compare, normalize, daily index, share text) gets unit
+    tests before the UI uses it.
+  - Never hard-code API keys. Read them from .env (see section 6).
+  - Data-fetching scripts run at BUILD TIME in Node, never in the browser.
+    The shipped game is a static site with a bundled JSON file.
+  - Do not copy code, data, images, name or branding from spotle.io. This is an
+    original game inspired by the same mechanic (Wordle-style attribute clues).
+
+
+--------------------------------------------------------------------------------
+1. PRODUCT SUMMARY
+--------------------------------------------------------------------------------
+Inspiration: https://spotle.io/ ("10 guesses, 1000 artists", daily artist
+guessing game). Verified from the landing page: 10 guesses, ~1000 artists, one
+daily target, plus a side "brackets" voting feature. The board mechanic (rows of
+attribute tiles colored by closeness) is described from general knowledge of
+this game genre, not from inspecting their board.
+
+Our game:
+  - One hidden Israeli artist (solo singer, duo or band) per day.
+  - The player has 10 guesses. Each guess is any artist from the guess pool.
+  - After each guess a row of attribute tiles is revealed, colored:
+      correct (green), close (yellow), wrong (gray)
+    and numeric tiles show an arrow (up/down) toward the target value.
+  - Win = guess the exact artist. Lose = 10 wrong guesses (reveal the answer).
+  - Everyone gets the same artist on the same Israeli calendar day.
+  - Stats (played, wins, streak, guess distribution) stay on the device.
+
+Working title: "זמרדל" (ZEMARDEL). Keep the name in one config constant so it
+can be renamed. The owner must check trademark/domain availability separately.
+
+
+--------------------------------------------------------------------------------
+2. TECH STACK (fixed - do not substitute without recording in DECISIONS.md)
+--------------------------------------------------------------------------------
+  - Node 20+, TypeScript (strict), Vite, React 18
+  - Styling: plain CSS with CSS custom properties and LOGICAL properties
+    (margin-inline-start, padding-inline, inset-inline-*), no CSS framework
+  - Tests: Vitest (+ @testing-library/react for components)
+  - Optional e2e: Playwright (one smoke test: play a full losing game)
+  - Data scripts: TypeScript run with tsx, using built-in fetch
+  - Font: Heebo or Assistant (Google Fonts, self-hosted woff2 preferred),
+    with fallback stack: system-ui, "Segoe UI", Arial, sans-serif
+  - Hosting: any static host (Cloudflare Pages / Netlify / Vercel)
+  - No backend in the MVP (see section 9 for the cheat-resistance upgrade)
+
+Repo layout:
+  /
+    DECISIONS.md
+    .env.example
+    package.json
+    index.html                 <html lang="he" dir="rtl">
+    data/
+      seed-names.json          input list (section 5)
+      overrides.json           manual corrections; WINS over API data
+      city-region.json         city name (he/en) -> region enum
+      genre-map.json           API tag -> our genre enum
+      raw/                     cached API responses (gitignored)
+    scripts/
+      01-wikidata.ts
+      02-musicbrainz.ts
+      03-deezer.ts
+      04-lastfm.ts
+      05-pageviews.ts
+      06-merge.ts              merge + tiering -> src/data/artists.json
+      07-validate.ts           schema check + missing-field report
+      08-build-schedule.ts     seeded shuffle -> src/data/schedule.json
+    src/
+      config.ts                GAME_NAME, MAX_GUESSES=10, LAUNCH_DATE, TZ
+      strings.he.ts            all UI text
+      types.ts
+      lib/
+        normalizeHe.ts
+        search.ts
+        compare.ts
+        daily.ts
+        share.ts
+        storage.ts
+        stats.ts
+      data/artists.json        generated, committed
+      data/schedule.json       generated, committed
+      components/              App, Board, GuessRow, Tile, SearchBox,
+                               EndDialog, StatsDialog, HelpDialog, Legend
+      styles.css
+    tests/                     mirrors src/lib
+
+
+--------------------------------------------------------------------------------
+3. DATA MODEL (src/types.ts)
+--------------------------------------------------------------------------------
+export type ArtistType = 'solo' | 'duo' | 'band';
+export type Gender = 'male' | 'female' | 'mixed';
+export type Region =
+  | 'tel-aviv-area'   // גוש דן
+  | 'center'          // שרון / שפלה / מרכז
+  | 'jerusalem'       // ירושלים והסביבה
+  | 'haifa-north'     // חיפה, קריות, צפון
+  | 'south'           // באר שבע, נגב, אילת, דרום
+  | 'abroad';         // נולד/הוקם מחוץ לישראל
+export type TalentShow =
+  | 'kochav-nolad'    // כוכב נולד
+  | 'hakochav-haba'   // הכוכב הבא
+  | 'other-show'      // תוכנית ריאליטי/כישרונות אחרת
+  | 'none';
+export type Genre =
+  | 'pop'             // פופ
+  | 'mizrahi'         // מזרחית
+  | 'rock'            // רוק
+  | 'hiphop'          // היפ-הופ / ראפ
+  | 'mediterranean'   // ים-תיכוני
+  | 'electronic'      // אלקטרוני / טראנס
+  | 'ethnic-world'    // אתנו / עולם
+  | 'folk-israeli'    // שיר עברי / פולק
+  | 'indie-alt'       // אינדי / אלטרנטיבי
+  | 'religious-pop'   // פופ דתי/חסידי
+  | 'jazz-soul'       // ג'אז / סול
+  | 'other';
+
+export interface Artist {
+  id: string;                    // stable slug, e.g. "omer-adam"
+  nameHe: string;                // display name, e.g. "עומר אדם"
+  nameEn?: string;               // e.g. "Omer Adam"
+  aliases: string[];             // extra searchable names (he + en + nicknames)
+  debutYear: number;             // first release / formation year
+  type: ArtistType;
+  members: number;               // 1 for solo, 2 for duo, N for band
+  gender: Gender;                // for groups: 'mixed' if both genders present
+  primaryGenre: Genre;
+  secondaryGenres: Genre[];      // 0-2 items, used for "close" matches
+  popularityTier: 1 | 2 | 3 | 4 | 5;   // 5 = most popular (section 7)
+  region: Region;
+  talentShow: TalentShow;
+  answerEligible: boolean;       // may be picked as a daily answer
+  ids: {                         // provenance, all optional
+    wikidata?: string;           // "Q..."
+    musicbrainz?: string;        // MBID (uuid)
+    deezer?: number;
+    lastfm?: string;
+  };
+  metrics?: {                    // raw numbers used for tiering (not shown)
+    deezerFans?: number;
+    lastfmListeners?: number;
+    hewikiPageviews90d?: number;
+    wikidataSitelinks?: number;
+  };
+  imageUrl?: string;             // OFF by default, see section 13
+}
+
+Validation (scripts/07-validate.ts, also runs in CI):
+  - every id unique; nameHe non-empty; debutYear 1948..current year
+  - type/members consistent (solo=>1, duo=>2, band>=3)
+  - primaryGenre not in secondaryGenres
+  - at least 1 alias that is the Latin-script name if nameEn exists
+  - at least 150 artists with answerEligible=true before launch
+  - print a table of artists with missing/uncertain fields for manual review
+
+
+--------------------------------------------------------------------------------
+4. GAME RULES AND COMPARISON LOGIC (src/lib/compare.ts)
+--------------------------------------------------------------------------------
+Tiles (right-to-left order on screen, i.e. first column is the rightmost):
+  1. שנת הופעה ראשונה   debutYear
+  2. הרכב               type + members
+  3. מגדר               gender
+  4. ז'אנר              primaryGenre (+ secondaryGenres for "close")
+  5. פופולריות          popularityTier
+  6. אזור               region
+  7. תוכנית ריאליטי     talentShow
+
+export type Match = 'correct' | 'close' | 'wrong';
+export interface TileResult {
+  field: 'debutYear'|'lineup'|'gender'|'genre'|'popularity'|'region'|'talentShow';
+  match: Match;
+  arrow?: 'up' | 'down';   // 'up' = target value is HIGHER than the guess
+}
+
+compare(guess: Artist, target: Artist): TileResult[]   (pure, deterministic)
+
+  debutYear:  correct if equal. close if |diff| <= 3. else wrong.
+              arrow whenever not equal: guess < target => 'up', else 'down'.
+  lineup:     correct if type equal AND members equal.
+              close if both are groups (duo/band) but not identical.
+              else wrong. Show member count for groups. For two groups with
+              different member counts also set the arrow (up/down).
+  gender:     correct if equal.
+              close if exactly one of them is 'mixed'.
+              else wrong.
+  genre:      correct if primaryGenre equal.
+              close if guess.primary is in target.secondary, or target.primary
+              is in guess.secondary, or they share any secondary genre.
+              else wrong.
+  popularity: correct if equal. close if |diff| == 1. else wrong.
+              arrow whenever not equal.
+  region:     correct if equal. close if regions are adjacent:
+                tel-aviv-area <-> center, center <-> jerusalem,
+                center <-> haifa-north, center <-> south
+              (abroad has no neighbours). else wrong.
+  talentShow: correct if equal. close if both are non-'none' but different.
+              else wrong.
+
+WIN CONDITION: guess.id === target.id. Never infer a win from "all tiles
+correct" (two artists could tie on every tile).
+
+Game state machine:
+  playing -> won | lost.  Guesses are unique (block duplicates with a Hebrew
+  inline message). Max 10. After the game ends the input is disabled and the
+  end dialog opens automatically once.
+
+
+--------------------------------------------------------------------------------
+5. SEED LIST (names only - all attributes must come from APIs/overrides)
+--------------------------------------------------------------------------------
+This list is the INPUT to the pipeline (data/seed-names.json). It is from the
+author's general knowledge and is NOT verified data. The pipeline must resolve
+each name to Wikidata/MusicBrainz IDs and the owner must review the results.
+Expand to 300-500 artists using the Wikidata query in section 6.1.
+
+Format: Hebrew | English (English is used for API lookups)
+
+Male solo
+  עומר אדם | Omer Adam
+  אייל גולן | Eyal Golan
+  משה פרץ | Moshe Peretz
+  שלמה ארצי | Shlomo Artzi
+  אריק איינשטיין | Arik Einstein
+  אביב גפן | Aviv Geffen
+  עידן רייכל | Idan Raichel
+  רמי קלינשטיין | Rami Kleinstein
+  עברי לידר | Ivri Lider
+  אהוד בנאי | Ehud Banai
+  אביתר בנאי | Evyatar Banai
+  ברי סחרוף | Berry Sakharof
+  מתי כספי | Matti Caspi
+  שלום חנוך | Shalom Hanoch
+  יהורם גאון | Yehoram Gaon
+  זוהר ארגוב | Zohar Argov
+  חיים משה | Haim Moshe
+  שלומי שבת | Shlomi Shabat
+  דודו אהרון | Dudu Aharon
+  עופר לוי | Ofer Levi
+  אסף אמדורסקי | Asaf Amdursky
+  אסף אבידן | Asaf Avidan
+  דודו טסה | Dudu Tassa
+  הראל סקעת | Harel Skaat
+  דוד ברוזה | David Broza
+  שלמה גרוניך | Shlomo Gronich
+  ישי ריבו | Yishai Ribo
+  טונה | Tuna
+  פלד | Peled
+  סאבלימינל | Subliminal
+Female solo
+  שרית חדד | Sarit Hadad
+  נועה קירל | Noa Kirel
+  עדן בן זקן | Eden Ben Zaken
+  עדן חסון | Eden Hason
+  נטע ברזילי | Netta Barzilai
+  נינט טייב | Ninet Tayeb
+  דנה אינטרנשיונל | Dana International
+  יהודית רביץ | Yehudit Ravitz
+  חוה אלברשטיין | Chava Alberstein
+  אילנית | Ilanit
+  ריטה | Rita
+  ירדנה ארזי | Yardena Arazi
+  עפרה חזה | Ofra Haza
+  זהבה בן | Zehava Ben
+  גלי עטרי | Gali Atari
+  נגה ארז | Noga Erez
+  אסתר רדא | Ester Rada
+  יעל נעים | Yael Naim
+  אחינועם ניני | Achinoam Nini
+  נסרין קדרי | Nasrin Kadri
+  קרולינה | Karolina
+Groups and duos
+  הדג נחש | Hadag Nahash
+  כוורת | Kaveret
+  משינה | Mashina
+  אתניקס | Ethnix
+  מוניקה סקס | Monica Sex
+  בלקן ביט בוקס | Balkan Beat Box
+  אינפקטד מאשרום | Infected Mushroom
+  אה-ווה | A-WA
+  טיפקס | Teapacks
+  סטטיק ובן אל | Static & Ben El
+  הפרויקט של עידן רייכל | The Idan Raichel Project
+
+
+--------------------------------------------------------------------------------
+6. DATA SOURCES / APIs  (researched 2026-09-21)
+--------------------------------------------------------------------------------
+6.0 SUMMARY TABLE
+
+  Source            Key?         Use it for                         Verdict
+  ----------------  -----------  ---------------------------------  ---------
+  Wikidata SPARQL   none         candidate list, Hebrew names,      USE
+                                 debut/birth dates, gender, IDs
+  MusicBrainz       none         type (person/group), members,      USE
+                                 gender, begin date, area, tags
+  Deezer            none         fan count (popularity), optional   USE
+                                 image / 30s preview
+  Last.fm           free key     listeners + playcount (popularity),USE
+                                 top tags (genre hints)
+  Wikimedia         none         he.wikipedia pageviews = local     USE
+  pageviews API                  popularity proxy (see 6.5)        (unverified
+                                                                    this session)
+  Spotify Web API   OAuth,       -                                  DO NOT USE
+                    Premium
+
+6.1 WIKIDATA  (candidate discovery + core facts)
+  Endpoint : GET or POST https://query.wikidata.org/sparql
+             add  format=json  or header  Accept: application/sparql-results+json
+  Auth     : none. A descriptive User-Agent WITH CONTACT is required, e.g.
+             "ZemardelBuilder/0.1 (https://example.com; you@example.com)".
+             Requests without one can be blocked.
+  Limits   : 60 s hard query timeout; one client gets ~60 s of processing time
+             per 60 s; ~30 error responses/min; HTTP 429 => obey Retry-After.
+             Max ~5 parallel queries per IP. Always use LIMIT and split heavy
+             queries (page with LIMIT/OFFSET, or batch QIDs with VALUES).
+  Licence  : Wikidata data is CC0.
+  IDs used : Israel = Q801, singer = Q177220, musical group = Q215380,
+             male = Q6581097, female = Q6581072
+             P27 citizenship, P106 occupation, P495 country of origin,
+             P21 gender, P569 date of birth, P571 inception, P19 place of
+             birth, P136 genre, P527 has part(s), P434 MusicBrainz artist ID.
+  (Verify these IDs in the query UI on first run; fix if any differ.)
+
+  Stage 1 - candidates ranked by notability (Wikipedia sitelink count):
+
+    SELECT ?item ?labelHe ?labelEn ?kind ?sitelinks ?mbid WHERE {
+      { ?item wdt:P27 wd:Q801 ; wdt:P106 wd:Q177220 . BIND("person" AS ?kind) }
+      UNION
+      { ?item wdt:P31 wd:Q215380 ; wdt:P495 wd:Q801 . BIND("group" AS ?kind) }
+      ?item wikibase:sitelinks ?sitelinks .
+      FILTER(?sitelinks >= 3)
+      OPTIONAL { ?item rdfs:label ?labelHe . FILTER(LANG(?labelHe) = "he") }
+      OPTIONAL { ?item rdfs:label ?labelEn . FILTER(LANG(?labelEn) = "en") }
+      OPTIONAL { ?item wdt:P434 ?mbid . }
+    }
+    ORDER BY DESC(?sitelinks)
+    LIMIT 500
+
+    If it times out: run the two UNION halves as separate queries, and/or add
+    OFFSET paging. Also try other occupations (musician Q639669, rapper
+    Q2252262, DJ Q130857) - verify the QIDs first.
+
+  Stage 2 - enrich in batches of ~50 QIDs:
+
+    SELECT ?item ?birth ?inception ?gender ?birthPlaceLabel ?genreLabel WHERE {
+      VALUES ?item { wd:Q..., wd:Q... }
+      OPTIONAL { ?item wdt:P569 ?birth }
+      OPTIONAL { ?item wdt:P571 ?inception }
+      OPTIONAL { ?item wdt:P21 ?gender }
+      OPTIONAL { ?item wdt:P19 ?birthPlace }
+      OPTIONAL { ?item wdt:P136 ?genre }
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "he,en". }
+    }
+
+  Wikidata gives dates of BIRTH, not career start. Use MusicBrainz begin date
+  or first-release year for debutYear; fall back to inception (groups) and
+  finally to a manual override. Never use birth year as debutYear.
+
+6.2 MUSICBRAINZ  (type, members, gender, begin date, area, tags)
+  Base     : https://musicbrainz.org/ws/2/   (append  fmt=json )
+  Auth     : none. A meaningful User-Agent string is REQUIRED.
+  Limits   : ~1 request/second per IP on average. Above that, ALL requests are
+             declined (HTTP 503) until the rate drops. Hard-throttle to 1.1 s
+             between calls and retry with exponential backoff on 503.
+  Licence  : core data CC0; non-commercial use free (commercial plans exist).
+             Credit MusicBrainz in the site footer.
+  Calls:
+    Search Israeli artists (Lucene syntax):
+      /artist/?query=artist:"Hadag Nahash" AND country:IL&limit=5&fmt=json
+      /artist/?query=country:IL&limit=100&offset=0&fmt=json      (bulk paging)
+    Lookup by MBID (from Wikidata P434 or search):
+      /artist/{mbid}?inc=tags+genres+aliases+artist-rels&fmt=json
+  Useful fields: type ("Person"/"Group"), gender, life-span.begin, area.name,
+    begin-area.name, country, tags[{name,count}], genres[{name,count}],
+    aliases[{name,locale}] (locale "he" gives Hebrew spellings),
+    relations[] with type "member of band" (count them for members).
+  MusicBrainz "Group" also covers duos - derive duo from member count == 2.
+  Dates can be YYYY, YYYY-MM or YYYY-MM-DD; take the first 4 chars.
+
+6.3 DEEZER  (fan count, optional image/preview)
+  Base     : https://api.deezer.com
+  Auth     : none for public catalog data.
+  Limits   : ~50 requests per 5 seconds. Throttle to <= 8 req/s and cache.
+  Calls:
+    GET /search/artist?q={name}&limit=5
+    GET /artist/{id}            -> nb_fan, nb_album, picture_xl, link
+    GET /artist/{id}/top?limit=5 -> tracks (each has a 30 s "preview" URL)
+  Match rule: accept a search hit only if its normalized name equals the seed
+    name (Hebrew or English) - otherwise mark deezer as "unresolved" and let
+    the owner decide. Search returns fuzzy matches; do not trust hit #1 blindly.
+  Run only from Node scripts (browser CORS behaviour is not verified).
+  Israeli-market caveat: local artists may have low/missing Deezer coverage.
+    Treat Deezer as ONE popularity signal, never the only one (section 7).
+  Check Deezer's terms before displaying their images or previews (section 13).
+
+6.4 LAST.FM  (listeners, playcount, tags)
+  Base     : https://ws.audioscrobbler.com/2.0/
+  Auth     : free API key (create at https://www.last.fm/api/account/create).
+             Put in .env as LASTFM_API_KEY.
+  Terms    : free for NON-COMMERCIAL use; commercial use needs an agreement
+             with Last.fm. Use an identifiable User-Agent, ~1 req/s, cache.
+  Calls:
+    ?method=artist.getinfo&mbid={mbid}&api_key=KEY&format=json
+    ?method=artist.getinfo&artist={name}&api_key=KEY&format=json
+    ?method=artist.gettoptags&mbid={mbid}&api_key=KEY&format=json
+  Fields: artist.stats.listeners, artist.stats.playcount, artist.tags.tag[].name
+  Prefer lookup by MBID (avoids name collisions). Last.fm skews to a particular
+  listener base, so treat counts as relative, not absolute.
+
+6.5 WIKIMEDIA PAGEVIEWS  (recommended local-popularity signal; not verified in
+    this research session - test one request before relying on it)
+  Endpoint pattern:
+    https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/
+      he.wikipedia/all-access/user/{Article_Title}/daily/{YYYYMMDD}/{YYYYMMDD}
+  No key; send a descriptive User-Agent. Get the he.wikipedia article title from
+  Wikidata sitelinks (hewiki). Sum the last 90 days into metrics.hewikiPageviews90d.
+  This reflects Israeli public interest and does not depend on streaming
+  platforms that under-cover Israeli artists.
+
+6.6 SPOTIFY  -  DO NOT USE (checked against Spotify's developer docs)
+  - The February 2026 Web API changes REMOVED artist "popularity" and
+    "followers" fields for Development Mode apps, cut search limit to 10,
+    removed batch artist endpoints, and require the app owner to have Premium.
+  - Development Mode is capped at 5 allow-listed users; extended quota needs
+    a large organization. Metadata via Client Credentials is being moved away.
+  - Conclusion: Spotify cannot supply the two things this game needs from it
+    (popularity, fan counts). Do not build on it.
+
+6.7 OTHER CANDIDATES (not verified - only if a gap remains)
+  - iTunes Search API (keyless) for artwork/genre hints.
+  - TheAudioDB for genre/formed-year hints (has its own key terms).
+  Test any of these against 5 known artists before adding them to the pipeline.
+
+ENV FILE (.env.example)
+  LASTFM_API_KEY=
+  CONTACT_EMAIL=you@example.com      # goes into User-Agent strings
+  USER_AGENT="ZemardelBuilder/0.1 ( ${CONTACT_EMAIL} )"
+
+
+--------------------------------------------------------------------------------
+7. DATA PIPELINE (scripts/) AND TIERING
+--------------------------------------------------------------------------------
+Every script: reads the previous stage's file, caches raw responses in
+data/raw/, is re-runnable (skip already-cached entries), throttles per the
+limits above, and logs unresolved names to data/raw/unresolved.json.
+
+  01-wikidata.ts     seed names + stage 1/2 queries -> QIDs, Hebrew/English
+                     labels, gender, dates, places, sitelinks, hewiki title
+  02-musicbrainz.ts  MBID (from Wikidata P434 or search) -> type, members,
+                     debut year, area, tags, Hebrew aliases
+  03-deezer.ts       fan counts (+ deezer id)
+  04-lastfm.ts       listeners/playcount + top tags (needs LASTFM_API_KEY)
+  05-pageviews.ts    hewiki 90-day pageviews
+  06-merge.ts        merge all sources into Artist[], apply data/genre-map.json
+                     and data/city-region.json, compute popularityTier, then
+                     apply data/overrides.json LAST (manual data always wins)
+  07-validate.ts     section 3 validation + review report
+  08-build-schedule.ts  section 9
+
+FIELD PROVENANCE
+  debutYear     MusicBrainz life-span.begin (first 4 chars) -> Wikidata P571 ->
+                override. (Flag if debutYear < birthYear + 10 or > current year.)
+  type/members  MusicBrainz type + "member of band" relation count
+  gender        Wikidata P21 / MusicBrainz gender; groups: 'mixed' if both
+                genders appear among members, else the shared gender
+  primaryGenre  map Last.fm top tags + MusicBrainz genres through
+                data/genre-map.json (first mapped tag by weight wins).
+                Unmapped -> 'other' and listed in the review report.
+  region        birth/origin city (Wikidata P19, MusicBrainz begin-area) ->
+                data/city-region.json. Unmapped -> manual override.
+  talentShow    MANUAL ONLY (no reliable API). Default 'none'; the owner fills
+                overrides for alumni of כוכב נולד / הכוכב הבא / others.
+  aliases       Hebrew label + English label + MusicBrainz aliases + manual.
+
+POPULARITY TIER (1-5)
+  1. For each artist compute the available signals: hewikiPageviews90d,
+     lastfmListeners, deezerFans, wikidataSitelinks.
+  2. Convert each signal to a percentile rank WITHIN THE ISRAELI DATASET
+     (do not use global thresholds).
+  3. score = weighted mean of the available percentiles:
+        hewiki 0.4, lastfm 0.25, deezer 0.25, sitelinks 0.10
+     (renormalize weights over the signals that exist for that artist).
+  4. Tiers by score quintile: top 20% => 5 ... bottom 20% => 1.
+  5. Overrides may set the tier by hand - the owner will fix obvious errors.
+  6. answerEligible defaults to (tier >= 3). Guess pool = all artists.
+
+Genre taxonomy is the closed enum in section 3. data/genre-map.json is a plain
+lookup, e.g. {"mizrahi":"mizrahi","israeli rock":"rock","hip-hop":"hiphop",
+"trance":"electronic","psytrance":"electronic","pop":"pop", ...}. Extend it
+whenever the review report lists unmapped tags.
+
+
+--------------------------------------------------------------------------------
+8. HEBREW TEXT HANDLING (src/lib/normalizeHe.ts, src/lib/search.ts)
+--------------------------------------------------------------------------------
+normalizeHe(s):
+  1. replace the maqaf (U+05BE) with a space
+  2. strip niqqud and cantillation marks (U+0591-U+05C7)
+  3. remove quote-like characters: " ' ` ׳ ״ ’ ”
+  4. map final letters to regular: ך->כ ם->מ ן->נ ף->פ ץ->צ
+  5. lowercase Latin letters; NFKC-normalize
+  6. replace any remaining non letter/number (Unicode \p{L}\p{N}) with a space
+  7. collapse whitespace and trim
+  Example: "ג'ימבו ג'יי" and "גימבו גיי" normalize to the same string.
+
+Search index (built once at load) - for each artist store normalized forms of
+nameHe, nameEn and every alias, plus a "skeleton" form of each with the letters
+ו and י removed (tolerates full/defective spelling: "כוורת" vs "כוורת").
+
+search(query, artists, alreadyGuessedIds) -> up to 8 results, ranked:
+  1. normalized name starts with the query
+  2. any word of the name starts with the query
+  3. skeleton form contains the skeleton of the query
+  4. fuzzy: Levenshtein distance <= 1 per token (only if query length >= 4)
+Exclude already-guessed artists. Stable secondary sort: popularityTier desc.
+Latin-script queries ("omer", "hadag") must work via nameEn/aliases.
+
+Rendering: wrap Latin text inside Hebrew strings with <bdi> so punctuation does
+not jump; set inputmode="text" and lang="he" on the input.
+
+
+--------------------------------------------------------------------------------
+9. DAILY ANSWER AND CHEAT RESISTANCE
+--------------------------------------------------------------------------------
+Israel date (src/lib/daily.ts):
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Jerusalem' })
+                  .format(new Date());               // "YYYY-MM-DD"
+  dayNumber = daysBetween(config.LAUNCH_DATE, today) // integer, >= 0
+Use calendar-date arithmetic on the strings (not 24h millisecond math) so DST
+changes cannot shift the day. The game rolls over at midnight Israel time.
+Default LAUNCH_DATE = "2026-10-01" (config).
+
+Schedule (scripts/08-build-schedule.ts):
+  - Take all answerEligible ids, shuffle with a seeded PRNG (mulberry32, seed
+    from config), write src/data/schedule.json = ordered array of ids.
+  - answer = schedule[dayNumber % schedule.length]. No repeats until the whole
+    list is used. Never reshuffle after launch (append new ids at the end).
+  - Provide ?day=N (dev only, gated by import.meta.env.DEV) to preview days.
+
+MVP limitation: schedule.json and artists.json ship to the browser, so a curious
+player can look up the answer. Acceptable for launch.
+v2 upgrade: a tiny serverless function POST /guess {guessId, date} that returns
+only the TileResult[] (and reveals the answer after the game ends), plus a
+signed daily token. Keep compare() in a shared module so client and server use
+the same code.
+
+
+--------------------------------------------------------------------------------
+10. UI / UX SPECIFICATION
+--------------------------------------------------------------------------------
+Global: <html lang="he" dir="rtl">; dark theme default with a light option;
+mobile-first (design at 360px width); max content width ~720px, centered.
+
+Layout (top to bottom):
+  - Header: game name, buttons: עזרה (?), סטטיסטיקה, הגדרות
+  - Counter: "ניחוש {n} מתוך 10"
+  - Search box (combobox) + submit button "נחשו"
+  - Legend row: 🟩 נכון   🟨 קרוב   ⬛ לא נכון   ⬆⬇ הכיוון לערך האמיתי
+  - Board: newest guess on top. Each guess = a card:
+      line 1: artist name (Hebrew)
+      line 2: 7 tiles in a grid, one per attribute, with tiny labels on the
+              first card only (sticky) or as tooltips on narrow screens
+  - Empty state: short how-to sentence.
+
+Tile content: value text + arrow glyph (▲/▼). Never rely on color alone: also
+show a symbol (✓ correct, ~ close, ✗ wrong) and expose a Hebrew aria-label per
+tile, e.g. "שנת הופעה ראשונה: 1998, קרוב, הערך האמיתי מאוחר יותר".
+Colorblind mode (settings) swaps green/yellow for blue/orange.
+
+Animation: tiles flip in sequence (300 ms each, 150 ms stagger). Respect
+prefers-reduced-motion (no animation, instant reveal).
+
+Combobox (WAI-ARIA): role="combobox" input + role="listbox" popup, arrow keys,
+Enter to choose, Esc to close, first suggestion highlighted, min touch target
+44 px. Selecting a suggestion fills the field; Enter/button submits the guess.
+Block duplicates and unknown names with an inline message (not alert()).
+
+End dialog:
+  win : "כל הכבוד! זה {name}" + guesses used + share button + next-game timer
+  lose: "לא הפעם. האמן היה {name}" + share button + next-game timer
+  Countdown to the next Israeli midnight, updating each second.
+
+Help dialog: short rules + one worked example row showing each color/arrow.
+Stats dialog: played, win %, current streak, best streak, bar chart of wins by
+guess number (1-10).
+
+Strings (src/strings.he.ts) - centralize ALL text. Starter set:
+  title            "זמרדל"
+  subtitle         "נחשו את האמן הישראלי היומי"
+  guessCounter     "ניחוש {n} מתוך {max}"
+  placeholder      "הקלידו שם של אמן או להקה..."
+  submit           "נחשו"
+  alreadyGuessed   "כבר ניחשתם את האמן הזה"
+  notFound         "לא מצאנו אמן בשם הזה"
+  win              "כל הכבוד! זה {name}"
+  lose             "לא הפעם. האמן היה {name}"
+  share            "שתפו"
+  copied           "הועתק ללוח!"
+  nextIn           "המשחק הבא בעוד {time}"
+  columns          שנת הופעה ראשונה | הרכב | מגדר | ז'אנר | פופולריות |
+                   אזור | תוכנית ריאליטי
+  lineup values    סולו | צמד | להקה ({n})
+  gender values    גבר | אישה | מעורב
+  genre values     פופ | מזרחית | רוק | היפ-הופ | ים-תיכוני | אלקטרוני |
+                   אתנו/עולם | שיר עברי | אינדי | פופ דתי | ג'אז/סול | אחר
+  region values    גוש דן | מרכז | ירושלים | חיפה והצפון | דרום | חו"ל
+  talentShow       כוכב נולד | הכוכב הבא | תוכנית אחרת | ללא
+  popularity       show as 1-5 stars: ★☆☆☆☆ ... ★★★★★
+  help title       "איך משחקים?"
+  stats title      "סטטיסטיקה"
+  footer           "נתונים: Wikidata, MusicBrainz, Last.fm, Deezer"
+
+
+--------------------------------------------------------------------------------
+11. SHARE TEXT (src/lib/share.ts)
+--------------------------------------------------------------------------------
+Copy to clipboard (navigator.clipboard, fallback to a textarea + execCommand);
+also call navigator.share when available. Example output:
+
+  ‏זמרדל #12 - 4/10
+  ‎🟩🟨⬛🟩🟩⬛🟩
+  ‎🟨🟩⬛🟨🟨🟨⬛
+  ‎🟩🟩🟩🟩🟩🟩🟩
+  https://your-domain.example
+
+Lose: "X/10". Number = dayNumber + 1. Prefix the text line with U+200F (RLM)
+and each emoji row with U+200E (LRM) so the grid keeps a stable order in RTL
+chat apps. Emoji rows follow the on-screen column order. No artist names and no
+spoilers in the shared text. Test the paste result in WhatsApp and Telegram.
+
+
+--------------------------------------------------------------------------------
+12. PERSISTENCE (src/lib/storage.ts, stats.ts)
+--------------------------------------------------------------------------------
+localStorage keys (wrap EVERY access in try/catch; the game must still work
+with storage blocked, just without saving):
+  zemardel:v1:game:{YYYY-MM-DD}  { guesses: string[], status: 'playing'|'won'|'lost' }
+  zemardel:v1:stats              { played, wins, streak, maxStreak, dist: number[10],
+                                   lastWinDate }
+  zemardel:v1:settings           { theme: 'dark'|'light', colorblind: boolean }
+Streak rules: increment when winning on consecutive Israeli dates; reset on a
+missed day or a loss. Update stats exactly once per finished game. Delete game
+keys older than 30 days on load.
+
+
+--------------------------------------------------------------------------------
+13. LICENSING, TERMS, PRIVACY  (owner to confirm - not legal advice)
+--------------------------------------------------------------------------------
+  - MusicBrainz and Last.fm: free for non-commercial use. If the site will earn
+    money (ads, sponsorship, paid tier) obtain commercial terms from both.
+  - Wikidata: CC0. MusicBrainz core data: CC0 (credit is polite and expected).
+  - Deezer: read the current API terms before showing artist images or preview
+    audio. DEFAULT: imageUrl unused, no audio (config flag SHOW_IMAGES=false).
+  - Facts such as debut year or genre are not copyrightable, but do not scrape
+    or reuse any other game's curated dataset.
+  - No accounts, no analytics in the MVP. If analytics are added later use a
+    cookieless tool and add a short privacy note in Hebrew.
+  - Add a "report a mistake" mailto link in the footer and in the end dialog.
+
+
+--------------------------------------------------------------------------------
+14. ACCEPTANCE CRITERIA (all must pass before launch)
+--------------------------------------------------------------------------------
+  Data
+    [ ] >= 300 artists in the guess pool, >= 150 answerEligible
+    [ ] validation script passes; review report has 0 "unmapped" genre/region
+    [ ] 20 randomly sampled artists were checked by hand against Wikipedia/MB
+  Logic
+    [ ] compare() unit tests cover every branch in section 4 (incl. arrows)
+    [ ] normalizeHe tests: niqqud, final letters, geresh, maqaf, Latin input
+    [ ] daily index test across the DST change dates and at 23:59 / 00:00 IL
+    [ ] no duplicate answers within one schedule cycle
+  UI
+    [ ] full game playable on 360px wide screen, keyboard only, and screen reader
+    [ ] RTL correct: columns, arrows, dialogs, share text
+    [ ] works with localStorage disabled; reload mid-game restores the board
+    [ ] colorblind mode and reduced motion work
+  Performance
+    [ ] first load < 250 KB gzipped JS+JSON, Lighthouse mobile >= 90
+  Ops
+    [ ] CI runs lint + tsc + vitest + validate script
+
+
+--------------------------------------------------------------------------------
+15. BUILD PHASES (do them in order; each has a "done when")
+--------------------------------------------------------------------------------
+PHASE 0 - Scaffold
+  Create the Vite React TS project with the layout in section 2, config.ts,
+  strings.he.ts, types.ts, lint/format/test tooling, .env.example.
+  DONE WHEN: `npm run dev` shows an RTL Hebrew placeholder page and
+  `npm test` runs.
+
+PHASE 1 - Core logic (no UI, no network)
+  Implement and fully test normalizeHe, search, compare, daily, share, stats.
+  Use a hand-written fixture of 12 fake artists for tests.
+  DONE WHEN: all unit tests pass.
+
+PHASE 2 - Data pipeline
+  Implement scripts 01-08 exactly as in sections 6-7 and 9. Start with the 62
+  seed names, then run the Wikidata stage-1 query to grow to 300+.
+  Respect every rate limit; cache raw responses.
+  DONE WHEN: src/data/artists.json + schedule.json are generated, the
+  validation script passes, and a review report lists what needs manual fixes.
+  Then STOP and hand data/overrides.json review to the owner (talent show,
+  regions, wrong genres) - do not invent manual data.
+
+PHASE 3 - UI
+  Build the components in section 10 against the real artists.json.
+  DONE WHEN: a full game can be played, won and lost, on mobile width.
+
+PHASE 4 - Daily mode, persistence, stats, share
+  Wire sections 9, 11 and 12. Add end dialog, countdown and stats dialog.
+  DONE WHEN: reloading mid-game restores state; a win updates streaks once.
+
+PHASE 5 - Polish and launch
+  Accessibility pass, colorblind mode, PWA manifest (optional), 404 page,
+  footer credits, deploy to a static host, set LAUNCH_DATE.
+  DONE WHEN: section 14 checklist is fully ticked.
+
+
+--------------------------------------------------------------------------------
+16. DEFAULTS FOR OPEN DECISIONS (change via DECISIONS.md)
+--------------------------------------------------------------------------------
+  - Game name: זמרדל (config constant)
+  - Guesses: 10
+  - Images / audio: off
+  - Backend: none for MVP; server-side validation is the v2 upgrade
+  - Analytics: none
+  - Hebrew only; strings centralized so another language can be added later
+  - Launch date: 2026-10-01
+  - Debut year source of truth: MusicBrainz begin date, overridable
+
+
+--------------------------------------------------------------------------------
+17. BACKLOG (after launch, not part of the MVP)
+--------------------------------------------------------------------------------
+  - Practice / unlimited mode with random answers
+  - Themed packs: 90s, מזרחית only, hip-hop, Eurovision acts
+  - Audio mode: guess from a 5-second clip (needs licensing review)
+  - Friends leaderboard, weekly summary
+  - Brackets-style voting feature (spotle.io has one) - only if there is demand
+  - Hard mode: hide the arrows or reduce guesses to 8
+================================================================================
+ END OF SPEC
+================================================================================
