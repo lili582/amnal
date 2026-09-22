@@ -13,8 +13,12 @@ export function tileValue(artist: Artist, field: TileField): string {
       if (artist.type === 'solo') return strings.lineupValues.solo
       if (artist.type === 'duo') return strings.lineupValues.duo
       return strings.lineupValues.band.replace('{n}', String(artist.members))
-    case 'gender':
-      return strings.genderValues[artist.gender]
+    case 'gender': {
+      // A solo artist is never 'mixed' (data also enforces it); keep a safe
+      // fallback so the word always renders instead of an empty tile.
+      const g = artist.type === 'solo' && artist.gender === 'mixed' ? 'male' : artist.gender
+      return strings.genderValues[g] ?? strings.genderValues.male
+    }
     case 'genre':
       return strings.genreValues[artist.primaryGenre] ?? strings.genreValues.other
     case 'popularity':

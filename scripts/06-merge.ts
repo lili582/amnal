@@ -130,7 +130,10 @@ export function run(): { artists: T.Artist[]; review: string[] } {
 
     // ---- gender ----
     let gender: T.Gender | undefined = ov.gender
-    if (!gender) gender = (m?.gender as T.Gender) || wdGender(w.gender)
+    if (!gender) {
+      const raw = (m?.gender as string | undefined) || wdGender(w.gender)
+      gender = (typeof raw === 'string' ? raw.toLowerCase() : raw) as T.Gender | undefined
+    }
     if (!gender && type === 'solo') {
       gender = 'male'
       review.push(`gender-defaulted-male: ${he}`)
@@ -138,6 +141,10 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     if (!gender && type !== 'solo') {
       gender = 'mixed'
       review.push(`gender-defaulted-mixed: ${he}`)
+    }
+    if (gender === 'mixed' && type === 'solo') {
+      gender = 'male'
+      review.push(`gender-solo-mixed-fixed: ${he}`)
     }
 
     // ---- debut year ----

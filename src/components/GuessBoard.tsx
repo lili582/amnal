@@ -68,7 +68,12 @@ export function GuessBoard({ guesses, artistsById, animate }: GuessBoardProps) {
           const isLast = ri === 0 // newest guess is at the top
           return (
             <li key={originalIdx} className={`guess-card${isLast ? ' fresh' : ''}`}>
-              <p className="guess-name">{artist.nameHe}</p>
+              <div className="guess-head">
+                <p className="guess-name">{artist.nameHe}</p>
+                {artist.nameEn && artist.nameEn !== artist.nameHe && (
+                  <p className="guess-sub">{artist.nameEn}</p>
+                )}
+              </div>
               <div className="tiles-grid">
                 {g.tiles.map((t, i) => (
                   <Tile

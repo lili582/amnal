@@ -296,9 +296,26 @@ body {
   background: var(--bg-elevated);
 }
 
-.guess-name {
+.guess-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
   margin: 0 2px 8px;
+}
+
+.guess-name {
+  margin: 0;
   font-weight: 700;
+}
+
+.guess-sub {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .tile {
@@ -317,9 +334,11 @@ body {
 
 .tile-value {
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.15;
+  font-size: 0.82rem;
   max-width: 100%;
   padding: 0 2px;
+  overflow-wrap: anywhere;
 }
 
 .tile-symbol {
