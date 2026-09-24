@@ -62,7 +62,10 @@ export function buildSchedule(ids: string[], seed: string): string[] {
 
 export function answerForDay(schedule: string[], dayNumber: number): string {
   if (schedule.length === 0) throw new Error('schedule is empty')
-  return schedule[dayNumber % schedule.length]
+  // Non-negative modulus: a day before launch (negative dayNumber) must still
+  // map into the schedule instead of producing an undefined array element.
+  const idx = ((dayNumber % schedule.length) + schedule.length) % schedule.length
+  return schedule[idx]
 }
 
 function toYmd(ms: number): string {

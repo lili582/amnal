@@ -79,6 +79,15 @@ describe('hashString / schedule', () => {
     // day 10 restarts the cycle
     expect(answerForDay(schedule, 10)).toBe(schedule[0])
   })
+
+  it('answerForDay handles days before launch (negative numbers)', () => {
+    const schedule = buildSchedule(Array.from({ length: 5 }, (_, i) => `a${i}`), 's')
+    // -1 -> last element, -2 -> second-to-last, etc. Never undefined.
+    expect(answerForDay(schedule, -1)).toBe(schedule[4])
+    expect(answerForDay(schedule, -2)).toBe(schedule[3])
+    expect(answerForDay(schedule, -6)).toBe(schedule[4]) // -6 % 5 === -1
+    expect(answerForDay(schedule, -6)).not.toBeUndefined()
+  })
 })
 
 describe('day arithmetic helpers', () => {

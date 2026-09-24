@@ -12,6 +12,7 @@ export function HelpModal({ onClose }: { onClose: () => void }) {
   return (
     <Modal title={strings.helpTitle} onClose={onClose}>
       <p>{strings.helpBody}</p>
+      <p className="pick-hint">{strings.pickFromList}</p>
       <h3>רמזים</h3>
       <ul className="legend-list">
         <li>

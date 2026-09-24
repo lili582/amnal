@@ -1,4 +1,5 @@
 import type { Artist, Match, TileResult } from '../types'
+import { artistAge } from './age'
 
 function yearTiles(
   guessValue: number,
@@ -58,7 +59,7 @@ function popularityTile(guess: Artist, target: Artist): TileResult {
 // decide a win; the win condition is guess.id === target.id.
 export function compareArtist(guess: Artist, target: Artist): TileResult[] {
   return [
-    yearTiles(guess.debutYear, target.debutYear, 'debutYear'),
+    yearTiles(artistAge(guess), artistAge(target), 'debutYear'),
     yearTiles(guess.breakthroughYear, target.breakthroughYear, 'breakthrough'),
     lineupTile(guess, target),
     genderTile(guess, target),

@@ -29,7 +29,7 @@ export const strings = {
   arrowUp: 'הערך האמיתי גבוה יותר',
   arrowDown: 'הערך האמיתי נמוך יותר',
   columns: {
-    debutYear: 'שנת הופעה ראשונה',
+    debutYear: 'גיל',
     breakthrough: 'שנת פריצה',
     lineup: 'הרכב',
     gender: 'מגדר',

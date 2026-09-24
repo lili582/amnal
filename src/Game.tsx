@@ -26,6 +26,7 @@ export function Game({ data, source }: GameProps) {
   const game = useGame(data)
   const [settings, setSettings] = useState<Settings>(() => loadSettings())
   const [modal, setModal] = useState<'help' | 'stats' | 'settings' | null>(null)
+  const [endOpen, setEndOpen] = useState(false)
 
   const index = useMemo(() => buildSearchIndex(data.artists), [data])
 
@@ -36,6 +37,12 @@ export function Game({ data, source }: GameProps) {
   }, [settings])
 
   const finished = game.status !== 'playing'
+
+  // The win/lose dialog opens when the round ends and stays open until the
+  // player dismisses it (its close button must actually work).
+  useEffect(() => {
+    if (finished) setEndOpen(true)
+  }, [finished])
 
   return (
     <main className="game">
@@ -70,7 +77,6 @@ export function Game({ data, source }: GameProps) {
         disabled={finished}
         placeholder={strings.placeholder}
         notFoundText={strings.notFound}
-        pickHint={strings.pickFromList}
         onPick={game.submitGuess}
       />
 
@@ -103,7 +109,7 @@ export function Game({ data, source }: GameProps) {
         </>
       )}
 
-      {finished && game.target && (
+      {endOpen && game.target && (
         <EndModal
           status={game.status === 'playing' ? 'lost' : game.status}
           name={game.target.nameHe}
@@ -111,7 +117,7 @@ export function Game({ data, source }: GameProps) {
           guessesUsed={game.guesses.length}
           maxGuesses={game.maxGuesses}
           rows={game.shareRows}
-          onClose={() => setModal(null)}
+          onClose={() => setEndOpen(false)}
         />
       )}
 

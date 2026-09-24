@@ -147,10 +147,15 @@ body {
 
 .search-box {
   margin-top: 10px;
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
 }
 
 .combo {
   position: relative;
+  flex: 1;
+  min-width: 0;
 }
 
 .combo-input {
@@ -168,6 +173,35 @@ body {
 
 .combo-input:focus {
   border-color: var(--green-bright);
+}
+
+.submit-btn {
+  flex-shrink: 0;
+  min-height: 48px;
+  padding: 10px 18px;
+  border: 1px solid var(--green-bright);
+  border-radius: var(--radius);
+  background: var(--green-bright);
+  color: #fff;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: filter 0.15s ease, background-color 0.15s ease;
+}
+
+.submit-btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+.submit-btn:active:not(:disabled) {
+  filter: brightness(0.95);
+  transform: translateY(1px);
+}
+
+.submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .combo-list {

@@ -4,6 +4,52 @@ Generated for 348 artists.
 
 ## Flags (from pipeline + validate)
 
+### birthYear-missing (43)
+
+- [ ] birthYear-missing: הדג נחש
+- [ ] birthYear-missing: כוורת
+- [ ] birthYear-missing: משינה
+- [ ] birthYear-missing: אתניקס
+- [ ] birthYear-missing: מוניקה סקס
+- [ ] birthYear-missing: בלקן ביט בוקס
+- [ ] birthYear-missing: אינפקטד מאשרום
+- [ ] birthYear-missing: אה-ווה
+- [ ] birthYear-missing: טיפקס
+- [ ] birthYear-missing: סטטיק ובן אל
+- [ ] birthYear-missing: הפרויקט של עידן רייכל
+- [ ] birthYear-missing: אוסנת אלכביר
+- [ ] birthYear-missing: ויקטוריה חנה
+- [ ] birthYear-missing: לייב גלנץ
+- [ ] birthYear-missing: חלב ודבש
+- [ ] birthYear-missing: אורפנד לנד
+- [ ] birthYear-missing: אלפא-ביתא
+- [ ] birthYear-missing: מלכאש
+- [ ] birthYear-missing: אסטרל פרוג'קשן
+- [ ] birthYear-missing: דאם
+- [ ] birthYear-missing: שוקולד מנטה מסטיק
+- [ ] birthYear-missing: הכל עובר חביבי
+- [ ] birthYear-missing: עדן
+- [ ] birthYear-missing: ווקה פיפל
+- [ ] birthYear-missing: סקאזי
+- [ ] birthYear-missing: פינג פונג
+- [ ] birthYear-missing: יוסלס איי.די
+- [ ] birthYear-missing: Salem
+- [ ] birthYear-missing: Vini Vici
+- [ ] birthYear-missing: להקת שירו
+- [ ] birthYear-missing: גילי וגלית
+- [ ] birthYear-missing: הבטלנים
+- [ ] birthYear-missing: חלאס
+- [ ] birthYear-missing: הצ'רצ'ילים
+- [ ] birthYear-missing: עם הספר
+- [ ] birthYear-missing: הבנות נחמה
+- [ ] birthYear-missing: דיסטורטד
+- [ ] birthYear-missing: Desert
+- [ ] birthYear-missing: להבות
+- [ ] birthYear-missing: הזאבות
+- [ ] birthYear-missing: דף צ'ונקי
+- [ ] birthYear-missing: שוטי הנבואה
+- [ ] birthYear-missing: Gevolt
+
 ### breakthrough-defaulted (348)
 
 - [ ] breakthrough-defaulted: עומר אדם (now 1993)

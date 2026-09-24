@@ -23,8 +23,9 @@ function artist(partial: Partial<Artist>): Artist {
 }
 
 describe('tileValue', () => {
-  it('debut/breakthrough render as plain years', () => {
-    expect(tileValue(artist({ debutYear: 1990 }), 'debutYear')).toBe('1990')
+  it('debut renders as age (ref year - birth), breakthrough as a year', () => {
+    expect(tileValue(artist({ birthYear: 1980 }), 'debutYear', 2026)).toBe('46')
+    expect(tileValue(artist({ debutYear: 1990 }), 'debutYear', 2026)).toBe('36')
     expect(tileValue(artist({ breakthroughYear: 1991 }), 'breakthrough')).toBe('1991')
   })
 

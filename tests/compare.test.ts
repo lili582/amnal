@@ -31,13 +31,13 @@ describe('compareArtist', () => {
       const g = { ...target, id: 'x', nameHe: 'x', debutYear: 2013 } as typeof target
       const t = compareArtist(g, target)[0]
       expect(t.match).toBe('close')
-      expect(t.arrow).toBe('down') // target 2010 is earlier than guess 2013
+      expect(t.arrow).toBe('up') // target (born 2010) is older than guess (born 2013)
     })
     it('far apart is wrong with a direction arrow', () => {
       const g = { ...target, id: 'x', nameHe: 'x', debutYear: 1990 } as typeof target
       const t = compareArtist(g, target)[0]
       expect(t.match).toBe('wrong')
-      expect(t.arrow).toBe('up') // target 2010 is later than guess 1990
+      expect(t.arrow).toBe('down') // target (born 2010) is younger than guess (born 1990)
     })
   })
 

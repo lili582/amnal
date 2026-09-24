@@ -52,6 +52,14 @@ export function run(): { artists: Artist[]; hard: string[]; warns: string[] } {
   const eligible = artists.filter((a) => a.answerEligible).length
   check(eligible >= 150, `answerEligible count ${eligible} < 150`, false)
 
+  const schedulePath = resolve(ROOT, 'public/data/schedule.json')
+  if (existsSync(schedulePath)) {
+    const schedule = JSON.parse(readFileSync(schedulePath, 'utf8')) as string[]
+    const eligibleIds = new Set(artists.filter((a) => a.answerEligible).map((a) => a.id))
+    check(new Set(schedule).size === schedule.length, `schedule has ${schedule.length - new Set(schedule).size} duplicate(s)`, true)
+    check(schedule.every((id) => eligibleIds.has(id)), `schedule contains ids not flagged answerEligible`, true)
+  }
+
   // Merge the pipeline review report from 06 (if present).
   const reviewLines: string[] = []
   const reviewPath = resolve(ROOT, 'data/raw/review.json')

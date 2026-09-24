@@ -24,6 +24,7 @@ interface Override {
   region?: T.Region
   breakthroughYear?: number
   debutYear?: number
+  birthYear?: number
   type?: T.ArtistType
   members?: number
   gender?: T.Gender
@@ -154,6 +155,12 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       review.push(`debutYear-missing: ${he}`)
     }
 
+    // ---- birth year ----
+    const birthYear = ov.birthYear ?? (w.birth ? Number(w.birth) : undefined)
+    if (!birthYear || birthYear < 1900 || birthYear > new Date().getFullYear()) {
+      review.push(`birthYear-missing: ${he}`)
+    }
+
     // ---- breakthrough year (defaults to debut; flagged) ----
     const breakthroughYear = ov.breakthroughYear ?? debutYear
     if (ov.breakthroughYear === undefined) {
@@ -222,6 +229,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       nameEn: en,
       aliases: [...aliases].slice(0, 12),
       debutYear,
+      birthYear: birthYear && birthYear >= 1900 && birthYear <= new Date().getFullYear() ? birthYear : undefined,
       breakthroughYear,
       type: type ?? 'solo',
       members,

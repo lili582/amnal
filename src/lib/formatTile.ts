@@ -1,12 +1,13 @@
 import type { Artist, TileField } from '../types'
 import { strings } from '../strings.he'
+import { artistAge } from './age'
 
 // Display text for a tile's value (pure; kept out of the component file so
 // fast-refresh can hot-reload components safely).
-export function tileValue(artist: Artist, field: TileField): string {
+export function tileValue(artist: Artist, field: TileField, refYear = new Date().getFullYear()): string {
   switch (field) {
     case 'debutYear':
-      return String(artist.debutYear)
+      return String(artistAge(artist, refYear))
     case 'breakthrough':
       return String(artist.breakthroughYear)
     case 'lineup':

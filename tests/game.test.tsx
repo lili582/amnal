@@ -4,6 +4,8 @@ import { createRoot, type Root } from 'react-dom/client'
 import type { Artist } from '../src/types'
 import type { GameData } from '../src/lib/dataLoader'
 import { useGame } from '../src/hooks/useGame'
+import { Game } from '../src/Game'
+import { strings } from '../src/strings.he'
 import { loadStats, saveStats, emptyStats } from '../src/lib/storage'
 
 function artist(id: string, nameHe: string): Artist {
@@ -118,8 +120,36 @@ it('guessing a wrong artist keeps the game playing and survives a reload', () =>
     const targetId = makeData().schedule[0]
     click(container, `guess-${targetId}`)
     click(container, `guess-${targetId}`)
-    expect(loadStats().played).toBe(1)
+expect(loadStats().played).toBe(1)
     expect(container.querySelector('[data-count]')?.getAttribute('data-count')).toBe('1')
+    tearDown(root, container)
+  })
+
+  it('the win dialog close button dismisses the end modal', () => {
+    const { container, root } = setup()
+    act(() => root.render(<Game data={makeData()} source="network" />))
+
+    const input = container.querySelector('input.combo-input') as HTMLInputElement
+    act(() => {
+      const setter = Object.getOwnPropertyDescriptor(
+        window.HTMLInputElement.prototype,
+        'value',
+      )!.set!
+      setter.call(input, ART_A.nameHe)
+      input.dispatchEvent(new Event('input', { bubbles: true }))
+    })
+    expect(container.querySelector<HTMLElement>('li.combo-option')).not.toBeNull()
+    act(() => {
+      input.dispatchEvent(new KeyboardEvent('keydown', { key: 'Enter', bubbles: true }))
+    })
+    const dialog = container.querySelector('.modal')
+    expect(dialog).not.toBeNull()
+    expect(dialog?.textContent).toContain(strings.winShort)
+
+    const close = container.querySelector<HTMLButtonElement>(`button[aria-label="${strings.close}"]`)
+    expect(close).not.toBeNull()
+    act(() => close?.click())
+    expect(container.querySelector('.modal')).toBeNull()
     tearDown(root, container)
   })
 })

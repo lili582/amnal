@@ -11,7 +11,6 @@ interface Props {
   disabled: boolean
   placeholder: string
   notFoundText: string
-  pickHint: string
   onPick: (artist: Artist) => void
 }
 
@@ -39,7 +38,6 @@ export function SearchBox({
   disabled,
   placeholder,
   notFoundText,
-  pickHint,
   onPick,
 }: Props) {
   const [query, setQuery] = useState('')
@@ -155,7 +153,6 @@ export function SearchBox({
       >
         {strings.submit}
       </button>
-      <p className="pick-hint">{pickHint}</p>
       {error && <p className="notice error" role="alert">{error}</p>}
     </div>
   )

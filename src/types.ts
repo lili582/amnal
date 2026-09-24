@@ -32,6 +32,7 @@ export interface Artist {
   nameEn?: string // e.g. "Omer Adam"
   aliases: string[] // extra searchable names (he + en + nicknames)
   debutYear: number // first release / formation year
+  birthYear?: number // birth year (solo/duo); used for the age tile
   breakthroughYear: number // year the artist first broke through with a hit
   type: ArtistType
   members: number // 1 for solo, 2 for duo, N for band
