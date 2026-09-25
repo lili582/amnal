@@ -1,5 +1,5 @@
 // Central app configuration. Rename the game here only.
-export const GAME_NAME = 'אמנל'
+export const GAME_NAME = 'אמנדל'
 export const GAME_URL = 'https://lili582.github.io/amnal/'
 // Owner's inbox for data corrections (mailto in the footer and end dialog).
 export const REPORT_EMAIL = 'owner@example.com' // TODO: set before launch

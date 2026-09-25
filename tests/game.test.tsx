@@ -27,8 +27,8 @@ function artist(id: string, nameHe: string): Artist {
   } as Artist
 }
 
-const ART_A = artist('a', '××ž×Ÿ ×')
-const ART_B = artist('b', '××ž×Ÿ ×‘')
+const ART_A = artist('a', 'אמן א')
+const ART_B = artist('b', 'אמן ב')
 
 function makeData(): GameData {
   return { artists: [ART_A, ART_B], schedule: ['a', 'b'] }
@@ -145,6 +145,9 @@ expect(loadStats().played).toBe(1)
     const dialog = container.querySelector('.modal')
     expect(dialog).not.toBeNull()
     expect(dialog?.textContent).toContain(strings.winShort)
+    // The reveal card shows the target artist after the round ends.
+    expect(dialog?.querySelector('.reveal-name')?.textContent).toBe(ART_A.nameHe)
+    expect(dialog?.querySelector('.end-headline')?.textContent).toContain(ART_A.nameHe)
 
     const close = container.querySelector<HTMLButtonElement>(`button[aria-label="${strings.close}"]`)
     expect(close).not.toBeNull()

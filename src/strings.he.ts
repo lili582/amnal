@@ -3,7 +3,7 @@
 // NOTE: Hebrew geresh/apostrophe uses U+05F3 (׳), never ASCII '.
 
 export const strings = {
-  title: 'אמנל',
+  title: 'אמנדל',
   subtitle: 'נחשו את האמן הישראלי היומי',
   guessCounter: 'ניחוש {n} מתוך {max}',
   placeholder: 'הקלידו שם של אמן או להקה...',
@@ -89,6 +89,13 @@ export const strings = {
   colorblind: 'מצב עיוורי צבעים',
   shareTitle: 'שתפו את התוצאה',
   pickFromList: 'בחרו מהרשימה או לחצו Enter',
+  revealCardTitle: 'האמן של היום',
+  revealPictureAlt: 'תמונה של {name}',
+  revealHitLabel: 'הלהיט הגדול',
+  revealListen: 'האזינו ב-SoundCloud',
+  revealNoSound: 'השיר זמין ב-SoundCloud',
+  revealSearch: 'חיפוש ב-SoundCloud',
+  revealNoPicture: 'אין תמונה זמינה',
 } as const
 
 export type Strings = typeof strings

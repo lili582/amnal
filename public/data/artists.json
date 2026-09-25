@@ -17,6 +17,10 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "תרחמי עליי"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Omer%20Adam%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2918713",
       "musicbrainz": "06dd06a8-5915-4b23-8cd6-d52b74232e6f",
@@ -49,6 +53,10 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "מלכת הרחבה"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eyal%20Golan%201%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q1382405",
       "musicbrainz": "1bac0f84-77e7-4884-a9ae-122a90582da0",
@@ -78,6 +86,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moshe%20peretz%20singer%20efi%20e%2006-2010.jpg?width=320",
     "ids": {
       "wikidata": "Q2902995",
       "musicbrainz": "a0524708-2a9c-4476-9b44-66cc7c736f17",
@@ -109,6 +118,10 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "נגיע"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shlomo%20Artzi%20at%20Caesarea.jpg?width=320",
     "ids": {
       "wikidata": "Q966848",
       "musicbrainz": "88f93eab-1bbb-4b02-816b-539af9ba8d4f",
@@ -138,6 +151,10 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "עץ השדה"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arik%20Einstein.jpg?width=320",
     "ids": {
       "wikidata": "Q509660",
       "musicbrainz": "d3c90d1b-f529-404b-939d-41873386d4b4",
@@ -169,6 +186,10 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "שירת הסטיקר"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aviv%20Geffen%201.jpg?width=320",
     "ids": {
       "wikidata": "Q733103",
       "musicbrainz": "3f1f9c33-b86e-44e1-a332-b215456d279c",
@@ -201,6 +222,10 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "ממעמקים"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Idan%20Raichel%204.jpg?width=320",
     "ids": {
       "wikidata": "Q1772804",
       "musicbrainz": "48b69932-5352-4b2e-9847-b15ec8736d1e"
@@ -230,6 +255,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rami%20Kleinstein.jpg?width=320",
     "ids": {
       "wikidata": "Q2688195",
       "musicbrainz": "96e477e7-b816-4980-a42d-93d59b19901b",
@@ -259,6 +285,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A2%D7%91%D7%A8%D7%99%20%D7%9C%D7%99%D7%93%D7%A8.jpg?width=320",
     "ids": {
       "wikidata": "Q716158",
       "musicbrainz": "e63b8019-5fd8-460d-8d82-58af4fb9b9b0",
@@ -290,6 +317,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ehud%20Banai%20performing%20at%20Zappa.jpg?width=320",
     "ids": {
       "wikidata": "Q5348678",
       "musicbrainz": "5f52ab16-e6d1-44e4-8de1-65d140410ebf",
@@ -321,6 +349,7 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eviatar%20Banai2.jpg?width=320",
     "ids": {
       "wikidata": "Q5418308",
       "musicbrainz": "f0bdaa19-6f9f-42f3-b392-7782b24725b5",
@@ -352,6 +381,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Berry%20Sakharof%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2910279",
       "musicbrainz": "01f94ec3-536a-4461-9621-82628247cd06",
@@ -383,6 +413,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matti%20Caspi%20portrait.jpg?width=320",
     "ids": {
       "wikidata": "Q2910872",
       "musicbrainz": "606d3e5a-cbaa-4199-b2fd-88951e07d523",
@@ -414,6 +445,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Shalom%20Hanoch%20performing%20at%20a%20rock%20festival%20in%20the%20Red%20Sea.jpg?width=320",
     "ids": {
       "wikidata": "Q2436563",
       "musicbrainz": "5dfde28d-8e46-43f8-bb33-2f593ee8c9f1",
@@ -443,6 +475,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Actor-Singer%20Yehoram%20Gaon.jpg?width=320",
     "ids": {
       "wikidata": "Q2091045",
       "musicbrainz": "67025659-1206-4d8f-aaf2-36df95c73a6a",
@@ -472,6 +505,10 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "הפרח בגני"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zohar%20Argov.png?width=320",
     "ids": {
       "wikidata": "Q258991",
       "musicbrainz": "b7790a1d-de3d-4823-a64c-c0f9ceb15f38",
@@ -501,6 +538,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Haim%20Moshe.JPG?width=320",
     "ids": {
       "wikidata": "Q1569294",
       "musicbrainz": "d2269ed4-5496-4077-b595-33aa24a60282",
@@ -530,6 +568,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shlomi%20Shabbat.jpg?width=320",
     "ids": {
       "wikidata": "Q349662",
       "musicbrainz": "033255b5-77da-4560-93ae-49a55cea2f41",
@@ -559,6 +598,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dudu%20Aharon.jpg?width=320",
     "ids": {
       "wikidata": "Q5312086",
       "musicbrainz": "ff8d9541-4268-4127-bfa7-00d630971960",
@@ -588,6 +628,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ofer%20Levy%201.jpg?width=320",
     "ids": {
       "wikidata": "Q16133125",
       "musicbrainz": "395440e3-da84-406b-aac3-d009012d336f",
@@ -619,6 +660,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Assaf%20Amdursky%201.jpg?width=320",
     "ids": {
       "wikidata": "Q4808345",
       "musicbrainz": "cb9aca05-9cdc-4500-bfbf-338920ea2c36",
@@ -651,6 +693,10 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "Reckoning Song"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20170708-Rudolstadt-Festival-Asaf-Avidan-7050.jpg?width=320",
     "ids": {
       "wikidata": "Q259788",
       "musicbrainz": "5b9890b9-a2e8-4768-ad70-9f28bb81fc00",
@@ -680,6 +726,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dudutasa2017.jpg?width=320",
     "ids": {
       "wikidata": "Q12405747",
       "musicbrainz": "feeb07b4-4cfd-4c47-b985-dc864805f84d",
@@ -709,6 +756,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20aktivioslo%20-%20Harel%20Skaat%20-%20Israel%20(2)%20cropped.jpg?width=320",
     "ids": {
       "wikidata": "Q276295",
       "musicbrainz": "d668af2b-e35c-48d6-ab38-cba591747e6e",
@@ -738,6 +786,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20Broza%202009-08-05%20005.jpg?width=320",
     "ids": {
       "wikidata": "Q731076",
       "musicbrainz": "2077bf4d-9bf2-43ac-8c9d-d3eec73e3b30",
@@ -767,6 +816,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shlomo%20Gronich%20at%20Jems%20December%202010.jpg?width=320",
     "ids": {
       "wikidata": "Q7499585",
       "musicbrainz": "32b29b99-38fb-4f6f-ade3-b9c3a3eb320a",
@@ -796,6 +846,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yishai%20Ribu.jpg?width=320",
     "ids": {
       "wikidata": "Q18147844",
       "musicbrainz": "4d5abad8-d57b-4c3f-b477-043214e96dc4",
@@ -856,6 +907,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A4%D7%9C%D7%93%20AKA%20Pila%20p.jpg?width=320",
     "ids": {
       "wikidata": "Q25497019",
       "musicbrainz": "2178d2bb-423d-4ee8-8f64-0f8d978596da",
@@ -885,6 +937,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Subliminal%20star%20of%20david.jpg?width=320",
     "ids": {
       "wikidata": "Q657013",
       "musicbrainz": "5b30fd00-8b38-4fe1-8356-6f4223ea43cb",
@@ -914,6 +967,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarit%20Hadad%20(cropped1).jpg?width=320",
     "ids": {
       "wikidata": "Q466767",
       "musicbrainz": "bf77650a-a5c6-462d-8a29-b6381464ad09",
@@ -944,6 +998,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1%20Noa%20Kirel%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q43139030",
       "musicbrainz": "76a3b9fc-ebb1-44a7-86fc-aca8650320c2",
@@ -973,6 +1028,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20Ben%20Zaken%202.jpg?width=320",
     "ids": {
       "wikidata": "Q28053146",
       "musicbrainz": "88665542-c858-4ffd-b211-c8bfd86abba3",
@@ -1002,6 +1058,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20hason.jpg?width=320",
     "ids": {
       "wikidata": "Q57261031",
       "musicbrainz": "94d92992-76d3-4125-8f99-c2c118db697d",
@@ -1033,6 +1090,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ColognePride%202018-Sonntag-Hauptb%C3%BChne-2130-Netta%20Barzilai-9395%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q48654131",
       "musicbrainz": "6806600b-f824-4874-b574-f7b9a3e6cd3d",
@@ -1062,6 +1120,7 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ninet%20Tayeb%20-%20February%202017%20-%203.jpg?width=320",
     "ids": {
       "wikidata": "Q444518",
       "musicbrainz": "cd2459b6-9f9c-4abd-855d-eabbe175fbb2",
@@ -1093,6 +1152,10 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "דיווה"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dana%20International%20(cropped).png?width=320",
     "ids": {
       "wikidata": "Q201204",
       "musicbrainz": "f92469be-f755-433a-be19-8bd0c9040e5a",
@@ -1124,6 +1187,7 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yehudit%20Ravitz%201997%20cropped.jpg?width=320",
     "ids": {
       "wikidata": "Q545752",
       "musicbrainz": "10385cb9-e45f-4c18-b03e-190c94f5f305",
@@ -1153,6 +1217,10 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "לונדון"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chava%20Alberstein%20tight%20composition.jpg?width=320",
     "ids": {
       "wikidata": "Q266555",
       "musicbrainz": "b6f36ff7-d252-498f-99b4-1937b00b386c",
@@ -1182,6 +1250,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilanit%202024.jpg?width=320",
     "ids": {
       "wikidata": "Q274743",
       "musicbrainz": "7cd7c71d-8890-40d3-a5d1-c0282180389c",
@@ -1211,6 +1280,10 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "עטוף ברחמים"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rita%20Yahan%20Farouz%201.jpg?width=320",
     "ids": {
       "wikidata": "Q298205",
       "musicbrainz": "aa681087-e34a-471e-a6d4-d4fe85a7c303"
@@ -1240,6 +1313,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yardena%20Arazi.jpg?width=320",
     "ids": {
       "wikidata": "Q266563",
       "musicbrainz": "05bafd96-ada9-43b0-a328-50d96fcbea22",
@@ -1272,6 +1346,10 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "אם ננעלו"
+    },
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ofra%20Haza%201987.jpg?width=320",
     "ids": {
       "wikidata": "Q111087",
       "musicbrainz": "7591796a-a545-4b51-ba52-bf2539b90d99",
@@ -1302,6 +1380,7 @@
     "popularityTier": 4,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zehava%20Ben%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2920291",
       "musicbrainz": "bb4f3a1b-ab07-43ed-9339-06ce0435c3bd",
@@ -1331,6 +1410,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20International%20Eurovision%20contest%20for%201979%20was%20held%20in%20Jerusalem%20(FL45813680).jpg?width=320",
     "ids": {
       "wikidata": "Q231654",
       "musicbrainz": "d352aa74-3c8c-4a5c-9d17-63abe4149119",
@@ -1362,6 +1442,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noga%20Erez.jpg?width=320",
     "ids": {
       "wikidata": "Q40856678",
       "musicbrainz": "06479724-ee7d-471e-a3d4-4554330a0293",
@@ -1391,6 +1472,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ester%20Rada%201.jpg?width=320",
     "ids": {
       "wikidata": "Q6899049",
       "musicbrainz": "38d6b5cc-8166-4a7c-b85f-eb2116ef7258",
@@ -1422,6 +1504,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yael%20Naim%202016.jpg?width=320",
     "ids": {
       "wikidata": "Q464138",
       "musicbrainz": "def226b0-7990-4b38-ab1a-7740461844dc",
@@ -1454,6 +1537,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noa%20(2012).jpg?width=320",
     "ids": {
       "wikidata": "Q340527",
       "musicbrainz": "8c4ade2f-1b8e-4b87-a719-6a84c4eb1cd8"
@@ -1481,6 +1565,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A0%D7%A1%D7%A8%D7%99%D7%9F.jpeg?width=320",
     "ids": {
       "wikidata": "Q19894291",
       "musicbrainz": "f124b70a-1db2-4cef-ab68-d5dd3bdda4ac",
@@ -1510,6 +1595,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Karolina%20percussion.jpg?width=320",
     "ids": {
       "wikidata": "Q6373161",
       "musicbrainz": "cb11722e-e97a-451c-8868-82ca27235e16",
@@ -1538,6 +1624,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hadag%20Nahash%202011%20Beersheba%20325.jpg?width=320",
     "ids": {
       "wikidata": "Q1567327",
       "musicbrainz": "4f4563ac-c437-4bd7-8b93-539121efd071",
@@ -1594,6 +1681,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mashinaisraelat60.jpg?width=320",
     "ids": {
       "wikidata": "Q2623076",
       "musicbrainz": "a174c5e9-de6a-4ba7-bb0e-d1395257c175",
@@ -1622,6 +1710,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ethnix2012-2.jpg?width=320",
     "ids": {
       "wikidata": "Q5404343",
       "musicbrainz": "38439dca-6b97-41a0-9516-b99108f455e0",
@@ -1650,6 +1739,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monica%20Sex%20-----%20February%202024.jpg?width=320",
     "ids": {
       "wikidata": "Q753055",
       "musicbrainz": "9de40d5c-b93b-49a9-921f-0edbf65d6b16",
@@ -1678,6 +1768,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Balkan%20Beat%20Box-3.jpg?width=320",
     "ids": {
       "wikidata": "Q805038",
       "musicbrainz": "aaaca27e-cbb4-42d8-91be-57e902120817",
@@ -1706,6 +1797,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/InfectedMushroom02.jpg?width=320",
     "ids": {
       "wikidata": "Q548994",
       "musicbrainz": "eab76c9f-ff91-4431-b6dd-3b976c598020",
@@ -1734,6 +1826,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A-Wa%2000780%20Musiques%20d'ici%20et%20d'ailleurs.jpg?width=320",
     "ids": {
       "wikidata": "Q21844934",
       "musicbrainz": "cc448b70-4c20-4ea4-a818-053494aee734",
@@ -1762,6 +1855,7 @@
     "popularityTier": 4,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Teapacks%20Eurovision%202007.jpg?width=320",
     "ids": {
       "wikidata": "Q597761",
       "musicbrainz": "97004089-62eb-45de-a6ea-fa2bf9a2e6ff",
@@ -1790,6 +1884,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Static%20%26%20Ben%20El%20Tavori%20by%20Moshe%20Nachumovich.jpg?width=320",
     "ids": {
       "wikidata": "Q46247565",
       "musicbrainz": "70a7cf13-8434-47ab-a030-270017c4c084"
@@ -1845,6 +1940,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaim%20Topol%20(1971).jpg?width=320",
     "ids": {
       "wikidata": "Q319133",
       "musicbrainz": "e23e3e0e-7327-48ce-96a3-481896b26ca1",
@@ -1874,6 +1970,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20Golan%2C%20Eurovision%202024%20final%20rehearsal%2010.jpg?width=320",
     "ids": {
       "wikidata": "Q81436819",
       "musicbrainz": "86a4c009-aee7-47bb-b1cf-a8db9d216916",
@@ -1903,6 +2000,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Hadani%20collection%20(990040381640205171).jpg?width=320",
     "ids": {
       "wikidata": "Q460148",
       "musicbrainz": "124fa000-44ae-4171-bbd0-c5d000a616a6",
@@ -1932,6 +2030,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Haddad%202016.jpg?width=320",
     "ids": {
       "wikidata": "Q16887680",
       "musicbrainz": "0e455850-74bd-4129-b95e-80c30b0d3297",
@@ -1961,6 +2060,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mira%20awad.jpg?width=320",
     "ids": {
       "wikidata": "Q236056",
       "musicbrainz": "6424c7d2-95bb-48d2-b0e8-bd6d76ff1a78",
@@ -1990,6 +2090,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%98%D0%B2%D0%B0%D0%BD%20%D0%A3%D1%80%D0%B3%D0%B0%D0%BD%D1%82%20(3)%20%D0%BD%D0%B0%20%D0%90%D0%BB%D1%8B%D1%85%20%D0%BF%D0%B0%D1%80%D1%83%D1%81%D0%B0%D1%85%202018%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q442830",
       "musicbrainz": "c43e03a3-029f-4f88-9a34-ce40dd4d8d09"
@@ -2017,6 +2118,7 @@
     "popularityTier": 2,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20Alene%20by%20Moshe%20Nachumovich%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q64775156",
       "musicbrainz": "1be7cde4-8c97-4a83-8a85-5fd251da4be8",
@@ -2046,6 +2148,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%99%D7%95%D7%91%D7%9C%20%D7%A8%D7%A4%D7%90%D7%9C%20%E2%80%93%20%D7%AA%D7%9E%D7%95%D7%A0%D7%AA%20%D7%99%D7%97%D7%B4%D7%A6%20%D7%94%D7%9B%D7%95%D7%9B%D7%91%20%D7%94%D7%91%D7%90%20(headshot).jpeg?width=320",
     "ids": {
       "wikidata": "Q131856689",
       "musicbrainz": "1a9eebf6-163f-49a9-92e0-cf2aef80f738",
@@ -2075,6 +2178,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiri%20Maimon.jpg?width=320",
     "ids": {
       "wikidata": "Q266578",
       "musicbrainz": "f51f06d9-450a-4633-9ca0-a438754d812b",
@@ -2104,6 +2208,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrey%20Makarevich%20Hockenheim%20-%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2227698",
       "musicbrainz": "2619c907-4ae9-4c98-b464-31d7cb71f54f",
@@ -2133,6 +2238,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Theodore%20Bikel%20(4133239868%2024c25ac837%20z)%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q215721",
       "musicbrainz": "5451792e-a144-452a-b82e-a8a33cc4b57d",
@@ -2162,6 +2268,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mei%20Feingold%202014%20(facecrop).jpg?width=320",
     "ids": {
       "wikidata": "Q6809922",
       "musicbrainz": "b30079f6-123a-4c23-82b5-b7f00bb32ab3",
@@ -2191,6 +2298,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Boaz%20Mauda.jpg?width=320",
     "ids": {
       "wikidata": "Q319142",
       "musicbrainz": "c9c70029-be44-422c-ad6a-01fe5de04748",
@@ -2220,6 +2328,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Inbar%20Lavi%20en%202022.jpg?width=320",
     "ids": {
       "wikidata": "Q13560257",
       "deezer": 135226832
@@ -2248,6 +2357,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ESC2013%20-%20Israel%2002%20(crop).jpg?width=320",
     "ids": {
       "wikidata": "Q6495231",
       "musicbrainz": "3aa69a0f-ba79-47c1-947d-f4134af9e26a",
@@ -2277,6 +2387,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Imri%20Ziv%20Red%20Carpet%20Kyiv%202017.jpg?width=320",
     "ids": {
       "wikidata": "Q28768280",
       "musicbrainz": "35e522a0-e972-410f-a66c-f794b252effd"
@@ -2305,6 +2416,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20150514%20ESC%202015%20Nadav%20Guedj%205565.jpg?width=320",
     "ids": {
       "wikidata": "Q19302320",
       "musicbrainz": "c5ca85f9-da3a-49fd-81af-44dad615f603",
@@ -2334,6 +2446,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noam%20Bettan%201.jpg?width=320",
     "ids": {
       "wikidata": "Q117355818",
       "musicbrainz": "75606893-454b-419f-8493-8b61d536ba71",
@@ -2363,6 +2476,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Odeya%20Rush%20-%20Corporate%20Retreat%20-%20LA%20Premiere-1.jpg?width=320",
     "ids": {
       "wikidata": "Q3647258",
       "deezer": 401384951
@@ -2391,6 +2505,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%97%D7%95%D7%91%D7%99%20%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94%20%D7%A4%D7%99%D7%A7%D7%A1.jpg?width=320",
     "ids": {
       "wikidata": "Q23000844",
       "musicbrainz": "db0aa171-e62c-4289-ac57-62a4df81c351",
@@ -2420,6 +2535,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ESC2019%20-%20Israel%2002.jpg?width=320",
     "ids": {
       "wikidata": "Q61711466",
       "musicbrainz": "10cec3ac-3803-45bd-a0e3-4c865c8394bd",
@@ -2449,6 +2565,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Ben%20David.jpg?width=320",
     "ids": {
       "wikidata": "Q110822290",
       "musicbrainz": "c8b022c8-4089-4817-9841-e5db2b7dc313",
@@ -2480,6 +2597,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naomi%20Shemer%20D507-159%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q238719",
       "musicbrainz": "40a0a2c6-4a92-4442-b16e-1750111818b2",
@@ -2509,6 +2627,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alona%20Tal%20-%20Cross.jpg?width=320",
     "ids": {
       "wikidata": "Q263433",
       "deezer": 4907703
@@ -2537,6 +2656,7 @@
     "popularityTier": 4,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jaffa%20third.jpg?width=320",
     "ids": {
       "wikidata": "Q455824",
       "deezer": 157308352
@@ -2565,6 +2685,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ofarim%20Esther%2066.jpg?width=320",
     "ids": {
       "wikidata": "Q270374",
       "musicbrainz": "8408d6b8-f124-46f4-9cb5-c37e03a6e08a",
@@ -2594,6 +2715,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DaliahLavi%20Gewandhaus%20Leipzig%20March%208th%2C%202009.jpg?width=320",
     "ids": {
       "wikidata": "Q274158",
       "musicbrainz": "19faa9e3-6976-4baa-8e1a-db5212b18c2c",
@@ -2623,6 +2745,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shoshana%20Damari%20-%201973.jpg?width=320",
     "ids": {
       "wikidata": "Q2360762",
       "musicbrainz": "72495349-71ef-4714-b382-d6764a9c5666",
@@ -2652,6 +2775,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kerenann.jpg?width=320",
     "ids": {
       "wikidata": "Q262294",
       "musicbrainz": "8bb436cd-8fbf-48c6-9fc8-a172c27e24ba",
@@ -2681,6 +2805,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avishai%20Cohen.jpg?width=320",
     "ids": {
       "wikidata": "Q388320",
       "musicbrainz": "17d78170-7194-4603-8dbb-ca1108430882",
@@ -2710,6 +2835,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hana%20Laszlo%202020%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q287420",
       "musicbrainz": "ce3d7d6e-4fcc-4894-be9c-6cca66a1110f",
@@ -2739,6 +2865,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D0%BE%D0%BB%D0%B8%D1%82%D0%B0%20%D0%BD%D0%B0%20%D1%8E%D0%B1%D0%B8%D0%BB%D0%B5%D0%B5%20%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0%20%22%D0%98%D0%BD%D1%82%D0%B5%D1%80%22%20(cropped).JPG?width=320",
     "ids": {
       "wikidata": "Q1972714",
       "musicbrainz": "f9ed53c4-0c72-418e-b164-5e7ba64fca1e"
@@ -2766,6 +2893,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dafna%20Dekel%20D941-056%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q455888",
       "musicbrainz": "6ae30aef-621d-4c83-bc09-9629df8ba4a5",
@@ -2795,6 +2923,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yael%20Abecassis1.jpg?width=320",
     "ids": {
       "wikidata": "Q460358",
       "musicbrainz": "6550fca2-f3da-49b8-8385-8669e6543fbf",
@@ -2824,6 +2953,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lior%20Narkis.jpg?width=320",
     "ids": {
       "wikidata": "Q1494846",
       "musicbrainz": "043640c5-5728-40e5-9122-6ee30103b2a9",
@@ -2853,6 +2983,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kamilya%20Jubran%20with%20Oud%20in%20Cologne%20(8397).jpg?width=320",
     "ids": {
       "wikidata": "Q1349848",
       "musicbrainz": "b9b65add-f042-4a8d-bb05-4ac1317b3cd3",
@@ -2882,6 +3013,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Show-Boat%20Com%20L09-0190-0001-0007.tif?width=320",
     "ids": {
       "wikidata": "Q442706",
       "musicbrainz": "ece3c620-2050-4d69-a750-1835e91f90c4",
@@ -2911,6 +3043,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir%20Shainsky%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q674048",
       "musicbrainz": "98527ab7-12a6-4b5a-b72e-af1a954cc79c",
@@ -2940,6 +3073,7 @@
     "popularityTier": 3,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rika%20Zara%C3%AF%207%20mars%201969.jpg?width=320",
     "ids": {
       "wikidata": "Q2029078",
       "musicbrainz": "8a3855de-44d3-4d02-bc43-69148d87cf6a",
@@ -2970,6 +3104,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ishtar%2C%20briza%20festival%2C%20asqelon'%202010.JPG?width=320",
     "ids": {
       "wikidata": "Q2048477",
       "musicbrainz": "f98c6e06-a95a-4446-918f-c363f57695f8",
@@ -2999,6 +3134,7 @@
     "popularityTier": 2,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mor%20Karbasi%20(2661681445).jpg?width=320",
     "ids": {
       "wikidata": "Q462158",
       "musicbrainz": "ddadcc7a-4ab1-4e2d-9d0c-11bf4192a358",
@@ -3028,6 +3164,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yafa%20Yarkoni%20(997009452218105171).jpg?width=320",
     "ids": {
       "wikidata": "Q579498",
       "musicbrainz": "fbb412e9-099c-42ea-a555-b779afe65b14",
@@ -3057,6 +3194,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/David%20D'or%20-%20Leha'amin.JPG?width=320",
     "ids": {
       "wikidata": "Q1174277",
       "musicbrainz": "d241fe83-6ec3-40bd-9afe-7cac6810b7c8",
@@ -3086,6 +3224,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pick%20por.jpg?width=320",
     "ids": {
       "wikidata": "Q2338487",
       "musicbrainz": "b50245ec-7a09-4fba-a0b5-c5fd0e1d9526",
@@ -3115,6 +3254,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ania%20Bukstein%20.jpg?width=320",
     "ids": {
       "wikidata": "Q529532",
       "musicbrainz": "a55cc7c7-8107-4d72-91ce-cfeeb6ee640f",
@@ -3144,6 +3284,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Oren%20Lavie.jpg?width=320",
     "ids": {
       "wikidata": "Q532331",
       "musicbrainz": "411f15e4-fdad-4d09-beca-0201c2e56727",
@@ -3173,6 +3314,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Famous%20singer%20Mike%20Brant%20performing%20at%20a%20party%20given%20for%20IDF%20Disabled%20Veterans%20Organization%20organized%20by%20Simcha%20Holtzberg%20at%20the%20Sheraton%20Hotel%20(FL61609728)%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q709215",
       "musicbrainz": "cc02cf2c-4d1b-419f-ae12-92e559a62518",
@@ -3202,6 +3344,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avi%20Toledano.jpg?width=320",
     "ids": {
       "wikidata": "Q790713",
       "musicbrainz": "21d634c2-d412-4c37-a718-79fd7ea83e2a",
@@ -3232,6 +3375,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Zak.jpg?width=320",
     "ids": {
       "wikidata": "Q29554348",
       "musicbrainz": "4b682288-d046-4865-91ff-9ad503edd752",
@@ -3290,6 +3434,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dalal%20Recovered.jpg?width=320",
     "ids": {
       "wikidata": "Q7015528",
       "musicbrainz": "18d79c2c-c768-4e3d-90f5-25afb970ee6e",
@@ -3319,6 +3464,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fenklup1968AbiOfarim.jpg?width=320",
     "ids": {
       "wikidata": "Q320813",
       "musicbrainz": "52034fde-b89c-44e1-ba68-d93df3a56aac",
@@ -3348,6 +3494,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keren%20Peles%201.jpg?width=320",
     "ids": {
       "wikidata": "Q466518",
       "musicbrainz": "8293bae5-1d33-428f-a210-477444904519",
@@ -3377,6 +3524,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ran%20Danker%201.jpg?width=320",
     "ids": {
       "wikidata": "Q537222",
       "musicbrainz": "38995aa0-27f6-498b-a6a0-3d8ef7aa9e3e",
@@ -3406,6 +3554,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eurovision%20Song%20Contest%201965%20-%20Guy%20Mardel.jpg?width=320",
     "ids": {
       "wikidata": "Q541136",
       "musicbrainz": "37631c7b-7cbd-4446-b6fe-c8accc9d5ccf",
@@ -3434,6 +3583,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pnina%20Rosenblum.jpg?width=320",
     "ids": {
       "wikidata": "Q2890097",
       "musicbrainz": "6da0dc6c-ff25-487f-aef7-4b735d6daec5",
@@ -3463,6 +3613,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noa%20Tishby%20Photo%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q7045290",
       "musicbrainz": "69b0d550-f11a-499c-83c0-9485b4cf2fb8",
@@ -3492,6 +3643,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Reef%20Cohen.jpg?width=320",
     "ids": {
       "wikidata": "Q3431891",
       "musicbrainz": "bf0669ad-1088-47da-a538-7f7e3255bf69",
@@ -3521,6 +3673,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Miri%20Mesika%20Tel%20Aviv%20100th%20anniversary%20celebration.jpg?width=320",
     "ids": {
       "wikidata": "Q441232",
       "musicbrainz": "808abb20-772c-4223-b18d-25ea004a0c37",
@@ -3550,6 +3703,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%A8%D7%93%D7%9B%D7%99%20%D7%91%D7%9F%20%D7%93%D7%95%D7%93.jpg?width=320",
     "ids": {
       "wikidata": "Q781972",
       "musicbrainz": "1ce4381e-039b-451d-a5a0-ab12020a987c",
@@ -3611,6 +3765,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Liraz%20Charhi%2C%202015%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q7047702",
       "musicbrainz": "55c963e3-6b37-4887-ab08-f3f15f0a22c4",
@@ -3640,6 +3795,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meir%20Banai%205.JPG?width=320",
     "ids": {
       "wikidata": "Q12408754",
       "musicbrainz": "0c6f309f-4ed2-4e3b-a2a5-047cecbcf042",
@@ -3669,6 +3825,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aki%20Avni%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2906794",
       "musicbrainz": "d98a8afe-5bd8-417e-b414-04c10c43d8c4"
@@ -3696,6 +3853,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uzi%20Hitman%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2915715",
       "musicbrainz": "69249044-5520-48d1-8b93-51a60258037c",
@@ -3725,6 +3883,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KorinAllal.jpg?width=320",
     "ids": {
       "wikidata": "Q467568",
       "musicbrainz": "d0feb19b-5d90-4ad2-ac4a-12d04b1cc488",
@@ -3754,6 +3913,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tal%20Sondak%20II.jpg?width=320",
     "ids": {
       "wikidata": "Q549642",
       "musicbrainz": "e923f95c-48f2-482a-9504-a1db5d1141a3",
@@ -3783,6 +3943,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%92%D7%99%D7%9C%D7%94%20%D7%92.jpg?width=320",
     "ids": {
       "wikidata": "Q18191478",
       "deezer": 1160533
@@ -3814,6 +3975,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dennis%20Lloyd%2006%2014%202018%20-29%20(28946642118).jpg?width=320",
     "ids": {
       "wikidata": "Q51033104",
       "musicbrainz": "026c1c22-8d1c-473c-a33f-a27fd02d6975",
@@ -3843,6 +4005,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meital%20Dohan.jpg?width=320",
     "ids": {
       "wikidata": "Q431393",
       "deezer": 1410491
@@ -3871,6 +4034,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A2%D7%9E%D7%99%D7%AA%20%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94.jpg?width=320",
     "ids": {
       "wikidata": "Q1449436",
       "musicbrainz": "8a54112b-81cc-4783-a278-ed4a73e30329",
@@ -3900,6 +4064,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Yehuda%20Poliker%20singing%20at%20the%20Jewish%20Arab%20Peace%20Rally%20in%20Neve%20Shalom.jpg?width=320",
     "ids": {
       "wikidata": "Q2911185",
       "musicbrainz": "4f1f5734-ea28-4640-862b-8fcdd79a16d5",
@@ -3958,6 +4123,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ShimonGershon.jpg?width=320",
     "ids": {
       "wikidata": "Q2916684",
       "deezer": 8184366
@@ -3986,6 +4152,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%90%D7%9E%D7%9C%20%D7%9E%D7%95%D7%A8%D7%A7%D7%95%D7%A1%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q452646",
       "musicbrainz": "5968a4bf-73c6-46d8-9e2d-9eb899b4d88e",
@@ -4015,6 +4182,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dana%20Ivgy%201.jpg?width=320",
     "ids": {
       "wikidata": "Q528853",
       "musicbrainz": "77f76495-18c2-446e-b122-b619cfdbcdf6",
@@ -4044,6 +4212,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yossi%20Banai%201998%201%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2249325",
       "musicbrainz": "331edda3-a98d-422e-9b44-9a9484b8a479",
@@ -4074,6 +4243,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Efrat%20Gosh%202011.jpg?width=320",
     "ids": {
       "wikidata": "Q182083",
       "musicbrainz": "dd8ae859-31a7-47a3-b665-612911ff9749",
@@ -4103,6 +4273,7 @@
     "popularityTier": 2,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Brachazafira.jpg?width=320",
     "ids": {
       "wikidata": "Q2909834",
       "musicbrainz": "2ee12856-f8ab-4da2-b8ca-2aa1af02735c",
@@ -4132,6 +4303,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina%20Maximilian%20Blumin.jpg?width=320",
     "ids": {
       "wikidata": "Q2902771",
       "musicbrainz": "4e35acd2-c5f0-4212-b396-247184b4b1d5"
@@ -4159,6 +4331,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuly%20rand-02.JPG?width=320",
     "ids": {
       "wikidata": "Q2911752",
       "musicbrainz": "f14c3d52-879d-4509-a0d9-42bb4fdd5320",
@@ -4188,6 +4361,7 @@
     "popularityTier": 4,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rivka%20Michaeli.jpg?width=320",
     "ids": {
       "wikidata": "Q4127724",
       "musicbrainz": "597a5a18-07db-4828-8a6c-09b864c7e1cc",
@@ -4219,6 +4393,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Etti%20Ankri.jpg?width=320",
     "ids": {
       "wikidata": "Q467369",
       "musicbrainz": "728c048d-659e-42f7-9553-198bec3798ad",
@@ -4248,6 +4423,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tzruya%20Lahav%20-%20Israeli%20liricist%20and%20screen%20writer%20(cropped%202).jpg?width=320",
     "ids": {
       "wikidata": "Q1275103",
       "musicbrainz": "0a5bc8be-edcf-499a-9490-f43b3ce68f30",
@@ -4277,6 +4453,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KirillSafonov.jpg?width=320",
     "ids": {
       "wikidata": "Q4409276",
       "deezer": 4665665
@@ -4305,6 +4482,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A9%D7%A8%D7%99%20%D7%A6%D7%95%D7%A8%D7%99%D7%90%D7%9C%20%D7%91%D7%91%D7%99%D7%AA%2C%20%D7%91%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91.jpg?width=320",
     "ids": {
       "wikidata": "Q2224556",
       "musicbrainz": "1524e618-2af3-446a-9e2a-da313d747d94",
@@ -4334,6 +4512,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dafna%20Recther.jpg?width=320",
     "ids": {
       "wikidata": "Q7008318",
       "musicbrainz": "18a10fb8-bf1b-4db7-83f3-aa234d5d2916",
@@ -4363,6 +4542,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michal%20Yannai%201.jpg?width=320",
     "ids": {
       "wikidata": "Q6835849",
       "musicbrainz": "a8570a89-c3b2-4a47-816d-e57e5be15882",
@@ -4392,6 +4572,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MC%20Abdul%202.jpg?width=320",
     "ids": {
       "wikidata": "Q108003855",
       "musicbrainz": "bd49121d-3dd5-46ae-8ef9-69c66fd01bff",
@@ -4420,6 +4601,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dana%20berger.jpg?width=320",
     "ids": {
       "wikidata": "Q433246",
       "musicbrainz": "58258fdf-ffa8-4a36-bdcd-2930fc205621",
@@ -4449,6 +4631,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meirarielbarefoot.jpg?width=320",
     "ids": {
       "wikidata": "Q2910806",
       "musicbrainz": "630d216e-178d-4b25-9bc9-31830f7a133d",
@@ -4507,6 +4690,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosh%20Ben-Ari%2001.JPG?width=320",
     "ids": {
       "wikidata": "Q2906427",
       "musicbrainz": "c227cb59-7fea-408d-86ee-b3b0addfb3ca",
@@ -4536,6 +4720,7 @@
     "popularityTier": 4,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A8%D7%97%D7%95%D7%91%20%D7%A1%D7%95%D7%9E%D7%A1%D7%95%D7%9D%20-%20%D7%99%D7%95%D7%A1%D7%95%D7%A3%20%D7%A1%D7%95%D7%99%D7%99%D7%93%2C%20%D7%96'%D7%99%D7%9C%20%D7%91%D7%9F%20%D7%93%D7%95%D7%93%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2907443"
     },
@@ -4562,6 +4747,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sofi%20Tzadka.jpg?width=320",
     "ids": {
       "wikidata": "Q2908527",
       "musicbrainz": "05fa2ffe-59fa-4397-99fa-bf73f689228f",
@@ -4591,6 +4777,7 @@
     "popularityTier": 1,
     "region": "south",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roy%20Arad%20(30700182070)%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2916282",
       "musicbrainz": "23571a13-6bf1-4778-8ba3-d9f489e227b7"
@@ -4618,6 +4805,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aya%20korem.jpg?width=320",
     "ids": {
       "wikidata": "Q444841",
       "musicbrainz": "cd61b287-37ef-403e-9cdd-f0d40f1170cf",
@@ -4647,6 +4835,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Liel%20Kolet%2020051120-013121-004212.JPG?width=320",
     "ids": {
       "wikidata": "Q446072",
       "musicbrainz": "dee6f4f6-d97c-4d93-b643-163b73e38f3b",
@@ -4676,6 +4865,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%95%D7%A0%D7%99%D7%A7%D7%94%20%D7%95%D7%A8%D7%93%D7%99%D7%9E%D7%95%D7%9F%20%D7%95%D7%A2%D7%A0%D7%AA%20%D7%A2%D7%A6%D7%9E%D7%95%D7%9F%20%D7%91%D7%A1%D7%99%D7%91%D7%95%D7%91%20%D7%94%D7%95%D7%A4%D7%A2%D7%95%D7%AA%20%D7%91%D7%90%D7%99%D7%98%D7%9C%D7%99%D7%94%20%D7%A2%D7%9D%20%D7%94%D7%94%D7%A6%D7%92%D7%94%20%D7%90%D7%97%D7%99%D7%95%D7%AA%20%D7%A4%D7%90%D7%A8%D7%99%20%D7%A9%D7%9C%20%D7%AA%D7%99%D7%90%D7%98%D7%A8%D7%95%D7%9F%20%D7%99%D7%99%D7%93%D7%99%D7%A9%D7%A4%D7%99%D7%9C.jpg?width=320",
     "ids": {
       "wikidata": "Q487272",
       "musicbrainz": "df1aa7d4-317f-4d58-8c76-728634df8e17",
@@ -4705,6 +4895,7 @@
     "popularityTier": 4,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Riki%20Gal.jpg?width=320",
     "ids": {
       "wikidata": "Q545772",
       "musicbrainz": "22783a0d-71ea-489b-b0bc-9912e0ba64d1",
@@ -4734,6 +4925,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nehama%20Lifschitz%20portrait%20young.jpg?width=320",
     "ids": {
       "wikidata": "Q4264094",
       "musicbrainz": "7d2329ec-0cfa-4f17-9a40-ca55149d1d4b",
@@ -4763,6 +4955,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%90%D7%91%D7%99%D7%94%D7%95%20%D7%9E%D7%93%D7%99%D7%A0%D7%94.jpg?width=320",
     "ids": {
       "wikidata": "Q4828830",
       "musicbrainz": "72542ff0-bba0-4783-bf30-a1c58db5e177",
@@ -4792,6 +4985,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moti%20Giladi.JPG?width=320",
     "ids": {
       "wikidata": "Q1641796",
       "musicbrainz": "dd3237a9-31e6-42c9-b4d5-37ecd37b8b72",
@@ -4821,6 +5015,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Miri%20Aloni%201.PNG?width=320",
     "ids": {
       "wikidata": "Q1708957",
       "musicbrainz": "f96aa0b9-85e9-4de8-a546-418c20d6c4b1",
@@ -4850,6 +5045,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1%20Chen%20Aharoni.jpg?width=320",
     "ids": {
       "wikidata": "Q1825089",
       "musicbrainz": "704e1c94-b604-4599-80d4-82374c548612",
@@ -4910,6 +5106,7 @@
     "popularityTier": 4,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoni%20Bloch.jpg?width=320",
     "ids": {
       "wikidata": "Q1986182",
       "musicbrainz": "ecf9d2d0-43fb-43ae-acf2-720e3e08bfb0",
@@ -4939,6 +5136,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shimon%20Dzigan.jpg?width=320",
     "ids": {
       "wikidata": "Q2623057",
       "musicbrainz": "9a8dc208-36d3-4737-829c-d9af844cdf48"
@@ -4966,6 +5164,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dudu%20Fischer.jpg?width=320",
     "ids": {
       "wikidata": "Q2783534",
       "musicbrainz": "4c257dfc-aea8-470c-843b-6ccdb2d03703",
@@ -5024,6 +5223,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Miriam%20Toukan.jpg?width=320",
     "ids": {
       "wikidata": "Q6873436",
       "musicbrainz": "817b0873-6191-4276-b5d5-e2373f83be5a",
@@ -5053,6 +5253,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naomi%20Polani%20October%202011.jpg?width=320",
     "ids": {
       "wikidata": "Q6964682",
       "musicbrainz": "95209a02-bedd-457f-b868-4d3f69e5c892",
@@ -5082,6 +5283,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yitzhak%20Levy%20Musician%201.jpeg?width=320",
     "ids": {
       "wikidata": "Q7040772",
       "musicbrainz": "7e06f780-baa4-4fc6-b804-6d1a83d6ef01"
@@ -5109,6 +5311,7 @@
     "popularityTier": 1,
     "region": "south",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Assaf%20Gavron%20portrait%202014.jpg?width=320",
     "ids": {
       "wikidata": "Q7065167",
       "deezer": 10645419
@@ -5167,6 +5370,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%9C%D7%99%D7%A0%D7%94%20%D7%9E%D7%97%D7%95%D7%9C%20%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94.JPG?width=320",
     "ids": {
       "wikidata": "Q13360703",
       "musicbrainz": "de3f02da-25ed-478f-96c4-23bb3aec6285",
@@ -5196,6 +5400,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%A1%D7%99%D7%95%D7%9F.JPG?width=320",
     "ids": {
       "wikidata": "Q15137329",
       "deezer": 1692773
@@ -5224,6 +5429,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yigael%20Bashan.jpg?width=320",
     "ids": {
       "wikidata": "Q16129085",
       "musicbrainz": "e5699bad-dc87-4f28-9dc9-752a4226f1a0",
@@ -5253,6 +5459,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tzachi%20Halevy%201.jpg?width=320",
     "ids": {
       "wikidata": "Q17523670",
       "musicbrainz": "de6c020d-fc95-4386-958e-355b8b624dbe",
@@ -5282,6 +5489,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%A0%D7%99%D7%90%D7%9C%D7%94%20%D7%A4%D7%99%D7%A7.jpg?width=320",
     "ids": {
       "wikidata": "Q32947601",
       "musicbrainz": "42d4ac1c-fe9a-460b-b4e9-b1ea98e76aa0",
@@ -5311,6 +5519,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Margol%20social%20justice%20Beersheba%202.jpg?width=320",
     "ids": {
       "wikidata": "Q2910639",
       "musicbrainz": "997569ef-56b7-4a46-b00c-352a335501d4",
@@ -5342,6 +5551,7 @@
     "popularityTier": 2,
     "region": "abroad",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mike%20Burstyn%2C%20ca.%20April%202017.jpg?width=320",
     "ids": {
       "wikidata": "Q2909642",
       "musicbrainz": "accdbe61-a877-4332-b4fb-f0832de5e3f4",
@@ -5372,6 +5582,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%91%D7%95%D7%A2%D7%96%20%D7%A9%D7%A8%D7%A2%D7%91%D7%99%20%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94%2022-7-2013.JPG?width=320",
     "ids": {
       "wikidata": "Q2920270",
       "musicbrainz": "7a59e20f-09b4-4600-8e72-aff3fc17cfaf",
@@ -5401,6 +5612,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maski%20shviro%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2920609",
       "musicbrainz": "44102036-df09-4f5b-86ed-4de728124ea2"
@@ -5428,6 +5640,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Orly%20Silbersatz.jpg?width=320",
     "ids": {
       "wikidata": "Q528701",
       "musicbrainz": "394480a4-7247-4ac3-a553-bf00903e3ca3"
@@ -5455,6 +5668,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilana%20Eliya%20(2008).jpg?width=320",
     "ids": {
       "wikidata": "Q541734",
       "musicbrainz": "aee1907e-a5b3-4799-aec6-4912cb40e159",
@@ -5511,6 +5725,7 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ariel%20Zilber%20IMG%203732.JPG?width=320",
     "ids": {
       "wikidata": "Q4790480",
       "musicbrainz": "91a0e0b2-732a-4ee4-8aaa-76edf50a1c9a",
@@ -5540,6 +5755,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/LeibuLevin.JPG?width=320",
     "ids": {
       "wikidata": "Q1965914"
     },
@@ -5566,6 +5782,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maya%20Buskila.jpg?width=320",
     "ids": {
       "wikidata": "Q2078758",
       "musicbrainz": "49fe0956-a56c-426a-af2a-c9aa87bffe4a",
@@ -5624,6 +5841,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nathan%20Goshen.jpg?width=320",
     "ids": {
       "wikidata": "Q6583345",
       "musicbrainz": "bf580a37-46c5-4d78-b157-a3ff81e85374",
@@ -5653,6 +5871,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shlomit%20Aharon1.jpg?width=320",
     "ids": {
       "wikidata": "Q7049894",
       "musicbrainz": "4a72a150-6856-4b1a-b262-8faa049ed2b1",
@@ -5682,6 +5901,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomer%20Yosef%20at%20Akko%2C%20Israel.jpg?width=320",
     "ids": {
       "wikidata": "Q7061145",
       "musicbrainz": "717824b3-f900-4775-b15d-6088d4341a38",
@@ -5711,6 +5931,7 @@
     "popularityTier": 1,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Osnat%20dancing.jpg?width=320",
     "ids": {
       "wikidata": "Q7107280",
       "musicbrainz": "332bf249-7f2b-48a8-8d4e-d22b52656a98",
@@ -5740,6 +5961,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sivanlevyartist.jpg?width=320",
     "ids": {
       "wikidata": "Q7532377",
       "musicbrainz": "d0aa7f1a-40a0-4405-abc8-dbb8478974c3",
@@ -5769,6 +5991,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%96%D7%94%D7%A8%20%D7%A9%D7%98%D7%A8%D7%90%D7%95%D7%A1.jpg?width=320",
     "ids": {
       "wikidata": "Q8073451"
     },
@@ -5795,6 +6018,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%95%D7%98%D7%99%20%D7%A9%D7%98%D7%99%D7%99%D7%A0%D7%9E%D7%A5%20Motty%20Steinmetz%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q42306376",
       "musicbrainz": "53b3b4f4-d196-4b2d-9ace-3b0c2c8d086b",
@@ -5824,6 +6048,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jonathan%20Mergui%20by%20Moshe%20Nachumovich%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q56651641",
       "musicbrainz": "e64eef7f-c698-469d-a2b3-75837934ec77"
@@ -5851,6 +6076,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ilana%20Rovina%20(1963).jpg?width=320",
     "ids": {
       "wikidata": "Q100627627",
       "musicbrainz": "82e7fe90-72d2-46af-a978-e11b2dbd8189",
@@ -5880,6 +6106,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoni%20Rechter%20(Zappa%20Herzliya%202010).jpg?width=320",
     "ids": {
       "wikidata": "Q2910061",
       "musicbrainz": "48580a29-41f2-49e2-b602-90dc12899549",
@@ -5909,6 +6136,7 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roni%20Dalumi%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2898233",
       "musicbrainz": "52a97d62-1ff9-4244-8e76-2dda25a41f4e",
@@ -5965,6 +6193,7 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Benayoun.JPG?width=320",
     "ids": {
       "wikidata": "Q2920263",
       "musicbrainz": "738ec907-5a7d-400d-9838-c40239cd6758",
@@ -5994,6 +6223,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dani%20Litani%203%20ST%2008.jpg?width=320",
     "ids": {
       "wikidata": "Q3701528",
       "musicbrainz": "0cfaca3f-77cc-4538-92cd-0a918935b2ab",
@@ -6023,6 +6253,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A9%D7%99%D7%A7%D7%94%20%D7%A9%D7%99%D7%99%D7%A7%D7%94%20%D7%9C%D7%95%D7%99%20%D7%91%D7%94%D7%9C%D7%95%D7%95%D7%99%D7%AA%D7%95%20%D7%A9%D7%9C%20%D7%90%D7%A8%D7%99%D7%A7%20%D7%90%D7%99%D7%99%D7%A0%D7%A9%D7%98%D7%99%D7%99%D7%9F.JPG?width=320",
     "ids": {
       "wikidata": "Q4025622",
       "musicbrainz": "d6c950d3-6a20-4a63-9a39-f908ddcab996",
@@ -6053,6 +6284,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aderet%20-%20singer.JPG?width=320",
     "ids": {
       "wikidata": "Q503797",
       "musicbrainz": "69ad9524-ef85-4c7c-a8ea-b85a86f61183",
@@ -6084,6 +6316,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roni%20Duani%20in%202019.jpg?width=320",
     "ids": {
       "wikidata": "Q528717",
       "musicbrainz": "173e9898-690e-4159-baa5-c57dcdf58fc5",
@@ -6113,6 +6346,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sivan%20shavit%20profile.jpg?width=320",
     "ids": {
       "wikidata": "Q922246",
       "musicbrainz": "def46021-7d4e-4c98-a20d-f915bfc7c406",
@@ -6142,6 +6376,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maxim%20Leonidov%20-%2030.11.2014%20-%2001.jpg?width=320",
     "ids": {
       "wikidata": "Q4258792",
       "musicbrainz": "bc3a1266-e5ea-4ede-94ce-673285302e43",
@@ -6170,6 +6405,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9B%D1%91%D0%B2%D0%B0%20%D0%B1%D0%B82.jpg?width=320",
     "ids": {
       "wikidata": "Q4272888",
       "musicbrainz": "f696a264-a68b-439a-bdab-170d16bde6d9"
@@ -6196,6 +6432,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Natasha%20Manor.JPG?width=320",
     "ids": {
       "wikidata": "Q4280554",
       "deezer": 14644389
@@ -6224,6 +6461,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%A0%D7%99%20%D7%91%D7%A1%D7%9F%202023.jpg?width=320",
     "ids": {
       "wikidata": "Q5220040",
       "musicbrainz": "2a6fc513-ca65-4419-baee-143942497973",
@@ -6253,6 +6491,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuli%20Nathan%20(photo%20by%20Daniel%20Nasibov)%2002.JPG?width=320",
     "ids": {
       "wikidata": "Q2002486",
       "musicbrainz": "e5ab966a-25e8-4d54-80d4-f4f964df5aa1",
@@ -6282,6 +6521,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sigal%20Shachmon%20D941-056%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2284648"
     },
@@ -6308,6 +6548,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avraham%20Fried%203.jpg?width=320",
     "ids": {
       "wikidata": "Q2778189",
       "musicbrainz": "21586967-e0f5-458d-94f8-bd228452b049",
@@ -6337,6 +6578,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Idan%20Raichel's%20Project%20in%20Mesada.jpg?width=320",
     "ids": {
       "wikidata": "Q6344346",
       "musicbrainz": "f1306931-aefe-4c64-887e-f360170489c3",
@@ -6366,6 +6608,7 @@
     "popularityTier": 2,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Victoria%20Hanna%202019%20B.jpg?width=320",
     "ids": {
       "wikidata": "Q6978632",
       "musicbrainz": "7f294ae9-da49-4dff-be02-699a0fd442e4",
@@ -6395,6 +6638,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nitza%20Shaul.jpg?width=320",
     "ids": {
       "wikidata": "Q7041627",
       "musicbrainz": "84dce5c1-20bc-4334-88a2-8838f00d162f",
@@ -6424,6 +6668,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sara%20Sharon.JPG?width=320",
     "ids": {
       "wikidata": "Q6775105",
       "musicbrainz": "9f409451-3314-466b-93fe-1d07bc030206"
@@ -6451,6 +6696,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Michael%20Moshonov%201.jpg?width=320",
     "ids": {
       "wikidata": "Q6832937",
       "musicbrainz": "2c4a4404-4650-4327-b180-6ab17409a2d2",
@@ -6480,6 +6726,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noam%20jacobson.jpg?width=320",
     "ids": {
       "wikidata": "Q12409918",
       "musicbrainz": "bd030511-78de-4cac-b41a-1a99d9a22bc4",
@@ -6509,6 +6756,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%98%D7%95%D7%91%D7%94%20%D7%91%D7%9F-%D7%A6%D7%91%D7%99.jpg?width=320",
     "ids": {
       "wikidata": "Q9360401",
       "musicbrainz": "9346607f-e72c-4aea-a12c-068c31ba00a3",
@@ -6538,6 +6786,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/(higher%20res)%20%D7%A0%D7%AA%D7%9F%20%D7%90%D7%9C%D7%AA%D7%A8%D7%9E%D7%9F%20%D7%A2%D7%9D%20%D7%AA%D7%A8%D7%A6%D7%94%20%D7%90%D7%AA%D7%A8.jpg?width=320",
     "ids": {
       "wikidata": "Q11318984",
       "musicbrainz": "be491a8f-ccb4-4210-ad07-c85199a23e78",
@@ -6567,6 +6816,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AmirFGuttman.jpg?width=320",
     "ids": {
       "wikidata": "Q12404038",
       "musicbrainz": "cc0a2898-2d7e-48cf-a652-138c0d964b88",
@@ -6625,6 +6875,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2050015%20tzipi%20shavit.jpg?width=320",
     "ids": {
       "wikidata": "Q7861973",
       "musicbrainz": "993cb7b2-91f4-40fa-ab4c-6bc793b7eb30",
@@ -6654,6 +6905,7 @@
     "popularityTier": 3,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yisrael%20Poliakov.jpg?width=320",
     "ids": {
       "wikidata": "Q8053866",
       "musicbrainz": "5a70030d-e109-4511-bbbf-b363303e5824",
@@ -6683,6 +6935,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yonatan%20Razel.jpg?width=320",
     "ids": {
       "wikidata": "Q8054894",
       "musicbrainz": "c786e72f-797d-46b9-b747-887e5a0fccf8",
@@ -6712,6 +6965,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%BB%D0%BB%D0%B8%20%D0%92%D0%B0%D0%B9%D0%BD%D0%B5%D1%80.jpg?width=320",
     "ids": {
       "wikidata": "Q15310703",
       "deezer": 14763765
@@ -6739,6 +6993,7 @@
     "popularityTier": 1,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kobi%20Farhi%20February%202026.jpg?width=320",
     "ids": {
       "wikidata": "Q25930476",
       "musicbrainz": "eb185f9e-1304-4877-9e66-292100d48536"
@@ -6766,6 +7021,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neta%20elkayam%20portrait%20copy.jpg?width=320",
     "ids": {
       "wikidata": "Q63406660",
       "musicbrainz": "0ccc1a1d-4120-4ade-8b1b-b14732690fdd",
@@ -6796,6 +7052,7 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aner%20Shapira%20-%20Detail%20from%20%22Heroes%22.jpg?width=320",
     "ids": {
       "wikidata": "Q123463731",
       "musicbrainz": "f33b66a0-951c-4e06-8ad4-7c9d97f308ff"
@@ -6823,6 +7080,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D0%9C%D0%B0%D0%B0%D1%8F%D0%BD%20%D0%9B%D0%B8%D1%85%D1%82%20(2025-12-26)%201.jpg?width=320",
     "ids": {
       "wikidata": "Q135006479"
     },
@@ -6849,6 +7107,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Pavlo%20Rozenberg%201.jpg?width=320",
     "ids": {
       "wikidata": "Q77658",
       "musicbrainz": "5e7fb1a1-36d4-433a-b477-423790cef7df",
@@ -6878,6 +7137,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Harel%20Moyal%201.jpg?width=320",
     "ids": {
       "wikidata": "Q175987",
       "musicbrainz": "6467c06a-0d83-4efc-af0c-38a09d5c0108",
@@ -6907,6 +7167,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shimi%20Tavori%20B%26W.jpg?width=320",
     "ids": {
       "wikidata": "Q2893357",
       "musicbrainz": "0d7aa9cb-d5a0-48e9-a8be-18d6ef79de61",
@@ -6936,6 +7197,7 @@
     "popularityTier": 1,
     "region": "south",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hagit-yaso001.jpg?width=320",
     "ids": {
       "wikidata": "Q2894620",
       "musicbrainz": "fe9ebf35-0661-4721-bb29-b3abecfb4e82",
@@ -6965,6 +7227,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Orly%20Weinerman.jpg?width=320",
     "ids": {
       "wikidata": "Q2904031"
     },
@@ -6991,6 +7254,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avi%20Belleli.jpg?width=320",
     "ids": {
       "wikidata": "Q2904129",
       "musicbrainz": "c7a28bef-2a55-4d43-bd60-c6854f68e3f8",
@@ -7020,6 +7284,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nechama%20Hendel.jpg?width=320",
     "ids": {
       "wikidata": "Q2906902",
       "musicbrainz": "7637e03c-3a76-49a7-b412-804c8ca5bd06",
@@ -7050,6 +7315,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Muki.jpg?width=320",
     "ids": {
       "wikidata": "Q2908623",
       "musicbrainz": "6d6b22bc-042c-4d14-b832-359b280d2160",
@@ -7108,6 +7374,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shay%20Gabso.jpg?width=320",
     "ids": {
       "wikidata": "Q536600",
       "musicbrainz": "3d5ab7e0-5fe4-4197-9e2f-42296b2148c2",
@@ -7164,6 +7431,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arkadi%20Duchin%20(2).jpg?width=320",
     "ids": {
       "wikidata": "Q672028",
       "musicbrainz": "d62ef425-a2c4-481a-9e21-67b5d853e030",
@@ -7222,6 +7490,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/AVNER%20STRAUSS.jpg?width=320",
     "ids": {
       "wikidata": "Q4829079",
       "musicbrainz": "b49b0519-2474-4c44-8356-a697e99621eb",
@@ -7251,6 +7520,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%A7%D7%9C%D7%95%D7%9F%20%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94%20%D7%97%D7%99%D7%94%20%D7%91%D7%97%D7%95%D7%A3%20%D7%90%D7%99%D7%9C%D7%AA.jpg?width=320",
     "ids": {
       "wikidata": "Q5209968",
       "musicbrainz": "86224679-18a7-4a47-9e9b-0c5f5d2a5031",
@@ -7280,6 +7550,7 @@
     "popularityTier": 1,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%9C%D7%99%D7%94%20%D7%A4%D7%A8%D7%99%D7%93%D7%9C%D7%A0%D7%93%20%D7%A4%D7%95%D7%A8%D7%98%D7%A8%D7%98.jpg?width=320",
     "ids": {
       "wikidata": "Q5210907",
       "musicbrainz": "e236cee8-4fad-4ecc-8841-de8d63909fa7",
@@ -7309,6 +7580,7 @@
     "popularityTier": 3,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%A0%D7%99%D7%90%D7%9C%20%D7%A1%D7%9C%D7%95%D7%9E%D7%95%D7%9F%20%D7%91%D7%94%D7%95%D7%A4%D7%A2%D7%94%20%D7%91%D7%AA%D7%90%D7%98%D7%A8%D7%95%D7%9F%20%D7%AA%D7%9E%D7%95%D7%A0%D7%A2.JPG?width=320",
     "ids": {
       "wikidata": "Q5218676",
       "musicbrainz": "a7bea84b-b8e2-4289-bf7e-21358c7c0232",
@@ -7338,6 +7610,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny%20Sanderson.jpg?width=320",
     "ids": {
       "wikidata": "Q5220799",
       "musicbrainz": "0be04841-9152-49bd-9407-06d016a5ede7",
@@ -7367,6 +7640,7 @@
     "popularityTier": 2,
     "region": "abroad",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Diana%20Golbi.jpg?width=320",
     "ids": {
       "wikidata": "Q5271169",
       "musicbrainz": "680c66a2-1f9f-42dd-a3fe-2e1c2e8fcac9",
@@ -7395,6 +7669,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Memorial%20plaque%20to%20Leib%20Glantz%20in%20Tel%20Aviv.JPG?width=320",
     "ids": {
       "wikidata": "Q2074465",
       "musicbrainz": "02703de2-4c06-45dd-b8c9-b4b712bf7bbd",
@@ -7424,6 +7699,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanan%20Goldblatt.jpg?width=320",
     "ids": {
       "wikidata": "Q5646901",
       "musicbrainz": "c84cdc98-e777-4741-9847-7fb6573f056b"
@@ -7454,6 +7730,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Johnny%20Goldstein%202024.jpg?width=320",
     "ids": {
       "wikidata": "Q6266767",
       "musicbrainz": "64610823-c7d5-453b-84de-4ff73e3af153",
@@ -7509,6 +7786,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yon%20Atari%20%26%20Matty%20Enav.jpg?width=320",
     "ids": {
       "wikidata": "Q6971395",
       "musicbrainz": "f5d1b1e3-b316-4f31-ba5c-4e89db337c5b",
@@ -7538,6 +7816,7 @@
     "popularityTier": 1,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ami%20Mandelman%2C%202011.jpg?width=320",
     "ids": {
       "wikidata": "Q6971687",
       "musicbrainz": "1ca58bf7-352a-4586-a136-264ed26af512",
@@ -7567,6 +7846,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A8%D7%97%D7%9C%20%D7%A9%D7%A4%D7%99%D7%A8%D7%90.jpg?width=320",
     "ids": {
       "wikidata": "Q6978461",
       "musicbrainz": "07633a63-2309-4045-a992-c89b978aa0d1",
@@ -7596,6 +7876,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gita%20Luka%20(FL45774677)%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q7002616",
       "musicbrainz": "1d741721-3654-4ccb-9a28-3460e17ad954",
@@ -7625,6 +7906,7 @@
     "popularityTier": 1,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Maya%20Dunietz-67444.jpg?width=320",
     "ids": {
       "wikidata": "Q6796684",
       "musicbrainz": "7b650310-094a-46f7-b81c-0c36d04b0b98",
@@ -7654,6 +7936,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%93%D7%93%D7%99%20%D7%91%D7%9F%20%D7%A2%D7%9E%D7%99%202.JPG?width=320",
     "ids": {
       "wikidata": "Q6831484",
       "musicbrainz": "65e3906a-a6ea-435e-be4e-39bf5858f12f"
@@ -7681,6 +7964,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A9%D7%99%D7%A8%D7%9F%20%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA%20%D7%A9%D7%9C%20%D7%94%D7%A4%D7%9C%D7%90%D7%A4%D7%95%D7%9F%20303.jpg?width=320",
     "ids": {
       "wikidata": "Q6835706",
       "musicbrainz": "b98eaf7b-4b17-4efd-89fe-e4b39fc3306d",
@@ -7710,6 +7994,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Peter%20Roth%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q12410565",
       "musicbrainz": "1a549459-3106-4662-be8e-5035230a7d86",
@@ -7739,6 +8024,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yankale%20Rotblit.JPG?width=320",
     "ids": {
       "wikidata": "Q16131900",
       "musicbrainz": "f2190da3-0a06-4ba5-b0ee-3b391122df5f",
@@ -7768,6 +8054,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%2032781%20Entertainment.JPG?width=320",
     "ids": {
       "wikidata": "Q7070133",
       "musicbrainz": "0d2057e6-e05c-4ffa-b855-cef53b47ef78",
@@ -7797,6 +8084,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ruth%20Dolores%20Weiss%202014.jpg?width=320",
     "ids": {
       "wikidata": "Q7382951",
       "musicbrainz": "944d8608-2e1e-4e3c-8974-ec2cd35bb839",
@@ -7826,6 +8114,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PikiWiki%20Israel%204108%20Shlomo%20Bar.JPG?width=320",
     "ids": {
       "wikidata": "Q7499569",
       "musicbrainz": "956ee75d-d7a9-4bc3-b3df-41c3aab1abb9",
@@ -7887,6 +8176,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A6%D7%99%D7%95%D7%9F%20%D7%92%D7%95%D7%9C%D7%9F.jpg?width=320",
     "ids": {
       "wikidata": "Q8072524",
       "musicbrainz": "c157ecb1-85ff-4fae-b52e-06697cb1b5d4",
@@ -7916,6 +8206,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rose%20Fostanes%20at%20Akko%202014.jpg?width=320",
     "ids": {
       "wikidata": "Q15627968",
       "musicbrainz": "c0c72f4a-f10d-4b47-81b9-25bb492b3600",
@@ -7973,6 +8264,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Talia%20Shapira.jpg?width=320",
     "ids": {
       "wikidata": "Q16637644",
       "musicbrainz": "13a8aa5c-1127-4870-bf9f-502b85e27a87",
@@ -8002,6 +8294,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yossi%20Piamenta%20in%20Jerusalem's%20Old%20City.JPG?width=320",
     "ids": {
       "wikidata": "Q20640880",
       "musicbrainz": "4c90a769-9dd8-4a92-b352-aa375bab6267",
@@ -8031,6 +8324,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%92%D7%A8%D7%99%D7%9F%20%D7%AA%D7%9C%D7%9E%D7%99%D7%93%20%D7%A8%D7%91%D7%99%20%D7%A9%D7%9C%D7%9E%D7%94%20%D7%A7%D7%A8%D7%9C%D7%99%D7%91%D7%9A.jpg?width=320",
     "ids": {
       "wikidata": "Q18326044",
       "musicbrainz": "1f3fdbd8-63bc-421a-9956-5406523366a5",
@@ -8060,6 +8354,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Elam%20Rotem.jpg?width=320",
     "ids": {
       "wikidata": "Q52714759",
       "musicbrainz": "40be476b-bd67-48e4-9fe4-22dfdc647330",
@@ -8089,6 +8384,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephane%20Legar%202018%20(cropped).png?width=320",
     "ids": {
       "wikidata": "Q47402082",
       "musicbrainz": "630f7b31-ff31-4db7-9201-4f5bcfad479d",
@@ -8118,6 +8414,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nunu%20(singer).jpg?width=320",
     "ids": {
       "wikidata": "Q111792269",
       "musicbrainz": "54e2b14c-3390-4ede-999d-ee84014b512b",
@@ -8147,6 +8444,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A1%D7%95%D7%A2%D7%90%D7%93%20%D7%96%D7%9B%D7%99.jpg?width=320",
     "ids": {
       "wikidata": "Q83764"
     },
@@ -8175,6 +8473,7 @@
     "popularityTier": 4,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Izhar%20Ashdot%2002.JPG?width=320",
     "ids": {
       "wikidata": "Q2910769",
       "musicbrainz": "a6d1d71e-74db-4e82-a548-b15051e9b2e7",
@@ -8206,6 +8505,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Rona%20Kenan%20at%20the%20Yellow%20Submarine%202004-07-22.jpeg?width=320",
     "ids": {
       "wikidata": "Q2910959",
       "musicbrainz": "aad5601f-e4b4-4ae6-9b91-b83c9b175e38",
@@ -8235,6 +8535,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A1%D7%A4%D7%99%20%D7%90%D7%A4%D7%A8%D7%AA%D7%99%202012.jpg?width=320",
     "ids": {
       "wikidata": "Q2892754",
       "musicbrainz": "37f9a50a-ca80-4ef4-bdcf-2f59e1c8412b",
@@ -8266,6 +8567,7 @@
     "popularityTier": 3,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Famous%20Greek%20singer%20Aris%20San%20(FL61714663).jpg?width=320",
     "ids": {
       "wikidata": "Q2903065",
       "musicbrainz": "5e176ccf-8238-42b4-8ae6-907edfb4e7b4",
@@ -8295,6 +8597,7 @@
     "popularityTier": 2,
     "region": "abroad",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aharon%20Razel.jpg?width=320",
     "ids": {
       "wikidata": "Q2905704",
       "musicbrainz": "61007a0d-5401-4300-a5d4-d4919c6f1397",
@@ -8324,6 +8627,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%99%D7%94%D7%95%D7%93%D7%94%20%D7%92%D7%9C%D7%90%D7%A0%D7%A5.jpg?width=320",
     "ids": {
       "wikidata": "Q2918452",
       "musicbrainz": "0814cfd8-d6e8-4cac-8ebc-9ae4db3ee8da",
@@ -8353,6 +8657,7 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yehoshua%20Sofer%20-%20closeup.JPG?width=320",
     "ids": {
       "wikidata": "Q3241990"
     },
@@ -8379,6 +8684,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Larisa%20Gersgtein.jpg?width=320",
     "ids": {
       "wikidata": "Q4137634"
     },
@@ -8464,6 +8770,7 @@
     "popularityTier": 2,
     "region": "haifa-north",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shi360.jpg?width=320",
     "ids": {
       "wikidata": "Q554614",
       "musicbrainz": "7f95ce6c-025f-429a-8857-7b99c7f63d40",
@@ -8493,6 +8800,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iryna%20Rozenfeld%202012%20(facecrop).jpg?width=320",
     "ids": {
       "wikidata": "Q4396581",
       "musicbrainz": "c578bc5c-a866-4316-beae-c4255f5848fa"
@@ -8519,6 +8827,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vladimir%20Fridman.jpg?width=320",
     "ids": {
       "wikidata": "Q4492743"
     },
@@ -8545,6 +8854,7 @@
     "popularityTier": 2,
     "region": "south",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Alon%20De%20Loco.jpg?width=320",
     "ids": {
       "wikidata": "Q4734336",
       "musicbrainz": "0f24faff-831b-4ede-8012-2607e7091e8a",
@@ -8574,6 +8884,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Arielhorvits.jpg?width=320",
     "ids": {
       "wikidata": "Q4790423",
       "musicbrainz": "8c302914-4a19-4dc7-a058-873aa5544077",
@@ -8603,6 +8914,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20SINGER%20ARIK%20LAVI%20AT%20THE%20TELETROM%20DONATIONS%20EVENING.jpg?width=320",
     "ids": {
       "wikidata": "Q4790616",
       "musicbrainz": "dcc27b9b-99d9-427d-addd-f542d5d8ad6e",
@@ -8632,6 +8944,7 @@
     "popularityTier": 3,
     "region": "south",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny%20Robas%201.jpg?width=320",
     "ids": {
       "wikidata": "Q5220776",
       "musicbrainz": "81fe0058-851e-4ee9-a444-e41bf45f4b96",
@@ -8661,6 +8974,7 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gidi%20Gov%201.jpg?width=320",
     "ids": {
       "wikidata": "Q5278573",
       "musicbrainz": "9ad63bae-b65a-467d-9311-21193fdae775",
@@ -8717,6 +9031,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MayaSimantov-LiveShow.jpg?width=320",
     "ids": {
       "wikidata": "Q1657536",
       "musicbrainz": "2e7ff946-0269-4200-a880-bbb6f278f480",
@@ -8746,6 +9061,7 @@
     "popularityTier": 1,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shy2001.jpg?width=320",
     "ids": {
       "wikidata": "Q2280469",
       "musicbrainz": "562d5ba0-1b58-49b0-a930-f4c538600832",
@@ -8804,6 +9120,7 @@
     "popularityTier": 4,
     "region": "abroad",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aaron%20Shust%20Lifest%202017.jpg?width=320",
     "ids": {
       "wikidata": "Q2820092",
       "musicbrainz": "fc2c638d-3735-43a2-b455-eb49b44f4808",
@@ -8832,6 +9149,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hanny%20Nahmias%201.jpg?width=320",
     "ids": {
       "wikidata": "Q5649299",
       "musicbrainz": "88c38196-966e-4481-9ea2-a5cabfac1983",
@@ -8861,6 +9179,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ohad%20Moskowitz%201.jpg?width=320",
     "ids": {
       "wikidata": "Q6041350",
       "musicbrainz": "18e0de18-ab4f-4a3a-9e06-8e0c4068fe86",
@@ -8890,6 +9209,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Hadani%20collection%20(990044477650205171)%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q6725281"
     },
@@ -8916,6 +9236,7 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Efrat%20Rayten.jpg?width=320",
     "ids": {
       "wikidata": "Q6864478"
     },
@@ -8942,6 +9263,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Guy%20Zuarets.jpg?width=320",
     "ids": {
       "wikidata": "Q7036189",
       "musicbrainz": "677b3e0f-69b4-4181-8d7d-0c5190c6b533",
@@ -8971,6 +9293,7 @@
     "popularityTier": 1,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avraham%20abuotbuol.JPG?width=320",
     "ids": {
       "wikidata": "Q7048227",
       "musicbrainz": "cd2dc708-23ad-4bcc-bb69-ea59d3977cf3",
@@ -9000,6 +9323,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Orna%20Datz%201.jpg?width=320",
     "ids": {
       "wikidata": "Q7055807",
       "musicbrainz": "4e571b29-8282-42af-97d5-cf34e364eb4c",
@@ -9029,6 +9353,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A4%D7%95%D7%A8%D7%98%D7%A8%D7%98%20%D7%99%D7%95%D7%91%D7%9C.jpg?width=320",
     "ids": {
       "wikidata": "Q6793241",
       "musicbrainz": "26d0a2a6-5c8f-41c6-a3dc-93b6da7f04e0",
@@ -9058,6 +9383,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hannah%20Aharoni%20postcard%20from%20Li-La-Lo%20Theater.jpg?width=320",
     "ids": {
       "wikidata": "Q6797106",
       "musicbrainz": "82da02d9-b920-4ac6-988a-5bbb73567ca0",
@@ -9087,6 +9413,7 @@
     "popularityTier": 3,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/90616%20gavri%20banai%20PikiWiki%20Israel.jpg?width=320",
     "ids": {
       "wikidata": "Q6813198",
       "musicbrainz": "bff6557a-f527-4f26-8a40-9b0d1e5200a4",
@@ -9116,6 +9443,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Miki%20Gavrielov.jpg?width=320",
     "ids": {
       "wikidata": "Q12409139",
       "musicbrainz": "ea2aea46-055d-4a6c-8b3e-020d1ba54f56",
@@ -9145,6 +9473,7 @@
     "popularityTier": 1,
     "region": "jerusalem",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/IsraelEliraz.jpg?width=320",
     "ids": {
       "wikidata": "Q9345571",
       "musicbrainz": "7ef3b9c7-8e56-4073-8061-bede5d86692c"
@@ -9172,6 +9501,7 @@
     "popularityTier": 2,
     "region": "tel-aviv-area",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eli%20Gorenstein%20-%20Sinatra%20018.jpg?width=320",
     "ids": {
       "wikidata": "Q12403917",
       "musicbrainz": "06f90281-1ca4-44f1-88c2-8f57506bd408",
@@ -9201,6 +9531,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%90%D7%A8%D7%99%D7%94%20%D7%9E%D7%95%D7%A1%D7%A7%D7%95%D7%A0%D7%94.jpg?width=320",
     "ids": {
       "wikidata": "Q12404254",
       "musicbrainz": "29b5d2f5-abb7-404e-8d3c-39df44c873a8",
@@ -9231,6 +9562,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Israeli%20song%20in%20The%20International%20Eurovision%20contest%20for%201979%20was%20held%20in%20Jerusalem%20(990040152610205171).jpg?width=320",
     "ids": {
       "wikidata": "Q926040",
       "musicbrainz": "ab59e540-f584-4dd6-bfcc-eeb79dd35769",
@@ -9259,6 +9591,7 @@
     "popularityTier": 4,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Orphaned%20Land%201.jpg?width=320",
     "ids": {
       "wikidata": "Q1126314",
       "musicbrainz": "3877a6a1-093c-4478-b5a6-58a99a1338db",
@@ -9315,6 +9648,7 @@
     "popularityTier": 3,
     "region": "jerusalem",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Melechesh%20Chaulnes%20Fest%20220308%2012.jpg?width=320",
     "ids": {
       "wikidata": "Q204480",
       "musicbrainz": "bfd84c48-8659-4837-88b0-760eda171e5d",
@@ -9345,6 +9679,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Astral%20Projection%20(live)%20%40%20B2B%20(-8%2026)%20(2711050885).jpg?width=320",
     "ids": {
       "wikidata": "Q246677",
       "musicbrainz": "2ba31cc4-df9e-4c21-9dbc-bb8fa9af424f"
@@ -9371,6 +9706,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/DAM%20at%20DC%20Hard%20Rock%20Cafe.jpg?width=320",
     "ids": {
       "wikidata": "Q921865",
       "musicbrainz": "45ddd10c-a6f3-4b2d-a583-12d149c54292",
@@ -9399,6 +9735,7 @@
     "popularityTier": 3,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eurovision%20Song%20Contest%201976%20-%20Israel%20-%20Chocolat%2C%20Menta%2C%20Mastik%201.png?width=320",
     "ids": {
       "wikidata": "Q1075633",
       "musicbrainz": "d273958b-a036-4031-a774-f221da864063",
@@ -9427,6 +9764,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Habibi2006pr%D7%A6%D7%99%D7%9C%D7%95%D7%9D%20%D7%97%D7%91%D7%99%D7%91%D7%99%20-%20%D7%99%D7%95%D7%A1%D7%99%20%D7%A6%D7%91%D7%A7%D7%A8.jpg?width=320",
     "ids": {
       "wikidata": "Q1355843",
       "musicbrainz": "b0244c7f-5a4a-4ea3-8428-3155d2f8335b",
@@ -9483,6 +9821,7 @@
     "popularityTier": 3,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Voca%20People.jpg?width=320",
     "ids": {
       "wikidata": "Q2298991",
       "musicbrainz": "0040e71c-f271-409f-a109-f69f07f218ec",
@@ -9511,6 +9850,7 @@
     "popularityTier": 4,
     "region": "center",
     "answerEligible": true,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mucuripe%20skazi.jpg?width=320",
     "ids": {
       "wikidata": "Q2456997",
       "musicbrainz": "8d62a782-3c12-4067-9bce-80fd91ddd5c0",
@@ -9764,6 +10104,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dan%20Hadani%20collection%20(990044344020205171).jpg?width=320",
     "ids": {
       "wikidata": "Q2377688",
       "musicbrainz": "0a6f826c-25ed-483f-94dc-f56f22db433b",
@@ -9822,6 +10163,7 @@
     "popularityTier": 2,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Habanot%20Nechama%20TFF09.jpg?width=320",
     "ids": {
       "wikidata": "Q2919828",
       "musicbrainz": "fda83e11-a691-4e6d-a6cd-35648e83349e",
@@ -9880,6 +10222,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Desert-Melodic%20Alliance%20Festival.JPG?width=320",
     "ids": {
       "wikidata": "Q4037231",
       "musicbrainz": "7148eb04-4a33-4412-ac19-36582b8e7f34",
@@ -9939,6 +10282,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Haze'evot%20-%20December%202019.jpg?width=320",
     "ids": {
       "wikidata": "Q41486532",
       "musicbrainz": "8298d771-96dd-4f01-88b2-704f4f1999f1",
@@ -9967,6 +10311,7 @@
     "popularityTier": 1,
     "region": "center",
     "answerEligible": false,
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Deaf%20Chonky.jpg?width=320",
     "ids": {
       "wikidata": "Q42238401",
       "musicbrainz": "20272e7d-ed0a-4929-b177-f42d61f36eb9",

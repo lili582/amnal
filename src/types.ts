@@ -26,6 +26,11 @@ export type Genre =
   | 'jazz-soul' // ג'אז / סול
   | 'other'
 
+export interface FamousSong {
+  title: string // Hebrew title of the artist's biggest hit
+  soundcloud?: string // SoundCloud track URL (embedable); undefined -> search link fallback
+}
+
 export interface Artist {
   id: string // stable slug, e.g. "omer-adam"
   nameHe: string // display name, e.g. "עומר אדם"
@@ -42,6 +47,7 @@ export interface Artist {
   popularityTier: 1 | 2 | 3 | 4 | 5 // 5 = most popular
   region: Region
   answerEligible: boolean // may be picked as a daily answer
+  famousSong?: FamousSong // revealed after the round ends
   ids: {
     wikidata?: string
     musicbrainz?: string

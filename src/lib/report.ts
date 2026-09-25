@@ -4,7 +4,7 @@ import { REPORT_EMAIL } from '../config'
 // used in the footer and the end dialog for data-correction reports.
 export function reportLink(dayNumber: number): string {
   const number = dayNumber + 1
-  const subject = encodeURIComponent('דיווח על טעות בנתונים — אמנל')
+  const subject = encodeURIComponent('דיווח על טעות בנתונים — אמנדל')
   const body = encodeURIComponent(
     `משחק מספר ${number}\n\nאיזה נתון שגוי ולמה (קישור למקור)?\n`,
   )

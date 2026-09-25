@@ -1,4 +1,4 @@
-# אמנל — נחשו את האמן הישראלי היומי
+# אמנדל — נחשו את האמן הישראלי היומי
 
 A Hebrew, RTL, daily "spotle"-style game: identify the day's Israeli artist in up to
 10 guesses using 6 color-coded clue tiles first appeared as arrows (debut year,

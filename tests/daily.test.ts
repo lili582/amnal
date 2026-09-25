@@ -48,8 +48,8 @@ describe('dayNumberFor', () => {
 
 describe('hashString / schedule', () => {
   it('is deterministic and stable', () => {
-    const a = hashString('אמנל-schedule')
-    expect(a).toBe(hashString('אמנל-schedule'))
+    const a = hashString('אמנדל-schedule')
+    expect(a).toBe(hashString('אמנדל-schedule'))
     expect(a).toBeGreaterThan(0)
   })
 

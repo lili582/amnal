@@ -2,7 +2,7 @@
 
 ## Decisions made
 
-1. **Game name = "אמנל"** (spec working title was "זמרדל"). Kept in
+1. **Game name = "אמנדל"** (spec working title was "זמרדל"). Kept in
    `src/config.ts` -> `GAME_NAME` so it can be renamed in one place.
 
 2. **6 clue tiles instead of 7.** The owner chose (2026-09-21) to replace the
@@ -71,3 +71,18 @@
     `.github/workflows/deploy.yml`; CI runs lint + typecheck + vitest +
     `data:validate`. `GAME_URL`, `REPORT_EMAIL`, and Pages enablement are
     owner TODOs before launch (acceptance 14).
+
+12. **"גיל" tile (2026-09-25).** The first tile (`debutYear` field key)
+    displays the artist's **age** instead of the formation year, and the
+    comparison arrow flips to age semantics (older = higher value). Age uses
+    `birthYear` from Wikidata when available, falling back to the debut year
+    for groups without one so the tile is never empty. `birthYear` is merged
+    (scripts/06) and validated; it is a per-artist override-able field.
+
+13. **Reveal card + SoundCloud (2026-09-25).** The end dialog shows a reveal
+    card with the artist's name, Wikidata portrait (`imageUrl`, merged from
+    `data/raw/images.json` cache), and their biggest hit (`famousSong`, curated
+    in `data/famous-songs.json` keyed by Wikidata QID). SoundCloud playback
+    uses the official widget iframe only when a real track URL is curated;
+    otherwise a SoundCloud **search** link is shown — track URLs are never
+    fabricated. Widget/search helpers live in `src/lib/soundcloud.ts`.

@@ -20,7 +20,7 @@ describe('buildShareText', () => {
       url: 'https://example.com',
     })
     const lines = text.split('\n')
-    expect(lines[0]).toBe(`${RLM}אמנל #12 - 4/10`)
+    expect(lines[0]).toBe(`${RLM}אמנדל #12 - 4/10`)
     expect(lines[1].startsWith(LRM)).toBe(true)
     expect(lines[2].startsWith(LRM)).toBe(true)
     expect(lines[3]).toBe('https://example.com')
@@ -35,7 +35,7 @@ describe('buildShareText', () => {
       rows: [['wrong', 'wrong', 'wrong', 'wrong', 'wrong', 'wrong'] as const],
       url: 'https://example.com',
     })
-    expect(text.split('\n')[0]).toBe(`${RLM}אמנל #1 - X/10`)
+    expect(text.split('\n')[0]).toBe(`${RLM}אמנדל #1 - X/10`)
     expect(text.split('\n')[1]).toBe(`${LRM}⬛⬛⬛⬛⬛⬛`)
   })
 
@@ -60,6 +60,6 @@ describe('buildShareText', () => {
       rows,
     })
     expect(text).not.toMatch(/name|ascii/i)
-    expect(text).toContain('אמנל')
+    expect(text).toContain('אמנדל')
   })
 })

@@ -112,7 +112,7 @@ export function Game({ data, source }: GameProps) {
       {endOpen && game.target && (
         <EndModal
           status={game.status === 'playing' ? 'lost' : game.status}
-          name={game.target.nameHe}
+          artist={game.target}
           dayNumber={game.dayNumber}
           guessesUsed={game.guesses.length}
           maxGuesses={game.maxGuesses}

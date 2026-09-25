@@ -93,6 +93,8 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   const deezer = readOptional<Record<string, { id: number; fans: number; albums: number }>>('data/raw/deezer.json')
   const lastfm = readOptional<Record<string, { listeners: number; playcount: number; tags: string[] }>>('data/raw/lastfm.json')
   const pageviews = readOptional<Record<string, number>>('data/raw/pageviews.json')
+  const imageCache = readOptional<Record<string, string>>('data/raw/images.json')
+  const famousSongs = readOptional<Record<string, T.FamousSong>>('data/famous-songs.json')
   const genreMap = readJson<GenreMap>('data/genre-map.json')
   const cityRegion = readJson<CityRegion>('data/city-region.json')
   const overrides = readOptional<Record<string, Override>>('data/overrides.json') ?? {}
@@ -239,6 +241,8 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       popularityTier: 3, // provisional; tiered below
       region,
       answerEligible: true, // provisional; decided after tiering
+      famousSong: famousSongs?.[qid] ?? famousSongs?.[w.en ?? ''] ?? famousSongs?.[he],
+      imageUrl: imageCache?.[qid],
       ids: {
         wikidata: `Q${qid.replace(/^Q/, '')}`,
         musicbrainz: mbid,
