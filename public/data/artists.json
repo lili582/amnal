@@ -86,6 +86,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "אש"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Moshe%20peretz%20singer%20efi%20e%2006-2010.jpg?width=320",
     "ids": {
       "wikidata": "Q2902995",
@@ -187,7 +190,7 @@
     "region": "tel-aviv-area",
     "answerEligible": true,
     "famousSong": {
-      "title": "שירת הסטיקר"
+      "title": "עכשיו מעונן"
     },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aviv%20Geffen%201.jpg?width=320",
     "ids": {
@@ -285,6 +288,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "זכיתי לאהוב"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A2%D7%91%D7%A8%D7%99%20%D7%9C%D7%99%D7%93%D7%A8.jpg?width=320",
     "ids": {
       "wikidata": "Q716158",
@@ -317,6 +323,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "עיר מקלט"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ehud%20Banai%20performing%20at%20Zappa.jpg?width=320",
     "ids": {
       "wikidata": "Q5348678",
@@ -349,6 +358,9 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "famousSong": {
+      "title": "יש לי סיכוי"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eviatar%20Banai2.jpg?width=320",
     "ids": {
       "wikidata": "Q5418308",
@@ -381,6 +393,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "כמה יוסי"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Berry%20Sakharof%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2910279",
@@ -413,6 +428,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "לא ידעתי שתלכי ממני"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Matti%20Caspi%20portrait.jpg?width=320",
     "ids": {
       "wikidata": "Q2910872",
@@ -445,6 +463,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "מחכים למשיח"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Shalom%20Hanoch%20performing%20at%20a%20rock%20festival%20in%20the%20Red%20Sea.jpg?width=320",
     "ids": {
       "wikidata": "Q2436563",
@@ -475,6 +496,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "איפה הן הבחורות"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Actor-Singer%20Yehoram%20Gaon.jpg?width=320",
     "ids": {
       "wikidata": "Q2091045",
@@ -568,6 +592,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "בגלל הרוח"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shlomi%20Shabbat.jpg?width=320",
     "ids": {
       "wikidata": "Q349662",
@@ -726,6 +753,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "לולה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dudutasa2017.jpg?width=320",
     "ids": {
       "wikidata": "Q12405747",
@@ -756,6 +786,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "ואת"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20aktivioslo%20-%20Harel%20Skaat%20-%20Israel%20(2)%20cropped.jpg?width=320",
     "ids": {
       "wikidata": "Q276295",
@@ -967,6 +1000,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "כשהלב בוכה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarit%20Hadad%20(cropped1).jpg?width=320",
     "ids": {
       "wikidata": "Q466767",
@@ -998,6 +1034,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "יוניקורן"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/1%20Noa%20Kirel%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q43139030",
@@ -1028,6 +1067,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "מלכת השושנים"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20Ben%20Zaken%202.jpg?width=320",
     "ids": {
       "wikidata": "Q28053146",
@@ -1058,6 +1100,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "עושה לי צרות"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20hason.jpg?width=320",
     "ids": {
       "wikidata": "Q57261031",
@@ -1120,6 +1165,9 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "famousSong": {
+      "title": "היא יודעת"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ninet%20Tayeb%20-%20February%202017%20-%203.jpg?width=320",
     "ids": {
       "wikidata": "Q444518",
@@ -1187,6 +1235,9 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "famousSong": {
+      "title": "סליחות"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yehudit%20Ravitz%201997%20cropped.jpg?width=320",
     "ids": {
       "wikidata": "Q545752",
@@ -1442,6 +1493,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "כבוד גדול"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Noga%20Erez.jpg?width=320",
     "ids": {
       "wikidata": "Q40856678",
@@ -1472,6 +1526,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "Life Happens"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ester%20Rada%201.jpg?width=320",
     "ids": {
       "wikidata": "Q6899049",
@@ -1565,6 +1622,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "לא לפנות אליי"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%A0%D7%A1%D7%A8%D7%99%D7%9F.jpeg?width=320",
     "ids": {
       "wikidata": "Q19894291",
@@ -1624,6 +1684,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "שירת הסטיקר"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hadag%20Nahash%202011%20Beersheba%20325.jpg?width=320",
     "ids": {
       "wikidata": "Q1567327",
@@ -1653,6 +1716,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "המגפיים של ברוך"
+    },
     "ids": {
       "wikidata": "Q898073",
       "musicbrainz": "6ac29708-9886-4cef-a81b-5d289f55645d",
@@ -1681,6 +1747,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "רכבת לילה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mashinaisraelat60.jpg?width=320",
     "ids": {
       "wikidata": "Q2623076",
@@ -1739,6 +1808,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "מכה אפורה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monica%20Sex%20-----%20February%202024.jpg?width=320",
     "ids": {
       "wikidata": "Q753055",
@@ -1797,6 +1869,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "Becoming Insane"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/InfectedMushroom02.jpg?width=320",
     "ids": {
       "wikidata": "Q548994",
@@ -1970,6 +2045,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "Hurricane"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eden%20Golan%2C%20Eurovision%202024%20final%20rehearsal%2010.jpg?width=320",
     "ids": {
       "wikidata": "Q81436819",
@@ -2178,6 +2256,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "השקט שנשאר"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiri%20Maimon.jpg?width=320",
     "ids": {
       "wikidata": "Q266578",
@@ -2597,6 +2678,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "ירושלים של זהב"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Naomi%20Shemer%20D507-159%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q238719",
@@ -2953,6 +3037,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "לכל אחד יש"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Lior%20Narkis.jpg?width=320",
     "ids": {
       "wikidata": "Q1494846",
@@ -3344,6 +3431,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "זוהי יפו"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Avi%20Toledano.jpg?width=320",
     "ids": {
       "wikidata": "Q790713",
@@ -3375,6 +3465,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "מי זאת"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Anna%20Zak.jpg?width=320",
     "ids": {
       "wikidata": "Q29554348",
@@ -3494,6 +3587,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "איתי"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keren%20Peles%201.jpg?width=320",
     "ids": {
       "wikidata": "Q466518",
@@ -3524,6 +3620,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "בית משוגעים"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ran%20Danker%201.jpg?width=320",
     "ids": {
       "wikidata": "Q537222",
@@ -3554,6 +3653,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "N'avoue jamais"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Eurovision%20Song%20Contest%201965%20-%20Guy%20Mardel.jpg?width=320",
     "ids": {
       "wikidata": "Q541136",
@@ -3673,6 +3775,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "לשם"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Miri%20Mesika%20Tel%20Aviv%20100th%20anniversary%20celebration.jpg?width=320",
     "ids": {
       "wikidata": "Q441232",
@@ -3795,6 +3900,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "שירו של שפשף"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meir%20Banai%205.JPG?width=320",
     "ids": {
       "wikidata": "Q12408754",
@@ -3825,6 +3933,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "תפילת האור"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aki%20Avni%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2906794",
@@ -3853,6 +3964,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "אדון עולם"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Uzi%20Hitman%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2915715",
@@ -3883,6 +3997,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "זן נדיר"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/KorinAllal.jpg?width=320",
     "ids": {
       "wikidata": "Q467568",
@@ -4064,6 +4181,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "עיניים שלי"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Flickr%20-%20Government%20Press%20Office%20(GPO)%20-%20Yehuda%20Poliker%20singing%20at%20the%20Jewish%20Arab%20Peace%20Rally%20in%20Neve%20Shalom.jpg?width=320",
     "ids": {
       "wikidata": "Q2911185",
@@ -4212,6 +4332,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "מרוב אהבה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yossi%20Banai%201998%201%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q2249325",
@@ -4303,6 +4426,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "עולה על שולחנות"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Marina%20Maximilian%20Blumin.jpg?width=320",
     "ids": {
       "wikidata": "Q2902771",
@@ -4331,6 +4457,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "אייכה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Shuly%20rand-02.JPG?width=320",
     "ids": {
       "wikidata": "Q2911752",
@@ -4572,6 +4701,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "Shouting At The Wall"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/MC%20Abdul%202.jpg?width=320",
     "ids": {
       "wikidata": "Q108003855",
@@ -4631,6 +4763,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "ירושלים של ברזל"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meirarielbarefoot.jpg?width=320",
     "ids": {
       "wikidata": "Q2910806",
@@ -4690,6 +4825,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "סתכל לי בעיניים"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mosh%20Ben-Ari%2001.JPG?width=320",
     "ids": {
       "wikidata": "Q2906427",
@@ -5725,6 +5863,9 @@
     "popularityTier": 5,
     "region": "tel-aviv-area",
     "answerEligible": true,
+    "famousSong": {
+      "title": "רוצי שמוליק"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Ariel%20Zilber%20IMG%203732.JPG?width=320",
     "ids": {
       "wikidata": "Q4790480",
@@ -6018,6 +6159,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "נפשי"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/%D7%9E%D7%95%D7%98%D7%99%20%D7%A9%D7%98%D7%99%D7%99%D7%A0%D7%9E%D7%A5%20Motty%20Steinmetz%20(cropped).jpg?width=320",
     "ids": {
       "wikidata": "Q42306376",
@@ -6136,6 +6280,9 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "famousSong": {
+      "title": "תן"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Roni%20Dalumi%201.jpg?width=320",
     "ids": {
       "wikidata": "Q2898233",
@@ -6193,6 +6340,9 @@
     "popularityTier": 5,
     "region": "south",
     "answerEligible": true,
+    "famousSong": {
+      "title": "כשאת עצובה"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Amir%20Benayoun.JPG?width=320",
     "ids": {
       "wikidata": "Q2920263",
@@ -7052,6 +7202,9 @@
     "popularityTier": 5,
     "region": "jerusalem",
     "answerEligible": true,
+    "famousSong": {
+      "title": "ג'רוז"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Aner%20Shapira%20-%20Detail%20from%20%22Heroes%22.jpg?width=320",
     "ids": {
       "wikidata": "Q123463731",
@@ -7315,6 +7468,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "ילד של אבא"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Muki.jpg?width=320",
     "ids": {
       "wikidata": "Q2908623",
@@ -7610,6 +7766,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "זה הכל בשבילך"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Danny%20Sanderson.jpg?width=320",
     "ids": {
       "wikidata": "Q5220799",
@@ -8657,6 +8816,9 @@
     "popularityTier": 5,
     "region": "abroad",
     "answerEligible": true,
+    "famousSong": {
+      "title": "חומוס מטמטם"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Yehoshua%20Sofer%20-%20closeup.JPG?width=320",
     "ids": {
       "wikidata": "Q3241990"
@@ -8974,6 +9136,9 @@
     "popularityTier": 5,
     "region": "center",
     "answerEligible": true,
+    "famousSong": {
+      "title": "שלל שרב"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gidi%20Gov%201.jpg?width=320",
     "ids": {
       "wikidata": "Q5278573",
@@ -9236,6 +9401,9 @@
     "popularityTier": 5,
     "region": "haifa-north",
     "answerEligible": true,
+    "famousSong": {
+      "title": "חולת פרסים"
+    },
     "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Efrat%20Rayten.jpg?width=320",
     "ids": {
       "wikidata": "Q6864478"
