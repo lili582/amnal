@@ -36,3 +36,8 @@ export const DATA_CACHE_TTL_MS = 24 * 60 * 60 * 1000
 
 // Bump together with a breaking shape change of the served JSON files.
 export const DATA_SCHEMA_VERSION = 'v1'
+
+// Stamp appended to runtime data fetches (?v=...). Day-based so a stale copy
+// held by any cache (browser HTTP cache, CDN edge, proxy) is bypassed on the
+// next calendar day, guaranteeing the daily puzzle rotation reaches players.
+export const DATA_BUST = new Date().toISOString().slice(0, 10)

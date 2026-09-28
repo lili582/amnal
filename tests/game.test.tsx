@@ -7,6 +7,7 @@ import { useGame } from '../src/hooks/useGame'
 import { Game } from '../src/Game'
 import { strings } from '../src/strings.he'
 import { loadStats, saveStats, emptyStats } from '../src/lib/storage'
+import { answerForDay, dayNumberFor, israelDateString } from '../src/lib/daily'
 
 function artist(id: string, nameHe: string): Artist {
   return {
@@ -33,6 +34,11 @@ const ART_B = artist('b', 'אמן ב')
 function makeData(): GameData {
   return { artists: [ART_A, ART_B], schedule: ['a', 'b'] }
 }
+
+// The target depends on today's schedule index; derive it the same way useGame
+// does so these tests pass on any calendar day.
+const targetIdOf = (data: GameData) =>
+  answerForDay(data.schedule, dayNumberFor(israelDateString(new Date())))
 
 function Harness({ data }: { data: GameData }) {
   const g = useGame(data)
@@ -76,7 +82,8 @@ describe('useGame (mounted in jsdom)', () => {
 it('guessing a wrong artist keeps the game playing and survives a reload', () => {
     const { container, root } = setup()
     act(() => root.render(<Harness data={makeData()} />))
-    const wrongId = makeData().schedule[0] === 'a' ? 'b' : 'a'
+    const targetId = targetIdOf(makeData())
+    const wrongId = targetId === 'a' ? 'b' : 'a'
     click(container, `guess-${wrongId}`)
     expect(container.querySelector('[data-status]')?.getAttribute('data-status')).toBe('playing')
     expect(container.querySelector('[data-count]')?.getAttribute('data-count')).toBe('1')
@@ -90,10 +97,10 @@ it('guessing a wrong artist keeps the game playing and survives a reload', () =>
     tearDown(again.root, again.container)
   })
 
-  it('guessing the target wins immediately and records the result exactly once', () => {
+it('guessing the target wins immediately and records the result exactly once', () => {
     const { container, root } = setup()
     act(() => root.render(<Harness data={makeData()} />))
-    const targetId = makeData().schedule[0]
+    const targetId = targetIdOf(makeData())
     click(container, `guess-${targetId}`)
     expect(container.querySelector('[data-status]')?.getAttribute('data-status')).toBe('won')
     expect(container.querySelector('[data-count]')?.getAttribute('data-count')).toBe('1')
@@ -114,10 +121,10 @@ it('guessing a wrong artist keeps the game playing and survives a reload', () =>
     tearDown(again.root, again.container)
   })
 
-  it('submits after a win are ignored', () => {
+it('submits after a win are ignored', () => {
     const { container, root } = setup()
     act(() => root.render(<Harness data={makeData()} />))
-    const targetId = makeData().schedule[0]
+    const targetId = targetIdOf(makeData())
     click(container, `guess-${targetId}`)
     click(container, `guess-${targetId}`)
 expect(loadStats().played).toBe(1)
@@ -129,13 +136,16 @@ expect(loadStats().played).toBe(1)
     const { container, root } = setup()
     act(() => root.render(<Game data={makeData()} source="network" />))
 
+    const targetId = targetIdOf(makeData())
+    const targetName = targetId === 'a' ? ART_A.nameHe : ART_B.nameHe
+
     const input = container.querySelector('input.combo-input') as HTMLInputElement
     act(() => {
       const setter = Object.getOwnPropertyDescriptor(
         window.HTMLInputElement.prototype,
         'value',
       )!.set!
-      setter.call(input, ART_A.nameHe)
+      setter.call(input, targetName)
       input.dispatchEvent(new Event('input', { bubbles: true }))
     })
     expect(container.querySelector<HTMLElement>('li.combo-option')).not.toBeNull()
@@ -146,8 +156,8 @@ expect(loadStats().played).toBe(1)
     expect(dialog).not.toBeNull()
     expect(dialog?.textContent).toContain(strings.winShort)
     // The reveal card shows the target artist after the round ends.
-    expect(dialog?.querySelector('.reveal-name')?.textContent).toBe(ART_A.nameHe)
-    expect(dialog?.querySelector('.end-headline')?.textContent).toContain(ART_A.nameHe)
+    expect(dialog?.querySelector('.reveal-name')?.textContent).toBe(targetName)
+    expect(dialog?.querySelector('.end-headline')?.textContent).toContain(targetName)
 
     const close = container.querySelector<HTMLButtonElement>(`button[aria-label="${strings.close}"]`)
     expect(close).not.toBeNull()

@@ -35,11 +35,14 @@ function jsonOk(data: unknown) {
 }
 
 // Endpoint whose /artists.json and /schedule.json each return their bare array.
+// Requests carry a ?v= cache-busting stamp, so compare on the path only.
 function serverOf(payload: typeof goodJson): typeof fetch {
-  return ((url: string) =>
-    String(url).endsWith('/artists.json')
+  return ((url: string) => {
+    const path = String(url).split('?')[0]
+    return path.endsWith('/artists.json')
       ? Promise.resolve(jsonOk(payload.artists))
-      : Promise.resolve(jsonOk(payload.schedule))) as typeof fetch
+      : Promise.resolve(jsonOk(payload.schedule))
+  }) as typeof fetch
 }
 
 const loaderCache = () => loadGameData({ fetchImpl: serverOf(goodJson) })
@@ -100,14 +103,14 @@ describe('loadGameData', () => {
     const result = await loadGameData({
       fetchImpl: ((url: string) => {
         calls.push(String(url))
-        return String(url).endsWith('/artists.json')
+        return String(url).split('?')[0].endsWith('/artists.json')
           ? Promise.resolve(jsonOk(goodJson.artists))
           : Promise.resolve(jsonOk(goodJson.schedule))
       }) as typeof fetch,
     })
     expect(result.source).toBe('network')
     expect(calls).toHaveLength(2)
-    expect(calls.every((u: string) => u.endsWith('.json'))).toBe(true)
+    expect(calls.every((u: string) => u.includes('.json'))).toBe(true)
   })
 
   it('serves the in-memory copy without another fetch', async () => {

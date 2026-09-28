@@ -96,3 +96,13 @@
     puzzle answers. QC notes: picks were researched per-artist and a final
     audit re-verified ~a dozen of the most visible picks against hewiki/הפזמונט
     (caught one typo: דקלון → "כותל המזרח").
+
+15. **Daily rotation robustness (2026-09-28).** Data fetches now carry a
+    day-based `?v=` cache-busting stamp and `cache: 'no-store'`, so a stale
+    copy of `schedule.json`/`artists.json` held by the browser or a CDN edge
+    can never pin a player to an old day's artist. `today` also rolls over at
+    the Israeli midnight even if the tab stays open (30s poll), loading that
+    day's saved board. Fixed a latent dev-only bug where a missing/empty `?day`
+    param resolved to day 0 (pinning every dev session to the same artist).
+    Tests now derive the target exactly as `useGame` does, so the suite no
+    longer depends on the calendar day's parity.

@@ -1,5 +1,12 @@
 import type { Artist } from '../types'
-import { DATA_URL, DATA_CACHE_TTL_MS, DATA_SCHEMA_VERSION } from '../config'
+import { DATA_URL, DATA_CACHE_TTL_MS, DATA_SCHEMA_VERSION, DATA_BUST } from '../config'
+
+// Endpoint + cache-busting stamp. The version query forces every fetch past
+// HTTP caches (browser, CDN edge, proxy) so freshly deployed data — above all
+// the daily schedule — always reaches players.
+function busted(endpoint: string): string {
+  return `${endpoint}${endpoint.includes('?') ? '&' : '?'}v=${DATA_BUST}`
+}
 
 // The app loads its artist roster and daily schedule over the network at
 // runtime instead of bundling them. Downloading once per player means the
@@ -108,8 +115,8 @@ export async function loadGameData(opts: LoadGameDataOptions = {}): Promise<Load
   for (let attempt = 0; attempt < 2; attempt++) {
     try {
       const [artistsRes, scheduleRes] = await Promise.all([
-        fetchImpl(`${DATA_URL}/artists.json`),
-        fetchImpl(`${DATA_URL}/schedule.json`),
+        fetchImpl(busted(`${DATA_URL}/artists.json`), { cache: 'no-store' }),
+        fetchImpl(busted(`${DATA_URL}/schedule.json`), { cache: 'no-store' }),
       ])
       if (!artistsRes.ok || !scheduleRes.ok) {
         throw new Error(`HTTP ${artistsRes.status}/${scheduleRes.status} for ${DATA_URL}`)

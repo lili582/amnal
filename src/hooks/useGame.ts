@@ -31,12 +31,16 @@ function parseSaved(raw: SaveState | null, date: string): SaveState {
 
 // Dev preview: ?day=N overrides the current date for testing any day of the
 // schedule. Gated behind DEV so a production build ignores the query string.
+// Only a present, non-empty digit sequence counts — otherwise fall back to the
+// real calendar date (Number(null) is 0, which would pin every dev session to
+// the same day-0 artist).
 function resolveDayNumber(today: string, isDev: boolean): number {
   if (isDev) {
     try {
-      const day = new URLSearchParams(window.location.search).get('day')
-      const n = Number(day)
-      if (Number.isFinite(n) && n >= 0) return Math.floor(n)
+      const raw = new URLSearchParams(window.location.search).get('day')
+      if (raw !== null && raw.trim() !== '' && /^\d+$/.test(raw.trim())) {
+        return Math.floor(Number(raw))
+      }
     } catch {
       // ignore malformed / blocked window access
     }
@@ -61,7 +65,7 @@ export interface UseGame {
 
 export function useGame(data: GameData): UseGame {
   const artistsById = useMemo(() => new Map(data.artists.map((a) => [a.id, a])), [data])
-  const today = useMemo(() => israelDateString(new Date()), [])
+  const [today, setToday] = useState<string>(() => israelDateString(new Date()))
   const isDev = (import.meta as { env?: { DEV?: boolean } }).env?.DEV === true
   const dayNumber = useMemo(() => resolveDayNumber(today, isDev), [today, isDev])
   const targetId = answerForDay(data.schedule, dayNumber)
@@ -71,9 +75,31 @@ export function useGame(data: GameData): UseGame {
   const [notice, setNotice] = useState<string | null>(null)
   const statsDoneRef = useRef(statsRecorded(today))
 
-  // Persist every change. Reloading mid-game restores exactly this state.
+  // Roll the puzzle over at the Israeli midnight even if the tab stays open,
+  // so a window left up overnight switches to the next day's artist.
   useEffect(() => {
-    saveGame(today, game)
+    const id = setInterval(() => {
+      const t = israelDateString(new Date())
+      setToday((prev) => (prev === t ? prev : t))
+    }, 30_000)
+    return () => clearInterval(id)
+  }, [])
+
+  // When the day rolls over, load that day's saved board and reset the stats guard.
+  const prevDayRef = useRef(today)
+  useEffect(() => {
+    if (prevDayRef.current === today) return
+    prevDayRef.current = today
+    setGame(parseSaved(loadGame(today), today))
+    setNotice(null)
+    statsDoneRef.current = statsRecorded(today)
+  }, [today])
+
+  // Persist every change (skipping the transient old-board frame on rollover,
+  // where the saved game already belongs to the new date). Reloading mid-game
+  // restores exactly this state.
+  useEffect(() => {
+    if (game.date === today) saveGame(today, game)
   }, [today, game])
 
   // Housekeeping: drop games older than a month, once per mount.
