@@ -86,3 +86,13 @@
     uses the official widget iframe only when a real track URL is curated;
     otherwise a SoundCloud **search** link is shown — track URLs are never
     fabricated. Widget/search helpers live in `src/lib/soundcloud.ts`.
+
+14. **famousSong coverage complete (2026-09-28).** Every `answerEligible`
+    artist now has a curated `famousSong` or is a deliberate omission. Final
+    state: 184/348 artists with a famous song; the 25 remaining eligible
+    artists are actors/actresses/comedians/non-singers with no notable solo
+    hit (e.g. גברי בנאי, יעל אבקסיס, רונית אלקבץ, רבקה מיכאלי) or obscure
+    names, and are intentionally left without a song — they are still valid
+    puzzle answers. QC notes: picks were researched per-artist and a final
+    audit re-verified ~a dozen of the most visible picks against hewiki/הפזמונט
+    (caught one typo: דקלון → "כותל המזרח").
