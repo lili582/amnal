@@ -29,6 +29,15 @@ describe('tileValue', () => {
     expect(tileValue(artist({ breakthroughYear: 1991 }), 'breakthrough')).toBe('1991')
   })
 
+  it('deceased artist shows age at death with (deceased) suffix', () => {
+    expect(tileValue(artist({ birthYear: 1939, diedYear: 2013 }), 'debutYear', 2026)).toBe('74 years (deceased)')
+    expect(tileValue(artist({ birthYear: 1957, diedYear: 2000 }), 'debutYear', 2026)).toBe('43 years (deceased)')
+  })
+
+  it('deceased artist without origin year falls back to normal age', () => {
+    expect(tileValue(artist({ birthYear: undefined, debutYear: 0, diedYear: 1964 }), 'debutYear', 2026)).toBe('2026')
+  })
+
   it('lineup renders solo / duo / band with member count', () => {
     expect(tileValue(artist({ type: 'solo', members: 1 }), 'lineup')).toBe('סולו')
     expect(tileValue(artist({ type: 'duo', members: 2 }), 'lineup')).toBe('צמד')

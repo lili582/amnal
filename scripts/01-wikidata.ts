@@ -30,6 +30,7 @@ const P_OCCUPATION = 'P106'
 const P_INSTANCE_OF = 'P31'
 const P_GENDER = 'P21'
 const P_BIRTH = 'P569'
+const P_DEATH = 'P570'
 const P_INCEPTION = 'P571'
 const P_BIRTH_PLACE = 'P19'
 const P_GENRE = 'P136'
@@ -60,6 +61,7 @@ export interface WdEntry {
   hewiki?: string
   gender?: string
   birth?: string
+  died?: string
   inception?: string
   birthPlace?: string
   genres: string[]
@@ -164,6 +166,7 @@ function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
     hewiki: e.sitelinks?.hewiki?.title,
     gender: valueText(claimValues(e, P_GENDER)[0]),
     birth: valueText(claimValues(e, P_BIRTH)[0]), // full ISO timestamp; year is extracted downstream
+    died: valueText(claimValues(e, P_DEATH)[0]),
     inception: valueText(claimValues(e, P_INCEPTION)[0]),
     birthPlace: birthPlaceId,
     genres: claimValues(e, P_GENRE).map((g) => g ?? '').filter(Boolean),
@@ -261,6 +264,7 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   // Normalise birth year: keep the year only.
   for (const entry of Object.values(entries)) {
     if (entry.birth) entry.birth = entry.birth.slice(1, 5)
+    if (entry.died) entry.died = entry.died.slice(1, 5)
     if (entry.inception) entry.inception = entry.inception.slice(1, 5)
   }
 

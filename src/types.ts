@@ -39,6 +39,7 @@ export interface Artist {
   debutYear: number // first release / formation year
   birthYear?: number // birth year (solo/duo); used for the age tile
   breakthroughYear: number // year the artist first broke through with a hit
+  diedYear?: number // year the artist died (optional; used for "age at death" display)
   type: ArtistType
   members: number // 1 for solo, 2 for duo, N for band
   gender: Gender // for groups: 'mixed' if both genders present

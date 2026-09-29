@@ -232,6 +232,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       aliases: [...aliases].slice(0, 12),
       debutYear,
       birthYear: birthYear && birthYear >= 1900 && birthYear <= new Date().getFullYear() ? birthYear : undefined,
+      diedYear: w.died && Number(w.died) >= 1800 && Number(w.died) <= new Date().getFullYear() ? Number(w.died) : undefined,
       breakthroughYear,
       type: type ?? 'solo',
       members,

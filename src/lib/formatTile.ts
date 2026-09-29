@@ -7,9 +7,18 @@ import { artistAge } from './age'
 export function tileValue(artist: Artist, field: TileField, refYear = new Date().getFullYear()): string {
   switch (field) {
     case 'debutYear':
+      if (artist.diedYear != null) {
+        const origin = artist.birthYear ?? artist.debutYear
+        if (origin > 0) {
+          const ageAtDeath = artist.diedYear - origin
+          return `${String(ageAtDeath)} years (deceased)`
+        }
+      }
       return String(artistAge(artist, refYear))
     case 'breakthrough':
-      return String(artist.breakthroughYear)
+      return artist.breakthroughYear != null ? String(artist.breakthroughYear)
+        : artist.debutYear != null ? String(artist.debutYear)
+        : ''
     case 'lineup':
       if (artist.type === 'solo') return strings.lineupValues.solo
       if (artist.type === 'duo') return strings.lineupValues.duo
