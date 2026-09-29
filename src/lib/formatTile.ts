@@ -11,7 +11,8 @@ export function tileValue(artist: Artist, field: TileField, refYear = new Date()
         const origin = artist.birthYear ?? artist.debutYear
         if (origin > 0) {
           const ageAtDeath = artist.diedYear - origin
-          return `${String(ageAtDeath)} years (deceased)`
+          const label = strings.ageDeceased[artist.gender] ?? strings.ageDeceased.male
+          return label.replace('{age}', String(ageAtDeath))
         }
       }
       return String(artistAge(artist, refYear))

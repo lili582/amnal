@@ -30,8 +30,9 @@ describe('tileValue', () => {
   })
 
   it('deceased artist shows age at death with (deceased) suffix', () => {
-    expect(tileValue(artist({ birthYear: 1939, diedYear: 2013 }), 'debutYear', 2026)).toBe('74 years (deceased)')
-    expect(tileValue(artist({ birthYear: 1957, diedYear: 2000 }), 'debutYear', 2026)).toBe('43 years (deceased)')
+    expect(tileValue(artist({ birthYear: 1939, diedYear: 2013 }), 'debutYear', 2026)).toBe('נפטר בגיל 74')
+    expect(tileValue(artist({ birthYear: 1957, diedYear: 2000 }), 'debutYear', 2026)).toBe('נפטר בגיל 43')
+    expect(tileValue(artist({ birthYear: 1955, diedYear: 2024, gender: 'female' }), 'debutYear', 2026)).toBe('נפטרה בגיל 69')
   })
 
   it('deceased artist without origin year falls back to normal age', () => {

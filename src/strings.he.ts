@@ -46,6 +46,11 @@ export const strings = {
     female: 'אישה',
     mixed: 'מעורב',
   },
+  ageDeceased: {
+    male: 'נפטר בגיל {age}',
+    female: 'נפטרה בגיל {age}',
+    mixed: 'נפטרו בגיל {age}',
+  } as const,
   genreValues: {
     pop: 'פופ',
     mizrahi: 'מזרחית',
