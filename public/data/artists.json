@@ -6,9 +6,9 @@
     "aliases": [
       "Omer Adam"
     ],
-    "debutYear": 1993,
+    "debutYear": 2009,
     "birthYear": 1993,
-    "breakthroughYear": 1993,
+    "breakthroughYear": 2009,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -42,9 +42,9 @@
       "Eyal Golan Biton",
       "אייל גולן ביטון"
     ],
-    "debutYear": 1971,
+    "debutYear": 1978,
     "birthYear": 1971,
-    "breakthroughYear": 1971,
+    "breakthroughYear": 1978,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -75,9 +75,9 @@
     "aliases": [
       "Moshe Peretz"
     ],
-    "debutYear": 1983,
+    "debutYear": 2002,
     "birthYear": 1983,
-    "breakthroughYear": 1983,
+    "breakthroughYear": 2002,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -108,9 +108,9 @@
     "aliases": [
       "Shlomo Artzi"
     ],
-    "debutYear": 1949,
+    "debutYear": 1969,
     "birthYear": 1949,
-    "breakthroughYear": 1949,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -143,9 +143,10 @@
     "aliases": [
       "Arik Einstein"
     ],
-    "debutYear": 0,
+    "debutYear": 1957,
     "birthYear": 1939,
-    "breakthroughYear": 0,
+    "diedYear": 2013,
+    "breakthroughYear": 1957,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -167,8 +168,7 @@
       "deezerFans": 15391,
       "hewikiPageviews90d": 18273,
       "wikidataSitelinks": 26
-    },
-    "diedYear": 2013
+    }
   },
   {
     "id": "aviv-geffen",
@@ -177,9 +177,9 @@
     "aliases": [
       "Aviv Geffen"
     ],
-    "debutYear": 1973,
+    "debutYear": 1990,
     "birthYear": 1973,
-    "breakthroughYear": 1973,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -212,9 +212,9 @@
     "aliases": [
       "Idan Raichel"
     ],
-    "debutYear": 1977,
+    "debutYear": 1998,
     "birthYear": 1977,
-    "breakthroughYear": 1977,
+    "breakthroughYear": 1998,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -246,9 +246,9 @@
     "aliases": [
       "Rami Kleinstein"
     ],
-    "debutYear": 1962,
+    "debutYear": 1978,
     "birthYear": 1962,
-    "breakthroughYear": 1962,
+    "breakthroughYear": 1978,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -281,9 +281,9 @@
     "aliases": [
       "Ivri Lider"
     ],
-    "debutYear": 1974,
+    "debutYear": 1997,
     "birthYear": 1974,
-    "breakthroughYear": 1974,
+    "breakthroughYear": 1997,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -314,9 +314,9 @@
     "aliases": [
       "Ehud Banai"
     ],
-    "debutYear": 1953,
+    "debutYear": 1977,
     "birthYear": 1953,
-    "breakthroughYear": 1953,
+    "breakthroughYear": 1977,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -349,9 +349,9 @@
     "aliases": [
       "Evyatar Banai"
     ],
-    "debutYear": 1973,
+    "debutYear": 1997,
     "birthYear": 1973,
-    "breakthroughYear": 1973,
+    "breakthroughYear": 1997,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -384,9 +384,9 @@
     "aliases": [
       "Berry Sakharof"
     ],
-    "debutYear": 1957,
+    "debutYear": 1973,
     "birthYear": 1957,
-    "breakthroughYear": 1957,
+    "breakthroughYear": 1973,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -419,9 +419,10 @@
     "aliases": [
       "Matti Caspi"
     ],
-    "debutYear": 1949,
+    "debutYear": 0,
     "birthYear": 1949,
-    "breakthroughYear": 1949,
+    "diedYear": 2026,
+    "breakthroughYear": 1973,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -445,8 +446,7 @@
       "deezerFans": 3451,
       "hewikiPageviews90d": 8514,
       "wikidataSitelinks": 10
-    },
-    "diedYear": 2026
+    }
   },
   {
     "id": "shalom-hanoch",
@@ -455,9 +455,9 @@
     "aliases": [
       "Shalom Hanoch"
     ],
-    "debutYear": 0,
+    "debutYear": 1967,
     "birthYear": 1946,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1967,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -490,9 +490,9 @@
     "aliases": [
       "Yehoram Gaon"
     ],
-    "debutYear": 0,
+    "debutYear": 1957,
     "birthYear": 1939,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1957,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -523,9 +523,10 @@
     "aliases": [
       "Zohar Argov"
     ],
-    "debutYear": 1955,
+    "debutYear": 1977,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "diedYear": 1987,
+    "breakthroughYear": 1977,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -547,8 +548,7 @@
       "deezerFans": 1952,
       "hewikiPageviews90d": 14309,
       "wikidataSitelinks": 13
-    },
-    "diedYear": 1987
+    }
   },
   {
     "id": "haim-moshe",
@@ -557,9 +557,9 @@
     "aliases": [
       "Haim Moshe"
     ],
-    "debutYear": 1955,
+    "debutYear": 1975,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "breakthroughYear": 1975,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -590,9 +590,9 @@
     "aliases": [
       "Shlomi Shabat"
     ],
-    "debutYear": 1954,
+    "debutYear": 1985,
     "birthYear": 1954,
-    "breakthroughYear": 1954,
+    "breakthroughYear": 1985,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -623,9 +623,9 @@
     "aliases": [
       "Dudu Aharon"
     ],
-    "debutYear": 0,
+    "debutYear": 2007,
     "birthYear": 1984,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -656,9 +656,9 @@
     "aliases": [
       "Ofer Levi"
     ],
-    "debutYear": 1964,
+    "debutYear": 1988,
     "birthYear": 1964,
-    "breakthroughYear": 1964,
+    "breakthroughYear": 1988,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -689,9 +689,9 @@
     "aliases": [
       "Asaf Amdursky"
     ],
-    "debutYear": 1971,
+    "debutYear": 1988,
     "birthYear": 1971,
-    "breakthroughYear": 1971,
+    "breakthroughYear": 1988,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -724,9 +724,9 @@
     "aliases": [
       "Asaf Avidan"
     ],
-    "debutYear": 1980,
+    "debutYear": 2002,
     "birthYear": 1980,
-    "breakthroughYear": 1980,
+    "breakthroughYear": 2002,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -760,9 +760,9 @@
     "aliases": [
       "Dudu Tassa"
     ],
-    "debutYear": 1977,
+    "debutYear": 1992,
     "birthYear": 1977,
-    "breakthroughYear": 1977,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -793,9 +793,9 @@
     "aliases": [
       "Harel Skaat"
     ],
-    "debutYear": 1981,
+    "debutYear": 2004,
     "birthYear": 1981,
-    "breakthroughYear": 1981,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -826,9 +826,9 @@
     "aliases": [
       "David Broza"
     ],
-    "debutYear": 1955,
+    "debutYear": 1977,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "breakthroughYear": 1977,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -859,9 +859,9 @@
     "aliases": [
       "Shlomo Gronich"
     ],
-    "debutYear": 1949,
+    "debutYear": 1969,
     "birthYear": 1949,
-    "breakthroughYear": 1949,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -892,9 +892,9 @@
     "aliases": [
       "Yishai Ribo"
     ],
-    "debutYear": 1989,
+    "debutYear": 2007,
     "birthYear": 1989,
-    "breakthroughYear": 1989,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -926,9 +926,9 @@
       "Tuna",
       "איתי זבולון"
     ],
-    "debutYear": 1984,
+    "debutYear": 2001,
     "birthYear": 2008,
-    "breakthroughYear": 1984,
+    "breakthroughYear": 2001,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -959,9 +959,9 @@
       "Peled",
       "איתי פלד"
     ],
-    "debutYear": 1986,
+    "debutYear": 2004,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -989,9 +989,9 @@
     "aliases": [
       "Subliminal"
     ],
-    "debutYear": 1979,
+    "debutYear": 1999,
     "birthYear": 1979,
-    "breakthroughYear": 1979,
+    "breakthroughYear": 1999,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -1022,9 +1022,9 @@
     "aliases": [
       "Sarit Hadad"
     ],
-    "debutYear": 1978,
+    "debutYear": 1994,
     "birthYear": 1978,
-    "breakthroughYear": 1978,
+    "breakthroughYear": 1994,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1056,9 +1056,9 @@
       "Noa Kirel",
       "נויה קירל"
     ],
-    "debutYear": 2001,
+    "debutYear": 2015,
     "birthYear": 2001,
-    "breakthroughYear": 2001,
+    "breakthroughYear": 2015,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1089,9 +1089,9 @@
     "aliases": [
       "Eden Ben Zaken"
     ],
-    "debutYear": 0,
+    "debutYear": 2013,
     "birthYear": 1994,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2013,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1122,9 +1122,9 @@
     "aliases": [
       "Eden Hason"
     ],
-    "debutYear": 1994,
+    "debutYear": 2017,
     "birthYear": 1994,
-    "breakthroughYear": 1994,
+    "breakthroughYear": 2017,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -1155,9 +1155,9 @@
     "aliases": [
       "Netta Barzilai"
     ],
-    "debutYear": 1993,
+    "debutYear": 2012,
     "birthYear": 1993,
-    "breakthroughYear": 1993,
+    "breakthroughYear": 2012,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1190,9 +1190,9 @@
     "aliases": [
       "Ninet Tayeb"
     ],
-    "debutYear": 0,
+    "debutYear": 2003,
     "birthYear": 1983,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1223,9 +1223,9 @@
     "aliases": [
       "Dana International"
     ],
-    "debutYear": 1969,
+    "debutYear": 1993,
     "birthYear": 1969,
-    "breakthroughYear": 1969,
+    "breakthroughYear": 1993,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1258,9 +1258,9 @@
     "aliases": [
       "Yehudit Ravitz"
     ],
-    "debutYear": 1956,
+    "debutYear": 1976,
     "birthYear": 1956,
-    "breakthroughYear": 1956,
+    "breakthroughYear": 1976,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1293,9 +1293,9 @@
     "aliases": [
       "Chava Alberstein"
     ],
-    "debutYear": 0,
+    "debutYear": 1964,
     "birthYear": 1946,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1964,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1326,9 +1326,9 @@
     "aliases": [
       "Ilanit"
     ],
-    "debutYear": 0,
+    "debutYear": 1964,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1964,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1359,9 +1359,9 @@
     "aliases": [
       "Rita"
     ],
-    "debutYear": 0,
+    "debutYear": 1986,
     "birthYear": 1962,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1986,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1392,9 +1392,9 @@
       "ירדנה פינבאום",
       "ירדנה שולמית ארזי"
     ],
-    "debutYear": 1951,
+    "debutYear": 1965,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1425,9 +1425,10 @@
     "aliases": [
       "Ofra Haza"
     ],
-    "debutYear": 1957,
+    "debutYear": 1969,
     "birthYear": 1957,
-    "breakthroughYear": 1957,
+    "diedYear": 2000,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1452,8 +1453,7 @@
       "deezerFans": 9138,
       "hewikiPageviews90d": 11427,
       "wikidataSitelinks": 54
-    },
-    "diedYear": 2000
+    }
   },
   {
     "id": "zehava-ben",
@@ -1463,9 +1463,9 @@
       "Zehava Ben",
       "זהבה בניסטי"
     ],
-    "debutYear": 1968,
+    "debutYear": 1988,
     "birthYear": 1968,
-    "breakthroughYear": 1968,
+    "breakthroughYear": 1988,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1496,9 +1496,9 @@
     "aliases": [
       "Gali Atari"
     ],
-    "debutYear": 1953,
+    "debutYear": 1970,
     "birthYear": 1953,
-    "breakthroughYear": 1953,
+    "breakthroughYear": 1970,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1529,9 +1529,9 @@
     "aliases": [
       "Noga Erez"
     ],
-    "debutYear": 1989,
+    "debutYear": 2011,
     "birthYear": 1989,
-    "breakthroughYear": 1989,
+    "breakthroughYear": 2011,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1564,9 +1564,9 @@
     "aliases": [
       "Ester Rada"
     ],
-    "debutYear": 1985,
+    "debutYear": 2003,
     "birthYear": 1985,
-    "breakthroughYear": 1985,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1597,9 +1597,9 @@
     "aliases": [
       "Yael Naim"
     ],
-    "debutYear": 1978,
+    "debutYear": 2000,
     "birthYear": 1978,
-    "breakthroughYear": 1978,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1632,9 +1632,9 @@
     "aliases": [
       "Achinoam Nini"
     ],
-    "debutYear": 1969,
+    "debutYear": 1990,
     "birthYear": 1969,
-    "breakthroughYear": 1969,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1666,9 +1666,9 @@
     "aliases": [
       "Nasrin Kadri"
     ],
-    "debutYear": 1986,
+    "debutYear": 2012,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2012,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1699,9 +1699,9 @@
     "aliases": [
       "Karolina"
     ],
-    "debutYear": 0,
+    "debutYear": 1999,
     "birthYear": 1971,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1999,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -1796,7 +1796,7 @@
       "Mashina"
     ],
     "debutYear": 1985,
-    "breakthroughYear": 1985,
+    "breakthroughYear": 1983,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -1828,7 +1828,7 @@
       "Ethnix"
     ],
     "debutYear": 1989,
-    "breakthroughYear": 1989,
+    "breakthroughYear": 1984,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -1988,7 +1988,7 @@
       "Teapacks"
     ],
     "debutYear": 1990,
-    "breakthroughYear": 1990,
+    "breakthroughYear": 1988,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -2050,7 +2050,7 @@
       "The Idan Raichel Project"
     ],
     "debutYear": 0,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2002,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -2080,9 +2080,10 @@
     "aliases": [
       "Chaim Topol"
     ],
-    "debutYear": 0,
+    "debutYear": 1957,
     "birthYear": 1935,
-    "breakthroughYear": 0,
+    "diedYear": 2023,
+    "breakthroughYear": 1957,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2104,8 +2105,7 @@
       "deezerFans": 47,
       "hewikiPageviews90d": 5473,
       "wikidataSitelinks": 44
-    },
-    "diedYear": 2023
+    }
   },
   {
     "id": "eden-golan",
@@ -2114,9 +2114,9 @@
     "aliases": [
       "Eden Golan"
     ],
-    "debutYear": 2003,
+    "debutYear": 2015,
     "birthYear": 2003,
-    "breakthroughYear": 2003,
+    "breakthroughYear": 2015,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2147,9 +2147,9 @@
     "aliases": [
       "Izhar Cohen"
     ],
-    "debutYear": 1951,
+    "debutYear": 1970,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "breakthroughYear": 1970,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2180,9 +2180,9 @@
     "aliases": [
       "Amir"
     ],
-    "debutYear": 1984,
+    "debutYear": 2006,
     "birthYear": 1984,
-    "breakthroughYear": 1984,
+    "breakthroughYear": 2006,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2213,9 +2213,9 @@
     "aliases": [
       "Mira Awad"
     ],
-    "debutYear": 1975,
+    "debutYear": 1991,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1991,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2246,9 +2246,9 @@
     "aliases": [
       "Ivan Urgant"
     ],
-    "debutYear": 1978,
+    "debutYear": 1999,
     "birthYear": 1978,
-    "breakthroughYear": 1978,
+    "breakthroughYear": 1999,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2274,9 +2274,9 @@
     "aliases": [
       "Eden Alene"
     ],
-    "debutYear": 2000,
+    "debutYear": 2017,
     "birthYear": 2000,
-    "breakthroughYear": 2000,
+    "breakthroughYear": 2017,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2304,9 +2304,9 @@
     "aliases": [
       "Yuval Raphael"
     ],
-    "debutYear": 2000,
+    "debutYear": 2024,
     "birthYear": 2000,
-    "breakthroughYear": 2000,
+    "breakthroughYear": 2024,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2337,9 +2337,9 @@
     "aliases": [
       "Shiri Maimon"
     ],
-    "debutYear": 1981,
+    "debutYear": 2003,
     "birthYear": 1981,
-    "breakthroughYear": 1981,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2370,9 +2370,9 @@
     "aliases": [
       "Andrey Makarevich"
     ],
-    "debutYear": 1953,
+    "debutYear": 1968,
     "birthYear": 1953,
-    "breakthroughYear": 1953,
+    "breakthroughYear": 1968,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2405,7 +2405,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1924,
-    "breakthroughYear": 0,
+    "diedYear": 2015,
+    "breakthroughYear": 1946,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2424,8 +2425,7 @@
       "deezerFans": 221,
       "hewikiPageviews90d": 300,
       "wikidataSitelinks": 31
-    },
-    "diedYear": 2015
+    }
   },
   {
     "id": "mei-finegold",
@@ -2434,9 +2434,9 @@
     "aliases": [
       "Mei Finegold"
     ],
-    "debutYear": 1982,
+    "debutYear": 2009,
     "birthYear": 1982,
-    "breakthroughYear": 1982,
+    "breakthroughYear": 2009,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2467,9 +2467,9 @@
     "aliases": [
       "Bo'az Ma'uda"
     ],
-    "debutYear": 1987,
+    "debutYear": 2007,
     "birthYear": 1987,
-    "breakthroughYear": 1987,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2500,9 +2500,9 @@
     "aliases": [
       "Inbar Lavi"
     ],
-    "debutYear": 0,
+    "debutYear": 2004,
     "birthYear": 1986,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2529,9 +2529,9 @@
     "aliases": [
       "Moran Mazor"
     ],
-    "debutYear": 1991,
+    "debutYear": 2011,
     "birthYear": 1991,
-    "breakthroughYear": 1991,
+    "breakthroughYear": 2011,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2559,9 +2559,9 @@
     "aliases": [
       "Imri Ziv"
     ],
-    "debutYear": 1991,
+    "debutYear": 2009,
     "birthYear": 1991,
-    "breakthroughYear": 1991,
+    "breakthroughYear": 2009,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2591,9 +2591,9 @@
       "Nadav Guedj",
       "נדב גדג'‎"
     ],
-    "debutYear": 1998,
+    "debutYear": 2015,
     "birthYear": 1998,
-    "breakthroughYear": 1998,
+    "breakthroughYear": 2015,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2624,9 +2624,9 @@
     "aliases": [
       "Noam Bettan"
     ],
-    "debutYear": 1998,
+    "debutYear": 2017,
     "birthYear": 1998,
-    "breakthroughYear": 1998,
+    "breakthroughYear": 2017,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2657,9 +2657,9 @@
     "aliases": [
       "Odeya Rush"
     ],
-    "debutYear": 0,
+    "debutYear": 2010,
     "birthYear": 1997,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2010,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2686,9 +2686,9 @@
     "aliases": [
       "Hovi Star"
     ],
-    "debutYear": 1986,
+    "debutYear": 2007,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2719,9 +2719,9 @@
     "aliases": [
       "Kobi Marimi"
     ],
-    "debutYear": 1991,
+    "debutYear": 2017,
     "birthYear": 1991,
-    "breakthroughYear": 1991,
+    "breakthroughYear": 2017,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2749,9 +2749,9 @@
     "aliases": [
       "Michael Ben David"
     ],
-    "debutYear": 1996,
+    "debutYear": 0,
     "birthYear": 1996,
-    "breakthroughYear": 1996,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -2784,9 +2784,10 @@
       "אליפז",
       "ש. כרמל"
     ],
-    "debutYear": 0,
+    "debutYear": 1951,
     "birthYear": 1930,
-    "breakthroughYear": 0,
+    "diedYear": 2004,
+    "breakthroughYear": 1951,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2808,8 +2809,7 @@
       "deezerFans": 367,
       "hewikiPageviews90d": 12756,
       "wikidataSitelinks": 27
-    },
-    "diedYear": 2004
+    }
   },
   {
     "id": "alona-tal",
@@ -2818,9 +2818,9 @@
     "aliases": [
       "Alona Tal"
     ],
-    "debutYear": 0,
+    "debutYear": 2003,
     "birthYear": 1983,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2847,9 +2847,10 @@
     "aliases": [
       "Ronit Elkabetz"
     ],
-    "debutYear": 0,
+    "debutYear": 1990,
     "birthYear": 1964,
-    "breakthroughYear": 0,
+    "diedYear": 2016,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2867,8 +2868,7 @@
       "deezerFans": 0,
       "hewikiPageviews90d": 9941,
       "wikidataSitelinks": 27
-    },
-    "diedYear": 2016
+    }
   },
   {
     "id": "esther-ofarim",
@@ -2877,9 +2877,9 @@
     "aliases": [
       "Esther Ofarim"
     ],
-    "debutYear": 0,
+    "debutYear": 1959,
     "birthYear": 1941,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1959,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2910,9 +2910,10 @@
     "aliases": [
       "Daliah Lavi"
     ],
-    "debutYear": 0,
+    "debutYear": 1955,
     "birthYear": 1942,
-    "breakthroughYear": 0,
+    "diedYear": 2017,
+    "breakthroughYear": 1955,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2934,8 +2935,7 @@
       "deezerFans": 2216,
       "hewikiPageviews90d": 1003,
       "wikidataSitelinks": 25
-    },
-    "diedYear": 2017
+    }
   },
   {
     "id": "shoshana-damari",
@@ -2946,7 +2946,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1923,
-    "breakthroughYear": 0,
+    "diedYear": 2006,
+    "breakthroughYear": 1939,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -2968,8 +2969,7 @@
       "deezerFans": 232,
       "hewikiPageviews90d": 7466,
       "wikidataSitelinks": 25
-    },
-    "diedYear": 2006
+    }
   },
   {
     "id": "keren-ann",
@@ -2978,9 +2978,9 @@
     "aliases": [
       "Keren Ann"
     ],
-    "debutYear": 1974,
+    "debutYear": 2000,
     "birthYear": 1974,
-    "breakthroughYear": 1974,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3011,9 +3011,9 @@
     "aliases": [
       "Avishai Cohen"
     ],
-    "debutYear": 1970,
+    "debutYear": 1993,
     "birthYear": 1970,
-    "breakthroughYear": 1970,
+    "breakthroughYear": 1993,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3044,9 +3044,9 @@
     "aliases": [
       "Hana Laszlo"
     ],
-    "debutYear": 1953,
+    "debutYear": 1972,
     "birthYear": 1953,
-    "breakthroughYear": 1953,
+    "breakthroughYear": 1972,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3077,9 +3077,9 @@
     "aliases": [
       "Lolita Milyavskaya"
     ],
-    "debutYear": 0,
+    "debutYear": 1979,
     "birthYear": 1963,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1979,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3105,9 +3105,9 @@
     "aliases": [
       "Dafna Dekel"
     ],
-    "debutYear": 0,
+    "debutYear": 1984,
     "birthYear": 1966,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1984,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3138,9 +3138,9 @@
     "aliases": [
       "Yaël Abecassis"
     ],
-    "debutYear": 1967,
+    "debutYear": 1981,
     "birthYear": 1967,
-    "breakthroughYear": 1967,
+    "breakthroughYear": 1981,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3168,9 +3168,9 @@
     "aliases": [
       "Lior Narkis"
     ],
-    "debutYear": 1976,
+    "debutYear": 1992,
     "birthYear": 1976,
-    "breakthroughYear": 1976,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3201,9 +3201,9 @@
     "aliases": [
       "Kamilya Jubran"
     ],
-    "debutYear": 1963,
+    "debutYear": 1983,
     "birthYear": 1962,
-    "breakthroughYear": 1963,
+    "breakthroughYear": 1983,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3231,9 +3231,10 @@
     "aliases": [
       "Carmela Corren"
     ],
-    "debutYear": 0,
+    "debutYear": 1956,
     "birthYear": 1938,
-    "breakthroughYear": 0,
+    "diedYear": 2022,
+    "breakthroughYear": 1956,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3252,8 +3253,7 @@
       "deezerFans": 246,
       "hewikiPageviews90d": 119,
       "wikidataSitelinks": 19
-    },
-    "diedYear": 2022
+    }
   },
   {
     "id": "vladimir-shainsky",
@@ -3262,9 +3262,10 @@
     "aliases": [
       "Vladimir Shainsky"
     ],
-    "debutYear": 0,
+    "debutYear": 1949,
     "birthYear": 1925,
-    "breakthroughYear": 0,
+    "diedYear": 2017,
+    "breakthroughYear": 1949,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3283,8 +3284,7 @@
       "deezerFans": 8,
       "hewikiPageviews90d": 71,
       "wikidataSitelinks": 19
-    },
-    "diedYear": 2017
+    }
   },
   {
     "id": "rika-zara",
@@ -3293,9 +3293,10 @@
     "aliases": [
       "Rika Zaraï"
     ],
-    "debutYear": 0,
+    "debutYear": 1960,
     "birthYear": 1938,
-    "breakthroughYear": 0,
+    "diedYear": 2020,
+    "breakthroughYear": 1960,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3317,8 +3318,7 @@
       "deezerFans": 1964,
       "hewikiPageviews90d": 771,
       "wikidataSitelinks": 19
-    },
-    "diedYear": 2020
+    }
   },
   {
     "id": "ishtar",
@@ -3328,9 +3328,9 @@
       "Ishtar",
       "אסתר זך"
     ],
-    "debutYear": 1968,
+    "debutYear": 1996,
     "birthYear": 1968,
-    "breakthroughYear": 1968,
+    "breakthroughYear": 1996,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3361,9 +3361,9 @@
     "aliases": [
       "Mor Karbasi"
     ],
-    "debutYear": 1986,
+    "debutYear": 2008,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2008,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3393,7 +3393,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1925,
-    "breakthroughYear": 0,
+    "diedYear": 2012,
+    "breakthroughYear": 1933,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3415,8 +3416,7 @@
       "deezerFans": 126,
       "hewikiPageviews90d": 5375,
       "wikidataSitelinks": 18
-    },
-    "diedYear": 2012
+    }
   },
   {
     "id": "david-d-or",
@@ -3425,9 +3425,9 @@
     "aliases": [
       "David D'Or"
     ],
-    "debutYear": 1965,
+    "debutYear": 1985,
     "birthYear": 1965,
-    "breakthroughYear": 1965,
+    "breakthroughYear": 1985,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3458,9 +3458,10 @@
     "aliases": [
       "Svika Pick"
     ],
-    "debutYear": 1949,
+    "debutYear": 1966,
     "birthYear": 1949,
-    "breakthroughYear": 1949,
+    "diedYear": 2022,
+    "breakthroughYear": 1966,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3482,8 +3483,7 @@
       "deezerFans": 351,
       "hewikiPageviews90d": 7895,
       "wikidataSitelinks": 17
-    },
-    "diedYear": 2022
+    }
   },
   {
     "id": "ania-bukstein",
@@ -3492,9 +3492,9 @@
     "aliases": [
       "Ania Bukstein"
     ],
-    "debutYear": 1982,
+    "debutYear": 1994,
     "birthYear": 1982,
-    "breakthroughYear": 1982,
+    "breakthroughYear": 1994,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3525,9 +3525,9 @@
     "aliases": [
       "Oren Lavie"
     ],
-    "debutYear": 1976,
+    "debutYear": 1997,
     "birthYear": 1976,
-    "breakthroughYear": 1976,
+    "breakthroughYear": 1997,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3558,9 +3558,10 @@
     "aliases": [
       "Mike Brant"
     ],
-    "debutYear": 0,
+    "debutYear": 1969,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "diedYear": 1975,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3582,8 +3583,7 @@
       "deezerFans": 198480,
       "hewikiPageviews90d": 3363,
       "wikidataSitelinks": 16
-    },
-    "diedYear": 1975
+    }
   },
   {
     "id": "avi-toledano",
@@ -3592,9 +3592,9 @@
     "aliases": [
       "Avi Toledano"
     ],
-    "debutYear": 1948,
+    "debutYear": 1965,
     "birthYear": 1948,
-    "breakthroughYear": 1948,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3626,9 +3626,9 @@
       "Anna Zak",
       "אנה קוזנקוב"
     ],
-    "debutYear": 2001,
+    "debutYear": 2014,
     "birthYear": 2001,
-    "breakthroughYear": 2001,
+    "breakthroughYear": 2014,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3659,9 +3659,9 @@
     "aliases": [
       "Eddie Butler"
     ],
-    "debutYear": 1971,
+    "debutYear": 0,
     "birthYear": 1971,
-    "breakthroughYear": 1971,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3688,9 +3688,9 @@
     "aliases": [
       "Dalal Abu Amneh"
     ],
-    "debutYear": 1983,
+    "debutYear": 0,
     "birthYear": 1983,
-    "breakthroughYear": 1983,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3718,9 +3718,10 @@
     "aliases": [
       "Abi Ofarim"
     ],
-    "debutYear": 0,
+    "debutYear": 1950,
     "birthYear": 1937,
-    "breakthroughYear": 0,
+    "diedYear": 2018,
+    "breakthroughYear": 1950,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3739,8 +3740,7 @@
       "deezerFans": 15,
       "hewikiPageviews90d": 873,
       "wikidataSitelinks": 14
-    },
-    "diedYear": 2018
+    }
   },
   {
     "id": "keren-peles",
@@ -3749,9 +3749,9 @@
     "aliases": [
       "Keren Peles"
     ],
-    "debutYear": 1979,
+    "debutYear": 2005,
     "birthYear": 1979,
-    "breakthroughYear": 1979,
+    "breakthroughYear": 2005,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3782,9 +3782,9 @@
     "aliases": [
       "Ran Danker"
     ],
-    "debutYear": 1984,
+    "debutYear": 2007,
     "birthYear": 1984,
-    "breakthroughYear": 1984,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3815,9 +3815,9 @@
     "aliases": [
       "Guy Mardel"
     ],
-    "debutYear": 0,
+    "debutYear": 1965,
     "birthYear": 1944,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -3847,9 +3847,9 @@
     "aliases": [
       "Pnina Rosenblum"
     ],
-    "debutYear": 1954,
+    "debutYear": 0,
     "birthYear": 1954,
-    "breakthroughYear": 1954,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3880,9 +3880,9 @@
     "aliases": [
       "Noa Tishby"
     ],
-    "debutYear": 1975,
+    "debutYear": 1990,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3910,9 +3910,9 @@
     "aliases": [
       "Riff Cohen"
     ],
-    "debutYear": 1984,
+    "debutYear": 2008,
     "birthYear": 1984,
-    "breakthroughYear": 1984,
+    "breakthroughYear": 2008,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3943,9 +3943,9 @@
     "aliases": [
       "Miri Mesika"
     ],
-    "debutYear": 1978,
+    "debutYear": 1998,
     "birthYear": 1978,
-    "breakthroughYear": 1978,
+    "breakthroughYear": 1998,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -3976,9 +3976,9 @@
     "aliases": [
       "Mordechai Ben David"
     ],
-    "debutYear": 1951,
+    "debutYear": 1973,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "breakthroughYear": 1973,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4011,7 +4011,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1983,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4038,9 +4038,9 @@
     "aliases": [
       "Liraz Charhi"
     ],
-    "debutYear": 1978,
+    "debutYear": 2004,
     "birthYear": 1978,
-    "breakthroughYear": 1978,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4074,9 +4074,10 @@
     "aliases": [
       "Meir Banai"
     ],
-    "debutYear": 1960,
+    "debutYear": 1982,
     "birthYear": 1960,
-    "breakthroughYear": 1960,
+    "diedYear": 2017,
+    "breakthroughYear": 1982,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4098,8 +4099,7 @@
       "deezerFans": 3118,
       "hewikiPageviews90d": 22366,
       "wikidataSitelinks": 13
-    },
-    "diedYear": 2017
+    }
   },
   {
     "id": "aki-avni",
@@ -4108,9 +4108,9 @@
     "aliases": [
       "Aki Avni"
     ],
-    "debutYear": 1967,
+    "debutYear": 0,
     "birthYear": 1967,
-    "breakthroughYear": 1967,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4139,9 +4139,10 @@
     "aliases": [
       "Uzi Hitman"
     ],
-    "debutYear": 0,
+    "debutYear": 1976,
     "birthYear": 1952,
-    "breakthroughYear": 0,
+    "diedYear": 2004,
+    "breakthroughYear": 1976,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4163,8 +4164,7 @@
       "deezerFans": 419,
       "hewikiPageviews90d": 8874,
       "wikidataSitelinks": 12
-    },
-    "diedYear": 2004
+    }
   },
   {
     "id": "corinne-allal",
@@ -4173,9 +4173,10 @@
     "aliases": [
       "Corinne Allal"
     ],
-    "debutYear": 1955,
+    "debutYear": 1973,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "diedYear": 2024,
+    "breakthroughYear": 1973,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4197,8 +4198,7 @@
       "deezerFans": 568,
       "hewikiPageviews90d": 8232,
       "wikidataSitelinks": 12
-    },
-    "diedYear": 2024
+    }
   },
   {
     "id": "tal-sondak",
@@ -4207,9 +4207,9 @@
     "aliases": [
       "Tal Sondak"
     ],
-    "debutYear": 1976,
+    "debutYear": 2000,
     "birthYear": 1976,
-    "breakthroughYear": 1976,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4237,9 +4237,10 @@
     "aliases": [
       "Gila Goldstein"
     ],
-    "debutYear": 0,
+    "debutYear": 2000,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "diedYear": 2017,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4257,8 +4258,7 @@
       "deezerFans": 2,
       "hewikiPageviews90d": 872,
       "wikidataSitelinks": 12
-    },
-    "diedYear": 2017
+    }
   },
   {
     "id": "dennis-lloyd",
@@ -4267,9 +4267,9 @@
     "aliases": [
       "Dennis Lloyd"
     ],
-    "debutYear": 1993,
+    "debutYear": 2015,
     "birthYear": 1993,
-    "breakthroughYear": 1993,
+    "breakthroughYear": 2015,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4332,9 +4332,9 @@
     "aliases": [
       "Amit Farkash"
     ],
-    "debutYear": 1989,
+    "debutYear": 2007,
     "birthYear": 1989,
-    "breakthroughYear": 1989,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4365,9 +4365,9 @@
     "aliases": [
       "Yehuda Poliker"
     ],
-    "debutYear": 1950,
+    "debutYear": 1980,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1980,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4398,9 +4398,9 @@
     "aliases": [
       "Sarai Givaty"
     ],
-    "debutYear": 1982,
+    "debutYear": 2004,
     "birthYear": 1982,
-    "breakthroughYear": 1982,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4456,9 +4456,9 @@
     "aliases": [
       "Amal Murkus"
     ],
-    "debutYear": 1968,
+    "debutYear": 0,
     "birthYear": 1968,
-    "breakthroughYear": 1968,
+    "breakthroughYear": 1998,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4486,9 +4486,9 @@
     "aliases": [
       "Dana Ivgy"
     ],
-    "debutYear": 1982,
+    "debutYear": 1992,
     "birthYear": 1982,
-    "breakthroughYear": 1982,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4516,9 +4516,10 @@
     "aliases": [
       "Yossi Banai"
     ],
-    "debutYear": 0,
+    "debutYear": 1956,
     "birthYear": 1932,
-    "breakthroughYear": 0,
+    "diedYear": 2006,
+    "breakthroughYear": 1956,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4540,8 +4541,7 @@
       "deezerFans": 656,
       "hewikiPageviews90d": 15673,
       "wikidataSitelinks": 11
-    },
-    "diedYear": 2006
+    }
   },
   {
     "id": "efrat-gosh",
@@ -4551,9 +4551,9 @@
       "Efrat Gosh",
       "שושנה ברדלס"
     ],
-    "debutYear": 1983,
+    "debutYear": 2004,
     "birthYear": 1983,
-    "breakthroughYear": 1983,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4586,7 +4586,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1910,
-    "breakthroughYear": 0,
+    "diedYear": 1990,
+    "breakthroughYear": 1929,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4605,8 +4606,7 @@
       "deezerFans": 4,
       "hewikiPageviews90d": 1600,
       "wikidataSitelinks": 10
-    },
-    "diedYear": 1990
+    }
   },
   {
     "id": "marina-maximilian-blumin",
@@ -4615,9 +4615,9 @@
     "aliases": [
       "Marina Maximilian Blumin"
     ],
-    "debutYear": 0,
+    "debutYear": 2002,
     "birthYear": 1987,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2002,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4646,9 +4646,9 @@
     "aliases": [
       "Shuli Rand"
     ],
-    "debutYear": 1962,
+    "debutYear": 1985,
     "birthYear": 1962,
-    "breakthroughYear": 1962,
+    "breakthroughYear": 1985,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4679,9 +4679,9 @@
     "aliases": [
       "Rivka Michaeli"
     ],
-    "debutYear": 0,
+    "debutYear": 1949,
     "birthYear": 1938,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1949,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4709,9 +4709,9 @@
     "aliases": [
       "Etti Ankri"
     ],
-    "debutYear": 1963,
+    "debutYear": 1990,
     "birthYear": 1963,
-    "breakthroughYear": 1963,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4744,9 +4744,10 @@
     "aliases": [
       "Suki Lahav"
     ],
-    "debutYear": 1951,
+    "debutYear": 1969,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "diedYear": 2026,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4768,8 +4769,7 @@
       "deezerFans": 5,
       "hewikiPageviews90d": 4777,
       "wikidataSitelinks": 10
-    },
-    "diedYear": 2026
+    }
   },
   {
     "id": "kirill-safonov",
@@ -4778,9 +4778,9 @@
     "aliases": [
       "Kirill Safonov"
     ],
-    "debutYear": 0,
+    "debutYear": 1997,
     "birthYear": 1973,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1997,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4807,9 +4807,9 @@
     "aliases": [
       "Sarai Tzuriel"
     ],
-    "debutYear": 1952,
+    "debutYear": 1971,
     "birthYear": 1952,
-    "breakthroughYear": 1952,
+    "breakthroughYear": 1971,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4837,9 +4837,9 @@
     "aliases": [
       "Dafna Rechter"
     ],
-    "debutYear": 0,
+    "debutYear": 1984,
     "birthYear": 1965,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1984,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4867,9 +4867,9 @@
     "aliases": [
       "Michal Yannai"
     ],
-    "debutYear": 1972,
+    "debutYear": 0,
     "birthYear": 1972,
-    "breakthroughYear": 1972,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4897,9 +4897,9 @@
     "aliases": [
       "MC Abdul"
     ],
-    "debutYear": 2008,
+    "debutYear": 2020,
     "birthYear": 2008,
-    "breakthroughYear": 2008,
+    "breakthroughYear": 2020,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4929,9 +4929,9 @@
     "aliases": [
       "Dana Berger"
     ],
-    "debutYear": 1970,
+    "debutYear": 1990,
     "birthYear": 1970,
-    "breakthroughYear": 1970,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -4962,9 +4962,10 @@
     "aliases": [
       "Meir Ariel"
     ],
-    "debutYear": 0,
+    "debutYear": 1967,
     "birthYear": 1942,
-    "breakthroughYear": 0,
+    "diedYear": 1999,
+    "breakthroughYear": 1967,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -4986,8 +4987,7 @@
       "deezerFans": 3674,
       "hewikiPageviews90d": 9478,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 1999
+    }
   },
   {
     "id": "noam-kaniel",
@@ -4996,9 +4996,9 @@
     "aliases": [
       "Noam Kaniel"
     ],
-    "debutYear": 1962,
+    "debutYear": 1971,
     "birthYear": 1962,
-    "breakthroughYear": 1962,
+    "breakthroughYear": 1971,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5025,9 +5025,9 @@
     "aliases": [
       "Mosh Ben-Ari"
     ],
-    "debutYear": 1970,
+    "debutYear": 1995,
     "birthYear": 1970,
-    "breakthroughYear": 1970,
+    "breakthroughYear": 1995,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5085,9 +5085,9 @@
     "aliases": [
       "Sofi Tsedaka"
     ],
-    "debutYear": 1975,
+    "debutYear": 0,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5115,9 +5115,9 @@
     "aliases": [
       "Roy Arad"
     ],
-    "debutYear": 1976,
+    "debutYear": 0,
     "birthYear": 1976,
-    "breakthroughYear": 1976,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5143,9 +5143,9 @@
     "aliases": [
       "Aya Korem"
     ],
-    "debutYear": 1980,
+    "debutYear": 2006,
     "birthYear": 1980,
-    "breakthroughYear": 1980,
+    "breakthroughYear": 2006,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5176,9 +5176,9 @@
     "aliases": [
       "Liel Kolet"
     ],
-    "debutYear": 1989,
+    "debutYear": 2000,
     "birthYear": 1989,
-    "breakthroughYear": 1989,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5209,9 +5209,9 @@
     "aliases": [
       "Anat Atzmon"
     ],
-    "debutYear": 1958,
+    "debutYear": 1976,
     "birthYear": 1958,
-    "breakthroughYear": 1958,
+    "breakthroughYear": 1976,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5239,9 +5239,9 @@
     "aliases": [
       "Riki Gal"
     ],
-    "debutYear": 1950,
+    "debutYear": 1968,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1968,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5274,6 +5274,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1927,
+    "diedYear": 2017,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -5293,8 +5294,7 @@
       "deezerFans": 1,
       "hewikiPageviews90d": 169,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 2017
+    }
   },
   {
     "id": "avihu-medina",
@@ -5303,9 +5303,9 @@
     "aliases": [
       "Avihu Medina"
     ],
-    "debutYear": 1948,
+    "debutYear": 1970,
     "birthYear": 1948,
-    "breakthroughYear": 1948,
+    "breakthroughYear": 1970,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5336,9 +5336,9 @@
     "aliases": [
       "Moti Giladi"
     ],
-    "debutYear": 0,
+    "debutYear": 1969,
     "birthYear": 1946,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5366,9 +5366,9 @@
     "aliases": [
       "Miri Aloni"
     ],
-    "debutYear": 1949,
+    "debutYear": 1968,
     "birthYear": 1949,
-    "breakthroughYear": 1949,
+    "breakthroughYear": 1968,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5399,9 +5399,9 @@
     "aliases": [
       "Chen Aharoni"
     ],
-    "debutYear": 1990,
+    "debutYear": 2007,
     "birthYear": 1990,
-    "breakthroughYear": 1990,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5429,9 +5429,9 @@
     "aliases": [
       "Liora"
     ],
-    "debutYear": 1970,
+    "debutYear": 1989,
     "birthYear": 1970,
-    "breakthroughYear": 1970,
+    "breakthroughYear": 1989,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5458,9 +5458,9 @@
     "aliases": [
       "Yoni Bloch"
     ],
-    "debutYear": 1981,
+    "debutYear": 2003,
     "birthYear": 1981,
-    "breakthroughYear": 1981,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5495,7 +5495,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1905,
-    "breakthroughYear": 0,
+    "diedYear": 1980,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5512,8 +5513,7 @@
     "metrics": {
       "hewikiPageviews90d": 462,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 1980
+    }
   },
   {
     "id": "dudu-fisher",
@@ -5522,9 +5522,9 @@
     "aliases": [
       "Dudu Fisher"
     ],
-    "debutYear": 1951,
+    "debutYear": 1970,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "breakthroughYear": 1970,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5555,9 +5555,9 @@
     "aliases": [
       "Hani Furstenberg"
     ],
-    "debutYear": 1979,
+    "debutYear": 0,
     "birthYear": 1979,
-    "breakthroughYear": 1979,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5584,9 +5584,9 @@
     "aliases": [
       "Miriam Toukan"
     ],
-    "debutYear": 1982,
+    "debutYear": 0,
     "birthYear": 1982,
-    "breakthroughYear": 1982,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5616,7 +5616,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1927,
-    "breakthroughYear": 0,
+    "diedYear": 2024,
+    "breakthroughYear": 1946,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5638,8 +5639,7 @@
       "deezerFans": 39985,
       "hewikiPageviews90d": 4320,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 2024
+    }
   },
   {
     "id": "yitzhak-isaac-levy",
@@ -5650,6 +5650,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1919,
+    "diedYear": 1977,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -5667,8 +5668,7 @@
     "metrics": {
       "hewikiPageviews90d": 315,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 1977
+    }
   },
   {
     "id": "assaf-gavron",
@@ -5706,9 +5706,9 @@
     "aliases": [
       "Tamer Nafar"
     ],
-    "debutYear": 1979,
+    "debutYear": 1999,
     "birthYear": 1979,
-    "breakthroughYear": 1979,
+    "breakthroughYear": 1999,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5739,9 +5739,9 @@
       "Lina Makoul",
       "לינה מחול"
     ],
-    "debutYear": 1993,
+    "debutYear": 2013,
     "birthYear": 1993,
-    "breakthroughYear": 1993,
+    "breakthroughYear": 2013,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5771,6 +5771,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1949,
+    "diedYear": 2026,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -5789,8 +5790,7 @@
       "deezerFans": 712,
       "hewikiPageviews90d": 2850,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 2026
+    }
   },
   {
     "id": "yigal-bashan",
@@ -5799,9 +5799,10 @@
     "aliases": [
       "Yigal Bashan"
     ],
-    "debutYear": 0,
+    "debutYear": 1965,
     "birthYear": 1950,
-    "breakthroughYear": 0,
+    "diedYear": 2018,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5823,8 +5824,7 @@
       "deezerFans": 386,
       "hewikiPageviews90d": 7331,
       "wikidataSitelinks": 9
-    },
-    "diedYear": 2018
+    }
   },
   {
     "id": "tzachi-halevy",
@@ -5833,9 +5833,9 @@
     "aliases": [
       "Tzachi HaLevy"
     ],
-    "debutYear": 1975,
+    "debutYear": 1999,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1999,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5866,9 +5866,9 @@
     "aliases": [
       "Daniella Pick"
     ],
-    "debutYear": 1983,
+    "debutYear": 0,
     "birthYear": 1983,
-    "breakthroughYear": 1983,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5896,9 +5896,9 @@
     "aliases": [
       "Margalit Tzan'ani"
     ],
-    "debutYear": 1948,
+    "debutYear": 1971,
     "birthYear": 1948,
-    "breakthroughYear": 1948,
+    "breakthroughYear": 1971,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -5931,9 +5931,9 @@
       "מייק בורנשטיין",
       "מייקל בורשטיין"
     ],
-    "debutYear": 0,
+    "debutYear": 1948,
     "birthYear": 1945,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1948,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5962,9 +5962,9 @@
       "Boaz Sharabi",
       "בועז שרעבי"
     ],
-    "debutYear": 0,
+    "debutYear": 1964,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1964,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -5995,9 +5995,9 @@
     "aliases": [
       "Meskie Shibru-Sivan"
     ],
-    "debutYear": 1967,
+    "debutYear": 0,
     "birthYear": 1967,
-    "breakthroughYear": 1967,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6023,9 +6023,9 @@
     "aliases": [
       "Orly Silbersatz"
     ],
-    "debutYear": 1957,
+    "debutYear": 1978,
     "birthYear": 1957,
-    "breakthroughYear": 1957,
+    "breakthroughYear": 1978,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6054,9 +6054,9 @@
     "aliases": [
       "Ilana Eliya"
     ],
-    "debutYear": 1955,
+    "debutYear": 1992,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6084,9 +6084,9 @@
     "aliases": [
       "Yehonathan Gatro"
     ],
-    "debutYear": 1977,
+    "debutYear": 2000,
     "birthYear": 1977,
-    "breakthroughYear": 1977,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6111,9 +6111,9 @@
     "aliases": [
       "Ariel Zilber"
     ],
-    "debutYear": 0,
+    "debutYear": 1967,
     "birthYear": 1943,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1967,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6146,7 +6146,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1914,
-    "breakthroughYear": 0,
+    "diedYear": 1983,
+    "breakthroughYear": 1933,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6162,8 +6163,7 @@
     "metrics": {
       "hewikiPageviews90d": 44,
       "wikidataSitelinks": 8
-    },
-    "diedYear": 1983
+    }
   },
   {
     "id": "maya-bouskilla",
@@ -6172,9 +6172,9 @@
     "aliases": [
       "Maya Bouskilla"
     ],
-    "debutYear": 1977,
+    "debutYear": 2003,
     "birthYear": 1977,
-    "breakthroughYear": 1977,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6205,9 +6205,9 @@
     "aliases": [
       "Linet"
     ],
-    "debutYear": 1975,
+    "debutYear": 1985,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1985,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6237,9 +6237,9 @@
     "aliases": [
       "Nathan Goshen"
     ],
-    "debutYear": 1986,
+    "debutYear": 2010,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2010,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6270,9 +6270,9 @@
     "aliases": [
       "Shlomit Aharon"
     ],
-    "debutYear": 1950,
+    "debutYear": 1965,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6300,9 +6300,9 @@
     "aliases": [
       "Tomer Yosef"
     ],
-    "debutYear": 1975,
+    "debutYear": 1994,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1994,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6363,9 +6363,9 @@
     "aliases": [
       "Sivan Levy"
     ],
-    "debutYear": 1987,
+    "debutYear": 2007,
     "birthYear": 1987,
-    "breakthroughYear": 1987,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6393,9 +6393,9 @@
     "aliases": [
       "Zohar Strauss"
     ],
-    "debutYear": 0,
+    "debutYear": 2001,
     "birthYear": 1972,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2001,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6420,9 +6420,9 @@
     "aliases": [
       "Motty Steinmets"
     ],
-    "debutYear": 1992,
+    "debutYear": 2012,
     "birthYear": 1992,
-    "breakthroughYear": 1992,
+    "breakthroughYear": 2012,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6453,9 +6453,9 @@
     "aliases": [
       "Jonatan Mergui"
     ],
-    "debutYear": 2000,
+    "debutYear": 2017,
     "birthYear": 2000,
-    "breakthroughYear": 2000,
+    "breakthroughYear": 2017,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6484,9 +6484,10 @@
     "aliases": [
       "Ilana Rovina"
     ],
-    "debutYear": 0,
+    "debutYear": 1959,
     "birthYear": 1934,
-    "breakthroughYear": 0,
+    "diedYear": 2020,
+    "breakthroughYear": 1959,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6505,8 +6506,7 @@
       "deezerFans": 6,
       "hewikiPageviews90d": 3742,
       "wikidataSitelinks": 8
-    },
-    "diedYear": 2020
+    }
   },
   {
     "id": "yoni-rechter",
@@ -6515,9 +6515,9 @@
     "aliases": [
       "Yoni Rechter"
     ],
-    "debutYear": 1951,
+    "debutYear": 1972,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "breakthroughYear": 1972,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6548,9 +6548,9 @@
     "aliases": [
       "Roni Dalumi"
     ],
-    "debutYear": 1991,
+    "debutYear": 2009,
     "birthYear": 1991,
-    "breakthroughYear": 1991,
+    "breakthroughYear": 2009,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6583,6 +6583,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1908,
+    "diedYear": 1961,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -6599,8 +6600,7 @@
     "metrics": {
       "hewikiPageviews90d": 629,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 1961
+    }
   },
   {
     "id": "amir-benayoun",
@@ -6609,9 +6609,9 @@
     "aliases": [
       "Amir Benayoun"
     ],
-    "debutYear": 0,
+    "debutYear": 1999,
     "birthYear": 1975,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1999,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6642,9 +6642,9 @@
     "aliases": [
       "Dani Litani"
     ],
-    "debutYear": 0,
+    "debutYear": 1968,
     "birthYear": 1943,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1968,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6675,9 +6675,9 @@
     "aliases": [
       "Shaike Levi"
     ],
-    "debutYear": 0,
+    "debutYear": 1958,
     "birthYear": 1939,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1958,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6709,9 +6709,9 @@
       "Aderet",
       "הדר בביוף"
     ],
-    "debutYear": 1975,
+    "debutYear": 0,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 2001,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6741,9 +6741,9 @@
       "לירון דואני",
       "רוני סופרסטאר"
     ],
-    "debutYear": 1986,
+    "debutYear": 2003,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6774,9 +6774,9 @@
     "aliases": [
       "Sivan Shavit"
     ],
-    "debutYear": 1967,
+    "debutYear": 1989,
     "birthYear": 1967,
-    "breakthroughYear": 1967,
+    "breakthroughYear": 1989,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6804,9 +6804,9 @@
     "aliases": [
       "Maxim Leonidov"
     ],
-    "debutYear": 1962,
+    "debutYear": 0,
     "birthYear": 1962,
-    "breakthroughYear": 1962,
+    "breakthroughYear": 1996,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6833,9 +6833,9 @@
     "aliases": [
       "Lyova Bi-2"
     ],
-    "debutYear": 1972,
+    "debutYear": 1988,
     "birthYear": 1972,
-    "breakthroughYear": 1972,
+    "breakthroughYear": 1988,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6860,9 +6860,9 @@
     "aliases": [
       "Natasha Manor"
     ],
-    "debutYear": 0,
+    "debutYear": 1985,
     "birthYear": 1958,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1985,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6889,9 +6889,9 @@
     "aliases": [
       "Danni Bassan"
     ],
-    "debutYear": 1955,
+    "debutYear": 1974,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "breakthroughYear": 1974,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -6922,9 +6922,9 @@
     "aliases": [
       "Shuli Natan"
     ],
-    "debutYear": 0,
+    "debutYear": 1967,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1967,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -6979,9 +6979,9 @@
     "aliases": [
       "Avraham Fried"
     ],
-    "debutYear": 1959,
+    "debutYear": 1981,
     "birthYear": 1959,
-    "breakthroughYear": 1959,
+    "breakthroughYear": 1981,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7012,9 +7012,9 @@
     "aliases": [
       "Kabra Kasai"
     ],
-    "debutYear": 1982,
+    "debutYear": 2003,
     "birthYear": 1982,
-    "breakthroughYear": 1982,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7043,8 +7043,8 @@
       "Victoria Hanna",
       "ויקטוריה חנה גבאי"
     ],
-    "debutYear": 0,
-    "breakthroughYear": 0,
+    "debutYear": 2015,
+    "breakthroughYear": 2015,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7072,9 +7072,9 @@
     "aliases": [
       "Nitza Shaul"
     ],
-    "debutYear": 1950,
+    "debutYear": 1968,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1968,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7102,9 +7102,9 @@
     "aliases": [
       "Sara Sharon"
     ],
-    "debutYear": 1948,
+    "debutYear": 1979,
     "birthYear": 1948,
-    "breakthroughYear": 1948,
+    "breakthroughYear": 1979,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7130,9 +7130,9 @@
     "aliases": [
       "Michael Moshonov"
     ],
-    "debutYear": 1986,
+    "debutYear": 2008,
     "birthYear": 1986,
-    "breakthroughYear": 1986,
+    "breakthroughYear": 2008,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7160,9 +7160,9 @@
     "aliases": [
       "Noam Jacobson"
     ],
-    "debutYear": 1975,
+    "debutYear": 2004,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7192,7 +7192,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1928,
-    "breakthroughYear": 0,
+    "diedYear": 2020,
+    "breakthroughYear": 1963,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7211,8 +7212,7 @@
       "deezerFans": 4,
       "hewikiPageviews90d": 57,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 2020
+    }
   },
   {
     "id": "tirtza-atar",
@@ -7221,9 +7221,10 @@
     "aliases": [
       "Tirtza Atar"
     ],
-    "debutYear": 0,
+    "debutYear": 1957,
     "birthYear": 1941,
-    "breakthroughYear": 0,
+    "diedYear": 1977,
+    "breakthroughYear": 1957,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7245,8 +7246,7 @@
       "deezerFans": 1,
       "hewikiPageviews90d": 10722,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 1977
+    }
   },
   {
     "id": "amir-frischer-gutman",
@@ -7255,9 +7255,10 @@
     "aliases": [
       "Amir Frischer Gutman"
     ],
-    "debutYear": 1976,
+    "debutYear": 1995,
     "birthYear": 1976,
-    "breakthroughYear": 1976,
+    "diedYear": 2017,
+    "breakthroughYear": 1995,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7276,8 +7277,7 @@
       "deezerFans": 0,
       "hewikiPageviews90d": 6564,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 2017
+    }
   },
   {
     "id": "zohra-al-fassiya",
@@ -7288,6 +7288,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1905,
+    "diedYear": 1994,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -7306,8 +7307,7 @@
       "deezerFans": 59,
       "hewikiPageviews90d": 870,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 1994
+    }
   },
   {
     "id": "tzipi-shavit",
@@ -7316,9 +7316,9 @@
     "aliases": [
       "Tzipi Shavit"
     ],
-    "debutYear": 0,
+    "debutYear": 1965,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7349,9 +7349,10 @@
     "aliases": [
       "Yisrael Poliakov"
     ],
-    "debutYear": 0,
+    "debutYear": 1958,
     "birthYear": 1941,
-    "breakthroughYear": 0,
+    "diedYear": 2007,
+    "breakthroughYear": 1958,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7370,8 +7371,7 @@
       "deezerFans": 0,
       "hewikiPageviews90d": 10104,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 2007
+    }
   },
   {
     "id": "yonatan-razel",
@@ -7380,9 +7380,9 @@
     "aliases": [
       "Yonatan Razel"
     ],
-    "debutYear": 1973,
+    "debutYear": 2007,
     "birthYear": 1973,
-    "breakthroughYear": 1973,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7413,9 +7413,9 @@
     "aliases": [
       "Willy Weiner"
     ],
-    "debutYear": 0,
+    "debutYear": 1974,
     "birthYear": 1955,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1974,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7441,9 +7441,9 @@
     "aliases": [
       "Kobi Farhi"
     ],
-    "debutYear": 1975,
+    "debutYear": 1991,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1991,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7469,9 +7469,9 @@
     "aliases": [
       "Neta Elkayam"
     ],
-    "debutYear": 1980,
+    "debutYear": 0,
     "birthYear": 1980,
-    "breakthroughYear": 1980,
+    "breakthroughYear": 2023,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7500,9 +7500,10 @@
       "Aner Shapira",
       "ענר אליקים שפירא"
     ],
-    "debutYear": 2001,
+    "debutYear": 2021,
     "birthYear": 2001,
-    "breakthroughYear": 2001,
+    "diedYear": 2023,
+    "breakthroughYear": 2021,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7522,8 +7523,7 @@
     "metrics": {
       "hewikiPageviews90d": 10358,
       "wikidataSitelinks": 7
-    },
-    "diedYear": 2023
+    }
   },
   {
     "id": "maayan-licht",
@@ -7559,9 +7559,9 @@
     "aliases": [
       "Pablo Rosenberg"
     ],
-    "debutYear": 0,
+    "debutYear": 1980,
     "birthYear": 1965,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1980,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7589,9 +7589,9 @@
     "aliases": [
       "Harel Moyal"
     ],
-    "debutYear": 1981,
+    "debutYear": 2000,
     "birthYear": 1981,
-    "breakthroughYear": 1981,
+    "breakthroughYear": 2000,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7619,9 +7619,9 @@
     "aliases": [
       "Shimi Tavori"
     ],
-    "debutYear": 1953,
+    "debutYear": 1969,
     "birthYear": 1953,
-    "breakthroughYear": 1953,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7652,9 +7652,9 @@
     "aliases": [
       "Hagit Yaso"
     ],
-    "debutYear": 1989,
+    "debutYear": 2009,
     "birthYear": 1989,
-    "breakthroughYear": 1989,
+    "breakthroughYear": 2009,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7682,9 +7682,9 @@
     "aliases": [
       "אורלי ויינרמן"
     ],
-    "debutYear": 0,
+    "debutYear": 1987,
     "birthYear": 1971,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1987,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7709,9 +7709,9 @@
     "aliases": [
       "Avi Belleli"
     ],
-    "debutYear": 1963,
+    "debutYear": 1981,
     "birthYear": 1963,
-    "breakthroughYear": 1963,
+    "breakthroughYear": 1981,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7739,9 +7739,10 @@
     "aliases": [
       "Nechama Hendel"
     ],
-    "debutYear": 0,
+    "debutYear": 1957,
     "birthYear": 1936,
-    "breakthroughYear": 0,
+    "diedYear": 1998,
+    "breakthroughYear": 1957,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7760,8 +7761,7 @@
       "deezerFans": 38,
       "hewikiPageviews90d": 1354,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 1998
+    }
   },
   {
     "id": "mooki",
@@ -7771,9 +7771,9 @@
       "Mooki",
       "דני ניב"
     ],
-    "debutYear": 1975,
+    "debutYear": 1992,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7806,7 +7806,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1941,
-    "breakthroughYear": 0,
+    "diedYear": 2018,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -7824,8 +7825,7 @@
       "deezerFans": 86,
       "hewikiPageviews90d": 502,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2018
+    }
   },
   {
     "id": "shay-gabso",
@@ -7834,9 +7834,9 @@
     "aliases": [
       "Shay Gabso"
     ],
-    "debutYear": 1984,
+    "debutYear": 2003,
     "birthYear": 1984,
-    "breakthroughYear": 1984,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7869,6 +7869,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1918,
+    "diedYear": 2005,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -7885,8 +7886,7 @@
     "metrics": {
       "hewikiPageviews90d": 204,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2005
+    }
   },
   {
     "id": "arkadi-duchin",
@@ -7895,9 +7895,9 @@
     "aliases": [
       "Arkadi Duchin"
     ],
-    "debutYear": 1963,
+    "debutYear": 1980,
     "birthYear": 1963,
-    "breakthroughYear": 1963,
+    "breakthroughYear": 1980,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7928,9 +7928,10 @@
     "aliases": [
       "Shmulik Kraus"
     ],
-    "debutYear": 0,
+    "debutYear": 1958,
     "birthYear": 1935,
-    "breakthroughYear": 0,
+    "diedYear": 2013,
+    "breakthroughYear": 1958,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7951,8 +7952,7 @@
       "deezerFans": 195,
       "hewikiPageviews90d": 5335,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2013
+    }
   },
   {
     "id": "avner-strauss",
@@ -7961,9 +7961,9 @@
     "aliases": [
       "Avner Strauss"
     ],
-    "debutYear": 1954,
+    "debutYear": 0,
     "birthYear": 1954,
-    "breakthroughYear": 1954,
+    "breakthroughYear": 1987,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -7991,9 +7991,9 @@
     "aliases": [
       "Daklon"
     ],
-    "debutYear": 0,
+    "debutYear": 1950,
     "birthYear": 1944,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1950,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8024,9 +8024,9 @@
     "aliases": [
       "Dalia Friedland"
     ],
-    "debutYear": 0,
+    "debutYear": 1953,
     "birthYear": 1935,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1953,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8054,9 +8054,9 @@
     "aliases": [
       "Daniel Salomon"
     ],
-    "debutYear": 1973,
+    "debutYear": 1998,
     "birthYear": 1973,
-    "breakthroughYear": 1973,
+    "breakthroughYear": 1998,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8087,9 +8087,9 @@
     "aliases": [
       "Danny Sanderson"
     ],
-    "debutYear": 1950,
+    "debutYear": 1966,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1966,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8120,9 +8120,9 @@
     "aliases": [
       "Diana Golbi"
     ],
-    "debutYear": 0,
+    "debutYear": 2010,
     "birthYear": 1992,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2010,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8151,6 +8151,7 @@
       "Leib Glantz"
     ],
     "debutYear": 0,
+    "diedYear": 1964,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -8170,8 +8171,7 @@
       "deezerFans": 7,
       "hewikiPageviews90d": 119,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 1964
+    }
   },
   {
     "id": "hanan-goldblatt",
@@ -8180,9 +8180,9 @@
     "aliases": [
       "Hanan Goldblatt"
     ],
-    "debutYear": 0,
+    "debutYear": 1959,
     "birthYear": 1941,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1959,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8214,9 +8214,9 @@
       "ג׳וני גולדשטיין",
       "יונתן גולדשטיין"
     ],
-    "debutYear": 1991,
+    "debutYear": 2004,
     "birthYear": 1991,
-    "breakthroughYear": 1991,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8244,9 +8244,9 @@
     "aliases": [
       "Maya Shoef"
     ],
-    "debutYear": 0,
+    "debutYear": 2009,
     "birthYear": 1988,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2009,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8270,9 +8270,10 @@
     "aliases": [
       "Yona Atari"
     ],
-    "debutYear": 0,
+    "debutYear": 1949,
     "birthYear": 1933,
-    "breakthroughYear": 0,
+    "diedYear": 2019,
+    "breakthroughYear": 1949,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8291,8 +8292,7 @@
       "deezerFans": 5,
       "hewikiPageviews90d": 1519,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2019
+    }
   },
   {
     "id": "ami-mandelman",
@@ -8301,9 +8301,9 @@
     "aliases": [
       "Ami Mandelman"
     ],
-    "debutYear": 1950,
+    "debutYear": 1975,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1975,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8331,9 +8331,9 @@
     "aliases": [
       "Rachel Shapira"
     ],
-    "debutYear": 0,
+    "debutYear": 1967,
     "birthYear": 1945,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1967,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8363,7 +8363,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1921,
-    "breakthroughYear": 0,
+    "diedYear": 2001,
+    "breakthroughYear": 1940,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8382,8 +8383,7 @@
       "deezerFans": 1,
       "hewikiPageviews90d": 1251,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2001
+    }
   },
   {
     "id": "maya-dunietz",
@@ -8392,9 +8392,9 @@
     "aliases": [
       "Maya Dunietz"
     ],
-    "debutYear": 1981,
+    "debutYear": 0,
     "birthYear": 1981,
-    "breakthroughYear": 1981,
+    "breakthroughYear": 2021,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8422,9 +8422,10 @@
     "aliases": [
       "David Refael ben Ami"
     ],
-    "debutYear": 1950,
+    "debutYear": 0,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "diedYear": 2020,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8441,8 +8442,7 @@
     "metrics": {
       "hewikiPageviews90d": 392,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2020
+    }
   },
   {
     "id": "michal-amdursky",
@@ -8451,9 +8451,9 @@
     "aliases": [
       "Michal Amdursky"
     ],
-    "debutYear": 1975,
+    "debutYear": 0,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 1998,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8484,9 +8484,9 @@
     "aliases": [
       "Peter Roth"
     ],
-    "debutYear": 1974,
+    "debutYear": 1992,
     "birthYear": 1974,
-    "breakthroughYear": 1974,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8517,9 +8517,9 @@
     "aliases": [
       "Yaakov Rotblit"
     ],
-    "debutYear": 0,
+    "debutYear": 1968,
     "birthYear": 1945,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1968,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8547,9 +8547,9 @@
     "aliases": [
       "Nurit Galron"
     ],
-    "debutYear": 1951,
+    "debutYear": 1970,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "breakthroughYear": 1970,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8580,9 +8580,9 @@
     "aliases": [
       "Ruth Dolores Weiss"
     ],
-    "debutYear": 1978,
+    "debutYear": 0,
     "birthYear": 1978,
-    "breakthroughYear": 1978,
+    "breakthroughYear": 2002,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8610,9 +8610,9 @@
     "aliases": [
       "Shlomo Bar"
     ],
-    "debutYear": 0,
+    "debutYear": 1967,
     "birthYear": 1943,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1967,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8640,9 +8640,9 @@
     "aliases": [
       "Shye Ben Tzur"
     ],
-    "debutYear": 0,
+    "debutYear": 2003,
     "birthYear": 1975,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8670,9 +8670,9 @@
       "Zion Golan",
       "ציון בג'דלאן"
     ],
-    "debutYear": 1955,
+    "debutYear": 1978,
     "birthYear": 1955,
-    "breakthroughYear": 1955,
+    "breakthroughYear": 1978,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8702,9 +8702,9 @@
     "aliases": [
       "Rose Fostanes"
     ],
-    "debutYear": 1967,
+    "debutYear": 2013,
     "birthYear": 1967,
-    "breakthroughYear": 1967,
+    "breakthroughYear": 2013,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8732,9 +8732,10 @@
     "aliases": [
       "Cheikh Mwijo"
     ],
-    "debutYear": 0,
+    "debutYear": 1962,
     "birthYear": 1937,
-    "breakthroughYear": 0,
+    "diedYear": 2020,
+    "breakthroughYear": 1962,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8751,8 +8752,7 @@
       "deezerFans": 56,
       "hewikiPageviews90d": 362,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2020
+    }
   },
   {
     "id": "talia-shapira",
@@ -8761,9 +8761,10 @@
     "aliases": [
       "Talia Shapira"
     ],
-    "debutYear": 0,
+    "debutYear": 1962,
     "birthYear": 1946,
-    "breakthroughYear": 0,
+    "diedYear": 1992,
+    "breakthroughYear": 1962,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8782,8 +8783,7 @@
       "deezerFans": 3,
       "hewikiPageviews90d": 2823,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 1992
+    }
   },
   {
     "id": "yosi-piamenta",
@@ -8792,9 +8792,10 @@
     "aliases": [
       "Yosi Piamenta"
     ],
-    "debutYear": 1951,
+    "debutYear": 1972,
     "birthYear": 1951,
-    "breakthroughYear": 1951,
+    "diedYear": 2015,
+    "breakthroughYear": 1972,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8813,8 +8814,7 @@
       "deezerFans": 209,
       "hewikiPageviews90d": 360,
       "wikidataSitelinks": 6
-    },
-    "diedYear": 2015
+    }
   },
   {
     "id": "yehuda-green",
@@ -8823,9 +8823,9 @@
     "aliases": [
       "Yehuda Green"
     ],
-    "debutYear": 1959,
+    "debutYear": 2007,
     "birthYear": 1959,
-    "breakthroughYear": 1959,
+    "breakthroughYear": 2007,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8853,9 +8853,9 @@
     "aliases": [
       "Elam Rotem"
     ],
-    "debutYear": 1984,
+    "debutYear": 2008,
     "birthYear": 1984,
-    "breakthroughYear": 1984,
+    "breakthroughYear": 2008,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8883,9 +8883,9 @@
     "aliases": [
       "Stéphane Legar"
     ],
-    "debutYear": 1998,
+    "debutYear": 2016,
     "birthYear": 1998,
-    "breakthroughYear": 1998,
+    "breakthroughYear": 2016,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -8916,9 +8916,9 @@
     "aliases": [
       "Nunu"
     ],
-    "debutYear": 1998,
+    "debutYear": 2016,
     "birthYear": 1998,
-    "breakthroughYear": 1998,
+    "breakthroughYear": 2016,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -8951,6 +8951,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1915,
+    "diedYear": 2004,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -8967,8 +8968,7 @@
     "metrics": {
       "hewikiPageviews90d": 485,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2004
+    }
   },
   {
     "id": "izhar-ashdot",
@@ -8977,9 +8977,9 @@
     "aliases": [
       "Izhar Ashdot"
     ],
-    "debutYear": 1958,
+    "debutYear": 1973,
     "birthYear": 1958,
-    "breakthroughYear": 1958,
+    "breakthroughYear": 1973,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9012,9 +9012,9 @@
     "aliases": [
       "Rona Kenan"
     ],
-    "debutYear": 1979,
+    "debutYear": 1990,
     "birthYear": 1979,
-    "breakthroughYear": 1979,
+    "breakthroughYear": 1990,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9047,9 +9047,9 @@
     "aliases": [
       "Seffy Efrati"
     ],
-    "debutYear": 1975,
+    "debutYear": 0,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9079,9 +9079,10 @@
       "אריס סא",
       "אריסטידיס סאיסאנאס"
     ],
-    "debutYear": 0,
+    "debutYear": 1957,
     "birthYear": 1940,
-    "breakthroughYear": 0,
+    "diedYear": 1992,
+    "breakthroughYear": 1957,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9103,8 +9104,7 @@
       "deezerFans": 322,
       "hewikiPageviews90d": 4224,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 1992
+    }
   },
   {
     "id": "aharon-razel",
@@ -9113,9 +9113,9 @@
     "aliases": [
       "Aharon Razel"
     ],
-    "debutYear": 1973,
+    "debutYear": 1997,
     "birthYear": 1974,
-    "breakthroughYear": 1973,
+    "breakthroughYear": 1997,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9143,9 +9143,9 @@
     "aliases": [
       "Yehuda Glantz"
     ],
-    "debutYear": 1958,
+    "debutYear": 1977,
     "birthYear": 1958,
-    "breakthroughYear": 1958,
+    "breakthroughYear": 1977,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9173,9 +9173,9 @@
     "aliases": [
       "Yehoshua Sofer"
     ],
-    "debutYear": 0,
+    "debutYear": 1963,
     "birthYear": 1958,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1963,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9205,6 +9205,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1951,
+    "diedYear": 2023,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -9221,8 +9222,7 @@
     "metrics": {
       "hewikiPageviews90d": 63,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2023
+    }
   },
   {
     "id": "emil-gorovets",
@@ -9231,9 +9231,10 @@
     "aliases": [
       "Emil Gorovets"
     ],
-    "debutYear": 0,
+    "debutYear": 1955,
     "birthYear": 1923,
-    "breakthroughYear": 0,
+    "diedYear": 2001,
+    "breakthroughYear": 1955,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9251,8 +9252,7 @@
       "deezerFans": 7,
       "hewikiPageviews90d": 30,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2001
+    }
   },
   {
     "id": "elisa-gabbai",
@@ -9261,9 +9261,10 @@
     "aliases": [
       "Elisa Gabbai"
     ],
-    "debutYear": 0,
+    "debutYear": 1951,
     "birthYear": 1933,
-    "breakthroughYear": 0,
+    "diedYear": 2010,
+    "breakthroughYear": 1951,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9281,8 +9282,7 @@
       "deezerFans": 32,
       "hewikiPageviews90d": 68,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2010
+    }
   },
   {
     "id": "shi-360",
@@ -9292,9 +9292,9 @@
       "SHI 360",
       "שי חדד"
     ],
-    "debutYear": 1976,
+    "debutYear": 2001,
     "birthYear": 1976,
-    "breakthroughYear": 1976,
+    "breakthroughYear": 2001,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9322,9 +9322,9 @@
     "aliases": [
       "Irina Rozenfeld"
     ],
-    "debutYear": 1988,
+    "debutYear": 2003,
     "birthYear": 1988,
-    "breakthroughYear": 1988,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9376,9 +9376,9 @@
     "aliases": [
       "Alon De Loco"
     ],
-    "debutYear": 1974,
+    "debutYear": 2005,
     "birthYear": 1974,
-    "breakthroughYear": 1974,
+    "breakthroughYear": 2005,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9406,9 +9406,9 @@
     "aliases": [
       "Ariel Horowitz"
     ],
-    "debutYear": 1970,
+    "debutYear": 1998,
     "birthYear": 1970,
-    "breakthroughYear": 1970,
+    "breakthroughYear": 1998,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9441,7 +9441,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1927,
-    "breakthroughYear": 0,
+    "diedYear": 2004,
+    "breakthroughYear": 1946,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9463,8 +9464,7 @@
       "deezerFans": 260,
       "hewikiPageviews90d": 11932,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2004
+    }
   },
   {
     "id": "danny-robas",
@@ -9473,9 +9473,9 @@
     "aliases": [
       "Danny Robas"
     ],
-    "debutYear": 1957,
+    "debutYear": 1983,
     "birthYear": 1957,
-    "breakthroughYear": 1957,
+    "breakthroughYear": 1983,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9506,9 +9506,9 @@
     "aliases": [
       "Gidi Gov"
     ],
-    "debutYear": 1950,
+    "debutYear": 1969,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9539,9 +9539,9 @@
     "aliases": [
       "Ella Milch-Sheriff"
     ],
-    "debutYear": 1954,
+    "debutYear": 0,
     "birthYear": 1954,
-    "breakthroughYear": 1954,
+    "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9566,9 +9566,9 @@
     "aliases": [
       "Maya Simantov"
     ],
-    "debutYear": 0,
+    "debutYear": 2004,
     "birthYear": 1982,
-    "breakthroughYear": 0,
+    "breakthroughYear": 2004,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9596,9 +9596,9 @@
     "aliases": [
       "Shy Nobleman"
     ],
-    "debutYear": 1974,
+    "debutYear": 1995,
     "birthYear": 1974,
-    "breakthroughYear": 1974,
+    "breakthroughYear": 1995,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9628,7 +9628,8 @@
     ],
     "debutYear": 0,
     "birthYear": 1930,
-    "breakthroughYear": 0,
+    "diedYear": 2009,
+    "breakthroughYear": 1956,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9646,8 +9647,7 @@
       "deezerFans": 122,
       "hewikiPageviews90d": 1761,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2009
+    }
   },
   {
     "id": "aaron-shust",
@@ -9656,9 +9656,9 @@
     "aliases": [
       "Aaron Shust"
     ],
-    "debutYear": 1975,
+    "debutYear": 2005,
     "birthYear": 1975,
-    "breakthroughYear": 1975,
+    "breakthroughYear": 2005,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9688,9 +9688,9 @@
     "aliases": [
       "Hanny Nahmias"
     ],
-    "debutYear": 1959,
+    "debutYear": 1978,
     "birthYear": 1959,
-    "breakthroughYear": 1959,
+    "breakthroughYear": 1978,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9721,9 +9721,9 @@
     "aliases": [
       "Ohad Moskowitz"
     ],
-    "debutYear": 1974,
+    "debutYear": 0,
     "birthYear": 1974,
-    "breakthroughYear": 1974,
+    "breakthroughYear": 2003,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9753,6 +9753,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1905,
+    "diedYear": 1975,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -9769,8 +9770,7 @@
     "metrics": {
       "hewikiPageviews90d": 351,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 1975
+    }
   },
   {
     "id": "efrat-rayten",
@@ -9779,9 +9779,9 @@
     "aliases": [
       "Efrat Rayten"
     ],
-    "debutYear": 0,
+    "debutYear": 1992,
     "birthYear": 1972,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1992,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9809,9 +9809,9 @@
     "aliases": [
       "Guy Zu-aretz"
     ],
-    "debutYear": 1973,
+    "debutYear": 1991,
     "birthYear": 1973,
-    "breakthroughYear": 1973,
+    "breakthroughYear": 1991,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9839,9 +9839,10 @@
     "aliases": [
       "Avraham Abutbul"
     ],
-    "debutYear": 1961,
+    "debutYear": 1995,
     "birthYear": 1961,
-    "breakthroughYear": 1961,
+    "diedYear": 2012,
+    "breakthroughYear": 1995,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9860,8 +9861,7 @@
       "deezerFans": 5,
       "hewikiPageviews90d": 1088,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2012
+    }
   },
   {
     "id": "orna-datz",
@@ -9870,9 +9870,9 @@
     "aliases": [
       "Orna Datz"
     ],
-    "debutYear": 1964,
+    "debutYear": 1983,
     "birthYear": 1964,
-    "breakthroughYear": 1964,
+    "breakthroughYear": 1983,
     "type": "solo",
     "members": 1,
     "gender": "female",
@@ -9900,9 +9900,9 @@
     "aliases": [
       "Yuval Dor"
     ],
-    "debutYear": 1950,
+    "debutYear": 1969,
     "birthYear": 1950,
-    "breakthroughYear": 1950,
+    "breakthroughYear": 1969,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9960,9 +9960,9 @@
     "aliases": [
       "Gavri Banai"
     ],
-    "debutYear": 0,
+    "debutYear": 1958,
     "birthYear": 1939,
-    "breakthroughYear": 0,
+    "breakthroughYear": 1958,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -9990,9 +9990,9 @@
     "aliases": [
       "Miki Gavrielov"
     ],
-    "debutYear": 1949,
+    "debutYear": 1965,
     "birthYear": 1949,
-    "breakthroughYear": 1949,
+    "breakthroughYear": 1965,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -10025,6 +10025,7 @@
     ],
     "debutYear": 0,
     "birthYear": 1936,
+    "diedYear": 2016,
     "breakthroughYear": 0,
     "type": "solo",
     "members": 1,
@@ -10042,8 +10043,7 @@
     "metrics": {
       "hewikiPageviews90d": 497,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2016
+    }
   },
   {
     "id": "eli-gorenstein",
@@ -10052,9 +10052,9 @@
     "aliases": [
       "Eli Gorenstein"
     ],
-    "debutYear": 1952,
+    "debutYear": 1970,
     "birthYear": 1952,
-    "breakthroughYear": 1952,
+    "breakthroughYear": 1970,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -10082,9 +10082,10 @@
     "aliases": [
       "Aryeh Moskona"
     ],
-    "debutYear": 0,
+    "debutYear": 1971,
     "birthYear": 1947,
-    "breakthroughYear": 0,
+    "diedYear": 2025,
+    "breakthroughYear": 1971,
     "type": "solo",
     "members": 1,
     "gender": "male",
@@ -10103,8 +10104,7 @@
       "deezerFans": 0,
       "hewikiPageviews90d": 6195,
       "wikidataSitelinks": 5
-    },
-    "diedYear": 2025
+    }
   },
   {
     "id": "milk-and-honey",
@@ -10145,7 +10145,7 @@
       "Orphaned Land"
     ],
     "debutYear": 1991,
-    "breakthroughYear": 1991,
+    "breakthroughYear": 1992,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10234,7 +10234,7 @@
       "Astral Projection"
     ],
     "debutYear": 1993,
-    "breakthroughYear": 1993,
+    "breakthroughYear": 1995,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10292,7 +10292,7 @@
       "Chocolat, Menta, Mastik"
     ],
     "debutYear": 1971,
-    "breakthroughYear": 1971,
+    "breakthroughYear": 1972,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10353,7 +10353,7 @@
       "Eden"
     ],
     "debutYear": 1998,
-    "breakthroughYear": 1998,
+    "breakthroughYear": 1996,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10380,8 +10380,8 @@
     "aliases": [
       "Voca People"
     ],
-    "debutYear": 0,
-    "breakthroughYear": 0,
+    "debutYear": 2009,
+    "breakthroughYear": 2009,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10470,7 +10470,7 @@
       "Useless ID"
     ],
     "debutYear": 1995,
-    "breakthroughYear": 1995,
+    "breakthroughYear": 1994,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10613,8 +10613,8 @@
     "aliases": [
       "Lazy Bams"
     ],
-    "debutYear": 0,
-    "breakthroughYear": 0,
+    "debutYear": 1987,
+    "breakthroughYear": 1987,
     "type": "band",
     "members": 0,
     "gender": "mixed",
@@ -10876,8 +10876,8 @@
     "aliases": [
       "Deaf Chonky"
     ],
-    "debutYear": 0,
-    "breakthroughYear": 0,
+    "debutYear": 2016,
+    "breakthroughYear": 2016,
     "type": "band",
     "members": 0,
     "gender": "mixed",

@@ -29,6 +29,11 @@ describe('tileValue', () => {
     expect(tileValue(artist({ breakthroughYear: 1991 }), 'breakthrough')).toBe('1991')
   })
 
+  it('breakthrough falls back to debut when missing, then to a dash', () => {
+    expect(tileValue(artist({ breakthroughYear: 0, debutYear: 1993 }), 'breakthrough')).toBe('1993')
+    expect(tileValue(artist({ breakthroughYear: 0, debutYear: 0 }), 'breakthrough')).toBe('—')
+  })
+
   it('deceased artist shows age at death with (deceased) suffix', () => {
     expect(tileValue(artist({ birthYear: 1939, diedYear: 2013 }), 'debutYear', 2026)).toBe('נפטר בגיל 74')
     expect(tileValue(artist({ birthYear: 1957, diedYear: 2000 }), 'debutYear', 2026)).toBe('נפטר בגיל 43')

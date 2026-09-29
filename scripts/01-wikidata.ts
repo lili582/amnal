@@ -35,6 +35,7 @@ const P_INCEPTION = 'P571'
 const P_BIRTH_PLACE = 'P19'
 const P_GENRE = 'P136'
 const P_MBID = 'P434'
+const P_WORK_PERIOD_START = 'P2031'
 
 interface Datavalue {
   value?: { id?: string; time?: string; precision?: number } | string
@@ -62,6 +63,7 @@ export interface WdEntry {
   gender?: string
   birth?: string
   died?: string
+  activeSince?: string
   inception?: string
   birthPlace?: string
   genres: string[]
@@ -167,6 +169,7 @@ function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
     gender: valueText(claimValues(e, P_GENDER)[0]),
     birth: valueText(claimValues(e, P_BIRTH)[0]), // full ISO timestamp; year is extracted downstream
     died: valueText(claimValues(e, P_DEATH)[0]),
+    activeSince: valueText(claimValues(e, P_WORK_PERIOD_START)[0]),
     inception: valueText(claimValues(e, P_INCEPTION)[0]),
     birthPlace: birthPlaceId,
     genres: claimValues(e, P_GENRE).map((g) => g ?? '').filter(Boolean),
@@ -265,6 +268,7 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   for (const entry of Object.values(entries)) {
     if (entry.birth) entry.birth = entry.birth.slice(1, 5)
     if (entry.died) entry.died = entry.died.slice(1, 5)
+    if (entry.activeSince) entry.activeSince = entry.activeSince.slice(1, 5)
     if (entry.inception) entry.inception = entry.inception.slice(1, 5)
   }
 

@@ -11,6 +11,7 @@ interface MbEntry {
   type?: string
   gender?: string
   begin?: string
+  firstRelease?: string
   area?: string
   country?: string
   members: number
@@ -35,8 +36,8 @@ async function lookup(mbid: string): Promise<MbEntry> {
   lastLookup = Date.now()
 
   const data = (await cachedFetch(
-    `${MB}/artist/${mbid}?inc=tags+genres+aliases+artist-rels&fmt=json`,
-    { cacheSource: 'musicbrainz', cacheKey: mbid, retries: 3 },
+    `${MB}/artist/${mbid}?inc=tags+genres+aliases+artist-rels+release-groups&fmt=json`,
+    { cacheSource: 'musicbrainz', cacheKey: `${mbid}-rg`, retries: 3 },
   )) as Record<string, unknown> & {
     type?: string
     gender?: string
@@ -46,11 +47,20 @@ async function lookup(mbid: string): Promise<MbEntry> {
     tags?: Array<{ name: string; count: number }>
     genres?: Array<{ name: string; count: number }>
     aliases?: Array<{ name: string; locale?: string; primary?: boolean }>
+    'release-groups'?: Array<{ 'first-release-date'?: string; 'primary-type'?: string }>
   }
 
   const members = (data['artist-rels'] as Array<{ type?: string }> | undefined)?.filter(
     (r) => r.type === 'member of band',
   ).length ?? 0
+
+  // Earliest album/EP release = when the artist actually started releasing
+  // music ("breakthrough"). For persons, MusicBrainz 'begin' is the birth
+  // date, so this is the real career-start year.
+  const firstRelease = (data['release-groups'] ?? [])
+    .map((rg) => rg['first-release-date']?.slice(0, 4))
+    .filter((y): y is string => Boolean(y))
+    .sort()[0]
 
   const tagNames = (data.tags ?? [])
     .sort((a, b) => b.count - a.count)
@@ -69,6 +79,7 @@ async function lookup(mbid: string): Promise<MbEntry> {
     type: normalizeType(data.type),
     gender: data.gender ?? undefined,
     begin: data['life-span']?.begin?.slice(0, 4) ?? undefined,
+    firstRelease,
     area: data.area?.name ?? undefined,
     country: data.country ?? undefined,
     members,

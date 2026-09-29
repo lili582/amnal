@@ -11,6 +11,7 @@ interface MbEntry {
   type?: 'person' | 'group'
   gender?: string
   begin?: string
+  firstRelease?: string
   area?: string
   country?: string
   members: number
@@ -151,7 +152,15 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     }
 
     // ---- debut year ----
-    let debutYear = ov.debutYear ?? (m?.begin ? Number(m.begin) : undefined) ?? (w.inception ? Number(w.inception.slice(0, 4)) : undefined)
+    // MusicBrainz 'begin' is the birth date for persons, not a career start —
+    // only use it for groups. Persons fall back to their work-period start
+    // (when they first became active) or their first release via inception.
+    const mbBeginYear = m?.begin ? Number(m.begin) : undefined
+    let debutYear =
+      ov.debutYear ??
+      (m?.type === 'group' && mbBeginYear ? mbBeginYear : undefined) ??
+      (w.activeSince ? Number(w.activeSince) : undefined) ??
+      (w.inception ? Number(w.inception.slice(0, 4)) : undefined)
     if (!debutYear || debutYear < 1948 || debutYear > new Date().getFullYear()) {
       debutYear = ov.debutYear ?? 0
       review.push(`debutYear-missing: ${he}`)
@@ -163,8 +172,14 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       review.push(`birthYear-missing: ${he}`)
     }
 
-    // ---- breakthrough year (defaults to debut; flagged) ----
-    const breakthroughYear = ov.breakthroughYear ?? debutYear
+    // ---- breakthrough year (the year the artist became famous) ----
+    // Prefer the curated override, then Wikidata work-period start (when the
+    // artist first became active), then their first album release, then debut.
+    const breakthroughYear =
+      ov.breakthroughYear ??
+      (w.activeSince ? Number(w.activeSince) : undefined) ??
+      (m?.firstRelease ? Number(m.firstRelease) : undefined) ??
+      debutYear
     if (ov.breakthroughYear === undefined) {
       review.push(`breakthrough-defaulted: ${he} (now ${breakthroughYear})`)
     }

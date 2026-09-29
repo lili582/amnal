@@ -15,11 +15,11 @@ export function tileValue(artist: Artist, field: TileField, refYear = new Date()
           return label.replace('{age}', String(ageAtDeath))
         }
       }
-      return String(artistAge(artist, refYear))
+      return artistAge(artist, refYear) > 0 ? String(artistAge(artist, refYear)) : '—'
     case 'breakthrough':
-      return artist.breakthroughYear != null ? String(artist.breakthroughYear)
-        : artist.debutYear != null ? String(artist.debutYear)
-        : ''
+      return artist.breakthroughYear ? String(artist.breakthroughYear)
+        : artist.debutYear ? String(artist.debutYear)
+        : '—'
     case 'lineup':
       if (artist.type === 'solo') return strings.lineupValues.solo
       if (artist.type === 'duo') return strings.lineupValues.duo
