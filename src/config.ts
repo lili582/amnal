@@ -35,7 +35,7 @@ export const DATA_URL: string = envDataUrl?.replace(/\/+$/, '') ?? defaultDataUr
 export const DATA_CACHE_TTL_MS = 24 * 60 * 60 * 1000
 
 // Bump together with a breaking shape change of the served JSON files.
-export const DATA_SCHEMA_VERSION = 'v1'
+export const DATA_SCHEMA_VERSION = 'v2'
 
 // Stamp appended to runtime data fetches (?v=...). Day-based so a stale copy
 // held by any cache (browser HTTP cache, CDN edge, proxy) is bypassed on the
