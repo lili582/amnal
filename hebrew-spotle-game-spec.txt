@@ -435,7 +435,7 @@ Groups and duos
   This reflects Israeli public interest and does not depend on streaming
   platforms that under-cover Israeli artists.
 
-6.6 SPOTIFY  -  DO NOT USE (checked against Spotify's developer docs)
+6.6 SPOTIFY WEB API  -  DO NOT USE (checked against Spotify's developer docs)
   - The February 2026 Web API changes REMOVED artist "popularity" and
     "followers" fields for Development Mode apps, cut search limit to 10,
     removed batch artist endpoints, and require the app owner to have Premium.
@@ -443,6 +443,26 @@ Groups and duos
     a large organization. Metadata via Client Credentials is being moved away.
   - Conclusion: Spotify cannot supply the two things this game needs from it
     (popularity, fan counts). Do not build on it.
+
+6.6a SPOTIFY CHART MIRROR (kworb.net)  -  USE for the artist pool + ranking
+  - The pool is the top-1000 most-streamed artists on the Israeli Spotify chart,
+    so listenership must drive both pool membership and popularityTier.
+  - Spotify's own API is unusable (6.6), but kworb.net mirrors the public
+    Spotify chart totals. Source:
+      https://kworb.net/spotify/country/il_weekly_totals.html
+    Each chart row is <artist> - <track> with an all-time stream total, so
+    summing per artist yields a listenership ranking without any key.
+  - Stage scripts/00-kworb.ts fetches, parses, and aggregates the page into
+    data/raw/kworb.json (one entry per artist, with spotifyId + total streams).
+    No API key, no OAuth, no rate limit; re-runnable and cached.
+  - Stage scripts/01-wikidata.ts resolves each chart artist name to a Wikidata
+    QID (same Israeli validation as seeds) and writes data/raw/spotify.json.
+    scripts/06-merge.ts then sets ids.spotify, metrics.spotifyStreams and
+    metrics.spotifyRank, and weights spotifyStreams as the dominant tier
+    signal (0.45) ahead of pageviews/deezer/sitelinks.
+  - The pool is then forced to exactly 1000 artists (POOL_SIZE in 06-merge.ts):
+    Spotify-ranked artists first, previously-scheduled artists always kept,
+    best of the rest used as filler.
 
 6.7 OTHER CANDIDATES (not verified - only if a gap remains)
   - iTunes Search API (keyless) for artwork/genre hints.
@@ -491,16 +511,21 @@ FIELD PROVENANCE
   aliases       Hebrew label + English label + MusicBrainz aliases + manual.
 
 POPULARITY TIER (1-5)
-  1. For each artist compute the available signals: hewikiPageviews90d,
-     lastfmListeners, deezerFans, wikidataSitelinks.
+  1. For each artist compute the available signals: spotifyStreams,
+     hewikiPageviews90d, deezerFans, wikidataSitelinks.
   2. Convert each signal to a percentile rank WITHIN THE ISRAELI DATASET
      (do not use global thresholds).
   3. score = weighted mean of the available percentiles:
-        hewiki 0.4, lastfm 0.25, deezer 0.25, sitelinks 0.10
+        spotify 0.45, hewiki 0.25, deezer 0.20, sitelinks 0.10
      (renormalize weights over the signals that exist for that artist).
+     Spotify listenership (metrics.spotifyStreams) is the primary signal; it is
+     present only for chart artists, so non-chart artists are ranked by their
+     remaining signals. lastfm was dropped (no key, API unused).
   4. Tiers by score quintile: top 20% => 5 ... bottom 20% => 1.
   5. Overrides may set the tier by hand - the owner will fix obvious errors.
-  6. answerEligible defaults to (tier >= 3). Guess pool = all artists.
+  6. answerEligible defaults to (tier >= 3), and additionally requires a valid
+     debut year so a daily answer can never render an "unknown" debut tile.
+     Previously-scheduled artists are never demoted. Guess pool = all artists.
 
 Genre taxonomy is the closed enum in section 3. data/genre-map.json is a plain
 lookup, e.g. {"mizrahi":"mizrahi","israeli rock":"rock","hip-hop":"hiphop",
@@ -550,9 +575,14 @@ Default LAUNCH_DATE = "2026-10-01" (config).
 
 Schedule (scripts/08-build-schedule.ts):
   - Take all answerEligible ids, shuffle with a seeded PRNG (mulberry32, seed
-    from config), write src/data/schedule.json = ordered array of ids.
+     from config), write src/data/schedule.json = ordered array of ids.
   - answer = schedule[dayNumber % schedule.length]. No repeats until the whole
-    list is used. Never reshuffle after launch (append new ids at the end).
+     list is used. Never reshuffle after launch.
+  - Pre-launch the schedule IS regenerated from scratch on every pipeline run
+     (the shuffle is seeded, so an unchanged eligible set yields the same
+     order). This was needed once to re-baseline the pool to the top-1000
+     Spotify artists; after launch treat schedule.json as frozen and only ever
+     append new eligible ids.
   - Provide ?day=N (dev only, gated by import.meta.env.DEV) to preview days.
 
 MVP limitation: schedule.json and artists.json ship to the browser, so a curious

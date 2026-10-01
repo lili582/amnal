@@ -26,7 +26,7 @@ export interface LoadResult {
   source: DataSource
 }
 
-const PREFIX = 'amnal:v1:data'
+const PREFIX = 'amandle:v1:data'
 const cacheKey = `${PREFIX}:${DATA_SCHEMA_VERSION}`
 
 interface CacheRecord {

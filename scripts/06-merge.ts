@@ -1,10 +1,12 @@
 // 06-merge.ts — combine all sources into src/data/artists.json, apply
-// overrides LAST, tier popularity, resolve genres/regions, and emit a review
+// overrides LAST, tier popularity (Spotify listenership dominates), force the
+// pool to exactly 1000 artists, resolve genres/regions, and emit a review
 // report. Any field a source is unsure about is flagged, never guessed.
-import { readJson, writeJson, log, ROOT, normHe, existsSync, readFileSync } from './common.ts'
+import { readJson, writeJson, log, ROOT, normHe, existsSync, readFileSync, resolve, wdGender } from './common.ts'
 import type { WdEntry } from './01-wikidata.ts'
 import type * as T from '../src/types'
-import { resolve } from 'node:path'
+
+const POOL_SIZE = 1000
 
 interface MbEntry {
   mbid: string
@@ -31,6 +33,12 @@ interface Override {
   gender?: T.Gender
   popularityTier?: 1 | 2 | 3 | 4 | 5
   answerEligible?: boolean
+}
+
+interface SpotifySignal {
+  name: string
+  spotifyId?: string
+  streams: number
 }
 
 type GenreMap = Record<string, T.Genre>
@@ -78,13 +86,16 @@ function slug(en: string | undefined, he: string, used: Set<string>): string {
   return s
 }
 
-const GENDER_QID: Record<string, T.Gender> = {
-  Q6581097: 'male',
-  Q6581072: 'female',
-}
-
-function wdGender(qid: string | undefined): T.Gender | undefined {
-  return qid ? GENDER_QID[qid.replace('http://www.wikidata.org/entity/', '')] : undefined
+// A group has no gender of its own, so it inherits the gender of its members:
+// all male -> 'male', all female -> 'female', both present -> 'mixed'. When no
+// member is resolvable there is no evidence either way, so fall back to 'mixed'
+// and let the caller flag it for curation.
+function groupGender(memberGenders: Array<'male' | 'female'> | undefined): T.Gender {
+  const gs = memberGenders ?? []
+  if (gs.length === 0) return 'mixed'
+  if (gs.every((g) => g === 'male')) return 'male'
+  if (gs.every((g) => g === 'female')) return 'female'
+  return 'mixed'
 }
 
 export function run(): { artists: T.Artist[]; review: string[] } {
@@ -94,6 +105,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   const deezer = readOptional<Record<string, { id: number; fans: number; albums: number }>>('data/raw/deezer.json')
   const lastfm = readOptional<Record<string, { listeners: number; playcount: number; tags: string[] }>>('data/raw/lastfm.json')
   const pageviews = readOptional<Record<string, number>>('data/raw/pageviews.json')
+  const spotify = readOptional<Record<string, SpotifySignal>>('data/raw/spotify.json')
   const imageCache = readOptional<Record<string, string>>('data/raw/images.json')
   const famousSongs = readOptional<Record<string, T.FamousSong>>('data/famous-songs.json')
   const genreMap = readJson<GenreMap>('data/genre-map.json')
@@ -143,8 +155,12 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       review.push(`gender-defaulted-male: ${he}`)
     }
     if (!gender && type !== 'solo') {
-      gender = 'mixed'
-      review.push(`gender-defaulted-mixed: ${he}`)
+      gender = groupGender(w.memberGenders)
+      review.push(
+        gender === 'mixed'
+          ? `gender-defaulted-mixed: ${he} (no member genders — needs override)`
+          : `gender-from-members: ${he} (${w.memberGenders?.length} members, all ${gender})`,
+      )
     }
     if (gender === 'mixed' && type === 'solo') {
       gender = 'male'
@@ -183,8 +199,6 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     if (ov.breakthroughYear === undefined) {
       review.push(`breakthrough-defaulted: ${he} (now ${breakthroughYear})`)
     }
-
-    // ---- gender correctness for groups ----
 
     // ---- genres ----
     const tagCandidates: Array<{ tag: string; source: string }> = []
@@ -233,6 +247,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       lastfmListeners: lastfm?.[qid]?.listeners,
       hewikiPageviews90d: pageviews?.[qid],
       wikidataSitelinks: w.sitelinks,
+      spotifyStreams: spotify?.[qid]?.streams,
     }
 
     const aliases = new Set<string>()
@@ -263,6 +278,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
         wikidata: `Q${qid.replace(/^Q/, '')}`,
         musicbrainz: mbid,
         deezer: deezer?.[qid]?.id,
+        spotify: spotify?.[qid]?.spotifyId,
       },
       metrics,
     }
@@ -274,15 +290,32 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   }
 
   // ---- popularity tiering (within-dataset percentiles, weighted) ----
+  // Spotify listenership is now the dominant signal (see tierArtists below).
   tierArtists(artists, review)
 
   // ---- answerEligible from tier when not overridden ----
+  const nowYear = new Date().getFullYear()
+  const debutOk = (a: T.Artist): boolean => a.debutYear >= 1948 && a.debutYear <= nowYear
   for (const a of artists) {
     const ov = overrides[a.nameHe] ?? overrides[a.nameEn ?? ''] ?? {}
     if (ov.answerEligible === undefined) {
-      a.answerEligible = a.popularityTier >= 3
+      a.answerEligible = a.popularityTier >= 3 && debutOk(a)
     }
   }
+
+  // ---- force the pool to exactly POOL_SIZE ----
+  // Scheduled ids must never drop out (the daily rotation is append-only), so
+  // they are always kept; the remaining slots go to the top Spotify-listened
+  // artists first, then to the best of the rest. Dropped artists are removed
+  // from the output dataset entirely.
+  const schedulePath = resolve(ROOT, 'public/data/schedule.json')
+  const existingSchedule = existsSync(schedulePath)
+    ? (JSON.parse(readFileSync(schedulePath, 'utf8')) as string[])
+    : []
+  const { pool, droppedCount } = forcePool(artists, existingSchedule, POOL_SIZE, review)
+  artists.length = 0
+  artists.push(...pool)
+  if (droppedCount > 0) review.push(`pool-dropped: ${droppedCount} artists removed to cap the pool at ${POOL_SIZE}`)
 
   // genre sanity: primary must not appear in secondary
   for (const a of artists) {
@@ -304,9 +337,9 @@ export function run(): { artists: T.Artist[]; review: string[] } {
 
 function tierArtists(artists: T.Artist[], review: string[]): void {
   const signalWeights = [
-    { key: 'hewikiPageviews90d' as const, w: 0.4 },
-    { key: 'lastfmListeners' as const, w: 0.25 },
-    { key: 'deezerFans' as const, w: 0.25 },
+    { key: 'spotifyStreams' as const, w: 0.45 },
+    { key: 'hewikiPageviews90d' as const, w: 0.25 },
+    { key: 'deezerFans' as const, w: 0.2 },
     { key: 'wikidataSitelinks' as const, w: 0.1 },
   ]
 
@@ -354,6 +387,51 @@ function tierArtists(artists: T.Artist[], review: string[]): void {
     const m = a.metrics as Record<string, unknown> | undefined
     if (m) for (const k of Object.keys(m)) if (k.startsWith('__pct_')) delete m[k]
   }
+}
+
+// Select exactly POOL_SIZE artists for the game pool. Artists already in the
+// previous schedule are always kept in the pool (so an artist a player already
+// guessed never disappears from the guess list); the remaining slots go first to
+// the highest-Spotify-listened artists, then to the best of the rest (by
+// pageviews, then deezer). Returns the pool and the number of artists dropped.
+function forcePool(
+  artists: T.Artist[],
+  scheduleOrder: string[],
+  size: number,
+  review: string[],
+): { pool: T.Artist[]; droppedCount: number } {
+  const byId = new Map(artists.map((a) => [a.id, a]))
+  const pool: T.Artist[] = []
+
+  for (const id of scheduleOrder) {
+    const a = byId.get(id)
+    if (a) pool.push(a)
+  }
+
+  const rest = artists.filter((a) => !pool.includes(a)).sort((x, y) => {
+    const xs = x.metrics?.spotifyStreams ?? 0
+    const ys = y.metrics?.spotifyStreams ?? 0
+    if (xs || ys) return ys - xs
+    const xv = x.metrics?.hewikiPageviews90d ?? 0
+    const yv = y.metrics?.hewikiPageviews90d ?? 0
+    if (xv !== yv) return yv - xv
+    return (y.metrics?.deezerFans ?? 0) - (x.metrics?.deezerFans ?? 0)
+  })
+
+  for (const a of rest) {
+    if (pool.length >= size) break
+    pool.push(a)
+  }
+
+  // Assign a Spotify-based rank metric for diagnostics (1 = most streamed).
+  const spRanked = [...pool].filter((a) => a.metrics?.spotifyStreams).sort(
+    (x, y) => (y.metrics?.spotifyStreams ?? 0) - (x.metrics?.spotifyStreams ?? 0),
+  )
+  spRanked.forEach((a, i) => {
+    a.metrics = { ...a.metrics, spotifyRank: i + 1 }
+  })
+
+  return { pool, droppedCount: artists.length - pool.length }
 }
 
 if (process.argv[1]?.endsWith('06-merge.ts')) {

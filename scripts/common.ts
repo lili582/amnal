@@ -11,7 +11,7 @@ export const RAW_DIR = resolve(ROOT, 'data/raw')
 
 export const CONTACT_EMAIL = process.env.CONTACT_EMAIL ?? 'you@example.com'
 export const USER_AGENT =
-  process.env.USER_AGENT ?? `AmnalBuilder/0.1 (mailto:${CONTACT_EMAIL})`
+  process.env.USER_AGENT ?? `AmandleBuilder/0.1 (mailto:${CONTACT_EMAIL})`
 
 // ---------------------------------------------------------------------------
 // Caching
@@ -119,6 +119,22 @@ export function normHe(s: string): string {
   out = out.toLowerCase()
   out = out.replace(/[^\p{L}\p{N}]+/gu, ' ')
   return out.replace(/\s+/g, ' ').trim()
+}
+
+// ---------------------------------------------------------------------------
+// Wikidata P21 (sex or gender)
+// ---------------------------------------------------------------------------
+
+// Only the two values the game models. Anything else — notably the non-binary
+// Q1052281 — is deliberately left unmapped so it is never coerced into a bin.
+export const GENDER_QID: Record<string, 'male' | 'female'> = {
+  Q6581097: 'male',
+  Q6581072: 'female',
+}
+
+export function wdGender(qid: string | undefined): 'male' | 'female' | undefined {
+  if (!qid) return undefined
+  return GENDER_QID[qid.replace('http://www.wikidata.org/entity/', '')]
 }
 
 // Basic Levenshtein for relaxed name matching.

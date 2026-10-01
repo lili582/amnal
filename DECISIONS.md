@@ -106,3 +106,47 @@
     param resolved to day 0 (pinning every dev session to the same artist).
     Tests now derive the target exactly as `useGame` does, so the suite no
     longer depends on the calendar day's parity.
+16. **Stale local data cache (2026-09-30).** The "artist not shown as dead"
+    bug was not a data problem: `src/lib/dataLoader.ts` caches `artists.json`
+    in `localStorage` for 24h, so players (and any stale snapshot) kept being
+    served a pre-patch dataset with no `diedYear` field. The `?v=` stamp only
+    defeats HTTP/CDN caches, not `readCacheRecord()`. Fixed by bumping
+    `DATA_SCHEMA_VERSION` `'v1'` -> `'v2'` in `src/config.ts` (it is part of
+    the localStorage cache key), which invalidates every stored copy. Rule for
+    future schema changes: bump this constant whenever the shape of
+    `artists.json` / `schedule.json` changes.
+
+17. **Pool = top 1000 Israeli Spotify artists (2026-09-30).** The artist pool
+    is now the **1000 most-listened Israeli/Hebrew artists on Spotify**, and
+    listenership drives both pool membership and `popularityTier`.
+    - Spotify's Web API is unusable (Feb 2026 removed artist `popularity`/
+      `followers` for dev apps - see spec 6.6), so stage `scripts/00-kworb.ts`
+      scrapes the public chart mirror `kworb.net/spotify/country/
+      il_weekly_totals.html`, sums each artist's stream total, and writes
+      `data/raw/kworb.json`. No key, no auth, no rate limit. (Spec 6.6 was
+      re-scoped: the Web API is still "do not use", the mirror is the source.)
+    - `scripts/01-wikidata.ts` resolves each chart name to a Wikidata QID with
+      the same Israeli validation used for seeds, writes `data/raw/spotify.json`
+      (`qid -> {name, spotifyId, streams}`), and tags entries `source:'spotify'`.
+      The resolution was refactored into a two-pass `resolveBatch`: search all
+      names (cached), then fetch the union of candidate entities in batched
+      `wbgetentities` calls. The old per-hit fetch made a ~900-artist run take
+      30+ minutes; the batched version does it in ~1 minute. `scripts/02` also
+      moved its 1.15s MusicBrainz throttle into `cachedFetch`'s `delayMs` so
+      cached artists skip the wait and re-runs are resumable.
+    - `scripts/06-merge.ts` attaches `ids.spotify`, `metrics.spotifyStreams`,
+      `metrics.spotifyRank`, weights Spotify as the dominant tier signal
+      (0.45, ahead of hewiki 0.25 / deezer 0.20 / sitelinks 0.10; lastfm
+      dropped), then forces the pool to **exactly 1000** artists: Spotify-ranked
+      artists first, previously-scheduled artists always kept, best of the rest
+      as filler. Artists whose `id` disappears from the pool are removed from
+      the dataset entirely.
+    - `answerEligible` defaults to `tier >= 3` *and* a valid debut year, so a
+      daily answer can never render an "unknown" debut tile. Because the pool was
+      re-baselined pre-launch, `scripts/08-build-schedule.ts` now regenerates
+      the schedule from scratch (seeded shuffle, so an unchanged eligible set is
+      stable). After launch the schedule must be treated as frozen/append-only.
+
+    Result: pool 1000, eligible/schedule 704, 656 artists carry real Spotify
+    streams (top: Omer Adam 476M, Osher Cohen 253M, Eden Hason 210M, Odeya
+    172M). The earlier 348-artist pool was retained only as scheduled/filler.

@@ -1,6 +1,6 @@
 // Central app configuration. Rename the game here only.
 export const GAME_NAME = 'אמנדל'
-export const GAME_URL = 'https://lili582.github.io/amnal/'
+export const GAME_URL = 'https://lili582.github.io/amandle/'
 // Owner's inbox for data corrections (mailto in the footer and end dialog).
 export const REPORT_EMAIL = 'owner@example.com' // TODO: set before launch
 export const MAX_GUESSES = 10
@@ -12,7 +12,7 @@ export const SHOW_IMAGES = false
 // Runtime data source. The app fetches artists.json and schedule.json from
 // DATA_URL at startup instead of bundling them. Defaults to "/data" in Node
 // contexts and, in the browser, to the "data" sub-directory of the current
-// page directory (so a sub-path Pages deployment like /amnal/ works). Override
+// page directory (so a sub-path Pages deployment like /amandle/ works). Override
 // with VITE_DATA_URL for an external origin (e.g. an S3 bucket or another CDN).
 const envDataUrl = (import.meta as { env?: { VITE_DATA_URL?: string } }).env?.VITE_DATA_URL
 

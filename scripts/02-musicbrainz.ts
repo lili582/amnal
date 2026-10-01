@@ -21,7 +21,6 @@ interface MbEntry {
 }
 
 const CACHE: Record<string, MbEntry> = {}
-let lastLookup = 0
 
 function normalizeType(t?: string): 'person' | 'group' | undefined {
   if (t === 'Person') return 'person'
@@ -31,13 +30,10 @@ function normalizeType(t?: string): 'person' | 'group' | undefined {
 
 async function lookup(mbid: string): Promise<MbEntry> {
   if (CACHE[mbid]) return CACHE[mbid]
-  const wait = LOOKUP_DELAY - (Date.now() - lastLookup)
-  await new Promise((r) => setTimeout(r, Math.max(0, wait)))
-  lastLookup = Date.now()
 
   const data = (await cachedFetch(
     `${MB}/artist/${mbid}?inc=tags+genres+aliases+artist-rels+release-groups&fmt=json`,
-    { cacheSource: 'musicbrainz', cacheKey: `${mbid}-rg`, retries: 3 },
+    { cacheSource: 'musicbrainz', cacheKey: `${mbid}-rg`, retries: 3, delayMs: LOOKUP_DELAY },
   )) as Record<string, unknown> & {
     type?: string
     gender?: string
@@ -92,12 +88,9 @@ async function lookup(mbid: string): Promise<MbEntry> {
 }
 
 async function searchByQuery(query: string): Promise<MbEntry | null> {
-  const wait = LOOKUP_DELAY - (Date.now() - lastLookup)
-  await new Promise((r) => setTimeout(r, Math.max(0, wait)))
-  lastLookup = Date.now()
   const data = (await cachedFetch(
     `${MB}/artist/?query=${encodeURIComponent(query)}&limit=5&fmt=json`,
-    { cacheSource: 'musicbrainz', cacheKey: `search-${normHe(query).replace(/\s+/g, '-')}`, retries: 3 },
+    { cacheSource: 'musicbrainz', cacheKey: `search-${normHe(query).replace(/\s+/g, '-')}`, retries: 3, delayMs: LOOKUP_DELAY },
   )) as { artists?: Array<{ id: string }> }
   if (!data.artists?.length) return null
   return lookup(data.artists[0].id)

@@ -2,7 +2,8 @@
 // facts using only the reliable MediaWiki APIs (wbsearchentities +
 // wbgetentities). SPARQL is used solely for the optional stage-1 pool-growth
 // query and failures there are non-fatal.
-import { cachedFetch, log, writeJson, readJson, existsSync, resolve, ROOT } from './common.ts'
+import { cachedFetch, log, writeJson, readJson, existsSync, resolve, ROOT, wdGender } from './common.ts'
+import type { KworbSnapshot } from './00-kworb.ts'
 
 const WIKIBASE_API = 'https://www.wikidata.org/w/api.php'
 const SPARQL = 'https://query.wikidata.org/sparql'
@@ -36,6 +37,7 @@ const P_BIRTH_PLACE = 'P19'
 const P_GENRE = 'P136'
 const P_MBID = 'P434'
 const P_WORK_PERIOD_START = 'P2031'
+const P_HAS_PART = 'P527' // group -> its members
 
 interface Datavalue {
   value?: { id?: string; time?: string; precision?: number } | string
@@ -66,23 +68,56 @@ export interface WdEntry {
   activeSince?: string
   inception?: string
   birthPlace?: string
+  memberQids?: string[] // groups: P527 members
+  memberGenders?: Array<'male' | 'female'> // gender of each resolvable member
   genres: string[]
-  source: 'seed' | 'candidate'
+  source: 'seed' | 'candidate' | 'spotify'
 }
 
 const delay = (ms: number) => new Promise((r) => setTimeout(r, ms))
 
-async function fetchEntities(qids: string[]): Promise<Record<string, Entity>> {
+// Run an async task for each item with at most `limit` tasks in flight.
+async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
+  const out = new Array<R>(items.length)
+  let next = 0
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (next < items.length) {
+      const i = next++
+      out[i] = await fn(items[i])
+    }
+  })
+  await Promise.all(workers)
+  return out
+}
+
+function readOptionalKworb(): KworbSnapshot {
+  try {
+    if (existsSync(resolve(ROOT, 'data/raw/kworb.json'))) {
+      return readJson<KworbSnapshot>('data/raw/kworb.json')
+    }
+  } catch {
+    // ignore malformed snapshot
+  }
+  return { fetchedAt: 'none', artists: [] }
+}
+
+// The cache key is derived from the chunk's first QIDs, so distinct callers must
+// pass distinct prefixes or a chunk can collide with an unrelated cached one.
+async function fetchEntities(qids: string[], prefix = 'entities'): Promise<Record<string, Entity>> {
   const out: Record<string, Entity> = {}
+  const total = Math.ceil(qids.length / 50)
   for (let i = 0; i < qids.length; i += 50) {
     const chunk = qids.slice(i, i + 50)
     const url = `${WIKIBASE_API}?action=wbgetentities&ids=${chunk.join('|')}&props=labels|claims|sitelinks&languages=he|en&format=json`
     const data = (await cachedFetch(url, {
       cacheSource: 'wikidata',
-      cacheKey: `entities-${chunk.slice(0, 2).map((q) => q.replace(/^Q/, '')).join('-')}-${chunk.length}`,
+      cacheKey: `${prefix}-${chunk.slice(0, 2).map((q) => q.replace(/^Q/, '')).join('-')}-${chunk.length}`,
       delayMs: 120,
     })) as { entities?: Record<string, Entity> }
     Object.assign(out, data.entities ?? {})
+    if (prefix === 'entities' && total > 20 && (i / 50 + 1) % 10 === 0) {
+      log(`01: entities ${i / 50 + 1}/${total} chunks`)
+    }
   }
   return out
 }
@@ -122,38 +157,67 @@ export function classify(e: Entity): { kind?: 'person' | 'group'; isIsraeliScore
   return { kind, isIsraeliScore }
 }
 
-// Search + validate: returns the best QID whose entity matches a singer/band
-// with Israeli citizenship. Rejects impostors with the same name.
-async function resolveName(
+// Search wikidata for a term under a language; returns hit QIDs in API order.
+async function searchNamesFor(
   he: string,
   en: string,
-  entities: Record<string, Entity>,
-): Promise<string | null> {
-  let best: { qid: string; score: number } | null = null
-  for (const [term, lang] of [
-    [he, 'he'],
-    [en, 'en'],
-  ] as const) {
+): Promise<Array<{ term: string; lang: string; hits: string[] }>> {
+  const terms: Array<[string, string]> = []
+  // Same term for he and en (kworb chart names) → single search under the
+  // term's own script locale.
+  if (he && en && he === en) {
+    terms.push([he, /[\u0590-\u05FF]/.test(he) ? 'he' : 'en'])
+  } else {
+    if (he) terms.push([he, 'he'])
+    if (en) terms.push([en, 'en'])
+  }
+  const out: Array<{ term: string; lang: string; hits: string[] }> = []
+  for (const [term, lang] of terms) {
     const url = `${WIKIBASE_API}?action=wbsearchentities&search=${encodeURIComponent(term)}&language=${lang}&uselang=${lang}&format=json&limit=10`
     const data = (await cachedFetch(url, {
       cacheSource: 'wikidata',
       cacheKey: `search-${lang}-${term}-n10`,
-      delayMs: 150,
+      delayMs: 80,
     })) as { search?: Array<{ id: string }> }
+    out.push({ term, lang, hits: (data.search ?? []).map((s) => s.id) })
+  }
+  return out
+}
 
-    for (const hit of data.search ?? []) {
-      if (!entities[hit.id]) {
-        const fetched = await fetchEntities([hit.id])
-        Object.assign(entities, fetched)
-      }
-      const e = entities[hit.id]
+// Resolve a list of names to validated QIDs in bulk: search every name first,
+// then fetch the union of candidate entities in batched wbgetentities calls
+// (instead of one round-trip per hit), then classify and pick the best hit per
+// name. Returns an array aligned with `items`.
+async function resolveBatch(
+  items: Array<{ he: string; en: string }>,
+  entityCache: Record<string, Entity>,
+  requireIsraeli = true,
+): Promise<Array<string | null>> {
+  const searchResults = await mapLimit(items, 8, (item) => searchNamesFor(item.he, item.en))
+  const hitLists = searchResults.map((rs) => {
+    const seen = new Set<string>()
+    const hits: string[] = []
+    for (const r of rs) for (const id of r.hits) if (!seen.has(id)) { seen.add(id); hits.push(id) }
+    return hits.slice(0, 25)
+  })
+
+  const uniqueHits = [...new Set(hitLists.flat())]
+  const fetched = await fetchEntities(uniqueHits)
+  Object.assign(entityCache, fetched)
+
+  const out = hitLists.map((hits) => {
+    let best: { qid: string; score: number } | null = null
+    for (const id of hits) {
+      const e = entityCache[id]
       if (!e) continue
       const { kind, isIsraeliScore } = classify(e)
-      if (!kind || isIsraeliScore === 0) continue
-      if (!best || isIsraeliScore > best.score) best = { qid: hit.id, score: isIsraeliScore }
+      if (!kind) continue
+      if (requireIsraeli && isIsraeliScore === 0) continue
+      if (!best || isIsraeliScore > best.score) best = { qid: id, score: isIsraeliScore }
     }
-  }
-  return best?.qid ?? null
+    return best?.qid ?? null
+  })
+  return out
 }
 
 function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
@@ -172,6 +236,9 @@ function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
     activeSince: valueText(claimValues(e, P_WORK_PERIOD_START)[0]),
     inception: valueText(claimValues(e, P_INCEPTION)[0]),
     birthPlace: birthPlaceId,
+    memberQids: claimValues(e, P_HAS_PART)
+      .map(valueText)
+      .filter((q): q is string => Boolean(q)),
     genres: claimValues(e, P_GENRE).map((g) => g ?? '').filter(Boolean),
   }
 }
@@ -184,10 +251,10 @@ async function stage1Candidates(): Promise<Record<string, string>> {
     '?item wdt:P27 wd:Q801 ; wdt:P106 wd:Q177220 .',
     '?item wdt:P31 wd:Q215380 ; wdt:P495 wd:Q801 .',
   ]) {
-    const query = `SELECT ?item ?c WHERE { ${branch} ?item wikibase:sitelinks ?c . FILTER(?c >= 5) } ORDER BY DESC(?c) LIMIT 300`
+    const query = `SELECT ?item ?c WHERE { ${branch} ?item wikibase:sitelinks ?c . FILTER(?c >= 3) } ORDER BY DESC(?c) LIMIT 800`
     try {
       const res = await fetch(`${SPARQL}?query=${encodeURIComponent(query)}&format=json`, {
-        headers: { 'User-Agent': 'AmnalBuilder/0.1 (mailto:you@example.com)', Accept: 'application/sparql-results+json' },
+        headers: { 'User-Agent': 'AmandleBuilder/0.1 (mailto:you@example.com)', Accept: 'application/sparql-results+json' },
         signal: AbortSignal.timeout(30_000),
       })
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
@@ -207,13 +274,38 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   log(`01: stage-1 candidates (best effort): ${Object.keys(candidates).length}`)
 
   const seeds = readJson<Array<{ he: string; en: string }>>('data/seed-names.json')
+  const kworb = readOptionalKworb()
   const entries: Record<string, WdEntry> = {}
   const entityCache: Record<string, Entity> = {}
   const resolvedQids = new Set<string>()
+  const spotifyByQid: Record<string, { name: string; spotifyId?: string; streams: number }> = {}
 
-  // 1) Resolve seeds with validation.
-  for (const seed of seeds) {
-    const qid = await resolveName(seed.he, seed.en, entityCache)
+  // 0) Kworb discovery first: every name from the Spotify Israel chart is
+  //    resolved (they are the listenership-ranked universe), then seeds get a
+  //    chance to fill gaps, then SPARQL notability candidates pad the rest.
+  const kworbQids = await resolveBatch(
+    kworb.artists.map((a) => ({ he: a.name, en: a.name })),
+    entityCache,
+  )
+  let kworbResolved = 0
+  kworb.artists.forEach((artist, i) => {
+    const qid = kworbQids[i]
+    if (!qid) return
+    kworbResolved++
+    resolvedQids.add(qid)
+    const e = entityCache[qid]
+    const latin = /^[a-z0-9\s&.'\u2019-]+$/i.test(artist.name)
+    entries[qid] = toEntry(qid, e, latin ? undefined : artist.name, latin ? artist.name : undefined)
+    if (entries[qid].source !== 'seed') entries[qid].source = 'spotify'
+    spotifyByQid[qid] = { name: artist.name, spotifyId: artist.spotifyId, streams: artist.streams }
+  })
+  log(`01: kworb names resolved: ${kworbResolved}/${kworb.artists.length}`)
+
+  // 1) Resolve seeds with validation (only the ones not already found).
+  const seedQids = await resolveBatch(seeds, entityCache)
+  for (let i = 0; i < seeds.length; i++) {
+    const seed = seeds[i]
+    const qid = seedQids[i]
     if (!qid) {
       log(`01: NO VALID MATCH -> ${seed.he}`)
       continue
@@ -228,13 +320,12 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   }
   log(`01: seeds resolved & validated: ${resolvedQids.size}/${seeds.length}`)
 
-  // 2) Batch-enrich every resolved seed (+ as many notability candidates as we
-  //    have) in one pass.
+  // 2) Batch-enrich every resolved QID (+ extra notability candidates) in one pass.
   const candidatesToKeep: Record<string, string> = {}
   for (const [qid] of Object.entries(candidates)) {
     if (!resolvedQids.has(qid)) candidatesToKeep[qid] = qid
   }
-  const allQids = [...resolvedQids, ...Object.keys(candidatesToKeep)].slice(0, 500)
+  const allQids = [...resolvedQids, ...Object.keys(candidatesToKeep)].slice(0, 1500)
   const enriched = await fetchEntities(allQids)
   Object.assign(entityCache, enriched)
 
@@ -242,9 +333,11 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
     const e = entityCache[qid]
     if (!e) continue
     if (resolvedQids.has(qid)) {
-      // Refresh the entry with the fully enriched entity.
+      // Refresh the entry with the fully enriched entity, preserving the
+      // discovery source (kworb 'spotify' vs curated 'seed').
+      const prevSource = entries[qid].source
       entries[qid] = toEntry(qid, e, entries[qid].he, entries[qid].en)
-      entries[qid].source = 'seed'
+      entries[qid].source = prevSource ?? 'seed'
     } else {
       const { kind, isIsraeliScore } = classify(e)
       if (!kind || isIsraeliScore === 0) continue
@@ -264,6 +357,28 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
     }
   }
 
+  // 4) Resolve each group's member genders. A group has no P21 of its own, so
+  //    P527 members are the only way to tell an all-male or all-female band
+  //    apart from a genuinely mixed one.
+  const memberQids = [
+    ...new Set(Object.values(entries).flatMap((x) => x.memberQids ?? [])),
+  ]
+  if (memberQids.length > 0) {
+    const memberEntities = await fetchEntities(memberQids, 'members')
+    for (const entry of Object.values(entries)) {
+      if (!entry.memberQids?.length) continue
+      const genders: Array<'male' | 'female'> = []
+      for (const id of entry.memberQids) {
+        const member = memberEntities[id]
+        if (!member) continue
+        const g = wdGender(valueText(claimValues(member, P_GENDER)[0]))
+        if (g) genders.push(g)
+      }
+      entry.memberGenders = genders
+    }
+    log(`01: member genders resolved for groups with P527 members`)
+  }
+
   // Normalise birth year: keep the year only.
   for (const entry of Object.values(entries)) {
     if (entry.birth) entry.birth = entry.birth.slice(1, 5)
@@ -281,7 +396,8 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
 
   writeJson('data/raw/wikidata.json', entries)
   writeJson('data/raw/wikidata-candidates.json', candidates)
-  log(`01: entries written: ${Object.keys(entries).length} (${Object.values(entries).filter((e) => e.source === 'seed').length} seed)`)
+  writeJson('data/raw/spotify.json', spotifyByQid)
+  log(`01: entries written: ${Object.keys(entries).length} (${Object.values(entries).filter((e) => e.source === 'seed').length} seed, ${kworbResolved} spotify)`)
   return { entries }
 }
 

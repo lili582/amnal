@@ -54,12 +54,15 @@ export interface Artist {
     musicbrainz?: string
     deezer?: number
     lastfm?: string
+    spotify?: string
   }
   metrics?: {
     deezerFans?: number
     lastfmListeners?: number
     hewikiPageviews90d?: number
     wikidataSitelinks?: number
+    spotifyStreams?: number
+    spotifyRank?: number
   }
   imageUrl?: string
 }

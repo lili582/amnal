@@ -28,7 +28,7 @@ npm run preview      # serve dist/ locally
 
 The app fetches `artists.json` + `schedule.json` from `VITE_DATA_URL`
 (default `/data`, same-origin). Set `VITE_DATA_URL` at build time to point at
-another static origin, e.g. `VITE_DATA_URL=https://cdn.example.com/amnal-data npm run build`.
+another static origin, e.g. `VITE_DATA_URL=https://cdn.example.com/amandle-data npm run build`.
 
 ## Data pipeline (scripts/01–08)
 
@@ -54,12 +54,12 @@ and `data/city-region.json`. Unknown values are flagged in
 `data/review-report.md`, never guessed; the owner corrects them via
 `data/overrides.json`.
 
-The schedule is deterministic (seeded shuffle, seed `amnal-schedule-2026-10`),
+The schedule is deterministic (seeded shuffle, seed `amandle-schedule-2026-10`),
 never reshuffled after launch — new eligible artists are appended at the end.
 
 ## Storage
 
-`localStorage` (namespace `amnal:v1`) holds today's game, settings, stats, and
+`localStorage` (namespace `amandle:v1`) holds today's game, settings, stats, and
 the 24h data cache. Every access is wrapped so the game works with storage
 blocked, just without persistence.
 

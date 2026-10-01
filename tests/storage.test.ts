@@ -54,7 +54,7 @@ describe('storage', () => {
     }
     expect(saveGame(date, state)).toBe(true)
     expect(loadGame(date)).toEqual(state)
-    expect(gameKey(date)).toBe(`amnal:v1:game:${date}`)
+    expect(gameKey(date)).toBe(`amandle:v1:game:${date}`)
   })
 
   it('returns null for a missing game', () => {
@@ -97,7 +97,7 @@ describe('storage', () => {
       expect(statsRecorded(date)).toBe(false)
       expect(() => markStatsRecorded(date)).not.toThrow()
       expect(cleanupOldGames(30)).toBe(0)
-      expect(gameKey(date)).toBe(`amnal:v1:game:${date}`)
+      expect(gameKey(date)).toBe(`amandle:v1:game:${date}`)
     } finally {
       restore()
     }

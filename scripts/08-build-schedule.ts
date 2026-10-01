@@ -1,29 +1,19 @@
 // 08-build-schedule.ts — deterministic answer order for the daily puzzle.
-// Never reshuffles an existing schedule: new answerEligible ids are appended
-// at the end (deterministically shuffled among themselves).
-import { readJson, writeJson, existsSync, log, ROOT, resolve } from './common.ts'
+// Re-generates the full schedule from the current answerEligible pool. The
+// shuffle is seeded, so the same eligible set always maps to the same order.
+import { readJson, writeJson, log } from './common.ts'
 import { buildSchedule } from '../src/lib/daily.ts'
-import { readFileSync } from 'node:fs'
 import type { Artist } from '../src/types'
 
-const SCHEDULE_SEED = 'amnal-schedule-2026-10'
+const SCHEDULE_SEED = 'amandle-schedule-2026-10'
 
 export function run(): string[] {
   const artists = readJson<Artist[]>('public/data/artists.json')
   const ids = artists.filter((a) => a.answerEligible).map((a) => a.id)
-  const schedulePath = resolve(ROOT, 'public/data/schedule.json')
-
-  const existing = existsSync(schedulePath)
-    ? (JSON.parse(readFileSync(schedulePath, 'utf8')) as string[])
-    : []
-
-  const known = new Set(existing)
-  const fresh = ids.filter((id) => !known.has(id))
-  const appended = fresh.length > 0 ? buildSchedule(fresh, SCHEDULE_SEED) : []
-  const schedule = [...existing, ...appended]
+  const schedule = ids.length > 0 ? buildSchedule(ids, SCHEDULE_SEED) : []
 
   writeJson('public/data/schedule.json', schedule)
-  log(`08: schedule length ${schedule.length} (appended ${appended.length} new)`)
+  log(`08: schedule length ${schedule.length} (regenerated from ${ids.length} eligible ids)`)
   return schedule
 }
 

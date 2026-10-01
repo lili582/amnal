@@ -1,7 +1,7 @@
 import type { SaveState, StatsState } from '../types'
 import { MAX_GUESSES } from '../config'
 
-const PREFIX = 'amnal:v1'
+const PREFIX = 'amandle:v1'
 
 // Every access is wrapped so the game keeps working (without persistence)
 // when localStorage is blocked or the quota is exceeded.

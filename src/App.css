@@ -301,11 +301,13 @@ body {
 
 .tile-label {
   text-align: center;
+  /* Labels wrap: "גיל / משך פעילות" is far too long for a 1fr grid column on a
+     phone, and truncating it would hide the second half of the hint. */
+  white-space: normal;
+  line-height: 1.15;
+  align-self: center;
   font-size: 0.62rem;
   color: var(--text-dim);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .board-empty {
