@@ -55,7 +55,22 @@ function mapGenre(tag: string | undefined, genreMap: GenreMap): T.Genre | undefi
   const key = tag.toLowerCase()
   if (genreMap[key]) return genreMap[key]
   const n = normHe(tag)
-  return Object.keys(genreMap).find((k) => normHe(k) === n) ? genreMap[Object.keys(genreMap).find((k) => normHe(k) === n)!] : undefined
+  const direct = Object.keys(genreMap).find((k) => normHe(k) === n)
+  if (direct) return genreMap[direct]
+  // Wikidata P136 labels are canonical ("pop music", "hip hop music",
+  // "mizrahi music"), which no map key uses verbatim. Retry with the generic
+  // " music" suffix dropped, then on the head noun ("hip hop" -> "hip hop").
+  const trimmed = n.replace(/\s*music$/, '').trim()
+  if (trimmed && trimmed !== n) {
+    const t = Object.keys(genreMap).find((k) => normHe(k) === trimmed)
+    if (t) return genreMap[t]
+  }
+  const head = trimmed.split(/\s+/).slice(0, 2).join(' ')
+  if (head && head !== trimmed) {
+    const h = Object.keys(genreMap).find((k) => normHe(k) === head)
+    if (h) return genreMap[h]
+  }
+  return undefined
 }
 
 function regionFor(city: string | undefined, cityRegion: CityRegion): T.Region | undefined {
@@ -201,10 +216,13 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     }
 
     // ---- genres ----
+    // Wikidata P136 is hand-curated, so it outranks the free-text MusicBrainz /
+    // Last.fm tags; those only fill in what P136 does not state.
     const tagCandidates: Array<{ tag: string; source: string }> = []
-    for (const tag of lastfm?.[qid]?.tags ?? []) tagCandidates.push({ tag, source: 'lastfm' })
+    for (const g of w.genres ?? []) tagCandidates.push({ tag: g, source: 'wd-genre' })
     for (const g of m?.genres ?? []) tagCandidates.push({ tag: g, source: 'mb-genres' })
     for (const t of m?.tags ?? []) tagCandidates.push({ tag: t, source: 'mb-tags' })
+    for (const tag of lastfm?.[qid]?.tags ?? []) tagCandidates.push({ tag, source: 'lastfm' })
 
     let primaryGenre = ov.genre
     let secondaryGenres: T.Genre[] = []
@@ -312,7 +330,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   const existingSchedule = existsSync(schedulePath)
     ? (JSON.parse(readFileSync(schedulePath, 'utf8')) as string[])
     : []
-  const { pool, droppedCount } = forcePool(artists, existingSchedule, POOL_SIZE, review)
+  const { pool, droppedCount } = forcePool(artists, existingSchedule, POOL_SIZE)
   artists.length = 0
   artists.push(...pool)
   if (droppedCount > 0) review.push(`pool-dropped: ${droppedCount} artists removed to cap the pool at ${POOL_SIZE}`)
@@ -398,7 +416,6 @@ function forcePool(
   artists: T.Artist[],
   scheduleOrder: string[],
   size: number,
-  review: string[],
 ): { pool: T.Artist[]; droppedCount: number } {
   const byId = new Map(artists.map((a) => [a.id, a]))
   const pool: T.Artist[] = []

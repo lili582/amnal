@@ -239,7 +239,9 @@ function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
     memberQids: claimValues(e, P_HAS_PART)
       .map(valueText)
       .filter((q): q is string => Boolean(q)),
-    genres: claimValues(e, P_GENRE).map((g) => g ?? '').filter(Boolean),
+    genres: claimValues(e, P_GENRE)
+      .map(valueText)
+      .filter((g): g is string => Boolean(g)),
   }
 }
 
@@ -355,6 +357,22 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
     for (const entry of Object.values(entries)) {
       if (entry.birthPlace) entry.birthPlace = placeEntities[entry.birthPlace]?.labels?.he?.value ?? placeEntities[entry.birthPlace]?.labels?.en?.value ?? entry.birthPlace
     }
+  }
+
+  // 3b) Resolve Wikidata genre (P136) QIDs to labels. The English label is
+  // preferred because data/genre-map.json is keyed by English tag names.
+  const genreIds = [
+    ...new Set(Object.values(entries).flatMap((x) => x.genres)),
+  ]
+  if (genreIds.length > 0) {
+    const genreEntities = await fetchEntities(genreIds, 'genres')
+    for (const entry of Object.values(entries)) {
+      if (!entry.genres.length) continue
+      entry.genres = entry.genres
+        .map((gid) => genreEntities[gid]?.labels?.en?.value ?? genreEntities[gid]?.labels?.he?.value)
+        .filter((g): g is string => Boolean(g))
+    }
+    log(`01: resolved ${genreIds.length} genre QIDs to labels`)
   }
 
   // 4) Resolve each group's member genders. A group has no P21 of its own, so
