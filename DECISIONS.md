@@ -150,3 +150,56 @@
     Result: pool 1000, eligible/schedule 704, 656 artists carry real Spotify
     streams (top: Omer Adam 476M, Osher Cohen 253M, Eden Hason 210M, Odeya
     172M). The earlier 348-artist pool was retained only as scheduled/filler.
+
+## 18. Pool membership = Israeli *and* recognised as a music artist
+
+  Two gates, because the request ("top 1000 Israeli/Hebrew artists, ranked by
+  Spotify") turned out to need both, and the first version of this work
+  silently got each wrong.
+
+  Gate 1 (Israeliness) - the "has a Hebrew Wikipedia page" fallback was far too
+  loose once discovery came from the chart. Of 656 chart artists it accepted
+  456 as "Israeli" on the strength of a hewiki sitelink alone, and those were
+  international records that merely chart here: Rolling Stones, Lizzo, Måneskin,
+  Coldplay, Billie Eilish, a-ha. Chart names must now resolve to P27=Israel or
+  P495=Israel. Only ~200 chart artists survive, which is short of 1000, so the
+  other slots come from SPARQL branches that are Israeli by construction
+  (P27/P495 = Israel + a music occupation, now covering singer, musician,
+  singer-songwriter, rapper, DJ, composer, songwriter, guitarist, producer,
+  ensemble, band).
+
+  Gate 2 (is actually a musician) - P106 cannot express this. A TV actor who
+  sang one guest song gets occupation=singer, identical to a real singer who
+  also acts, so both survive every Wikidata filter; the pool ended up with 360
+  actor-musicians, median Deezer fans 48 against 327 for everyone else, which
+  is the signature of actors rather than recording artists.
+  scripts/05b-hecats.ts now fetches Hebrew Wikipedia categories per artist and
+  scripts/music-cat.ts decides from category names, which record how hewiki
+  actually recognises the person. Any artist with an acting occupation must
+  show a performer category (singer/musician/instrumentalist/composer/
+  producer/spoken-word/cantor/choir, city "X: musicians", Eurovision).
+  Two traps found while building it:
+    - Maintenance categories must be filtered first: "ערכים עם פרופילי
+      קולנוענים-מוזיקאים" sits on every artist page including pure actors, so
+      an unfiltered /מוזיקאים/ matches everybody.
+    - Band membership is weak evidence on its own, because Israeli actors
+      routinely served in military ensembles; it only counts alongside a
+      performer category.
+
+  Alternatives rejected: Deezer fan thresholds would have cut Gali Atari
+  (Israel's Eurovision winner, 825 fans) and Yehoram Gaon (970); Deezer and
+  MusicBrainz both fail on Hebrew artists outright (Deezer answers "Maya
+  Shoef" with Masayoshi Takanaka, and has no index for Hebrew names).
+  Last.fm is dead - the API key resolves 1 artist.
+
+  Side effect worth noting: the category gate also caught a wrong-entity match
+  - "Noa Carmi" had resolved to a 2001-born actress rather than the singer of
+  that name.
+
+  Result: 60 artists dropped as `dropped-nonmusic-actor` (Alona Kimhi, Hani
+  Furstenberg, Lior Veroslavski, Shira Arad, Ofir Lobel, Assi Dayan, Yael
+  Elkana, Nitza Shaul, ...). Maya Shoef, Yona Atari, Dudu Fisher, Esther
+  Ofarim, Max Oleartchik, Shula Chen, Idan Amedi and Juliano Mer-Khamis all
+  stay, as they should. Pool 1000, eligible/schedule 603.
+  Known judgement call: Ehud Manor is dropped, because hewiki files him as a
+  lyricist/host rather than a performer, not because he did not sing.

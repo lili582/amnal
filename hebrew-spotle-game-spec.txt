@@ -464,6 +464,39 @@ Groups and duos
     Spotify-ranked artists first, previously-scheduled artists always kept,
     best of the rest used as filler.
 
+6.6b POOL MEMBERSHIP = ISRAELI *AND* RECOGNISED AS A MUSIC ARTIST
+  Two separate gates, because the Israeli Spotify chart is full of foreign
+  acts and because Wikidata cannot tell an actor from a singer.
+
+  Gate 1 - Israeli, strictly. Chart names must resolve to a QID with
+    P27=Israel or P495=Israel. The old fallback (accept anything with a
+    Hebrew label and a hewiki sitelink) admitted 456 of 656 chart artists,
+    which are international records that merely chart in Israel (Rolling
+    Stones, Lizzo, Måneskin, Coldplay). Strict admission leaves ~200 chart
+    artists, so the remaining pool slots are filled from SPARQL branches that
+    are Israeli by construction (P27/P495 = Israel + a music occupation).
+    Consequence: only the top ~200 carry a Spotify rank; the rest are ranked
+    by pageviews/deezer/sitelinks.
+
+  Gate 2 - recognised as music, via hewiki categories. Wikidata occupations
+    cannot do this: P106 gives a TV actor who sang one guest song the same
+    "singer" tag as a real singer who also acts, so both survive every
+    Wikidata filter. Stage scripts/05b-hecats.ts fetches each artist's Hebrew
+    Wikipedia categories into data/raw/hecats.json, and scripts/music-cat.ts
+    matches performer categories (singer / musician / instrumentalist /
+    composer / producer / spoken-word / cantor / choir, city-level
+    "X: musicians", Eurovision). scripts/06-merge.ts drops any artist with an
+    acting occupation (P106 = actor, film/TV/theatre actor, comedian, voice
+    actor) unless at least one *strong* performer category is present.
+      - Band membership alone is too weak: Israeli actors routinely served in
+        military ensembles, so "חברי להקת גייסות השריון" without a performer
+        category is what an actor who once sang also looks like.
+      - Maintenance categories are excluded first, otherwise
+        "ערכים עם פרופילי קולנוענים-מוזיקאים" (present on every artist page,
+        including pure actors) matches any "מוזיקאים" pattern.
+      - "שחקני מחזות זמר ישראלים" (actors in musicals) must not count.
+    Drops are reported as `dropped-nonmusic-actor` in data/review-report.md.
+
 6.7 OTHER CANDIDATES (not verified - only if a gap remains)
   - iTunes Search API (keyless) for artwork/genre hints.
   - TheAudioDB for genre/formed-year hints (has its own key terms).

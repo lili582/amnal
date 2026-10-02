@@ -4,6 +4,7 @@
 // report. Any field a source is unsure about is flagged, never guessed.
 import { readJson, writeJson, log, ROOT, normHe, existsSync, readFileSync, resolve, wdGender } from './common.ts'
 import type { WdEntry } from './01-wikidata.ts'
+import { isActorOccupation, isRecognisedMusician } from './music-cat.ts'
 import type * as T from '../src/types'
 
 const POOL_SIZE = 1000
@@ -126,12 +127,22 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   const genreMap = readJson<GenreMap>('data/genre-map.json')
   const cityRegion = readJson<CityRegion>('data/city-region.json')
   const overrides = readOptional<Record<string, Override>>('data/overrides.json') ?? {}
+  const hecats = readOptional<Record<string, string[]>>('data/raw/hecats.json') ?? {}
 
   const review: string[] = []
   const artists: T.Artist[] = []
   const usedSlugs = new Set<string>()
 
   for (const [qid, w] of Object.entries(wd)) {
+    // An answer has to be a *music* artist. Wikidata cannot enforce this: it
+    // tags a TV actor who sang one guest song with occupation "singer", exactly
+    // like a real singer who also acts. So acting occupations are only allowed
+    // through when hewiki itself categorises the person as a performer.
+    if (isActorOccupation(w.occupations) && !isRecognisedMusician(hecats[qid], true)) {
+      review.push(`dropped-nonmusic-actor: ${w.he ?? w.en ?? qid} (${qid})`)
+      continue
+    }
+
     const mbid = qidMbid[qid] ?? Object.keys(mb).find((m) => mb[m].aliases.includes(w.en ?? '') || w.mbid === m)
     const m = mbid ? mb[mbid] : undefined
 

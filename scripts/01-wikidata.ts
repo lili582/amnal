@@ -70,6 +70,7 @@ export interface WdEntry {
   birthPlace?: string
   memberQids?: string[] // groups: P527 members
   memberGenders?: Array<'male' | 'female'> // gender of each resolvable member
+  occupations: string[] // P106 QIDs
   genres: string[]
   source: 'seed' | 'candidate' | 'spotify'
 }
@@ -192,6 +193,7 @@ async function resolveBatch(
   items: Array<{ he: string; en: string }>,
   entityCache: Record<string, Entity>,
   requireIsraeli = true,
+  requireExplicitIsraeli = false,
 ): Promise<Array<string | null>> {
   const searchResults = await mapLimit(items, 8, (item) => searchNamesFor(item.he, item.en))
   const hitLists = searchResults.map((rs) => {
@@ -213,6 +215,10 @@ async function resolveBatch(
       const { kind, isIsraeliScore } = classify(e)
       if (!kind) continue
       if (requireIsraeli && isIsraeliScore === 0) continue
+      // Strict mode: only Israeli citizens / Israeli-origin acts. Used for the
+      // Spotify chart, which is full of international acts that merely have a
+      // Hebrew Wikipedia page (Rolling Stones, Lizzo, ...).
+      if (requireExplicitIsraeli && isIsraeliScore < 2) continue
       if (!best || isIsraeliScore > best.score) best = { qid: id, score: isIsraeliScore }
     }
     return best?.qid ?? null
@@ -239,6 +245,11 @@ function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
     memberQids: claimValues(e, P_HAS_PART)
       .map(valueText)
       .filter((q): q is string => Boolean(q)),
+    // Kept so 06-merge can tell an acting occupation apart from a musical one
+    // without re-querying Wikidata. See scripts/music-cat.ts.
+    occupations: claimValues(e, P_OCCUPATION)
+      .map(valueText)
+      .filter((o): o is string => Boolean(o)),
     genres: claimValues(e, P_GENRE)
       .map(valueText)
       .filter((g): g is string => Boolean(g)),
@@ -246,24 +257,42 @@ function toEntry(qid: string, e: Entity, he?: string, en?: string): WdEntry {
 }
 
 // Optional pool growth via SPARQL. Kept separate so failures never block the
-// seed resolution path. Currently best-effort.
+// seed resolution path. Every branch is Israeli by construction (Israeli
+// citizenship or Israeli origin), which is what keeps the pool all-Israeli now
+// that the Spotify chart only admits strictly-Israeli acts.
 async function stage1Candidates(): Promise<Record<string, string>> {
   const out: Record<string, string> = {}
+  const musicOccupations = [
+    'Q177220', // singer
+    'Q639669', // musician
+    'Q488205', // singer-songwriter
+    'Q2252262', // rapper
+    'Q130857', // DJ
+    'Q36834', // composer
+    'Q753110', // songwriter
+    'Q855091', // guitarist
+    'Q158852', // record producer
+    'Q2865819', // musical ensemble
+  ]
+  const occList = musicOccupations.map((q) => `wd:${q}`).join(' ')
   for (const branch of [
-    '?item wdt:P27 wd:Q801 ; wdt:P106 wd:Q177220 .',
-    '?item wdt:P31 wd:Q215380 ; wdt:P495 wd:Q801 .',
+    `?item wdt:P27 wd:Q801 ; wdt:P106 wd:Q177220 .`,
+    `?item wdt:P27 wd:Q801 ; wdt:P106 ?occ . VALUES ?occ { ${occList} }`,
+    `?item wdt:P495 wd:Q801 ; wdt:P106 ?occ . VALUES ?occ { ${occList} }`,
+    `?item wdt:P31 wd:Q215380 ; wdt:P495 wd:Q801 .`,
+    `?item wdt:P31 wd:Q2088357 ; wdt:P495 wd:Q801 .`,
   ]) {
-    const query = `SELECT ?item ?c WHERE { ${branch} ?item wikibase:sitelinks ?c . FILTER(?c >= 3) } ORDER BY DESC(?c) LIMIT 800`
+    const query = `SELECT ?item ?c WHERE { ${branch} ?item wikibase:sitelinks ?c . FILTER(?c >= 2) } ORDER BY DESC(?c) LIMIT 1500`
     try {
       const res = await fetch(`${SPARQL}?query=${encodeURIComponent(query)}&format=json`, {
-        headers: { 'User-Agent': 'AmandleBuilder/0.1 (mailto:you@example.com)', Accept: 'application/sparql-results+json' },
-        signal: AbortSignal.timeout(30_000),
+        headers: { 'User-Agent': 'AmnalBuilder/0.1 (mailto:you@example.com)', Accept: 'application/sparql-results+json' },
+        signal: AbortSignal.timeout(45_000),
       })
       if (!res.ok) throw new Error(`HTTP ${res.status}`)
       const data = (await res.json()) as { results: { bindings: Array<{ item: { value: string } }> } }
       for (const b of data.results.bindings) out[b.item.value.split('/').pop()!] = b.item.value
     } catch (err) {
-      log(`01: stage-1 SPARQL unavailable (${(err as Error).message}) — skipping pool growth`)
+      log(`01: stage-1 SPARQL branch failed (${(err as Error).message})`)
       break
     }
     await delay(1500)
@@ -288,6 +317,8 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   const kworbQids = await resolveBatch(
     kworb.artists.map((a) => ({ he: a.name, en: a.name })),
     entityCache,
+    true,
+    true,
   )
   let kworbResolved = 0
   kworb.artists.forEach((artist, i) => {
@@ -327,7 +358,7 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   for (const [qid] of Object.entries(candidates)) {
     if (!resolvedQids.has(qid)) candidatesToKeep[qid] = qid
   }
-  const allQids = [...resolvedQids, ...Object.keys(candidatesToKeep)].slice(0, 1500)
+  const allQids = [...resolvedQids, ...Object.keys(candidatesToKeep)].slice(0, 2600)
   const enriched = await fetchEntities(allQids)
   Object.assign(entityCache, enriched)
 
