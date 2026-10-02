@@ -35,6 +35,7 @@ interface Override {
   popularityTier?: 1 | 2 | 3 | 4 | 5
   answerEligible?: boolean
   forceKeep?: boolean // bypass the actor filter for this artist
+  exclude?: boolean // drop from the pool entirely (wrong entity / not a performer)
 }
 
 interface SpotifySignal {
@@ -149,6 +150,16 @@ export function run(): { artists: T.Artist[]; review: string[] } {
         hasActingCategory(hecats[qid]) ? `hewiki:${actingCategories(hecats[qid])[0]}` : null,
       ].filter(Boolean)
       review.push(`dropped-actor: ${w.he ?? w.en ?? qid} (${why.join('+')})`)
+      continue
+    }
+
+    // Curated drop. Wikidata's occupation and hewiki's categories are both
+    // noisy at the edges: the "musician" branch admits poets, lyricists,
+    // presenters and conductors, and homonyms resolve to the wrong person
+    // entirely (an IDF commander tagged as a singer). Those cannot be detected
+    // from the data, so they are listed in data/overrides.json instead.
+    if (ov.exclude) {
+      review.push(`dropped-excluded: ${w.he ?? w.en ?? qid}`)
       continue
     }
 

@@ -156,7 +156,7 @@
       (seeded shuffle, so an unchanged eligible set is stable). After launch
       the schedule must be treated as frozen/append-only.
 
-    Result: pool 1000, answer-eligible/schedule 891.
+    Result: pool 1000, answer-eligible/schedule 912.
 
 ## 18. Pool membership = Israeli *and* recognised as a music artist
 
@@ -210,7 +210,7 @@ Gate 2 (is actually a musician) - P106 cannot express this. A TV actor who
 
   Result: 0 artists in the pool match an acting occupation or acting category;
   Dana Ivgy, Yehoram Gaon and Gali Atari are all absent. Pool 1000,
-  eligible/schedule 891.
+  eligible/schedule 912.
   Known judgement calls:
     - Ehud Manor is dropped, because hewiki files him as a lyricist/host rather
       than a performer, not because he did not sing.
@@ -219,9 +219,23 @@ Gate 2 (is actually a musician) - P106 cannot express this. A TV actor who
       her "זמרת ושחקנית"), David Tal and Idan Raichel.
     - Homonym contamination remains and is not automatable: "דוד אלעזר"
       resolves to an IDF commander (Q467177) whose Wikidata item wrongly
-      includes singer, and a handful of non-musicians (a rabbi, several film
-      directors, a poet) are present with thin data. Requiring singer evidence
-      from Wikidata/hewiki/Spotify was measured and rejected: it would drop 197
-      real entries, most of them legitimate bands with thin data (ברוש, פינג
-      פונג, מלכה באיה, קושה דילז, השובלים). They need a curated blocklist in
-      data/overrides.json instead.
+      includes singer. Requiring singer evidence from Wikidata/hewiki/Spotify
+      was measured and rejected: it would drop 197 real entries, most of them
+      legitimate bands with thin data (ברוש, פינג פונג, מלכה באיה, קושה דילז,
+      השובלים).
+    - Resolved with a curated blocklist instead. `exclude: true` in
+      data/overrides.json drops an artist from the pool, and 65 names are now
+      listed there. They were found data-driven rather than by eye: an artist
+      with no singer/band category on hewiki but a strong non-music profession
+      category (poet, writer, journalist, rabbi, film director, TV host,
+      soldier, politician, linguist, encyclopedist) is a near-certain false
+      positive, because the Wikidata "musician" branch admits anyone whose
+      lyrics or poems were set to music. That probe found ~50 names, including
+      a serial killer (ברק כהן) and an IDF commander (דוד אלעזר). Classical
+      instrumentalists and conductors were excluded too (יבגני קיסין,
+      מקסים ונגרוב, נסים אלשיך, מרק לברי, ...), since the game asks for
+      singers and bands.
+    - Kept deliberately despite ambiguity: אברהם זיגמן and יהושע אנגלמן
+      (Hasidic singer-composers who also have poet/rabbi categories), מקס ברוד
+      and יוסף שריג (singers who also write), יובל בן-עמי (a real
+      percussionist who also writes), דניאל בארנבוים.

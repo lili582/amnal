@@ -503,6 +503,21 @@ Groups and duos
     only a singing occupation (e.g. Yafa Yarkoni, David Tal) are not flagged,
     because the source data does not record their acting work.
 
+  6.6c CURATED EXCLUSIONS (`exclude: true` in data/overrides.json)
+    Neither source is reliable enough at the edges. Wikidata's "musician"
+    branch admits anyone whose lyrics or poems were set to music, so poets and
+    writers enter the pool, and homonyms resolve to the wrong person outright
+    ("דוד אלעזר" is an IDF commander whose item also carries occupation=singer).
+    hewiki categories cannot detect this reliably either: requiring a
+    singer/band category drops 197 real entries, mostly legitimate bands with
+    thin data.
+    These are therefore curated by hand. An artist listed with `exclude: true`
+    is dropped as `dropped-excluded` and its slot refilled from the remaining
+    candidates. Used for non-performers (writers, journalists, rabbis, film
+    and TV people), classical instrumentalists and conductors, and wrong-entity
+    matches. `forceKeep: true` is the opposite escape hatch and re-admits a
+    name dropped by the actor gate.
+
 6.7 OTHER CANDIDATES (not verified - only if a gap remains)
   - iTunes Search API (keyless) for artwork/genre hints.
   - TheAudioDB for genre/formed-year hints (has its own key terms).
