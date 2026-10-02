@@ -141,15 +141,22 @@
       artists first, previously-scheduled artists always kept, best of the rest
       as filler. Artists whose `id` disappears from the pool are removed from
       the dataset entirely.
-    - `answerEligible` defaults to `tier >= 3` *and* a valid debut year, so a
-      daily answer can never render an "unknown" debut tile. Because the pool was
-      re-baselined pre-launch, `scripts/08-build-schedule.ts` now regenerates
-      the schedule from scratch (seeded shuffle, so an unchanged eligible set is
-      stable). After launch the schedule must be treated as frozen/append-only.
+- `answerEligible` requires a valid debut year *and* at least one measured
+      interest signal (Spotify streams, 90-day hewiki pageviews or Deezer fans),
+      so every daily answer is a currently-trending artist. It does not use
+      `popularityTier`: tier is a within-pool percentile, so at most ~60-85% of
+      the pool can ever reach tier >= 3, which makes a 1000-artist answerable
+      pool impossible. Tier still drives hint strength and guess ordering.
+      - Debut year sources, in order: override, MusicBrainz begin (groups),
+        Wikidata P2031, MusicBrainz first release (persons), Deezer earliest
+        album release (new stage `scripts/05c-deezer-debut.ts`, 194 artists
+        recovered), Wikidata P571.
+    - Because the pool was re-baselined pre-launch,
+      `scripts/08-build-schedule.ts` now regenerates the schedule from scratch
+      (seeded shuffle, so an unchanged eligible set is stable). After launch
+      the schedule must be treated as frozen/append-only.
 
-    Result: pool 1000, eligible/schedule 704, 656 artists carry real Spotify
-    streams (top: Omer Adam 476M, Osher Cohen 253M, Eden Hason 210M, Odeya
-    172M). The earlier 348-artist pool was retained only as scheduled/filler.
+    Result: pool 1000, answer-eligible/schedule 891.
 
 ## 18. Pool membership = Israeli *and* recognised as a music artist
 
@@ -168,23 +175,28 @@
   singer-songwriter, rapper, DJ, composer, songwriter, guitarist, producer,
   ensemble, band).
 
-  Gate 2 (is actually a musician) - P106 cannot express this. A TV actor who
+Gate 2 (is actually a musician) - P106 cannot express this. A TV actor who
   sang one guest song gets occupation=singer, identical to a real singer who
   also acts, so both survive every Wikidata filter; the pool ended up with 360
   actor-musicians, median Deezer fans 48 against 327 for everyone else, which
   is the signature of actors rather than recording artists.
-  scripts/05b-hecats.ts now fetches Hebrew Wikipedia categories per artist and
-  scripts/music-cat.ts decides from category names, which record how hewiki
-  actually recognises the person. Any artist with an acting occupation must
-  show a performer category (singer/musician/instrumentalist/composer/
-  producer/spoken-word/cantor/choir, city "X: musicians", Eurovision).
-  Two traps found while building it:
-    - Maintenance categories must be filtered first: "ערכים עם פרופילי
-      קולנוענים-מוזיקאים" sits on every artist page including pure actors, so
-      an unfiltered /מוזיקאים/ matches everybody.
-    - Band membership is weak evidence on its own, because Israeli actors
-      routinely served in military ensembles; it only counts alongside a
-      performer category.
+  scripts/05b-hecats.ts fetches Hebrew Wikipedia categories per artist, and
+  scripts/music-cat.ts matches acting category names (actress / actor /
+  television, film and stage performers / voice acting) on top of the Wikidata
+  acting occupations.
+    Trap: maintenance categories must be filtered first, otherwise "ערכים עם
+    פרופילי קולנוענים-מוזיקאים", which sits on every artist page including
+    pure actors, matches any acting pattern.
+
+  **Superseded: the gate is now unconditional (2026-10-02).** The first version
+  kept an artist who had an acting occupation if a *strong* performer category
+  was also present. That kept Dana Ivgy (Q528853), whose Wikidata item carries
+  both acting occupations and acting hewiki categories, because singer
+  categories were present too. The user wants singers and bands only, so acting
+  in either source now drops the artist outright, with no escape hatch except
+  a deliberate `forceKeep: true` override. Discovery was widened at the same
+  time (SPARQL sitelinks floor 2 => 1) so the 1000-artist pool could still be
+  filled: 2261 enriched entries, 539 dropped as actors, 1722 survivors.
 
   Alternatives rejected: Deezer fan thresholds would have cut Gali Atari
   (Israel's Eurovision winner, 825 fans) and Yehoram Gaon (970); Deezer and
@@ -196,10 +208,20 @@
   - "Noa Carmi" had resolved to a 2001-born actress rather than the singer of
   that name.
 
-  Result: 60 artists dropped as `dropped-nonmusic-actor` (Alona Kimhi, Hani
-  Furstenberg, Lior Veroslavski, Shira Arad, Ofir Lobel, Assi Dayan, Yael
-  Elkana, Nitza Shaul, ...). Maya Shoef, Yona Atari, Dudu Fisher, Esther
-  Ofarim, Max Oleartchik, Shula Chen, Idan Amedi and Juliano Mer-Khamis all
-  stay, as they should. Pool 1000, eligible/schedule 603.
-  Known judgement call: Ehud Manor is dropped, because hewiki files him as a
-  lyricist/host rather than a performer, not because he did not sing.
+  Result: 0 artists in the pool match an acting occupation or acting category;
+  Dana Ivgy, Yehoram Gaon and Gali Atari are all absent. Pool 1000,
+  eligible/schedule 891.
+  Known judgement calls:
+    - Ehud Manor is dropped, because hewiki files him as a lyricist/host rather
+      than a performer, not because he did not sing.
+    - Singers whose sources record *only* a singing occupation survive, because
+      the data does not mention their acting work: Yafa Yarkoni (her lead calls
+      her "זמרת ושחקנית"), David Tal and Idan Raichel.
+    - Homonym contamination remains and is not automatable: "דוד אלעזר"
+      resolves to an IDF commander (Q467177) whose Wikidata item wrongly
+      includes singer, and a handful of non-musicians (a rabbi, several film
+      directors, a poet) are present with thin data. Requiring singer evidence
+      from Wikidata/hewiki/Spotify was measured and rejected: it would drop 197
+      real entries, most of them legitimate bands with thin data (ברוש, פינג
+      פונג, מלכה באיה, קושה דילז, השובלים). They need a curated blocklist in
+      data/overrides.json instead.

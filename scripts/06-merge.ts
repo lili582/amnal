@@ -4,7 +4,7 @@
 // report. Any field a source is unsure about is flagged, never guessed.
 import { readJson, writeJson, log, ROOT, normHe, existsSync, readFileSync, resolve, wdGender } from './common.ts'
 import type { WdEntry } from './01-wikidata.ts'
-import { isActorOccupation, isRecognisedMusician } from './music-cat.ts'
+import { actingCategories, hasActingCategory, isActorOccupation } from './music-cat.ts'
 import type * as T from '../src/types'
 
 const POOL_SIZE = 1000
@@ -34,6 +34,7 @@ interface Override {
   gender?: T.Gender
   popularityTier?: 1 | 2 | 3 | 4 | 5
   answerEligible?: boolean
+  forceKeep?: boolean // bypass the actor filter for this artist
 }
 
 interface SpotifySignal {
@@ -128,25 +129,31 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   const cityRegion = readJson<CityRegion>('data/city-region.json')
   const overrides = readOptional<Record<string, Override>>('data/overrides.json') ?? {}
   const hecats = readOptional<Record<string, string[]>>('data/raw/hecats.json') ?? {}
+  const deezerDebut = readOptional<Record<string, number>>('data/raw/deezer-debut.json') ?? {}
 
   const review: string[] = []
   const artists: T.Artist[] = []
   const usedSlugs = new Set<string>()
 
   for (const [qid, w] of Object.entries(wd)) {
-    // An answer has to be a *music* artist. Wikidata cannot enforce this: it
-    // tags a TV actor who sang one guest song with occupation "singer", exactly
-    // like a real singer who also acts. So acting occupations are only allowed
-    // through when hewiki itself categorises the person as a performer.
-    if (isActorOccupation(w.occupations) && !isRecognisedMusician(hecats[qid], true)) {
-      review.push(`dropped-nonmusic-actor: ${w.he ?? w.en ?? qid} (${qid})`)
+    const ov = overrides[w.he ?? ''] ?? overrides[w.en ?? ''] ?? {}
+
+    // The pool is singers and bands only. An actor is out even when they can
+    // sing: Wikidata gives a TV actor the occupation "singer" for one guest
+    // song, and hewiki sometimes files a singer under "שחקניות" too, so both
+    // sources are checked and either one is disqualifying. `forceKeep` in
+    // data/overrides.json re-admits a name by hand.
+    if (!ov.forceKeep && (isActorOccupation(w.occupations) || hasActingCategory(hecats[qid]))) {
+      const why = [
+        isActorOccupation(w.occupations) ? 'wikidata-occupation' : null,
+        hasActingCategory(hecats[qid]) ? `hewiki:${actingCategories(hecats[qid])[0]}` : null,
+      ].filter(Boolean)
+      review.push(`dropped-actor: ${w.he ?? w.en ?? qid} (${why.join('+')})`)
       continue
     }
 
     const mbid = qidMbid[qid] ?? Object.keys(mb).find((m) => mb[m].aliases.includes(w.en ?? '') || w.mbid === m)
     const m = mbid ? mb[mbid] : undefined
-
-    const ov = overrides[w.he ?? ''] ?? overrides[w.en ?? ''] ?? {}
 
     const he = w.he ?? ''
     if (!he) {
@@ -196,12 +203,17 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     // ---- debut year ----
     // MusicBrainz 'begin' is the birth date for persons, not a career start —
     // only use it for groups. Persons fall back to their work-period start
-    // (when they first became active) or their first release via inception.
+    // (when they first became active) or their first recorded release, which is
+    // the best available debut proxy and covers most Israeli singers whose
+    // Wikidata item has no P2031/P571 at all.
     const mbBeginYear = m?.begin ? Number(m.begin) : undefined
+    const mbFirstReleaseYear = m?.firstRelease ? Number(m.firstRelease) : undefined
     let debutYear =
       ov.debutYear ??
       (m?.type === 'group' && mbBeginYear ? mbBeginYear : undefined) ??
       (w.activeSince ? Number(w.activeSince) : undefined) ??
+      (m?.type === 'person' ? mbFirstReleaseYear : undefined) ??
+      (deezerDebut[qid] ? deezerDebut[qid] : undefined) ??
       (w.inception ? Number(w.inception.slice(0, 4)) : undefined)
     if (!debutYear || debutYear < 1948 || debutYear > new Date().getFullYear()) {
       debutYear = ov.debutYear ?? 0
@@ -322,13 +334,26 @@ export function run(): { artists: T.Artist[]; review: string[] } {
   // Spotify listenership is now the dominant signal (see tierArtists below).
   tierArtists(artists, review)
 
-  // ---- answerEligible from tier when not overridden ----
-  const nowYear = new Date().getFullYear()
+  // ---- answerEligible ----
+// Eligibility answers "can this artist be a daily answer?", which is about data
+// completeness, not relative popularity: we need a real debut year to render
+// the debut tile, and at least one measured interest signal so the artist is
+// actually trending. It deliberately does *not* use popularityTier, because
+// tier is a within-pool percentile and can therefore never admit the whole
+// pool - by construction only the top ~60-85% ever reach tier >= 3, so a
+// 1000-artist answerable pool is impossible under a tier-based rule.
+// popularityTier still drives hint strength and guess ordering.
+const nowYear = new Date().getFullYear()
   const debutOk = (a: T.Artist): boolean => a.debutYear >= 1948 && a.debutYear <= nowYear
+  const hasTrendSignal = (a: T.Artist): boolean => {
+    const m = a.metrics
+    if (!m) return false
+    return Boolean(m.spotifyStreams || m.hewikiPageviews90d || m.deezerFans)
+  }
   for (const a of artists) {
     const ov = overrides[a.nameHe] ?? overrides[a.nameEn ?? ''] ?? {}
     if (ov.answerEligible === undefined) {
-      a.answerEligible = a.popularityTier >= 3 && debutOk(a)
+      a.answerEligible = debutOk(a) && hasTrendSignal(a)
     }
   }
 

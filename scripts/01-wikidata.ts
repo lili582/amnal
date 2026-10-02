@@ -282,7 +282,7 @@ async function stage1Candidates(): Promise<Record<string, string>> {
     `?item wdt:P31 wd:Q215380 ; wdt:P495 wd:Q801 .`,
     `?item wdt:P31 wd:Q2088357 ; wdt:P495 wd:Q801 .`,
   ]) {
-    const query = `SELECT ?item ?c WHERE { ${branch} ?item wikibase:sitelinks ?c . FILTER(?c >= 2) } ORDER BY DESC(?c) LIMIT 1500`
+    const query = `SELECT ?item ?c WHERE { ${branch} ?item wikibase:sitelinks ?c . FILTER(?c >= 1) } ORDER BY DESC(?c) LIMIT 2000`
     try {
       const res = await fetch(`${SPARQL}?query=${encodeURIComponent(query)}&format=json`, {
         headers: { 'User-Agent': 'AmnalBuilder/0.1 (mailto:you@example.com)', Accept: 'application/sparql-results+json' },
@@ -358,7 +358,7 @@ export async function run(): Promise<{ entries: Record<string, WdEntry> }> {
   for (const [qid] of Object.entries(candidates)) {
     if (!resolvedQids.has(qid)) candidatesToKeep[qid] = qid
   }
-  const allQids = [...resolvedQids, ...Object.keys(candidatesToKeep)].slice(0, 2600)
+  const allQids = [...resolvedQids, ...Object.keys(candidatesToKeep)].slice(0, 4000)
   const enriched = await fetchEntities(allQids)
   Object.assign(entityCache, enriched)
 

@@ -483,19 +483,25 @@ Groups and duos
     "singer" tag as a real singer who also acts, so both survive every
     Wikidata filter. Stage scripts/05b-hecats.ts fetches each artist's Hebrew
     Wikipedia categories into data/raw/hecats.json, and scripts/music-cat.ts
-    matches performer categories (singer / musician / instrumentalist /
-    composer / producer / spoken-word / cantor / choir, city-level
-    "X: musicians", Eurovision). scripts/06-merge.ts drops any artist with an
-    acting occupation (P106 = actor, film/TV/theatre actor, comedian, voice
-    actor) unless at least one *strong* performer category is present.
-      - Band membership alone is too weak: Israeli actors routinely served in
-        military ensembles, so "חברי להקת גייסות השריון" without a performer
-        category is what an actor who once sang also looks like.
-      - Maintenance categories are excluded first, otherwise
-        "ערכים עם פרופילי קולנוענים-מוזיקאים" (present on every artist page,
-        including pure actors) matches any "מוזיקאים" pattern.
-      - "שחקני מחזות זמר ישראלים" (actors in musicals) must not count.
+    matches acting categories (actress / actor / television, film and stage
+    performers / voice acting). scripts/06-merge.ts drops any artist whose
+    Wikidata P106 occupation is acting (Q33999, Q10800557, Q10798782,
+    Q2405480, Q947873, Q488111, Q2259451, Q5716684) OR whose Hebrew Wikipedia
+    categories include an acting category.
+      - This gate is unconditional: there is no "recognised musician" escape
+        hatch. A singer who also acts is dropped, because the game asks for
+        singers and bands only (confirmed by the user after Dana Ivgy was kept
+        by the previous, lenient version).
+      - Force-keeping is still possible for a deliberate exception via
+        `forceKeep: true` in data/overrides.json.
+      - Maintenance categories are excluded before matching, otherwise
+        "ערכים עם פרופילי קולנוענים-מוזיקאים" (present on every artist page)
+        would match any acting pattern.
+      - "שחקני מחזות זמר ישראלים" (actors in musicals) counts as acting.
     Drops are reported as `dropped-nonmusic-actor` in data/review-report.md.
+    Known limitation: people whose Wikidata item and hewiki categories list
+    only a singing occupation (e.g. Yafa Yarkoni, David Tal) are not flagged,
+    because the source data does not record their acting work.
 
 6.7 OTHER CANDIDATES (not verified - only if a gap remains)
   - iTunes Search API (keyless) for artwork/genre hints.
@@ -556,9 +562,20 @@ POPULARITY TIER (1-5)
      remaining signals. lastfm was dropped (no key, API unused).
   4. Tiers by score quintile: top 20% => 5 ... bottom 20% => 1.
   5. Overrides may set the tier by hand - the owner will fix obvious errors.
-  6. answerEligible defaults to (tier >= 3), and additionally requires a valid
-     debut year so a daily answer can never render an "unknown" debut tile.
-     Previously-scheduled artists are never demoted. Guess pool = all artists.
+  6. answerEligible requires a valid debut year so a daily answer can never
+     render an "unknown" debut tile, AND at least one measured interest signal
+     (Spotify streams, 90-day hewiki pageviews or Deezer fans), so every daily
+     answer is a currently-trending artist.
+      - It deliberately does NOT use popularityTier. Tier is a within-pool
+        percentile, so at most ~60-85% of the pool can ever reach tier >= 3 and
+        a 1000-artist answerable pool would be impossible. Tier still drives
+        hint strength and guess ordering.
+      - Debut year sources, in order: override, MusicBrainz begin (groups),
+        Wikidata P2031 work period start, MusicBrainz first release (persons),
+        Deezer earliest album release year (stage 05c-deezer-debut.ts), then
+        Wikidata P571 inception. Legacy artists often have none of these and
+        are curated by hand in data/overrides.json.
+      - Previously-scheduled artists are never demoted. Guess pool = all artists.
 
 Genre taxonomy is the closed enum in section 3. data/genre-map.json is a plain
 lookup, e.g. {"mizrahi":"mizrahi","israeli rock":"rock","hip-hop":"hiphop",

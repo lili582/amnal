@@ -81,9 +81,6 @@ export function isRecognisedMusician(categories: string[] | undefined, requireSt
 }
 
 // Wikidata P106 values that mean "performs on screen / stage as an actor".
-// Someone carrying one of these has to clear isRecognisedMusician(…, true)
-// before entering the pool, because Wikidata happily gives a TV actor the
-// occupation "singer" for a single guest song.
 const ACTING_OCCUPATIONS = [
   'Q33999', // actor
   'Q10800557', // film actor
@@ -98,4 +95,32 @@ const ACTING_OCCUPATIONS = [
 export function isActorOccupation(occupations: string[] | undefined): boolean {
   if (!occupations) return false
   return occupations.some((o) => ACTING_OCCUPATIONS.includes(o))
+}
+
+// The same judgement from hewiki, for the cases Wikidata gets wrong or simply
+// does not record: an artist tagged only "singer" whose article is filed under
+// "שחקני קולנוע וטלוויזיה ישראליים" is an actor.
+const ACTING_CATEGORY_PATTERNS = [
+  /^שחקני/, // actors (masculine / construct)
+  /^שחקנים/,
+  /^שחקניות/, // actresses
+  /^שחקנים להט/, // TV-higher actors
+  /^כוכבי ילדים/, // child stars
+  /^בדרנים/, // comedians (Israeli usage)
+  /^בדרניות/,
+  /^סטנדאפיסטים/, // stand-up comedians
+  /^סטנדאפיסטיות/,
+]
+
+export function actingCategories(categories: string[] | undefined): string[] {
+  if (!categories) return []
+  return categories.filter((c) => {
+    const name = c.replace(/^קטגוריה:/, '')
+    if (META_CATEGORY.test(name)) return false
+    return ACTING_CATEGORY_PATTERNS.some((p) => p.test(name))
+  })
+}
+
+export function hasActingCategory(categories: string[] | undefined): boolean {
+  return actingCategories(categories).length > 0
 }
