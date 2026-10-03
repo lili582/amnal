@@ -267,3 +267,38 @@ directly interpretable and scales with the pool.
 - `data/overrides.json` accepts `popularityRank` for hand-curated fixes. Pinned
   ranks are honoured and the rest are ranked around them.
 - `metrics.spotifyRank` remains diagnostic only and is unrelated to this field.
+## Why the 87 missing debut years are still missing
+
+87 pool artists have no debut year. I tried three automated backfills and all
+three failed verification, so none of the data was applied. Recording the
+negative result so it is not repeated.
+
+1. Name-based lookup (Deezer `search/artist` -> earliest album release_date).
+   Resolved 33 of 87, but **25 of the 33 were the wrong artist**: ??? ??? ->
+   Gabi Shoshan, ????? ???? -> ????? ?????, ??? ???? -> ??? ????, ???? ??? ->
+   ???? ????, ???? ???? -> ????? ?????, ????? ???? -> ????? ?????, ???? ?? ->
+   Yosef Karduner. Hebrew artist names collide constantly. A few rejections were
+   false alarms (??? ?????? -> "Yaffa Yarkoni" and ??? ??? -> "Avi Peretz" are the
+   same people, just transliterated), which is what makes the whole approach
+   untrustworthy in both directions.
+2. ID-based lookup (MusicBrainz by the Wikidata-verified MBID). This cannot
+   resolve to the wrong artist, and 65 of the 87 have an MBID - but it resolved
+   only **8 of 65**, and at least one of those 8 is wrong: ???? ????? came back
+   as 2022, but he died in 1982. For a dead artist MusicBrainz's earliest
+   release is often a posthumous compilation, not a debut. A second pass over
+   `/release` (instead of `/release-group`) added nothing, so the coverage gap is
+   real, not an endpoint choice.
+3. Local Wikidata already has all 87 entities and no date claims on any of them:
+   69 carry only a birth year, 9 have an `activeSince` that is unreliable
+   (Max Brod's is 1906, which is his birth year, not a debut), and 9 have
+   neither.
+
+Blast radius is bounded: all 87 are `answerEligible: false`, because
+`debutOk()` requires a debut year, so none can be a daily answer and the
+schedule is safe. They are all still guessable, and their debut tile renders
+"-" instead of a year.
+
+So this needs manual curation in data/overrides.json (a real source per
+artist), not another scraper. If a future automated attempt does get built, it
+must key on an identifier rather than a name and must reject any candidate
+later than the artist's death year.
