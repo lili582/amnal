@@ -271,15 +271,38 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     }
 
     // ---- breakthrough year (the year the artist became famous) ----
-    // Prefer the curated override, then Wikidata work-period start (when the
-    // artist first became active), then their first album release, then debut.
-    const breakthroughYear =
+    // There is no breakthrough data source in this project. The best available
+    // proxies are P2031 and MusicBrainz first-release, which are both career
+    // *starts*, so this field usually restates debutYear rather than measuring
+    // anything separate - see the 879-artist duplication flagged below.
+    let breakthroughYear =
       ov.breakthroughYear ??
       (w.activeSince ? Number(w.activeSince) : undefined) ??
       (m?.firstRelease ? Number(m.firstRelease) : undefined) ??
       debutYear
-    if (ov.breakthroughYear === undefined) {
-      review.push(`breakthrough-defaulted: ${he} (now ${breakthroughYear})`)
+    // The same sanity rules as debutYear. breakthroughYear reads activeSince
+    // independently, so without this the two impossible values (רגב הוד 1996
+    // before his 2000 birth, לירן טל 2004 before his 2005) survived here even
+    // after debutYear was fixed, and 9 artists kept pre-1948 years that the
+    // debut gate rejects.
+    if (!ov.breakthroughYear) {
+      if (breakthroughYear > 0 && birthYear > 0 && breakthroughYear < birthYear) {
+        review.push(`breakthroughYear-before-birth: ${he} (${breakthroughYear} < ${birthYear})`)
+        breakthroughYear = 0
+      } else if (breakthroughYear > 0 && breakthroughYear < 1948) {
+        review.push(`breakthroughYear-pre-1948: ${he} (${breakthroughYear})`)
+        breakthroughYear = 0
+      } else if (breakthroughYear > 0 && debutYear > 0 && breakthroughYear < debutYear) {
+        // A breakthrough cannot precede the debut.
+        review.push(`breakthroughYear-before-debut: ${he} (${breakthroughYear} < ${debutYear})`)
+        breakthroughYear = debutYear
+      }
+      if (breakthroughYear > 0 && breakthroughYear === debutYear) {
+        review.push(`breakthroughYear-duplicates-debut: ${he} (${breakthroughYear})`)
+      }
+    }
+    if (ov.breakthroughYear === undefined && breakthroughYear === 0) {
+      review.push(`breakthrough-defaulted: ${he} (now 0)`)
     }
 
     // ---- genres ----

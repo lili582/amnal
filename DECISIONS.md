@@ -472,3 +472,34 @@ Honest residual: 11 artists still imply a career start before age 10, and
 a fact, and the disagreement flag is the honest output of that.
 
 Result: pool 1000, 914 answer-eligible, 86 missing a debut year.
+## The breakthrough tile has no data source
+
+`breakthroughYear` is the second tile, and it is not measuring anything. There is
+no breakthrough data anywhere in the project; the only candidates are P2031 and
+MusicBrainz first-release, which are both career *starts*. Consequences measured
+on the shipped pool:
+
+- **879 of 1000 artists have `breakthroughYear === debutYear`**, so for 88% of
+  the pool the second tile exactly repeats the first one instead of narrowing the
+  search.
+- The remaining 86 are 0 and fall back to rendering the debut year anyway, so in
+  practice the tile is never independent.
+- Zero curated overrides exist for either `breakthroughYear` or `debutYear`, so
+  all 1000 values of both are machine-derived.
+
+Applying the debutYear guards to this field was still necessary, because it reads
+`activeSince` independently and so kept every value the debut fix had just
+removed: the two impossible ones (??? ??? 1996 before his 2000 birth, ???? ??
+2004 before his 2005) and 20 pre-1948 years, including Max Brod's 1906. A
+breakthrough also cannot precede the debut. All three are now rejected, and
+07-validate treats them as hard errors so they cannot come back.
+
+New review flags make the redundancy visible instead of hiding it:
+`breakthroughYear-duplicates-debut` (1261 across the full candidate set),
+`breakthroughYear-before-birth` (2), `breakthroughYear-pre-1948` (20).
+
+This is a product decision I am not making unilaterally. The options are: curate
+a real breakthrough year per artist (expensive - it is a judgement about which
+release made someone famous), drop the tile, or replace it with something the
+data can actually support (most-streamed track's release year, say). Until one of
+those happens the honest description is that the game shows the debut tile twice.

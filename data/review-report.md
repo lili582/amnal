@@ -391,927 +391,156 @@ Generated for 1000 artists.
 - [ ] birthYear-missing: אלף.דלת
 - [ ] birthYear-missing: לוסיל קרו
 
-### breakthrough-defaulted (1635)
+### breakthrough-defaulted (325)
 
-- [ ] breakthrough-defaulted: עומר אדם (now 2009)
-- [ ] breakthrough-defaulted: אושר כהן (now 2014)
-- [ ] breakthrough-defaulted: עדן חסון (now 2017)
-- [ ] breakthrough-defaulted: אודיה (now 2017)
-- [ ] breakthrough-defaulted: פאר טסי (now 2009)
-- [ ] breakthrough-defaulted: רביד פלוטניק (now 2003)
-- [ ] breakthrough-defaulted: ששון איפרם שאולוב (now 2020)
-- [ ] breakthrough-defaulted: אייל גולן (now 1978)
-- [ ] breakthrough-defaulted: יסמין מועלם (now 2020)
-- [ ] breakthrough-defaulted: עדן בן זקן (now 2013)
-- [ ] breakthrough-defaulted: ישי ריבו (now 2007)
-- [ ] breakthrough-defaulted: נדב חנציס (now 2025)
-- [ ] breakthrough-defaulted: דולי ופן (now 2014)
-- [ ] breakthrough-defaulted: אברהם טל (now 1998)
-- [ ] breakthrough-defaulted: בניה ברבי (now 2015)
-- [ ] breakthrough-defaulted: אביתר בנאי (now 1997)
-- [ ] breakthrough-defaulted: נועם בתן (now 2017)
-- [ ] breakthrough-defaulted: רביב כנר (now 2019)
-- [ ] breakthrough-defaulted: רואי אדם (now 2022)
-- [ ] breakthrough-defaulted: מתן חסן (now 2023)
-- [ ] breakthrough-defaulted: דניס לויד (now 2015)
-- [ ] breakthrough-defaulted: עידן רייכל (now 1998)
-- [ ] breakthrough-defaulted: ליעד מאיר (now 2018)
-- [ ] breakthrough-defaulted: כפיר צפריר (now 2021)
-- [ ] breakthrough-defaulted: גל אדם (now 2018)
-- [ ] breakthrough-defaulted: רון חיון (now 2024)
-- [ ] breakthrough-defaulted: ג'יין בורדו (now 2012)
-- [ ] breakthrough-defaulted: נונו (now 2016)
-- [ ] breakthrough-defaulted: עדן גולן (now 2015)
-- [ ] breakthrough-defaulted: ילד. (now 2022)
-- [ ] breakthrough-defaulted: התקווה 6 (now 2003)
-- [ ] breakthrough-defaulted: שחר סאול (now 2017)
-- [ ] breakthrough-defaulted: עידו מלכה (now 2023)
-- [ ] breakthrough-defaulted: נרקיס (now 2016)
-- [ ] breakthrough-defaulted: אורי בן ארי (now 2017)
-- [ ] breakthrough-defaulted: אדיר גץ (now 2010)
-- [ ] breakthrough-defaulted: יגל אושרי (now 2020)
-- [ ] breakthrough-defaulted: רינת בר (now 1996)
-- [ ] breakthrough-defaulted: גיל ויין (now 2010)
-- [ ] breakthrough-defaulted: דודו אהרון (now 2007)
-- [ ] breakthrough-defaulted: בית הבובות (now 2005)
-- [ ] breakthrough-defaulted: עילי בוטנר (now 2007)
-- [ ] breakthrough-defaulted: שרית חדד (now 1994)
-- [ ] breakthrough-defaulted: ברי סחרוף (now 1973)
-- [ ] breakthrough-defaulted: מאיה דדון (now 2022)
-- [ ] breakthrough-defaulted: אלה לי להב (now 2019)
-- [ ] breakthrough-defaulted: יונתן קלימי (now 2021)
-- [ ] breakthrough-defaulted: רד בנד (now 2005)
-- [ ] breakthrough-defaulted: רון בוחניק (now 2016)
-- [ ] breakthrough-defaulted: עברי לידר (now 1997)
-- [ ] breakthrough-defaulted: טמפר סיטי (now 2026)
-- [ ] breakthrough-defaulted: עלמה זהר (now 2007)
-- [ ] breakthrough-defaulted: רותם כהן (now 2002)
-- [ ] breakthrough-defaulted: שירה מרגלית (now 2013)
-- [ ] breakthrough-defaulted: דניאלה ספקטור (now 2006)
-- [ ] breakthrough-defaulted: עלמה גוב (now 2021)
-- [ ] breakthrough-defaulted: וייב איש (now 2017)
-- [ ] breakthrough-defaulted: שלומי שבת (now 1985)
-- [ ] breakthrough-defaulted: שיר לוי (now 2005)
-- [ ] breakthrough-defaulted: ים רפאלי (now 2018)
-- [ ] breakthrough-defaulted: יובל רפאל (now 2024)
-- [ ] breakthrough-defaulted: נוי פדלון (now 2012)
-- [ ] breakthrough-defaulted: אליאב זוהר (now 2018)
-- [ ] breakthrough-defaulted: גבע אלון (now 2000)
-- [ ] breakthrough-defaulted: גלעד שגב (now 1991)
-- [ ] breakthrough-defaulted: דניאל סלומון (now 1998)
-- [ ] breakthrough-defaulted: דני סנדרסון (now 1966)
-- [ ] breakthrough-defaulted: אלון עדר (now 2011)
-- [ ] breakthrough-defaulted: נטע ברזילי (now 2012)
-- [ ] breakthrough-defaulted: כרקוקלי (now 2013)
-- [ ] breakthrough-defaulted: משינה (now 1983)
-- [ ] breakthrough-defaulted: ענבל רז (now 2018)
-- [ ] breakthrough-defaulted: החברים של נטאשה (now 1987)
-- [ ] breakthrough-defaulted: אריאל זילבר (now 1967)
-- [ ] breakthrough-defaulted: מוטי טקה (now 2013)
-- [ ] breakthrough-defaulted: יציאת חירום (now 1998)
-- [ ] breakthrough-defaulted: דני רובס (now 1983)
-- [ ] breakthrough-defaulted: עמיר בניון (now 1999)
-- [ ] breakthrough-defaulted: שוטי הנבואה (now 1994)
-- [ ] breakthrough-defaulted: נופיה (now 2025)
-- [ ] breakthrough-defaulted: שלומי שבן (now 1998)
-- [ ] breakthrough-defaulted: ניב דמירל (now 2014)
-- [ ] breakthrough-defaulted: הדג נחש (now 1996)
-- [ ] breakthrough-defaulted: יוריק בן דוד (now 1978)
-- [ ] breakthrough-defaulted: מאור אשכנזי (now 2018)
-- [ ] breakthrough-defaulted: ישי סוויסה (now 2023)
-- [ ] breakthrough-defaulted: ליאם גולן (now 2024)
-- [ ] breakthrough-defaulted: ישי לוי (now 1976)
-- [ ] breakthrough-defaulted: שרק (now 2016)
-- [ ] breakthrough-defaulted: ליאור נרקיס (now 1992)
-- [ ] breakthrough-defaulted: גיא ויהל (now 2011)
-- [ ] breakthrough-defaulted: עטר מיינר (now 2016)
-- [ ] breakthrough-defaulted: ארז לב ארי (now 1996)
-- [ ] breakthrough-defaulted: מאי ספדיה (now 2011)
-- [ ] breakthrough-defaulted: רותם חן (now 2017)
-- [ ] breakthrough-defaulted: גיא מזיג (now 1999)
-- [ ] breakthrough-defaulted: איציק אשל (now 1999)
-- [ ] breakthrough-defaulted: מתי כספי (now 1973)
-- [ ] breakthrough-defaulted: שוקי סלומון (now 2022)
-- [ ] breakthrough-defaulted: מוניקה סקס (now 1993)
-- [ ] breakthrough-defaulted: דורית ראובני (now 1973)
-- [ ] breakthrough-defaulted: שלמה גרוניך (now 1969)
-- [ ] breakthrough-defaulted: מאיר אריאל (now 1967)
-- [ ] breakthrough-defaulted: נעמי שמר (now 1951)
-- [ ] breakthrough-defaulted: מיכאל בן דוד (now 2022)
-- [ ] breakthrough-defaulted: אילנית (now 1964)
-- [ ] breakthrough-defaulted: שניר ימין (now 2006)
-- [ ] breakthrough-defaulted: מיקה משה (now 2020)
-- [ ] breakthrough-defaulted: רועי סנדלר (now 2014)
-- [ ] breakthrough-defaulted: יהודית רביץ (now 1976)
-- [ ] breakthrough-defaulted: שקד קוממי (now 2012)
-- [ ] breakthrough-defaulted: אביחי הולנדר (now 2022)
-- [ ] breakthrough-defaulted: יוני רכטר (now 1972)
-- [ ] breakthrough-defaulted: טדי נגוסה (now 2016)
-- [ ] breakthrough-defaulted: אסנת פז (now 1967)
-- [ ] breakthrough-defaulted: אור עמרמי ברוקמן (now 2018)
-- [ ] breakthrough-defaulted: האולטראס (now 2004)
-- [ ] breakthrough-defaulted: שי צברי (now 2001)
-- [ ] breakthrough-defaulted: אור כהן (now 2024)
-- [ ] breakthrough-defaulted: דוד ברוזה (now 1977)
-- [ ] breakthrough-defaulted: חן פורתי (now 2024)
-- [ ] breakthrough-defaulted: אסף אמדורסקי (now 1988)
-- [ ] breakthrough-defaulted: קינדרלעך (now 2005)
-- [ ] breakthrough-defaulted: יהונתן גפן (now 1967)
-- [ ] breakthrough-defaulted: דודי בר דוד (now 2019)
-- [ ] breakthrough-defaulted: אביאור מלסה (now 2015)
 - [ ] breakthrough-defaulted: עמרי קרן (now 0)
-- [ ] breakthrough-defaulted: דודו זכאי (now 1967)
-- [ ] breakthrough-defaulted: קובי פרץ (now 1992)
-- [ ] breakthrough-defaulted: עדי אולמנסקי (now 2007)
-- [ ] breakthrough-defaulted: לירון עמרם (now 2014)
-- [ ] breakthrough-defaulted: עידן יניב (now 2005)
-- [ ] breakthrough-defaulted: קוקי לבנה (now 2011)
-- [ ] breakthrough-defaulted: זוהר ארגוב (now 1977)
-- [ ] breakthrough-defaulted: חיים משה (now 1975)
-- [ ] breakthrough-defaulted: עופר לוי (now 1988)
-- [ ] breakthrough-defaulted: אסף אבידן (now 2002)
-- [ ] breakthrough-defaulted: פלד (now 2004)
-- [ ] breakthrough-defaulted: אחינועם ניני (now 1990)
-- [ ] breakthrough-defaulted: קרולינה (now 1999)
-- [ ] breakthrough-defaulted: כוורת (now 1973)
-- [ ] breakthrough-defaulted: אתניקס (now 1984)
-- [ ] breakthrough-defaulted: בלקן ביט בוקס (now 2003)
-- [ ] breakthrough-defaulted: אינפקטד מאשרום (now 1996)
-- [ ] breakthrough-defaulted: אה-ווה (now 2015)
-- [ ] breakthrough-defaulted: טיפקס (now 1988)
-- [ ] breakthrough-defaulted: סטטיק ובן אל (now 2015)
-- [ ] breakthrough-defaulted: הפרויקט של עידן רייכל (now 2002)
-- [ ] breakthrough-defaulted: עמיר חדד (now 2006)
-- [ ] breakthrough-defaulted: בועז מעודה (now 2007)
-- [ ] breakthrough-defaulted: מורן מזור (now 2011)
-- [ ] breakthrough-defaulted: אבישי כהן (now 1993)
-- [ ] breakthrough-defaulted: כמיליא ג'ובראן (now 1983)
-- [ ] breakthrough-defaulted: מור קרבסי (now 2008)
-- [ ] breakthrough-defaulted: יפה ירקוני (now 1933)
-- [ ] breakthrough-defaulted: דוד ד'אור (now 1985)
-- [ ] breakthrough-defaulted: אורן לביא (now 1997)
-- [ ] breakthrough-defaulted: מייק בראנט (now 1969)
-- [ ] breakthrough-defaulted: אבי טולדנו (now 1965)
-- [ ] breakthrough-defaulted: אדי בטלר (now 2021)
-- [ ] breakthrough-defaulted: Guy Mardel (now 1965)
-- [ ] breakthrough-defaulted: שוקי לוי (now 1983)
-- [ ] breakthrough-defaulted: מרדכי בן דוד (now 1973)
-- [ ] breakthrough-defaulted: קורין אלאל (now 1973)
-- [ ] breakthrough-defaulted: טל סונדק (now 2000)
-- [ ] breakthrough-defaulted: יהודה פוליקר (now 1980)
-- [ ] breakthrough-defaulted: שמעון גרשון (now 2010)
-- [ ] breakthrough-defaulted: MC Abdul (now 2020)
-- [ ] breakthrough-defaulted: ליאורה (now 1989)
-- [ ] breakthrough-defaulted: יוני בלוך (now 2003)
-- [ ] breakthrough-defaulted: איה כורם (now 2006)
-- [ ] breakthrough-defaulted: רמי קלינשטיין (now 1978)
-- [ ] breakthrough-defaulted: נועם קניאל (now 1971)
-- [ ] breakthrough-defaulted: רועי צ'יקי ארד (now 2004)
+- [ ] breakthrough-defaulted: יפה ירקוני (now 0)
 - [ ] breakthrough-defaulted: נחמה ליפשיץ (now 0)
-- [ ] breakthrough-defaulted: אהוד בנאי (now 1977)
-- [ ] breakthrough-defaulted: מרים טוקאן (now 2020)
 - [ ] breakthrough-defaulted: יצחק לוי (now 0)
-- [ ] breakthrough-defaulted: דניאלה פיק (now 2004)
-- [ ] breakthrough-defaulted: לייבו לוין (now 1933)
-- [ ] breakthrough-defaulted: אילנה אליה (now 1992)
-- [ ] breakthrough-defaulted: בעז שרעבי (now 1964)
-- [ ] breakthrough-defaulted: לינט (now 1985)
-- [ ] breakthrough-defaulted: שלומית אהרון (now 1965)
-- [ ] breakthrough-defaulted: מוטי שטיינמץ (now 2012)
-- [ ] breakthrough-defaulted: אילנה רובינא (now 1959)
-- [ ] breakthrough-defaulted: שולי נתן (now 1967)
-- [ ] breakthrough-defaulted: אדרת (now 2001)
-- [ ] breakthrough-defaulted: אברהם פריד (now 1981)
-- [ ] breakthrough-defaulted: שרה'לה שרון (now 1979)
-- [ ] breakthrough-defaulted: כברה קסאי (now 2003)
-- [ ] breakthrough-defaulted: יונתן רזאל (now 2007)
-- [ ] breakthrough-defaulted: טובה בן-צבי (now 1963)
-- [ ] breakthrough-defaulted: ויקטוריה חנה (now 2015)
-- [ ] breakthrough-defaulted: זוהרה אלפסיה (now 1982)
-- [ ] breakthrough-defaulted: Willy Weiner (now 1974)
-- [ ] breakthrough-defaulted: קובי פרחי (now 1991)
-- [ ] breakthrough-defaulted: נטע אלקיים (now 2023)
+- [ ] breakthrough-defaulted: לייבו לוין (now 0)
 - [ ] breakthrough-defaulted: מעיין ליכט (now 0)
-- [ ] breakthrough-defaulted: הראל מויאל (now 2000)
-- [ ] breakthrough-defaulted: פבלו רוזנברג (now 1980)
-- [ ] breakthrough-defaulted: אבנר שטראוס (now 1987)
-- [ ] breakthrough-defaulted: דקלון (now 1950)
 - [ ] breakthrough-defaulted: לייב גלנץ (now 0)
-- [ ] breakthrough-defaulted: ארקדי דוכין (now 1980)
-- [ ] breakthrough-defaulted: חגית יאסו (now 2009)
-- [ ] breakthrough-defaulted: אבי בללי (now 1981)
-- [ ] breakthrough-defaulted: מאיה קזביאנקה (now 1969)
-- [ ] breakthrough-defaulted: מאיה דוניץ (now 2021)
-- [ ] breakthrough-defaulted: ג'וני גולדשטיין (now 2004)
 - [ ] breakthrough-defaulted: דוד רפאל בן-עמי (now 0)
-- [ ] breakthrough-defaulted: ציון גולן (now 1978)
-- [ ] breakthrough-defaulted: נורית גלרון (now 1970)
-- [ ] breakthrough-defaulted: רות דולורס וייס (now 2002)
-- [ ] breakthrough-defaulted: שי בן צור (now 2003)
-- [ ] breakthrough-defaulted: פיטר רוט (now 1992)
-- [ ] breakthrough-defaulted: רוז פוסטאנס (now 2013)
-- [ ] breakthrough-defaulted: שייך מואיז'ו (now 1962)
-- [ ] breakthrough-defaulted: יהודה גרין (now 2007)
-- [ ] breakthrough-defaulted: יוסי פיאמנטה (now 1972)
-- [ ] breakthrough-defaulted: עילם רותם (now 2008)
-- [ ] breakthrough-defaulted: אלון דה לוקו (now 2005)
-- [ ] breakthrough-defaulted: אריאל הורוביץ (now 1998)
-- [ ] breakthrough-defaulted: מאיה סימנטוב (now 2004)
-- [ ] breakthrough-defaulted: עליזה גבאי (now 1951)
-- [ ] breakthrough-defaulted: שי 360 (now 2001)
-- [ ] breakthrough-defaulted: ג'ו עמר (now 1956)
-- [ ] breakthrough-defaulted: Aaron Shust (now 2005)
-- [ ] breakthrough-defaulted: אריס סאן (now 1957)
-- [ ] breakthrough-defaulted: אהרן רזאל (now 1997)
-- [ ] breakthrough-defaulted: יזהר אשדות (now 1973)
-- [ ] breakthrough-defaulted: רונה קינן (now 1990)
-- [ ] breakthrough-defaulted: יהודה גלאנץ (now 1977)
-- [ ] breakthrough-defaulted: יהושע סופר (now 1963)
 - [ ] breakthrough-defaulted: לריסה גרשטיין (now 0)
-- [ ] breakthrough-defaulted: אמיל גורובץ (now 1955)
-- [ ] breakthrough-defaulted: יובל דור (now 1969)
-- [ ] breakthrough-defaulted: חנה אהרוני (now 1960)
 - [ ] breakthrough-defaulted: אלה מילך-שריף (now 0)
-- [ ] breakthrough-defaulted: אוהד מושקוביץ (now 2003)
-- [ ] breakthrough-defaulted: דור דניאל (now 2005)
-- [ ] breakthrough-defaulted: שלומי ברכה (now 1985)
-- [ ] breakthrough-defaulted: דדי גראוכר (now 1990)
-- [ ] breakthrough-defaulted: איציק קלה (now 1971)
-- [ ] breakthrough-defaulted: אביבה סמדר (now 1957)
-- [ ] breakthrough-defaulted: סיון ארבל (now 2016)
-- [ ] breakthrough-defaulted: איגור קרוטוגולוב (now 1997)
 - [ ] breakthrough-defaulted: קראל שלמון (now 0)
-- [ ] breakthrough-defaulted: רינת שחם (now 2001)
 - [ ] breakthrough-defaulted: זלטה רזדולינה (now 0)
-- [ ] breakthrough-defaulted: טניה סגל (now 2023)
-- [ ] breakthrough-defaulted: Shura Bi-2 (now 1995)
-- [ ] breakthrough-defaulted: עדי רן (now 1993)
-- [ ] breakthrough-defaulted: גלית בל (now 1996)
-- [ ] breakthrough-defaulted: דין דין אביב (now 1998)
-- [ ] breakthrough-defaulted: נפתלי הרשטיק (now 2003)
-- [ ] breakthrough-defaulted: ישראל בר-און (now 2007)
-- [ ] breakthrough-defaulted: מישה אלכסנדרוביץ (now 1923)
-- [ ] breakthrough-defaulted: מאריה אוצ'רטיאנסקי (now 2006)
-- [ ] breakthrough-defaulted: דניאל זמיר (now 2000)
-- [ ] breakthrough-defaulted: קטלין רייטר (now 2011)
-- [ ] breakthrough-defaulted: חיים אוליאל (now 2000)
-- [ ] breakthrough-defaulted: גלית בורג (now 1989)
-- [ ] breakthrough-defaulted: חיים לוק (now 2015)
-- [ ] breakthrough-defaulted: סגיב כהן (now 2001)
-- [ ] breakthrough-defaulted: יוסף קרדונר (now 2000)
-- [ ] breakthrough-defaulted: יצחק קלפטר (now 1966)
-- [ ] breakthrough-defaulted: לאה לופטין (now 1969)
-- [ ] breakthrough-defaulted: וירה לוזינסקי (now 2005)
-- [ ] breakthrough-defaulted: יהודה סעדו (now 2005)
-- [ ] breakthrough-defaulted: מאיה איזקוביץ (now 2009)
-- [ ] breakthrough-defaulted: אהובה עוזרי (now 1973)
-- [ ] breakthrough-defaulted: איילה אינגדשט (now 2006)
-- [ ] breakthrough-defaulted: אריק סיני (now 1968)
-- [ ] breakthrough-defaulted: נעם רותם (now 1993)
-- [ ] breakthrough-defaulted: שחר אבן צור (now 2003)
-- [ ] breakthrough-defaulted: רוחמה רז (now 1977)
-- [ ] breakthrough-defaulted: שני חזן (now 2018)
-- [ ] breakthrough-defaulted: שפי ישי (now 1992)
-- [ ] breakthrough-defaulted: שמואל ברזילי (now 1992)
-- [ ] breakthrough-defaulted: אודי דוידי (now 2004)
-- [ ] breakthrough-defaulted: יעל דקלבאום (now 1995)
-- [ ] breakthrough-defaulted: שם טוב לוי (now 1969)
-- [ ] breakthrough-defaulted: יניב ד'אור (now 2012)
+- [ ] breakthrough-defaulted: מישה אלכסנדרוביץ (now 0)
 - [ ] breakthrough-defaulted: אווה בן צבי (now 0)
 - [ ] breakthrough-defaulted: Teymur Mirzoyev (now 0)
-- [ ] breakthrough-defaulted: תמר אייזנמן (now 2001)
-- [ ] breakthrough-defaulted: זוהרה (now 2012)
-- [ ] breakthrough-defaulted: שלומית לוי (now 2004)
 - [ ] breakthrough-defaulted: זהר וגנר (now 0)
-- [ ] breakthrough-defaulted: רותם אור (now 2008)
-- [ ] breakthrough-defaulted: זיו יחזקאל (now 2013)
-- [ ] breakthrough-defaulted: טליה ישי (now 2008)
-- [ ] breakthrough-defaulted: רון נשר (now 2003)
-- [ ] breakthrough-defaulted: ליאורה יצחק (now 2013)
-- [ ] breakthrough-defaulted: יעל דנון (now 2019)
-- [ ] breakthrough-defaulted: טל שגב (now 1990)
-- [ ] breakthrough-defaulted: אמיר קרטס (now 1991)
-- [ ] breakthrough-defaulted: ג'קו אייזנברג (now 1996)
-- [ ] breakthrough-defaulted: ניקה (now 2005)
-- [ ] breakthrough-defaulted: חמדה (now 2003)
-- [ ] breakthrough-defaulted: תמר גלעדי (now 1998)
-- [ ] breakthrough-defaulted: דני מסנג (now 1965)
-- [ ] breakthrough-defaulted: ענבל פרלמוטר (now 1992)
-- [ ] breakthrough-defaulted: אפרים שמיר (now 1970)
-- [ ] breakthrough-defaulted: יוליה פלדמן (now 2024)
-- [ ] breakthrough-defaulted: ירמיה דמן (now 2010)
-- [ ] breakthrough-defaulted: מיקה קרני (now 1997)
-- [ ] breakthrough-defaulted: שאנן סטריט (now 2007)
-- [ ] breakthrough-defaulted: רון שובל (now 1985)
-- [ ] breakthrough-defaulted: מושיק עפיה (now 1998)
-- [ ] breakthrough-defaulted: זאב טנא (now 1975)
-- [ ] breakthrough-defaulted: חמי רודנר (now 1985)
-- [ ] breakthrough-defaulted: יסמין אבן (now 2004)
-- [ ] breakthrough-defaulted: לאה שבת (now 1986)
-- [ ] breakthrough-defaulted: ג'קי מקייטן (now 1998)
 - [ ] breakthrough-defaulted: גבריאלה אביגור-רותם (now 0)
-- [ ] breakthrough-defaulted: איזי (now 2001)
-- [ ] breakthrough-defaulted: אילקה רווה (now 2006)
-- [ ] breakthrough-defaulted: שמעון בוסקילה (now 1988)
-- [ ] breakthrough-defaulted: עוזי פוקס (now 1962)
-- [ ] breakthrough-defaulted: מורין נהדר (now 1995)
-- [ ] breakthrough-defaulted: מזי כהן (now 1979)
-- [ ] breakthrough-defaulted: רן אלירן (now 1952)
-- [ ] breakthrough-defaulted: קובי אפללו (now 2001)
-- [ ] breakthrough-defaulted: משה חבושה (now 1998)
-- [ ] breakthrough-defaulted: עדנה לב (now 1966)
-- [ ] breakthrough-defaulted: ערן צור (now 1986)
-- [ ] breakthrough-defaulted: צילה דגן (now 1971)
-- [ ] breakthrough-defaulted: שלמה יידוב (now 1972)
-- [ ] breakthrough-defaulted: ענבל בקהל (now 2009)
-- [ ] breakthrough-defaulted: יונתן שינפלד (now 2012)
-- [ ] breakthrough-defaulted: מרים ישראלי (now 1999)
 - [ ] breakthrough-defaulted: Talya G. A Solan (now 0)
-- [ ] breakthrough-defaulted: מורן מגל (now 2016)
-- [ ] breakthrough-defaulted: עוזיה צדוק (now 2014)
-- [ ] breakthrough-defaulted: איציק דדיה (now 2002)
-- [ ] breakthrough-defaulted: שירלי יובל-יאיר (now 1992)
-- [ ] breakthrough-defaulted: אביאור ביירון (now 1988)
 - [ ] breakthrough-defaulted: Viktoriya Makarskaya (now 0)
-- [ ] breakthrough-defaulted: אושרת זולטק (now 2016)
-- [ ] breakthrough-defaulted: יאיר לוי (now 2016)
-- [ ] breakthrough-defaulted: גל דה פז (now 2010)
-- [ ] breakthrough-defaulted: יפעת בלסיאנו (now 2024)
-- [ ] breakthrough-defaulted: טליסמאן (now 2016)
-- [ ] breakthrough-defaulted: טניה וינוקור (now 2001)
-- [ ] breakthrough-defaulted: נועה גרומן (now 2024)
-- [ ] breakthrough-defaulted: טלי רובינשטיין (now 2012)
 - [ ] breakthrough-defaulted: דלית כהנא (now 0)
-- [ ] breakthrough-defaulted: יאיר אליצור (now 2018)
-- [ ] breakthrough-defaulted: זאנוויל ויינברגר (now 2016)
-- [ ] breakthrough-defaulted: אורי טולדנו (now 2006)
-- [ ] breakthrough-defaulted: אורי כלטוב (now 2024)
-- [ ] breakthrough-defaulted: נתן סלומון (now 1997)
-- [ ] breakthrough-defaulted: דניס מידונה (now 2019)
-- [ ] breakthrough-defaulted: עמית ארז (now 2003)
-- [ ] breakthrough-defaulted: אבי פרץ (זמר) (now 1993)
-- [ ] breakthrough-defaulted: שרון לוי‎ (now 2013)
-- [ ] breakthrough-defaulted: אורי שבח (now 1972)
-- [ ] breakthrough-defaulted: נורית (now 1998)
-- [ ] breakthrough-defaulted: יוני נמרי (now 1974)
-- [ ] breakthrough-defaulted: בן ארצי (now 1998)
 - [ ] breakthrough-defaulted: Vlad Zernytsky (now 0)
-- [ ] breakthrough-defaulted: ניסים סרוסי (now 2016)
-- [ ] breakthrough-defaulted: מיקי שביב (now 1966)
-- [ ] breakthrough-defaulted: רפי פרסקי (now 1988)
-- [ ] breakthrough-defaulted: משה להב (now 2017)
-- [ ] breakthrough-defaulted: מלכה שפיגל (now 1980)
-- [ ] breakthrough-defaulted: עדנה בז'רנו (now 1978)
-- [ ] breakthrough-defaulted: גלעד השג (now 1971)
-- [ ] breakthrough-defaulted: הנרי (מוזיקאי) (now 2002)
-- [ ] breakthrough-defaulted: ישי ברגר (now 1994)
-- [ ] breakthrough-defaulted: זוהיר פרנסיס (now 2018)
-- [ ] breakthrough-defaulted: לידור יוספי (now 1997)
-- [ ] breakthrough-defaulted: כפיר עטיה (now 2005)
-- [ ] breakthrough-defaulted: דרורה חבקין (now 2006)
-- [ ] breakthrough-defaulted: בעז בנאי (now 2007)
-- [ ] breakthrough-defaulted: מירו (now 2019)
-- [ ] breakthrough-defaulted: הדסה סיגלוב (now 1968)
-- [ ] breakthrough-defaulted: יפעת בן דרור (now 2001)
-- [ ] breakthrough-defaulted: גבי ברלין (now 1954)
-- [ ] breakthrough-defaulted: סמי לזמי (now 2023)
-- [ ] breakthrough-defaulted: בריו חקשור (now 2000)
-- [ ] breakthrough-defaulted: גיתית שובל (now 2008)
-- [ ] breakthrough-defaulted: גדי אלטמן (now 2003)
-- [ ] breakthrough-defaulted: אורית שחף (now 1992)
-- [ ] breakthrough-defaulted: יוסי עדן (now 1998)
-- [ ] breakthrough-defaulted: ניסים גרמה (now 1978)
 - [ ] breakthrough-defaulted: אברהם וילקומירסקי (now 0)
 - [ ] breakthrough-defaulted: מרדכי בן שחר (now 0)
-- [ ] breakthrough-defaulted: יונתן מילר (now 1985)
 - [ ] breakthrough-defaulted: מיקיאגי (now 0)
 - [ ] breakthrough-defaulted: אלינוער מואב (now 0)
-- [ ] breakthrough-defaulted: נועה פארן (now 1997)
-- [ ] breakthrough-defaulted: מאור אדרי (now 2008)
-- [ ] breakthrough-defaulted: יורם חזן (now 1990)
-- [ ] breakthrough-defaulted: יעקב יהודה דסקל (now 2007)
-- [ ] breakthrough-defaulted: עירית דותן (now 1974)
-- [ ] breakthrough-defaulted: יוסי בבליקי (now 1996)
-- [ ] breakthrough-defaulted: מאיר ישראל (now 2011)
-- [ ] breakthrough-defaulted: אפרים מנדלסון (now 1997)
-- [ ] breakthrough-defaulted: יהודה אליאס (now 1983)
-- [ ] breakthrough-defaulted: חיים אל (now 1989)
-- [ ] breakthrough-defaulted: תום פטרובר (now 2019)
-- [ ] breakthrough-defaulted: אבי בניון (now 2002)
-- [ ] breakthrough-defaulted: שלמה דסקל (now 1999)
-- [ ] breakthrough-defaulted: מייק שרון (now 2021)
-- [ ] breakthrough-defaulted: שר-אל (now 2004)
-- [ ] breakthrough-defaulted: עליזה קשי (now 1955)
-- [ ] breakthrough-defaulted: אבי סינואני (now 1981)
-- [ ] breakthrough-defaulted: יוני פוליקר (now 2008)
 - [ ] breakthrough-defaulted: הדסה באו (now 0)
-- [ ] breakthrough-defaulted: מקס גת-מור (now 2022)
-- [ ] breakthrough-defaulted: טריפונס (now 1982)
-- [ ] breakthrough-defaulted: סולימאן הגדול (now 1933)
-- [ ] breakthrough-defaulted: גילי ארגוב (now 1989)
-- [ ] breakthrough-defaulted: דני גולן (now 1967)
-- [ ] breakthrough-defaulted: יעלה אביטל (now 2021)
-- [ ] breakthrough-defaulted: מיכל טאובר (now 2000)
-- [ ] breakthrough-defaulted: שלווה ברטי (now 1986)
-- [ ] breakthrough-defaulted: לירן אביב (now 2010)
-- [ ] breakthrough-defaulted: בן סנוף (now 1993)
-- [ ] breakthrough-defaulted: ורדינה כהן (now 1988)
-- [ ] breakthrough-defaulted: יואב יצחק (זמר) (now 1990)
-- [ ] breakthrough-defaulted: דני גרנות (now 1969)
-- [ ] breakthrough-defaulted: אבנר גדסי (now 1970)
+- [ ] breakthrough-defaulted: סולימאן הגדול (now 0)
 - [ ] breakthrough-defaulted: ג'נגו (now 0)
-- [ ] breakthrough-defaulted: מיכל טל (זמרת) (now 1975)
 - [ ] breakthrough-defaulted: נילי הרפז (now 0)
-- [ ] breakthrough-defaulted: מנחם פיליפ (now 1991)
-- [ ] breakthrough-defaulted: ליאור אלמליח (now 2008)
-- [ ] breakthrough-defaulted: אייל שחר (now 1996)
-- [ ] breakthrough-defaulted: בני אלבז (now 1984)
-- [ ] breakthrough-defaulted: יוני גנוט (now 2000)
-- [ ] breakthrough-defaulted: סנדרה ג'ונסון (now 1975)
-- [ ] breakthrough-defaulted: רוני פיטרסון (now 1974)
 - [ ] breakthrough-defaulted: דורית פרקש (now 0)
 - [ ] breakthrough-defaulted: מאיה בהיר (now 0)
-- [ ] breakthrough-defaulted: מאיה רוטמן (now 2006)
-- [ ] breakthrough-defaulted: מיכה שטרית (now 1980)
-- [ ] breakthrough-defaulted: מני בגר (now 1978)
-- [ ] breakthrough-defaulted: יהודית תמיר (now 1991)
-- [ ] breakthrough-defaulted: Yotam Ben Horin (now 1997)
-- [ ] breakthrough-defaulted: מריה לוקאץ' (now 1966)
-- [ ] breakthrough-defaulted: אביהו שבת (now 2009)
 - [ ] breakthrough-defaulted: אבישי אביבי (now 0)
-- [ ] breakthrough-defaulted: איתמר רוטשילד (now 2002)
-- [ ] breakthrough-defaulted: אלונה דניאל (now 1990)
-- [ ] breakthrough-defaulted: אליוט (now 1985)
-- [ ] breakthrough-defaulted: אסתר שמיר (now 1977)
-- [ ] breakthrough-defaulted: אתי לוי (now 1992)
-- [ ] breakthrough-defaulted: בטי פבלו (now 1989)
-- [ ] breakthrough-defaulted: בני ברמן (now 1991)
-- [ ] breakthrough-defaulted: ג'וני שועלי (now 1991)
-- [ ] breakthrough-defaulted: אסף ארליך (now 2000)
-- [ ] breakthrough-defaulted: אורן ברזילי (now 2017)
-- [ ] breakthrough-defaulted: חיים סהר ישראל (now 1999)
 - [ ] breakthrough-defaulted: דני וסלי (now 0)
-- [ ] breakthrough-defaulted: אלי מגן (now 1987)
-- [ ] breakthrough-defaulted: יצחק מאיר (זמר) (now 2010)
-- [ ] breakthrough-defaulted: דודי לוי (now 1986)
-- [ ] breakthrough-defaulted: בני אמדורסקי (now 1956)
-- [ ] breakthrough-defaulted: שני קדר (now 2006)
-- [ ] breakthrough-defaulted: איגי דיין (now 1992)
-- [ ] breakthrough-defaulted: ורד קלפטר (now 1981)
-- [ ] breakthrough-defaulted: פטריק סבג (now 2007)
-- [ ] breakthrough-defaulted: תמיר גל (now 1995)
-- [ ] breakthrough-defaulted: דוד לביא (זמר) (now 2008)
-- [ ] breakthrough-defaulted: עדנה גורן (now 1959)
-- [ ] breakthrough-defaulted: ניצן-חן רזאל (now 1996)
-- [ ] breakthrough-defaulted: דורון רפאלי (now 2011)
-- [ ] breakthrough-defaulted: גבריאל בלחסן (now 1995)
-- [ ] breakthrough-defaulted: איגי וקסמן (now 1986)
-- [ ] breakthrough-defaulted: דני דותן (now 1996)
-- [ ] breakthrough-defaulted: רונית אופיר (now 1972)
-- [ ] breakthrough-defaulted: יוני רועה (now 1998)
 - [ ] breakthrough-defaulted: רחל הרמתי (now 0)
-- [ ] breakthrough-defaulted: דידי ארז (now 1999)
 - [ ] breakthrough-defaulted: סמדר לוי (now 0)
-- [ ] breakthrough-defaulted: דנה לפידות (now 2008)
-- [ ] breakthrough-defaulted: טובה גרטנר (now 1986)
 - [ ] breakthrough-defaulted: מוריה אור (now 0)
-- [ ] breakthrough-defaulted: יעל לוי (now 1973)
-- [ ] breakthrough-defaulted: זאב נחמה (now 1985)
-- [ ] breakthrough-defaulted: ליאור פרחי (now 1986)
-- [ ] breakthrough-defaulted: שאול צירלין (now 1989)
-- [ ] breakthrough-defaulted: דודי קאליש (now 1995)
-- [ ] breakthrough-defaulted: שרי (זמרת) (now 1976)
-- [ ] breakthrough-defaulted: ניסים אלחנטי (now 1998)
-- [ ] breakthrough-defaulted: גאולה גיל (now 1950)
-- [ ] breakthrough-defaulted: רמה סמסונוב (now 1952)
-- [ ] breakthrough-defaulted: אלי לולאי (now 1988)
-- [ ] breakthrough-defaulted: רועי הראבן (now 1995)
-- [ ] breakthrough-defaulted: נאור אורמיה (now 2009)
-- [ ] breakthrough-defaulted: גרי אקשטיין (now 1964)
-- [ ] breakthrough-defaulted: קרני פוסטל (now 1986)
-- [ ] breakthrough-defaulted: דליה כהן (זמרת) (now 1968)
-- [ ] breakthrough-defaulted: נתנאלה (now 1973)
 - [ ] breakthrough-defaulted: מיכל פאולינה (now 0)
-- [ ] breakthrough-defaulted: ברכה קול (now 1988)
 - [ ] breakthrough-defaulted: נינו אורסיאנו (now 0)
-- [ ] breakthrough-defaulted: נעמי צורי (now 2026)
-- [ ] breakthrough-defaulted: סיוון (זמרת) (now 2002)
-- [ ] breakthrough-defaulted: סיני תור (now 1997)
-- [ ] breakthrough-defaulted: סמי בירנבך (now 1989)
-- [ ] breakthrough-defaulted: עדי מדנס (now 1986)
-- [ ] breakthrough-defaulted: קוואמי (now 1990)
-- [ ] breakthrough-defaulted: קים קונקשיין (now 1996)
-- [ ] breakthrough-defaulted: רם אוריון (now 1982)
-- [ ] breakthrough-defaulted: שיבי קלר (now 2000)
-- [ ] breakthrough-defaulted: שילה פרבר (now 2003)
-- [ ] breakthrough-defaulted: שלום גד (now 1988)
-- [ ] breakthrough-defaulted: שלמה צח (now 1962)
-- [ ] breakthrough-defaulted: שרה ב"ק (now 2012)
-- [ ] breakthrough-defaulted: שרון מולדאבי (now 1995)
 - [ ] breakthrough-defaulted: מיצי לוקר (now 0)
 - [ ] breakthrough-defaulted: אריה פרידמן-לבוב (now 0)
-- [ ] breakthrough-defaulted: ניקול ראידמן (now 2017)
 - [ ] breakthrough-defaulted: מלאבס (זמר) (now 0)
-- [ ] breakthrough-defaulted: רועי כפרי (now 2007)
-- [ ] breakthrough-defaulted: אברהם פררה (now 1952)
-- [ ] breakthrough-defaulted: שירה גבריאלוב (now 2004)
 - [ ] breakthrough-defaulted: יוכבד טראוב (now 0)
-- [ ] breakthrough-defaulted: אורטל אופק (now 2002)
-- [ ] breakthrough-defaulted: דורית שדה (now 1975)
-- [ ] breakthrough-defaulted: אורן לוטנברג (now 2024)
-- [ ] breakthrough-defaulted: שני יצהרי (now 2010)
-- [ ] breakthrough-defaulted: שרון ליפשיץ (now 1983)
-- [ ] breakthrough-defaulted: דנה לוי (now 1997)
 - [ ] breakthrough-defaulted: יסמין גמליאל (now 0)
-- [ ] breakthrough-defaulted: נתן סלור (now 2006)
-- [ ] breakthrough-defaulted: מיקה שדה (now 2013)
-- [ ] breakthrough-defaulted: ישראל פרנס (now 2022)
-- [ ] breakthrough-defaulted: חני דינור (now 1980)
-- [ ] breakthrough-defaulted: חני ליבנה (now 1984)
-- [ ] breakthrough-defaulted: איילת רוז גוטליב (now 2006)
 - [ ] breakthrough-defaulted: אתי בן-זקן (now 0)
-- [ ] breakthrough-defaulted: גדעון אונה (now 2020)
-- [ ] breakthrough-defaulted: ראובן ארז (now 1995)
-- [ ] breakthrough-defaulted: עזרא אהרון (now 2024)
-- [ ] breakthrough-defaulted: Udi Spielman (now 1951)
-- [ ] breakthrough-defaulted: אלי לס (now 1990)
-- [ ] breakthrough-defaulted: גיא בוקאטי (now 1985)
-- [ ] breakthrough-defaulted: דורון מירן (now 1987)
 - [ ] breakthrough-defaulted: עומר הרשמן (now 0)
-- [ ] breakthrough-defaulted: מיכה ביטון (now 1994)
-- [ ] breakthrough-defaulted: סיון טלמור (now 1998)
-- [ ] breakthrough-defaulted: ליאת יצחקי (now 2002)
-- [ ] breakthrough-defaulted: מורן מזוז (now 2013)
-- [ ] breakthrough-defaulted: רן שם טוב (now 1989)
-- [ ] breakthrough-defaulted: עמית ליסטוונד (now 1995)
-- [ ] breakthrough-defaulted: אינפי סנואו (now 2012)
-- [ ] breakthrough-defaulted: עמי מימון (now 2021)
-- [ ] breakthrough-defaulted: ליאונל פרטיין (now 2015)
-- [ ] breakthrough-defaulted: חופני כהן (now 1975)
-- [ ] breakthrough-defaulted: עידו אופק (now 1999)
-- [ ] breakthrough-defaulted: רינת גוטמן (now 2008)
-- [ ] breakthrough-defaulted: דן שצברג (now 1998)
-- [ ] breakthrough-defaulted: קלייר מגנאג'י (now 2016)
-- [ ] breakthrough-defaulted: נועה שמר (now 2005)
-- [ ] breakthrough-defaulted: גדי רונן (now 2017)
-- [ ] breakthrough-defaulted: דפנה לוי (now 2023)
-- [ ] breakthrough-defaulted: יגל הרוש (now 2020)
-- [ ] breakthrough-defaulted: שריףף (now 1992)
-- [ ] breakthrough-defaulted: דורון אייל (now 2019)
-- [ ] breakthrough-defaulted: מידד טסה (now 2006)
-- [ ] breakthrough-defaulted: נועם פנחסוב (now 2009)
-- [ ] breakthrough-defaulted: אבבה דסה (now 2013)
-- [ ] breakthrough-defaulted: טילדה רג'ואן (now 2020)
 - [ ] breakthrough-defaulted: ענת צ'רני (now 0)
 - [ ] breakthrough-defaulted: יעל צ'רני (now 0)
-- [ ] breakthrough-defaulted: יואלי דיקמן (now 2022)
-- [ ] breakthrough-defaulted: ניסים מנחם (now 1960)
-- [ ] breakthrough-defaulted: חזי פניאן (now 1986)
-- [ ] breakthrough-defaulted: גל זיו (now 2010)
-- [ ] breakthrough-defaulted: גילי נתנאל (now 2002)
-- [ ] breakthrough-defaulted: אווה פרנסיס (now 2018)
-- [ ] breakthrough-defaulted: אקו (now 2011)
 - [ ] breakthrough-defaulted: סלבה ברזילאי (now 0)
-- [ ] breakthrough-defaulted: עומר קורן (now 2017)
-- [ ] breakthrough-defaulted: נועם דדון (now 2015)
-- [ ] breakthrough-defaulted: נועם אקוטונס (now 2004)
-- [ ] breakthrough-defaulted: משה גיאת (now 1982)
-- [ ] breakthrough-defaulted: עינב ג'קסון כהן (now 2011)
-- [ ] breakthrough-defaulted: מיס רד (now 2015)
-- [ ] breakthrough-defaulted: לירון בן שמעון (now 2007)
-- [ ] breakthrough-defaulted: שמחה פרידמן (now 2020)
-- [ ] breakthrough-defaulted: מנחם הרמן (now 1980)
-- [ ] breakthrough-defaulted: ערן ויץ (now 1995)
-- [ ] breakthrough-defaulted: טל רמון (now 2016)
-- [ ] breakthrough-defaulted: ליאורה מוריאל (now 2022)
 - [ ] breakthrough-defaulted: דרורה דרורית (now 0)
-- [ ] breakthrough-defaulted: אוהד שרגאי (now 2019)
-- [ ] breakthrough-defaulted: אדר גולד (now 2019)
-- [ ] breakthrough-defaulted: בן זיני (now 2017)
-- [ ] breakthrough-defaulted: שמחה גואטה (now 2015)
 - [ ] breakthrough-defaulted: הראלה בר (now 0)
 - [ ] breakthrough-defaulted: יוסף חוריש (now 0)
 - [ ] breakthrough-defaulted: יעל שושנה כהן (now 0)
-- [ ] breakthrough-defaulted: אוריין שוקרון (now 2022)
 - [ ] breakthrough-defaulted: אלי לפיד (now 0)
-- [ ] breakthrough-defaulted: תמר יהלומי (now 2011)
-- [ ] breakthrough-defaulted: רן ניר (now 2006)
-- [ ] breakthrough-defaulted: גילי יאלו (now 2017)
-- [ ] breakthrough-defaulted: רחל ירון (now 2014)
 - [ ] breakthrough-defaulted: אליסה דור (now 0)
 - [ ] breakthrough-defaulted: אורי רונן (now 0)
 - [ ] breakthrough-defaulted: יאיר שרגאי (now 0)
-- [ ] breakthrough-defaulted: לורן פלד (now 2020)
-- [ ] breakthrough-defaulted: אילן דמתי (now 2023)
-- [ ] breakthrough-defaulted: גל סינואני (now 2019)
 - [ ] breakthrough-defaulted: עמית חיו (now 0)
-- [ ] breakthrough-defaulted: שרה יערי (now 1941)
-- [ ] breakthrough-defaulted: עדן גבאי (now 2013)
-- [ ] breakthrough-defaulted: אברומי וינברג (now 2012)
-- [ ] breakthrough-defaulted: עדי שחם (now 2019)
-- [ ] breakthrough-defaulted: יוני דויטש (now 2008)
-- [ ] breakthrough-defaulted: גל שריג (now 2019)
-- [ ] breakthrough-defaulted: אהרלה סמט (now 2008)
-- [ ] breakthrough-defaulted: אודי דמארי (now 2016)
-- [ ] breakthrough-defaulted: שי נחייסי (now 2012)
-- [ ] breakthrough-defaulted: רינת עמנואל (now 2015)
-- [ ] breakthrough-defaulted: מושיקו מור (now 2011)
-- [ ] breakthrough-defaulted: גיא מר (now 1997)
-- [ ] breakthrough-defaulted: צ'ולו (now 1995)
-- [ ] breakthrough-defaulted: קיקי רוטשטיין (now 1971)
-- [ ] breakthrough-defaulted: עומרי גליקמן (now 2000)
-- [ ] breakthrough-defaulted: חמי (now 1992)
-- [ ] breakthrough-defaulted: תאיר חיים (now 2013)
-- [ ] breakthrough-defaulted: מור (now 2019)
-- [ ] breakthrough-defaulted: תמר אפק (now 2007)
-- [ ] breakthrough-defaulted: ספיר וולך (now 2016)
-- [ ] breakthrough-defaulted: זוזו גינזבורג (now 2021)
-- [ ] breakthrough-defaulted: רפי ביטון (now 2024)
-- [ ] breakthrough-defaulted: Lala Tamar (now 2020)
-- [ ] breakthrough-defaulted: משה לוק (now 2020)
-- [ ] breakthrough-defaulted: אליאס ג'וליאנוס (now 2022)
-- [ ] breakthrough-defaulted: נילי פינק (now 2007)
-- [ ] breakthrough-defaulted: מנדי וייס (now 2019)
-- [ ] breakthrough-defaulted: יוגב גלוסמן (now 2019)
+- [ ] breakthrough-defaulted: שרה יערי (now 0)
 - [ ] breakthrough-defaulted: דנה ליקוורניק (now 0)
-- [ ] breakthrough-defaulted: עוזאל (now 2018)
-- [ ] breakthrough-defaulted: משה כורסיה (now 2017)
-- [ ] breakthrough-defaulted: רון פרץ (now 2011)
-- [ ] breakthrough-defaulted: אלנתן שלום (now 2018)
 - [ ] breakthrough-defaulted: רועית פלדנקרייז (now 0)
-- [ ] breakthrough-defaulted: בת אלה (now 1985)
-- [ ] breakthrough-defaulted: נועה בלחסן (now 2010)
 - [ ] breakthrough-defaulted: דניאל וייל (now 0)
-- [ ] breakthrough-defaulted: מוטי וייס (now 2017)
 - [ ] breakthrough-defaulted: ליבי הארט (now 0)
-- [ ] breakthrough-defaulted: אושי מסלה (now 2009)
-- [ ] breakthrough-defaulted: ענת מושקובסקי (now 2010)
-- [ ] breakthrough-defaulted: יונתן ביטון (now 2016)
-- [ ] breakthrough-defaulted: נותי ליברמן (now 2023)
-- [ ] breakthrough-defaulted: אבי אילסון (now 2018)
-- [ ] breakthrough-defaulted: חנן-יה ישראל בוהדנה (now 2009)
-- [ ] breakthrough-defaulted: מענדל ראטה (now 2014)
-- [ ] breakthrough-defaulted: ענבר חצרוני (now 2020)
 - [ ] breakthrough-defaulted: אורי הרפז (now 0)
 - [ ] breakthrough-defaulted: יוני חרל"פ (now 0)
-- [ ] breakthrough-defaulted: שמוליק סוכות (now 2022)
-- [ ] breakthrough-defaulted: לידור סעדיה (now 2021)
 - [ ] breakthrough-defaulted: עדי שפירא (now 0)
 - [ ] breakthrough-defaulted: איתן הדר (now 0)
 - [ ] breakthrough-defaulted: אריה עושרי (now 0)
 - [ ] breakthrough-defaulted: ניר קורן (now 0)
 - [ ] breakthrough-defaulted: ארי פפר (now 0)
-- [ ] breakthrough-defaulted: בן צור (now 2019)
 - [ ] breakthrough-defaulted: משה דוד וייסמנדל (now 0)
-- [ ] breakthrough-defaulted: יערה שאוליאן (now 2020)
 - [ ] breakthrough-defaulted: מירב ברנע (now 0)
-- [ ] breakthrough-defaulted: שגיא ריי (now 2002)
-- [ ] breakthrough-defaulted: MARMAR (now 2000)
-- [ ] breakthrough-defaulted: יהודה סאלאס (now 2000)
 - [ ] breakthrough-defaulted: ריקי רקלס (now 0)
 - [ ] breakthrough-defaulted: טדי אקלילו (now 0)
-- [ ] breakthrough-defaulted: קרני אלדד (now 2006)
 - [ ] breakthrough-defaulted: אבי בן אבו (now 0)
-- [ ] breakthrough-defaulted: אבי מסיקה (now 2004)
-- [ ] breakthrough-defaulted: אבי עברי (now 1991)
-- [ ] breakthrough-defaulted: אודי שפילמן (now 1992)
-- [ ] breakthrough-defaulted: כפיר בן ליש (now 2014)
-- [ ] breakthrough-defaulted: שי עמר (now 2001)
 - [ ] breakthrough-defaulted: בצלאל יונגרייז (now 0)
 - [ ] breakthrough-defaulted: הילה בג'יו (now 0)
-- [ ] breakthrough-defaulted: ליליה (now 2019)
-- [ ] breakthrough-defaulted: קרן הכט (now 1993)
 - [ ] breakthrough-defaulted: גל ג'יימס (now 0)
-- [ ] breakthrough-defaulted: יוני שלמה (now 2003)
-- [ ] breakthrough-defaulted: יוסף חיים שוואקי (now 2008)
 - [ ] breakthrough-defaulted: מירון אגר (now 0)
 - [ ] breakthrough-defaulted: דוד טל (זמר) (now 0)
 - [ ] breakthrough-defaulted: יוסי חורי (now 0)
-- [ ] breakthrough-defaulted: שמרית דרור גריילסאמר (now 2011)
-- [ ] breakthrough-defaulted: נעמי לוי (now 1989)
-- [ ] breakthrough-defaulted: עופר בדיחי (now 1989)
-- [ ] breakthrough-defaulted: אמיל זריהן (now 1986)
-- [ ] breakthrough-defaulted: ג'ורג' בר (now 2001)
-- [ ] breakthrough-defaulted: מאיר בן מיכאל (now 2016)
 - [ ] breakthrough-defaulted: פרידל טלר-בלום (now 0)
 - [ ] breakthrough-defaulted: אביבה הד (now 0)
-- [ ] breakthrough-defaulted: שרונה נסטוביץ' (now 2006)
-- [ ] breakthrough-defaulted: שרונה אהרון (now 1955)
-- [ ] breakthrough-defaulted: שי להב (now 2004)
 - [ ] breakthrough-defaulted: דניאל בן חיים (now 0)
-- [ ] breakthrough-defaulted: מומי אלפין (now 1970)
 - [ ] breakthrough-defaulted: מאיה קסיר (now 0)
-- [ ] breakthrough-defaulted: לוסי ארנון (now 1947)
-- [ ] breakthrough-defaulted: בני אל (now 1982)
-- [ ] breakthrough-defaulted: אוריאל שלומי (now 1977)
+- [ ] breakthrough-defaulted: לוסי ארנון (now 0)
 - [ ] breakthrough-defaulted: ציפי זרנקין (now 0)
-- [ ] breakthrough-defaulted: אבי מטוס (now 2019)
-- [ ] breakthrough-defaulted: בני בשן (now 1996)
-- [ ] breakthrough-defaulted: מרים אביגל (now 1955)
-- [ ] breakthrough-defaulted: שרית אביטן (now 2010)
 - [ ] breakthrough-defaulted: Lyrik (now 0)
-- [ ] breakthrough-defaulted: חדוה עמרני (now 1960)
-- [ ] breakthrough-defaulted: אורי צדוק (now 2009)
 - [ ] breakthrough-defaulted: מרדכי רוט (now 0)
 - [ ] breakthrough-defaulted: דנידין (now 0)
-- [ ] breakthrough-defaulted: אביגייל רוז (now 2008)
-- [ ] breakthrough-defaulted: חנה צור (now 2010)
-- [ ] breakthrough-defaulted: שרה (now 2004)
-- [ ] breakthrough-defaulted: אורי בשן (now 2000)
 - [ ] breakthrough-defaulted: חיים צדוק (זמר) (now 0)
-- [ ] breakthrough-defaulted: לירן נדל (now 2003)
 - [ ] breakthrough-defaulted: מאי ישראלי (now 0)
-- [ ] breakthrough-defaulted: יובל פרי (now 1995)
-- [ ] breakthrough-defaulted: נמרוד שיקלר (now 2005)
 - [ ] breakthrough-defaulted: שרה בדישי (now 0)
 - [ ] breakthrough-defaulted: יעל כהן (now 0)
 - [ ] breakthrough-defaulted: לייבלה השל (now 0)
 - [ ] breakthrough-defaulted: בסאם בירומי (now 0)
-- [ ] breakthrough-defaulted: יוסי הרי (now 2001)
-- [ ] breakthrough-defaulted: איציק שמלי (now 2002)
-- [ ] breakthrough-defaulted: ירון כהן (now 2004)
-- [ ] breakthrough-defaulted: שמשון בר-נוי (now 2009)
-- [ ] breakthrough-defaulted: אלי לוזון (now 1979)
-- [ ] breakthrough-defaulted: רובי חן (now 1978)
 - [ ] breakthrough-defaulted: מוג'דה (now 0)
-- [ ] breakthrough-defaulted: ראובן גבירץ (now 1979)
-- [ ] breakthrough-defaulted: ערן לוי (מוזיקאי) (now 2019)
-- [ ] breakthrough-defaulted: סיגל קלרמן (now 1978)
 - [ ] breakthrough-defaulted: משה כהן (זמר) (now 0)
 - [ ] breakthrough-defaulted: עופר שריקי (now 0)
-- [ ] breakthrough-defaulted: עפר בשן (now 2002)
-- [ ] breakthrough-defaulted: גילה חסיד (now 2022)
 - [ ] breakthrough-defaulted: דוויקו שאלתיאל (now 0)
-- [ ] breakthrough-defaulted: דניאל זילברשטיין (now 2006)
-- [ ] breakthrough-defaulted: דפנה בר ציון (now 1985)
-- [ ] breakthrough-defaulted: יהוא ירון (now 2001)
 - [ ] breakthrough-defaulted: יוסי פרוסט (now 0)
-- [ ] breakthrough-defaulted: יוסף שפינדל (now 1934)
+- [ ] breakthrough-defaulted: יוסף שפינדל (now 0)
 - [ ] breakthrough-defaulted: יוספה שוקן (now 0)
-- [ ] breakthrough-defaulted: יעקב נווה (now 1985)
-- [ ] breakthrough-defaulted: ירונה כספי (now 1990)
-- [ ] breakthrough-defaulted: לירן טל (now 2004)
-- [ ] breakthrough-defaulted: מאיה אברהם (now 1998)
-- [ ] breakthrough-defaulted: מילי מירן (now 1982)
-- [ ] breakthrough-defaulted: מלי ברונשטיין (now 1973)
+- [ ] breakthrough-defaulted: לירן טל (now 0)
 - [ ] breakthrough-defaulted: משה פיש (now 0)
-- [ ] breakthrough-defaulted: נגה אשד (now 1969)
-- [ ] breakthrough-defaulted: ורדה קוטלר (now 2004)
-- [ ] breakthrough-defaulted: אוהד חיטמן (now 1995)
-- [ ] breakthrough-defaulted: אליזט (now 2004)
 - [ ] breakthrough-defaulted: אפרים די-זהב (now 0)
-- [ ] breakthrough-defaulted: ארז הלוי (now 1984)
-- [ ] breakthrough-defaulted: אבנר קנר (now 1976)
-- [ ] breakthrough-defaulted: חיה סמיר (now 1992)
 - [ ] breakthrough-defaulted: רות טובי (now 0)
 - [ ] breakthrough-defaulted: נועה פרנקל (now 0)
 - [ ] breakthrough-defaulted: לילך גליקסמן (now 0)
-- [ ] breakthrough-defaulted: מרב סמן טוב (now 2003)
-- [ ] breakthrough-defaulted: נאוה ברוכין (now 2007)
-- [ ] breakthrough-defaulted: גילי מסמי (now 2003)
-- [ ] breakthrough-defaulted: עובדיה חממה (now 1991)
-- [ ] breakthrough-defaulted: שמוליק צ'יזיק (now 1984)
-- [ ] breakthrough-defaulted: יוסי אלפנט (now 1983)
-- [ ] breakthrough-defaulted: יאיר זיו (now 2009)
 - [ ] breakthrough-defaulted: פאולו גורין (now 0)
-- [ ] breakthrough-defaulted: שיקו חייק (now 1998)
-- [ ] breakthrough-defaulted: רגב הוד (now 1996)
-- [ ] breakthrough-defaulted: ג'ימי לויד (now 1957)
-- [ ] breakthrough-defaulted: אביב גדג' (now 1995)
-- [ ] breakthrough-defaulted: גבריאל חסון (now 2002)
+- [ ] breakthrough-defaulted: רגב הוד (now 0)
 - [ ] breakthrough-defaulted: אסף קרן (now 0)
-- [ ] breakthrough-defaulted: שימי רון (now 1985)
-- [ ] breakthrough-defaulted: דורון מזר (now 1985)
-- [ ] breakthrough-defaulted: שרון הולצמן (now 2001)
-- [ ] breakthrough-defaulted: איתן מסורי (now 1979)
-- [ ] breakthrough-defaulted: אייל קופמן (now 1991)
-- [ ] breakthrough-defaulted: נתן כהן (now 1970)
-- [ ] breakthrough-defaulted: סמיר שוקרי (now 1994)
-- [ ] breakthrough-defaulted: עודד גדיר (now 2002)
-- [ ] breakthrough-defaulted: צבי בומס (now 1989)
-- [ ] breakthrough-defaulted: צבי זלבסקי (now 1995)
-- [ ] breakthrough-defaulted: רומן שרון (now 1969)
-- [ ] breakthrough-defaulted: שמואל ברונר (now 2008)
 - [ ] breakthrough-defaulted: אריאל בנדור (now 0)
-- [ ] breakthrough-defaulted: אהובה צדוק (now 1948)
-- [ ] breakthrough-defaulted: יואל לרנר (now 1979)
-- [ ] breakthrough-defaulted: ניצה טרמין (now 1992)
 - [ ] breakthrough-defaulted: גבי שדה (now 0)
-- [ ] breakthrough-defaulted: נתי לוי (now 1987)
 - [ ] breakthrough-defaulted: צבי ג'וריני (now 0)
-- [ ] breakthrough-defaulted: יפעת נץ (now 1990)
-- [ ] breakthrough-defaulted: סמדר אקראי (now 2021)
 - [ ] breakthrough-defaulted: מנחם קליין (now 0)
-- [ ] breakthrough-defaulted: אלעד שער (now 2009)
-- [ ] breakthrough-defaulted: מנדי ג'רופי (now 1995)
-- [ ] breakthrough-defaulted: משה הלל (now 1996)
-- [ ] breakthrough-defaulted: אהרון ירימי (now 1986)
-- [ ] breakthrough-defaulted: עירית בולקא (now 1970)
-- [ ] breakthrough-defaulted: לאה זלוטניק (now 1990)
 - [ ] breakthrough-defaulted: מרים סגל (now 0)
-- [ ] breakthrough-defaulted: גילה אדרי (now 2013)
 - [ ] breakthrough-defaulted: הילדה דוליצקיה (now 0)
 - [ ] breakthrough-defaulted: יהודה הר-מלח (now 0)
-- [ ] breakthrough-defaulted: נעמה כהן (now 2011)
-- [ ] breakthrough-defaulted: רוני תורג'מן (now 1968)
-- [ ] breakthrough-defaulted: אריק וולהיים (now 1994)
 - [ ] breakthrough-defaulted: מירי מילמן (now 0)
-- [ ] breakthrough-defaulted: נתנאל ששון (now 2013)
 - [ ] breakthrough-defaulted: פליקס ליבשיץ (now 0)
-- [ ] breakthrough-defaulted: אתי ביטון (now 2007)
 - [ ] breakthrough-defaulted: רונה ישראל קולת (now 0)
-- [ ] breakthrough-defaulted: שאול גרוס (now 1992)
-- [ ] breakthrough-defaulted: רוני גינוסר (now 2007)
-- [ ] breakthrough-defaulted: אלי פרידמן (now 1993)
-- [ ] breakthrough-defaulted: רות נודלמן (now 2016)
-- [ ] breakthrough-defaulted: יובל פרוינד (now 2012)
-- [ ] breakthrough-defaulted: פורת נוב (now 2018)
-- [ ] breakthrough-defaulted: אסאלה יוסף (now 2006)
-- [ ] breakthrough-defaulted: מרדכי גרנביץ' (now 2015)
-- [ ] breakthrough-defaulted: רועי ידיד (now 2011)
 - [ ] breakthrough-defaulted: בוצ'ונה מושיאשוילי (now 0)
-- [ ] breakthrough-defaulted: שקל (now 2017)
-- [ ] breakthrough-defaulted: ציפי קולטניוק (now 2013)
-- [ ] breakthrough-defaulted: לונא אבו נסאר (now 2013)
-- [ ] breakthrough-defaulted: מרדכי יצהר בוימל (now 2012)
-- [ ] breakthrough-defaulted: זמירה חן (now 1985)
 - [ ] breakthrough-defaulted: זיו סואיסה (now 0)
-- [ ] breakthrough-defaulted: אורי מרק (now 2009)
 - [ ] breakthrough-defaulted: ציון צדוק (now 0)
-- [ ] breakthrough-defaulted: שני פרגוסון (now 2007)
 - [ ] breakthrough-defaulted: יוליה מורצקה (now 0)
 - [ ] breakthrough-defaulted: נעמה נרדי (now 0)
-- [ ] breakthrough-defaulted: ישראל (שרוליק) אדלר (now 2015)
-- [ ] breakthrough-defaulted: גבריאל באטלר (now 2021)
-- [ ] breakthrough-defaulted: נטע בן יהודה (now 2008)
-- [ ] breakthrough-defaulted: רמי דנוך (now 1967)
-- [ ] breakthrough-defaulted: ג'קי מייקה (now 1979)
-- [ ] breakthrough-defaulted: סטלוס (now 1976)
 - [ ] breakthrough-defaulted: יאיר כלב (now 0)
-- [ ] breakthrough-defaulted: גלעד פוטולסקי (now 1984)
-- [ ] breakthrough-defaulted: רקפת אמסלם (now 2010)
-- [ ] breakthrough-defaulted: עידן חיים (now 2010)
-- [ ] breakthrough-defaulted: מתי שריקי (now 2015)
-- [ ] breakthrough-defaulted: גיל עקיביוב (now 2001)
-- [ ] breakthrough-defaulted: כיתריה (now 2018)
-- [ ] breakthrough-defaulted: שני זמיר (now 1998)
 - [ ] breakthrough-defaulted: לייזי גורדון (now 0)
-- [ ] breakthrough-defaulted: ריקי מנור (now 1975)
-- [ ] breakthrough-defaulted: צוקוש (now 2016)
-- [ ] breakthrough-defaulted: עדן דרסו (now 2017)
-- [ ] breakthrough-defaulted: מורן אהרוני (now 1997)
 - [ ] breakthrough-defaulted: פנינה בריק (now 0)
-- [ ] breakthrough-defaulted: שביט נוי (now 2019)
-- [ ] breakthrough-defaulted: דוד נידם (now 2020)
-- [ ] breakthrough-defaulted: סילברדון (now 1990)
 - [ ] breakthrough-defaulted: פאדי כיוף (now 0)
 - [ ] breakthrough-defaulted: גליה רבינוביץ' (now 0)
-- [ ] breakthrough-defaulted: מיטל דה רזון (now 2012)
-- [ ] breakthrough-defaulted: מורן דוד (now 2018)
-- [ ] breakthrough-defaulted: סתיו שמש (now 2013)
 - [ ] breakthrough-defaulted: שירה פריימן (now 0)
-- [ ] breakthrough-defaulted: שי וואייז (now 2017)
-- [ ] breakthrough-defaulted: הדס פל ירדן (now 2003)
-- [ ] breakthrough-defaulted: אלכסנדרה (now 1967)
-- [ ] breakthrough-defaulted: אריה ברונר (now 2024)
-- [ ] breakthrough-defaulted: עודד בן חור (now 1979)
-- [ ] breakthrough-defaulted: טל ועקנין (now 1992)
-- [ ] breakthrough-defaulted: ישראלה קריבושה (now 1971)
 - [ ] breakthrough-defaulted: אודי טופלברג (now 0)
-- [ ] breakthrough-defaulted: ארי היל (now 2016)
-- [ ] breakthrough-defaulted: גידי שמור (now 1989)
 - [ ] breakthrough-defaulted: אריה פלדמן (now 0)
 - [ ] breakthrough-defaulted: אתי קארי (now 0)
-- [ ] breakthrough-defaulted: סימה עמיאל (now 2023)
 - [ ] breakthrough-defaulted: ורדה נגה (now 0)
 - [ ] breakthrough-defaulted: חננאל אדרי (now 0)
-- [ ] breakthrough-defaulted: אלדד ציטרין (now 1999)
-- [ ] breakthrough-defaulted: שרון טובה לוי (now 2011)
-- [ ] breakthrough-defaulted: צליל קליפי (now 2002)
 - [ ] breakthrough-defaulted: אורי רווח (now 0)
-- [ ] breakthrough-defaulted: משה קליין (now 2015)
-- [ ] breakthrough-defaulted: אברימי רוט (now 2004)
-- [ ] breakthrough-defaulted: אלי הרצליך (now 2014)
 - [ ] breakthrough-defaulted: יותם אבני (now 0)
-- [ ] breakthrough-defaulted: J.Lamotta (now 2014)
 - [ ] breakthrough-defaulted: צביה ליטבסקי (now 0)
-- [ ] breakthrough-defaulted: מאיר גרין (now 2014)
 - [ ] breakthrough-defaulted: Zurab Doijashvili (now 0)
-- [ ] breakthrough-defaulted: קובי ברומר (now 2013)
-- [ ] breakthrough-defaulted: רולי דיקמן (now 2014)
-- [ ] breakthrough-defaulted: מאיר אדלר (now 2013)
-- [ ] breakthrough-defaulted: בנצי שטיין (now 2023)
 - [ ] breakthrough-defaulted: יעל רסולי (now 0)
 - [ ] breakthrough-defaulted: Ahal Eden (now 0)
-- [ ] breakthrough-defaulted: טימוטי סניקוב (now 2016)
 - [ ] breakthrough-defaulted: אבישי רוזן (now 0)
 - [ ] breakthrough-defaulted: אתי רומנו (now 0)
 - [ ] breakthrough-defaulted: אורית עטר (now 0)
-- [ ] breakthrough-defaulted: שמואל פרדניק (now 2016)
 - [ ] breakthrough-defaulted: גיל הדני (now 0)
 - [ ] breakthrough-defaulted: אילאיל תמיר (now 0)
-- [ ] breakthrough-defaulted: קרן טננבאום (now 1986)
-- [ ] breakthrough-defaulted: בנצי קלצקין (now 2022)
 - [ ] breakthrough-defaulted: יונתן לוין (now 0)
 - [ ] breakthrough-defaulted: מיכאל ליבמן (now 0)
 - [ ] breakthrough-defaulted: קרן שפלר מושקט (now 0)
@@ -1321,287 +550,99 @@ Generated for 1000 artists.
 - [ ] breakthrough-defaulted: צפורה אנוך (now 0)
 - [ ] breakthrough-defaulted: מירית ליבה-מזרחי (now 0)
 - [ ] breakthrough-defaulted: רובן סלמון (now 0)
-- [ ] breakthrough-defaulted: דנה רישפי (now 2003)
 - [ ] breakthrough-defaulted: ליאור פרץ (now 0)
-- [ ] breakthrough-defaulted: אסף הרוש (now 2018)
-- [ ] breakthrough-defaulted: דני הדר (now 2003)
 - [ ] breakthrough-defaulted: יאיר פולישוק (now 0)
 - [ ] breakthrough-defaulted: פולינה מאיופיס (now 0)
-- [ ] breakthrough-defaulted: מקס ברוד (now 1906)
-- [ ] breakthrough-defaulted: דניאל בארנבוים (now 1950)
-- [ ] breakthrough-defaulted: אוטו קלמפרר (now 1906)
-- [ ] breakthrough-defaulted: הלל סלובק (now 1976)
+- [ ] breakthrough-defaulted: מקס ברוד (now 0)
+- [ ] breakthrough-defaulted: אוטו קלמפרר (now 0)
 - [ ] breakthrough-defaulted: עליזה הרץ-זומר (now 0)
-- [ ] breakthrough-defaulted: יצחק ידיד (now 2003)
-- [ ] breakthrough-defaulted: מורגנשטרן (now 2010)
-- [ ] breakthrough-defaulted: חיים סבן (now 1983)
-- [ ] breakthrough-defaulted: ינון צור (now 1994)
 - [ ] breakthrough-defaulted: יוסף טל (now 0)
 - [ ] breakthrough-defaulted: ארקדי לוקסמבורג (now 0)
-- [ ] breakthrough-defaulted: פאול בן חיים (now 1992)
-- [ ] breakthrough-defaulted: אליאנה (now 2019)
-- [ ] breakthrough-defaulted: לוסין גבורקיאן (now 2003)
-- [ ] breakthrough-defaulted: בורגור (now 2009)
-- [ ] breakthrough-defaulted: Yuliy Kim (now 1960)
-- [ ] breakthrough-defaulted: גארי ברתיני (now 1974)
-- [ ] breakthrough-defaulted: עופר ניסים (now 1983)
-- [ ] breakthrough-defaulted: ארמנד עמר (now 1994)
-- [ ] breakthrough-defaulted: נורית הירש (now 1960)
-- [ ] breakthrough-defaulted: אסטריקס (now 1995)
-- [ ] breakthrough-defaulted: סרג'ו קומיסיונה (now 1973)
 - [ ] breakthrough-defaulted: מנחם אבידום (now 0)
-- [ ] breakthrough-defaulted: עדן פרטוש (now 1996)
-- [ ] breakthrough-defaulted: ישראל ינון (now 1995)
-- [ ] breakthrough-defaulted: נעם שריף (now 1953)
-- [ ] breakthrough-defaulted: יואב (זמר) (now 2007)
-- [ ] breakthrough-defaulted: איתמר גולן (now 1992)
 - [ ] breakthrough-defaulted: ולנטין ביביק (now 0)
-- [ ] breakthrough-defaulted: מרים פריד (now 1988)
-- [ ] breakthrough-defaulted: בן-ציון אורגד (now 1946)
-- [ ] breakthrough-defaulted: Alexander Bălănescu (now 1993)
-- [ ] breakthrough-defaulted: מארק אליהו (now 1998)
-- [ ] breakthrough-defaulted: יואל לוי (now 1975)
+- [ ] breakthrough-defaulted: בן-ציון אורגד (now 0)
 - [ ] breakthrough-defaulted: מרדכי סתר (now 0)
-- [ ] breakthrough-defaulted: קובי אשרת (now 1962)
-- [ ] breakthrough-defaulted: אילן צ'סטר (now 1965)
-- [ ] breakthrough-defaulted: אורי קצנשטיין (now 2021)
-- [ ] breakthrough-defaulted: פנחס שטיינברג (now 1988)
-- [ ] breakthrough-defaulted: ירון הרמן (now 2003)
-- [ ] breakthrough-defaulted: יאיר דלאל (now 1996)
-- [ ] breakthrough-defaulted: ויאצ'סלב גנלין (now 1961)
-- [ ] breakthrough-defaulted: סשה ארגוב (now 1935)
-- [ ] breakthrough-defaulted: אבישי כהן (now 1999)
-- [ ] breakthrough-defaulted: מט חיימוביץ (now 1982)
-- [ ] breakthrough-defaulted: אוקסנה יבלונסקיה (now 1995)
-- [ ] breakthrough-defaulted: אנדרה היידו (now 1996)
-- [ ] breakthrough-defaulted: דורון מדלי (now 2001)
-- [ ] breakthrough-defaulted: קובי ארד (now 2016)
-- [ ] breakthrough-defaulted: בלסטויז (now 2003)
-- [ ] breakthrough-defaulted: יהל שרמן (now 1999)
+- [ ] breakthrough-defaulted: סשה ארגוב (now 0)
 - [ ] breakthrough-defaulted: ניר צדקיהו (now 0)
 - [ ] breakthrough-defaulted: יהויכין סטוצ'בסקי (now 0)
-- [ ] breakthrough-defaulted: סילביה מרקוביץ' (now 1987)
-- [ ] breakthrough-defaulted: אבל ארליך (now 1996)
-- [ ] breakthrough-defaulted: בנימין יוסופוב (now 2022)
 - [ ] breakthrough-defaulted: יוסף קמינסקי (now 0)
 - [ ] breakthrough-defaulted: אלכסנדר אוריה בוסקוביץ' (now 0)
-- [ ] breakthrough-defaulted: קותימאן (now 2006)
-- [ ] breakthrough-defaulted: דרור פיילר (now 1996)
-- [ ] breakthrough-defaulted: רבקה גולני (now 1983)
-- [ ] breakthrough-defaulted: עומר אביטל (now 1992)
-- [ ] breakthrough-defaulted: עומר מאיר ולבר (now 2017)
 - [ ] breakthrough-defaulted: מרק קופיטמן (now 0)
-- [ ] breakthrough-defaulted: אשר פיש (now 2007)
 - [ ] breakthrough-defaulted: קלוד אברבנאל (now 0)
-- [ ] breakthrough-defaulted: יואב תלמי (now 1988)
-- [ ] breakthrough-defaulted: דינה יפה (now 2010)
-- [ ] breakthrough-defaulted: Elmira Nəzirova (now 2011)
-- [ ] breakthrough-defaulted: נמי מלומד (now 2020)
-- [ ] breakthrough-defaulted: אבנר דורמן (now 2006)
-- [ ] breakthrough-defaulted: ליאור שמבדל (now 1993)
-- [ ] breakthrough-defaulted: יחזקאל בראון (now 2023)
-- [ ] breakthrough-defaulted: מנדי רודן (now 1987)
 - [ ] breakthrough-defaulted: מרדכי זעירא (now 0)
-- [ ] breakthrough-defaulted: אבי אביטל (now 2012)
-- [ ] breakthrough-defaulted: משה וילנסקי (now 1932)
+- [ ] breakthrough-defaulted: משה וילנסקי (now 0)
 - [ ] breakthrough-defaulted: סרג'יו נטרא (now 0)
-- [ ] breakthrough-defaulted: יאיר רוזנבלום (now 1962)
-- [ ] breakthrough-defaulted: דוד גריילסאמר (now 2007)
-- [ ] breakthrough-defaulted: ענת פורט (now 1999)
 - [ ] breakthrough-defaulted: בנימין רביץ (now 0)
-- [ ] breakthrough-defaulted: גיא בראונשטיין (now 2019)
-- [ ] breakthrough-defaulted: עמוס מלר (now 2010)
-- [ ] breakthrough-defaulted: דוד שלון (now 1986)
-- [ ] breakthrough-defaulted: פרנק פלג (now 1966)
 - [ ] breakthrough-defaulted: וסאם ג'ובראן (now 0)
 - [ ] breakthrough-defaulted: ורדינה שלונסקי (now 0)
-- [ ] breakthrough-defaulted: אבי אוסטרובסקי (now 1992)
-- [ ] breakthrough-defaulted: יוסי פיין (now 1981)
 - [ ] breakthrough-defaulted: עמי מעייני (now 0)
-- [ ] breakthrough-defaulted: דובי זלצר (now 1945)
+- [ ] breakthrough-defaulted: דובי זלצר (now 0)
 - [ ] breakthrough-defaulted: גילעד הוכמן (now 0)
-- [ ] breakthrough-defaulted: חגי שחם (now 1998)
-- [ ] breakthrough-defaulted: אבי בנימין (now 2000)
 - [ ] breakthrough-defaulted: משה קופפרמן (now 0)
-- [ ] breakthrough-defaulted: ודים גלוזמן (now 2003)
-- [ ] breakthrough-defaulted: ניתאי הרשקוביץ (now 2012)
-- [ ] breakthrough-defaulted: אדם בן עזרא (now 2000)
-- [ ] breakthrough-defaulted: אבי בנדי (now 2001)
-- [ ] breakthrough-defaulted: שמואל אשכנזי (now 1990)
-- [ ] breakthrough-defaulted: ליאור נבוק (now 1999)
-- [ ] breakthrough-defaulted: מישה סגל (now 1991)
-- [ ] breakthrough-defaulted: אמיר כץ (now 2006)
-- [ ] breakthrough-defaulted: בטי אוליברו (now 2015)
 - [ ] breakthrough-defaulted: ירדנה אלוטין (now 0)
-- [ ] breakthrough-defaulted: גבריאל ליפקינד (now 1994)
-- [ ] breakthrough-defaulted: יוסף ברדנשווילי (now 2023)
-- [ ] breakthrough-defaulted: שירלי בריל (now 1998)
 - [ ] breakthrough-defaulted: גיל אלדמע (now 0)
-- [ ] breakthrough-defaulted: מינדיה חיטארישוילי (now 1996)
 - [ ] breakthrough-defaulted: בוריס פיגובט (now 0)
-- [ ] breakthrough-defaulted: אבטה בריהון (now 1983)
 - [ ] breakthrough-defaulted: אברהם שרון (now 0)
-- [ ] breakthrough-defaulted: זוהר פרסקו (now 1992)
-- [ ] breakthrough-defaulted: עמנואל עמירן (now 1928)
-- [ ] breakthrough-defaulted: נחום היימן (now 1951)
+- [ ] breakthrough-defaulted: עמנואל עמירן (now 0)
 - [ ] breakthrough-defaulted: שאול ברזובסקי (now 0)
-- [ ] breakthrough-defaulted: מיכאל טאובה (now 2000)
-- [ ] breakthrough-defaulted: עוז נוי (now 2005)
-- [ ] breakthrough-defaulted: עומר פדי (now 2018)
-- [ ] breakthrough-defaulted: יונתן בר גיורא (now 1990)
 - [ ] breakthrough-defaulted: יעקב גלבוע (now 0)
-- [ ] breakthrough-defaulted: עלי מוהר (now 1966)
-- [ ] breakthrough-defaulted: אורי קפלן (now 2021)
-- [ ] breakthrough-defaulted: יהושע לקנר (now 2026)
 - [ ] breakthrough-defaulted: אריך ולטר שטרנברג (now 0)
-- [ ] breakthrough-defaulted: עופר דיקובסקי (now 1994)
 - [ ] breakthrough-defaulted: רענן אלכסנדרוביץ' (now 0)
-- [ ] breakthrough-defaulted: גיא גרבר (now 2002)
-- [ ] breakthrough-defaulted: יהושע אפשטין (now 1995)
-- [ ] breakthrough-defaulted: שי ווזנר (now 2013)
-- [ ] breakthrough-defaulted: אליין פרוג'קט (now 1994)
 - [ ] breakthrough-defaulted: שלמה רוזובסקי (now 0)
-- [ ] breakthrough-defaulted: יום-טוב עהרליך (now 1960)
-- [ ] breakthrough-defaulted: רמי פורטיס (now 1975)
-- [ ] breakthrough-defaulted: עקיבא נוף (now 2011)
-- [ ] breakthrough-defaulted: קובי ישראלית (now 2003)
-- [ ] breakthrough-defaulted: Michael Kugel (now 2018)
 - [ ] breakthrough-defaulted: אלון גושן גוטשטיין (now 0)
-- [ ] breakthrough-defaulted: עמית פלד (now 2018)
-- [ ] breakthrough-defaulted: אברהם עילם-אמזלג (now 2022)
-- [ ] breakthrough-defaulted: דניאל כהן (מנצח) (now 2021)
-- [ ] breakthrough-defaulted: ינון יהל (now 2001)
-- [ ] breakthrough-defaulted: גיל דור (now 1981)
-- [ ] breakthrough-defaulted: גיל שוחט (now 2004)
-- [ ] breakthrough-defaulted: מתן פורת (now 2013)
-- [ ] breakthrough-defaulted: מירנה הרצוג (now 1969)
 - [ ] breakthrough-defaulted: מתי קובלר (now 0)
 - [ ] breakthrough-defaulted: ידידיה אדמון (now 0)
-- [ ] breakthrough-defaulted: נחום נרדי (now 1974)
 - [ ] breakthrough-defaulted: ניר יניב (now 0)
 - [ ] breakthrough-defaulted: חנוך יעקבי (now 0)
-- [ ] breakthrough-defaulted: אורית וולף (now 2019)
-- [ ] breakthrough-defaulted: ראובן ירון (now 1947)
-- [ ] breakthrough-defaulted: רבקה זהר (now 1972)
-- [ ] breakthrough-defaulted: תמיר מוסקט (now 1980)
-- [ ] breakthrough-defaulted: ציפי פליישר (now 1992)
-- [ ] breakthrough-defaulted: אלכסנדר תמיר (now 1965)
-- [ ] breakthrough-defaulted: גלעד הקסלמן (now 2006)
+- [ ] breakthrough-defaulted: ראובן ירון (now 0)
 - [ ] breakthrough-defaulted: איתן שטיינברג (now 0)
-- [ ] breakthrough-defaulted: חיים פרנק אילפמן (now 2015)
-- [ ] breakthrough-defaulted: מאט שוורץ (now 1995)
-- [ ] breakthrough-defaulted: נילי ברוש (now 2009)
 - [ ] breakthrough-defaulted: שמואל גוגול (now 0)
-- [ ] breakthrough-defaulted: תמר הלפרין (now 2012)
 - [ ] breakthrough-defaulted: דגה פדר (now 0)
-- [ ] breakthrough-defaulted: זיו קוז'וקרו (now 2019)
-- [ ] breakthrough-defaulted: ברוך ברלינר (now 2023)
 - [ ] breakthrough-defaulted: יוכבד קאשי (now 0)
-- [ ] breakthrough-defaulted: אלון שריאל (now 2017)
-- [ ] breakthrough-defaulted: WHITENO1SE (now 2011)
-- [ ] breakthrough-defaulted: דוד זהבי (now 1925)
+- [ ] breakthrough-defaulted: דוד זהבי (now 0)
 - [ ] breakthrough-defaulted: דרור אלימלך (now 0)
-- [ ] breakthrough-defaulted: עדנה שטרן (now 2005)
 - [ ] breakthrough-defaulted: ארז הולץ (now 0)
 - [ ] breakthrough-defaulted: יששכר מירון (now 0)
 - [ ] breakthrough-defaulted: ג'ואן פרנקס ויליאמס (now 0)
 - [ ] breakthrough-defaulted: יצחק סדאי (now 0)
-- [ ] breakthrough-defaulted: יובל רון (now 2003)
-- [ ] breakthrough-defaulted: עתר ארד (now 1995)
 - [ ] breakthrough-defaulted: יאיר קלס (now 0)
-- [ ] breakthrough-defaulted: סלים עבוד-אשקר (now 2017)
 - [ ] breakthrough-defaulted: פרץ אליהו (now 0)
-- [ ] breakthrough-defaulted: Evgeny Kliachkin (now 1961)
 - [ ] breakthrough-defaulted: יעקב לבנון (now 0)
 - [ ] breakthrough-defaulted: אייל אדלר (now 0)
-- [ ] breakthrough-defaulted: באלדי אולייר (now 1977)
-- [ ] breakthrough-defaulted: דניאל גורטלר (now 2009)
-- [ ] breakthrough-defaulted: עמנואל ול (now 2015)
 - [ ] breakthrough-defaulted: חביב תומא (now 0)
-- [ ] breakthrough-defaulted: עמוס אלקנה (now 2026)
 - [ ] breakthrough-defaulted: אסף קהתי (now 0)
-- [ ] breakthrough-defaulted: Lior Goldenberg (now 2025)
-- [ ] breakthrough-defaulted: מרדכי רכטמן (now 1941)
-- [ ] breakthrough-defaulted: עודד זהבי (now 2021)
+- [ ] breakthrough-defaulted: מרדכי רכטמן (now 0)
 - [ ] breakthrough-defaulted: יעקב תלמוד (now 0)
 - [ ] breakthrough-defaulted: ואג פפיאן (now 0)
-- [ ] breakthrough-defaulted: משה זורמן (now 2017)
-- [ ] breakthrough-defaulted: אהרן עמרם (now 2007)
-- [ ] breakthrough-defaulted: שמרית אור (now 1966)
-- [ ] breakthrough-defaulted: רומן קרסנובסקי (now 1993)
-- [ ] breakthrough-defaulted: יצחק מאיר הלפגוט (now 2003)
 - [ ] breakthrough-defaulted: רחל גלעין (now 0)
 - [ ] breakthrough-defaulted: רמי בר-ניב (now 0)
-- [ ] breakthrough-defaulted: ארנון נאור (now 2008)
-- [ ] breakthrough-defaulted: אורי פיינמן (now 1990)
 - [ ] breakthrough-defaulted: דורון טויסטר (now 0)
-- [ ] breakthrough-defaulted: פטר ורטהיימר (now 1973)
 - [ ] breakthrough-defaulted: שוש רייזמן (now 0)
 - [ ] breakthrough-defaulted: Alexandru Sochireanschi (now 0)
-- [ ] breakthrough-defaulted: דן אלון (now 2004)
-- [ ] breakthrough-defaulted: יואב אשד (now 2008)
 - [ ] breakthrough-defaulted: נועז דשא (now 0)
-- [ ] breakthrough-defaulted: Adam Basanta (now 2010)
-- [ ] breakthrough-defaulted: שאול בוסתן (now 2007)
-- [ ] breakthrough-defaulted: יצחק תוויאור (now 1983)
-- [ ] breakthrough-defaulted: עקיבא תורג'מן (now 2009)
 - [ ] breakthrough-defaulted: יוסף זערור (now 0)
-- [ ] breakthrough-defaulted: אריאל לני (now 2007)
-- [ ] breakthrough-defaulted: נדב אהרוני (now 2021)
-- [ ] breakthrough-defaulted: רפאל נתן (now 2015)
 - [ ] breakthrough-defaulted: אברהם דאוס (now 0)
 - [ ] breakthrough-defaulted: פטר עמנואל גרדנויץ (now 0)
-- [ ] breakthrough-defaulted: נטע אלוני (now 2026)
 - [ ] breakthrough-defaulted: סולו אביטל (now 0)
-- [ ] breakthrough-defaulted: אליאס מאירי (now 1998)
 - [ ] breakthrough-defaulted: ישראל ברנדמן (now 0)
 - [ ] breakthrough-defaulted: Benjamin Ashkenazy (now 0)
 - [ ] breakthrough-defaulted: שבתי פטרושקה (now 0)
 - [ ] breakthrough-defaulted: אילן מוכיח (now 0)
 - [ ] breakthrough-defaulted: יוסף שריג (now 0)
-- [ ] breakthrough-defaulted: תומר ג'י (now 2014)
-- [ ] breakthrough-defaulted: רומן קונסמן (now 2001)
 - [ ] breakthrough-defaulted: ילנה סוקולובסקי (now 0)
 - [ ] breakthrough-defaulted: יריב אזרחי (now 0)
-- [ ] breakthrough-defaulted: דב כרמל (now 2018)
-- [ ] breakthrough-defaulted: דניאל עדני (now 1972)
-- [ ] breakthrough-defaulted: דניאל עקיבא (now 1990)
 - [ ] breakthrough-defaulted: דרורה ברוק (now 0)
-- [ ] breakthrough-defaulted: גיא ארז (now 1992)
-- [ ] breakthrough-defaulted: אשר סוויסה (now 1990)
 - [ ] breakthrough-defaulted: ישראל שרון (now 0)
-- [ ] breakthrough-defaulted: יעקב ראובן (now 2022)
-- [ ] breakthrough-defaulted: קושה דילז (now 2005)
-- [ ] breakthrough-defaulted: מרדכי סובול (now 2007)
 - [ ] breakthrough-defaulted: אברהם סלמאן (now 0)
-- [ ] breakthrough-defaulted: ערן מיטלמן (now 1993)
-- [ ] breakthrough-defaulted: אביה קופלמן (now 2017)
-- [ ] breakthrough-defaulted: דני ליטאי (now 1982)
-- [ ] breakthrough-defaulted: יוחנן זראי (now 1964)
 - [ ] breakthrough-defaulted: חביב שחאדה חנא (now 0)
-- [ ] breakthrough-defaulted: אפי נצר (now 1952)
-- [ ] breakthrough-defaulted: דורון סלומון (now 2013)
 - [ ] breakthrough-defaulted: יוסף דורפמן (now 0)
-- [ ] breakthrough-defaulted: דניאל שליט (now 2023)
 - [ ] breakthrough-defaulted: יובל בן-עמי (now 0)
-- [ ] breakthrough-defaulted: בצלאל אלוני (now 1961)
 - [ ] breakthrough-defaulted: אלכסנדר טל (now 0)
-- [ ] breakthrough-defaulted: אלי יפה (now 2006)
-- [ ] breakthrough-defaulted: אילן וירצברג (now 1971)
-- [ ] breakthrough-defaulted: דוד קריבושי (now 1968)
-- [ ] breakthrough-defaulted: משה מרדכי רוזנבלום (now 1982)
 - [ ] breakthrough-defaulted: זאב שטיינברג (now 0)
 - [ ] breakthrough-defaulted: ארטור גלברון (now 0)
-- [ ] breakthrough-defaulted: חיים בנט (now 1970)
-- [ ] breakthrough-defaulted: שלום רונלי-ריקליס (now 1988)
-- [ ] breakthrough-defaulted: ניצן קייקוב (now 2005)
-- [ ] breakthrough-defaulted: חיליק פרנק (now 1998)
 - [ ] breakthrough-defaulted: יוחנן בוהם (now 0)
-- [ ] breakthrough-defaulted: סגול 59 (now 2000)
-- [ ] breakthrough-defaulted: יצחק פוקס (now 1985)
 - [ ] breakthrough-defaulted: שמואל אליהו טאוב (now 0)
 - [ ] breakthrough-defaulted: שי כהן (מוזיקאי) (now 0)
-- [ ] breakthrough-defaulted: הצל (now 1999)
 - [ ] breakthrough-defaulted: יועד נבו (now 0)
 - [ ] breakthrough-defaulted: צבי קרן (now 0)
 - [ ] breakthrough-defaulted: אשר בן יוחנן (now 0)
@@ -1609,425 +650,1366 @@ Generated for 1000 artists.
 - [ ] breakthrough-defaulted: אברהם ברוידס (now 0)
 - [ ] breakthrough-defaulted: ינעם ליף (now 0)
 - [ ] breakthrough-defaulted: מרדכי גולינקין (now 0)
-- [ ] breakthrough-defaulted: ירון גוטפריד (now 2002)
 - [ ] breakthrough-defaulted: לסלו רוט (now 0)
-- [ ] breakthrough-defaulted: ירוסלב יעקובוביץ' (now 2009)
-- [ ] breakthrough-defaulted: עומר קליין (now 2007)
-- [ ] breakthrough-defaulted: מאירה אשר (now 1997)
 - [ ] breakthrough-defaulted: נובר אסלניאן (now 0)
 - [ ] breakthrough-defaulted: נעים רג'ואן (now 0)
 - [ ] breakthrough-defaulted: בצלאל רביב (now 0)
-- [ ] breakthrough-defaulted: ערן פריאון (now 1996)
-- [ ] breakthrough-defaulted: מיכאל כהן (now 2008)
-- [ ] breakthrough-defaulted: ביני לנדאו (now 1998)
-- [ ] breakthrough-defaulted: נעם חורב (now 2022)
-- [ ] breakthrough-defaulted: לייזר לויד (now 1981)
-- [ ] breakthrough-defaulted: Jan Freidlin (now 2022)
 - [ ] breakthrough-defaulted: יוסף כהן-צדק (now 0)
-- [ ] breakthrough-defaulted: טולה בן ארי (now 2005)
-- [ ] breakthrough-defaulted: Samuel Friedmann (now 1989)
-- [ ] breakthrough-defaulted: אודי הרפז (now 2016)
 - [ ] breakthrough-defaulted: אבי ברמן (now 0)
-- [ ] breakthrough-defaulted: יונתן כנען (now 2012)
-- [ ] breakthrough-defaulted: מיכאל יערן (now 2003)
-- [ ] breakthrough-defaulted: מיכאל זלטנרייך (now 2008)
-- [ ] breakthrough-defaulted: אילן רכטמן (now 1993)
-- [ ] breakthrough-defaulted: סתיו בגר (now 2015)
 - [ ] breakthrough-defaulted: אורי הולנדר (now 0)
-- [ ] breakthrough-defaulted: עידן אמסלם (now 2014)
 - [ ] breakthrough-defaulted: סרג'יו שפירא (now 0)
-- [ ] breakthrough-defaulted: אורי שוחט (now 1999)
-- [ ] breakthrough-defaulted: יונתן אבישי (now 2002)
 - [ ] breakthrough-defaulted: יאן רדזינסקי (now 0)
-- [ ] breakthrough-defaulted: Adam del Monte (now 1997)
 - [ ] breakthrough-defaulted: רביד כחלני (now 0)
 - [ ] breakthrough-defaulted: אמיר שפילמן (now 0)
-- [ ] breakthrough-defaulted: רות מנזה (now 2018)
 - [ ] breakthrough-defaulted: יהודה בן-כהן (now 0)
-- [ ] breakthrough-defaulted: רוני בר הדס (now 2020)
-- [ ] breakthrough-defaulted: יושי (now 2021)
 - [ ] breakthrough-defaulted: יהודית ליבר (now 0)
-- [ ] breakthrough-defaulted: טליה עמר (now 2016)
 - [ ] breakthrough-defaulted: מרים שתל (now 0)
-- [ ] breakthrough-defaulted: ניזאר אלכאטר (now 2021)
-- [ ] breakthrough-defaulted: גיא מינטוס (now 2015)
-- [ ] breakthrough-defaulted: צ'רלי מגירה (now 2001)
-- [ ] breakthrough-defaulted: רועי דורון (now 2021)
-- [ ] breakthrough-defaulted: אלון אהל (now 2026)
-- [ ] breakthrough-defaulted: דובי דגן (now 2008)
-- [ ] breakthrough-defaulted: Amos Hoffman (now 2006)
-- [ ] breakthrough-defaulted: ברנד ברגל (now 2008)
-- [ ] breakthrough-defaulted: קוסמה (now 2000)
 - [ ] breakthrough-defaulted: דן יוהס (now 0)
 - [ ] breakthrough-defaulted: יוסי מר-חיים (now 0)
 - [ ] breakthrough-defaulted: רם דע-עוז (now 0)
-- [ ] breakthrough-defaulted: Alon Yavnai (now 2008)
-- [ ] breakthrough-defaulted: סילביה גרינברג (now 1984)
-- [ ] breakthrough-defaulted: רביב גזית (now 1988)
-- [ ] breakthrough-defaulted: סטו הכהן (now 1970)
 - [ ] breakthrough-defaulted: עמית דובדבני (now 0)
-- [ ] breakthrough-defaulted: סמיר ג'ובראן (now 2003)
-- [ ] breakthrough-defaulted: אברהם כפלי (now 2006)
 - [ ] breakthrough-defaulted: Motl Poliansky (now 0)
-- [ ] breakthrough-defaulted: Ramon Jaffé (now 2008)
-- [ ] breakthrough-defaulted: דני בן ישראל (now 1962)
-- [ ] breakthrough-defaulted: חיים דוד סרצ'יק (now 1995)
-- [ ] breakthrough-defaulted: אייל ברקן (now 1998)
-- [ ] breakthrough-defaulted: אריה שפירא (now 1968)
-- [ ] breakthrough-defaulted: Arli Liberman (now 2002)
-- [ ] breakthrough-defaulted: Asaf Sirkis (now 1989)
 - [ ] breakthrough-defaulted: ישראל עמידן (now 0)
-- [ ] breakthrough-defaulted: אברהם זיגמן (now 1965)
 - [ ] breakthrough-defaulted: עוזי אסנר (now 0)
 - [ ] breakthrough-defaulted: יחיאל חגיז (now 0)
-- [ ] breakthrough-defaulted: רפי קדישזון (now 1977)
-- [ ] breakthrough-defaulted: יהודה שרייר (now 2019)
-- [ ] breakthrough-defaulted: פאול קוסלה (now 1935)
+- [ ] breakthrough-defaulted: פאול קוסלה (now 0)
 - [ ] breakthrough-defaulted: יוסי ואלד (now 0)
 - [ ] breakthrough-defaulted: טל יניב (now 0)
 - [ ] breakthrough-defaulted: ששון עבדו (now 0)
-- [ ] breakthrough-defaulted: אמיר פרלמן (now 2001)
-- [ ] breakthrough-defaulted: שמוליק בודגוב (now 1969)
 - [ ] breakthrough-defaulted: אלי מורנו (now 0)
-- [ ] breakthrough-defaulted: יהושע אנגלמן (now 1988)
-- [ ] breakthrough-defaulted: אלונה טוראל (now 1961)
-- [ ] breakthrough-defaulted: חרות ישראלי (now 1988)
-- [ ] breakthrough-defaulted: אבנר איתי (now 2011)
-- [ ] breakthrough-defaulted: ערן כרמלי (now 1998)
-- [ ] breakthrough-defaulted: דני אמיר (now 1987)
-- [ ] breakthrough-defaulted: יוסף הדר (now 2013)
 - [ ] breakthrough-defaulted: יהודה פרדיס (now 0)
-- [ ] breakthrough-defaulted: רואי לוי (now 1997)
-- [ ] breakthrough-defaulted: אדם שפלן (now 2025)
-- [ ] breakthrough-defaulted: יעל גרמן (now 1976)
-- [ ] breakthrough-defaulted: אסף תלמודי (now 2025)
-- [ ] breakthrough-defaulted: עמית פוזננסקי (now 2003)
 - [ ] breakthrough-defaulted: ארז ברזוליק (now 0)
 - [ ] breakthrough-defaulted: יוסי בן נון (now 0)
-- [ ] breakthrough-defaulted: ארי גורלי (now 2004)
-- [ ] breakthrough-defaulted: עמי גלעד (now 1962)
 - [ ] breakthrough-defaulted: מאיר מינדל (now 0)
 - [ ] breakthrough-defaulted: יוסי מוסטקי (now 0)
 - [ ] breakthrough-defaulted: מאיר הרניק (now 0)
-- [ ] breakthrough-defaulted: אלעד קרן (now 1991)
-- [ ] breakthrough-defaulted: אסתי קינן-עופרי (now 2008)
-- [ ] breakthrough-defaulted: יגאל כרמל (now 1996)
-- [ ] breakthrough-defaulted: Matan Cohen (now 1998)
-- [ ] breakthrough-defaulted: אריה לבנון (now 1947)
-- [ ] breakthrough-defaulted: יושי שדה (now 1984)
-- [ ] breakthrough-defaulted: מיכאל שנהב (now 2020)
-- [ ] breakthrough-defaulted: אורי זך (now 2004)
-- [ ] breakthrough-defaulted: דניאל דור (now 2019)
-- [ ] breakthrough-defaulted: אריק שחר (now 1974)
-- [ ] breakthrough-defaulted: Michael Tsalka (now 2008)
-- [ ] breakthrough-defaulted: חנן בר סלע (now 2012)
+- [ ] breakthrough-defaulted: אריה לבנון (now 0)
 - [ ] breakthrough-defaulted: מאיר נוי (now 0)
-- [ ] breakthrough-defaulted: ראובן סרוסי (now 2026)
-- [ ] breakthrough-defaulted: תייסיר אליאס (now 2025)
 - [ ] breakthrough-defaulted: אהרן שפי (now 0)
-- [ ] breakthrough-defaulted: שלומי גולדנברג (now 2002)
 - [ ] breakthrough-defaulted: שלמה רביץ (now 0)
-- [ ] breakthrough-defaulted: נועה ברנר (now 2016)
 - [ ] breakthrough-defaulted: שלום פוסטולסקי (now 0)
-- [ ] breakthrough-defaulted: שמעון כהן (now 2023)
-- [ ] breakthrough-defaulted: גלעד חצב (now 2007)
 - [ ] breakthrough-defaulted: ירון כפכפי (now 0)
 - [ ] breakthrough-defaulted: איתן פרץ (now 0)
-- [ ] breakthrough-defaulted: רות מוריץ (now 1945)
+- [ ] breakthrough-defaulted: רות מוריץ (now 0)
 - [ ] breakthrough-defaulted: אביאסף ברנע (now 0)
-- [ ] breakthrough-defaulted: יהודה קיסר (now 2000)
 - [ ] breakthrough-defaulted: אסף לביא צנעני (now 0)
 - [ ] breakthrough-defaulted: אבנר חודורוב (now 0)
 - [ ] breakthrough-defaulted: אסתר גרזון-קיוי (now 0)
-- [ ] breakthrough-defaulted: רונית שחר (now 1996)
 - [ ] breakthrough-defaulted: משה רסיוק (now 0)
 - [ ] breakthrough-defaulted: נורית בת-שחר צפריר (now 0)
-- [ ] breakthrough-defaulted: שאזאמאט (now 2017)
-- [ ] breakthrough-defaulted: פורטיסחרוף (now 1988)
-- [ ] breakthrough-defaulted: דרימלודיק (now 1998)
-- [ ] breakthrough-defaulted: סיסטם עאלי (now 2010)
-- [ ] breakthrough-defaulted: חלב ודבש (now 1979)
-- [ ] breakthrough-defaulted: אורפנד לנד (now 1992)
-- [ ] breakthrough-defaulted: אלפא-ביתא (now 1978)
-- [ ] breakthrough-defaulted: מלכאש (now 1993)
-- [ ] breakthrough-defaulted: אסטרל פרוג'קשן (now 1995)
-- [ ] breakthrough-defaulted: דאם (now 1999)
-- [ ] breakthrough-defaulted: שוקולד מנטה מסטיק (now 1972)
-- [ ] breakthrough-defaulted: הכל עובר חביבי (now 1975)
-- [ ] breakthrough-defaulted: עדן (now 1996)
-- [ ] breakthrough-defaulted: ווקה פיפל (now 2009)
-- [ ] breakthrough-defaulted: סקאזי (now 1998)
-- [ ] breakthrough-defaulted: פינג פונג (now 1999)
-- [ ] breakthrough-defaulted: יוסלס איי.די (now 1994)
-- [ ] breakthrough-defaulted: Salem (now 1985)
-- [ ] breakthrough-defaulted: Vini Vici (now 2013)
-- [ ] breakthrough-defaulted: להקת שירו (now 1993)
-- [ ] breakthrough-defaulted: גילי וגלית (now 1989)
-- [ ] breakthrough-defaulted: הבטלנים (now 1987)
-- [ ] breakthrough-defaulted: חלאס (now 1999)
-- [ ] breakthrough-defaulted: הצ'רצ'ילים (now 1965)
-- [ ] breakthrough-defaulted: עם הספר (now 2004)
-- [ ] breakthrough-defaulted: הבנות נחמה (now 2004)
-- [ ] breakthrough-defaulted: דיסטורטד (now 1996)
-- [ ] breakthrough-defaulted: Desert (now 2002)
-- [ ] breakthrough-defaulted: Gevolt (now 2001)
-- [ ] breakthrough-defaulted: הזאבות (now 2012)
-- [ ] breakthrough-defaulted: דף צ'ונקי (now 2016)
-- [ ] breakthrough-defaulted: להבות (now 1995)
-- [ ] breakthrough-defaulted: בצפר (now 1998)
-- [ ] breakthrough-defaulted: ערפל (להקה) (now 1997)
-- [ ] breakthrough-defaulted: מונוטוניקס (now 2005)
-- [ ] breakthrough-defaulted: בום פם (now 2003)
-- [ ] breakthrough-defaulted: הדודאים (now 1957)
-- [ ] breakthrough-defaulted: רביעיית אביב (now 2000)
 - [ ] breakthrough-defaulted: כרמל א-קפלה (now 0)
-- [ ] breakthrough-defaulted: להקת המושב (now 1995)
-- [ ] breakthrough-defaulted: היי פייב (now 1996)
-- [ ] breakthrough-defaulted: הברירה הטבעית (now 1977)
 - [ ] breakthrough-defaulted: קול עוד תוף (now 0)
-- [ ] breakthrough-defaulted: בוסתן אברהם (now 1992)
-- [ ] breakthrough-defaulted: Kids.il (now 2012)
-- [ ] breakthrough-defaulted: ססטו סנטו (now 2001)
-- [ ] breakthrough-defaulted: שבע (now 1996)
-- [ ] breakthrough-defaulted: תמוז (להקה) (now 1974)
-- [ ] breakthrough-defaulted: טרי פויזן (now 2003)
-- [ ] breakthrough-defaulted: הצ'יזבטרון (now 1948)
-- [ ] breakthrough-defaulted: להקת פיקוד המרכז (now 1969)
-- [ ] breakthrough-defaulted: להקת פיקוד הצפון (now 1954)
-- [ ] breakthrough-defaulted: שלישיית גשר הירקון (now 1963)
-- [ ] breakthrough-defaulted: Distorted Harmony (now 2009)
-- [ ] breakthrough-defaulted: TheAngelcy (now 2011)
-- [ ] breakthrough-defaulted: Fatum Aeternum (now 2006)
-- [ ] breakthrough-defaulted: שלוש (now 2013)
-- [ ] breakthrough-defaulted: ווינטר פמילי (now 2007)
-- [ ] breakthrough-defaulted: הבילויים (now 1997)
-- [ ] breakthrough-defaulted: סיק איירוני (now 2000)
-- [ ] breakthrough-defaulted: המסך הלבן (now 2016)
-- [ ] breakthrough-defaulted: טייגר לאב (now 2010)
-- [ ] breakthrough-defaulted: פאד'ר אוף פיס (now 2024)
-- [ ] breakthrough-defaulted: Vibe Tribe (now 2002)
-- [ ] breakthrough-defaulted: דה פיידינג (now 2000)
-- [ ] breakthrough-defaulted: אטרנל גריי (now 2001)
-- [ ] breakthrough-defaulted: Solyma (now 1999)
-- [ ] breakthrough-defaulted: ג'וריתמיקס (now 2026)
-- [ ] breakthrough-defaulted: שפתיים (להקה) (now 1985)
-- [ ] breakthrough-defaulted: טררם (now 1996)
-- [ ] breakthrough-defaulted: האחים והאחיות (now 1971)
-- [ ] breakthrough-defaulted: הנשמות הטהורות (now 1972)
-- [ ] breakthrough-defaulted: Prey For Nothing (now 2005)
-- [ ] breakthrough-defaulted: התרנגולים (now 1960)
-- [ ] breakthrough-defaulted: שממל (now 2011)
-- [ ] breakthrough-defaulted: החצר האחורית (now 2013)
-- [ ] breakthrough-defaulted: גארדן סיטי מובמנט (now 2013)
-- [ ] breakthrough-defaulted: Project RnL (now 2010)
-- [ ] breakthrough-defaulted: Orpheus Blade (now 2008)
-- [ ] breakthrough-defaulted: קין והבל 90210 (now 2007)
-- [ ] breakthrough-defaulted: Edellom (now 2009)
-- [ ] breakthrough-defaulted: Edgend (now 2005)
-- [ ] breakthrough-defaulted: להקת שלוה (now 2006)
-- [ ] breakthrough-defaulted: סובו (now 1995)
-- [ ] breakthrough-defaulted: אננדה שייק (now 2005)
-- [ ] breakthrough-defaulted: חמסה (now 2000)
-- [ ] breakthrough-defaulted: אינסיידאוט (now 1994)
-- [ ] breakthrough-defaulted: אוף שימחעס (now 1996)
-- [ ] breakthrough-defaulted: האחים אריאל (now 2017)
-- [ ] breakthrough-defaulted: שוקי ודורית (now 1980)
-- [ ] breakthrough-defaulted: השלושרים (now 1969)
-- [ ] breakthrough-defaulted: אוי דיוויז'ן (now 2006)
-- [ ] breakthrough-defaulted: תזמורת קול ישראל בערבית (now 1984)
-- [ ] breakthrough-defaulted: 951 (now 1999)
-- [ ] breakthrough-defaulted: נערות ריינס (now 2009)
-- [ ] breakthrough-defaulted: Nail Within (now 2003)
-- [ ] breakthrough-defaulted: מינואט (להקה) (now 1988)
-- [ ] breakthrough-defaulted: עוזי נבון ומכרים (now 2007)
-- [ ] breakthrough-defaulted: העבריות (now 2020)
-- [ ] breakthrough-defaulted: טרספאס (now 2002)
-- [ ] breakthrough-defaulted: אלמנה שחורה (להקה) (now 1991)
-- [ ] breakthrough-defaulted: התעויוט (now 1991)
-- [ ] breakthrough-defaulted: Switchblade (now 2013)
-- [ ] breakthrough-defaulted: Artemis (now 2020)
-- [ ] breakthrough-defaulted: נערי רפול (להקה) (now 1999)
-- [ ] breakthrough-defaulted: השכנים של צ'יץ' (now 1991)
-- [ ] breakthrough-defaulted: להקת מגפיים (now 1978)
-- [ ] breakthrough-defaulted: ששת (now 1977)
-- [ ] breakthrough-defaulted: פנצ'ר (להקה) (now 1987)
-- [ ] breakthrough-defaulted: סולסטיס קויל (now 2001)
-- [ ] breakthrough-defaulted: איזי והפתולוגים (now 1988)
-- [ ] breakthrough-defaulted: ברוש (להקה) (now 1978)
-- [ ] breakthrough-defaulted: DXM (now 1984)
-- [ ] breakthrough-defaulted: הופה היי (now 1985)
-- [ ] breakthrough-defaulted: הפונדקאים (now 1976)
-- [ ] breakthrough-defaulted: יובל רון ואזרחי העתיד (now 2009)
-- [ ] breakthrough-defaulted: כל החתיכים אצלי (now 2007)
-- [ ] breakthrough-defaulted: מארש דונדורמה (now 2005)
 - [ ] breakthrough-defaulted: משפחת רזאל (now 0)
-- [ ] breakthrough-defaulted: פאות קדושות (now 2004)
-- [ ] breakthrough-defaulted: פוריין אפייר (now 1988)
-- [ ] breakthrough-defaulted: פיוצ'ר פרופסי (now 1996)
-- [ ] breakthrough-defaulted: שליחי הבלוז (now 1993)
-- [ ] breakthrough-defaulted: שלישיית הופל'ה (now 1997)
-- [ ] breakthrough-defaulted: תום והסיפור האמיתי (now 1985)
-- [ ] breakthrough-defaulted: IS הופ (now 1994)
-- [ ] breakthrough-defaulted: M.E.S.S (now 2003)
-- [ ] breakthrough-defaulted: לימוזינה אקספרס (now 2006)
-- [ ] breakthrough-defaulted: בוא לבר (now 2005)
-- [ ] breakthrough-defaulted: נאג' חמאדי (now 2005)
-- [ ] breakthrough-defaulted: פלסטיק ונוס (now 1990)
-- [ ] breakthrough-defaulted: דורלקס סדלקס (now 1983)
-- [ ] breakthrough-defaulted: פרודוקס (now 2003)
-- [ ] breakthrough-defaulted: נכי נאצה (now 1990)
 - [ ] breakthrough-defaulted: צמד העמרנים (now 0)
-- [ ] breakthrough-defaulted: מלכה באיה (now 1997)
-- [ ] breakthrough-defaulted: לא כוחות (now 2013)
-- [ ] breakthrough-defaulted: אור כשדים (now 1991)
-- [ ] breakthrough-defaulted: אנרגיה חולנית (now 2000)
-- [ ] breakthrough-defaulted: לבד בעדר (now 2011)
-- [ ] breakthrough-defaulted: שלישיית שריד (now 1960)
-- [ ] breakthrough-defaulted: סימפלי צפת (now 2001)
-- [ ] breakthrough-defaulted: Tatran (now 2011)
-- [ ] breakthrough-defaulted: אשירה (now 2006)
-- [ ] breakthrough-defaulted: סלסה גרוב (now 1999)
-- [ ] breakthrough-defaulted: אטלנטיקה (now 2006)
-- [ ] breakthrough-defaulted: קרפ (now 1986)
-- [ ] breakthrough-defaulted: Salvation (now 1999)
-- [ ] breakthrough-defaulted: להקת חופים (now 1984)
-- [ ] breakthrough-defaulted: עלמא (now 2001)
-- [ ] breakthrough-defaulted: להקת פרה אדומה (now 2007)
-- [ ] breakthrough-defaulted: בלאגן (now 1990)
-- [ ] breakthrough-defaulted: שיר אדמה (now 2008)
-- [ ] breakthrough-defaulted: ליילי (now 2017)
-- [ ] breakthrough-defaulted: הכוכב הלבן (now 2001)
-- [ ] breakthrough-defaulted: אילן ואילנית (now 1965)
-- [ ] breakthrough-defaulted: חבורת בימות (now 1972)
-- [ ] breakthrough-defaulted: פנטגון (now 2010)
-- [ ] breakthrough-defaulted: קריסטל לייק (now 2013)
-- [ ] breakthrough-defaulted: Tiny Fingers (now 2008)
-- [ ] breakthrough-defaulted: זבולון דאב סיסטם (now 2006)
-- [ ] breakthrough-defaulted: בנות יעקב (now 1995)
-- [ ] breakthrough-defaulted: לוס כפרוס (now 2004)
-- [ ] breakthrough-defaulted: להקת קולן (now 1982)
-- [ ] breakthrough-defaulted: גאיה (להקה) (now 1999)
-- [ ] breakthrough-defaulted: שובבי ציון (now 1970)
-- [ ] breakthrough-defaulted: המושבה (להקה) (now 2005)
-- [ ] breakthrough-defaulted: שלישיית יובל (now 1988)
 - [ ] breakthrough-defaulted: פרויקט מוזאיק (now 0)
-- [ ] breakthrough-defaulted: סימפוזיון (להקה) (now 2000)
-- [ ] breakthrough-defaulted: החמציצים (now 1966)
 - [ ] breakthrough-defaulted: אנסמבל ספיריטו בארוקו (now 0)
-- [ ] breakthrough-defaulted: בנות חוה (now 1969)
-- [ ] breakthrough-defaulted: צמד ראות (now 2000)
-- [ ] breakthrough-defaulted: שלהבת (now 1998)
-- [ ] breakthrough-defaulted: אנסמבל שירה חדשה לירושלים (now 2006)
-- [ ] breakthrough-defaulted: בצל ירוק 80 (now 1980)
-- [ ] breakthrough-defaulted: האנשים (להקה) (now 2002)
-- [ ] breakthrough-defaulted: תופעת דופלר (להקה) (now 1993)
 - [ ] breakthrough-defaulted: הורה אביב פרדס חנה (now 0)
-- [ ] breakthrough-defaulted: להקת חינוך מיוחד (now 1994)
-- [ ] breakthrough-defaulted: פאנקנשטיין (now 2005)
-- [ ] breakthrough-defaulted: צעירי תל אביב (now 1984)
-- [ ] breakthrough-defaulted: הסיקסטיז (now 1984)
 - [ ] breakthrough-defaulted: השובלים (now 0)
-- [ ] breakthrough-defaulted: המהפכה המיותרת (now 2019)
-- [ ] breakthrough-defaulted: אל המשורר (now 2010)
-- [ ] breakthrough-defaulted: שלישיית המעפיל (now 2014)
-- [ ] breakthrough-defaulted: צלילי הכרם (now 1972)
 - [ ] breakthrough-defaulted: פרח אדום (להקה) (now 0)
-- [ ] breakthrough-defaulted: אף אוזן גרון (now 1975)
-- [ ] breakthrough-defaulted: Bartholomeus Night (now 2000)
 - [ ] breakthrough-defaulted: להקת הכרמל (now 0)
 - [ ] breakthrough-defaulted: הבחורים מאפיקים (now 0)
-- [ ] breakthrough-defaulted: כחול (להקה) (now 1995)
-- [ ] breakthrough-defaulted: האחים פורטיס (now 1994)
-- [ ] breakthrough-defaulted: משפחת אלייב (now 2007)
-- [ ] breakthrough-defaulted: איזולירבנד (now 1982)
 - [ ] breakthrough-defaulted: חלוצי החלל (מוזיקה) (now 0)
-- [ ] breakthrough-defaulted: כיף התקווה הטובה (now 1970)
-- [ ] breakthrough-defaulted: קטב מרירי (להקה) (now 2008)
-- [ ] breakthrough-defaulted: להקת אולטראס (now 2005)
-- [ ] breakthrough-defaulted: לא אכפת להם (now 1992)
-- [ ] breakthrough-defaulted: כלא שש (הרכב) (now 1998)
-- [ ] breakthrough-defaulted: שלישיית אדלר (now 1963)
-- [ ] breakthrough-defaulted: חובבי ציון (להקה) (now 2006)
-- [ ] breakthrough-defaulted: ביט69 (now 2004)
-- [ ] breakthrough-defaulted: שלישיית התאומים (now 1966)
-- [ ] breakthrough-defaulted: משפחת ואך (now 2005)
-- [ ] breakthrough-defaulted: מריונטה סול (now 2003)
-- [ ] breakthrough-defaulted: צליל מכוון (now 1979)
-- [ ] breakthrough-defaulted: הפרויקט של רביבו (now 2012)
-- [ ] breakthrough-defaulted: הטוב הרע והנערה (now 1972)
-- [ ] breakthrough-defaulted: הקולקטיב (now 2008)
-- [ ] breakthrough-defaulted: אופירה ורוית יוספי (now 1989)
-- [ ] breakthrough-defaulted: 21 (להקה) (now 2000)
-- [ ] breakthrough-defaulted: בנות פסיה (now 1995)
-- [ ] breakthrough-defaulted: שלום הציבור (להקה) (now 1984)
-- [ ] breakthrough-defaulted: להקת חיל התותחנים (now 1969)
-- [ ] breakthrough-defaulted: שלישיית צבע טרי (now 1972)
-- [ ] breakthrough-defaulted: בינת אל פאנק (now 2012)
-- [ ] breakthrough-defaulted: Substance for God (now 1994)
-- [ ] breakthrough-defaulted: אורות (now 2016)
-- [ ] breakthrough-defaulted: הלם תרבות (now 2016)
-- [ ] breakthrough-defaulted: יאנג בויז (now 2017)
-- [ ] breakthrough-defaulted: Aperco (now 2014)
-- [ ] breakthrough-defaulted: Anna RF (now 2011)
-- [ ] breakthrough-defaulted: צלילי העוד (now 1974)
-- [ ] breakthrough-defaulted: רבע לאפריקה (now 2014)
-- [ ] breakthrough-defaulted: כשניקו תתחיל לדבר (now 1992)
-- [ ] breakthrough-defaulted: האירוסים - זמרי בית אלפא (now 1977)
-- [ ] breakthrough-defaulted: Tomorrow's Rain (now 2011)
-- [ ] breakthrough-defaulted: זירהטרון (now 2004)
-- [ ] breakthrough-defaulted: הספנתעיר (now 1989)
-- [ ] breakthrough-defaulted: אלגנט (now 1989)
-- [ ] breakthrough-defaulted: Sababa 5 (now 2019)
-- [ ] breakthrough-defaulted: Winterhorde (now 1999)
 - [ ] breakthrough-defaulted: כריכה רכה (now 0)
 - [ ] breakthrough-defaulted: אטמפו (now 0)
 - [ ] breakthrough-defaulted: שאטגאנז (now 0)
 - [ ] breakthrough-defaulted: כרומוזום (now 0)
-- [ ] breakthrough-defaulted: ספוטניק היי פיי (now 2014)
 - [ ] breakthrough-defaulted: סאדייל (now 0)
-- [ ] breakthrough-defaulted: סיאם (now 1983)
-- [ ] breakthrough-defaulted: טברנק (now 2017)
-- [ ] breakthrough-defaulted: גרונדיק וסלאבה (now 1994)
-- [ ] breakthrough-defaulted: חשש אמיתי (now 2014)
 - [ ] breakthrough-defaulted: צוות הווי פיקוד מרכז (now 0)
-- [ ] breakthrough-defaulted: משיכת יתר (להקה) (now 1987)
-- [ ] breakthrough-defaulted: השמחות (now 1998)
-- [ ] breakthrough-defaulted: ילד פעם (now 2008)
-- [ ] breakthrough-defaulted: מורה (now 2003)
-- [ ] breakthrough-defaulted: רביעיית חיל האוויר (now 1975)
-- [ ] breakthrough-defaulted: להקת חיל האוויר (now 1974)
-- [ ] breakthrough-defaulted: צוות הווי חיל האוויר (now 1970)
-- [ ] breakthrough-defaulted: צוות בידור חיל האוויר (now 1973)
-- [ ] breakthrough-defaulted: להקת הפסגות (now 1973)
-- [ ] breakthrough-defaulted: פישנזון (now 1994)
-- [ ] breakthrough-defaulted: קרוזנשטרן ופארוחוד (now 2002)
-- [ ] breakthrough-defaulted: זמרי א-קפלה ירושלים (now 1989)
-- [ ] breakthrough-defaulted: אנסמבל סולני תל אביב (now 2001)
 - [ ] breakthrough-defaulted: איילון (להקה) (now 0)
-- [ ] breakthrough-defaulted: אנסמבל קולות נשים נעמה (now 1989)
-- [ ] breakthrough-defaulted: שלושתנו (now 2016)
-- [ ] breakthrough-defaulted: עילי בוטנר וילדי החוץ (now 2012)
-- [ ] breakthrough-defaulted: אקסום (now 2007)
-- [ ] breakthrough-defaulted: שמיניית ווקאל (now 1985)
-- [ ] breakthrough-defaulted: Accademia Daniel (now 2009)
-- [ ] breakthrough-defaulted: בוראן (now 2000)
-- [ ] breakthrough-defaulted: אנסמבל קווינטה וחצי (now 2006)
 - [ ] breakthrough-defaulted: הפרויקט הקאמרי הישראלי (now 0)
-- [ ] breakthrough-defaulted: הבוסתנאים (now 2002)
-- [ ] breakthrough-defaulted: חסרים (now 1996)
-- [ ] breakthrough-defaulted: אנסמבל הפיוט (now 2017)
-- [ ] breakthrough-defaulted: ויתרתי (now 2011)
-- [ ] breakthrough-defaulted: אנסמבל טרמולו (now 2015)
 - [ ] breakthrough-defaulted: ישראל סוסנה ולהקתו (now 0)
-- [ ] breakthrough-defaulted: הפטריקים (now 2020)
-- [ ] breakthrough-defaulted: ניגון ירושלמי (now 2008)
-- [ ] breakthrough-defaulted: אקוט (now 2011)
-- [ ] breakthrough-defaulted: הלב והמעיין (now 2009)
-- [ ] breakthrough-defaulted: מולטיפיאנו (now 2011)
-- [ ] breakthrough-defaulted: אנסמבל ליריקה (now 1992)
-- [ ] breakthrough-defaulted: אחד חלקי אחד (now 2006)
-- [ ] breakthrough-defaulted: אלף.דלת (now 2014)
-- [ ] breakthrough-defaulted: לוסיל קרו (now 2012)
+
+### breakthroughYear-before-birth (2)
+
+- [ ] breakthroughYear-before-birth: לירן טל (2004 < 2005)
+- [ ] breakthroughYear-before-birth: רגב הוד (1996 < 2000)
+
+### breakthroughYear-duplicates-debut (1261)
+
+- [ ] breakthroughYear-duplicates-debut: עומר אדם (2009)
+- [ ] breakthroughYear-duplicates-debut: עדן חסון (2017)
+- [ ] breakthroughYear-duplicates-debut: אודיה (2017)
+- [ ] breakthroughYear-duplicates-debut: פאר טסי (2009)
+- [ ] breakthroughYear-duplicates-debut: רביד פלוטניק (2003)
+- [ ] breakthroughYear-duplicates-debut: ששון איפרם שאולוב (2020)
+- [ ] breakthroughYear-duplicates-debut: אייל גולן (1978)
+- [ ] breakthroughYear-duplicates-debut: יסמין מועלם (2020)
+- [ ] breakthroughYear-duplicates-debut: עדן בן זקן (2013)
+- [ ] breakthroughYear-duplicates-debut: ישי ריבו (2007)
+- [ ] breakthroughYear-duplicates-debut: נדב חנציס (2025)
+- [ ] breakthroughYear-duplicates-debut: דולי ופן (2014)
+- [ ] breakthroughYear-duplicates-debut: אברהם טל (1998)
+- [ ] breakthroughYear-duplicates-debut: בניה ברבי (2015)
+- [ ] breakthroughYear-duplicates-debut: אביתר בנאי (1997)
+- [ ] breakthroughYear-duplicates-debut: נועם בתן (2017)
+- [ ] breakthroughYear-duplicates-debut: רביב כנר (2019)
+- [ ] breakthroughYear-duplicates-debut: רואי אדם (2022)
+- [ ] breakthroughYear-duplicates-debut: מתן חסן (2023)
+- [ ] breakthroughYear-duplicates-debut: דניס לויד (2015)
+- [ ] breakthroughYear-duplicates-debut: עידן רייכל (1998)
+- [ ] breakthroughYear-duplicates-debut: ליעד מאיר (2018)
+- [ ] breakthroughYear-duplicates-debut: כפיר צפריר (2021)
+- [ ] breakthroughYear-duplicates-debut: גל אדם (2018)
+- [ ] breakthroughYear-duplicates-debut: רון חיון (2024)
+- [ ] breakthroughYear-duplicates-debut: ג'יין בורדו (2012)
+- [ ] breakthroughYear-duplicates-debut: נונו (2016)
+- [ ] breakthroughYear-duplicates-debut: עדן גולן (2015)
+- [ ] breakthroughYear-duplicates-debut: ילד. (2022)
+- [ ] breakthroughYear-duplicates-debut: התקווה 6 (2003)
+- [ ] breakthroughYear-duplicates-debut: שחר סאול (2017)
+- [ ] breakthroughYear-duplicates-debut: עידו מלכה (2023)
+- [ ] breakthroughYear-duplicates-debut: נרקיס (2016)
+- [ ] breakthroughYear-duplicates-debut: אורי בן ארי (2017)
+- [ ] breakthroughYear-duplicates-debut: אדיר גץ (2010)
+- [ ] breakthroughYear-duplicates-debut: יגל אושרי (2020)
+- [ ] breakthroughYear-duplicates-debut: רינת בר (1996)
+- [ ] breakthroughYear-duplicates-debut: גיל ויין (2010)
+- [ ] breakthroughYear-duplicates-debut: דודו אהרון (2007)
+- [ ] breakthroughYear-duplicates-debut: עילי בוטנר (2007)
+- [ ] breakthroughYear-duplicates-debut: שרית חדד (1994)
+- [ ] breakthroughYear-duplicates-debut: ברי סחרוף (1973)
+- [ ] breakthroughYear-duplicates-debut: מאיה דדון (2022)
+- [ ] breakthroughYear-duplicates-debut: אלה לי להב (2019)
+- [ ] breakthroughYear-duplicates-debut: יונתן קלימי (2021)
+- [ ] breakthroughYear-duplicates-debut: רון בוחניק (2016)
+- [ ] breakthroughYear-duplicates-debut: עברי לידר (1997)
+- [ ] breakthroughYear-duplicates-debut: עלמה זהר (2007)
+- [ ] breakthroughYear-duplicates-debut: רותם כהן (2002)
+- [ ] breakthroughYear-duplicates-debut: שירה מרגלית (2013)
+- [ ] breakthroughYear-duplicates-debut: דניאלה ספקטור (2006)
+- [ ] breakthroughYear-duplicates-debut: עלמה גוב (2021)
+- [ ] breakthroughYear-duplicates-debut: וייב איש (2017)
+- [ ] breakthroughYear-duplicates-debut: שלומי שבת (1985)
+- [ ] breakthroughYear-duplicates-debut: שיר לוי (2005)
+- [ ] breakthroughYear-duplicates-debut: ים רפאלי (2018)
+- [ ] breakthroughYear-duplicates-debut: יובל רפאל (2024)
+- [ ] breakthroughYear-duplicates-debut: נוי פדלון (2012)
+- [ ] breakthroughYear-duplicates-debut: אליאב זוהר (2018)
+- [ ] breakthroughYear-duplicates-debut: גבע אלון (2000)
+- [ ] breakthroughYear-duplicates-debut: גלעד שגב (1991)
+- [ ] breakthroughYear-duplicates-debut: דניאל סלומון (1998)
+- [ ] breakthroughYear-duplicates-debut: דני סנדרסון (1966)
+- [ ] breakthroughYear-duplicates-debut: נטע ברזילי (2012)
+- [ ] breakthroughYear-duplicates-debut: כרקוקלי (2013)
+- [ ] breakthroughYear-duplicates-debut: משינה (1983)
+- [ ] breakthroughYear-duplicates-debut: ענבל רז (2018)
+- [ ] breakthroughYear-duplicates-debut: החברים של נטאשה (1987)
+- [ ] breakthroughYear-duplicates-debut: אריאל זילבר (1967)
+- [ ] breakthroughYear-duplicates-debut: מוטי טקה (2013)
+- [ ] breakthroughYear-duplicates-debut: דני רובס (1983)
+- [ ] breakthroughYear-duplicates-debut: עמיר בניון (1999)
+- [ ] breakthroughYear-duplicates-debut: שוטי הנבואה (1994)
+- [ ] breakthroughYear-duplicates-debut: נופיה (2025)
+- [ ] breakthroughYear-duplicates-debut: שלומי שבן (1998)
+- [ ] breakthroughYear-duplicates-debut: ניב דמירל (2014)
+- [ ] breakthroughYear-duplicates-debut: הדג נחש (1996)
+- [ ] breakthroughYear-duplicates-debut: יוריק בן דוד (1978)
+- [ ] breakthroughYear-duplicates-debut: מאור אשכנזי (2018)
+- [ ] breakthroughYear-duplicates-debut: ישי סוויסה (2023)
+- [ ] breakthroughYear-duplicates-debut: ליאם גולן (2024)
+- [ ] breakthroughYear-duplicates-debut: ישי לוי (1976)
+- [ ] breakthroughYear-duplicates-debut: שרק (2016)
+- [ ] breakthroughYear-duplicates-debut: ליאור נרקיס (1992)
+- [ ] breakthroughYear-duplicates-debut: גיא ויהל (2011)
+- [ ] breakthroughYear-duplicates-debut: עטר מיינר (2016)
+- [ ] breakthroughYear-duplicates-debut: ארז לב ארי (1996)
+- [ ] breakthroughYear-duplicates-debut: מאי ספדיה (2011)
+- [ ] breakthroughYear-duplicates-debut: רותם חן (2017)
+- [ ] breakthroughYear-duplicates-debut: גיא מזיג (1999)
+- [ ] breakthroughYear-duplicates-debut: איציק אשל (1999)
+- [ ] breakthroughYear-duplicates-debut: מתי כספי (1973)
+- [ ] breakthroughYear-duplicates-debut: שוקי סלומון (2022)
+- [ ] breakthroughYear-duplicates-debut: מוניקה סקס (1993)
+- [ ] breakthroughYear-duplicates-debut: דורית ראובני (1973)
+- [ ] breakthroughYear-duplicates-debut: שלמה גרוניך (1969)
+- [ ] breakthroughYear-duplicates-debut: מאיר אריאל (1967)
+- [ ] breakthroughYear-duplicates-debut: נעמי שמר (1951)
+- [ ] breakthroughYear-duplicates-debut: מיכאל בן דוד (2022)
+- [ ] breakthroughYear-duplicates-debut: אילנית (1964)
+- [ ] breakthroughYear-duplicates-debut: שניר ימין (2006)
+- [ ] breakthroughYear-duplicates-debut: מיקה משה (2020)
+- [ ] breakthroughYear-duplicates-debut: רועי סנדלר (2014)
+- [ ] breakthroughYear-duplicates-debut: יהודית רביץ (1976)
+- [ ] breakthroughYear-duplicates-debut: שקד קוממי (2012)
+- [ ] breakthroughYear-duplicates-debut: אביחי הולנדר (2022)
+- [ ] breakthroughYear-duplicates-debut: יוני רכטר (1972)
+- [ ] breakthroughYear-duplicates-debut: טדי נגוסה (2016)
+- [ ] breakthroughYear-duplicates-debut: אסנת פז (1967)
+- [ ] breakthroughYear-duplicates-debut: אור עמרמי ברוקמן (2018)
+- [ ] breakthroughYear-duplicates-debut: האולטראס (2004)
+- [ ] breakthroughYear-duplicates-debut: שי צברי (2001)
+- [ ] breakthroughYear-duplicates-debut: אור כהן (2024)
+- [ ] breakthroughYear-duplicates-debut: דוד ברוזה (1977)
+- [ ] breakthroughYear-duplicates-debut: חן פורתי (2024)
+- [ ] breakthroughYear-duplicates-debut: אסף אמדורסקי (1988)
+- [ ] breakthroughYear-duplicates-debut: קינדרלעך (2005)
+- [ ] breakthroughYear-duplicates-debut: יהונתן גפן (1967)
+- [ ] breakthroughYear-duplicates-debut: דודי בר דוד (2019)
+- [ ] breakthroughYear-duplicates-debut: אביאור מלסה (2015)
+- [ ] breakthroughYear-duplicates-debut: דודו זכאי (1967)
+- [ ] breakthroughYear-duplicates-debut: קובי פרץ (1992)
+- [ ] breakthroughYear-duplicates-debut: עדי אולמנסקי (2007)
+- [ ] breakthroughYear-duplicates-debut: לירון עמרם (2014)
+- [ ] breakthroughYear-duplicates-debut: עידן יניב (2005)
+- [ ] breakthroughYear-duplicates-debut: קוקי לבנה (2011)
+- [ ] breakthroughYear-duplicates-debut: זוהר ארגוב (1977)
+- [ ] breakthroughYear-duplicates-debut: חיים משה (1975)
+- [ ] breakthroughYear-duplicates-debut: עופר לוי (1988)
+- [ ] breakthroughYear-duplicates-debut: אסף אבידן (2002)
+- [ ] breakthroughYear-duplicates-debut: פלד (2004)
+- [ ] breakthroughYear-duplicates-debut: אחינועם ניני (1990)
+- [ ] breakthroughYear-duplicates-debut: קרולינה (1999)
+- [ ] breakthroughYear-duplicates-debut: כוורת (1973)
+- [ ] breakthroughYear-duplicates-debut: אתניקס (1984)
+- [ ] breakthroughYear-duplicates-debut: בלקן ביט בוקס (2003)
+- [ ] breakthroughYear-duplicates-debut: אינפקטד מאשרום (1996)
+- [ ] breakthroughYear-duplicates-debut: אה-ווה (2015)
+- [ ] breakthroughYear-duplicates-debut: טיפקס (1988)
+- [ ] breakthroughYear-duplicates-debut: סטטיק ובן אל (2015)
+- [ ] breakthroughYear-duplicates-debut: הפרויקט של עידן רייכל (2002)
+- [ ] breakthroughYear-duplicates-debut: עמיר חדד (2006)
+- [ ] breakthroughYear-duplicates-debut: בועז מעודה (2007)
+- [ ] breakthroughYear-duplicates-debut: מורן מזור (2011)
+- [ ] breakthroughYear-duplicates-debut: אבישי כהן (1993)
+- [ ] breakthroughYear-duplicates-debut: כמיליא ג'ובראן (1983)
+- [ ] breakthroughYear-duplicates-debut: מור קרבסי (2008)
+- [ ] breakthroughYear-duplicates-debut: דוד ד'אור (1985)
+- [ ] breakthroughYear-duplicates-debut: אורן לביא (1997)
+- [ ] breakthroughYear-duplicates-debut: מייק בראנט (1969)
+- [ ] breakthroughYear-duplicates-debut: אבי טולדנו (1965)
+- [ ] breakthroughYear-duplicates-debut: אדי בטלר (2021)
+- [ ] breakthroughYear-duplicates-debut: Guy Mardel (1965)
+- [ ] breakthroughYear-duplicates-debut: שוקי לוי (1983)
+- [ ] breakthroughYear-duplicates-debut: מרדכי בן דוד (1973)
+- [ ] breakthroughYear-duplicates-debut: קורין אלאל (1973)
+- [ ] breakthroughYear-duplicates-debut: טל סונדק (2000)
+- [ ] breakthroughYear-duplicates-debut: יהודה פוליקר (1980)
+- [ ] breakthroughYear-duplicates-debut: שמעון גרשון (2010)
+- [ ] breakthroughYear-duplicates-debut: MC Abdul (2020)
+- [ ] breakthroughYear-duplicates-debut: ליאורה (1989)
+- [ ] breakthroughYear-duplicates-debut: יוני בלוך (2003)
+- [ ] breakthroughYear-duplicates-debut: איה כורם (2006)
+- [ ] breakthroughYear-duplicates-debut: רמי קלינשטיין (1978)
+- [ ] breakthroughYear-duplicates-debut: נועם קניאל (1971)
+- [ ] breakthroughYear-duplicates-debut: רועי צ'יקי ארד (2004)
+- [ ] breakthroughYear-duplicates-debut: אהוד בנאי (1977)
+- [ ] breakthroughYear-duplicates-debut: מרים טוקאן (2020)
+- [ ] breakthroughYear-duplicates-debut: דניאלה פיק (2004)
+- [ ] breakthroughYear-duplicates-debut: אילנה אליה (1992)
+- [ ] breakthroughYear-duplicates-debut: בעז שרעבי (1964)
+- [ ] breakthroughYear-duplicates-debut: לינט (1985)
+- [ ] breakthroughYear-duplicates-debut: שלומית אהרון (1965)
+- [ ] breakthroughYear-duplicates-debut: מוטי שטיינמץ (2012)
+- [ ] breakthroughYear-duplicates-debut: אילנה רובינא (1959)
+- [ ] breakthroughYear-duplicates-debut: שולי נתן (1967)
+- [ ] breakthroughYear-duplicates-debut: אדרת (2001)
+- [ ] breakthroughYear-duplicates-debut: אברהם פריד (1981)
+- [ ] breakthroughYear-duplicates-debut: שרה'לה שרון (1979)
+- [ ] breakthroughYear-duplicates-debut: כברה קסאי (2003)
+- [ ] breakthroughYear-duplicates-debut: יונתן רזאל (2007)
+- [ ] breakthroughYear-duplicates-debut: טובה בן-צבי (1963)
+- [ ] breakthroughYear-duplicates-debut: ויקטוריה חנה (2015)
+- [ ] breakthroughYear-duplicates-debut: זוהרה אלפסיה (1982)
+- [ ] breakthroughYear-duplicates-debut: Willy Weiner (1974)
+- [ ] breakthroughYear-duplicates-debut: קובי פרחי (1991)
+- [ ] breakthroughYear-duplicates-debut: נטע אלקיים (2023)
+- [ ] breakthroughYear-duplicates-debut: הראל מויאל (2000)
+- [ ] breakthroughYear-duplicates-debut: פבלו רוזנברג (1980)
+- [ ] breakthroughYear-duplicates-debut: אבנר שטראוס (1987)
+- [ ] breakthroughYear-duplicates-debut: דקלון (1950)
+- [ ] breakthroughYear-duplicates-debut: ארקדי דוכין (1980)
+- [ ] breakthroughYear-duplicates-debut: חגית יאסו (2009)
+- [ ] breakthroughYear-duplicates-debut: אבי בללי (1981)
+- [ ] breakthroughYear-duplicates-debut: מאיה קזביאנקה (1969)
+- [ ] breakthroughYear-duplicates-debut: מאיה דוניץ (2021)
+- [ ] breakthroughYear-duplicates-debut: ג'וני גולדשטיין (2004)
+- [ ] breakthroughYear-duplicates-debut: ציון גולן (1978)
+- [ ] breakthroughYear-duplicates-debut: נורית גלרון (1970)
+- [ ] breakthroughYear-duplicates-debut: רות דולורס וייס (2002)
+- [ ] breakthroughYear-duplicates-debut: שי בן צור (2003)
+- [ ] breakthroughYear-duplicates-debut: פיטר רוט (1992)
+- [ ] breakthroughYear-duplicates-debut: רוז פוסטאנס (2013)
+- [ ] breakthroughYear-duplicates-debut: שייך מואיז'ו (1962)
+- [ ] breakthroughYear-duplicates-debut: יהודה גרין (2007)
+- [ ] breakthroughYear-duplicates-debut: יוסי פיאמנטה (1972)
+- [ ] breakthroughYear-duplicates-debut: עילם רותם (2008)
+- [ ] breakthroughYear-duplicates-debut: אלון דה לוקו (2005)
+- [ ] breakthroughYear-duplicates-debut: אריאל הורוביץ (1998)
+- [ ] breakthroughYear-duplicates-debut: מאיה סימנטוב (2004)
+- [ ] breakthroughYear-duplicates-debut: עליזה גבאי (1951)
+- [ ] breakthroughYear-duplicates-debut: שי 360 (2001)
+- [ ] breakthroughYear-duplicates-debut: ג'ו עמר (1956)
+- [ ] breakthroughYear-duplicates-debut: Aaron Shust (2005)
+- [ ] breakthroughYear-duplicates-debut: אריס סאן (1957)
+- [ ] breakthroughYear-duplicates-debut: אהרן רזאל (1997)
+- [ ] breakthroughYear-duplicates-debut: יזהר אשדות (1973)
+- [ ] breakthroughYear-duplicates-debut: רונה קינן (1990)
+- [ ] breakthroughYear-duplicates-debut: יהודה גלאנץ (1977)
+- [ ] breakthroughYear-duplicates-debut: יהושע סופר (1963)
+- [ ] breakthroughYear-duplicates-debut: אמיל גורובץ (1955)
+- [ ] breakthroughYear-duplicates-debut: יובל דור (1969)
+- [ ] breakthroughYear-duplicates-debut: חנה אהרוני (1960)
+- [ ] breakthroughYear-duplicates-debut: אוהד מושקוביץ (2003)
+- [ ] breakthroughYear-duplicates-debut: דור דניאל (2005)
+- [ ] breakthroughYear-duplicates-debut: שלומי ברכה (1985)
+- [ ] breakthroughYear-duplicates-debut: דדי גראוכר (1990)
+- [ ] breakthroughYear-duplicates-debut: איציק קלה (1971)
+- [ ] breakthroughYear-duplicates-debut: אביבה סמדר (1957)
+- [ ] breakthroughYear-duplicates-debut: סיון ארבל (2016)
+- [ ] breakthroughYear-duplicates-debut: איגור קרוטוגולוב (1997)
+- [ ] breakthroughYear-duplicates-debut: רינת שחם (2001)
+- [ ] breakthroughYear-duplicates-debut: טניה סגל (2023)
+- [ ] breakthroughYear-duplicates-debut: Shura Bi-2 (1995)
+- [ ] breakthroughYear-duplicates-debut: עדי רן (1993)
+- [ ] breakthroughYear-duplicates-debut: גלית בל (1996)
+- [ ] breakthroughYear-duplicates-debut: דין דין אביב (1998)
+- [ ] breakthroughYear-duplicates-debut: נפתלי הרשטיק (2003)
+- [ ] breakthroughYear-duplicates-debut: ישראל בר-און (2007)
+- [ ] breakthroughYear-duplicates-debut: מאריה אוצ'רטיאנסקי (2006)
+- [ ] breakthroughYear-duplicates-debut: דניאל זמיר (2000)
+- [ ] breakthroughYear-duplicates-debut: קטלין רייטר (2011)
+- [ ] breakthroughYear-duplicates-debut: חיים אוליאל (2000)
+- [ ] breakthroughYear-duplicates-debut: גלית בורג (1989)
+- [ ] breakthroughYear-duplicates-debut: חיים לוק (2015)
+- [ ] breakthroughYear-duplicates-debut: סגיב כהן (2001)
+- [ ] breakthroughYear-duplicates-debut: יוסף קרדונר (2000)
+- [ ] breakthroughYear-duplicates-debut: יצחק קלפטר (1966)
+- [ ] breakthroughYear-duplicates-debut: לאה לופטין (1969)
+- [ ] breakthroughYear-duplicates-debut: וירה לוזינסקי (2005)
+- [ ] breakthroughYear-duplicates-debut: יהודה סעדו (2005)
+- [ ] breakthroughYear-duplicates-debut: מאיה איזקוביץ (2009)
+- [ ] breakthroughYear-duplicates-debut: אהובה עוזרי (1973)
+- [ ] breakthroughYear-duplicates-debut: איילה אינגדשט (2006)
+- [ ] breakthroughYear-duplicates-debut: אריק סיני (1968)
+- [ ] breakthroughYear-duplicates-debut: נעם רותם (1993)
+- [ ] breakthroughYear-duplicates-debut: שחר אבן צור (2003)
+- [ ] breakthroughYear-duplicates-debut: רוחמה רז (1977)
+- [ ] breakthroughYear-duplicates-debut: שני חזן (2018)
+- [ ] breakthroughYear-duplicates-debut: שפי ישי (1992)
+- [ ] breakthroughYear-duplicates-debut: שמואל ברזילי (1992)
+- [ ] breakthroughYear-duplicates-debut: אודי דוידי (2004)
+- [ ] breakthroughYear-duplicates-debut: יעל דקלבאום (1995)
+- [ ] breakthroughYear-duplicates-debut: שם טוב לוי (1969)
+- [ ] breakthroughYear-duplicates-debut: יניב ד'אור (2012)
+- [ ] breakthroughYear-duplicates-debut: תמר אייזנמן (2001)
+- [ ] breakthroughYear-duplicates-debut: זוהרה (2012)
+- [ ] breakthroughYear-duplicates-debut: שלומית לוי (2004)
+- [ ] breakthroughYear-duplicates-debut: רותם אור (2008)
+- [ ] breakthroughYear-duplicates-debut: זיו יחזקאל (2013)
+- [ ] breakthroughYear-duplicates-debut: טליה ישי (2008)
+- [ ] breakthroughYear-duplicates-debut: רון נשר (2003)
+- [ ] breakthroughYear-duplicates-debut: ליאורה יצחק (2013)
+- [ ] breakthroughYear-duplicates-debut: יעל דנון (2019)
+- [ ] breakthroughYear-duplicates-debut: טל שגב (1990)
+- [ ] breakthroughYear-duplicates-debut: אמיר קרטס (1991)
+- [ ] breakthroughYear-duplicates-debut: ג'קו אייזנברג (1996)
+- [ ] breakthroughYear-duplicates-debut: ניקה (2005)
+- [ ] breakthroughYear-duplicates-debut: חמדה (2003)
+- [ ] breakthroughYear-duplicates-debut: תמר גלעדי (1998)
+- [ ] breakthroughYear-duplicates-debut: דני מסנג (1965)
+- [ ] breakthroughYear-duplicates-debut: ענבל פרלמוטר (1992)
+- [ ] breakthroughYear-duplicates-debut: אפרים שמיר (1970)
+- [ ] breakthroughYear-duplicates-debut: יוליה פלדמן (2024)
+- [ ] breakthroughYear-duplicates-debut: ירמיה דמן (2010)
+- [ ] breakthroughYear-duplicates-debut: מיקה קרני (1997)
+- [ ] breakthroughYear-duplicates-debut: שאנן סטריט (2007)
+- [ ] breakthroughYear-duplicates-debut: רון שובל (1985)
+- [ ] breakthroughYear-duplicates-debut: זאב טנא (1975)
+- [ ] breakthroughYear-duplicates-debut: חמי רודנר (1985)
+- [ ] breakthroughYear-duplicates-debut: יסמין אבן (2004)
+- [ ] breakthroughYear-duplicates-debut: לאה שבת (1986)
+- [ ] breakthroughYear-duplicates-debut: ג'קי מקייטן (1998)
+- [ ] breakthroughYear-duplicates-debut: איזי (2001)
+- [ ] breakthroughYear-duplicates-debut: אילקה רווה (2006)
+- [ ] breakthroughYear-duplicates-debut: שמעון בוסקילה (1988)
+- [ ] breakthroughYear-duplicates-debut: עוזי פוקס (1962)
+- [ ] breakthroughYear-duplicates-debut: מורין נהדר (1995)
+- [ ] breakthroughYear-duplicates-debut: מזי כהן (1979)
+- [ ] breakthroughYear-duplicates-debut: רן אלירן (1952)
+- [ ] breakthroughYear-duplicates-debut: קובי אפללו (2001)
+- [ ] breakthroughYear-duplicates-debut: משה חבושה (1998)
+- [ ] breakthroughYear-duplicates-debut: עדנה לב (1966)
+- [ ] breakthroughYear-duplicates-debut: ערן צור (1986)
+- [ ] breakthroughYear-duplicates-debut: צילה דגן (1971)
+- [ ] breakthroughYear-duplicates-debut: שלמה יידוב (1972)
+- [ ] breakthroughYear-duplicates-debut: ענבל בקהל (2009)
+- [ ] breakthroughYear-duplicates-debut: מרים ישראלי (1999)
+- [ ] breakthroughYear-duplicates-debut: מורן מגל (2016)
+- [ ] breakthroughYear-duplicates-debut: עוזיה צדוק (2014)
+- [ ] breakthroughYear-duplicates-debut: איציק דדיה (2002)
+- [ ] breakthroughYear-duplicates-debut: שירלי יובל-יאיר (1992)
+- [ ] breakthroughYear-duplicates-debut: אביאור ביירון (1988)
+- [ ] breakthroughYear-duplicates-debut: אושרת זולטק (2016)
+- [ ] breakthroughYear-duplicates-debut: יאיר לוי (2016)
+- [ ] breakthroughYear-duplicates-debut: גל דה פז (2010)
+- [ ] breakthroughYear-duplicates-debut: יפעת בלסיאנו (2024)
+- [ ] breakthroughYear-duplicates-debut: טליסמאן (2016)
+- [ ] breakthroughYear-duplicates-debut: טניה וינוקור (2001)
+- [ ] breakthroughYear-duplicates-debut: נועה גרומן (2024)
+- [ ] breakthroughYear-duplicates-debut: טלי רובינשטיין (2012)
+- [ ] breakthroughYear-duplicates-debut: יאיר אליצור (2018)
+- [ ] breakthroughYear-duplicates-debut: זאנוויל ויינברגר (2016)
+- [ ] breakthroughYear-duplicates-debut: אורי טולדנו (2006)
+- [ ] breakthroughYear-duplicates-debut: אורי כלטוב (2024)
+- [ ] breakthroughYear-duplicates-debut: נתן סלומון (1997)
+- [ ] breakthroughYear-duplicates-debut: דניס מידונה (2019)
+- [ ] breakthroughYear-duplicates-debut: עמית ארז (2003)
+- [ ] breakthroughYear-duplicates-debut: אבי פרץ (זמר) (1993)
+- [ ] breakthroughYear-duplicates-debut: שרון לוי‎ (2013)
+- [ ] breakthroughYear-duplicates-debut: אורי שבח (1972)
+- [ ] breakthroughYear-duplicates-debut: נורית (1998)
+- [ ] breakthroughYear-duplicates-debut: יוני נמרי (1974)
+- [ ] breakthroughYear-duplicates-debut: בן ארצי (1998)
+- [ ] breakthroughYear-duplicates-debut: ניסים סרוסי (2016)
+- [ ] breakthroughYear-duplicates-debut: מיקי שביב (1966)
+- [ ] breakthroughYear-duplicates-debut: רפי פרסקי (1988)
+- [ ] breakthroughYear-duplicates-debut: משה להב (2017)
+- [ ] breakthroughYear-duplicates-debut: מלכה שפיגל (1980)
+- [ ] breakthroughYear-duplicates-debut: עדנה בז'רנו (1978)
+- [ ] breakthroughYear-duplicates-debut: גלעד השג (1971)
+- [ ] breakthroughYear-duplicates-debut: הנרי (מוזיקאי) (2002)
+- [ ] breakthroughYear-duplicates-debut: ישי ברגר (1994)
+- [ ] breakthroughYear-duplicates-debut: זוהיר פרנסיס (2018)
+- [ ] breakthroughYear-duplicates-debut: לידור יוספי (1997)
+- [ ] breakthroughYear-duplicates-debut: כפיר עטיה (2005)
+- [ ] breakthroughYear-duplicates-debut: דרורה חבקין (2006)
+- [ ] breakthroughYear-duplicates-debut: בעז בנאי (2007)
+- [ ] breakthroughYear-duplicates-debut: מירו (2019)
+- [ ] breakthroughYear-duplicates-debut: הדסה סיגלוב (1968)
+- [ ] breakthroughYear-duplicates-debut: יפעת בן דרור (2001)
+- [ ] breakthroughYear-duplicates-debut: גבי ברלין (1954)
+- [ ] breakthroughYear-duplicates-debut: סמי לזמי (2023)
+- [ ] breakthroughYear-duplicates-debut: בריו חקשור (2000)
+- [ ] breakthroughYear-duplicates-debut: גיתית שובל (2008)
+- [ ] breakthroughYear-duplicates-debut: גדי אלטמן (2003)
+- [ ] breakthroughYear-duplicates-debut: אורית שחף (1992)
+- [ ] breakthroughYear-duplicates-debut: יוסי עדן (1998)
+- [ ] breakthroughYear-duplicates-debut: ניסים גרמה (1978)
+- [ ] breakthroughYear-duplicates-debut: יונתן מילר (1985)
+- [ ] breakthroughYear-duplicates-debut: נועה פארן (1997)
+- [ ] breakthroughYear-duplicates-debut: מאור אדרי (2008)
+- [ ] breakthroughYear-duplicates-debut: יורם חזן (1990)
+- [ ] breakthroughYear-duplicates-debut: יעקב יהודה דסקל (2007)
+- [ ] breakthroughYear-duplicates-debut: עירית דותן (1974)
+- [ ] breakthroughYear-duplicates-debut: יוסי בבליקי (1996)
+- [ ] breakthroughYear-duplicates-debut: מאיר ישראל (2011)
+- [ ] breakthroughYear-duplicates-debut: אפרים מנדלסון (1997)
+- [ ] breakthroughYear-duplicates-debut: יהודה אליאס (1983)
+- [ ] breakthroughYear-duplicates-debut: חיים אל (1989)
+- [ ] breakthroughYear-duplicates-debut: תום פטרובר (2019)
+- [ ] breakthroughYear-duplicates-debut: אבי בניון (2002)
+- [ ] breakthroughYear-duplicates-debut: שלמה דסקל (1999)
+- [ ] breakthroughYear-duplicates-debut: מייק שרון (2021)
+- [ ] breakthroughYear-duplicates-debut: שר-אל (2004)
+- [ ] breakthroughYear-duplicates-debut: עליזה קשי (1955)
+- [ ] breakthroughYear-duplicates-debut: אבי סינואני (1981)
+- [ ] breakthroughYear-duplicates-debut: יוני פוליקר (2008)
+- [ ] breakthroughYear-duplicates-debut: מקס גת-מור (2022)
+- [ ] breakthroughYear-duplicates-debut: טריפונס (1982)
+- [ ] breakthroughYear-duplicates-debut: גילי ארגוב (1989)
+- [ ] breakthroughYear-duplicates-debut: דני גולן (1967)
+- [ ] breakthroughYear-duplicates-debut: יעלה אביטל (2021)
+- [ ] breakthroughYear-duplicates-debut: מיכל טאובר (2000)
+- [ ] breakthroughYear-duplicates-debut: שלווה ברטי (1986)
+- [ ] breakthroughYear-duplicates-debut: לירן אביב (2010)
+- [ ] breakthroughYear-duplicates-debut: בן סנוף (1993)
+- [ ] breakthroughYear-duplicates-debut: ורדינה כהן (1988)
+- [ ] breakthroughYear-duplicates-debut: יואב יצחק (זמר) (1990)
+- [ ] breakthroughYear-duplicates-debut: דני גרנות (1969)
+- [ ] breakthroughYear-duplicates-debut: אבנר גדסי (1970)
+- [ ] breakthroughYear-duplicates-debut: מיכל טל (זמרת) (1975)
+- [ ] breakthroughYear-duplicates-debut: מנחם פיליפ (1991)
+- [ ] breakthroughYear-duplicates-debut: ליאור אלמליח (2008)
+- [ ] breakthroughYear-duplicates-debut: אייל שחר (1996)
+- [ ] breakthroughYear-duplicates-debut: בני אלבז (1984)
+- [ ] breakthroughYear-duplicates-debut: יוני גנוט (2000)
+- [ ] breakthroughYear-duplicates-debut: סנדרה ג'ונסון (1975)
+- [ ] breakthroughYear-duplicates-debut: רוני פיטרסון (1974)
+- [ ] breakthroughYear-duplicates-debut: מאיה רוטמן (2006)
+- [ ] breakthroughYear-duplicates-debut: מיכה שטרית (1980)
+- [ ] breakthroughYear-duplicates-debut: מני בגר (1978)
+- [ ] breakthroughYear-duplicates-debut: יהודית תמיר (1991)
+- [ ] breakthroughYear-duplicates-debut: Yotam Ben Horin (1997)
+- [ ] breakthroughYear-duplicates-debut: מריה לוקאץ' (1966)
+- [ ] breakthroughYear-duplicates-debut: אביהו שבת (2009)
+- [ ] breakthroughYear-duplicates-debut: איתמר רוטשילד (2002)
+- [ ] breakthroughYear-duplicates-debut: אלונה דניאל (1990)
+- [ ] breakthroughYear-duplicates-debut: אליוט (1985)
+- [ ] breakthroughYear-duplicates-debut: אסתר שמיר (1977)
+- [ ] breakthroughYear-duplicates-debut: אתי לוי (1992)
+- [ ] breakthroughYear-duplicates-debut: בטי פבלו (1989)
+- [ ] breakthroughYear-duplicates-debut: בני ברמן (1991)
+- [ ] breakthroughYear-duplicates-debut: ג'וני שועלי (1991)
+- [ ] breakthroughYear-duplicates-debut: אסף ארליך (2000)
+- [ ] breakthroughYear-duplicates-debut: אורן ברזילי (2017)
+- [ ] breakthroughYear-duplicates-debut: חיים סהר ישראל (1999)
+- [ ] breakthroughYear-duplicates-debut: אלי מגן (1987)
+- [ ] breakthroughYear-duplicates-debut: יצחק מאיר (זמר) (2010)
+- [ ] breakthroughYear-duplicates-debut: דודי לוי (1986)
+- [ ] breakthroughYear-duplicates-debut: בני אמדורסקי (1956)
+- [ ] breakthroughYear-duplicates-debut: שני קדר (2006)
+- [ ] breakthroughYear-duplicates-debut: איגי דיין (1992)
+- [ ] breakthroughYear-duplicates-debut: ורד קלפטר (1981)
+- [ ] breakthroughYear-duplicates-debut: פטריק סבג (2007)
+- [ ] breakthroughYear-duplicates-debut: תמיר גל (1995)
+- [ ] breakthroughYear-duplicates-debut: דוד לביא (זמר) (2008)
+- [ ] breakthroughYear-duplicates-debut: עדנה גורן (1959)
+- [ ] breakthroughYear-duplicates-debut: ניצן-חן רזאל (1996)
+- [ ] breakthroughYear-duplicates-debut: דורון רפאלי (2011)
+- [ ] breakthroughYear-duplicates-debut: גבריאל בלחסן (1995)
+- [ ] breakthroughYear-duplicates-debut: איגי וקסמן (1986)
+- [ ] breakthroughYear-duplicates-debut: דני דותן (1996)
+- [ ] breakthroughYear-duplicates-debut: רונית אופיר (1972)
+- [ ] breakthroughYear-duplicates-debut: יוני רועה (1998)
+- [ ] breakthroughYear-duplicates-debut: דידי ארז (1999)
+- [ ] breakthroughYear-duplicates-debut: דנה לפידות (2008)
+- [ ] breakthroughYear-duplicates-debut: טובה גרטנר (1986)
+- [ ] breakthroughYear-duplicates-debut: יעל לוי (1973)
+- [ ] breakthroughYear-duplicates-debut: זאב נחמה (1985)
+- [ ] breakthroughYear-duplicates-debut: ליאור פרחי (1986)
+- [ ] breakthroughYear-duplicates-debut: שאול צירלין (1989)
+- [ ] breakthroughYear-duplicates-debut: דודי קאליש (1995)
+- [ ] breakthroughYear-duplicates-debut: שרי (זמרת) (1976)
+- [ ] breakthroughYear-duplicates-debut: ניסים אלחנטי (1998)
+- [ ] breakthroughYear-duplicates-debut: גאולה גיל (1950)
+- [ ] breakthroughYear-duplicates-debut: רמה סמסונוב (1952)
+- [ ] breakthroughYear-duplicates-debut: אלי לולאי (1988)
+- [ ] breakthroughYear-duplicates-debut: רועי הראבן (1995)
+- [ ] breakthroughYear-duplicates-debut: נאור אורמיה (2009)
+- [ ] breakthroughYear-duplicates-debut: גרי אקשטיין (1964)
+- [ ] breakthroughYear-duplicates-debut: קרני פוסטל (1986)
+- [ ] breakthroughYear-duplicates-debut: דליה כהן (זמרת) (1968)
+- [ ] breakthroughYear-duplicates-debut: נתנאלה (1973)
+- [ ] breakthroughYear-duplicates-debut: ברכה קול (1988)
+- [ ] breakthroughYear-duplicates-debut: נעמי צורי (2026)
+- [ ] breakthroughYear-duplicates-debut: סיוון (זמרת) (2002)
+- [ ] breakthroughYear-duplicates-debut: סיני תור (1997)
+- [ ] breakthroughYear-duplicates-debut: סמי בירנבך (1989)
+- [ ] breakthroughYear-duplicates-debut: עדי מדנס (1986)
+- [ ] breakthroughYear-duplicates-debut: קוואמי (1990)
+- [ ] breakthroughYear-duplicates-debut: קים קונקשיין (1996)
+- [ ] breakthroughYear-duplicates-debut: רם אוריון (1982)
+- [ ] breakthroughYear-duplicates-debut: שיבי קלר (2000)
+- [ ] breakthroughYear-duplicates-debut: שילה פרבר (2003)
+- [ ] breakthroughYear-duplicates-debut: שלום גד (1988)
+- [ ] breakthroughYear-duplicates-debut: שלמה צח (1962)
+- [ ] breakthroughYear-duplicates-debut: שרה ב"ק (2012)
+- [ ] breakthroughYear-duplicates-debut: שרון מולדאבי (1995)
+- [ ] breakthroughYear-duplicates-debut: ניקול ראידמן (2017)
+- [ ] breakthroughYear-duplicates-debut: רועי כפרי (2007)
+- [ ] breakthroughYear-duplicates-debut: אברהם פררה (1952)
+- [ ] breakthroughYear-duplicates-debut: שירה גבריאלוב (2004)
+- [ ] breakthroughYear-duplicates-debut: אורטל אופק (2002)
+- [ ] breakthroughYear-duplicates-debut: דורית שדה (1975)
+- [ ] breakthroughYear-duplicates-debut: אורן לוטנברג (2024)
+- [ ] breakthroughYear-duplicates-debut: שני יצהרי (2010)
+- [ ] breakthroughYear-duplicates-debut: דנה לוי (1997)
+- [ ] breakthroughYear-duplicates-debut: נתן סלור (2006)
+- [ ] breakthroughYear-duplicates-debut: מיקה שדה (2013)
+- [ ] breakthroughYear-duplicates-debut: ישראל פרנס (2022)
+- [ ] breakthroughYear-duplicates-debut: חני דינור (1980)
+- [ ] breakthroughYear-duplicates-debut: חני ליבנה (1984)
+- [ ] breakthroughYear-duplicates-debut: איילת רוז גוטליב (2006)
+- [ ] breakthroughYear-duplicates-debut: גדעון אונה (2020)
+- [ ] breakthroughYear-duplicates-debut: ראובן ארז (1995)
+- [ ] breakthroughYear-duplicates-debut: עזרא אהרון (2024)
+- [ ] breakthroughYear-duplicates-debut: Udi Spielman (1951)
+- [ ] breakthroughYear-duplicates-debut: אלי לס (1990)
+- [ ] breakthroughYear-duplicates-debut: גיא בוקאטי (1985)
+- [ ] breakthroughYear-duplicates-debut: דורון מירן (1987)
+- [ ] breakthroughYear-duplicates-debut: מיכה ביטון (1994)
+- [ ] breakthroughYear-duplicates-debut: סיון טלמור (1998)
+- [ ] breakthroughYear-duplicates-debut: ליאת יצחקי (2002)
+- [ ] breakthroughYear-duplicates-debut: מורן מזוז (2013)
+- [ ] breakthroughYear-duplicates-debut: רן שם טוב (1989)
+- [ ] breakthroughYear-duplicates-debut: עמית ליסטוונד (1995)
+- [ ] breakthroughYear-duplicates-debut: אינפי סנואו (2012)
+- [ ] breakthroughYear-duplicates-debut: עמי מימון (2021)
+- [ ] breakthroughYear-duplicates-debut: ליאונל פרטיין (2015)
+- [ ] breakthroughYear-duplicates-debut: חופני כהן (1975)
+- [ ] breakthroughYear-duplicates-debut: עידו אופק (1999)
+- [ ] breakthroughYear-duplicates-debut: רינת גוטמן (2008)
+- [ ] breakthroughYear-duplicates-debut: דן שצברג (1998)
+- [ ] breakthroughYear-duplicates-debut: קלייר מגנאג'י (2016)
+- [ ] breakthroughYear-duplicates-debut: נועה שמר (2005)
+- [ ] breakthroughYear-duplicates-debut: גדי רונן (2017)
+- [ ] breakthroughYear-duplicates-debut: דפנה לוי (2023)
+- [ ] breakthroughYear-duplicates-debut: יגל הרוש (2020)
+- [ ] breakthroughYear-duplicates-debut: שריףף (1992)
+- [ ] breakthroughYear-duplicates-debut: דורון אייל (2019)
+- [ ] breakthroughYear-duplicates-debut: מידד טסה (2006)
+- [ ] breakthroughYear-duplicates-debut: נועם פנחסוב (2009)
+- [ ] breakthroughYear-duplicates-debut: אבבה דסה (2013)
+- [ ] breakthroughYear-duplicates-debut: טילדה רג'ואן (2020)
+- [ ] breakthroughYear-duplicates-debut: יואלי דיקמן (2022)
+- [ ] breakthroughYear-duplicates-debut: ניסים מנחם (1960)
+- [ ] breakthroughYear-duplicates-debut: חזי פניאן (1986)
+- [ ] breakthroughYear-duplicates-debut: גל זיו (2010)
+- [ ] breakthroughYear-duplicates-debut: גילי נתנאל (2002)
+- [ ] breakthroughYear-duplicates-debut: אווה פרנסיס (2018)
+- [ ] breakthroughYear-duplicates-debut: אקו (2011)
+- [ ] breakthroughYear-duplicates-debut: עומר קורן (2017)
+- [ ] breakthroughYear-duplicates-debut: נועם דדון (2015)
+- [ ] breakthroughYear-duplicates-debut: נועם אקוטונס (2004)
+- [ ] breakthroughYear-duplicates-debut: משה גיאת (1982)
+- [ ] breakthroughYear-duplicates-debut: עינב ג'קסון כהן (2011)
+- [ ] breakthroughYear-duplicates-debut: מיס רד (2015)
+- [ ] breakthroughYear-duplicates-debut: לירון בן שמעון (2007)
+- [ ] breakthroughYear-duplicates-debut: שמחה פרידמן (2020)
+- [ ] breakthroughYear-duplicates-debut: מנחם הרמן (1980)
+- [ ] breakthroughYear-duplicates-debut: ערן ויץ (1995)
+- [ ] breakthroughYear-duplicates-debut: טל רמון (2016)
+- [ ] breakthroughYear-duplicates-debut: ליאורה מוריאל (2022)
+- [ ] breakthroughYear-duplicates-debut: אוהד שרגאי (2019)
+- [ ] breakthroughYear-duplicates-debut: אדר גולד (2019)
+- [ ] breakthroughYear-duplicates-debut: בן זיני (2017)
+- [ ] breakthroughYear-duplicates-debut: שמחה גואטה (2015)
+- [ ] breakthroughYear-duplicates-debut: אוריין שוקרון (2022)
+- [ ] breakthroughYear-duplicates-debut: תמר יהלומי (2011)
+- [ ] breakthroughYear-duplicates-debut: רן ניר (2006)
+- [ ] breakthroughYear-duplicates-debut: גילי יאלו (2017)
+- [ ] breakthroughYear-duplicates-debut: רחל ירון (2014)
+- [ ] breakthroughYear-duplicates-debut: לורן פלד (2020)
+- [ ] breakthroughYear-duplicates-debut: אילן דמתי (2023)
+- [ ] breakthroughYear-duplicates-debut: גל סינואני (2019)
+- [ ] breakthroughYear-duplicates-debut: עדן גבאי (2013)
+- [ ] breakthroughYear-duplicates-debut: אברומי וינברג (2012)
+- [ ] breakthroughYear-duplicates-debut: עדי שחם (2019)
+- [ ] breakthroughYear-duplicates-debut: יוני דויטש (2008)
+- [ ] breakthroughYear-duplicates-debut: גל שריג (2019)
+- [ ] breakthroughYear-duplicates-debut: אודי דמארי (2016)
+- [ ] breakthroughYear-duplicates-debut: שי נחייסי (2012)
+- [ ] breakthroughYear-duplicates-debut: רינת עמנואל (2015)
+- [ ] breakthroughYear-duplicates-debut: מושיקו מור (2011)
+- [ ] breakthroughYear-duplicates-debut: גיא מר (1997)
+- [ ] breakthroughYear-duplicates-debut: צ'ולו (1995)
+- [ ] breakthroughYear-duplicates-debut: קיקי רוטשטיין (1971)
+- [ ] breakthroughYear-duplicates-debut: עומרי גליקמן (2000)
+- [ ] breakthroughYear-duplicates-debut: חמי (1992)
+- [ ] breakthroughYear-duplicates-debut: תאיר חיים (2013)
+- [ ] breakthroughYear-duplicates-debut: מור (2019)
+- [ ] breakthroughYear-duplicates-debut: תמר אפק (2007)
+- [ ] breakthroughYear-duplicates-debut: ספיר וולך (2016)
+- [ ] breakthroughYear-duplicates-debut: זוזו גינזבורג (2021)
+- [ ] breakthroughYear-duplicates-debut: רפי ביטון (2024)
+- [ ] breakthroughYear-duplicates-debut: Lala Tamar (2020)
+- [ ] breakthroughYear-duplicates-debut: משה לוק (2020)
+- [ ] breakthroughYear-duplicates-debut: אליאס ג'וליאנוס (2022)
+- [ ] breakthroughYear-duplicates-debut: נילי פינק (2007)
+- [ ] breakthroughYear-duplicates-debut: מנדי וייס (2019)
+- [ ] breakthroughYear-duplicates-debut: יוגב גלוסמן (2019)
+- [ ] breakthroughYear-duplicates-debut: עוזאל (2018)
+- [ ] breakthroughYear-duplicates-debut: משה כורסיה (2017)
+- [ ] breakthroughYear-duplicates-debut: רון פרץ (2011)
+- [ ] breakthroughYear-duplicates-debut: אלנתן שלום (2018)
+- [ ] breakthroughYear-duplicates-debut: בת אלה (1985)
+- [ ] breakthroughYear-duplicates-debut: נועה בלחסן (2010)
+- [ ] breakthroughYear-duplicates-debut: מוטי וייס (2017)
+- [ ] breakthroughYear-duplicates-debut: אושי מסלה (2009)
+- [ ] breakthroughYear-duplicates-debut: ענת מושקובסקי (2010)
+- [ ] breakthroughYear-duplicates-debut: יונתן ביטון (2016)
+- [ ] breakthroughYear-duplicates-debut: נותי ליברמן (2023)
+- [ ] breakthroughYear-duplicates-debut: אבי אילסון (2018)
+- [ ] breakthroughYear-duplicates-debut: חנן-יה ישראל בוהדנה (2009)
+- [ ] breakthroughYear-duplicates-debut: מענדל ראטה (2014)
+- [ ] breakthroughYear-duplicates-debut: ענבר חצרוני (2020)
+- [ ] breakthroughYear-duplicates-debut: שמוליק סוכות (2022)
+- [ ] breakthroughYear-duplicates-debut: לידור סעדיה (2021)
+- [ ] breakthroughYear-duplicates-debut: בן צור (2019)
+- [ ] breakthroughYear-duplicates-debut: יערה שאוליאן (2020)
+- [ ] breakthroughYear-duplicates-debut: שגיא ריי (2002)
+- [ ] breakthroughYear-duplicates-debut: MARMAR (2000)
+- [ ] breakthroughYear-duplicates-debut: יהודה סאלאס (2000)
+- [ ] breakthroughYear-duplicates-debut: קרני אלדד (2006)
+- [ ] breakthroughYear-duplicates-debut: אבי מסיקה (2004)
+- [ ] breakthroughYear-duplicates-debut: אבי עברי (1991)
+- [ ] breakthroughYear-duplicates-debut: אודי שפילמן (1992)
+- [ ] breakthroughYear-duplicates-debut: כפיר בן ליש (2014)
+- [ ] breakthroughYear-duplicates-debut: שי עמר (2001)
+- [ ] breakthroughYear-duplicates-debut: ליליה (2019)
+- [ ] breakthroughYear-duplicates-debut: קרן הכט (1993)
+- [ ] breakthroughYear-duplicates-debut: יוני שלמה (2003)
+- [ ] breakthroughYear-duplicates-debut: יוסף חיים שוואקי (2008)
+- [ ] breakthroughYear-duplicates-debut: שמרית דרור גריילסאמר (2011)
+- [ ] breakthroughYear-duplicates-debut: נעמי לוי (1989)
+- [ ] breakthroughYear-duplicates-debut: עופר בדיחי (1989)
+- [ ] breakthroughYear-duplicates-debut: אמיל זריהן (1986)
+- [ ] breakthroughYear-duplicates-debut: ג'ורג' בר (2001)
+- [ ] breakthroughYear-duplicates-debut: מאיר בן מיכאל (2016)
+- [ ] breakthroughYear-duplicates-debut: שרונה נסטוביץ' (2006)
+- [ ] breakthroughYear-duplicates-debut: שרונה אהרון (1955)
+- [ ] breakthroughYear-duplicates-debut: שי להב (2004)
+- [ ] breakthroughYear-duplicates-debut: מומי אלפין (1970)
+- [ ] breakthroughYear-duplicates-debut: בני אל (1982)
+- [ ] breakthroughYear-duplicates-debut: אוריאל שלומי (1977)
+- [ ] breakthroughYear-duplicates-debut: אבי מטוס (2019)
+- [ ] breakthroughYear-duplicates-debut: בני בשן (1996)
+- [ ] breakthroughYear-duplicates-debut: מרים אביגל (1955)
+- [ ] breakthroughYear-duplicates-debut: שרית אביטן (2010)
+- [ ] breakthroughYear-duplicates-debut: חדוה עמרני (1960)
+- [ ] breakthroughYear-duplicates-debut: אורי צדוק (2009)
+- [ ] breakthroughYear-duplicates-debut: אביגייל רוז (2008)
+- [ ] breakthroughYear-duplicates-debut: חנה צור (2010)
+- [ ] breakthroughYear-duplicates-debut: שרה (2004)
+- [ ] breakthroughYear-duplicates-debut: אורי בשן (2000)
+- [ ] breakthroughYear-duplicates-debut: לירן נדל (2003)
+- [ ] breakthroughYear-duplicates-debut: יובל פרי (1995)
+- [ ] breakthroughYear-duplicates-debut: נמרוד שיקלר (2005)
+- [ ] breakthroughYear-duplicates-debut: יוסי הרי (2001)
+- [ ] breakthroughYear-duplicates-debut: איציק שמלי (2002)
+- [ ] breakthroughYear-duplicates-debut: ירון כהן (2004)
+- [ ] breakthroughYear-duplicates-debut: שמשון בר-נוי (2009)
+- [ ] breakthroughYear-duplicates-debut: אלי לוזון (1979)
+- [ ] breakthroughYear-duplicates-debut: רובי חן (1978)
+- [ ] breakthroughYear-duplicates-debut: ראובן גבירץ (1979)
+- [ ] breakthroughYear-duplicates-debut: ערן לוי (מוזיקאי) (2019)
+- [ ] breakthroughYear-duplicates-debut: סיגל קלרמן (1978)
+- [ ] breakthroughYear-duplicates-debut: עפר בשן (2002)
+- [ ] breakthroughYear-duplicates-debut: גילה חסיד (2022)
+- [ ] breakthroughYear-duplicates-debut: דניאל זילברשטיין (2006)
+- [ ] breakthroughYear-duplicates-debut: דפנה בר ציון (1985)
+- [ ] breakthroughYear-duplicates-debut: יהוא ירון (2001)
+- [ ] breakthroughYear-duplicates-debut: יעקב נווה (1985)
+- [ ] breakthroughYear-duplicates-debut: ירונה כספי (1990)
+- [ ] breakthroughYear-duplicates-debut: מאיה אברהם (1998)
+- [ ] breakthroughYear-duplicates-debut: מילי מירן (1982)
+- [ ] breakthroughYear-duplicates-debut: מלי ברונשטיין (1973)
+- [ ] breakthroughYear-duplicates-debut: נגה אשד (1969)
+- [ ] breakthroughYear-duplicates-debut: ורדה קוטלר (2004)
+- [ ] breakthroughYear-duplicates-debut: אוהד חיטמן (1995)
+- [ ] breakthroughYear-duplicates-debut: אליזט (2004)
+- [ ] breakthroughYear-duplicates-debut: ארז הלוי (1984)
+- [ ] breakthroughYear-duplicates-debut: אבנר קנר (1976)
+- [ ] breakthroughYear-duplicates-debut: חיה סמיר (1992)
+- [ ] breakthroughYear-duplicates-debut: מרב סמן טוב (2003)
+- [ ] breakthroughYear-duplicates-debut: נאוה ברוכין (2007)
+- [ ] breakthroughYear-duplicates-debut: גילי מסמי (2003)
+- [ ] breakthroughYear-duplicates-debut: עובדיה חממה (1991)
+- [ ] breakthroughYear-duplicates-debut: שמוליק צ'יזיק (1984)
+- [ ] breakthroughYear-duplicates-debut: יוסי אלפנט (1983)
+- [ ] breakthroughYear-duplicates-debut: יאיר זיו (2009)
+- [ ] breakthroughYear-duplicates-debut: שיקו חייק (1998)
+- [ ] breakthroughYear-duplicates-debut: ג'ימי לויד (1957)
+- [ ] breakthroughYear-duplicates-debut: אביב גדג' (1995)
+- [ ] breakthroughYear-duplicates-debut: גבריאל חסון (2002)
+- [ ] breakthroughYear-duplicates-debut: שימי רון (1985)
+- [ ] breakthroughYear-duplicates-debut: דורון מזר (1985)
+- [ ] breakthroughYear-duplicates-debut: שרון הולצמן (2001)
+- [ ] breakthroughYear-duplicates-debut: איתן מסורי (1979)
+- [ ] breakthroughYear-duplicates-debut: אייל קופמן (1991)
+- [ ] breakthroughYear-duplicates-debut: נתן כהן (1970)
+- [ ] breakthroughYear-duplicates-debut: סמיר שוקרי (1994)
+- [ ] breakthroughYear-duplicates-debut: עודד גדיר (2002)
+- [ ] breakthroughYear-duplicates-debut: צבי בומס (1989)
+- [ ] breakthroughYear-duplicates-debut: צבי זלבסקי (1995)
+- [ ] breakthroughYear-duplicates-debut: רומן שרון (1969)
+- [ ] breakthroughYear-duplicates-debut: שמואל ברונר (2008)
+- [ ] breakthroughYear-duplicates-debut: אהובה צדוק (1948)
+- [ ] breakthroughYear-duplicates-debut: יואל לרנר (1979)
+- [ ] breakthroughYear-duplicates-debut: ניצה טרמין (1992)
+- [ ] breakthroughYear-duplicates-debut: נתי לוי (1987)
+- [ ] breakthroughYear-duplicates-debut: יפעת נץ (1990)
+- [ ] breakthroughYear-duplicates-debut: סמדר אקראי (2021)
+- [ ] breakthroughYear-duplicates-debut: אלעד שער (2009)
+- [ ] breakthroughYear-duplicates-debut: מנדי ג'רופי (1995)
+- [ ] breakthroughYear-duplicates-debut: משה הלל (1996)
+- [ ] breakthroughYear-duplicates-debut: אהרון ירימי (1986)
+- [ ] breakthroughYear-duplicates-debut: עירית בולקא (1970)
+- [ ] breakthroughYear-duplicates-debut: לאה זלוטניק (1990)
+- [ ] breakthroughYear-duplicates-debut: גילה אדרי (2013)
+- [ ] breakthroughYear-duplicates-debut: נעמה כהן (2011)
+- [ ] breakthroughYear-duplicates-debut: רוני תורג'מן (1968)
+- [ ] breakthroughYear-duplicates-debut: אריק וולהיים (1994)
+- [ ] breakthroughYear-duplicates-debut: נתנאל ששון (2013)
+- [ ] breakthroughYear-duplicates-debut: אתי ביטון (2007)
+- [ ] breakthroughYear-duplicates-debut: שאול גרוס (1992)
+- [ ] breakthroughYear-duplicates-debut: רוני גינוסר (2007)
+- [ ] breakthroughYear-duplicates-debut: אלי פרידמן (1993)
+- [ ] breakthroughYear-duplicates-debut: רות נודלמן (2016)
+- [ ] breakthroughYear-duplicates-debut: יובל פרוינד (2012)
+- [ ] breakthroughYear-duplicates-debut: פורת נוב (2018)
+- [ ] breakthroughYear-duplicates-debut: אסאלה יוסף (2006)
+- [ ] breakthroughYear-duplicates-debut: מרדכי גרנביץ' (2015)
+- [ ] breakthroughYear-duplicates-debut: רועי ידיד (2011)
+- [ ] breakthroughYear-duplicates-debut: שקל (2017)
+- [ ] breakthroughYear-duplicates-debut: ציפי קולטניוק (2013)
+- [ ] breakthroughYear-duplicates-debut: לונא אבו נסאר (2013)
+- [ ] breakthroughYear-duplicates-debut: מרדכי יצהר בוימל (2012)
+- [ ] breakthroughYear-duplicates-debut: זמירה חן (1985)
+- [ ] breakthroughYear-duplicates-debut: אורי מרק (2009)
+- [ ] breakthroughYear-duplicates-debut: שני פרגוסון (2007)
+- [ ] breakthroughYear-duplicates-debut: ישראל (שרוליק) אדלר (2015)
+- [ ] breakthroughYear-duplicates-debut: גבריאל באטלר (2021)
+- [ ] breakthroughYear-duplicates-debut: נטע בן יהודה (2008)
+- [ ] breakthroughYear-duplicates-debut: רמי דנוך (1967)
+- [ ] breakthroughYear-duplicates-debut: ג'קי מייקה (1979)
+- [ ] breakthroughYear-duplicates-debut: סטלוס (1976)
+- [ ] breakthroughYear-duplicates-debut: גלעד פוטולסקי (1984)
+- [ ] breakthroughYear-duplicates-debut: רקפת אמסלם (2010)
+- [ ] breakthroughYear-duplicates-debut: עידן חיים (2010)
+- [ ] breakthroughYear-duplicates-debut: מתי שריקי (2015)
+- [ ] breakthroughYear-duplicates-debut: גיל עקיביוב (2001)
+- [ ] breakthroughYear-duplicates-debut: כיתריה (2018)
+- [ ] breakthroughYear-duplicates-debut: שני זמיר (1998)
+- [ ] breakthroughYear-duplicates-debut: ריקי מנור (1975)
+- [ ] breakthroughYear-duplicates-debut: צוקוש (2016)
+- [ ] breakthroughYear-duplicates-debut: עדן דרסו (2017)
+- [ ] breakthroughYear-duplicates-debut: מורן אהרוני (1997)
+- [ ] breakthroughYear-duplicates-debut: שביט נוי (2019)
+- [ ] breakthroughYear-duplicates-debut: דוד נידם (2020)
+- [ ] breakthroughYear-duplicates-debut: סילברדון (1990)
+- [ ] breakthroughYear-duplicates-debut: מיטל דה רזון (2012)
+- [ ] breakthroughYear-duplicates-debut: מורן דוד (2018)
+- [ ] breakthroughYear-duplicates-debut: סתיו שמש (2013)
+- [ ] breakthroughYear-duplicates-debut: שי וואייז (2017)
+- [ ] breakthroughYear-duplicates-debut: הדס פל ירדן (2003)
+- [ ] breakthroughYear-duplicates-debut: אלכסנדרה (1967)
+- [ ] breakthroughYear-duplicates-debut: אריה ברונר (2024)
+- [ ] breakthroughYear-duplicates-debut: עודד בן חור (1979)
+- [ ] breakthroughYear-duplicates-debut: טל ועקנין (1992)
+- [ ] breakthroughYear-duplicates-debut: ישראלה קריבושה (1971)
+- [ ] breakthroughYear-duplicates-debut: ארי היל (2016)
+- [ ] breakthroughYear-duplicates-debut: גידי שמור (1989)
+- [ ] breakthroughYear-duplicates-debut: סימה עמיאל (2023)
+- [ ] breakthroughYear-duplicates-debut: אלדד ציטרין (1999)
+- [ ] breakthroughYear-duplicates-debut: שרון טובה לוי (2011)
+- [ ] breakthroughYear-duplicates-debut: צליל קליפי (2002)
+- [ ] breakthroughYear-duplicates-debut: משה קליין (2015)
+- [ ] breakthroughYear-duplicates-debut: אברימי רוט (2004)
+- [ ] breakthroughYear-duplicates-debut: אלי הרצליך (2014)
+- [ ] breakthroughYear-duplicates-debut: J.Lamotta (2014)
+- [ ] breakthroughYear-duplicates-debut: מאיר גרין (2014)
+- [ ] breakthroughYear-duplicates-debut: קובי ברומר (2013)
+- [ ] breakthroughYear-duplicates-debut: רולי דיקמן (2014)
+- [ ] breakthroughYear-duplicates-debut: מאיר אדלר (2013)
+- [ ] breakthroughYear-duplicates-debut: בנצי שטיין (2023)
+- [ ] breakthroughYear-duplicates-debut: טימוטי סניקוב (2016)
+- [ ] breakthroughYear-duplicates-debut: שמואל פרדניק (2016)
+- [ ] breakthroughYear-duplicates-debut: קרן טננבאום (1986)
+- [ ] breakthroughYear-duplicates-debut: בנצי קלצקין (2022)
+- [ ] breakthroughYear-duplicates-debut: דנה רישפי (2003)
+- [ ] breakthroughYear-duplicates-debut: אסף הרוש (2018)
+- [ ] breakthroughYear-duplicates-debut: דני הדר (2003)
+- [ ] breakthroughYear-duplicates-debut: דניאל בארנבוים (1950)
+- [ ] breakthroughYear-duplicates-debut: הלל סלובק (1976)
+- [ ] breakthroughYear-duplicates-debut: יצחק ידיד (2003)
+- [ ] breakthroughYear-duplicates-debut: מורגנשטרן (2010)
+- [ ] breakthroughYear-duplicates-debut: חיים סבן (1983)
+- [ ] breakthroughYear-duplicates-debut: ינון צור (1994)
+- [ ] breakthroughYear-duplicates-debut: פאול בן חיים (1992)
+- [ ] breakthroughYear-duplicates-debut: אליאנה (2019)
+- [ ] breakthroughYear-duplicates-debut: לוסין גבורקיאן (2003)
+- [ ] breakthroughYear-duplicates-debut: בורגור (2009)
+- [ ] breakthroughYear-duplicates-debut: Yuliy Kim (1960)
+- [ ] breakthroughYear-duplicates-debut: גארי ברתיני (1974)
+- [ ] breakthroughYear-duplicates-debut: עופר ניסים (1983)
+- [ ] breakthroughYear-duplicates-debut: ארמנד עמר (1994)
+- [ ] breakthroughYear-duplicates-debut: נורית הירש (1960)
+- [ ] breakthroughYear-duplicates-debut: אסטריקס (1995)
+- [ ] breakthroughYear-duplicates-debut: סרג'ו קומיסיונה (1973)
+- [ ] breakthroughYear-duplicates-debut: עדן פרטוש (1996)
+- [ ] breakthroughYear-duplicates-debut: ישראל ינון (1995)
+- [ ] breakthroughYear-duplicates-debut: נעם שריף (1953)
+- [ ] breakthroughYear-duplicates-debut: יואב (זמר) (2007)
+- [ ] breakthroughYear-duplicates-debut: איתמר גולן (1992)
+- [ ] breakthroughYear-duplicates-debut: מרים פריד (1988)
+- [ ] breakthroughYear-duplicates-debut: Alexander Bălănescu (1993)
+- [ ] breakthroughYear-duplicates-debut: מארק אליהו (1998)
+- [ ] breakthroughYear-duplicates-debut: יואל לוי (1975)
+- [ ] breakthroughYear-duplicates-debut: קובי אשרת (1962)
+- [ ] breakthroughYear-duplicates-debut: אילן צ'סטר (1965)
+- [ ] breakthroughYear-duplicates-debut: אורי קצנשטיין (2021)
+- [ ] breakthroughYear-duplicates-debut: פנחס שטיינברג (1988)
+- [ ] breakthroughYear-duplicates-debut: ירון הרמן (2003)
+- [ ] breakthroughYear-duplicates-debut: יאיר דלאל (1996)
+- [ ] breakthroughYear-duplicates-debut: ויאצ'סלב גנלין (1961)
+- [ ] breakthroughYear-duplicates-debut: אבישי כהן (1999)
+- [ ] breakthroughYear-duplicates-debut: מט חיימוביץ (1982)
+- [ ] breakthroughYear-duplicates-debut: אוקסנה יבלונסקיה (1995)
+- [ ] breakthroughYear-duplicates-debut: אנדרה היידו (1996)
+- [ ] breakthroughYear-duplicates-debut: דורון מדלי (2001)
+- [ ] breakthroughYear-duplicates-debut: קובי ארד (2016)
+- [ ] breakthroughYear-duplicates-debut: בלסטויז (2003)
+- [ ] breakthroughYear-duplicates-debut: יהל שרמן (1999)
+- [ ] breakthroughYear-duplicates-debut: סילביה מרקוביץ' (1987)
+- [ ] breakthroughYear-duplicates-debut: אבל ארליך (1996)
+- [ ] breakthroughYear-duplicates-debut: בנימין יוסופוב (2022)
+- [ ] breakthroughYear-duplicates-debut: קותימאן (2006)
+- [ ] breakthroughYear-duplicates-debut: דרור פיילר (1996)
+- [ ] breakthroughYear-duplicates-debut: רבקה גולני (1983)
+- [ ] breakthroughYear-duplicates-debut: עומר אביטל (1992)
+- [ ] breakthroughYear-duplicates-debut: עומר מאיר ולבר (2017)
+- [ ] breakthroughYear-duplicates-debut: אשר פיש (2007)
+- [ ] breakthroughYear-duplicates-debut: יואב תלמי (1988)
+- [ ] breakthroughYear-duplicates-debut: דינה יפה (2010)
+- [ ] breakthroughYear-duplicates-debut: Elmira Nəzirova (2011)
+- [ ] breakthroughYear-duplicates-debut: נמי מלומד (2020)
+- [ ] breakthroughYear-duplicates-debut: אבנר דורמן (2006)
+- [ ] breakthroughYear-duplicates-debut: ליאור שמבדל (1993)
+- [ ] breakthroughYear-duplicates-debut: יחזקאל בראון (2023)
+- [ ] breakthroughYear-duplicates-debut: מנדי רודן (1987)
+- [ ] breakthroughYear-duplicates-debut: אבי אביטל (2012)
+- [ ] breakthroughYear-duplicates-debut: יאיר רוזנבלום (1962)
+- [ ] breakthroughYear-duplicates-debut: דוד גריילסאמר (2007)
+- [ ] breakthroughYear-duplicates-debut: ענת פורט (1999)
+- [ ] breakthroughYear-duplicates-debut: גיא בראונשטיין (2019)
+- [ ] breakthroughYear-duplicates-debut: עמוס מלר (2010)
+- [ ] breakthroughYear-duplicates-debut: דוד שלון (1986)
+- [ ] breakthroughYear-duplicates-debut: פרנק פלג (1966)
+- [ ] breakthroughYear-duplicates-debut: אבי אוסטרובסקי (1992)
+- [ ] breakthroughYear-duplicates-debut: יוסי פיין (1981)
+- [ ] breakthroughYear-duplicates-debut: חגי שחם (1998)
+- [ ] breakthroughYear-duplicates-debut: אבי בנימין (2000)
+- [ ] breakthroughYear-duplicates-debut: ודים גלוזמן (2003)
+- [ ] breakthroughYear-duplicates-debut: ניתאי הרשקוביץ (2012)
+- [ ] breakthroughYear-duplicates-debut: אדם בן עזרא (2000)
+- [ ] breakthroughYear-duplicates-debut: אבי בנדי (2001)
+- [ ] breakthroughYear-duplicates-debut: שמואל אשכנזי (1990)
+- [ ] breakthroughYear-duplicates-debut: ליאור נבוק (1999)
+- [ ] breakthroughYear-duplicates-debut: מישה סגל (1991)
+- [ ] breakthroughYear-duplicates-debut: אמיר כץ (2006)
+- [ ] breakthroughYear-duplicates-debut: בטי אוליברו (2015)
+- [ ] breakthroughYear-duplicates-debut: גבריאל ליפקינד (1994)
+- [ ] breakthroughYear-duplicates-debut: יוסף ברדנשווילי (2023)
+- [ ] breakthroughYear-duplicates-debut: שירלי בריל (1998)
+- [ ] breakthroughYear-duplicates-debut: מינדיה חיטארישוילי (1996)
+- [ ] breakthroughYear-duplicates-debut: אבטה בריהון (1983)
+- [ ] breakthroughYear-duplicates-debut: זוהר פרסקו (1992)
+- [ ] breakthroughYear-duplicates-debut: נחום היימן (1951)
+- [ ] breakthroughYear-duplicates-debut: מיכאל טאובה (2000)
+- [ ] breakthroughYear-duplicates-debut: עוז נוי (2005)
+- [ ] breakthroughYear-duplicates-debut: עומר פדי (2018)
+- [ ] breakthroughYear-duplicates-debut: יונתן בר גיורא (1990)
+- [ ] breakthroughYear-duplicates-debut: עלי מוהר (1966)
+- [ ] breakthroughYear-duplicates-debut: אורי קפלן (2021)
+- [ ] breakthroughYear-duplicates-debut: יהושע לקנר (2026)
+- [ ] breakthroughYear-duplicates-debut: עופר דיקובסקי (1994)
+- [ ] breakthroughYear-duplicates-debut: גיא גרבר (2002)
+- [ ] breakthroughYear-duplicates-debut: יהושע אפשטין (1995)
+- [ ] breakthroughYear-duplicates-debut: שי ווזנר (2013)
+- [ ] breakthroughYear-duplicates-debut: אליין פרוג'קט (1994)
+- [ ] breakthroughYear-duplicates-debut: יום-טוב עהרליך (1960)
+- [ ] breakthroughYear-duplicates-debut: רמי פורטיס (1975)
+- [ ] breakthroughYear-duplicates-debut: עקיבא נוף (2011)
+- [ ] breakthroughYear-duplicates-debut: קובי ישראלית (2003)
+- [ ] breakthroughYear-duplicates-debut: Michael Kugel (2018)
+- [ ] breakthroughYear-duplicates-debut: עמית פלד (2018)
+- [ ] breakthroughYear-duplicates-debut: אברהם עילם-אמזלג (2022)
+- [ ] breakthroughYear-duplicates-debut: דניאל כהן (מנצח) (2021)
+- [ ] breakthroughYear-duplicates-debut: ינון יהל (2001)
+- [ ] breakthroughYear-duplicates-debut: גיל דור (1981)
+- [ ] breakthroughYear-duplicates-debut: גיל שוחט (2004)
+- [ ] breakthroughYear-duplicates-debut: מתן פורת (2013)
+- [ ] breakthroughYear-duplicates-debut: מירנה הרצוג (1969)
+- [ ] breakthroughYear-duplicates-debut: נחום נרדי (1974)
+- [ ] breakthroughYear-duplicates-debut: אורית וולף (2019)
+- [ ] breakthroughYear-duplicates-debut: רבקה זהר (1972)
+- [ ] breakthroughYear-duplicates-debut: תמיר מוסקט (1980)
+- [ ] breakthroughYear-duplicates-debut: ציפי פליישר (1992)
+- [ ] breakthroughYear-duplicates-debut: אלכסנדר תמיר (1965)
+- [ ] breakthroughYear-duplicates-debut: גלעד הקסלמן (2006)
+- [ ] breakthroughYear-duplicates-debut: חיים פרנק אילפמן (2015)
+- [ ] breakthroughYear-duplicates-debut: מאט שוורץ (1995)
+- [ ] breakthroughYear-duplicates-debut: נילי ברוש (2009)
+- [ ] breakthroughYear-duplicates-debut: תמר הלפרין (2012)
+- [ ] breakthroughYear-duplicates-debut: זיו קוז'וקרו (2019)
+- [ ] breakthroughYear-duplicates-debut: ברוך ברלינר (2023)
+- [ ] breakthroughYear-duplicates-debut: אלון שריאל (2017)
+- [ ] breakthroughYear-duplicates-debut: WHITENO1SE (2011)
+- [ ] breakthroughYear-duplicates-debut: עדנה שטרן (2005)
+- [ ] breakthroughYear-duplicates-debut: יובל רון (2003)
+- [ ] breakthroughYear-duplicates-debut: עתר ארד (1995)
+- [ ] breakthroughYear-duplicates-debut: סלים עבוד-אשקר (2017)
+- [ ] breakthroughYear-duplicates-debut: Evgeny Kliachkin (1961)
+- [ ] breakthroughYear-duplicates-debut: באלדי אולייר (1977)
+- [ ] breakthroughYear-duplicates-debut: דניאל גורטלר (2009)
+- [ ] breakthroughYear-duplicates-debut: עמנואל ול (2015)
+- [ ] breakthroughYear-duplicates-debut: עמוס אלקנה (2026)
+- [ ] breakthroughYear-duplicates-debut: Lior Goldenberg (2025)
+- [ ] breakthroughYear-duplicates-debut: עודד זהבי (2021)
+- [ ] breakthroughYear-duplicates-debut: משה זורמן (2017)
+- [ ] breakthroughYear-duplicates-debut: אהרן עמרם (2007)
+- [ ] breakthroughYear-duplicates-debut: שמרית אור (1966)
+- [ ] breakthroughYear-duplicates-debut: רומן קרסנובסקי (1993)
+- [ ] breakthroughYear-duplicates-debut: יצחק מאיר הלפגוט (2003)
+- [ ] breakthroughYear-duplicates-debut: ארנון נאור (2008)
+- [ ] breakthroughYear-duplicates-debut: אורי פיינמן (1990)
+- [ ] breakthroughYear-duplicates-debut: פטר ורטהיימר (1973)
+- [ ] breakthroughYear-duplicates-debut: דן אלון (2004)
+- [ ] breakthroughYear-duplicates-debut: יואב אשד (2008)
+- [ ] breakthroughYear-duplicates-debut: Adam Basanta (2010)
+- [ ] breakthroughYear-duplicates-debut: שאול בוסתן (2007)
+- [ ] breakthroughYear-duplicates-debut: יצחק תוויאור (1983)
+- [ ] breakthroughYear-duplicates-debut: עקיבא תורג'מן (2009)
+- [ ] breakthroughYear-duplicates-debut: אריאל לני (2007)
+- [ ] breakthroughYear-duplicates-debut: נדב אהרוני (2021)
+- [ ] breakthroughYear-duplicates-debut: רפאל נתן (2015)
+- [ ] breakthroughYear-duplicates-debut: נטע אלוני (2026)
+- [ ] breakthroughYear-duplicates-debut: אליאס מאירי (1998)
+- [ ] breakthroughYear-duplicates-debut: תומר ג'י (2014)
+- [ ] breakthroughYear-duplicates-debut: רומן קונסמן (2001)
+- [ ] breakthroughYear-duplicates-debut: דב כרמל (2018)
+- [ ] breakthroughYear-duplicates-debut: דניאל עדני (1972)
+- [ ] breakthroughYear-duplicates-debut: דניאל עקיבא (1990)
+- [ ] breakthroughYear-duplicates-debut: גיא ארז (1992)
+- [ ] breakthroughYear-duplicates-debut: אשר סוויסה (1990)
+- [ ] breakthroughYear-duplicates-debut: יעקב ראובן (2022)
+- [ ] breakthroughYear-duplicates-debut: קושה דילז (2005)
+- [ ] breakthroughYear-duplicates-debut: מרדכי סובול (2007)
+- [ ] breakthroughYear-duplicates-debut: ערן מיטלמן (1993)
+- [ ] breakthroughYear-duplicates-debut: אביה קופלמן (2017)
+- [ ] breakthroughYear-duplicates-debut: דני ליטאי (1982)
+- [ ] breakthroughYear-duplicates-debut: יוחנן זראי (1964)
+- [ ] breakthroughYear-duplicates-debut: אפי נצר (1952)
+- [ ] breakthroughYear-duplicates-debut: דורון סלומון (2013)
+- [ ] breakthroughYear-duplicates-debut: דניאל שליט (2023)
+- [ ] breakthroughYear-duplicates-debut: בצלאל אלוני (1961)
+- [ ] breakthroughYear-duplicates-debut: אלי יפה (2006)
+- [ ] breakthroughYear-duplicates-debut: אילן וירצברג (1971)
+- [ ] breakthroughYear-duplicates-debut: דוד קריבושי (1968)
+- [ ] breakthroughYear-duplicates-debut: משה מרדכי רוזנבלום (1982)
+- [ ] breakthroughYear-duplicates-debut: חיים בנט (1970)
+- [ ] breakthroughYear-duplicates-debut: שלום רונלי-ריקליס (1988)
+- [ ] breakthroughYear-duplicates-debut: ניצן קייקוב (2005)
+- [ ] breakthroughYear-duplicates-debut: חיליק פרנק (1998)
+- [ ] breakthroughYear-duplicates-debut: סגול 59 (2000)
+- [ ] breakthroughYear-duplicates-debut: יצחק פוקס (1985)
+- [ ] breakthroughYear-duplicates-debut: הצל (1999)
+- [ ] breakthroughYear-duplicates-debut: ירון גוטפריד (2002)
+- [ ] breakthroughYear-duplicates-debut: ירוסלב יעקובוביץ' (2009)
+- [ ] breakthroughYear-duplicates-debut: עומר קליין (2007)
+- [ ] breakthroughYear-duplicates-debut: מאירה אשר (1997)
+- [ ] breakthroughYear-duplicates-debut: ערן פריאון (1996)
+- [ ] breakthroughYear-duplicates-debut: מיכאל כהן (2008)
+- [ ] breakthroughYear-duplicates-debut: ביני לנדאו (1998)
+- [ ] breakthroughYear-duplicates-debut: נעם חורב (2022)
+- [ ] breakthroughYear-duplicates-debut: לייזר לויד (1981)
+- [ ] breakthroughYear-duplicates-debut: Jan Freidlin (2022)
+- [ ] breakthroughYear-duplicates-debut: טולה בן ארי (2005)
+- [ ] breakthroughYear-duplicates-debut: Samuel Friedmann (1989)
+- [ ] breakthroughYear-duplicates-debut: אודי הרפז (2016)
+- [ ] breakthroughYear-duplicates-debut: יונתן כנען (2012)
+- [ ] breakthroughYear-duplicates-debut: מיכאל יערן (2003)
+- [ ] breakthroughYear-duplicates-debut: מיכאל זלטנרייך (2008)
+- [ ] breakthroughYear-duplicates-debut: אילן רכטמן (1993)
+- [ ] breakthroughYear-duplicates-debut: עידן אמסלם (2014)
+- [ ] breakthroughYear-duplicates-debut: אורי שוחט (1999)
+- [ ] breakthroughYear-duplicates-debut: יונתן אבישי (2002)
+- [ ] breakthroughYear-duplicates-debut: Adam del Monte (1997)
+- [ ] breakthroughYear-duplicates-debut: רות מנזה (2018)
+- [ ] breakthroughYear-duplicates-debut: רוני בר הדס (2020)
+- [ ] breakthroughYear-duplicates-debut: יושי (2021)
+- [ ] breakthroughYear-duplicates-debut: טליה עמר (2016)
+- [ ] breakthroughYear-duplicates-debut: ניזאר אלכאטר (2021)
+- [ ] breakthroughYear-duplicates-debut: גיא מינטוס (2015)
+- [ ] breakthroughYear-duplicates-debut: צ'רלי מגירה (2001)
+- [ ] breakthroughYear-duplicates-debut: רועי דורון (2021)
+- [ ] breakthroughYear-duplicates-debut: אלון אהל (2026)
+- [ ] breakthroughYear-duplicates-debut: דובי דגן (2008)
+- [ ] breakthroughYear-duplicates-debut: Amos Hoffman (2006)
+- [ ] breakthroughYear-duplicates-debut: ברנד ברגל (2008)
+- [ ] breakthroughYear-duplicates-debut: קוסמה (2000)
+- [ ] breakthroughYear-duplicates-debut: Alon Yavnai (2008)
+- [ ] breakthroughYear-duplicates-debut: סילביה גרינברג (1984)
+- [ ] breakthroughYear-duplicates-debut: רביב גזית (1988)
+- [ ] breakthroughYear-duplicates-debut: סטו הכהן (1970)
+- [ ] breakthroughYear-duplicates-debut: סמיר ג'ובראן (2003)
+- [ ] breakthroughYear-duplicates-debut: אברהם כפלי (2006)
+- [ ] breakthroughYear-duplicates-debut: Ramon Jaffé (2008)
+- [ ] breakthroughYear-duplicates-debut: דני בן ישראל (1962)
+- [ ] breakthroughYear-duplicates-debut: אייל ברקן (1998)
+- [ ] breakthroughYear-duplicates-debut: אריה שפירא (1968)
+- [ ] breakthroughYear-duplicates-debut: Arli Liberman (2002)
+- [ ] breakthroughYear-duplicates-debut: Asaf Sirkis (1989)
+- [ ] breakthroughYear-duplicates-debut: אברהם זיגמן (1965)
+- [ ] breakthroughYear-duplicates-debut: רפי קדישזון (1977)
+- [ ] breakthroughYear-duplicates-debut: יהודה שרייר (2019)
+- [ ] breakthroughYear-duplicates-debut: אמיר פרלמן (2001)
+- [ ] breakthroughYear-duplicates-debut: שמוליק בודגוב (1969)
+- [ ] breakthroughYear-duplicates-debut: יהושע אנגלמן (1988)
+- [ ] breakthroughYear-duplicates-debut: אלונה טוראל (1961)
+- [ ] breakthroughYear-duplicates-debut: חרות ישראלי (1988)
+- [ ] breakthroughYear-duplicates-debut: אבנר איתי (2011)
+- [ ] breakthroughYear-duplicates-debut: ערן כרמלי (1998)
+- [ ] breakthroughYear-duplicates-debut: דני אמיר (1987)
+- [ ] breakthroughYear-duplicates-debut: יוסף הדר (2013)
+- [ ] breakthroughYear-duplicates-debut: רואי לוי (1997)
+- [ ] breakthroughYear-duplicates-debut: אדם שפלן (2025)
+- [ ] breakthroughYear-duplicates-debut: יעל גרמן (1976)
+- [ ] breakthroughYear-duplicates-debut: אסף תלמודי (2025)
+- [ ] breakthroughYear-duplicates-debut: עמית פוזננסקי (2003)
+- [ ] breakthroughYear-duplicates-debut: ארי גורלי (2004)
+- [ ] breakthroughYear-duplicates-debut: עמי גלעד (1962)
+- [ ] breakthroughYear-duplicates-debut: אלעד קרן (1991)
+- [ ] breakthroughYear-duplicates-debut: אסתי קינן-עופרי (2008)
+- [ ] breakthroughYear-duplicates-debut: יגאל כרמל (1996)
+- [ ] breakthroughYear-duplicates-debut: Matan Cohen (1998)
+- [ ] breakthroughYear-duplicates-debut: יושי שדה (1984)
+- [ ] breakthroughYear-duplicates-debut: מיכאל שנהב (2020)
+- [ ] breakthroughYear-duplicates-debut: אורי זך (2004)
+- [ ] breakthroughYear-duplicates-debut: דניאל דור (2019)
+- [ ] breakthroughYear-duplicates-debut: אריק שחר (1974)
+- [ ] breakthroughYear-duplicates-debut: Michael Tsalka (2008)
+- [ ] breakthroughYear-duplicates-debut: חנן בר סלע (2012)
+- [ ] breakthroughYear-duplicates-debut: ראובן סרוסי (2026)
+- [ ] breakthroughYear-duplicates-debut: תייסיר אליאס (2025)
+- [ ] breakthroughYear-duplicates-debut: שלומי גולדנברג (2002)
+- [ ] breakthroughYear-duplicates-debut: נועה ברנר (2016)
+- [ ] breakthroughYear-duplicates-debut: שמעון כהן (2023)
+- [ ] breakthroughYear-duplicates-debut: גלעד חצב (2007)
+- [ ] breakthroughYear-duplicates-debut: יהודה קיסר (2000)
+- [ ] breakthroughYear-duplicates-debut: רונית שחר (1996)
+- [ ] breakthroughYear-duplicates-debut: שאזאמאט (2017)
+- [ ] breakthroughYear-duplicates-debut: פורטיסחרוף (1988)
+- [ ] breakthroughYear-duplicates-debut: דרימלודיק (1998)
+- [ ] breakthroughYear-duplicates-debut: סיסטם עאלי (2010)
+- [ ] breakthroughYear-duplicates-debut: חלב ודבש (1979)
+- [ ] breakthroughYear-duplicates-debut: אלפא-ביתא (1978)
+- [ ] breakthroughYear-duplicates-debut: מלכאש (1993)
+- [ ] breakthroughYear-duplicates-debut: דאם (1999)
+- [ ] breakthroughYear-duplicates-debut: הכל עובר חביבי (1975)
+- [ ] breakthroughYear-duplicates-debut: עדן (1996)
+- [ ] breakthroughYear-duplicates-debut: ווקה פיפל (2009)
+- [ ] breakthroughYear-duplicates-debut: סקאזי (1998)
+- [ ] breakthroughYear-duplicates-debut: פינג פונג (1999)
+- [ ] breakthroughYear-duplicates-debut: יוסלס איי.די (1994)
+- [ ] breakthroughYear-duplicates-debut: Salem (1985)
+- [ ] breakthroughYear-duplicates-debut: Vini Vici (2013)
+- [ ] breakthroughYear-duplicates-debut: להקת שירו (1993)
+- [ ] breakthroughYear-duplicates-debut: גילי וגלית (1989)
+- [ ] breakthroughYear-duplicates-debut: הבטלנים (1987)
+- [ ] breakthroughYear-duplicates-debut: חלאס (1999)
+- [ ] breakthroughYear-duplicates-debut: הצ'רצ'ילים (1965)
+- [ ] breakthroughYear-duplicates-debut: עם הספר (2004)
+- [ ] breakthroughYear-duplicates-debut: הבנות נחמה (2004)
+- [ ] breakthroughYear-duplicates-debut: דיסטורטד (1996)
+- [ ] breakthroughYear-duplicates-debut: Desert (2002)
+- [ ] breakthroughYear-duplicates-debut: Gevolt (2001)
+- [ ] breakthroughYear-duplicates-debut: הזאבות (2012)
+- [ ] breakthroughYear-duplicates-debut: להבות (1995)
+- [ ] breakthroughYear-duplicates-debut: בצפר (1998)
+- [ ] breakthroughYear-duplicates-debut: ערפל (להקה) (1997)
+- [ ] breakthroughYear-duplicates-debut: מונוטוניקס (2005)
+- [ ] breakthroughYear-duplicates-debut: בום פם (2003)
+- [ ] breakthroughYear-duplicates-debut: הדודאים (1957)
+- [ ] breakthroughYear-duplicates-debut: להקת המושב (1995)
+- [ ] breakthroughYear-duplicates-debut: היי פייב (1996)
+- [ ] breakthroughYear-duplicates-debut: הברירה הטבעית (1977)
+- [ ] breakthroughYear-duplicates-debut: Kids.il (2012)
+- [ ] breakthroughYear-duplicates-debut: ססטו סנטו (2001)
+- [ ] breakthroughYear-duplicates-debut: תמוז (להקה) (1974)
+- [ ] breakthroughYear-duplicates-debut: טרי פויזן (2003)
+- [ ] breakthroughYear-duplicates-debut: הצ'יזבטרון (1948)
+- [ ] breakthroughYear-duplicates-debut: להקת פיקוד הצפון (1954)
+- [ ] breakthroughYear-duplicates-debut: שלישיית גשר הירקון (1963)
+- [ ] breakthroughYear-duplicates-debut: Distorted Harmony (2009)
+- [ ] breakthroughYear-duplicates-debut: TheAngelcy (2011)
+- [ ] breakthroughYear-duplicates-debut: Fatum Aeternum (2006)
+- [ ] breakthroughYear-duplicates-debut: שלוש (2013)
+- [ ] breakthroughYear-duplicates-debut: ווינטר פמילי (2007)
+- [ ] breakthroughYear-duplicates-debut: סיק איירוני (2000)
+- [ ] breakthroughYear-duplicates-debut: המסך הלבן (2016)
+- [ ] breakthroughYear-duplicates-debut: טייגר לאב (2010)
+- [ ] breakthroughYear-duplicates-debut: פאד'ר אוף פיס (2024)
+- [ ] breakthroughYear-duplicates-debut: Vibe Tribe (2002)
+- [ ] breakthroughYear-duplicates-debut: דה פיידינג (2000)
+- [ ] breakthroughYear-duplicates-debut: אטרנל גריי (2001)
+- [ ] breakthroughYear-duplicates-debut: Solyma (1999)
+- [ ] breakthroughYear-duplicates-debut: ג'וריתמיקס (2026)
+- [ ] breakthroughYear-duplicates-debut: שפתיים (להקה) (1985)
+- [ ] breakthroughYear-duplicates-debut: טררם (1996)
+- [ ] breakthroughYear-duplicates-debut: האחים והאחיות (1971)
+- [ ] breakthroughYear-duplicates-debut: הנשמות הטהורות (1972)
+- [ ] breakthroughYear-duplicates-debut: Prey For Nothing (2005)
+- [ ] breakthroughYear-duplicates-debut: התרנגולים (1960)
+- [ ] breakthroughYear-duplicates-debut: החצר האחורית (2013)
+- [ ] breakthroughYear-duplicates-debut: גארדן סיטי מובמנט (2013)
+- [ ] breakthroughYear-duplicates-debut: Project RnL (2010)
+- [ ] breakthroughYear-duplicates-debut: Orpheus Blade (2008)
+- [ ] breakthroughYear-duplicates-debut: קין והבל 90210 (2007)
+- [ ] breakthroughYear-duplicates-debut: Edellom (2009)
+- [ ] breakthroughYear-duplicates-debut: להקת שלוה (2006)
+- [ ] breakthroughYear-duplicates-debut: סובו (1995)
+- [ ] breakthroughYear-duplicates-debut: אננדה שייק (2005)
+- [ ] breakthroughYear-duplicates-debut: חמסה (2000)
+- [ ] breakthroughYear-duplicates-debut: אינסיידאוט (1994)
+- [ ] breakthroughYear-duplicates-debut: אוף שימחעס (1996)
+- [ ] breakthroughYear-duplicates-debut: האחים אריאל (2017)
+- [ ] breakthroughYear-duplicates-debut: שוקי ודורית (1980)
+- [ ] breakthroughYear-duplicates-debut: השלושרים (1969)
+- [ ] breakthroughYear-duplicates-debut: אוי דיוויז'ן (2006)
+- [ ] breakthroughYear-duplicates-debut: תזמורת קול ישראל בערבית (1984)
+- [ ] breakthroughYear-duplicates-debut: 951 (1999)
+- [ ] breakthroughYear-duplicates-debut: מינואט (להקה) (1988)
+- [ ] breakthroughYear-duplicates-debut: עוזי נבון ומכרים (2007)
+- [ ] breakthroughYear-duplicates-debut: העבריות (2020)
+- [ ] breakthroughYear-duplicates-debut: התעויוט (1991)
+- [ ] breakthroughYear-duplicates-debut: נערי רפול (להקה) (1999)
+- [ ] breakthroughYear-duplicates-debut: השכנים של צ'יץ' (1991)
+- [ ] breakthroughYear-duplicates-debut: להקת מגפיים (1978)
+- [ ] breakthroughYear-duplicates-debut: ששת (1977)
+- [ ] breakthroughYear-duplicates-debut: פנצ'ר (להקה) (1987)
+- [ ] breakthroughYear-duplicates-debut: סולסטיס קויל (2001)
+- [ ] breakthroughYear-duplicates-debut: איזי והפתולוגים (1988)
+- [ ] breakthroughYear-duplicates-debut: ברוש (להקה) (1978)
+- [ ] breakthroughYear-duplicates-debut: DXM (1984)
+- [ ] breakthroughYear-duplicates-debut: הופה היי (1985)
+- [ ] breakthroughYear-duplicates-debut: הפונדקאים (1976)
+- [ ] breakthroughYear-duplicates-debut: יובל רון ואזרחי העתיד (2009)
+- [ ] breakthroughYear-duplicates-debut: כל החתיכים אצלי (2007)
+- [ ] breakthroughYear-duplicates-debut: מארש דונדורמה (2005)
+- [ ] breakthroughYear-duplicates-debut: פאות קדושות (2004)
+- [ ] breakthroughYear-duplicates-debut: פוריין אפייר (1988)
+- [ ] breakthroughYear-duplicates-debut: פיוצ'ר פרופסי (1996)
+- [ ] breakthroughYear-duplicates-debut: שליחי הבלוז (1993)
+- [ ] breakthroughYear-duplicates-debut: שלישיית הופל'ה (1997)
+- [ ] breakthroughYear-duplicates-debut: תום והסיפור האמיתי (1985)
+- [ ] breakthroughYear-duplicates-debut: IS הופ (1994)
+- [ ] breakthroughYear-duplicates-debut: M.E.S.S (2003)
+- [ ] breakthroughYear-duplicates-debut: לימוזינה אקספרס (2006)
+- [ ] breakthroughYear-duplicates-debut: בוא לבר (2005)
+- [ ] breakthroughYear-duplicates-debut: נאג' חמאדי (2005)
+- [ ] breakthroughYear-duplicates-debut: פלסטיק ונוס (1990)
+- [ ] breakthroughYear-duplicates-debut: דורלקס סדלקס (1983)
+- [ ] breakthroughYear-duplicates-debut: פרודוקס (2003)
+- [ ] breakthroughYear-duplicates-debut: נכי נאצה (1990)
+- [ ] breakthroughYear-duplicates-debut: מלכה באיה (1997)
+- [ ] breakthroughYear-duplicates-debut: לא כוחות (2013)
+- [ ] breakthroughYear-duplicates-debut: אנרגיה חולנית (2000)
+- [ ] breakthroughYear-duplicates-debut: לבד בעדר (2011)
+- [ ] breakthroughYear-duplicates-debut: שלישיית שריד (1960)
+- [ ] breakthroughYear-duplicates-debut: סימפלי צפת (2001)
+- [ ] breakthroughYear-duplicates-debut: Tatran (2011)
+- [ ] breakthroughYear-duplicates-debut: אשירה (2006)
+- [ ] breakthroughYear-duplicates-debut: סלסה גרוב (1999)
+- [ ] breakthroughYear-duplicates-debut: אטלנטיקה (2006)
+- [ ] breakthroughYear-duplicates-debut: קרפ (1986)
+- [ ] breakthroughYear-duplicates-debut: Salvation (1999)
+- [ ] breakthroughYear-duplicates-debut: להקת חופים (1984)
+- [ ] breakthroughYear-duplicates-debut: שיר אדמה (2008)
+- [ ] breakthroughYear-duplicates-debut: ליילי (2017)
+- [ ] breakthroughYear-duplicates-debut: הכוכב הלבן (2001)
+- [ ] breakthroughYear-duplicates-debut: אילן ואילנית (1965)
+- [ ] breakthroughYear-duplicates-debut: חבורת בימות (1972)
+- [ ] breakthroughYear-duplicates-debut: פנטגון (2010)
+- [ ] breakthroughYear-duplicates-debut: Tiny Fingers (2008)
+- [ ] breakthroughYear-duplicates-debut: זבולון דאב סיסטם (2006)
+- [ ] breakthroughYear-duplicates-debut: בנות יעקב (1995)
+- [ ] breakthroughYear-duplicates-debut: לוס כפרוס (2004)
+- [ ] breakthroughYear-duplicates-debut: להקת קולן (1982)
+- [ ] breakthroughYear-duplicates-debut: שובבי ציון (1970)
+- [ ] breakthroughYear-duplicates-debut: המושבה (להקה) (2005)
+- [ ] breakthroughYear-duplicates-debut: שלישיית יובל (1988)
+- [ ] breakthroughYear-duplicates-debut: סימפוזיון (להקה) (2000)
+- [ ] breakthroughYear-duplicates-debut: החמציצים (1966)
+- [ ] breakthroughYear-duplicates-debut: בנות חוה (1969)
+- [ ] breakthroughYear-duplicates-debut: צמד ראות (2000)
+- [ ] breakthroughYear-duplicates-debut: אנסמבל שירה חדשה לירושלים (2006)
+- [ ] breakthroughYear-duplicates-debut: בצל ירוק 80 (1980)
+- [ ] breakthroughYear-duplicates-debut: להקת חינוך מיוחד (1994)
+- [ ] breakthroughYear-duplicates-debut: צעירי תל אביב (1984)
+- [ ] breakthroughYear-duplicates-debut: הסיקסטיז (1984)
+- [ ] breakthroughYear-duplicates-debut: המהפכה המיותרת (2019)
+- [ ] breakthroughYear-duplicates-debut: צלילי הכרם (1972)
+- [ ] breakthroughYear-duplicates-debut: Bartholomeus Night (2000)
+- [ ] breakthroughYear-duplicates-debut: כחול (להקה) (1995)
+- [ ] breakthroughYear-duplicates-debut: האחים פורטיס (1994)
+- [ ] breakthroughYear-duplicates-debut: משפחת אלייב (2007)
+- [ ] breakthroughYear-duplicates-debut: איזולירבנד (1982)
+- [ ] breakthroughYear-duplicates-debut: כיף התקווה הטובה (1970)
+- [ ] breakthroughYear-duplicates-debut: קטב מרירי (להקה) (2008)
+- [ ] breakthroughYear-duplicates-debut: להקת אולטראס (2005)
+- [ ] breakthroughYear-duplicates-debut: לא אכפת להם (1992)
+- [ ] breakthroughYear-duplicates-debut: כלא שש (הרכב) (1998)
+- [ ] breakthroughYear-duplicates-debut: שלישיית אדלר (1963)
+- [ ] breakthroughYear-duplicates-debut: חובבי ציון (להקה) (2006)
+- [ ] breakthroughYear-duplicates-debut: ביט69 (2004)
+- [ ] breakthroughYear-duplicates-debut: משפחת ואך (2005)
+- [ ] breakthroughYear-duplicates-debut: מריונטה סול (2003)
+- [ ] breakthroughYear-duplicates-debut: צליל מכוון (1979)
+- [ ] breakthroughYear-duplicates-debut: הפרויקט של רביבו (2012)
+- [ ] breakthroughYear-duplicates-debut: הטוב הרע והנערה (1972)
+- [ ] breakthroughYear-duplicates-debut: הקולקטיב (2008)
+- [ ] breakthroughYear-duplicates-debut: אופירה ורוית יוספי (1989)
+- [ ] breakthroughYear-duplicates-debut: 21 (להקה) (2000)
+- [ ] breakthroughYear-duplicates-debut: בנות פסיה (1995)
+- [ ] breakthroughYear-duplicates-debut: שלום הציבור (להקה) (1984)
+- [ ] breakthroughYear-duplicates-debut: להקת חיל התותחנים (1969)
+- [ ] breakthroughYear-duplicates-debut: שלישיית צבע טרי (1972)
+- [ ] breakthroughYear-duplicates-debut: בינת אל פאנק (2012)
+- [ ] breakthroughYear-duplicates-debut: Substance for God (1994)
+- [ ] breakthroughYear-duplicates-debut: אורות (2016)
+- [ ] breakthroughYear-duplicates-debut: הלם תרבות (2016)
+- [ ] breakthroughYear-duplicates-debut: יאנג בויז (2017)
+- [ ] breakthroughYear-duplicates-debut: Anna RF (2011)
+- [ ] breakthroughYear-duplicates-debut: צלילי העוד (1974)
+- [ ] breakthroughYear-duplicates-debut: רבע לאפריקה (2014)
+- [ ] breakthroughYear-duplicates-debut: כשניקו תתחיל לדבר (1992)
+- [ ] breakthroughYear-duplicates-debut: האירוסים - זמרי בית אלפא (1977)
+- [ ] breakthroughYear-duplicates-debut: Tomorrow's Rain (2011)
+- [ ] breakthroughYear-duplicates-debut: זירהטרון (2004)
+- [ ] breakthroughYear-duplicates-debut: הספנתעיר (1989)
+- [ ] breakthroughYear-duplicates-debut: אלגנט (1989)
+- [ ] breakthroughYear-duplicates-debut: Winterhorde (1999)
+- [ ] breakthroughYear-duplicates-debut: ספוטניק היי פיי (2014)
+- [ ] breakthroughYear-duplicates-debut: סיאם (1983)
+- [ ] breakthroughYear-duplicates-debut: טברנק (2017)
+- [ ] breakthroughYear-duplicates-debut: גרונדיק וסלאבה (1994)
+- [ ] breakthroughYear-duplicates-debut: חשש אמיתי (2014)
+- [ ] breakthroughYear-duplicates-debut: משיכת יתר (להקה) (1987)
+- [ ] breakthroughYear-duplicates-debut: ילד פעם (2008)
+- [ ] breakthroughYear-duplicates-debut: מורה (2003)
+- [ ] breakthroughYear-duplicates-debut: רביעיית חיל האוויר (1975)
+- [ ] breakthroughYear-duplicates-debut: להקת חיל האוויר (1974)
+- [ ] breakthroughYear-duplicates-debut: צוות הווי חיל האוויר (1970)
+- [ ] breakthroughYear-duplicates-debut: צוות בידור חיל האוויר (1973)
+- [ ] breakthroughYear-duplicates-debut: להקת הפסגות (1973)
+- [ ] breakthroughYear-duplicates-debut: פישנזון (1994)
+- [ ] breakthroughYear-duplicates-debut: קרוזנשטרן ופארוחוד (2002)
+- [ ] breakthroughYear-duplicates-debut: זמרי א-קפלה ירושלים (1989)
+- [ ] breakthroughYear-duplicates-debut: אנסמבל סולני תל אביב (2001)
+- [ ] breakthroughYear-duplicates-debut: אנסמבל קולות נשים נעמה (1989)
+- [ ] breakthroughYear-duplicates-debut: שלושתנו (2016)
+- [ ] breakthroughYear-duplicates-debut: שמיניית ווקאל (1985)
+- [ ] breakthroughYear-duplicates-debut: Accademia Daniel (2009)
+- [ ] breakthroughYear-duplicates-debut: בוראן (2000)
+- [ ] breakthroughYear-duplicates-debut: אנסמבל קווינטה וחצי (2006)
+- [ ] breakthroughYear-duplicates-debut: הבוסתנאים (2002)
+- [ ] breakthroughYear-duplicates-debut: חסרים (1996)
+- [ ] breakthroughYear-duplicates-debut: ויתרתי (2011)
+- [ ] breakthroughYear-duplicates-debut: אנסמבל טרמולו (2015)
+- [ ] breakthroughYear-duplicates-debut: הפטריקים (2020)
+- [ ] breakthroughYear-duplicates-debut: ניגון ירושלמי (2008)
+- [ ] breakthroughYear-duplicates-debut: אקוט (2011)
+- [ ] breakthroughYear-duplicates-debut: הלב והמעיין (2009)
+- [ ] breakthroughYear-duplicates-debut: מולטיפיאנו (2011)
+- [ ] breakthroughYear-duplicates-debut: אנסמבל ליריקה (1992)
+- [ ] breakthroughYear-duplicates-debut: אחד חלקי אחד (2006)
+- [ ] breakthroughYear-duplicates-debut: אלף.דלת (2014)
+- [ ] breakthroughYear-duplicates-debut: לוסיל קרו (2012)
+
+### breakthroughYear-pre-1948 (20)
+
+- [ ] breakthroughYear-pre-1948: יפה ירקוני (1933)
+- [ ] breakthroughYear-pre-1948: לייבו לוין (1933)
+- [ ] breakthroughYear-pre-1948: מישה אלכסנדרוביץ (1923)
+- [ ] breakthroughYear-pre-1948: סולימאן הגדול (1933)
+- [ ] breakthroughYear-pre-1948: שרה יערי (1941)
+- [ ] breakthroughYear-pre-1948: לוסי ארנון (1947)
+- [ ] breakthroughYear-pre-1948: יוסף שפינדל (1934)
+- [ ] breakthroughYear-pre-1948: מקס ברוד (1906)
+- [ ] breakthroughYear-pre-1948: אוטו קלמפרר (1906)
+- [ ] breakthroughYear-pre-1948: בן-ציון אורגד (1946)
+- [ ] breakthroughYear-pre-1948: סשה ארגוב (1935)
+- [ ] breakthroughYear-pre-1948: משה וילנסקי (1932)
+- [ ] breakthroughYear-pre-1948: דובי זלצר (1945)
+- [ ] breakthroughYear-pre-1948: עמנואל עמירן (1928)
+- [ ] breakthroughYear-pre-1948: ראובן ירון (1947)
+- [ ] breakthroughYear-pre-1948: דוד זהבי (1925)
+- [ ] breakthroughYear-pre-1948: מרדכי רכטמן (1941)
+- [ ] breakthroughYear-pre-1948: פאול קוסלה (1935)
+- [ ] breakthroughYear-pre-1948: אריה לבנון (1947)
+- [ ] breakthroughYear-pre-1948: רות מוריץ (1945)
 
 ### debutYear-before-birth (2)
 
@@ -5822,1056 +5804,1058 @@ Generated for 1000 artists.
 
 ### validate-warns (112)
 
-- [ ] validate-warns: no latin-script alias for משה קליין
-- [ ] validate-warns: no latin-script alias for דוד ד'אור
-- [ ] validate-warns: no latin-script alias for שי להב
-- [ ] validate-warns: no latin-script alias for אלי לוזון
-- [ ] validate-warns: no latin-script alias for גאיה (להקה)
-- [ ] validate-warns: no latin-script alias for חובבי ציון (להקה)
-- [ ] validate-warns: no latin-script alias for אוריאל שלומי
-- [ ] validate-warns: no latin-script alias for נתנאל ששון
-- [ ] validate-warns: no latin-script alias for קטב מרירי (להקה)
-- [ ] validate-warns: no latin-script alias for גבריאל באטלר
-- [ ] validate-warns: no latin-script alias for סיוון (זמרת)
-- [ ] validate-warns: no latin-script alias for כשניקו תתחיל לדבר
-- [ ] validate-warns: no latin-script alias for התקווה 6
-- [ ] validate-warns: no latin-script alias for עמית ליסטוונד
 - [ ] validate-warns: no latin-script alias for שאנן סטריט
-- [ ] validate-warns: no latin-script alias for ויתרתי
-- [ ] validate-warns: no latin-script alias for רגב הוד
-- [ ] validate-warns: no latin-script alias for פאנקנשטיין
-- [ ] validate-warns: no latin-script alias for כלא שש (הרכב)
-- [ ] validate-warns: no latin-script alias for נעמה כהן
-- [ ] validate-warns: no latin-script alias for כל החתיכים אצלי
-- [ ] validate-warns: no latin-script alias for דורית שדה
-- [ ] validate-warns: no latin-script alias for הזאבות
-- [ ] validate-warns: no latin-script alias for יציאת חירום
-- [ ] validate-warns: no latin-script alias for שיקו חייק
-- [ ] validate-warns: no latin-script alias for צעירי תל אביב
-- [ ] validate-warns: no latin-script alias for משה הלל
-- [ ] validate-warns: no latin-script alias for חזי פניאן
-- [ ] validate-warns: no latin-script alias for שי 360
-- [ ] validate-warns: no latin-script alias for חיים אוליאל
-- [ ] validate-warns: no latin-script alias for רמי דנוך
-- [ ] validate-warns: no latin-script alias for שימי רון
-- [ ] validate-warns: no latin-script alias for ניגון ירושלמי
-- [ ] validate-warns: no latin-script alias for סגול 59
-- [ ] validate-warns: no latin-script alias for התעויוט
-- [ ] validate-warns: no latin-script alias for 951
-- [ ] validate-warns: duplicate latin name Avishai Cohen
-- [ ] validate-warns: no latin-script alias for האירוסים - זמרי בית אלפא
-- [ ] validate-warns: no latin-script alias for כפיר בן ליש
-- [ ] validate-warns: no latin-script alias for ניצה טרמין
-- [ ] validate-warns: no latin-script alias for להקת מגפיים
-- [ ] validate-warns: no latin-script alias for שוקולד מנטה מסטיק
-- [ ] validate-warns: no latin-script alias for אטלנטיקה
-- [ ] validate-warns: no latin-script alias for 21 (להקה)
-- [ ] validate-warns: no latin-script alias for לונא אבו נסאר
-- [ ] validate-warns: no latin-script alias for שליחי הבלוז
-- [ ] validate-warns: no latin-script alias for קובי אפללו
-- [ ] validate-warns: no latin-script alias for נערי רפול (להקה)
-- [ ] validate-warns: no latin-script alias for אחד חלקי אחד
-- [ ] validate-warns: no latin-script alias for צלילי הכרם
-- [ ] validate-warns: no latin-script alias for בוא לבר
-- [ ] validate-warns: no latin-script alias for שמואל פרדניק
-- [ ] validate-warns: no latin-script alias for סתיו שמש
-- [ ] validate-warns: no latin-script alias for שלישיית הופל'ה
-- [ ] validate-warns: no latin-script alias for אבי בניון
 - [ ] validate-warns: no latin-script alias for רובי חן
-- [ ] validate-warns: no latin-script alias for שלישיית המעפיל
-- [ ] validate-warns: no latin-script alias for מאיר אדלר
-- [ ] validate-warns: no latin-script alias for בועז מעודה
-- [ ] validate-warns: no latin-script alias for המושבה (להקה)
-- [ ] validate-warns: no latin-script alias for יואל לרנר
-- [ ] validate-warns: no latin-script alias for זבולון דאב סיסטם
-- [ ] validate-warns: no latin-script alias for אלף.דלת
-- [ ] validate-warns: no latin-script alias for כיף התקווה הטובה
-- [ ] validate-warns: no latin-script alias for שלישיית אדלר
-- [ ] validate-warns: no latin-script alias for שרון הולצמן
-- [ ] validate-warns: no latin-script alias for נכי נאצה
-- [ ] validate-warns: no latin-script alias for להקת חופים
-- [ ] validate-warns: no latin-script alias for השכנים של צ'יץ'
-- [ ] validate-warns: no latin-script alias for הטוב הרע והנערה
-- [ ] validate-warns: no latin-script alias for מושיקו מור
-- [ ] validate-warns: no latin-script alias for ברוש (להקה)
-- [ ] validate-warns: no latin-script alias for גילי מסמי
-- [ ] validate-warns: no latin-script alias for יהוא ירון
-- [ ] validate-warns: no latin-script alias for קין והבל 90210
-- [ ] validate-warns: no latin-script alias for עדן פרטוש
-- [ ] validate-warns: no latin-script alias for להקת פרה אדומה
-- [ ] validate-warns: no latin-script alias for דורלקס סדלקס
-- [ ] validate-warns: no latin-script alias for ניצן-חן רזאל
-- [ ] validate-warns: no latin-script alias for אלמנה שחורה (להקה)
-- [ ] validate-warns: no latin-script alias for בלאגן
-- [ ] validate-warns: no latin-script alias for יניב ד'אור
-- [ ] validate-warns: no latin-script alias for הבוסתנאים
-- [ ] validate-warns: no latin-script alias for איציק שמלי
+- [ ] validate-warns: no latin-script alias for שיקו חייק
+- [ ] validate-warns: no latin-script alias for דוד ד'אור
 - [ ] validate-warns: no latin-script alias for אבי אילסון
-- [ ] validate-warns: no latin-script alias for חמי רודנר
+- [ ] validate-warns: no latin-script alias for שרון הולצמן
+- [ ] validate-warns: no latin-script alias for חזי פניאן
+- [ ] validate-warns: no latin-script alias for שי להב
+- [ ] validate-warns: no latin-script alias for איציק שמלי
+- [ ] validate-warns: no latin-script alias for האירוסים - זמרי בית אלפא
+- [ ] validate-warns: no latin-script alias for קין והבל 90210
+- [ ] validate-warns: no latin-script alias for משה הלל
+- [ ] validate-warns: no latin-script alias for שליחי הבלוז
+- [ ] validate-warns: no latin-script alias for גבריאל באטלר
+- [ ] validate-warns: no latin-script alias for בוא לבר
+- [ ] validate-warns: no latin-script alias for כפיר בן ליש
+- [ ] validate-warns: no latin-script alias for גאיה (להקה)
 - [ ] validate-warns: no latin-script alias for להקת חיל התותחנים
+- [ ] validate-warns: no latin-script alias for גילי מסמי
+- [ ] validate-warns: no latin-script alias for התעויוט
+- [ ] validate-warns: no latin-script alias for יואל לרנר
+- [ ] validate-warns: no latin-script alias for ניצה טרמין
+- [ ] validate-warns: no latin-script alias for הבוסתנאים
+- [ ] validate-warns: no latin-script alias for סגול 59
+- [ ] validate-warns: no latin-script alias for נתנאל ששון
+- [ ] validate-warns: no latin-script alias for דורית שדה
+- [ ] validate-warns: no latin-script alias for יניב ד'אור
+- [ ] validate-warns: no latin-script alias for 21 (להקה)
 - [ ] validate-warns: no latin-script alias for זאב נחמה
-- [ ] validate-warns: no latin-script alias for אהרון ירימי
+- [ ] validate-warns: no latin-script alias for עמית ליסטוונד
+- [ ] validate-warns: no latin-script alias for אחד חלקי אחד
+- [ ] validate-warns: no latin-script alias for שלישיית הופל'ה
+- [ ] validate-warns: no latin-script alias for זבולון דאב סיסטם
+- [ ] validate-warns: no latin-script alias for המושבה (להקה)
 - [ ] validate-warns: no latin-script alias for מלכה באיה
-- [ ] validate-warns: no latin-script alias for שלום הציבור (להקה)
-- [ ] validate-warns: no latin-script alias for שמוליק צ'יזיק
-- [ ] validate-warns: no latin-script alias for מלי ברונשטיין
-- [ ] validate-warns: no latin-script alias for אייל קופמן
-- [ ] validate-warns: no latin-script alias for שלישיית התאומים
+- [ ] validate-warns: no latin-script alias for ברוש (להקה)
+- [ ] validate-warns: no latin-script alias for סיוון (זמרת)
+- [ ] validate-warns: no latin-script alias for התקווה 6
+- [ ] validate-warns: no latin-script alias for שלישיית המעפיל
+- [ ] validate-warns: no latin-script alias for משפחת ואך
+- [ ] validate-warns: no latin-script alias for שוקולד מנטה מסטיק
+- [ ] validate-warns: no latin-script alias for אבי בניון
+- [ ] validate-warns: duplicate latin name Avishai Cohen
+- [ ] validate-warns: no latin-script alias for להקת מגפיים
+- [ ] validate-warns: no latin-script alias for אלמנה שחורה (להקה)
+- [ ] validate-warns: no latin-script alias for חובבי ציון (להקה)
+- [ ] validate-warns: no latin-script alias for אלי לוזון
+- [ ] validate-warns: no latin-script alias for נכי נאצה
 - [ ] validate-warns: no latin-script alias for הפונדקאים
+- [ ] validate-warns: no latin-script alias for להקת חופים
+- [ ] validate-warns: no latin-script alias for שמוליק צ'יזיק
+- [ ] validate-warns: no latin-script alias for בלאגן
+- [ ] validate-warns: no latin-script alias for הזאבות
+- [ ] validate-warns: no latin-script alias for ניצן-חן רזאל
+- [ ] validate-warns: no latin-script alias for רמי דנוך
+- [ ] validate-warns: no latin-script alias for לונא אבו נסאר
+- [ ] validate-warns: no latin-script alias for מלי ברונשטיין
+- [ ] validate-warns: no latin-script alias for כשניקו תתחיל לדבר
+- [ ] validate-warns: no latin-script alias for עדן פרטוש
+- [ ] validate-warns: no latin-script alias for שלום הציבור (להקה)
+- [ ] validate-warns: no latin-script alias for 951
+- [ ] validate-warns: no latin-script alias for דורלקס סדלקס
+- [ ] validate-warns: no latin-script alias for אייל קופמן
+- [ ] validate-warns: no latin-script alias for נערי רפול (להקה)
+- [ ] validate-warns: no latin-script alias for כל החתיכים אצלי
+- [ ] validate-warns: no latin-script alias for קובי אפללו
+- [ ] validate-warns: no latin-script alias for קטב מרירי (להקה)
+- [ ] validate-warns: no latin-script alias for אוריאל שלומי
+- [ ] validate-warns: no latin-script alias for מושיקו מור
+- [ ] validate-warns: no latin-script alias for שמואל פרדניק
+- [ ] validate-warns: no latin-script alias for ויתרתי
+- [ ] validate-warns: no latin-script alias for שלישיית התאומים
+- [ ] validate-warns: no latin-script alias for השכנים של צ'יץ'
+- [ ] validate-warns: no latin-script alias for להקת פרה אדומה
+- [ ] validate-warns: no latin-script alias for ניגון ירושלמי
+- [ ] validate-warns: no latin-script alias for אטלנטיקה
+- [ ] validate-warns: no latin-script alias for שי 360
+- [ ] validate-warns: no latin-script alias for פאנקנשטיין
+- [ ] validate-warns: no latin-script alias for נעמה כהן
+- [ ] validate-warns: no latin-script alias for שימי רון
+- [ ] validate-warns: no latin-script alias for לא אכפת להם
+- [ ] validate-warns: no latin-script alias for שלישיית אדלר
+- [ ] validate-warns: no latin-script alias for אלף.דלת
+- [ ] validate-warns: no latin-script alias for חיים אוליאל
+- [ ] validate-warns: no latin-script alias for חמי רודנר
+- [ ] validate-warns: no latin-script alias for כלא שש (הרכב)
+- [ ] validate-warns: no latin-script alias for צלילי הכרם
+- [ ] validate-warns: no latin-script alias for הטוב הרע והנערה
+- [ ] validate-warns: no latin-script alias for יציאת חירום
+- [ ] validate-warns: no latin-script alias for בועז מעודה
+- [ ] validate-warns: no latin-script alias for יהוא ירון
+- [ ] validate-warns: no latin-script alias for משה קליין
+- [ ] validate-warns: no latin-script alias for מאיר אדלר
+- [ ] validate-warns: no latin-script alias for סתיו שמש
+- [ ] validate-warns: no latin-script alias for צעירי תל אביב
+- [ ] validate-warns: no latin-script alias for כיף התקווה הטובה
+- [ ] validate-warns: no latin-script alias for אהרון ירימי
+- [ ] validate-warns: no latin-script alias for משפחת אלייב
 - [ ] validate-warns: no latin-script alias for מוג'דה
 - [ ] validate-warns: no latin-script alias for פאדי כיוף
 - [ ] validate-warns: no latin-script alias for לסלו רוט
 - [ ] validate-warns: no latin-script alias for חלוצי החלל (מוזיקה)
 - [ ] validate-warns: no latin-script alias for אסף לביא צנעני
 - [ ] validate-warns: no latin-script alias for משה כהן (זמר)
+- [ ] validate-warns: no latin-script alias for רגב הוד
 - [ ] validate-warns: no latin-script alias for דנידין
 - [ ] validate-warns: no latin-script alias for ירון כפכפי
-- [ ] validate-warns: no latin-script alias for משפחת ואך
 - [ ] validate-warns: no latin-script alias for דניאל בן חיים
-- [ ] validate-warns: no latin-script alias for משפחת אלייב
 - [ ] validate-warns: no latin-script alias for השובלים
 - [ ] validate-warns: no latin-script alias for מאיר הרניק
 - [ ] validate-warns: no latin-script alias for לירן טל
-- [ ] validate-warns: no latin-script alias for לא אכפת להם
 - [ ] validate-warns: no latin-script alias for שאטגאנז
 
 ## All artists
 
 | id | nameHe | debut | breakthrough | type | gender | genre | tier | region |
 |---|--------|-------|--------------|------|--------|-------|------|--------|
-| avi-avital | אבי אביטל | 2012 | 2012 | solo/1 | male | other | 242 | south |
-| ethnix | אתניקס | 1984 | 1984 | band/0 | mixed | rock | 49 | tel-aviv-area |
-| shuki-salomon | שוקי סלומון | 2022 | 2022 | solo/1 | male | other | 641 | center |
-| jaroslav-jakubovic | ירוסלב יעקובוביץ' | 2009 | 2009 | solo/1 | male | jazz-soul | 628 | center |
-| lilia | ליליה | 2019 | 2019 | solo/1 | female | other | 937 | center |
-| kobi-oshrat | קובי אשרת | 1962 | 1962 | solo/1 | male | other | 317 | center |
-| nissim-menachem | ניסים מנחם | 1960 | 1960 | solo/1 | male | other | 515 | center |
-| noa-bellhasen | נועה בלחסן | 2010 | 2010 | solo/1 | female | other | 961 | center |
-| miriam-avigal | מרים אביגל | 1955 | 1955 | solo/1 | female | folk-israeli | 915 | tel-aviv-area |
-| uri-fineman | אורי פיינמן | 1990 | 1990 | solo/1 | male | rock | 519 | tel-aviv-area |
-| tal-sondak | טל סונדק | 2000 | 2000 | solo/1 | male | pop | 281 | tel-aviv-area |
-| jackie-maika | ג'קי מייקה | 1979 | 1979 | solo/1 | male | other | 785 | center |
-| sarid-trio | שלישיית שריד | 1960 | 1960 | band/0 | mixed | folk-israeli | 959 | center |
-| avi-belleli | אבי בללי | 1981 | 1981 | solo/1 | male | rock | 179 | tel-aviv-area |
-| habanot-nechama | הבנות נחמה | 2004 | 2004 | band/0 | female | folk-israeli | 126 | center |
-| naarot-reines | נערות ריינס | 2004 | 2009 | band/0 | mixed | rock | 801 | center |
-| theangelcy | TheAngelcy | 2011 | 2011 | band/0 | mixed | jazz-soul | 147 | center |
-| israela-krovoshey | ישראלה קריבושה | 1971 | 1971 | solo/1 | female | pop | 808 | center |
-| the-churchills | הצ'רצ'ילים | 1965 | 1965 | band/0 | mixed | other | 131 | center |
-| avihu-shabat | אביהו שבת | 2009 | 2009 | solo/1 | male | pop | 216 | center |
-| rotem-cohen | רותם כהן | 2002 | 2002 | solo/1 | male | folk-israeli | 170 | center |
-| liad-meir | ליעד מאיר | 2018 | 2018 | solo/1 | male | other | 149 | center |
-| gilad-potolsky | גלעד פוטולסקי | 1984 | 1984 | solo/1 | male | other | 883 | center |
-| -63 | משה קליין | 2015 | 2015 | solo/1 | male | religious-pop | 469 | center |
-| shimon-gershon | שמעון גרשון | 2010 | 2010 | solo/1 | male | pop | 373 | tel-aviv-area |
-| marsh-dondurma | מארש דונדורמה | 2005 | 2005 | band/0 | mixed | jazz-soul | 670 | center |
-| emil-zrihan | אמיל זריהן | 1986 | 1986 | solo/1 | male | other | 723 | center |
-| sharona-aron | שרונה אהרון | 1955 | 1955 | solo/1 | female | other | 971 | tel-aviv-area |
-| shira-margalit | שירה מרגלית | 2013 | 2013 | solo/1 | female | other | 415 | center |
-| danny-granott | דני גרנות | 1969 | 1969 | solo/1 | male | other | 851 | center |
-| cheikh-mwijo | שייך מואיז'ו | 1962 | 1962 | solo/1 | male | other | 434 | center |
-| alona-daniel | אלונה דניאל | 1990 | 1990 | solo/1 | female | rock | 525 | center |
-| tamir-muskat | תמיר מוסקט | 1980 | 1980 | solo/1 | male | rock | 259 | center |
-| guy-gerber | גיא גרבר | 2002 | 2002 | solo/1 | male | electronic | 327 | tel-aviv-area |
-| david-d-or | דוד ד'אור | 1985 | 1985 | solo/1 | male | folk-israeli | 38 | tel-aviv-area |
-| ori-ben-ari | אורי בן ארי | 2017 | 2017 | solo/1 | male | pop | 252 | center |
-| effi-netzer | אפי נצר | 1952 | 1952 | solo/1 | male | other | 213 | center |
-| roy-doron | רועי דורון | 2021 | 2021 | solo/1 | male | other | 675 | tel-aviv-area |
-| asaf-avidan | אסף אבידן | 2002 | 2002 | solo/1 | male | folk-israeli | 2 | jerusalem |
-| shuki-dorit | שוקי ודורית | 1980 | 1980 | band/0 | female | other | 776 | center |
-| inbal-raz | ענבל רז | 2018 | 2018 | solo/1 | female | other | 551 | center |
-| yaron-gottfried | ירון גוטפריד | 2002 | 2002 | solo/1 | male | other | 797 | jerusalem |
-| shalva-band | להקת שלוה | 2006 | 2006 | band/0 | mixed | other | 558 | center |
-| maya-dadon | מאיה דדון | 2022 | 2022 | solo/1 | female | other | 332 | center |
-| tamouz | תמוז (להקה) | 1974 | 1974 | band/0 | mixed | rock | 107 | center |
-| avigail-roz | אביגייל רוז | 2008 | 2008 | solo/1 | female | other | 683 | center |
-| rachel-yaron | רחל ירון | 2014 | 2014 | solo/1 | female | rock | 544 | tel-aviv-area |
-| elam-rotem | עילם רותם | 2008 | 2008 | solo/1 | male | other | 504 | center |
-| the-ariel-brothers | האחים אריאל | 2017 | 2017 | solo/1 | male | other | 448 | center |
-| reuven-erez | ראובן ארז | 1995 | 1995 | solo/1 | male | other | 951 | tel-aviv-area |
-| eli-jaffe | אלי יפה | 2006 | 2006 | solo/1 | male | jazz-soul | 697 | jerusalem |
-| yishay-swissa | ישי סוויסה | 2023 | 2023 | solo/1 | male | hiphop | 629 | tel-aviv-area |
-| noa-faran | נועה פארן | 1997 | 1997 | solo/1 | female | hiphop | 536 | center |
-| avi-mesika | אבי מסיקה | 2004 | 2004 | solo/1 | male | hiphop | 297 | tel-aviv-area |
-| yoav-itzhak | יואב יצחק (זמר) | 1990 | 1990 | solo/1 | male | mizrahi | 239 | center |
-| monica-sex | מוניקה סקס | 1993 | 1993 | band/0 | mixed | rock | 353 | tel-aviv-area |
-| -19 | שי להב | 2004 | 2004 | solo/1 | male | other | 636 | center |
-| shlomi-shaban | שלומי שבן | 1998 | 1998 | solo/1 | male | rock | 687 | tel-aviv-area |
-| -26 | אלי לוזון | 1979 | 1979 | solo/1 | male | mizrahi | 375 | center |
-| ariel-horowitz | אריאל הורוביץ | 1998 | 1998 | solo/1 | male | rock | 84 | center |
-| omer-meir-wellber | עומר מאיר ולבר | 2017 | 2017 | solo/1 | male | other | 404 | south |
-| adi-ulmansky | עדי אולמנסקי | 2007 | 2007 | solo/1 | female | hiphop | 805 | jerusalem |
-| kobi-peretz | קובי פרץ | 1992 | 1992 | solo/1 | male | mizrahi | 614 | tel-aviv-area |
-| einav-jackson-cohen | עינב ג'קסון כהן | 2011 | 2011 | solo/1 | female | other | 707 | tel-aviv-area |
-| tamir-gal | תמיר גל | 1995 | 1995 | solo/1 | male | mizrahi | 201 | jerusalem |
-| binyamin-landau | ביני לנדאו | 1998 | 1998 | solo/1 | male | religious-pop | 446 | center |
-| aliza-kashi | עליזה קשי | 1955 | 1955 | solo/1 | female | other | 757 | tel-aviv-area |
-| sun-tailor | ארנון נאור | 2008 | 2008 | solo/1 | male | indie-alt | 623 | center |
-| didi-erez | דידי ארז | 1999 | 1999 | solo/1 | male | rock | 771 | tel-aviv-area |
-| dedi-graucher | דדי גראוכר | 1990 | 1990 | solo/1 | male | religious-pop | 548 | center |
-| -99 | גאיה (להקה) | 1998 | 1999 | band/0 | mixed | other | 811 | center |
-| gary-bertini | גארי ברתיני | 1974 | 1974 | solo/1 | male | jazz-soul | 486 | center |
-| edna-goren | עדנה גורן | 1959 | 1959 | solo/1 | female | other | 547 | tel-aviv-area |
-| daniella-pick | דניאלה פיק | 2004 | 2004 | solo/1 | female | other | 260 | center |
-| noa-gruman | נועה גרומן | 2024 | 2024 | solo/1 | female | other | 588 | jerusalem |
-| shotei-hanevuah | שוטי הנבואה | 1994 | 1994 | band/0 | mixed | ethnic-world | 275 | center |
-| ben-zini | בן זיני | 2017 | 2017 | solo/1 | male | rock | 159 | center |
-| malka-spigel | מלכה שפיגל | 1980 | 1980 | solo/1 | female | indie-alt | 430 | center |
-| hedva-amrani | חדוה עמרני | 1960 | 1960 | solo/1 | female | other | 618 | abroad |
-| eliav-zohar | אליאב זוהר | 2018 | 2018 | solo/1 | male | other | 390 | center |
-| -124 | חובבי ציון (להקה) | 2006 | 2006 | band/0 | male | other | 850 | center |
-| yosi-piamenta | יוסי פיאמנטה | 1972 | 1972 | solo/1 | male | other | 325 | jerusalem |
-| -22 | אוריאל שלומי | 1977 | 1977 | solo/1 | male | mizrahi | 912 | tel-aviv-area |
-| cosma | קוסמה | 2000 | 2000 | solo/1 | male | other | 837 | center |
-| evyatar-banai | אביתר בנאי | 1997 | 1997 | solo/1 | male | rock | 24 | south |
-| the-pure-souls | הנשמות הטהורות | 1972 | 1972 | band/0 | mixed | folk-israeli | 290 | center |
-| yehezkel-braun | יחזקאל בראון | 2023 | 2023 | solo/1 | male | other | 802 | center |
-| -53 | נתנאל ששון | 2013 | 2013 | solo/1 | male | folk-israeli | 589 | haifa-north |
-| yom-tov-ehrlich | יום-טוב עהרליך | 1960 | 1960 | solo/1 | male | other | 409 | center |
-| dudi-bar-david | דודי בר דוד | 2019 | 2019 | solo/1 | male | other | 939 | center |
-| shlishiyat-gesher-hayarkon | שלישיית גשר הירקון | 1963 | 1963 | band/0 | male | folk-israeli | 238 | center |
-| -120 | קטב מרירי (להקה) | 2008 | 2008 | band/0 | mixed | other | 995 | center |
-| naftali-hershtik | נפתלי הרשטיק | 2003 | 2003 | solo/1 | male | religious-pop | 676 | center |
-| khalas | חלאס | 1999 | 1999 | band/0 | mixed | rock | 403 | center |
-| mordechai-sobol | מרדכי סובול | 2007 | 2007 | solo/1 | male | religious-pop | 784 | tel-aviv-area |
-| ehud-banai | אהוד בנאי | 1977 | 1977 | solo/1 | male | rock | 8 | jerusalem |
-| sarit-hadad | שרית חדד | 1994 | 1994 | solo/1 | female | mizrahi | 69 | haifa-north |
-| eden-hason | עדן חסון | 2017 | 2017 | solo/1 | male | mizrahi | 3 | center |
-| offer-nissim | עופר ניסים | 1983 | 1983 | solo/1 | male | other | 7 | tel-aviv-area |
-| yoni-poliker | יוני פוליקר | 2008 | 2008 | solo/1 | male | other | 642 | center |
-| -57 | גבריאל באטלר | 2021 | 2021 | solo/1 | male | other | 689 | center |
-| yoram-chazan | יורם חזן | 1990 | 1990 | solo/1 | male | other | 806 | center |
-| avner-kenner | אבנר קנר | 1976 | 1976 | solo/1 | male | other | 616 | center |
-| oif-simchas | אוף שימחעס | 1996 | 1996 | band/0 | mixed | other | 719 | center |
-| yehuda-saado | יהודה סעדו | 2005 | 2005 | solo/1 | male | folk-israeli | 481 | jerusalem |
-| liora | ליאורה | 1989 | 1989 | solo/1 | female | other | 693 | center |
-| adam-ben-ezra | אדם בן עזרא | 2000 | 2000 | solo/1 | male | jazz-soul | 369 | tel-aviv-area |
-| udi-damari | אודי דמארי | 2016 | 2016 | solo/1 | male | other | 701 | center |
-| tal-ramon | טל רמון | 2016 | 2016 | solo/1 | male | rock | 613 | center |
-| yogev-glusman | יוגב גלוסמן | 2019 | 2019 | solo/1 | male | indie-alt | 715 | south |
-| nathan-cohen | נתן כהן | 1970 | 1970 | solo/1 | male | rock | 595 | tel-aviv-area |
-| rami-kleinstein | רמי קלינשטיין | 1978 | 1978 | solo/1 | male | rock | 21 | abroad |
-| patrick-sebag | פטריק סבג | 2007 | 2007 | solo/1 | male | other | 410 | center |
-| zohar-argov | זוהר ארגוב | 1977 | 1977 | solo/1 | male | mizrahi | 14 | center |
-| erez-lev-ari | ארז לב ארי | 1996 | 1996 | solo/1 | male | other | 471 | center |
-| aaron-shust | Aaron Shust | 2005 | 2005 | solo/1 | male | religious-pop | 34 | abroad |
-| rivka-zohar | רבקה זהר | 1972 | 1972 | solo/1 | female | other | 140 | haifa-north |
-| -3 | סיוון (זמרת) | 2002 | 2002 | solo/1 | female | hiphop | 574 | tel-aviv-area |
-| david-krivoshei | דוד קריבושי | 1968 | 1968 | solo/1 | male | other | 712 | tel-aviv-area |
-| gal-de-paz | גל דה פז | 2010 | 2010 | solo/1 | female | rock | 122 | south |
-| matt-schwartz | מאט שוורץ | 1995 | 1995 | solo/1 | male | electronic | 543 | center |
-| astrix | אסטריקס | 1995 | 1995 | solo/1 | male | electronic | 155 | center |
-| shimon-buskila | שמעון בוסקילה | 1988 | 1988 | solo/1 | male | pop | 92 | haifa-north |
-| nisim-garame | ניסים גרמה | 1978 | 1978 | solo/1 | male | other | 686 | center |
-| gil-vain | גיל ויין | 2010 | 2010 | solo/1 | male | other | 177 | center |
-| anna-rf | Anna RF | 2011 | 2011 | band/0 | mixed | other | 844 | center |
-| roi-levi | רואי לוי | 1997 | 1997 | solo/1 | male | other | 646 | center |
-| dalia-cohen | דליה כהן (זמרת) | 1968 | 1968 | solo/1 | female | other | 621 | tel-aviv-area |
-| shahar-saul | שחר סאול | 2017 | 2017 | solo/1 | male | hiphop | 178 | tel-aviv-area |
-| tslil-kalifi | צליל קליפי | 2002 | 2002 | solo/1 | female | pop | 546 | center |
-| isolier-band | איזולירבנד | 1982 | 1982 | band/0 | mixed | pop | 758 | center |
-| bentzy-kletzkin | בנצי קלצקין | 2022 | 2022 | solo/1 | male | other | 902 | center |
-| sharon-moldavi | שרון מולדאבי | 1995 | 1995 | solo/1 | male | other | 626 | tel-aviv-area |
-| danny-maseng | דני מסנג | 1965 | 1965 | solo/1 | male | pop | 729 | tel-aviv-area |
-| yonatan-razel | יונתן רזאל | 2007 | 2007 | solo/1 | male | religious-pop | 68 | abroad |
-| raphael-nathan | רפאל נתן | 2015 | 2015 | solo/1 | male | other | 777 | center |
-| osnat-paz | אסנת פז | 1967 | 1967 | solo/1 | female | pop | 962 | center |
-| yehuda-elias | יהודה אליאס | 1983 | 1983 | solo/1 | male | other | 476 | center |
-| -132 | כשניקו תתחיל לדבר | 1992 | 1992 | band/0 | mixed | rock | 791 | center |
-| mazzie-cohen | מזי כהן | 1979 | 1979 | solo/1 | female | other | 160 | jerusalem |
-| lior-elmaleh | ליאור אלמליח | 2008 | 2008 | solo/1 | male | other | 458 | center |
-| daniel-zilberstein | דניאל זילברשטיין | 2006 | 2006 | solo/1 | male | pop | 976 | center |
-| keren-tannenbaum | קרן טננבאום | 1986 | 1986 | solo/1 | female | other | 918 | center |
-| tiny-fingers | Tiny Fingers | 2008 | 2008 | band/0 | mixed | indie-alt | 531 | center |
-| eran-mitelman | ערן מיטלמן | 1993 | 1993 | solo/1 | male | other | 717 | center |
-| yonatan-miller | יונתן מילר | 1985 | 1985 | solo/1 | male | other | 746 | center |
-| shira-gavrielov | שירה גבריאלוב | 2004 | 2004 | solo/1 | female | pop | 507 | center |
-| the-white-screen | המסך הלבן | 2016 | 2016 | band/0 | mixed | indie-alt | 423 | tel-aviv-area |
-| geva-alon | גבע אלון | 2000 | 2000 | solo/1 | male | indie-alt | 328 | center |
-| yoni-genut | יוני גנוט | 2000 | 2000 | solo/1 | male | other | 763 | center |
-| roee-sendler | רועי סנדלר | 2014 | 2014 | solo/1 | male | pop | 942 | center |
-| yitzchak-fuchs | יצחק פוקס | 1985 | 1985 | solo/1 | male | other | 608 | center |
-| eran-zur | ערן צור | 1986 | 1986 | solo/1 | male | rock | 121 | haifa-north |
-| hatikva-6 | התקווה 6 | 2003 | 2003 | band/0 | mixed | jazz-soul | 83 | center |
-| jane-bordeaux | ג'יין בורדו | 2012 | 2012 | band/0 | mixed | folk-rock | 72 | center |
-| produx | פרודוקס | 2003 | 2003 | band/0 | mixed | hiphop | 576 | center |
-| miriam-toukan | מרים טוקאן | 2020 | 2020 | solo/1 | female | other | 581 | center |
-| adam-scheflan | אדם שפלן | 2025 | 2025 | solo/1 | male | other | 865 | center |
-| chaim-banet | חיים בנט | 1970 | 1970 | solo/1 | male | other | 367 | abroad |
-| din-din-aviv | דין דין אביב | 1998 | 1998 | solo/1 | female | other | 148 | center |
-| jonathan-bar-giora | יונתן בר גיורא | 1990 | 1990 | solo/1 | male | other | 630 | jerusalem |
-| shir-levi | שיר לוי | 2005 | 2005 | solo/1 | male | folk-israeli | 280 | center |
-| gabi-berlin | גבי ברלין | 1954 | 1954 | solo/1 | male | other | 716 | tel-aviv-area |
-| -4 | עמית ליסטוונד | 1995 | 1995 | solo/1 | male | other | 724 | center |
-| riki-manor | ריקי מנור | 1975 | 1975 | solo/1 | female | other | 761 | center |
-| roni-bar-hadas | רוני בר הדס | 2020 | 2020 | solo/1 | female | pop | 394 | tel-aviv-area |
-| infected-mushroom | אינפקטד מאשרום | 1996 | 1996 | band/0 | mixed | electronic | 5 | haifa-north |
-| leah-lupatin | לאה לופטין | 1969 | 1969 | solo/1 | female | other | 70 | center |
-| reuven-gvirtz | ראובן גבירץ | 1979 | 1979 | solo/1 | male | other | 871 | center |
-| haim-moshe | חיים משה | 1975 | 1975 | solo/1 | male | mizrahi | 45 | center |
-| sima-amiel | סימה עמיאל | 2023 | 2023 | solo/1 | female | other | 877 | center |
-| ori-toledano | אורי טולדנו | 2006 | 2006 | solo/1 | male | other | 382 | tel-aviv-area |
-| tuned-tone | צליל מכוון | 1979 | 1979 | band/0 | mixed | other | 444 | center |
-| aviv-guedj | אביב גדג' | 1995 | 1995 | solo/1 | male | rock | 345 | center |
-| hasmachot | השמחות | 1996 | 1998 | band/0 | mixed | rock | 568 | center |
-| milk-and-honey | חלב ודבש | 1979 | 1979 | band/0 | mixed | pop | 127 | center |
-| skazi | סקאזי | 1998 | 1998 | band/0 | mixed | electronic | 15 | center |
-| sha-anan-streett | שאנן סטריט | 2007 | 2007 | solo/1 | male | other | 143 | jerusalem |
-| ruth-mense | רות מנזה | 2018 | 2018 | solo/1 | female | other | 795 | tel-aviv-area |
-| guy-mardel | Guy Mardel | 1965 | 1965 | solo/1 | male | pop | 43 | abroad |
-| yonathan-avishai | יונתן אבישי | 2002 | 2002 | solo/1 | male | jazz-soul | 424 | tel-aviv-area |
-| inon-zur | ינון צור | 1994 | 1994 | solo/1 | male | folk-israeli | 330 | center |
-| yosi-edenn | יוסי עדן | 1998 | 1998 | solo/1 | male | other | 807 | center |
-| irit-dotan | עירית דותן | 1974 | 1974 | solo/1 | female | other | 775 | center |
-| astral-projection | אסטרל פרוג'קשן | 1989 | 1995 | band/0 | mixed | electronic | 208 | center |
-| yoav-talmi | יואב תלמי | 1988 | 1988 | solo/1 | male | jazz-soul | 282 | center |
-| ahuva-ozeri | אהובה עוזרי | 1973 | 1973 | solo/1 | female | mizrahi | 61 | tel-aviv-area |
-| noam-bettan | נועם בתן | 2017 | 2017 | solo/1 | male | pop | 30 | center |
-| tzila-dagan | צילה דגן | 1971 | 1971 | solo/1 | female | folk-israeli | 318 | center |
-| ella-lee | אלה לי להב | 2019 | 2019 | solo/1 | female | folk-rock | 125 | center |
-| adir-getz | אדיר גץ | 2010 | 2010 | solo/1 | male | pop | 235 | center |
-| taiseer-elias | תייסיר אליאס | 2025 | 2025 | solo/1 | male | other | 943 | haifa-north |
-| -148 | ויתרתי | 2011 | 2011 | band/0 | mixed | rock | 842 | center |
-| -36 | רגב הוד | 0 | 1996 | solo/1 | male | mizrahi | 599 | center |
-| nathan-salomon | נתן סלומון | 1997 | 1997 | solo/1 | male | rock | 505 | center |
-| orit-wolf | אורית וולף | 2019 | 2019 | solo/1 | female | other | 625 | tel-aviv-area |
-| moran-mazor | מורן מזור | 2011 | 2011 | solo/1 | female | pop | 188 | tel-aviv-area |
-| uzi-navon-acquaintances | עוזי נבון ומכרים | 2007 | 2007 | band/0 | mixed | other | 227 | center |
-| ziv-cojocaru | זיו קוז'וקרו | 2019 | 2019 | solo/1 | male | other | 610 | south |
-| shani-izhari | שני יצהרי | 2010 | 2010 | solo/1 | female | mizrahi | 649 | center |
-| snir-yamin | שניר ימין | 2006 | 2006 | solo/1 | male | pop | 891 | center |
-| geula-gill | גאולה גיל | 1950 | 1950 | solo/1 | female | folk-israeli | 529 | tel-aviv-area |
-| eden-gabay | עדן גבאי | 2013 | 2013 | solo/1 | male | other | 672 | haifa-north |
-| shuki-levy | שוקי לוי | 1983 | 1983 | solo/1 | male | pop | 118 | tel-aviv-area |
-| alphabeta | אלפא-ביתא | 1978 | 1978 | band/0 | mixed | other | 569 | center |
-| simcha-friedman | שמחה פרידמן | 2020 | 2020 | solo/1 | male | other | 421 | haifa-north |
-| -106 | פאנקנשטיין | 1998 | 2005 | band/0 | mixed | other | 713 | center |
-| amit-erez | עמית ארז | 2003 | 2003 | solo/1 | male | indie-alt | 601 | tel-aviv-area |
-| narkis | נרקיס | 2016 | 2016 | solo/1 | female | pop | 305 | center |
-| ron-hayon | רון חיון | 2024 | 2024 | solo/1 | male | other | 192 | center |
-| avihai-hollender | אביחי הולנדר | 2022 | 2022 | solo/1 | male | other | 832 | center |
-| meir-israel | מאיר ישראל | 2011 | 2011 | solo/1 | male | other | 248 | center |
-| axum | אקסום | 2003 | 2007 | band/0 | mixed | hiphop | 304 | center |
-| chizbatron | הצ'יזבטרון | 1948 | 1948 | band/0 | mixed | other | 820 | center |
-| ciam | סיאם | 1983 | 1983 | band/0 | mixed | rock | 655 | center |
-| guy-yahel | גיא ויהל | 2011 | 2011 | band/0 | mixed | indie-alt | 501 | center |
-| hopa-hey | הופה היי | 1985 | 1985 | band/0 | mixed | other | 664 | center |
-| samir-shukry | סמיר שוקרי | 1994 | 1994 | solo/1 | male | other | 380 | haifa-north |
-| smadar-akray | סמדר אקראי | 2021 | 2021 | solo/1 | female | pop | 643 | jerusalem |
-| betzefer | בצפר | 1998 | 1998 | band/0 | mixed | other | 342 | center |
-| ron-buhnik | רון בוחניק | 2016 | 2016 | solo/1 | male | pop | 301 | center |
-| ron-shuval | רון שובל | 1985 | 1985 | solo/1 | male | pop | 247 | tel-aviv-area |
-| shmulik-succot | שמוליק סוכות | 2022 | 2022 | solo/1 | male | other | 240 | center |
-| idan-amsalem | עידן אמסלם | 2014 | 2014 | solo/1 | male | rock | 734 | center |
-| tair-haim | תאיר חיים | 2013 | 2013 | solo/1 | female | pop | 753 | center |
-| gal-adam | גל אדם | 2018 | 2018 | solo/1 | male | pop | 65 | center |
-| chen-porati | חן פורתי | 2024 | 2024 | solo/1 | male | other | 862 | center |
-| teapacks | טיפקס | 1988 | 1988 | band/0 | mixed | rock | 35 | south |
-| johnny-shuali | ג'וני שועלי | 1991 | 1991 | solo/1 | male | rock | 436 | center |
-| avi-sinuani | אבי סינואני | 1981 | 1981 | solo/1 | male | mizrahi | 514 | tel-aviv-area |
-| osher-cohen | אושר כהן | 2000 | 2014 | solo/1 | male | mizrahi | 27 | haifa-north |
-| tania-vinokur | טניה וינוקור | 2001 | 2001 | solo/1 | female | other | 438 | center |
-| kfir-atia | כפיר עטיה | 2005 | 2005 | solo/1 | male | mizrahi | 671 | tel-aviv-area |
-| -122 | כלא שש (הרכב) | 1998 | 1998 | band/0 | mixed | hiphop | 407 | center |
-| -50 | נעמה כהן | 2011 | 2011 | solo/1 | female | other | 833 | haifa-north |
-| -84 | כל החתיכים אצלי | 2007 | 2007 | band/0 | mixed | rock | 730 | center |
-| dorit-sade | דורית שדה | 1975 | 1975 | solo/1 | female | other | 648 | tel-aviv-area |
-| borgore | בורגור | 2009 | 2009 | solo/1 | male | electronic | 174 | tel-aviv-area |
-| yitzhak-klepter | יצחק קלפטר | 1966 | 1966 | solo/1 | male | rock | 53 | center |
-| ilan-chester | אילן צ'סטר | 1965 | 1965 | solo/1 | male | other | 496 | tel-aviv-area |
-| ami-maimon | עמי מימון | 2021 | 2021 | solo/1 | male | other | 872 | tel-aviv-area |
-| matan-porat | מתן פורת | 2013 | 2013 | solo/1 | male | other | 420 | tel-aviv-area |
-| haze-evot | הזאבות | 2012 | 2012 | band/0 | female | rock | 312 | center |
-| shazamat | שאזאמאט | 2017 | 2017 | band/0 | male | hiphop | 221 | center |
-| ilan-virtzberg | אילן וירצברג | 1971 | 1971 | solo/1 | male | rock | 228 | south |
-| vini-vici | Vini Vici | 2013 | 2013 | band/0 | mixed | electronic | 52 | tel-aviv-area |
-| yishai-ribo | ישי ריבו | 2007 | 2007 | solo/1 | male | religious-pop | 78 | center |
-| hani-dinur | חני דינור | 1980 | 1980 | solo/1 | female | rock | 889 | center |
-| deaf-chonky | דף צ'ונקי | 2015 | 2016 | band/0 | mixed | rock | 695 | center |
-| shalva-berti | שלווה ברטי | 1986 | 1986 | solo/1 | female | other | 914 | center |
-| eyal-barkan | אייל ברקן | 1998 | 1998 | solo/1 | male | electronic | 467 | center |
-| uri-bashan | אורי בשן | 2000 | 2000 | solo/1 | male | other | 678 | center |
-| the-brothers-the-sisters | האחים והאחיות | 1971 | 1971 | band/0 | mixed | other | 533 | center |
-| guy-bocati | גיא בוקאטי | 1985 | 1985 | solo/1 | male | jazz-soul | 974 | center |
-| daklon | דקלון | 1950 | 1950 | solo/1 | male | mizrahi | 74 | tel-aviv-area |
-| artist | יציאת חירום | 1997 | 1998 | band/0 | mixed | rock | 612 | center |
-| oren-luttenberg | אורן לוטנברג | 2024 | 2024 | solo/1 | male | rock | 828 | tel-aviv-area |
-| avraham-zigman | אברהם זיגמן | 1965 | 1965 | solo/1 | male | other | 737 | center |
-| ellyott | אליוט | 1985 | 1985 | solo/1 | female | rock | 794 | tel-aviv-area |
-| ori-shochat | אורי שוחט | 1999 | 1999 | solo/1 | male | hiphop | 109 | haifa-north |
-| yitzchak-meir | יצחק מאיר (זמר) | 2010 | 2010 | solo/1 | male | other | 450 | center |
-| rotem-chen | רותם חן | 2017 | 2017 | solo/1 | male | mizrahi | 964 | center |
-| erez-sharon | איזי | 2001 | 2001 | solo/1 | male | hiphop | 85 | center |
-| noam-dadon | נועם דדון | 2015 | 2015 | solo/1 | male | other | 587 | south |
-| avraham-pereira | אברהם פררה | 1952 | 1952 | solo/1 | male | other | 702 | jerusalem |
-| -35 | שיקו חייק | 1998 | 1998 | solo/1 | male | mizrahi | 770 | center |
-| inbal-perlmuter | ענבל פרלמוטר | 1992 | 1992 | solo/1 | female | rock | 182 | center |
-| neta-elkayam | נטע אלקיים | 2023 | 2023 | solo/1 | female | other | 284 | haifa-north |
-| blastoyz | בלסטויז | 2003 | 2003 | solo/1 | male | other | 308 | center |
-| keren-hecht | קרן הכט | 1993 | 1993 | solo/1 | female | other | 903 | tel-aviv-area |
-| peter-wertheimer | פטר ורטהיימר | 1973 | 1973 | solo/1 | male | jazz-soul | 539 | center |
-| is-hop | IS הופ | 1994 | 1994 | band/0 | mixed | hiphop | 745 | center |
-| hamsa | חמסה | 2000 | 2000 | band/0 | mixed | pop | 266 | center |
-| aharon-amram | אהרן עמרם | 2007 | 2007 | solo/1 | male | other | 461 | center |
-| nurit-hirsh | נורית הירש | 1960 | 1960 | solo/1 | female | other | 171 | tel-aviv-area |
-| merav-siman-tov | מרב סמן טוב | 2003 | 2003 | solo/1 | female | other | 965 | jerusalem |
-| yoel-levi | יואל לוי | 1975 | 1975 | solo/1 | male | jazz-soul | 560 | center |
-| astar-shamir | אסתר שמיר | 1977 | 1977 | solo/1 | female | folk-israeli | 279 | jerusalem |
-| micha-shitrit | מיכה שטרית | 1980 | 1980 | solo/1 | male | rock | 189 | haifa-north |
-| maor-edry | מאור אדרי | 2008 | 2008 | solo/1 | male | mizrahi | 175 | center |
-| haya-samir | חיה סמיר | 1992 | 1992 | solo/1 | female | other | 798 | jerusalem |
-| ari-gorali | ארי גורלי | 2004 | 2004 | solo/1 | male | other | 782 | center |
-| yosef-karduner | יוסף קרדונר | 2000 | 2000 | solo/1 | male | other | 270 | center |
-| rotem-or | רותם אור | 2008 | 2008 | solo/1 | female | indie-alt | 139 | tel-aviv-area |
-| meital-de-razon | מיטל דה רזון | 2012 | 2012 | solo/1 | female | other | 615 | center |
-| shekel | שקל | 2017 | 2017 | solo/1 | male | electronic | 234 | tel-aviv-area |
-| avi-toledano | אבי טולדנו | 1965 | 1965 | solo/1 | male | pop | 62 | abroad |
-| tatran | Tatran | 2011 | 2011 | band/0 | mixed | other | 600 | center |
-| a-wa | אה-ווה | 2015 | 2015 | band/0 | mixed | ethnic-world | 102 | center |
-| dudu-zakai | דודו זכאי | 1967 | 1967 | solo/1 | male | other | 921 | center |
-| hofni-cohen | חופני כהן | 1975 | 1975 | solo/1 | male | other | 552 | tel-aviv-area |
-| dan-shatzberg | דן שצברג | 1998 | 1998 | solo/1 | male | other | 634 | center |
-| salem | Salem | 1985 | 1985 | band/0 | mixed | rock | 185 | center |
-| lior-farhi | ליאור פרחי | 1986 | 1986 | solo/1 | male | other | 313 | center |
-| yehuda-green | יהודה גרין | 2007 | 2007 | solo/1 | male | other | 478 | jerusalem |
-| harel-moyal | הראל מויאל | 2000 | 2000 | solo/1 | male | pop | 88 | center |
-| baldi-olier | באלדי אולייר | 1977 | 1977 | solo/1 | male | folk-rock | 500 | abroad |
-| ido-ofek | עידו אופק | 1999 | 1999 | solo/1 | male | rock | 622 | center |
-| yehuda-glantz | יהודה גלאנץ | 1977 | 1977 | solo/1 | male | religious-pop | 460 | center |
-| -107 | צעירי תל אביב | 1984 | 1984 | band/0 | mixed | pop | 497 | tel-aviv-area |
-| adar-gold | אדר גולד | 2019 | 2019 | solo/1 | female | pop | 472 | center |
-| ari-hill | ארי היל | 2016 | 2016 | solo/1 | male | religious-pop | 593 | center |
-| sharona-nastovich | שרונה נסטוביץ' | 2006 | 2006 | solo/1 | female | other | 955 | tel-aviv-area |
-| dor-daniel | דור דניאל | 2005 | 2005 | solo/1 | male | pop | 193 | center |
-| noam-horev | נעם חורב | 2022 | 2022 | solo/1 | male | other | 522 | center |
-| benny-amdursky | בני אמדורסקי | 1956 | 1956 | solo/1 | male | other | 289 | jerusalem |
-| gili-yalo | גילי יאלו | 2017 | 2017 | solo/1 | male | jazz-soul | 293 | center |
-| -46 | משה הלל | 1996 | 1996 | solo/1 | male | other | 847 | center |
-| -5 | חזי פניאן | 1986 | 1986 | solo/1 | male | other | 849 | center |
-| aveva-dese | אבבה דסה | 2013 | 2013 | solo/1 | female | pop | 823 | center |
-| hahazer-haahorit | החצר האחורית | 2013 | 2013 | band/0 | mixed | rock | 350 | center |
-| kfir-artzi | חמי | 1992 | 1992 | solo/1 | male | hiphop | 168 | center |
-| mor-karbasi | מור קרבסי | 2008 | 2008 | solo/1 | female | other | 326 | jerusalem |
-| shi-360 | שי 360 | 2001 | 2001 | solo/1 | male | hiphop | 115 | center |
-| ronit-shahar | רונית שחר | 1996 | 1996 | solo/1 | female | other | 389 | haifa-north |
-| shye-ben-tzur | שי בן צור | 2003 | 2003 | solo/1 | male | other | 212 | abroad |
-| eden-ben-zaken | עדן בן זקן | 2013 | 2013 | solo/1 | female | mizrahi | 6 | jerusalem |
-| uziya-tzadok | עוזיה צדוק | 2014 | 2014 | solo/1 | male | other | 224 | center |
-| mendel-roth | מענדל ראטה | 2014 | 2014 | solo/1 | male | other | 725 | center |
-| naor-ormia | נאור אורמיה | 2009 | 2009 | solo/1 | male | mizrahi | 619 | center |
-| dudaim | הדודאים | 1957 | 1957 | band/0 | male | folk-israeli | 176 | center |
-| guy-mazig | גיא מזיג | 1999 | 1999 | solo/1 | male | rock | 465 | center |
-| karni-eldad | קרני אלדד | 2006 | 2006 | solo/1 | female | other | 931 | jerusalem |
-| yoshi | יושי | 2021 | 2021 | solo/1 | male | other | 349 | center |
-| tsliley-haaud | צלילי העוד | 1974 | 1974 | band/0 | male | mizrahi | 627 | center |
-| loren-peled | לורן פלד | 2020 | 2020 | solo/1 | male | other | 480 | abroad |
-| meni-philip | מנחם פיליפ | 1991 | 1991 | solo/1 | male | other | 779 | center |
-| boaz-banai | בעז בנאי | 2007 | 2007 | solo/1 | male | other | 214 | center |
-| ha-m-ulliel | חיים אוליאל | 2000 | 2000 | solo/1 | male | mizrahi | 323 | center |
-| orian-shukrun | אוריין שוקרון | 2022 | 2022 | solo/1 | male | other | 781 | center |
-| tal-segev | טל שגב | 1990 | 1990 | solo/1 | male | pop | 354 | tel-aviv-area |
-| avishai-cohen | אבישי כהן | 1993 | 1993 | solo/1 | male | jazz-soul | 57 | haifa-north |
-| yehoshua-sofer | יהושע סופר | 1963 | 1963 | solo/1 | male | folk-israeli | 19 | abroad |
-| shai-tsabari | שי צברי | 2001 | 2001 | solo/1 | male | rock | 714 | center |
-| danny-ben-israel | דני בן ישראל | 1962 | 1962 | solo/1 | male | other | 768 | center |
-| shimon-cohen | שמעון כהן | 2023 | 2023 | solo/1 | male | folk-israeli | 863 | center |
-| nathan-slor | נתן סלור | 2006 | 2006 | solo/1 | male | other | 598 | tel-aviv-area |
-| dani-dothan | דני דותן | 1996 | 1996 | solo/1 | male | other | 720 | jerusalem |
-| avi-benjamin | אבי בנימין | 2000 | 2000 | solo/1 | male | other | 395 | center |
-| nunu | נונו | 2016 | 2016 | solo/1 | female | pop | 137 | tel-aviv-area |
-| ariel-zilber | אריאל זילבר | 1967 | 1967 | solo/1 | male | rock | 203 | tel-aviv-area |
-| maya-isacowitz | מאיה איזקוביץ | 2009 | 2009 | solo/1 | female | other | 592 | center |
-| -58 | רמי דנוך | 1967 | 1967 | solo/1 | male | other | 590 | center |
-| samuel-budagov | שמוליק בודגוב | 1969 | 1969 | solo/1 | male | other | 298 | tel-aviv-area |
-| -38 | שימי רון | 1985 | 1985 | solo/1 | male | mizrahi | 835 | center |
-| daniel-zamir | דניאל זמיר | 2000 | 2000 | solo/1 | male | jazz-soul | 158 | center |
-| udi-davidi | אודי דוידי | 2004 | 2004 | solo/1 | male | religious-pop | 150 | tel-aviv-area |
-| eli-lulai | אלי לולאי | 1988 | 1988 | solo/1 | male | rock | 435 | center |
-| -149 | ניגון ירושלמי | 2008 | 2008 | band/0 | mixed | folk-israeli | 980 | center |
-| misha-segal | מישה סגל | 1991 | 1991 | solo/1 | male | other | 492 | center |
-| roy-arad | רועי צ'יקי ארד | 2004 | 2004 | solo/1 | male | other | 253 | south |
-| ivri-lider | עברי לידר | 1997 | 1997 | solo/1 | male | pop | 104 | center |
-| the-friends-of-natasha | החברים של נטאשה | 1987 | 1987 | band/0 | mixed | rock | 378 | center |
-| stav-beger | סתיו בגר | 2011 | 2015 | solo/1 | male | pop | 257 | center |
-| bentzi-stein | בנצי שטיין | 2023 | 2023 | solo/1 | male | other | 846 | center |
-| sagol-59 | סגול 59 | 2000 | 2000 | solo/1 | male | hiphop | 181 | center |
-| the-sixties | הסיקסטיז | 1984 | 1984 | band/0 | mixed | other | 631 | center |
-| edna-lev | עדנה לב | 1966 | 1966 | solo/1 | female | other | 417 | center |
-| yehuda-keisar | יהודה קיסר | 2000 | 2000 | solo/1 | male | mizrahi | 425 | tel-aviv-area |
-| ephraim-shamir | אפרים שמיר | 1970 | 1970 | solo/1 | male | rock | 114 | center |
-| -77 | התעויוט | 1991 | 1991 | band/0 | mixed | rock | 690 | center |
-| shem-tov-levi | שם טוב לוי | 1969 | 1969 | solo/1 | male | jazz-soul | 81 | center |
-| 951 | 951 | 1999 | 1999 | band/0 | mixed | rock | 556 | center |
-| avishai-cohen-2 | אבישי כהן | 1999 | 1999 | solo/1 | male | jazz-soul | 128 | haifa-north |
-| haivriot | העבריות | 2020 | 2020 | band/0 | mixed | folk-israeli | 288 | center |
-| dana-lapidot | דנה לפידות | 2008 | 2008 | solo/1 | female | pop | 285 | south |
-| red-band | רד בנד | 2001 | 2005 | band/0 | mixed | other | 162 | center |
-| eli-magen | אלי מגן | 1987 | 1987 | solo/1 | male | jazz-soul | 451 | tel-aviv-area |
-| nitzan-kaikov | ניצן קייקוב | 2005 | 2005 | solo/1 | male | pop | 917 | tel-aviv-area |
-| avraham-tal | אברהם טל | 1998 | 1998 | solo/1 | male | pop | 42 | center |
-| yaara-shaulian | יערה שאוליאן | 2020 | 2020 | solo/1 | female | other | 829 | tel-aviv-area |
-| odeya | אודיה | 2017 | 2017 | solo/1 | female | pop | 12 | tel-aviv-area |
-| yinon-yahel | ינון יהל | 2001 | 2001 | solo/1 | male | electronic | 136 | center |
-| shimshon-bar-noy | שמשון בר-נוי | 2009 | 2009 | solo/1 | male | other | 989 | center |
-| eyal-golan | אייל גולן | 1978 | 1978 | solo/1 | male | mizrahi | 4 | tel-aviv-area |
-| -133 | האירוסים - זמרי בית אלפא | 1977 | 1977 | band/0 | mixed | folk-israeli | 999 | center |
-| rafi-persky | רפי פרסקי | 1988 | 1988 | solo/1 | male | other | 360 | center |
-| ishay-berger | ישי ברגר | 1994 | 1994 | solo/1 | male | rock | 840 | center |
-| avner-gadassi | אבנר גדסי | 1970 | 1970 | solo/1 | male | mizrahi | 233 | center |
-| zamira-chen | זמירה חן | 1985 | 1985 | solo/1 | female | other | 984 | tel-aviv-area |
-| sesto-sento | ססטו סנטו | 2001 | 2001 | band/0 | mixed | electronic | 483 | center |
-| habrera-hativit | הברירה הטבעית | 1977 | 1977 | band/0 | male | other | 452 | center |
-| gadi-altman | גדי אלטמן | 2003 | 2003 | solo/1 | male | rock | 666 | center |
-| -15 | כפיר בן ליש | 2014 | 2014 | solo/1 | male | other | 815 | center |
-| eden-golan | עדן גולן | 2015 | 2015 | solo/1 | female | pop | 50 | center |
-| yael-german | יעל גרמן | 1976 | 1976 | solo/1 | female | folk-israeli | 893 | center |
-| chilik-frank | חיליק פרנק | 1998 | 1998 | solo/1 | male | folk-israeli | 509 | center |
-| the-shadow | הצל | 1999 | 1999 | solo/1 | male | hiphop | 36 | haifa-north |
-| maya-casabianca | מאיה קזביאנקה | 1969 | 1969 | solo/1 | female | other | 338 | center |
-| sharon-lifshitz | שרון ליפשיץ | 1982 | 1983 | solo/1 | female | pop | 428 | center |
-| nitza-termin | ניצה טרמין | 1992 | 1992 | solo/1 | female | other | 925 | center |
-| ori-coltov | אורי כלטוב | 2024 | 2024 | solo/1 | male | other | 422 | jerusalem |
-| -80 | להקת מגפיים | 1978 | 1978 | band/0 | mixed | folk-israeli | 986 | center |
-| moshe-habusha | משה חבושה | 1998 | 1998 | solo/1 | male | other | 291 | jerusalem |
-| chocolat-menta-mastik | שוקולד מנטה מסטיק | 1971 | 1972 | band/0 | mixed | pop | 157 | tel-aviv-area |
-| linet | לינט | 1985 | 1985 | solo/1 | female | mizrahi | 79 | tel-aviv-area |
-| yael-levy | יעל לוי | 1973 | 1973 | solo/1 | female | other | 393 | haifa-north |
-| -92 | אטלנטיקה | 2006 | 2006 | band/0 | mixed | other | 997 | center |
-| gila-hassid | גילה חסיד | 2022 | 2022 | solo/1 | female | other | 992 | center |
-| lea-shabat | לאה שבת | 1986 | 1986 | solo/1 | female | pop | 163 | center |
-| doron-mazar | דורון מזר | 1985 | 1985 | solo/1 | male | folk-israeli | 520 | center |
-| tararam | טררם | 1996 | 1996 | band/0 | mixed | other | 981 | center |
-| galit-burg | גלית בורג | 1989 | 1989 | solo/1 | female | other | 251 | tel-aviv-area |
-| yair-ziv | יאיר זיו | 2009 | 2009 | solo/1 | male | rock | 899 | center |
-| rona-kenan | רונה קינן | 1990 | 1990 | solo/1 | female | rock | 54 | tel-aviv-area |
-| yuval-dor | יובל דור | 1969 | 1969 | solo/1 | male | other | 99 | tel-aviv-area |
-| ran-eliran | רן אלירן | 1952 | 1952 | solo/1 | male | other | 605 | center |
-| kim-connection | קים קונקשיין | 1996 | 1996 | solo/1 | male | electronic | 966 | center |
-| mickey-shaviv | מיקי שביב | 1966 | 1966 | solo/1 | male | rock | 583 | tel-aviv-area |
-| rinat-bar | רינת בר | 1996 | 1996 | solo/1 | female | pop | 138 | center |
-| kaveret | כוורת | 1973 | 1973 | band/0 | mixed | rock | 13 | tel-aviv-area |
-| omer-adam | עומר אדם | 2009 | 2009 | solo/1 | male | mizrahi | 1 | haifa-north |
-| ron-nesher | רון נשר | 2003 | 2003 | solo/1 | male | hiphop | 41 | tel-aviv-area |
-| eva-francis | אווה פרנסיס | 2018 | 2018 | solo/1 | female | other | 923 | center |
-| idan-yaniv | עידן יניב | 2005 | 2005 | solo/1 | male | pop | 698 | tel-aviv-area |
-| alien-project | אליין פרוג'קט | 1994 | 1994 | solo/1 | male | electronic | 398 | center |
-| ruhama-raz | רוחמה רז | 1977 | 1977 | solo/1 | female | folk-israeli | 210 | center |
-| shimrit-orr | שמרית אור | 1966 | 1966 | solo/1 | female | other | 579 | jerusalem |
-| omer-avital | עומר אביטל | 1992 | 1992 | solo/1 | male | jazz-soul | 209 | tel-aviv-area |
-| tom-petrover | תום פטרובר | 2019 | 2019 | solo/1 | male | other | 498 | center |
-| 21 | 21 (להקה) | 2000 | 2000 | band/0 | mixed | jazz-soul | 878 | center |
-| omer-fedi | עומר פדי | 2018 | 2018 | solo/1 | male | hiphop | 77 | tel-aviv-area |
-| ovadia-hamama | עובדיה חממה | 1991 | 1991 | solo/1 | male | religious-pop | 688 | center |
-| -55 | לונא אבו נסאר | 2013 | 2013 | solo/1 | female | folk-israeli | 963 | haifa-north |
-| hi-five | היי פייב | 1996 | 1996 | band/0 | mixed | pop | 76 | center |
-| boaz-sharabi | בעז שרעבי | 1964 | 1964 | solo/1 | male | mizrahi | 55 | tel-aviv-area |
-| vered-r-klepter | ורד קלפטר | 1981 | 1981 | solo/1 | female | rock | 783 | center |
-| ayala-ingedashet | איילה אינגדשט | 2006 | 2006 | solo/1 | female | pop | 584 | center |
-| daniela-spector | דניאלה ספקטור | 2006 | 2006 | solo/1 | female | pop | 300 | center |
-| josef-bardanashvili | יוסף ברדנשווילי | 2023 | 2023 | solo/1 | male | jazz-soul | 869 | center |
-| naomi-shemer | נעמי שמר | 1951 | 1951 | solo/1 | female | folk-israeli | 396 | haifa-north |
-| central-command-band | להקת פיקוד המרכז | 1953 | 1969 | band/0 | mixed | other | 370 | center |
-| kabra-kasai | כברה קסאי | 2003 | 2003 | solo/1 | female | folk-israeli | 555 | center |
-| alexander-tamir | אלכסנדר תמיר | 1965 | 1965 | solo/1 | male | other | 542 | center |
-| terry-poison | טרי פויזן | 2003 | 2003 | band/0 | mixed | other | 374 | center |
-| ifat-nets | יפעת נץ | 1990 | 1990 | solo/1 | female | other | 586 | center |
-| distorted-harmony | Distorted Harmony | 2009 | 2009 | band/0 | mixed | rock | 657 | center |
-| mashina | משינה | 1983 | 1983 | band/0 | mixed | rock | 183 | tel-aviv-area |
-| yossi-babliki | יוסי בבליקי | 1996 | 1996 | solo/1 | male | other | 822 | center |
-| maureen-nehedar | מורין נהדר | 1995 | 1995 | solo/1 | female | other | 489 | center |
-| shar-el | שר-אל | 2004 | 2004 | solo/1 | male | mizrahi | 639 | center |
-| zion-golan | ציון גולן | 1978 | 1978 | solo/1 | male | mizrahi | 113 | center |
-| -85 | שליחי הבלוז | 1993 | 1993 | band/0 | mixed | rock | 857 | center |
-| yonatan-shainfeld | יונתן שינפלד | 2009 | 2012 | solo/1 | male | other | 371 | center |
-| young-boiz | יאנג בויז | 2017 | 2017 | band/0 | mixed | hiphop | 726 | center |
-| alon-de-loco | אלון דה לוקו | 2005 | 2005 | solo/1 | male | hiphop | 134 | south |
-| dam | דאם | 1999 | 1999 | band/0 | mixed | hiphop | 419 | center |
-| noam-sheriff | נעם שריף | 1953 | 1953 | solo/1 | male | other | 580 | tel-aviv-area |
-| itzik-eshel | איציק אשל | 1999 | 1999 | solo/1 | male | mizrahi | 711 | center |
-| may-sfadia | מאי ספדיה | 2011 | 2011 | solo/1 | female | other | 732 | center |
-| gili-galit | גילי וגלית | 1989 | 1989 | band/0 | mixed | other | 603 | center |
-| rami-fortis | רמי פורטיס | 1975 | 1975 | solo/1 | male | rock | 32 | tel-aviv-area |
-| elai-botner-and-the-outside-kids | עילי בוטנר וילדי החוץ | 2011 | 2012 | band/0 | mixed | rock | 355 | center |
-| nahum-nardi | נחום נרדי | 1974 | 1974 | solo/1 | male | folk-israeli | 220 | center |
-| aya-korem | איה כורם | 2006 | 2006 | solo/1 | female | indie-alt | 64 | haifa-north |
-| obi-aflalo | קובי אפללו | 2001 | 2001 | solo/1 | male | other | 111 | center |
-| akiva-turgeman | עקיבא תורג'מן | 2009 | 2009 | solo/1 | male | rock | 196 | south |
-| noam-kaniel | נועם קניאל | 1971 | 1971 | solo/1 | male | pop | 123 | tel-aviv-area |
-| dana-rishpy | דנה רישפי | 2003 | 2003 | solo/1 | female | other | 322 | center |
-| -78 | נערי רפול (להקה) | 1999 | 1999 | band/0 | mixed | mizrahi | 651 | center |
-| nussi-liberman | נותי ליברמן | 2023 | 2023 | solo/1 | male | other | 864 | jerusalem |
-| ha-shelosharim | השלושרים | 1969 | 1969 | band/0 | male | pop | 414 | center |
-| mika-sade | מיקה שדה | 2013 | 2013 | solo/1 | female | other | 334 | tel-aviv-area |
-| yair-levi | יאיר לוי | 2016 | 2016 | solo/1 | male | jazz-soul | 545 | haifa-north |
-| mika-moshe | מיקה משה | 2020 | 2020 | solo/1 | female | other | 747 | center |
-| yagel-oshri | יגל אושרי | 2020 | 2020 | solo/1 | male | other | 418 | center |
-| orr-amrami-brockman | אור עמרמי ברוקמן | 2018 | 2018 | solo/1 | male | other | 876 | center |
-| moran-magal | מורן מגל | 2016 | 2016 | solo/1 | female | other | 491 | center |
-| roy-kafri | רועי כפרי | 2007 | 2007 | solo/1 | male | other | 191 | center |
-| -151 | אחד חלקי אחד | 2006 | 2006 | band/0 | mixed | rock | 856 | center |
-| uzi-fox | עוזי פוקס | 1962 | 1962 | solo/1 | male | rock | 363 | abroad |
-| yeled | ילד. | 2022 | 2022 | solo/1 | male | other | 146 | center |
-| foreign-affair | פוריין אפייר | 1988 | 1988 | band/0 | mixed | rock | 764 | center |
-| raviv-kaner | רביב כנר | 2019 | 2019 | solo/1 | male | pop | 95 | tel-aviv-area |
-| corinne-allal | קורין אלאל | 1973 | 1973 | solo/1 | female | rock | 37 | abroad |
-| -112 | צלילי הכרם | 1972 | 1972 | band/0 | male | mizrahi | 681 | center |
-| ori-kaplan | אורי קפלן | 2021 | 2021 | solo/1 | male | jazz-soul | 495 | tel-aviv-area |
-| shirley-yuval-yair | שירלי יובל-יאיר | 1992 | 1992 | solo/1 | female | other | 265 | tel-aviv-area |
-| sputnik-hi-fi | ספוטניק היי פיי | 2014 | 2014 | band/0 | mixed | other | 793 | center |
-| -88 | בוא לבר | 2005 | 2005 | band/0 | mixed | rock | 881 | center |
-| -68 | שמואל פרדניק | 2016 | 2016 | solo/1 | male | other | 742 | center |
-| amir-benayoun | עמיר בניון | 1999 | 1999 | solo/1 | male | mizrahi | 204 | south |
-| temper-city | טמפר סיטי | 2021 | 2026 | band/0 | mixed | indie-alt | 116 | abroad |
-| moshe-zorman | משה זורמן | 2017 | 2017 | solo/1 | male | other | 913 | tel-aviv-area |
-| mendi-jerufi | מנדי ג'רופי | 1995 | 1995 | solo/1 | male | other | 796 | center |
-| dennis-lloyd | דניס לויד | 2015 | 2015 | solo/1 | male | pop | 96 | tel-aviv-area |
-| moran-aharoni | מורן אהרוני | 1997 | 1997 | solo/1 | female | jazz-soul | 674 | tel-aviv-area |
-| meir-ariel | מאיר אריאל | 1967 | 1967 | solo/1 | male | folk-israeli | 358 | center |
-| elnatan-shalom | אלנתן שלום | 2018 | 2018 | solo/1 | male | other | 895 | center |
-| navah-baruchin | נאוה ברוכין | 2007 | 2007 | solo/1 | female | other | 765 | center |
-| bat-ella | בת אלה | 1985 | 1985 | solo/1 | female | other | 897 | south |
-| bnot-pesia | בנות פסיה | 1995 | 1995 | band/0 | mixed | other | 874 | center |
-| drora-havkin | דרורה חבקין | 2006 | 2006 | solo/1 | female | other | 638 | center |
-| infy-snow | אינפי סנואו | 2012 | 2012 | solo/1 | female | rock | 778 | center |
-| david-lavi | דוד לביא (זמר) | 2008 | 2008 | solo/1 | male | rock | 368 | south |
-| simcha-gueta | שמחה גואטה | 2015 | 2015 | solo/1 | female | other | 222 | center |
-| moshe-louk | משה לוק | 2020 | 2020 | solo/1 | male | other | 411 | tel-aviv-area |
-| balkan-beat-box | בלקן ביט בוקס | 2003 | 2003 | band/0 | mixed | ethnic-world | 48 | abroad |
-| noam-rotem | נעם רותם | 1993 | 1993 | solo/1 | male | rock | 166 | center |
-| habiluim | הבילויים | 1996 | 1997 | band/0 | mixed | rock | 135 | center |
-| yehoshua-engelman | יהושע אנגלמן | 1988 | 1988 | solo/1 | male | other | 944 | center |
-| meydad-tasa | מידד טסה | 2006 | 2006 | solo/1 | male | mizrahi | 106 | haifa-north |
-| zohara | זוהרה | 2012 | 2012 | solo/1 | female | other | 429 | tel-aviv-area |
-| adi-ran | עדי רן | 1993 | 1993 | solo/1 | male | other | 401 | tel-aviv-area |
-| shlomo-ydov | שלמה יידוב | 1972 | 1972 | solo/1 | male | pop | 133 | center |
-| alon-eder | אלון עדר | 2010 | 2011 | solo/1 | male | indie-alt | 294 | center |
-| father-of-peace | פאד'ר אוף פיס | 2024 | 2024 | band/0 | mixed | indie-alt | 63 | center |
-| -61 | סתיו שמש | 2013 | 2013 | solo/1 | female | pop | 886 | center |
-| dror-feiler | דרור פיילר | 1996 | 1996 | solo/1 | male | other | 510 | tel-aviv-area |
-| moran-mazuz | מורן מזוז | 2013 | 2013 | solo/1 | female | pop | 653 | haifa-north |
-| haim-el | חיים אל | 1989 | 1989 | solo/1 | male | other | 750 | center |
-| jo-amar | ג'ו עמר | 1956 | 1956 | solo/1 | male | mizrahi | 161 | center |
-| static-ben-el | סטטיק ובן אל | 2015 | 2015 | band/0 | male | pop | 31 | center |
-| gili-argov | גילי ארגוב | 1989 | 1989 | solo/1 | male | other | 321 | center |
-| peled | פלד | 2004 | 2004 | solo/1 | male | hiphop | 100 | center |
-| tamar-aphek | תמר אפק | 2007 | 2007 | solo/1 | female | other | 487 | jerusalem |
-| michael-ben-david | מיכאל בן דוד | 2022 | 2022 | solo/1 | male | pop | 530 | center |
-| yoni-roe | יוני רועה | 1998 | 1998 | solo/1 | male | other | 640 | center |
-| ronnie-peterson | רוני פיטרסון | 1974 | 1974 | solo/1 | male | jazz-soul | 728 | center |
-| sasha-argov | סשה ארגוב | 0 | 1935 | solo/1 | male | other | 202 | abroad |
-| -86 | שלישיית הופל'ה | 1997 | 1997 | band/0 | mixed | other | 970 | center |
-| betty-pablo | בטי פבלו | 1989 | 1989 | solo/1 | female | rock | 852 | tel-aviv-area |
-| achinoam-nini | אחינועם ניני | 1990 | 1990 | solo/1 | female | pop | 18 | tel-aviv-area |
-| dxm | DXM | 1984 | 1984 | band/0 | mixed | rock | 755 | center |
-| inbar-hets-rony | ענבר חצרוני | 2020 | 2020 | solo/1 | female | other | 977 | center |
-| liora-itzhak | ליאורה יצחק | 2013 | 2013 | solo/1 | female | other | 329 | center |
-| hapsagot | להקת הפסגות | 1973 | 1973 | band/0 | mixed | mizrahi | 870 | center |
-| yossi-hari | יוסי הרי | 2001 | 2001 | solo/1 | male | other | 748 | tel-aviv-area |
-| cookie-levanna | קוקי לבנה | 2011 | 2011 | band/0 | mixed | other | 936 | center |
-| avior-malasa | אביאור מלסה | 2015 | 2015 | solo/1 | male | other | 916 | center |
-| alona-turel | אלונה טוראל | 1961 | 1961 | solo/1 | female | other | 433 | tel-aviv-area |
-| amir | עמיר חדד | 2006 | 2006 | solo/1 | male | pop | 66 | abroad |
-| guy-mar | גיא מר | 1997 | 1997 | solo/1 | male | hiphop | 246 | jerusalem |
-| meni-beger | מני בגר | 1978 | 1978 | solo/1 | male | other | 263 | center |
-| bint-el-funk | בינת אל פאנק | 2012 | 2012 | band/0 | mixed | other | 721 | center |
-| daniel-shalit | דניאל שליט | 2023 | 2023 | solo/1 | male | jazz-soul | 738 | center |
-| nikka | ניקה | 2005 | 2005 | solo/1 | female | other | 314 | center |
-| yorik-ben-david | יוריק בן דוד | 1978 | 1978 | solo/1 | male | other | 884 | tel-aviv-area |
-| avner-strauss | אבנר שטראוס | 1987 | 1987 | solo/1 | male | other | 788 | center |
-| maor-ashkenazi | מאור אשכנזי | 2018 | 2018 | solo/1 | male | other | 667 | center |
-| morgenshtern | מורגנשטרן | 2010 | 2010 | solo/1 | male | rock | 16 | center |
-| omri-glikman | עומרי גליקמן | 2000 | 2000 | solo/1 | male | hiphop | 206 | center |
-| amir-kertes | אמיר קרטס | 1991 | 1991 | solo/1 | male | other | 947 | center |
-| lazer-lloyd | לייזר לויד | 1981 | 1981 | solo/1 | male | other | 343 | abroad |
-| nag-hammadi | נאג' חמאדי | 2005 | 2005 | band/0 | male | rock | 958 | center |
-| ofer-bashan | עפר בשן | 2002 | 2002 | solo/1 | male | pop | 954 | tel-aviv-area |
-| daniel-barenboim | דניאל בארנבוים | 1950 | 1950 | solo/1 | male | jazz-soul | 23 | center |
-| zuhair-francis | זוהיר פרנסיס | 2018 | 2018 | solo/1 | male | other | 754 | center |
-| avi-peretz | אבי פרץ (זמר) | 1993 | 1993 | solo/1 | male | other | 517 | tel-aviv-area |
-| sheva | שבע | 1995 | 1996 | band/0 | male | other | 567 | center |
-| eyal-shachar | אייל שחר | 1996 | 1996 | solo/1 | male | other | 736 | center |
-| mendy-weiss | מנדי וייס | 2019 | 2019 | solo/1 | male | other | 749 | center |
-| tsippi-fleischer | ציפי פליישר | 1992 | 1992 | solo/1 | female | other | 838 | center |
-| omer-klein | עומר קליין | 2007 | 2007 | solo/1 | male | jazz-soul | 271 | center |
-| moran-david | מורן דוד | 2018 | 2018 | solo/1 | female | pop | 901 | center |
-| shaul-zirlin | שאול צירלין | 1989 | 1989 | solo/1 | male | other | 938 | tel-aviv-area |
-| lior-narkis | ליאור נרקיס | 1992 | 1992 | solo/1 | male | mizrahi | 256 | tel-aviv-area |
-| ohad-shragai | אוהד שרגאי | 2019 | 2019 | solo/1 | male | pop | 573 | center |
-| rose-fostanes | רוז פוסטאנס | 2013 | 2013 | solo/1 | female | pop | 217 | center |
-| yehudit-tamir | יהודית תמיר | 1991 | 1991 | solo/1 | female | other | 611 | center |
-| benny-berman | בני ברמן | 1991 | 1991 | solo/1 | male | folk-israeli | 647 | center |
-| liat-itzhaki | ליאת יצחקי | 2002 | 2002 | solo/1 | female | other | 819 | center |
-| haim-saban | חיים סבן | 1983 | 1983 | solo/1 | male | folk-israeli | 101 | center |
-| acollective | הקולקטיב | 2008 | 2008 | band/0 | male | rock | 479 | center |
-| igi-dayan | איגי דיין | 1992 | 1992 | solo/1 | male | other | 320 | tel-aviv-area |
-| peer-tasi | פאר טסי | 2009 | 2009 | solo/1 | male | mizrahi | 11 | center |
-| -2 | אבי בניון | 2002 | 2002 | solo/1 | male | mizrahi | 559 | south |
-| bnot-yaakov | בנות יעקב | 1995 | 1995 | band/0 | mixed | pop | 927 | center |
-| -27 | רובי חן | 1978 | 1978 | solo/1 | male | mizrahi | 948 | tel-aviv-area |
-| -111 | שלישיית המעפיל | 1965 | 2014 | band/0 | mixed | folk-israeli | 890 | center |
-| gavriel-belhassen | גבריאל בלחסן | 1995 | 1995 | solo/1 | male | rock | 250 | center |
-| ziv-yehezkel | זיו יחזקאל | 2013 | 2013 | solo/1 | male | other | 585 | tel-aviv-area |
-| ilan-damti | אילן דמתי | 2023 | 2023 | solo/1 | male | other | 860 | center |
-| arkadi-duchin | ארקדי דוכין | 1980 | 1980 | solo/1 | male | rock | 39 | abroad |
-| -65 | מאיר אדלר | 2013 | 2013 | solo/1 | male | other | 950 | center |
-| oren-lavie | אורן לביא | 1997 | 1997 | solo/1 | male | folk-israeli | 211 | tel-aviv-area |
-| dudi-levi | דודי לוי | 1986 | 1986 | solo/1 | male | rock | 346 | tel-aviv-area |
-| dudu-aharon | דודו אהרון | 2007 | 2007 | solo/1 | male | mizrahi | 82 | center |
-| itzik-dadya | איציק דדיה | 2002 | 2002 | solo/1 | male | mizrahi | 261 | haifa-north |
-| gil-dor | גיל דור | 1981 | 1981 | solo/1 | male | pop | 455 | tel-aviv-area |
-| josef-hadar | יוסף הדר | 2013 | 2013 | solo/1 | male | other | 482 | tel-aviv-area |
-| yoni | יוני נמרי | 1974 | 1974 | solo/1 | male | pop | 804 | center |
-| bo-az-ma-uda | בועז מעודה | 2007 | 2007 | solo/1 | male | pop | 51 | haifa-north |
-| shefi-yishai | שפי ישי | 1992 | 1992 | solo/1 | male | other | 431 | jerusalem |
-| charlie-megira | צ'רלי מגירה | 2001 | 2001 | solo/1 | male | rock | 241 | center |
-| oren-barzilay | אורן ברזילי | 2017 | 2017 | solo/1 | male | other | 347 | center |
-| yuval-raphael | יובל רפאל | 2024 | 2024 | solo/1 | female | pop | 197 | tel-aviv-area |
-| mark-eliyahu | מארק אליהו | 1998 | 1998 | solo/1 | male | folk-israeli | 10 | center |
-| monotonix | מונוטוניקס | 2005 | 2005 | band/0 | mixed | rock | 502 | center |
-| yair-rosenblum | יאיר רוזנבלום | 1962 | 1962 | solo/1 | male | other | 352 | tel-aviv-area |
-| -100 | המושבה (להקה) | 2005 | 2005 | band/0 | mixed | rock | 994 | center |
-| melechesh | מלכאש | 1993 | 1993 | band/0 | mixed | rock | 306 | jerusalem |
-| ram-orion | רם אוריון | 1982 | 1982 | solo/1 | male | rock | 437 | tel-aviv-area |
-| sarit-avitan | שרית אביטן | 2010 | 2010 | solo/1 | female | mizrahi | 299 | center |
-| atar-mayner | עטר מיינר | 2016 | 2016 | solo/1 | male | other | 718 | center |
-| useless-id | יוסלס איי.די | 1994 | 1994 | band/0 | mixed | indie-alt | 172 | center |
-| holy-wigs | פאות קדושות | 2004 | 2004 | band/0 | mixed | other | 523 | center |
-| liron-amram | לירון עמרם | 2014 | 2014 | solo/1 | male | indie-alt | 906 | center |
-| hani-livne | חני ליבנה | 1984 | 1984 | solo/1 | female | other | 759 | abroad |
-| doron-raphaeli | דורון רפאלי | 2011 | 2011 | solo/1 | male | other | 887 | jerusalem |
-| netta-barzilai | נטע ברזילי | 2012 | 2012 | solo/1 | female | pop | 180 | center |
-| kathleen-reiter | קטלין רייטר | 2011 | 2011 | solo/1 | female | pop | 466 | center |
-| alon-ohel | אלון אהל | 2026 | 2026 | solo/1 | male | other | 484 | center |
-| assaf-talmudi | אסף תלמודי | 2025 | 2025 | solo/1 | male | other | 735 | center |
-| nurit-galron | נורית גלרון | 1970 | 1970 | solo/1 | female | rock | 59 | tel-aviv-area |
-| -43 | יואל לרנר | 1979 | 1979 | solo/1 | male | rock | 919 | center |
-| yoshi-sade | יושי שדה | 1984 | 1984 | solo/1 | male | rock | 359 | center |
-| ido-malka | עידו מלכה | 2023 | 2023 | solo/1 | male | other | 397 | center |
-| sheshet | ששת | 1977 | 1977 | band/0 | mixed | other | 475 | center |
-| vardina-cohen | ורדינה כהן | 1988 | 1988 | solo/1 | female | other | 826 | tel-aviv-area |
-| yonatan-kalimi | יונתן קלימי | 2021 | 2021 | solo/1 | male | other | 286 | center |
-| dafna-bar-zion | דפנה בר ציון | 1985 | 1985 | solo/1 | female | rock | 978 | tel-aviv-area |
-| gedy-ronen | גדי רונן | 2017 | 2017 | solo/1 | male | rock | 679 | center |
-| ahuva-zadok | אהובה צדוק | 1948 | 1948 | solo/1 | female | other | 843 | tel-aviv-area |
-| galit-bell | גלית בל | 1996 | 1996 | solo/1 | female | pop | 710 | center |
-| yehonatan-geffen | יהונתן גפן | 1967 | 1967 | solo/1 | male | other | 624 | center |
-| -97 | זבולון דאב סיסטם | 2006 | 2006 | band/0 | mixed | other | 998 | center |
-| nati-levi | נתי לוי | 1987 | 1987 | solo/1 | male | mizrahi | 372 | center |
-| stalos | סטלוס | 1976 | 1976 | solo/1 | male | other | 527 | center |
-| ishay-levi | ישי לוי | 1976 | 1976 | solo/1 | male | mizrahi | 311 | center |
-| gary-eckstein | גרי אקשטיין | 1964 | 1964 | solo/1 | male | rock | 339 | center |
-| netanela | נתנאלה | 1973 | 1973 | solo/1 | female | rock | 377 | tel-aviv-area |
-| motty-steinmets | מוטי שטיינמץ | 2012 | 2012 | solo/1 | male | religious-pop | 26 | center |
-| ofer-levi | עופר לוי | 1988 | 1988 | solo/1 | male | mizrahi | 44 | tel-aviv-area |
-| vibe-ish | וייב איש | 2017 | 2017 | solo/1 | male | hiphop | 348 | tel-aviv-area |
-| sherry | שרי (זמרת) | 1976 | 1976 | solo/1 | female | pop | 561 | center |
-| david-broza | דוד ברוזה | 1977 | 1977 | solo/1 | male | folk-israeli | 485 | haifa-north |
-| eddie-butler | אדי בטלר | 2021 | 2021 | solo/1 | male | pop | 268 | south |
-| liam-golan | ליאם גולן | 2024 | 2024 | solo/1 | male | mizrahi | 946 | center |
-| maya-dunietz | מאיה דוניץ | 2021 | 2021 | solo/1 | female | other | 249 | tel-aviv-area |
-| eden-dersso | עדן דרסו | 2017 | 2017 | solo/1 | female | hiphop | 351 | center |
-| eitan-masuri | איתן מסורי | 1979 | 1979 | solo/1 | male | other | 341 | tel-aviv-area |
-| pingpong | פינג פונג | 1999 | 1999 | band/0 | mixed | pop | 237 | center |
-| yahel-sherman | יהל שרמן | 1999 | 1999 | solo/1 | male | electronic | 232 | center |
-| ohad-hitman | אוהד חיטמן | 1995 | 1995 | solo/1 | male | pop | 456 | tel-aviv-area |
-| bezalel-aloni | בצלאל אלוני | 1961 | 1961 | solo/1 | male | other | 200 | center |
-| teddy-neguse | טדי נגוסה | 2016 | 2016 | solo/1 | male | hiphop | 760 | tel-aviv-area |
-| shlomit-aharon | שלומית אהרון | 1965 | 1965 | solo/1 | female | other | 229 | tel-aviv-area |
-| -152 | אלף.דלת | 2014 | 2014 | band/0 | mixed | indie-alt | 996 | center |
-| doli-penn | דולי ופן | 2014 | 2014 | band/0 | male | pop | 86 | center |
-| asala-yousef | אסאלה יוסף | 2006 | 2006 | solo/1 | female | other | 499 | center |
-| jackie-mekaiten | ג'קי מקייטן | 1998 | 1998 | solo/1 | male | other | 508 | center |
-| ilana-eliya | אילנה אליה | 1992 | 1992 | solo/1 | female | folk-israeli | 684 | jerusalem |
-| noga-eshed | נגה אשד | 1969 | 1969 | solo/1 | female | folk-israeli | 956 | tel-aviv-area |
-| lidor-yosefi | לידור יוספי | 1997 | 1997 | solo/1 | male | mizrahi | 722 | center |
-| zohar-fresco | זוהר פרסקו | 1992 | 1992 | solo/1 | male | jazz-soul | 310 | center |
-| j-lamotta | J.Lamotta | 2014 | 2014 | solo/1 | female | jazz-soul | 570 | tel-aviv-area |
-| nadav-hanzis | נדב חנציס | 2025 | 2025 | solo/1 | male | other | 98 | center |
-| eli-mohar | עלי מוהר | 1966 | 1966 | solo/1 | male | other | 254 | tel-aviv-area |
-| gitit-shoval | גיתית שובל | 2008 | 2008 | solo/1 | female | other | 454 | tel-aviv-area |
-| ruth-dolores-weiss | רות דולורס וייס | 2002 | 2002 | solo/1 | female | indie-alt | 413 | center |
-| ruli-dikman | רולי דיקמן | 2014 | 2014 | solo/1 | male | other | 751 | center |
-| michal-tal | מיכל טל (זמרת) | 1975 | 1975 | solo/1 | female | other | 682 | center |
-| echo | אקו | 2011 | 2011 | solo/1 | female | hiphop | 356 | abroad |
-| shahar-even-tzur | שחר אבן צור | 2003 | 2003 | solo/1 | male | other | 173 | tel-aviv-area |
-| max-gat-mor | מקס גת-מור | 2022 | 2022 | solo/1 | male | other | 960 | center |
-| irit-bulka | עירית בולקא | 1970 | 1970 | solo/1 | female | pop | 911 | center |
-| eldad-zitrin | אלדד ציטרין | 1999 | 1999 | solo/1 | male | other | 680 | tel-aviv-area |
-| moti-taka | מוטי טקה | 2013 | 2013 | solo/1 | male | mizrahi | 470 | haifa-north |
-| beit-habubot | בית הבובות | 2004 | 2005 | band/0 | mixed | rock | 120 | center |
-| yehudit-ravitz | יהודית רביץ | 1976 | 1976 | solo/1 | female | rock | 399 | south |
-| nimrod-shickler | נמרוד שיקלר | 2005 | 2005 | solo/1 | male | other | 990 | center |
-| kfir-tsafrir | כפיר צפריר | 2021 | 2021 | solo/1 | male | other | 153 | center |
-| eti-bitton | אתי ביטון | 2007 | 2007 | solo/1 | female | mizrahi | 554 | south |
-| -119 | כיף התקווה הטובה | 1970 | 1970 | band/0 | mixed | rock | 809 | center |
-| quarter-to-africa | רבע לאפריקה | 2014 | 2014 | band/0 | mixed | other | 658 | center |
-| avraham-fried | אברהם פריד | 1981 | 1981 | solo/1 | male | religious-pop | 33 | abroad |
-| itzik-kala | איציק קלה | 1971 | 1971 | solo/1 | male | mizrahi | 103 | jerusalem |
-| -123 | שלישיית אדלר | 1963 | 1963 | band/0 | mixed | other | 969 | center |
-| dani-litai | דני ליטאי | 1982 | 1982 | solo/1 | male | other | 441 | tel-aviv-area |
-| hakol-over-habibi | הכל עובר חביבי | 1975 | 1975 | band/0 | mixed | pop | 144 | center |
-| -39 | שרון הולצמן | 2001 | 2001 | solo/1 | male | other | 706 | center |
-| peter-roth | פיטר רוט | 1992 | 1992 | solo/1 | male | rock | 105 | tel-aviv-area |
-| sinai-tor | סיני תור | 1997 | 1997 | solo/1 | male | rock | 564 | center |
-| shlomo-zach | שלמה צח | 1962 | 1962 | solo/1 | male | other | 278 | haifa-north |
-| the-ultras | האולטראס | 2004 | 2004 | band/0 | mixed | hiphop | 731 | center |
-| george-bar | ג'ורג' בר | 2001 | 2001 | solo/1 | male | mizrahi | 834 | tel-aviv-area |
-| itamar-rotschild | איתמר רוטשילד | 2002 | 2002 | solo/1 | male | folk-israeli | 659 | center |
-| bimot-troupe | חבורת בימות | 1972 | 1972 | band/0 | mixed | pop | 988 | center |
-| matan-hassan | מתן חסן | 2023 | 2023 | solo/1 | male | other | 597 | center |
-| rafi-biton | רפי ביטון | 2024 | 2024 | solo/1 | male | other | 540 | center |
-| hagit-yaso | חגית יאסו | 2009 | 2009 | solo/1 | female | pop | 296 | center |
-| moshe-wilensky | משה וילנסקי | 0 | 1932 | solo/1 | male | other | 124 | center |
-| lucille-crew | לוסיל קרו | 2012 | 2012 | band/0 | mixed | hiphop | 503 | center |
-| benaia-barabi | בניה ברבי | 2015 | 2015 | solo/1 | male | other | 47 | haifa-north |
-| aharon-razel | אהרן רזאל | 1997 | 1997 | solo/1 | male | religious-pop | 195 | abroad |
-| desert | Desert | 2002 | 2002 | band/0 | mixed | rock | 513 | center |
-| nessim-saroussi | ניסים סרוסי | 2016 | 2016 | solo/1 | male | pop | 459 | center |
-| -90 | נכי נאצה | 1990 | 1990 | band/0 | mixed | other | 839 | center |
-| micha-biton | מיכה ביטון | 1994 | 1994 | solo/1 | male | other | 692 | center |
-| guy-mintus | גיא מינטוס | 2015 | 2015 | solo/1 | male | other | 357 | center |
-| yitzchak-meir-helfgot | יצחק מאיר הלפגוט | 2003 | 2003 | solo/1 | male | religious-pop | 440 | center |
-| quami-de-la-fox | קוואמי | 1990 | 1990 | solo/1 | male | hiphop | 132 | center |
-| nachum-heiman | נחום היימן | 1951 | 1951 | solo/1 | male | folk-israeli | 167 | center |
-| -94 | להקת חופים | 1984 | 1984 | band/0 | mixed | other | 854 | center |
-| mika-karni | מיקה קרני | 1997 | 1997 | solo/1 | female | rock | 169 | center |
-| ran-shem-tov | רן שם טוב | 1989 | 1989 | solo/1 | male | rock | 882 | center |
-| matti-caspi | מתי כספי | 1973 | 1973 | solo/1 | male | jazz-soul | 319 | center |
-| -79 | השכנים של צ'יץ' | 1991 | 1991 | band/0 | mixed | other | 620 | center |
-| ori-zakh | אורי זך | 2004 | 2004 | solo/1 | male | pop | 207 | center |
-| beni-el | בני אל | 1982 | 1982 | solo/1 | male | other | 957 | center |
-| system-ali | סיסטם עאלי | 2010 | 2010 | band/0 | mixed | hiphop | 907 | center |
-| ilan-and-ilanit | אילן ואילנית | 1965 | 1965 | band/0 | mixed | folk-israeli | 932 | center |
-| -128 | הטוב הרע והנערה | 1972 | 1972 | band/0 | mixed | other | 896 | center |
-| gilad-segev | גלעד שגב | 1991 | 1991 | solo/1 | male | rock | 379 | tel-aviv-area |
-| daniel-salomon | דניאל סלומון | 1998 | 1998 | solo/1 | male | pop | 223 | center |
-| -7 | מושיקו מור | 2011 | 2011 | solo/1 | male | pop | 215 | center |
-| -82 | ברוש (להקה) | 1978 | 1978 | band/0 | mixed | rock | 650 | center |
-| yafa-yarkoni | יפה ירקוני | 0 | 1933 | solo/1 | female | folk-israeli | 75 | tel-aviv-area |
-| ilanit | אילנית | 1964 | 1964 | solo/1 | female | pop | 442 | tel-aviv-area |
-| shovevey-zion | שובבי ציון | 1970 | 1970 | band/0 | male | rock | 968 | center |
-| leyli | ליילי | 2017 | 2017 | band/0 | male | rock | 637 | center |
-| mike-brant | מייק בראנט | 1969 | 1969 | solo/1 | male | pop | 17 | abroad |
-| avi-benedi | אבי בנדי | 2001 | 2001 | solo/1 | male | pop | 708 | center |
-| rema-samsonov | רמה סמסונוב | 1952 | 1952 | solo/1 | female | other | 825 | jerusalem |
-| gili | גילי נתנאל | 2002 | 2002 | solo/1 | male | other | 443 | center |
-| mili-miran | מילי מירן | 1982 | 1982 | solo/1 | female | other | 920 | center |
-| kobi-farhi | קובי פרחי | 1991 | 1991 | solo/1 | male | rock | 258 | tel-aviv-area |
-| prey-for-nothing | Prey For Nothing | 2005 | 2005 | band/0 | mixed | other | 494 | center |
-| lazy-bams | הבטלנים | 1987 | 1987 | band/0 | male | other | 898 | center |
-| mona-rosenblum | משה מרדכי רוזנבלום | 1982 | 1982 | solo/1 | male | other | 526 | tel-aviv-area |
-| zohra-al-fassiya | זוהרה אלפסיה | 1982 | 1982 | solo/1 | female | other | 269 | center |
-| yehuda-poliker | יהודה פוליקר | 1980 | 1980 | solo/1 | male | rock | 9 | haifa-north |
-| vibe-tribe | Vibe Tribe | 2002 | 2002 | band/0 | mixed | electronic | 463 | center |
-| gevolt | Gevolt | 2001 | 2001 | band/0 | mixed | other | 518 | center |
-| karni-postel | קרני פוסטל | 1986 | 1986 | solo/1 | female | rock | 387 | tel-aviv-area |
-| motty-weiss | מוטי וייס | 2017 | 2017 | solo/1 | male | other | 416 | center |
-| gil-shohat | גיל שוחט | 2004 | 2004 | solo/1 | male | jazz-soul | 316 | tel-aviv-area |
-| yosef-chaim-shwekey | יוסף חיים שוואקי | 2008 | 2008 | solo/1 | male | other | 660 | jerusalem |
-| doron-salomon | דורון סלומון | 2013 | 2013 | solo/1 | male | jazz-soul | 673 | center |
-| sara-beck | שרה ב"ק | 2012 | 2012 | solo/1 | female | other | 277 | center |
-| doron-eyal | דורון אייל | 2019 | 2019 | solo/1 | male | rock | 733 | tel-aviv-area |
-| aryeh-levanon | אריה לבנון | 0 | 1947 | solo/1 | male | other | 571 | center |
-| -33 | גילי מסמי | 2003 | 2003 | solo/1 | male | pop | 945 | center |
-| eti-levy | אתי לוי | 1992 | 1992 | solo/1 | female | mizrahi | 154 | south |
-| moshe-giat | משה גיאת | 1982 | 1982 | solo/1 | male | mizrahi | 493 | center |
-| izhar-ashdot | יזהר אשדות | 1973 | 1973 | solo/1 | male | rock | 46 | jerusalem |
-| plastic-venus | פלסטיק ונוס | 1990 | 1990 | band/0 | mixed | other | 845 | center |
-| yossi-elephant | יוסי אלפנט | 1983 | 1983 | solo/1 | male | rock | 402 | tel-aviv-area |
-| alma-gov | עלמה גוב | 2021 | 2021 | solo/1 | female | other | 302 | center |
-| danny-golan | דני גולן | 1967 | 1967 | solo/1 | male | folk-israeli | 512 | tel-aviv-area |
-| ilana-rovina | אילנה רובינא | 1959 | 1959 | solo/1 | female | other | 267 | tel-aviv-area |
-| -29 | יהוא ירון | 2001 | 2001 | solo/1 | male | other | 818 | jerusalem |
-| alma-zohar | עלמה זהר | 2007 | 2007 | solo/1 | female | pop | 199 | center |
-| tal-vaknin | טל ועקנין | 1992 | 1992 | solo/1 | male | mizrahi | 609 | jerusalem |
-| or-cohen | אור כהן | 2024 | 2024 | solo/1 | female | other | 894 | center |
-| paul-ben-haim | פאול בן חיים | 1992 | 1992 | solo/1 | male | jazz-soul | 386 | center |
-| chulu | צ'ולו | 1995 | 1995 | solo/1 | male | hiphop | 219 | abroad |
-| kiki-rothstein | קיקי רוטשטיין | 1971 | 1971 | solo/1 | male | other | 449 | center |
-| yarona-caspi | ירונה כספי | 1990 | 1990 | solo/1 | female | rock | 908 | tel-aviv-area |
-| sfatayim | שפתיים (להקה) | 1985 | 1985 | band/0 | mixed | mizrahi | 315 | center |
-| beni-elbaz | בני אלבז | 1984 | 1984 | solo/1 | male | other | 276 | center |
-| shlomi-shabat | שלומי שבת | 1985 | 1985 | solo/1 | male | mizrahi | 117 | center |
-| carakukly | כרקוקלי | 2013 | 2013 | band/0 | mixed | pop | 376 | center |
-| hatarnegolim | התרנגולים | 1960 | 1960 | band/0 | mixed | folk-israeli | 752 | center |
-| kutiman | קותימאן | 2006 | 2006 | solo/1 | male | jazz-soul | 130 | jerusalem |
-| tzukush | צוקוש | 2016 | 2016 | solo/1 | male | hiphop | 654 | tel-aviv-area |
-| noam-pinhasov | נועם פנחסוב | 2009 | 2009 | solo/1 | male | rock | 982 | center |
-| ketreyah | כיתריה | 2018 | 2018 | solo/1 | female | pop | 879 | south |
-| victoria-hanna | ויקטוריה חנה | 2015 | 2015 | solo/1 | female | other | 231 | jerusalem |
-| cain-abel-90210 | קין והבל 90210 | 2007 | 2007 | band/0 | mixed | rock | 462 | center |
-| sivan-talmor | סיון טלמור | 1998 | 1998 | solo/1 | female | other | 142 | south |
-| doron-miran | דורון מירן | 1987 | 1987 | solo/1 | male | mizrahi | 274 | center |
-| shuli-natan | שולי נתן | 1967 | 1967 | solo/1 | female | folk-israeli | 205 | center |
-| d-n-p-rtos | עדן פרטוש | 1996 | 1996 | solo/1 | male | jazz-soul | 524 | center |
-| -95 | להקת פרה אדומה | 2003 | 2007 | band/0 | mixed | other | 1000 | center |
-| eden | עדן | 1996 | 1996 | band/0 | mixed | pop | 488 | center |
-| orphaned-land | אורפנד לנד | 1991 | 1992 | band/0 | mixed | rock | 58 | tel-aviv-area |
-| benni-bashan | בני בשן | 1996 | 1996 | solo/1 | male | other | 677 | center |
-| michael-cohen | מיכאל כהן | 2008 | 2008 | solo/1 | male | hiphop | 230 | tel-aviv-area |
-| -89 | דורלקס סדלקס | 1983 | 1983 | band/0 | mixed | indie-alt | 935 | center |
-| sharif | שריףף | 1992 | 1992 | solo/1 | male | mizrahi | 366 | south |
-| nitsan-khen-raz-el | ניצן-חן רזאל | 1996 | 1996 | solo/1 | male | religious-pop | 880 | jerusalem |
-| kol-israel-arabic-orchestra | תזמורת קול ישראל בערבית | 1984 | 1984 | band/0 | mixed | other | 868 | center |
-| yonatan-cnaan | יונתן כנען | 2012 | 2012 | solo/1 | male | pop | 866 | tel-aviv-area |
-| yoni-bloch | יוני בלוך | 2003 | 2003 | solo/1 | male | rock | 40 | south |
-| shrekdimc | שרק | 2016 | 2016 | solo/1 | male | hiphop | 541 | center |
-| haim-louk | חיים לוק | 2015 | 2015 | solo/1 | male | other | 432 | center |
-| alexandra | אלכסנדרה | 1967 | 1967 | solo/1 | female | other | 453 | center |
-| tamar-yahalomi | תמר יהלומי | 2011 | 2011 | solo/1 | female | pop | 198 | tel-aviv-area |
-| ravid-plotnik | רביד פלוטניק | 2003 | 2003 | solo/1 | male | hiphop | 20 | center |
-| garden-city-movement | גארדן סיטי מובמנט | 2013 | 2013 | band/0 | mixed | electronic | 412 | center |
-| zanvil-weinberger | זאנוויל ויינברגר | 2016 | 2016 | solo/1 | male | other | 324 | jerusalem |
-| noy-fadlon | נוי פדלון | 2012 | 2012 | solo/1 | female | mizrahi | 384 | center |
-| shmemel | שממל | 2007 | 2011 | band/0 | mixed | other | 773 | center |
-| sagiv-cohen | סגיב כהן | 2001 | 2001 | solo/1 | male | jazz-soul | 151 | center |
-| iggy-waxman | איגי וקסמן | 1986 | 1986 | solo/1 | female | rock | 245 | center |
-| -76 | אלמנה שחורה (להקה) | 1984 | 1991 | band/0 | mixed | other | 926 | center |
-| ortal-ofek | אורטל אופק | 2002 | 2002 | solo/1 | female | pop | 506 | tel-aviv-area |
-| moshik-afia | מושיק עפיה | 1995 | 1998 | solo/1 | male | mizrahi | 73 | tel-aviv-area |
-| tilda-rejwan | טילדה רג'ואן | 2020 | 2020 | solo/1 | female | other | 780 | abroad |
-| yohanan-zarai | יוחנן זראי | 1964 | 1964 | solo/1 | male | other | 364 | center |
-| hanna-aharoni | חנה אהרוני | 1960 | 1960 | solo/1 | female | other | 772 | center |
-| maya-rotman | מאיה רוטמן | 2006 | 2006 | solo/1 | female | rock | 703 | center |
-| -96 | בלאגן | 1980 | 1990 | band/0 | mixed | rock | 827 | center |
-| anat-moshkovski | ענת מושקובסקי | 2010 | 2010 | solo/1 | female | other | 473 | tel-aviv-area |
-| ahrele-samet | אהרלה סמט | 2007 | 2008 | solo/1 | male | other | 565 | center |
-| arafel | ערפל (להקה) | 1997 | 1997 | band/0 | mixed | rock | 665 | center |
-| kosha-dillz | קושה דילז | 2005 | 2005 | solo/1 | male | hiphop | 572 | center |
-| boom-pam | בום פם | 2003 | 2003 | band/0 | male | rock | 91 | center |
-| ohad-moskowitz | אוהד מושקוביץ | 2003 | 2003 | solo/1 | male | religious-pop | 303 | center |
-| roman-sharon | רומן שרון | 1969 | 1969 | solo/1 | male | other | 557 | center |
-| mc-abdul | MC Abdul | 2020 | 2020 | solo/1 | male | hiphop | 28 | center |
-| danny-robas | דני רובס | 1983 | 1983 | solo/1 | male | rock | 262 | south |
-| yaniv-d-or | יניב ד'אור | 2012 | 2012 | solo/1 | male | jazz-soul | 537 | tel-aviv-area |
-| shani-hazan | שני חזן | 2018 | 2018 | solo/1 | female | other | 786 | tel-aviv-area |
-| moshe-lahav | משה להב | 2017 | 2017 | solo/1 | male | other | 632 | jerusalem |
-| niv-demirel | ניב דמירל | 2014 | 2014 | solo/1 | male | other | 528 | center |
-| doron-medalie | דורון מדלי | 2001 | 2001 | solo/1 | male | pop | 383 | center |
-| talisman | טליסמאן | 2016 | 2016 | solo/1 | male | hiphop | 381 | abroad |
-| arik-sinai | אריק סיני | 1968 | 1968 | solo/1 | male | pop | 89 | center |
-| karolina | קרולינה | 1999 | 1999 | solo/1 | female | indie-alt | 60 | tel-aviv-area |
-| ha-bustanaim | הבוסתנאים | 2002 | 2002 | band/0 | mixed | folk-israeli | 928 | center |
-| shay-amar | שי עמר | 2001 | 2001 | solo/1 | male | other | 774 | center |
-| oded-ben-hur | עודד בן חור | 1979 | 1979 | solo/1 | male | other | 983 | center |
-| tamar-eisenman | תמר אייזנמן | 2001 | 2001 | solo/1 | female | folk-israeli | 292 | jerusalem |
-| af-ozen-garon | אף אוזן גרון | 1970 | 1975 | band/0 | male | other | 975 | center |
-| rafi-kadishzon | רפי קדישזון | 1977 | 1977 | solo/1 | male | jazz-soul | 953 | center |
-| voca-people | ווקה פיפל | 2009 | 2009 | band/0 | mixed | pop | 71 | center |
-| the-revivo-project | הפרויקט של רביבו | 2012 | 2012 | band/0 | mixed | mizrahi | 141 | center |
-| -25 | איציק שמלי | 2002 | 2002 | solo/1 | male | hiphop | 669 | center |
-| hillel-slovak | הלל סלובק | 1976 | 1976 | solo/1 | male | indie-alt | 67 | center |
-| haim-israel | חיים סהר ישראל | 1999 | 1999 | solo/1 | male | mizrahi | 165 | center |
-| dorit-reuveni | דורית ראובני | 1973 | 1973 | solo/1 | female | other | 635 | center |
-| yam-refaeli | ים רפאלי | 2018 | 2018 | solo/1 | male | pop | 226 | south |
-| hanan-ya-israel-bohadana | חנן-יה ישראל בוהדנה | 2009 | 2009 | solo/1 | male | other | 594 | south |
-| israel-bar-on | ישראל בר-און | 2007 | 2007 | solo/1 | male | pop | 331 | south |
-| yair-elitzur | יאיר אליצור | 2018 | 2018 | solo/1 | male | other | 119 | center |
-| abatte-barihun | אבטה בריהון | 1983 | 1983 | solo/1 | male | jazz-soul | 562 | center |
-| roei-adam | רואי אדם | 2022 | 2022 | solo/1 | male | other | 129 | center |
-| nadav-aharoni | נדב אהרוני | 2021 | 2021 | solo/1 | male | other | 361 | haifa-north |
-| ben-tzur | בן צור | 2019 | 2019 | solo/1 | male | mizrahi | 97 | haifa-north |
-| bustan-abraham | בוסתן אברהם | 1991 | 1992 | band/0 | mixed | mizrahi | 662 | center |
-| noa-brenner | נועה ברנר | 2016 | 2016 | solo/1 | female | other | 709 | tel-aviv-area |
-| sasson-ifram-shaulov | ששון איפרם שאולוב | 2020 | 2020 | solo/1 | male | mizrahi | 22 | jerusalem |
-| maya-simantov | מאיה סימנטוב | 2004 | 2004 | solo/1 | female | electronic | 186 | tel-aviv-area |
-| yoni-rechter | יוני רכטר | 1972 | 1972 | solo/1 | male | rock | 445 | tel-aviv-area |
-| yoel-dikman | יואלי דיקמן | 2022 | 2022 | solo/1 | male | jazz-soul | 532 | center |
-| shlomi-bracha | שלומי ברכה | 1985 | 1985 | solo/1 | male | rock | 273 | tel-aviv-area |
-| yaron-cohen | ירון כהן | 2004 | 2004 | solo/1 | male | other | 885 | center |
-| trifonas | טריפונס | 1982 | 1982 | solo/1 | male | other | 283 | center |
-| hadag-nahash | הדג נחש | 1996 | 1996 | band/0 | mixed | hiphop | 218 | jerusalem |
-| ur-kasdim | אור כשדים | 1989 | 1991 | band/0 | male | rock | 924 | center |
-| andre-hajdu | אנדרה היידו | 1996 | 1996 | solo/1 | male | other | 295 | center |
-| kinderlach | קינדרלעך | 2005 | 2005 | band/0 | mixed | other | 941 | center |
-| idan-raichel | עידן רייכל | 1998 | 1998 | solo/1 | male | folk-israeli | 29 | center |
-| gidi-shamur | גידי שמור | 1989 | 1989 | solo/1 | male | other | 762 | center |
-| -8 | אבי אילסון | 2018 | 2018 | solo/1 | male | other | 663 | jerusalem |
-| jacko-eisenberg | ג'קו אייזנברג | 1996 | 1996 | solo/1 | male | rock | 335 | center |
-| dudi-kalish | דודי קאליש | 1995 | 1995 | solo/1 | male | other | 741 | center |
-| jasmin-even | יסמין אבן | 2004 | 2004 | solo/1 | female | other | 817 | tel-aviv-area |
-| elai-botner | עילי בוטנר | 2007 | 2007 | solo/1 | male | rock | 156 | center |
-| jasmin-moallem | יסמין מועלם | 2020 | 2020 | solo/1 | female | hiphop | 56 | jerusalem |
-| kobi-brummer | קובי ברומר | 2013 | 2013 | solo/1 | male | other | 661 | center |
-| emi-rudner | חמי רודנר | 1985 | 1985 | solo/1 | male | rock | 152 | center |
-| fortisakharof | פורטיסחרוף | 1988 | 1988 | band/0 | mixed | rock | 243 | center |
-| roni-ginosar | רוני גינוסר | 2007 | 2007 | solo/1 | female | jazz-soul | 930 | center |
-| orit-shahaf | אורית שחף | 1992 | 1992 | solo/1 | female | rock | 392 | south |
-| -130 | להקת חיל התותחנים | 1969 | 1969 | band/0 | mixed | other | 991 | center |
-| ze-ev-ne-amah | זאב נחמה | 1985 | 1985 | solo/1 | male | other | 516 | tel-aviv-area |
-| mor-reveii | מור | 2019 | 2019 | solo/1 | female | other | 90 | center |
 | ben-snof | בן סנוף | 1993 | 1993 | solo/1 | male | other | 272 | haifa-north |
-| henree | הנרי (מוזיקאי) | 2002 | 2002 | solo/1 | male | other | 406 | center |
-| -47 | אהרון ירימי | 1986 | 1986 | solo/1 | male | other | 855 | center |
-| yael-deckelbaum | יעל דקלבאום | 1995 | 1995 | solo/1 | female | other | 145 | jerusalem |
-| sheila-ferber | שילה פרבר | 2003 | 2003 | solo/1 | female | rock | 704 | tel-aviv-area |
-| sara-sharon | שרה'לה שרון | 1979 | 1979 | solo/1 | female | pop | 110 | center |
-| akiva-nof | עקיבא נוף | 2011 | 2011 | solo/1 | male | other | 668 | tel-aviv-area |
-| -91 | מלכה באיה | 1997 | 1997 | band/0 | mixed | other | 813 | center |
-| shlomo-gronich | שלמה גרוניך | 1969 | 1969 | solo/1 | male | jazz-soul | 447 | center |
+| moti-taka | מוטי טקה | 2013 | 2013 | solo/1 | male | mizrahi | 470 | haifa-north |
+| noa-faran | נועה פארן | 1997 | 1997 | solo/1 | female | hiphop | 536 | center |
+| misha-segal | מישה סגל | 1991 | 1991 | solo/1 | male | other | 492 | center |
+| danny-maseng | דני מסנג | 1965 | 1965 | solo/1 | male | pop | 729 | tel-aviv-area |
+| yehoshua-sofer | יהושע סופר | 1963 | 1963 | solo/1 | male | folk-israeli | 19 | abroad |
+| malka-spigel | מלכה שפיגל | 1980 | 1980 | solo/1 | female | indie-alt | 430 | center |
+| morgenshtern | מורגנשטרן | 2010 | 2010 | solo/1 | male | rock | 16 | center |
+| gili-galit | גילי וגלית | 1989 | 1989 | band/0 | mixed | other | 603 | center |
+| avishai-cohen | אבישי כהן | 1993 | 1993 | solo/1 | male | jazz-soul | 57 | haifa-north |
+| ovadia-hamama | עובדיה חממה | 1991 | 1991 | solo/1 | male | religious-pop | 688 | center |
+| jaroslav-jakubovic | ירוסלב יעקובוביץ' | 2009 | 2009 | solo/1 | male | jazz-soul | 628 | center |
+| irit-bulka | עירית בולקא | 1970 | 1970 | solo/1 | female | pop | 911 | center |
+| haim-saban | חיים סבן | 1983 | 1983 | solo/1 | male | folk-israeli | 101 | center |
+| doron-raphaeli | דורון רפאלי | 2011 | 2011 | solo/1 | male | other | 887 | jerusalem |
+| noam-rotem | נעם רותם | 1993 | 1993 | solo/1 | male | rock | 166 | center |
+| dudu-zakai | דודו זכאי | 1967 | 1967 | solo/1 | male | other | 921 | center |
+| arik-sinai | אריק סיני | 1968 | 1968 | solo/1 | male | pop | 89 | center |
+| the-shadow | הצל | 1999 | 1999 | solo/1 | male | hiphop | 36 | haifa-north |
 | puncher | פנצ'ר (להקה) | 1987 | 1987 | band/0 | male | other | 836 | center |
-| erez-halevi | ארז הלוי | 1984 | 1984 | solo/1 | male | other | 645 | center |
-| amir-yeruham | מירו | 2019 | 2019 | solo/1 | male | other | 287 | tel-aviv-area |
-| the-doppler-effect | תופעת דופלר (להקה) | 1982 | 1993 | band/0 | mixed | pop | 468 | center |
-| zeev-tene | זאב טנא | 1975 | 1975 | solo/1 | male | rock | 340 | center |
-| assaf-harush | אסף הרוש | 2018 | 2018 | solo/1 | male | other | 740 | center |
-| hadassa-sigalov | הדסה סיגלוב | 1968 | 1968 | solo/1 | female | other | 979 | tel-aviv-area |
-| danny-sanderson | דני סנדרסון | 1966 | 1966 | solo/1 | male | rock | 194 | haifa-north |
-| aris-san | אריס סאן | 1957 | 1957 | solo/1 | male | mizrahi | 80 | abroad |
-| silverdon | סילברדון | 1990 | 1990 | solo/1 | male | other | 972 | center |
-| amaseffer | עם הספר | 2004 | 2004 | band/0 | mixed | rock | 521 | center |
-| berry-sakharof | ברי סחרוף | 1973 | 1973 | solo/1 | male | rock | 87 | abroad |
-| ben-artzi | בן ארצי | 1998 | 1998 | solo/1 | male | other | 187 | tel-aviv-area |
-| -129 | שלום הציבור (להקה) | 1984 | 1984 | band/0 | mixed | rock | 985 | center |
+| mordechai-sobol | מרדכי סובול | 2007 | 2007 | solo/1 | male | religious-pop | 784 | tel-aviv-area |
+| chizbatron | הצ'יזבטרון | 1948 | 1948 | band/0 | mixed | other | 820 | center |
+| yosef-karduner | יוסף קרדונר | 2000 | 2000 | solo/1 | male | other | 270 | center |
+| doron-salomon | דורון סלומון | 2013 | 2013 | solo/1 | male | jazz-soul | 673 | center |
+| sarid-trio | שלישיית שריד | 1960 | 1960 | band/0 | mixed | folk-israeli | 959 | center |
+| yishai-ribo | ישי ריבו | 2007 | 2007 | solo/1 | male | religious-pop | 78 | center |
+| emil-zrihan | אמיל זריהן | 1986 | 1986 | solo/1 | male | other | 723 | center |
+| harel-moyal | הראל מויאל | 2000 | 2000 | solo/1 | male | pop | 88 | center |
+| avner-kenner | אבנר קנר | 1976 | 1976 | solo/1 | male | other | 616 | center |
+| eva-francis | אווה פרנסיס | 2018 | 2018 | solo/1 | female | other | 923 | center |
+| haya-samir | חיה סמיר | 1992 | 1992 | solo/1 | female | other | 798 | jerusalem |
+| shuli-natan | שולי נתן | 1967 | 1967 | solo/1 | female | folk-israeli | 205 | center |
+| ivri-lider | עברי לידר | 1997 | 1997 | solo/1 | male | pop | 104 | center |
+| sha-anan-streett | שאנן סטריט | 2007 | 2007 | solo/1 | male | other | 143 | jerusalem |
+| uri-fineman | אורי פיינמן | 1990 | 1990 | solo/1 | male | rock | 519 | tel-aviv-area |
+| gabi-berlin | גבי ברלין | 1954 | 1954 | solo/1 | male | other | 716 | tel-aviv-area |
+| lilia | ליליה | 2019 | 2019 | solo/1 | female | other | 937 | center |
+| -27 | רובי חן | 1978 | 1978 | solo/1 | male | mizrahi | 948 | tel-aviv-area |
+| -35 | שיקו חייק | 1998 | 1998 | solo/1 | male | mizrahi | 770 | center |
+| nadav-aharoni | נדב אהרוני | 2021 | 2021 | solo/1 | male | other | 361 | haifa-north |
+| victoria-hanna | ויקטוריה חנה | 2015 | 2015 | solo/1 | female | other | 231 | jerusalem |
+| danny-granott | דני גרנות | 1969 | 1969 | solo/1 | male | other | 851 | center |
+| david-d-or | דוד ד'אור | 1985 | 1985 | solo/1 | male | folk-israeli | 38 | tel-aviv-area |
+| -8 | אבי אילסון | 2018 | 2018 | solo/1 | male | other | 663 | jerusalem |
+| -39 | שרון הולצמן | 2001 | 2001 | solo/1 | male | other | 706 | center |
+| shalva-berti | שלווה ברטי | 1986 | 1986 | solo/1 | female | other | 914 | center |
+| sputnik-hi-fi | ספוטניק היי פיי | 2014 | 2014 | band/0 | mixed | other | 793 | center |
+| habiluim | הבילויים | 1996 | 1997 | band/0 | mixed | rock | 135 | center |
+| roei-adam | רואי אדם | 2022 | 2022 | solo/1 | male | other | 129 | center |
+| shmemel | שממל | 2007 | 2011 | band/0 | mixed | other | 773 | center |
+| adar-gold | אדר גולד | 2019 | 2019 | solo/1 | female | pop | 472 | center |
+| galit-bell | גלית בל | 1996 | 1996 | solo/1 | female | pop | 710 | center |
+| -5 | חזי פניאן | 1986 | 1986 | solo/1 | male | other | 849 | center |
+| -19 | שי להב | 2004 | 2004 | solo/1 | male | other | 636 | center |
+| astrix | אסטריקס | 1995 | 1995 | solo/1 | male | electronic | 155 | center |
 | the-idan-raichel-project | הפרויקט של עידן רייכל | 2002 | 2002 | band/0 | mixed | ethnic-world | 93 | center |
-| helem-tarbut | הלם תרבות | 2016 | 2016 | band/0 | male | hiphop | 691 | center |
-| johnny-goldstein | ג'וני גולדשטיין | 2004 | 2004 | solo/1 | male | rock | 578 | center |
-| shaked-komemy | שקד קוממי | 2012 | 2012 | solo/1 | male | pop | 824 | center |
-| israel-parnas | ישראל פרנס | 2022 | 2022 | solo/1 | male | other | 789 | tel-aviv-area |
-| tamar-giladi | תמר גלעדי | 1998 | 1998 | solo/1 | female | jazz-soul | 225 | center |
-| alma | עלמא | 2000 | 2001 | band/0 | mixed | religious-pop | 933 | center |
-| yossi-fine | יוסי פיין | 1981 | 1981 | solo/1 | male | other | 94 | abroad |
-| nofia-yedidya | נופיה | 2025 | 2025 | solo/1 | female | other | 739 | center |
-| ouri-chevakh | אורי שבח | 1972 | 1972 | solo/1 | male | other | 606 | center |
-| yagel-haroush | יגל הרוש | 2020 | 2020 | solo/1 | male | other | 400 | south |
-| nicol-raidman | ניקול ראידמן | 2017 | 2017 | solo/1 | female | pop | 405 | center |
-| jonathan-bitton | יונתן ביטון | 2016 | 2016 | solo/1 | male | other | 867 | center |
-| asaf-amdursky | אסף אמדורסקי | 1988 | 1988 | solo/1 | male | rock | 534 | tel-aviv-area |
-| -34 | שמוליק צ'יזיק | 1984 | 1984 | solo/1 | male | other | 861 | center |
-| -31 | מלי ברונשטיין | 1973 | 1973 | solo/1 | female | pop | 904 | center |
-| -40 | אייל קופמן | 1991 | 1991 | solo/1 | male | rock | 973 | tel-aviv-area |
-| moshe-korsia | משה כורסיה | 2017 | 2017 | solo/1 | male | other | 244 | center |
-| pablo-rosenberg | פבלו רוזנברג | 1980 | 1980 | solo/1 | male | rock | 108 | center |
-| -125 | שלישיית התאומים | 1965 | 1966 | band/0 | mixed | other | 803 | center |
-| tova-gertner | טובה גרטנר | 1986 | 1986 | solo/1 | female | indie-alt | 439 | tel-aviv-area |
-| ofira-ravit-yosefi | אופירה ורוית יוספי | 1989 | 1989 | band/0 | female | other | 705 | center |
-| ronit-ophir | רונית אופיר | 1972 | 1972 | solo/1 | female | folk-israeli | 910 | center |
-| northern-command-variety-ensemble | להקת פיקוד הצפון | 1954 | 1954 | band/0 | mixed | other | 566 | center |
-| mordechai-ben-david | מרדכי בן דוד | 1973 | 1973 | solo/1 | male | religious-pop | 25 | abroad |
-| sami-lazmi | סמי לזמי | 2023 | 2023 | solo/1 | male | other | 816 | abroad |
+| jasmin-moallem | יסמין מועלם | 2020 | 2020 | solo/1 | female | hiphop | 56 | jerusalem |
+| the-ariel-brothers | האחים אריאל | 2017 | 2017 | solo/1 | male | other | 448 | center |
+| yehuda-green | יהודה גרין | 2007 | 2007 | solo/1 | male | other | 478 | jerusalem |
+| lucille-crew | לוסיל קרו | 2012 | 2012 | band/0 | mixed | hiphop | 503 | center |
+| atar-mayner | עטר מיינר | 2016 | 2016 | solo/1 | male | other | 718 | center |
+| shuki-salomon | שוקי סלומון | 2022 | 2022 | solo/1 | male | other | 641 | center |
+| foreign-affair | פוריין אפייר | 1988 | 1988 | band/0 | mixed | rock | 764 | center |
+| the-sixties | הסיקסטיז | 1984 | 1984 | band/0 | mixed | other | 631 | center |
+| nag-hammadi | נאג' חמאדי | 2005 | 2005 | band/0 | male | rock | 958 | center |
+| tamir-muskat | תמיר מוסקט | 1980 | 1980 | solo/1 | male | rock | 259 | center |
+| geva-alon | גבע אלון | 2000 | 2000 | solo/1 | male | indie-alt | 328 | center |
+| dudi-bar-david | דודי בר דוד | 2019 | 2019 | solo/1 | male | other | 939 | center |
+| gili-yalo | גילי יאלו | 2017 | 2017 | solo/1 | male | jazz-soul | 293 | center |
+| maya-simantov | מאיה סימנטוב | 2004 | 2004 | solo/1 | female | electronic | 186 | tel-aviv-area |
 | shalom-gad | שלום גד | 1988 | 1988 | solo/1 | male | other | 602 | center |
-| -83 | הפונדקאים | 1976 | 1976 | band/0 | mixed | other | 993 | center |
-| maya-avraham | מאיה אברהם | 1998 | 1998 | solo/1 | female | other | 333 | center |
-| oforia | עופר דיקובסקי | 1994 | 1994 | solo/1 | male | electronic | 391 | tel-aviv-area |
+| ilanit | אילנית | 1964 | 1964 | solo/1 | female | pop | 442 | tel-aviv-area |
+| -25 | איציק שמלי | 2002 | 2002 | solo/1 | male | hiphop | 669 | center |
+| orr-amrami-brockman | אור עמרמי ברוקמן | 2018 | 2018 | solo/1 | male | other | 876 | center |
+| -133 | האירוסים - זמרי בית אלפא | 1977 | 1977 | band/0 | mixed | folk-israeli | 999 | center |
+| ido-malka | עידו מלכה | 2023 | 2023 | solo/1 | male | other | 397 | center |
+| cain-abel-90210 | קין והבל 90210 | 2007 | 2007 | band/0 | mixed | rock | 462 | center |
+| inon-zur | ינון צור | 1994 | 1994 | solo/1 | male | folk-israeli | 330 | center |
+| mika-karni | מיקה קרני | 1997 | 1997 | solo/1 | female | rock | 169 | center |
+| guy-mardel | Guy Mardel | 1965 | 1965 | solo/1 | male | pop | 43 | abroad |
+| the-churchills | הצ'רצ'ילים | 1965 | 1965 | band/0 | mixed | other | 131 | center |
+| vini-vici | Vini Vici | 2013 | 2013 | band/0 | mixed | electronic | 52 | tel-aviv-area |
+| yoni-genut | יוני גנוט | 2000 | 2000 | solo/1 | male | other | 763 | center |
+| noy-fadlon | נוי פדלון | 2012 | 2012 | solo/1 | female | mizrahi | 384 | center |
+| osher-cohen | אושר כהן | 2000 | 2014 | solo/1 | male | mizrahi | 27 | haifa-north |
+| alphabeta | אלפא-ביתא | 1978 | 1978 | band/0 | mixed | other | 569 | center |
+| daniella-pick | דניאלה פיק | 2004 | 2004 | solo/1 | female | other | 260 | center |
+| -46 | משה הלל | 1996 | 1996 | solo/1 | male | other | 847 | center |
+| yitzchak-meir | יצחק מאיר (זמר) | 2010 | 2010 | solo/1 | male | other | 450 | center |
+| ronnie-peterson | רוני פיטרסון | 1974 | 1974 | solo/1 | male | jazz-soul | 728 | center |
+| sami-lazmi | סמי לזמי | 2023 | 2023 | solo/1 | male | other | 816 | abroad |
+| mendy-weiss | מנדי וייס | 2019 | 2019 | solo/1 | male | other | 749 | center |
+| danny-ben-israel | דני בן ישראל | 1962 | 1962 | solo/1 | male | other | 768 | center |
+| -85 | שליחי הבלוז | 1993 | 1993 | band/0 | mixed | rock | 857 | center |
+| shuki-dorit | שוקי ודורית | 1980 | 1980 | band/0 | female | other | 776 | center |
+| monica-sex | מוניקה סקס | 1993 | 1993 | band/0 | mixed | rock | 353 | tel-aviv-area |
+| vibe-tribe | Vibe Tribe | 2002 | 2002 | band/0 | mixed | electronic | 463 | center |
+| kfir-atia | כפיר עטיה | 2005 | 2005 | solo/1 | male | mizrahi | 671 | tel-aviv-area |
+| odeya | אודיה | 2017 | 2017 | solo/1 | female | pop | 12 | tel-aviv-area |
+| ilan-virtzberg | אילן וירצברג | 1971 | 1971 | solo/1 | male | rock | 228 | south |
+| shuki-levy | שוקי לוי | 1983 | 1983 | solo/1 | male | pop | 118 | tel-aviv-area |
+| ravid-plotnik | רביד פלוטניק | 2003 | 2003 | solo/1 | male | hiphop | 20 | center |
+| holy-wigs | פאות קדושות | 2004 | 2004 | band/0 | mixed | other | 523 | center |
+| akiva-nof | עקיבא נוף | 2011 | 2011 | solo/1 | male | other | 668 | tel-aviv-area |
 | yair-dalal | יאיר דלאל | 1996 | 1996 | solo/1 | male | folk-israeli | 184 | center |
+| -57 | גבריאל באטלר | 2021 | 2021 | solo/1 | male | other | 689 | center |
+| noam-bettan | נועם בתן | 2017 | 2017 | solo/1 | male | pop | 30 | center |
+| -88 | בוא לבר | 2005 | 2005 | band/0 | mixed | rock | 881 | center |
+| -15 | כפיר בן ליש | 2014 | 2014 | solo/1 | male | other | 815 | center |
+| gal-adam | גל אדם | 2018 | 2018 | solo/1 | male | pop | 65 | center |
+| samir-shukry | סמיר שוקרי | 1994 | 1994 | solo/1 | male | other | 380 | haifa-north |
+| rotem-cohen | רותם כהן | 2002 | 2002 | solo/1 | male | folk-israeli | 170 | center |
+| tsliley-haaud | צלילי העוד | 1974 | 1974 | band/0 | male | mizrahi | 627 | center |
+| ilan-damti | אילן דמתי | 2023 | 2023 | solo/1 | male | other | 860 | center |
+| daniel-zamir | דניאל זמיר | 2000 | 2000 | solo/1 | male | jazz-soul | 158 | center |
+| alon-ohel | אלון אהל | 2026 | 2026 | solo/1 | male | other | 484 | center |
+| bimot-troupe | חבורת בימות | 1972 | 1972 | band/0 | mixed | pop | 988 | center |
+| neta-elkayam | נטע אלקיים | 2023 | 2023 | solo/1 | female | other | 284 | haifa-north |
+| eyal-golan | אייל גולן | 1978 | 1978 | solo/1 | male | mizrahi | 4 | tel-aviv-area |
+| dudi-levi | דודי לוי | 1986 | 1986 | solo/1 | male | rock | 346 | tel-aviv-area |
+| meni-beger | מני בגר | 1978 | 1978 | solo/1 | male | other | 263 | center |
+| yonathan-avishai | יונתן אבישי | 2002 | 2002 | solo/1 | male | jazz-soul | 424 | tel-aviv-area |
+| daniela-spector | דניאלה ספקטור | 2006 | 2006 | solo/1 | female | pop | 300 | center |
+| the-ultras | האולטראס | 2004 | 2004 | band/0 | mixed | hiphop | 731 | center |
+| vered-r-klepter | ורד קלפטר | 1981 | 1981 | solo/1 | female | rock | 783 | center |
+| asaf-amdursky | אסף אמדורסקי | 1988 | 1988 | solo/1 | male | rock | 534 | tel-aviv-area |
+| -99 | גאיה (להקה) | 1998 | 1999 | band/0 | mixed | other | 811 | center |
+| hatarnegolim | התרנגולים | 1960 | 1960 | band/0 | mixed | folk-israeli | 752 | center |
+| josef-hadar | יוסף הדר | 2013 | 2013 | solo/1 | male | other | 482 | tel-aviv-area |
+| karolina | קרולינה | 1999 | 1999 | solo/1 | female | indie-alt | 60 | tel-aviv-area |
+| shlomo-ydov | שלמה יידוב | 1972 | 1972 | solo/1 | male | pop | 133 | center |
+| irit-dotan | עירית דותן | 1974 | 1974 | solo/1 | female | other | 775 | center |
+| -130 | להקת חיל התותחנים | 1969 | 1969 | band/0 | mixed | other | 991 | center |
+| alon-eder | אלון עדר | 2010 | 2011 | solo/1 | male | indie-alt | 294 | center |
+| ari-gorali | ארי גורלי | 2004 | 2004 | solo/1 | male | other | 782 | center |
+| betty-pablo | בטי פבלו | 1989 | 1989 | solo/1 | female | rock | 852 | tel-aviv-area |
+| bnot-yaakov | בנות יעקב | 1995 | 1995 | band/0 | mixed | pop | 927 | center |
+| yosef-chaim-shwekey | יוסף חיים שוואקי | 2008 | 2008 | solo/1 | male | other | 660 | jerusalem |
+| yoram-chazan | יורם חזן | 1990 | 1990 | solo/1 | male | other | 806 | center |
+| -33 | גילי מסמי | 2003 | 2003 | solo/1 | male | pop | 945 | center |
+| johnny-goldstein | ג'וני גולדשטיין | 2004 | 2004 | solo/1 | male | rock | 578 | center |
+| shimrit-orr | שמרית אור | 1966 | 1966 | solo/1 | female | other | 579 | jerusalem |
+| ran-eliran | רן אלירן | 1952 | 1952 | solo/1 | male | other | 605 | center |
+| aviv-guedj | אביב גדג' | 1995 | 1995 | solo/1 | male | rock | 345 | center |
+| sivan-talmor | סיון טלמור | 1998 | 1998 | solo/1 | female | other | 142 | south |
+| yagel-oshri | יגל אושרי | 2020 | 2020 | solo/1 | male | other | 418 | center |
+| ido-ofek | עידו אופק | 1999 | 1999 | solo/1 | male | rock | 622 | center |
+| rafi-persky | רפי פרסקי | 1988 | 1988 | solo/1 | male | other | 360 | center |
+| zuhair-francis | זוהיר פרנסיס | 2018 | 2018 | solo/1 | male | other | 754 | center |
+| meir-ariel | מאיר אריאל | 1967 | 1967 | solo/1 | male | folk-israeli | 358 | center |
+| riki-manor | ריקי מנור | 1975 | 1975 | solo/1 | female | other | 761 | center |
+| naarot-reines | נערות ריינס | 2004 | 2009 | band/0 | mixed | rock | 801 | center |
+| or-cohen | אור כהן | 2024 | 2024 | solo/1 | female | other | 894 | center |
+| idan-raichel | עידן רייכל | 1998 | 1998 | solo/1 | male | folk-israeli | 29 | center |
+| narkis | נרקיס | 2016 | 2016 | solo/1 | female | pop | 305 | center |
+| mickey-shaviv | מיקי שביב | 1966 | 1966 | solo/1 | male | rock | 583 | tel-aviv-area |
+| nachum-heiman | נחום היימן | 1951 | 1951 | solo/1 | male | folk-israeli | 167 | center |
+| -77 | התעויוט | 1991 | 1991 | band/0 | mixed | rock | 690 | center |
+| useless-id | יוסלס איי.די | 1994 | 1994 | band/0 | mixed | indie-alt | 172 | center |
+| reuven-erez | ראובן ארז | 1995 | 1995 | solo/1 | male | other | 951 | tel-aviv-area |
+| northern-command-variety-ensemble | להקת פיקוד הצפון | 1954 | 1954 | band/0 | mixed | other | 566 | center |
+| micha-shitrit | מיכה שטרית | 1980 | 1980 | solo/1 | male | rock | 189 | haifa-north |
+| hanan-ya-israel-bohadana | חנן-יה ישראל בוהדנה | 2009 | 2009 | solo/1 | male | other | 594 | south |
+| amaseffer | עם הספר | 2004 | 2004 | band/0 | mixed | rock | 521 | center |
+| erez-lev-ari | ארז לב ארי | 1996 | 1996 | solo/1 | male | other | 471 | center |
+| yohanan-zarai | יוחנן זראי | 1964 | 1964 | solo/1 | male | other | 364 | center |
+| maureen-nehedar | מורין נהדר | 1995 | 1995 | solo/1 | female | other | 489 | center |
+| uziya-tzadok | עוזיה צדוק | 2014 | 2014 | solo/1 | male | other | 224 | center |
+| benny-amdursky | בני אמדורסקי | 1956 | 1956 | solo/1 | male | other | 289 | jerusalem |
+| avraham-pereira | אברהם פררה | 1952 | 1952 | solo/1 | male | other | 702 | jerusalem |
+| mashina | משינה | 1983 | 1983 | band/0 | mixed | rock | 183 | tel-aviv-area |
+| jonathan-bitton | יונתן ביטון | 2016 | 2016 | solo/1 | male | other | 867 | center |
+| roy-doron | רועי דורון | 2021 | 2021 | solo/1 | male | other | 675 | tel-aviv-area |
+| zohar-fresco | זוהר פרסקו | 1992 | 1992 | solo/1 | male | jazz-soul | 310 | center |
+| meni-philip | מנחם פיליפ | 1991 | 1991 | solo/1 | male | other | 779 | center |
+| astar-shamir | אסתר שמיר | 1977 | 1977 | solo/1 | female | folk-israeli | 279 | jerusalem |
+| -43 | יואל לרנר | 1979 | 1979 | solo/1 | male | rock | 919 | center |
+| moshe-louk | משה לוק | 2020 | 2020 | solo/1 | male | other | 411 | tel-aviv-area |
+| a-wa | אה-ווה | 2015 | 2015 | band/0 | mixed | ethnic-world | 102 | center |
+| nitza-termin | ניצה טרמין | 1992 | 1992 | solo/1 | female | other | 925 | center |
+| ha-bustanaim | הבוסתנאים | 2002 | 2002 | band/0 | mixed | folk-israeli | 928 | center |
+| gila-hassid | גילה חסיד | 2022 | 2022 | solo/1 | female | other | 992 | center |
+| noam-dadon | נועם דדון | 2015 | 2015 | solo/1 | male | other | 587 | south |
+| meir-israel | מאיר ישראל | 2011 | 2011 | solo/1 | male | other | 248 | center |
+| yehonatan-geffen | יהונתן גפן | 1967 | 1967 | solo/1 | male | other | 624 | center |
+| sagol-59 | סגול 59 | 2000 | 2000 | solo/1 | male | hiphop | 181 | center |
+| tzila-dagan | צילה דגן | 1971 | 1971 | solo/1 | female | folk-israeli | 318 | center |
+| yarona-caspi | ירונה כספי | 1990 | 1990 | solo/1 | female | rock | 908 | tel-aviv-area |
+| nathan-cohen | נתן כהן | 1970 | 1970 | solo/1 | male | rock | 595 | tel-aviv-area |
+| sinai-tor | סיני תור | 1997 | 1997 | solo/1 | male | rock | 564 | center |
+| sharif | שריףף | 1992 | 1992 | solo/1 | male | mizrahi | 366 | south |
+| -53 | נתנאל ששון | 2013 | 2013 | solo/1 | male | folk-israeli | 589 | haifa-north |
+| dorit-sade | דורית שדה | 1975 | 1975 | solo/1 | female | other | 648 | tel-aviv-area |
+| bnot-pesia | בנות פסיה | 1995 | 1995 | band/0 | mixed | other | 874 | center |
+| gary-eckstein | גרי אקשטיין | 1964 | 1964 | solo/1 | male | rock | 339 | center |
+| ephraim-shamir | אפרים שמיר | 1970 | 1970 | solo/1 | male | rock | 114 | center |
+| ronit-ophir | רונית אופיר | 1972 | 1972 | solo/1 | female | folk-israeli | 910 | center |
+| lazy-bams | הבטלנים | 1987 | 1987 | band/0 | male | other | 898 | center |
+| skazi | סקאזי | 1998 | 1998 | band/0 | mixed | electronic | 15 | center |
+| yosi-piamenta | יוסי פיאמנטה | 1972 | 1972 | solo/1 | male | other | 325 | jerusalem |
+| tal-sondak | טל סונדק | 2000 | 2000 | solo/1 | male | pop | 281 | tel-aviv-area |
+| benny-berman | בני ברמן | 1991 | 1991 | solo/1 | male | folk-israeli | 647 | center |
+| roy-arad | רועי צ'יקי ארד | 2004 | 2004 | solo/1 | male | other | 253 | south |
+| ilan-chester | אילן צ'סטר | 1965 | 1965 | solo/1 | male | other | 496 | tel-aviv-area |
+| hi-five | היי פייב | 1996 | 1996 | band/0 | mixed | pop | 76 | center |
+| yair-elitzur | יאיר אליצור | 2018 | 2018 | solo/1 | male | other | 119 | center |
+| avihu-shabat | אביהו שבת | 2009 | 2009 | solo/1 | male | pop | 216 | center |
+| yehezkel-braun | יחזקאל בראון | 2023 | 2023 | solo/1 | male | other | 802 | center |
+| tamar-yahalomi | תמר יהלומי | 2011 | 2011 | solo/1 | female | pop | 198 | tel-aviv-area |
+| zion-golan | ציון גולן | 1978 | 1978 | solo/1 | male | mizrahi | 113 | center |
+| idan-amsalem | עידן אמסלם | 2014 | 2014 | solo/1 | male | rock | 734 | center |
+| avner-gadassi | אבנר גדסי | 1970 | 1970 | solo/1 | male | mizrahi | 233 | center |
+| nisim-garame | ניסים גרמה | 1978 | 1978 | solo/1 | male | other | 686 | center |
+| tamar-aphek | תמר אפק | 2007 | 2007 | solo/1 | female | other | 487 | jerusalem |
+| avraham-tal | אברהם טל | 1998 | 1998 | solo/1 | male | pop | 42 | center |
+| kfir-artzi | חמי | 1992 | 1992 | solo/1 | male | hiphop | 168 | center |
+| lazer-lloyd | לייזר לויד | 1981 | 1981 | solo/1 | male | other | 343 | abroad |
+| maor-edry | מאור אדרי | 2008 | 2008 | solo/1 | male | mizrahi | 175 | center |
+| maor-ashkenazi | מאור אשכנזי | 2018 | 2018 | solo/1 | male | other | 667 | center |
+| ilana-rovina | אילנה רובינא | 1959 | 1959 | solo/1 | female | other | 267 | tel-aviv-area |
+| gili | גילי נתנאל | 2002 | 2002 | solo/1 | male | other | 443 | center |
+| yaniv-d-or | יניב ד'אור | 2012 | 2012 | solo/1 | male | jazz-soul | 537 | tel-aviv-area |
+| alexandra | אלכסנדרה | 1967 | 1967 | solo/1 | female | other | 453 | center |
+| shrekdimc | שרק | 2016 | 2016 | solo/1 | male | hiphop | 541 | center |
+| ori-coltov | אורי כלטוב | 2024 | 2024 | solo/1 | male | other | 422 | jerusalem |
+| eyal-shachar | אייל שחר | 1996 | 1996 | solo/1 | male | other | 736 | center |
+| yagel-haroush | יגל הרוש | 2020 | 2020 | solo/1 | male | other | 400 | south |
+| noa-brenner | נועה ברנר | 2016 | 2016 | solo/1 | female | other | 709 | tel-aviv-area |
+| ciam | סיאם | 1983 | 1983 | band/0 | mixed | rock | 655 | center |
+| ronit-shahar | רונית שחר | 1996 | 1996 | solo/1 | female | other | 389 | haifa-north |
+| 21 | 21 (להקה) | 2000 | 2000 | band/0 | mixed | jazz-soul | 878 | center |
+| tair-haim | תאיר חיים | 2013 | 2013 | solo/1 | female | pop | 753 | center |
+| ze-ev-ne-amah | זאב נחמה | 1985 | 1985 | solo/1 | male | other | 516 | tel-aviv-area |
+| berry-sakharof | ברי סחרוף | 1973 | 1973 | solo/1 | male | rock | 87 | abroad |
+| didi-erez | דידי ארז | 1999 | 1999 | solo/1 | male | rock | 771 | tel-aviv-area |
+| nathan-salomon | נתן סלומון | 1997 | 1997 | solo/1 | male | rock | 505 | center |
+| lior-narkis | ליאור נרקיס | 1992 | 1992 | solo/1 | male | mizrahi | 256 | tel-aviv-area |
+| yehudit-tamir | יהודית תמיר | 1991 | 1991 | solo/1 | female | other | 611 | center |
+| meydad-tasa | מידד טסה | 2006 | 2006 | solo/1 | male | mizrahi | 106 | haifa-north |
+| loren-peled | לורן פלד | 2020 | 2020 | solo/1 | male | other | 480 | abroad |
+| ron-shuval | רון שובל | 1985 | 1985 | solo/1 | male | pop | 247 | tel-aviv-area |
+| daklon | דקלון | 1950 | 1950 | solo/1 | male | mizrahi | 74 | tel-aviv-area |
+| hani-livne | חני ליבנה | 1984 | 1984 | solo/1 | female | other | 759 | abroad |
+| adam-ben-ezra | אדם בן עזרא | 2000 | 2000 | solo/1 | male | jazz-soul | 369 | tel-aviv-area |
+| -4 | עמית ליסטוונד | 1995 | 1995 | solo/1 | male | other | 724 | center |
+| sara-sharon | שרה'לה שרון | 1979 | 1979 | solo/1 | female | pop | 110 | center |
+| guy-mintus | גיא מינטוס | 2015 | 2015 | solo/1 | male | other | 357 | center |
+| aharon-amram | אהרן עמרם | 2007 | 2007 | solo/1 | male | other | 461 | center |
+| snir-yamin | שניר ימין | 2006 | 2006 | solo/1 | male | pop | 891 | center |
+| ofer-bashan | עפר בשן | 2002 | 2002 | solo/1 | male | pop | 954 | tel-aviv-area |
+| chulu | צ'ולו | 1995 | 1995 | solo/1 | male | hiphop | 219 | abroad |
+| -151 | אחד חלקי אחד | 2006 | 2006 | band/0 | mixed | rock | 856 | center |
+| galit-burg | גלית בורג | 1989 | 1989 | solo/1 | female | other | 251 | tel-aviv-area |
+| arkadi-duchin | ארקדי דוכין | 1980 | 1980 | solo/1 | male | rock | 39 | abroad |
+| ifat-nets | יפעת נץ | 1990 | 1990 | solo/1 | female | other | 586 | center |
+| bentzi-stein | בנצי שטיין | 2023 | 2023 | solo/1 | male | other | 846 | center |
+| -86 | שלישיית הופל'ה | 1997 | 1997 | band/0 | mixed | other | 970 | center |
+| nussi-liberman | נותי ליברמן | 2023 | 2023 | solo/1 | male | other | 864 | jerusalem |
+| yoav-itzhak | יואב יצחק (זמר) | 1990 | 1990 | solo/1 | male | mizrahi | 239 | center |
+| shar-el | שר-אל | 2004 | 2004 | solo/1 | male | mizrahi | 639 | center |
+| dafna-bar-zion | דפנה בר ציון | 1985 | 1985 | solo/1 | female | rock | 978 | tel-aviv-area |
+| yehudit-ravitz | יהודית רביץ | 1976 | 1976 | solo/1 | female | rock | 399 | south |
+| -97 | זבולון דאב סיסטם | 2006 | 2006 | band/0 | mixed | other | 998 | center |
+| tal-ramon | טל רמון | 2016 | 2016 | solo/1 | male | rock | 613 | center |
+| omer-avital | עומר אביטל | 1992 | 1992 | solo/1 | male | jazz-soul | 209 | tel-aviv-area |
+| moshe-korsia | משה כורסיה | 2017 | 2017 | solo/1 | male | other | 244 | center |
+| sarit-avitan | שרית אביטן | 2010 | 2010 | solo/1 | female | mizrahi | 299 | center |
+| jackie-mekaiten | ג'קי מקייטן | 1998 | 1998 | solo/1 | male | other | 508 | center |
+| -100 | המושבה (להקה) | 2005 | 2005 | band/0 | mixed | rock | 994 | center |
+| -91 | מלכה באיה | 1997 | 1997 | band/0 | mixed | other | 813 | center |
+| alon-de-loco | אלון דה לוקו | 2005 | 2005 | solo/1 | male | hiphop | 134 | south |
+| terry-poison | טרי פויזן | 2003 | 2003 | band/0 | mixed | other | 374 | center |
+| borgore | בורגור | 2009 | 2009 | solo/1 | male | electronic | 174 | tel-aviv-area |
+| elam-rotem | עילם רותם | 2008 | 2008 | solo/1 | male | other | 504 | center |
+| nicol-raidman | ניקול ראידמן | 2017 | 2017 | solo/1 | female | pop | 405 | center |
+| ohad-hitman | אוהד חיטמן | 1995 | 1995 | solo/1 | male | pop | 456 | tel-aviv-area |
+| oforia | עופר דיקובסקי | 1994 | 1994 | solo/1 | male | electronic | 391 | tel-aviv-area |
+| eti-bitton | אתי ביטון | 2007 | 2007 | solo/1 | female | mizrahi | 554 | south |
+| eran-mitelman | ערן מיטלמן | 1993 | 1993 | solo/1 | male | other | 717 | center |
+| jasmin-even | יסמין אבן | 2004 | 2004 | solo/1 | female | other | 817 | tel-aviv-area |
+| -82 | ברוש (להקה) | 1978 | 1978 | band/0 | mixed | rock | 650 | center |
+| shye-ben-tzur | שי בן צור | 2003 | 2003 | solo/1 | male | other | 212 | abroad |
+| sharon-lifshitz | שרון ליפשיץ | 1982 | 1983 | solo/1 | female | pop | 428 | center |
+| shira-gavrielov | שירה גבריאלוב | 2004 | 2004 | solo/1 | female | pop | 507 | center |
+| mika-sade | מיקה שדה | 2013 | 2013 | solo/1 | female | other | 334 | tel-aviv-area |
+| tania-vinokur | טניה וינוקור | 2001 | 2001 | solo/1 | female | other | 438 | center |
+| -3 | סיוון (זמרת) | 2002 | 2002 | solo/1 | female | hiphop | 574 | tel-aviv-area |
+| kobi-brummer | קובי ברומר | 2013 | 2013 | solo/1 | male | other | 661 | center |
+| mor-karbasi | מור קרבסי | 2008 | 2008 | solo/1 | female | other | 326 | jerusalem |
+| yonatan-miller | יונתן מילר | 1985 | 1985 | solo/1 | male | other | 746 | center |
+| roy-kafri | רועי כפרי | 2007 | 2007 | solo/1 | male | other | 191 | center |
+| shem-tov-levi | שם טוב לוי | 1969 | 1969 | solo/1 | male | jazz-soul | 81 | center |
+| mor-reveii | מור | 2019 | 2019 | solo/1 | female | other | 90 | center |
+| orian-shukrun | אוריין שוקרון | 2022 | 2022 | solo/1 | male | other | 781 | center |
+| kobi-oshrat | קובי אשרת | 1962 | 1962 | solo/1 | male | other | 317 | center |
+| ben-artzi | בן ארצי | 1998 | 1998 | solo/1 | male | other | 187 | tel-aviv-area |
+| hatikva-6 | התקווה 6 | 2003 | 2003 | band/0 | mixed | jazz-soul | 83 | center |
+| gedy-ronen | גדי רונן | 2017 | 2017 | solo/1 | male | rock | 679 | center |
+| shefi-yishai | שפי ישי | 1992 | 1992 | solo/1 | male | other | 431 | jerusalem |
+| milk-and-honey | חלב ודבש | 1979 | 1979 | band/0 | mixed | pop | 127 | center |
+| ahuva-ozeri | אהובה עוזרי | 1973 | 1973 | solo/1 | female | mizrahi | 61 | tel-aviv-area |
+| kabra-kasai | כברה קסאי | 2003 | 2003 | solo/1 | female | folk-israeli | 555 | center |
+| rinat-bar | רינת בר | 1996 | 1996 | solo/1 | female | pop | 138 | center |
+| guy-gerber | גיא גרבר | 2002 | 2002 | solo/1 | male | electronic | 327 | tel-aviv-area |
+| dudi-kalish | דודי קאליש | 1995 | 1995 | solo/1 | male | other | 741 | center |
+| rami-fortis | רמי פורטיס | 1975 | 1975 | solo/1 | male | rock | 32 | tel-aviv-area |
+| corinne-allal | קורין אלאל | 1973 | 1973 | solo/1 | female | rock | 37 | abroad |
+| ur-kasdim | אור כשדים | 1989 | 1991 | band/0 | male | rock | 924 | center |
+| aliza-kashi | עליזה קשי | 1955 | 1955 | solo/1 | female | other | 757 | tel-aviv-area |
+| cosma | קוסמה | 2000 | 2000 | solo/1 | male | other | 837 | center |
+| zohar-argov | זוהר ארגוב | 1977 | 1977 | solo/1 | male | mizrahi | 14 | center |
+| yossi-babliki | יוסי בבליקי | 1996 | 1996 | solo/1 | male | other | 822 | center |
+| khalas | חלאס | 1999 | 1999 | band/0 | mixed | rock | 403 | center |
+| -111 | שלישיית המעפיל | 1965 | 2014 | band/0 | mixed | folk-israeli | 890 | center |
+| patrick-sebag | פטריק סבג | 2007 | 2007 | solo/1 | male | other | 410 | center |
+| nurit-galron | נורית גלרון | 1970 | 1970 | solo/1 | female | rock | 59 | tel-aviv-area |
+| haim-louk | חיים לוק | 2015 | 2015 | solo/1 | male | other | 432 | center |
+| aya-korem | איה כורם | 2006 | 2006 | solo/1 | female | indie-alt | 64 | haifa-north |
+| dudu-aharon | דודו אהרון | 2007 | 2007 | solo/1 | male | mizrahi | 82 | center |
+| peer-tasi | פאר טסי | 2009 | 2009 | solo/1 | male | mizrahi | 11 | center |
+| mc-abdul | MC Abdul | 2020 | 2020 | solo/1 | male | hiphop | 28 | center |
+| ha-shelosharim | השלושרים | 1969 | 1969 | band/0 | male | pop | 414 | center |
+| vardina-cohen | ורדינה כהן | 1988 | 1988 | solo/1 | female | other | 826 | tel-aviv-area |
+| yehoshua-engelman | יהושע אנגלמן | 1988 | 1988 | solo/1 | male | other | 944 | center |
+| george-bar | ג'ורג' בר | 2001 | 2001 | solo/1 | male | mizrahi | 834 | tel-aviv-area |
+| oren-barzilay | אורן ברזילי | 2017 | 2017 | solo/1 | male | other | 347 | center |
+| guy-mar | גיא מר | 1997 | 1997 | solo/1 | male | hiphop | 246 | jerusalem |
+| bezalel-aloni | בצלאל אלוני | 1961 | 1961 | solo/1 | male | other | 200 | center |
+| noa-gruman | נועה גרומן | 2024 | 2024 | solo/1 | female | other | 588 | jerusalem |
+| karni-postel | קרני פוסטל | 1986 | 1986 | solo/1 | female | rock | 387 | tel-aviv-area |
+| eli-jaffe | אלי יפה | 2006 | 2006 | solo/1 | male | jazz-soul | 697 | jerusalem |
+| -126 | משפחת ואך | 2005 | 2005 | band/0 | mixed | folk-israeli | 821 | center |
+| israela-krovoshey | ישראלה קריבושה | 1971 | 1971 | solo/1 | female | pop | 808 | center |
+| peled | פלד | 2004 | 2004 | solo/1 | male | hiphop | 100 | center |
+| jonathan-bar-giora | יונתן בר גיורא | 1990 | 1990 | solo/1 | male | other | 630 | jerusalem |
+| nofia-yedidya | נופיה | 2025 | 2025 | solo/1 | female | other | 739 | center |
+| danny-sanderson | דני סנדרסון | 1966 | 1966 | solo/1 | male | rock | 194 | haifa-north |
+| andre-hajdu | אנדרה היידו | 1996 | 1996 | solo/1 | male | other | 295 | center |
+| alma-gov | עלמה גוב | 2021 | 2021 | solo/1 | female | other | 302 | center |
+| offer-nissim | עופר ניסים | 1983 | 1983 | solo/1 | male | other | 7 | tel-aviv-area |
+| hani-dinur | חני דינור | 1980 | 1980 | solo/1 | female | rock | 889 | center |
+| haivriot | העבריות | 2020 | 2020 | band/0 | mixed | folk-israeli | 288 | center |
+| uzi-navon-acquaintances | עוזי נבון ומכרים | 2007 | 2007 | band/0 | mixed | other | 227 | center |
+| chocolat-menta-mastik | שוקולד מנטה מסטיק | 1971 | 1972 | band/0 | mixed | pop | 157 | tel-aviv-area |
+| gal-de-paz | גל דה פז | 2010 | 2010 | solo/1 | female | rock | 122 | south |
+| linet | לינט | 1985 | 1985 | solo/1 | female | mizrahi | 79 | tel-aviv-area |
+| acollective | הקולקטיב | 2008 | 2008 | band/0 | male | rock | 479 | center |
+| edna-lev | עדנה לב | 1966 | 1966 | solo/1 | female | other | 417 | center |
+| yosi-edenn | יוסי עדן | 1998 | 1998 | solo/1 | male | other | 807 | center |
+| elnatan-shalom | אלנתן שלום | 2018 | 2018 | solo/1 | male | other | 895 | center |
+| sharona-aron | שרונה אהרון | 1955 | 1955 | solo/1 | female | other | 971 | tel-aviv-area |
+| is-hop | IS הופ | 1994 | 1994 | band/0 | mixed | hiphop | 745 | center |
+| gitit-shoval | גיתית שובל | 2008 | 2008 | solo/1 | female | other | 454 | tel-aviv-area |
+| keren-tannenbaum | קרן טננבאום | 1986 | 1986 | solo/1 | female | other | 918 | center |
+| -2 | אבי בניון | 2002 | 2002 | solo/1 | male | mizrahi | 559 | south |
+| charlie-megira | צ'רלי מגירה | 2001 | 2001 | solo/1 | male | rock | 241 | center |
+| ron-nesher | רון נשר | 2003 | 2003 | solo/1 | male | hiphop | 41 | tel-aviv-area |
+| din-din-aviv | דין דין אביב | 1998 | 1998 | solo/1 | female | other | 148 | center |
+| system-ali | סיסטם עאלי | 2010 | 2010 | band/0 | mixed | hiphop | 907 | center |
+| taiseer-elias | תייסיר אליאס | 2025 | 2025 | solo/1 | male | other | 943 | haifa-north |
+| kiki-rothstein | קיקי רוטשטיין | 1971 | 1971 | solo/1 | male | other | 449 | center |
+| father-of-peace | פאד'ר אוף פיס | 2024 | 2024 | band/0 | mixed | indie-alt | 63 | center |
+| bustan-abraham | בוסתן אברהם | 1991 | 1992 | band/0 | mixed | mizrahi | 662 | center |
+| motty-weiss | מוטי וייס | 2017 | 2017 | solo/1 | male | other | 416 | center |
+| noam-sheriff | נעם שריף | 1953 | 1953 | solo/1 | male | other | 580 | tel-aviv-area |
+| gili-argov | גילי ארגוב | 1989 | 1989 | solo/1 | male | other | 321 | center |
+| avishai-cohen-2 | אבישי כהן | 1999 | 1999 | solo/1 | male | jazz-soul | 128 | haifa-north |
+| boom-pam | בום פם | 2003 | 2003 | band/0 | male | rock | 91 | center |
+| shlomi-shabat | שלומי שבת | 1985 | 1985 | solo/1 | male | mizrahi | 117 | center |
+| zeev-tene | זאב טנא | 1975 | 1975 | solo/1 | male | rock | 340 | center |
+| talisman | טליסמאן | 2016 | 2016 | solo/1 | male | hiphop | 381 | abroad |
+| shlishiyat-gesher-hayarkon | שלישיית גשר הירקון | 1963 | 1963 | band/0 | male | folk-israeli | 238 | center |
+| raviv-kaner | רביב כנר | 2019 | 2019 | solo/1 | male | pop | 95 | tel-aviv-area |
+| gilad-segev | גלעד שגב | 1991 | 1991 | solo/1 | male | rock | 379 | tel-aviv-area |
+| trifonas | טריפונס | 1982 | 1982 | solo/1 | male | other | 283 | center |
+| boaz-sharabi | בעז שרעבי | 1964 | 1964 | solo/1 | male | mizrahi | 55 | tel-aviv-area |
+| udi-damari | אודי דמארי | 2016 | 2016 | solo/1 | male | other | 701 | center |
+| hopa-hey | הופה היי | 1985 | 1985 | band/0 | mixed | other | 664 | center |
+| gevolt | Gevolt | 2001 | 2001 | band/0 | mixed | other | 518 | center |
+| ellyott | אליוט | 1985 | 1985 | solo/1 | female | rock | 794 | tel-aviv-area |
+| roi-levi | רואי לוי | 1997 | 1997 | solo/1 | male | other | 646 | center |
+| -80 | להקת מגפיים | 1978 | 1978 | band/0 | mixed | folk-israeli | 986 | center |
+| hahazer-haahorit | החצר האחורית | 2013 | 2013 | band/0 | mixed | rock | 350 | center |
+| tararam | טררם | 1996 | 1996 | band/0 | mixed | other | 981 | center |
+| merav-siman-tov | מרב סמן טוב | 2003 | 2003 | solo/1 | female | other | 965 | jerusalem |
+| -76 | אלמנה שחורה (להקה) | 1984 | 1991 | band/0 | mixed | other | 926 | center |
+| ran-shem-tov | רן שם טוב | 1989 | 1989 | solo/1 | male | rock | 882 | center |
+| tamar-eisenman | תמר אייזנמן | 2001 | 2001 | solo/1 | female | folk-israeli | 292 | jerusalem |
+| dennis-lloyd | דניס לויד | 2015 | 2015 | solo/1 | male | pop | 96 | tel-aviv-area |
+| af-ozen-garon | אף אוזן גרון | 1970 | 1975 | band/0 | male | other | 975 | center |
+| ilana-eliya | אילנה אליה | 1992 | 1992 | solo/1 | female | folk-israeli | 684 | jerusalem |
+| yishay-swissa | ישי סוויסה | 2023 | 2023 | solo/1 | male | hiphop | 629 | tel-aviv-area |
+| yossi-fine | יוסי פיין | 1981 | 1981 | solo/1 | male | other | 94 | abroad |
+| rotem-chen | רותם חן | 2017 | 2017 | solo/1 | male | mizrahi | 964 | center |
+| liam-golan | ליאם גולן | 2024 | 2024 | solo/1 | male | mizrahi | 946 | center |
+| moshe-zorman | משה זורמן | 2017 | 2017 | solo/1 | male | other | 913 | tel-aviv-area |
+| yonatan-shainfeld | יונתן שינפלד | 2009 | 2012 | solo/1 | male | other | 371 | center |
+| shotei-hanevuah | שוטי הנבואה | 1994 | 1994 | band/0 | mixed | ethnic-world | 275 | center |
+| chilik-frank | חיליק פרנק | 1998 | 1998 | solo/1 | male | folk-israeli | 509 | center |
+| moshe-habusha | משה חבושה | 1998 | 1998 | solo/1 | male | other | 291 | jerusalem |
+| pingpong | פינג פונג | 1999 | 1999 | band/0 | mixed | pop | 237 | center |
+| ruth-dolores-weiss | רות דולורס וייס | 2002 | 2002 | solo/1 | female | indie-alt | 413 | center |
+| kutiman | קותימאן | 2006 | 2006 | solo/1 | male | jazz-soul | 130 | jerusalem |
+| teapacks | טיפקס | 1988 | 1988 | band/0 | mixed | rock | 35 | south |
+| sesto-sento | ססטו סנטו | 2001 | 2001 | band/0 | mixed | electronic | 483 | center |
+| zohra-al-fassiya | זוהרה אלפסיה | 1982 | 1982 | solo/1 | female | other | 269 | center |
+| -124 | חובבי ציון (להקה) | 2006 | 2006 | band/0 | male | other | 850 | center |
+| reuven-gvirtz | ראובן גבירץ | 1979 | 1979 | solo/1 | male | other | 871 | center |
+| shai-tsabari | שי צברי | 2001 | 2001 | solo/1 | male | rock | 714 | center |
+| dudaim | הדודאים | 1957 | 1957 | band/0 | male | folk-israeli | 176 | center |
+| ben-zini | בן זיני | 2017 | 2017 | solo/1 | male | rock | 159 | center |
+| shlomo-gronich | שלמה גרוניך | 1969 | 1969 | solo/1 | male | jazz-soul | 447 | center |
+| shimshon-bar-noy | שמשון בר-נוי | 2009 | 2009 | solo/1 | male | other | 989 | center |
+| gil-dor | גיל דור | 1981 | 1981 | solo/1 | male | pop | 455 | tel-aviv-area |
+| itzik-kala | איציק קלה | 1971 | 1971 | solo/1 | male | mizrahi | 103 | jerusalem |
+| guy-bocati | גיא בוקאטי | 1985 | 1985 | solo/1 | male | jazz-soul | 974 | center |
+| asaf-avidan | אסף אבידן | 2002 | 2002 | solo/1 | male | folk-israeli | 2 | jerusalem |
+| yaron-gottfried | ירון גוטפריד | 2002 | 2002 | solo/1 | male | other | 797 | jerusalem |
+| shaked-komemy | שקד קוממי | 2012 | 2012 | solo/1 | male | pop | 824 | center |
+| cheikh-mwijo | שייך מואיז'ו | 1962 | 1962 | solo/1 | male | other | 434 | center |
+| hofni-cohen | חופני כהן | 1975 | 1975 | solo/1 | male | other | 552 | tel-aviv-area |
+| shovevey-zion | שובבי ציון | 1970 | 1970 | band/0 | male | rock | 968 | center |
+| -26 | אלי לוזון | 1979 | 1979 | solo/1 | male | mizrahi | 375 | center |
+| yahel-sherman | יהל שרמן | 1999 | 1999 | solo/1 | male | electronic | 232 | center |
+| tatran | Tatran | 2011 | 2011 | band/0 | mixed | other | 600 | center |
+| michal-tal | מיכל טל (זמרת) | 1975 | 1975 | solo/1 | female | other | 682 | center |
+| hagit-yaso | חגית יאסו | 2009 | 2009 | solo/1 | female | pop | 296 | center |
+| mazzie-cohen | מזי כהן | 1979 | 1979 | solo/1 | female | other | 160 | jerusalem |
+| maya-casabianca | מאיה קזביאנקה | 1969 | 1969 | solo/1 | female | other | 338 | center |
+| jackie-maika | ג'קי מייקה | 1979 | 1979 | solo/1 | male | other | 785 | center |
+| eden-hason | עדן חסון | 2017 | 2017 | solo/1 | male | mizrahi | 3 | center |
+| desert | Desert | 2002 | 2002 | band/0 | mixed | rock | 513 | center |
+| hadag-nahash | הדג נחש | 1996 | 1996 | band/0 | mixed | hiphop | 218 | jerusalem |
+| stalos | סטלוס | 1976 | 1976 | solo/1 | male | other | 527 | center |
+| danny-golan | דני גולן | 1967 | 1967 | solo/1 | male | folk-israeli | 512 | tel-aviv-area |
+| rose-fostanes | רוז פוסטאנס | 2013 | 2013 | solo/1 | female | pop | 217 | center |
+| ori-toledano | אורי טולדנו | 2006 | 2006 | solo/1 | male | other | 382 | tel-aviv-area |
+| -90 | נכי נאצה | 1990 | 1990 | band/0 | mixed | other | 839 | center |
+| yonatan-kalimi | יונתן קלימי | 2021 | 2021 | solo/1 | male | other | 286 | center |
+| liora | ליאורה | 1989 | 1989 | solo/1 | female | other | 693 | center |
+| -83 | הפונדקאים | 1976 | 1976 | band/0 | mixed | other | 993 | center |
+| cookie-levanna | קוקי לבנה | 2011 | 2011 | band/0 | mixed | other | 936 | center |
+| ayala-ingedashet | איילה אינגדשט | 2006 | 2006 | solo/1 | female | pop | 584 | center |
+| ahrele-samet | אהרלה סמט | 2007 | 2008 | solo/1 | male | other | 565 | center |
+| -94 | להקת חופים | 1984 | 1984 | band/0 | mixed | other | 854 | center |
+| matan-hassan | מתן חסן | 2023 | 2023 | solo/1 | male | other | 597 | center |
+| aaron-shust | Aaron Shust | 2005 | 2005 | solo/1 | male | religious-pop | 34 | abroad |
+| liron-amram | לירון עמרם | 2014 | 2014 | solo/1 | male | indie-alt | 906 | center |
+| adir-getz | אדיר גץ | 2010 | 2010 | solo/1 | male | pop | 235 | center |
+| sheshet | ששת | 1977 | 1977 | band/0 | mixed | other | 475 | center |
+| sarit-hadad | שרית חדד | 1994 | 1994 | solo/1 | female | mizrahi | 69 | haifa-north |
+| -34 | שמוליק צ'יזיק | 1984 | 1984 | solo/1 | male | other | 861 | center |
+| shahar-saul | שחר סאול | 2017 | 2017 | solo/1 | male | hiphop | 178 | tel-aviv-area |
+| lior-elmaleh | ליאור אלמליח | 2008 | 2008 | solo/1 | male | other | 458 | center |
+| haim-el | חיים אל | 1989 | 1989 | solo/1 | male | other | 750 | center |
+| maya-dadon | מאיה דדון | 2022 | 2022 | solo/1 | female | other | 332 | center |
+| tal-vaknin | טל ועקנין | 1992 | 1992 | solo/1 | male | mizrahi | 609 | jerusalem |
+| oif-simchas | אוף שימחעס | 1996 | 1996 | band/0 | mixed | other | 719 | center |
+| alma-zohar | עלמה זהר | 2007 | 2007 | solo/1 | female | pop | 199 | center |
+| sun-tailor | ארנון נאור | 2008 | 2008 | solo/1 | male | indie-alt | 623 | center |
+| uzi-fox | עוזי פוקס | 1962 | 1962 | solo/1 | male | rock | 363 | abroad |
+| ishay-berger | ישי ברגר | 1994 | 1994 | solo/1 | male | rock | 840 | center |
+| bint-el-funk | בינת אל פאנק | 2012 | 2012 | band/0 | mixed | other | 721 | center |
+| the-doppler-effect | תופעת דופלר (להקה) | 1982 | 1993 | band/0 | mixed | pop | 468 | center |
+| mendi-jerufi | מנדי ג'רופי | 1995 | 1995 | solo/1 | male | other | 796 | center |
+| astral-projection | אסטרל פרוג'קשן | 1989 | 1995 | band/0 | mixed | electronic | 208 | center |
+| niv-demirel | ניב דמירל | 2014 | 2014 | solo/1 | male | other | 528 | center |
+| -96 | בלאגן | 1980 | 1990 | band/0 | mixed | rock | 827 | center |
+| shir-levi | שיר לוי | 2005 | 2005 | solo/1 | male | folk-israeli | 280 | center |
+| dani-dothan | דני דותן | 1996 | 1996 | solo/1 | male | other | 720 | jerusalem |
+| haze-evot | הזאבות | 2012 | 2012 | band/0 | female | rock | 312 | center |
+| oren-luttenberg | אורן לוטנברג | 2024 | 2024 | solo/1 | male | rock | 828 | tel-aviv-area |
+| matt-schwartz | מאט שוורץ | 1995 | 1995 | solo/1 | male | electronic | 543 | center |
+| monotonix | מונוטוניקס | 2005 | 2005 | band/0 | mixed | rock | 502 | center |
+| nitsan-khen-raz-el | ניצן-חן רזאל | 1996 | 1996 | solo/1 | male | religious-pop | 880 | jerusalem |
+| hamsa | חמסה | 2000 | 2000 | band/0 | mixed | pop | 266 | center |
+| avihai-hollender | אביחי הולנדר | 2022 | 2022 | solo/1 | male | other | 832 | center |
+| -58 | רמי דנוך | 1967 | 1967 | solo/1 | male | other | 590 | center |
+| guy-mazig | גיא מזיג | 1999 | 1999 | solo/1 | male | rock | 465 | center |
+| doron-eyal | דורון אייל | 2019 | 2019 | solo/1 | male | rock | 733 | tel-aviv-area |
+| young-boiz | יאנג בויז | 2017 | 2017 | band/0 | mixed | hiphop | 726 | center |
+| rema-samsonov | רמה סמסונוב | 1952 | 1952 | solo/1 | female | other | 825 | jerusalem |
+| yair-levi | יאיר לוי | 2016 | 2016 | solo/1 | male | jazz-soul | 545 | haifa-north |
+| doron-mazar | דורון מזר | 1985 | 1985 | solo/1 | male | folk-israeli | 520 | center |
+| ishay-levi | ישי לוי | 1976 | 1976 | solo/1 | male | mizrahi | 311 | center |
+| henree | הנרי (מוזיקאי) | 2002 | 2002 | solo/1 | male | other | 406 | center |
+| jo-amar | ג'ו עמר | 1956 | 1956 | solo/1 | male | mizrahi | 161 | center |
+| ziv-cojocaru | זיו קוז'וקרו | 2019 | 2019 | solo/1 | male | other | 610 | south |
+| -55 | לונא אבו נסאר | 2013 | 2013 | solo/1 | female | folk-israeli | 963 | haifa-north |
+| achinoam-nini | אחינועם ניני | 1990 | 1990 | solo/1 | female | pop | 18 | tel-aviv-area |
+| sheila-ferber | שילה פרבר | 2003 | 2003 | solo/1 | female | rock | 704 | tel-aviv-area |
+| david-lavi | דוד לביא (זמר) | 2008 | 2008 | solo/1 | male | rock | 368 | south |
+| eli-mohar | עלי מוהר | 1966 | 1966 | solo/1 | male | other | 254 | tel-aviv-area |
+| -31 | מלי ברונשטיין | 1973 | 1973 | solo/1 | female | pop | 904 | center |
+| geula-gill | גאולה גיל | 1950 | 1950 | solo/1 | female | folk-israeli | 529 | tel-aviv-area |
+| nadav-hanzis | נדב חנציס | 2025 | 2025 | solo/1 | male | other | 98 | center |
+| keren-hecht | קרן הכט | 1993 | 1993 | solo/1 | female | other | 903 | tel-aviv-area |
+| yoel-dikman | יואלי דיקמן | 2022 | 2022 | solo/1 | male | jazz-soul | 532 | center |
+| yaron-cohen | ירון כהן | 2004 | 2004 | solo/1 | male | other | 885 | center |
+| asala-yousef | אסאלה יוסף | 2006 | 2006 | solo/1 | female | other | 499 | center |
+| habrera-hativit | הברירה הטבעית | 1977 | 1977 | band/0 | male | other | 452 | center |
+| shlomi-shaban | שלומי שבן | 1998 | 1998 | solo/1 | male | rock | 687 | tel-aviv-area |
+| -132 | כשניקו תתחיל לדבר | 1992 | 1992 | band/0 | mixed | rock | 791 | center |
+| inbal-raz | ענבל רז | 2018 | 2018 | solo/1 | female | other | 551 | center |
+| avior-malasa | אביאור מלסה | 2015 | 2015 | solo/1 | male | other | 916 | center |
+| evyatar-banai | אביתר בנאי | 1997 | 1997 | solo/1 | male | rock | 24 | south |
+| miriam-toukan | מרים טוקאן | 2020 | 2020 | solo/1 | female | other | 581 | center |
+| edna-goren | עדנה גורן | 1959 | 1959 | solo/1 | female | other | 547 | tel-aviv-area |
+| moshe-giat | משה גיאת | 1982 | 1982 | solo/1 | male | mizrahi | 493 | center |
+| d-n-p-rtos | עדן פרטוש | 1996 | 1996 | solo/1 | male | jazz-soul | 524 | center |
+| moran-magal | מורן מגל | 2016 | 2016 | solo/1 | female | other | 491 | center |
+| simcha-gueta | שמחה גואטה | 2015 | 2015 | solo/1 | female | other | 222 | center |
+| dana-lapidot | דנה לפידות | 2008 | 2008 | solo/1 | female | pop | 285 | south |
+| itamar-rotschild | איתמר רוטשילד | 2002 | 2002 | solo/1 | male | folk-israeli | 659 | center |
+| raphael-nathan | רפאל נתן | 2015 | 2015 | solo/1 | male | other | 777 | center |
+| doli-penn | דולי ופן | 2014 | 2014 | band/0 | male | pop | 86 | center |
+| ouri-chevakh | אורי שבח | 1972 | 1972 | solo/1 | male | other | 606 | center |
+| red-band | רד בנד | 2001 | 2005 | band/0 | mixed | other | 162 | center |
+| yaara-shaulian | יערה שאוליאן | 2020 | 2020 | solo/1 | female | other | 829 | tel-aviv-area |
+| -129 | שלום הציבור (להקה) | 1984 | 1984 | band/0 | mixed | rock | 985 | center |
+| central-command-band | להקת פיקוד המרכז | 1953 | 1969 | band/0 | mixed | other | 370 | center |
+| ohad-shragai | אוהד שרגאי | 2019 | 2019 | solo/1 | male | pop | 573 | center |
+| akiva-turgeman | עקיבא תורג'מן | 2009 | 2009 | solo/1 | male | rock | 196 | south |
+| iggy-waxman | איגי וקסמן | 1986 | 1986 | solo/1 | female | rock | 245 | center |
+| yoshi-sade | יושי שדה | 1984 | 1984 | solo/1 | male | rock | 359 | center |
+| avner-strauss | אבנר שטראוס | 1987 | 1987 | solo/1 | male | other | 788 | center |
+| tom-petrover | תום פטרובר | 2019 | 2019 | solo/1 | male | other | 498 | center |
+| yehuda-elias | יהודה אליאס | 1983 | 1983 | solo/1 | male | other | 476 | center |
+| prey-for-nothing | Prey For Nothing | 2005 | 2005 | band/0 | mixed | other | 494 | center |
+| guy-yahel | גיא ויהל | 2011 | 2011 | band/0 | mixed | indie-alt | 501 | center |
+| tsippi-fleischer | ציפי פליישר | 1992 | 1992 | solo/1 | female | other | 838 | center |
+| maya-dunietz | מאיה דוניץ | 2021 | 2021 | solo/1 | female | other | 249 | tel-aviv-area |
+| eran-zur | ערן צור | 1986 | 1986 | solo/1 | male | rock | 121 | haifa-north |
+| omer-adam | עומר אדם | 2009 | 2009 | solo/1 | male | mizrahi | 1 | haifa-north |
+| 951 | 951 | 1999 | 1999 | band/0 | mixed | rock | 556 | center |
+| -89 | דורלקס סדלקס | 1983 | 1983 | band/0 | mixed | indie-alt | 935 | center |
+| static-ben-el | סטטיק ובן אל | 2015 | 2015 | band/0 | male | pop | 31 | center |
+| dana-rishpy | דנה רישפי | 2003 | 2003 | solo/1 | female | other | 322 | center |
+| eden-dersso | עדן דרסו | 2017 | 2017 | solo/1 | female | hiphop | 351 | center |
+| arafel | ערפל (להקה) | 1997 | 1997 | band/0 | mixed | rock | 665 | center |
+| yoel-levi | יואל לוי | 1975 | 1975 | solo/1 | male | jazz-soul | 560 | center |
+| omer-klein | עומר קליין | 2007 | 2007 | solo/1 | male | jazz-soul | 271 | center |
+| uri-bashan | אורי בשן | 2000 | 2000 | solo/1 | male | other | 678 | center |
+| oded-ben-hur | עודד בן חור | 1979 | 1979 | solo/1 | male | other | 983 | center |
+| noam-kaniel | נועם קניאל | 1971 | 1971 | solo/1 | male | pop | 123 | tel-aviv-area |
+| danny-robas | דני רובס | 1983 | 1983 | solo/1 | male | rock | 262 | south |
+| moran-david | מורן דוד | 2018 | 2018 | solo/1 | female | pop | 901 | center |
+| liora-itzhak | ליאורה יצחק | 2013 | 2013 | solo/1 | female | other | 329 | center |
+| -40 | אייל קופמן | 1991 | 1991 | solo/1 | male | rock | 973 | tel-aviv-area |
+| -78 | נערי רפול (להקה) | 1999 | 1999 | band/0 | mixed | mizrahi | 651 | center |
+| dxm | DXM | 1984 | 1984 | band/0 | mixed | rock | 755 | center |
+| the-pure-souls | הנשמות הטהורות | 1972 | 1972 | band/0 | mixed | folk-israeli | 290 | center |
+| bentzy-kletzkin | בנצי קלצקין | 2022 | 2022 | solo/1 | male | other | 902 | center |
+| yoni | יוני נמרי | 1974 | 1974 | solo/1 | male | pop | 804 | center |
+| miriam-avigal | מרים אביגל | 1955 | 1955 | solo/1 | female | folk-israeli | 915 | tel-aviv-area |
+| haim-israel | חיים סהר ישראל | 1999 | 1999 | solo/1 | male | mizrahi | 165 | center |
+| nunu | נונו | 2016 | 2016 | solo/1 | female | pop | 137 | tel-aviv-area |
+| kobi-farhi | קובי פרחי | 1991 | 1991 | solo/1 | male | rock | 258 | tel-aviv-area |
+| mona-rosenblum | משה מרדכי רוזנבלום | 1982 | 1982 | solo/1 | male | other | 526 | tel-aviv-area |
+| yogev-glusman | יוגב גלוסמן | 2019 | 2019 | solo/1 | male | indie-alt | 715 | south |
+| silverdon | סילברדון | 1990 | 1990 | solo/1 | male | other | 972 | center |
+| gil-shohat | גיל שוחט | 2004 | 2004 | solo/1 | male | jazz-soul | 316 | tel-aviv-area |
+| yoav-talmi | יואב תלמי | 1988 | 1988 | solo/1 | male | jazz-soul | 282 | center |
+| -84 | כל החתיכים אצלי | 2007 | 2007 | band/0 | mixed | rock | 730 | center |
+| yuval-raphael | יובל רפאל | 2024 | 2024 | solo/1 | female | pop | 197 | tel-aviv-area |
+| tamouz | תמוז (להקה) | 1974 | 1974 | band/0 | mixed | rock | 107 | center |
+| rachel-yaron | רחל ירון | 2014 | 2014 | solo/1 | female | rock | 544 | tel-aviv-area |
+| ruli-dikman | רולי דיקמן | 2014 | 2014 | solo/1 | male | other | 751 | center |
+| eden-gabay | עדן גבאי | 2013 | 2013 | solo/1 | male | other | 672 | haifa-north |
+| kobi-peretz | קובי פרץ | 1992 | 1992 | solo/1 | male | mizrahi | 614 | tel-aviv-area |
+| plastic-venus | פלסטיק ונוס | 1990 | 1990 | band/0 | mixed | other | 845 | center |
+| dam | דאם | 1999 | 1999 | band/0 | mixed | hiphop | 419 | center |
+| jane-bordeaux | ג'יין בורדו | 2012 | 2012 | band/0 | mixed | folk-rock | 72 | center |
+| shahar-even-tzur | שחר אבן צור | 2003 | 2003 | solo/1 | male | other | 173 | tel-aviv-area |
+| obi-aflalo | קובי אפללו | 2001 | 2001 | solo/1 | male | other | 111 | center |
+| kol-israel-arabic-orchestra | תזמורת קול ישראל בערבית | 1984 | 1984 | band/0 | mixed | other | 868 | center |
+| ariel-horowitz | אריאל הורוביץ | 1998 | 1998 | solo/1 | male | rock | 84 | center |
+| tuned-tone | צליל מכוון | 1979 | 1979 | band/0 | mixed | other | 444 | center |
+| rami-kleinstein | רמי קלינשטיין | 1978 | 1978 | solo/1 | male | rock | 21 | abroad |
+| benni-bashan | בני בשן | 1996 | 1996 | solo/1 | male | other | 677 | center |
+| udi-davidi | אודי דוידי | 2004 | 2004 | solo/1 | male | religious-pop | 150 | tel-aviv-area |
+| -120 | קטב מרירי (להקה) | 2008 | 2008 | band/0 | mixed | other | 995 | center |
+| ruth-mense | רות מנזה | 2018 | 2018 | solo/1 | female | other | 795 | tel-aviv-area |
+| blastoyz | בלסטויז | 2003 | 2003 | solo/1 | male | other | 308 | center |
+| hapsagot | להקת הפסגות | 1973 | 1973 | band/0 | mixed | mizrahi | 870 | center |
+| ahuva-zadok | אהובה צדוק | 1948 | 1948 | solo/1 | female | other | 843 | tel-aviv-area |
+| sagiv-cohen | סגיב כהן | 2001 | 2001 | solo/1 | male | jazz-soul | 151 | center |
+| matti-caspi | מתי כספי | 1973 | 1973 | solo/1 | male | jazz-soul | 319 | center |
+| amit-erez | עמית ארז | 2003 | 2003 | solo/1 | male | indie-alt | 601 | tel-aviv-area |
+| rafi-kadishzon | רפי קדישזון | 1977 | 1977 | solo/1 | male | jazz-soul | 953 | center |
+| yossi-elephant | יוסי אלפנט | 1983 | 1983 | solo/1 | male | rock | 402 | tel-aviv-area |
+| ron-buhnik | רון בוחניק | 2016 | 2016 | solo/1 | male | pop | 301 | center |
+| sharon-moldavi | שרון מולדאבי | 1995 | 1995 | solo/1 | male | other | 626 | tel-aviv-area |
+| yael-levy | יעל לוי | 1973 | 1973 | solo/1 | female | other | 393 | haifa-north |
+| alona-daniel | אלונה דניאל | 1990 | 1990 | solo/1 | female | rock | 525 | center |
+| gadi-altman | גדי אלטמן | 2003 | 2003 | solo/1 | male | rock | 666 | center |
+| alexander-tamir | אלכסנדר תמיר | 1965 | 1965 | solo/1 | male | other | 542 | center |
+| -22 | אוריאל שלומי | 1977 | 1977 | solo/1 | male | mizrahi | 912 | tel-aviv-area |
+| temper-city | טמפר סיטי | 2021 | 2026 | band/0 | mixed | indie-alt | 116 | abroad |
+| inbal-perlmuter | ענבל פרלמוטר | 1992 | 1992 | solo/1 | female | rock | 182 | center |
+| tamir-gal | תמיר גל | 1995 | 1995 | solo/1 | male | mizrahi | 201 | jerusalem |
+| avi-toledano | אבי טולדנו | 1965 | 1965 | solo/1 | male | pop | 62 | abroad |
+| tilda-rejwan | טילדה רג'ואן | 2020 | 2020 | solo/1 | female | other | 780 | abroad |
+| rafi-biton | רפי ביטון | 2024 | 2024 | solo/1 | male | other | 540 | center |
+| yoni-roe | יוני רועה | 1998 | 1998 | solo/1 | male | other | 640 | center |
+| erez-halevi | ארז הלוי | 1984 | 1984 | solo/1 | male | other | 645 | center |
+| netta-barzilai | נטע ברזילי | 2012 | 2012 | solo/1 | female | pop | 180 | center |
+| roee-sendler | רועי סנדלר | 2014 | 2014 | solo/1 | male | pop | 942 | center |
+| yehuda-poliker | יהודה פוליקר | 1980 | 1980 | solo/1 | male | rock | 9 | haifa-north |
+| mike-brant | מייק בראנט | 1969 | 1969 | solo/1 | male | pop | 17 | abroad |
+| dror-feiler | דרור פיילר | 1996 | 1996 | solo/1 | male | other | 510 | tel-aviv-area |
+| omer-fedi | עומר פדי | 2018 | 2018 | solo/1 | male | hiphop | 77 | tel-aviv-area |
+| effi-netzer | אפי נצר | 1952 | 1952 | solo/1 | male | other | 213 | center |
+| yorik-ben-david | יוריק בן דוד | 1978 | 1978 | solo/1 | male | other | 884 | tel-aviv-area |
+| deaf-chonky | דף צ'ונקי | 2015 | 2016 | band/0 | mixed | rock | 695 | center |
+| leah-lupatin | לאה לופטין | 1969 | 1969 | solo/1 | female | other | 70 | center |
+| shlomi-bracha | שלומי ברכה | 1985 | 1985 | solo/1 | male | rock | 273 | tel-aviv-area |
+| moran-mazuz | מורן מזוז | 2013 | 2013 | solo/1 | female | pop | 653 | haifa-north |
+| nahum-nardi | נחום נרדי | 1974 | 1974 | solo/1 | male | folk-israeli | 220 | center |
+| boaz-banai | בעז בנאי | 2007 | 2007 | solo/1 | male | other | 214 | center |
+| fortisakharof | פורטיסחרוף | 1988 | 1988 | band/0 | mixed | rock | 243 | center |
+| avigail-roz | אביגייל רוז | 2008 | 2008 | solo/1 | female | other | 683 | center |
+| yoni-rechter | יוני רכטר | 1972 | 1972 | solo/1 | male | rock | 445 | tel-aviv-area |
+| yair-ziv | יאיר זיו | 2009 | 2009 | solo/1 | male | rock | 899 | center |
+| gidi-shamur | גידי שמור | 1989 | 1989 | solo/1 | male | other | 762 | center |
+| ruhama-raz | רוחמה רז | 1977 | 1977 | solo/1 | female | folk-israeli | 210 | center |
+| kaveret | כוורת | 1973 | 1973 | band/0 | mixed | rock | 13 | tel-aviv-area |
+| -7 | מושיקו מור | 2011 | 2011 | solo/1 | male | pop | 215 | center |
+| yonatan-razel | יונתן רזאל | 2007 | 2007 | solo/1 | male | religious-pop | 68 | abroad |
+| -68 | שמואל פרדניק | 2016 | 2016 | solo/1 | male | other | 742 | center |
+| yoni-bloch | יוני בלוך | 2003 | 2003 | solo/1 | male | rock | 40 | south |
+| moshik-afia | מושיק עפיה | 1995 | 1998 | solo/1 | male | mizrahi | 73 | tel-aviv-area |
+| ortal-ofek | אורטל אופק | 2002 | 2002 | solo/1 | female | pop | 506 | tel-aviv-area |
+| -148 | ויתרתי | 2011 | 2011 | band/0 | mixed | rock | 842 | center |
+| jacko-eisenberg | ג'קו אייזנברג | 1996 | 1996 | solo/1 | male | rock | 335 | center |
+| -125 | שלישיית התאומים | 1965 | 1966 | band/0 | mixed | other | 803 | center |
+| itzik-eshel | איציק אשל | 1999 | 1999 | solo/1 | male | mizrahi | 711 | center |
+| assaf-talmudi | אסף תלמודי | 2025 | 2025 | solo/1 | male | other | 735 | center |
+| salem | Salem | 1985 | 1985 | band/0 | mixed | rock | 185 | center |
+| roman-sharon | רומן שרון | 1969 | 1969 | solo/1 | male | other | 557 | center |
+| haim-moshe | חיים משה | 1975 | 1975 | solo/1 | male | mizrahi | 45 | center |
+| yehuda-glantz | יהודה גלאנץ | 1977 | 1977 | solo/1 | male | religious-pop | 460 | center |
+| josef-bardanashvili | יוסף ברדנשווילי | 2023 | 2023 | solo/1 | male | jazz-soul | 869 | center |
+| -79 | השכנים של צ'יץ' | 1991 | 1991 | band/0 | mixed | other | 620 | center |
+| shani-izhari | שני יצהרי | 2010 | 2010 | solo/1 | female | mizrahi | 649 | center |
+| rotem-or | רותם אור | 2008 | 2008 | solo/1 | female | indie-alt | 139 | tel-aviv-area |
+| noam-pinhasov | נועם פנחסוב | 2009 | 2009 | solo/1 | male | rock | 982 | center |
+| zanvil-weinberger | זאנוויל ויינברגר | 2016 | 2016 | solo/1 | male | other | 324 | jerusalem |
+| anat-moshkovski | ענת מושקובסקי | 2010 | 2010 | solo/1 | female | other | 473 | tel-aviv-area |
+| tamar-giladi | תמר גלעדי | 1998 | 1998 | solo/1 | female | jazz-soul | 225 | center |
+| yinon-yahel | ינון יהל | 2001 | 2001 | solo/1 | male | electronic | 136 | center |
+| rivka-zohar | רבקה זהר | 1972 | 1972 | solo/1 | female | other | 140 | haifa-north |
+| shimon-buskila | שמעון בוסקילה | 1988 | 1988 | solo/1 | male | pop | 92 | haifa-north |
+| dan-shatzberg | דן שצברג | 1998 | 1998 | solo/1 | male | other | 634 | center |
+| ariel-zilber | אריאל זילבר | 1967 | 1967 | solo/1 | male | rock | 203 | tel-aviv-area |
+| pablo-rosenberg | פבלו רוזנברג | 1980 | 1980 | solo/1 | male | rock | 108 | center |
+| doron-medalie | דורון מדלי | 2001 | 2001 | solo/1 | male | pop | 383 | center |
+| hillel-slovak | הלל סלובק | 1976 | 1976 | solo/1 | male | indie-alt | 67 | center |
+| yitzchak-meir-helfgot | יצחק מאיר הלפגוט | 2003 | 2003 | solo/1 | male | religious-pop | 440 | center |
+| israel-parnas | ישראל פרנס | 2022 | 2022 | solo/1 | male | other | 789 | tel-aviv-area |
+| melechesh | מלכאש | 1993 | 1993 | band/0 | mixed | rock | 306 | jerusalem |
+| ron-hayon | רון חיון | 2024 | 2024 | solo/1 | male | other | 192 | center |
+| gary-bertini | גארי ברתיני | 1974 | 1974 | solo/1 | male | jazz-soul | 486 | center |
+| navah-baruchin | נאוה ברוכין | 2007 | 2007 | solo/1 | female | other | 765 | center |
+| moran-aharoni | מורן אהרוני | 1997 | 1997 | solo/1 | female | jazz-soul | 674 | tel-aviv-area |
+| avi-benedi | אבי בנדי | 2001 | 2001 | solo/1 | male | pop | 708 | center |
+| adi-ulmansky | עדי אולמנסקי | 2007 | 2007 | solo/1 | female | hiphop | 805 | jerusalem |
+| shaul-zirlin | שאול צירלין | 1989 | 1989 | solo/1 | male | other | 938 | tel-aviv-area |
+| hadassa-sigalov | הדסה סיגלוב | 1968 | 1968 | solo/1 | female | other | 979 | tel-aviv-area |
+| yuval-dor | יובל דור | 1969 | 1969 | solo/1 | male | other | 99 | tel-aviv-area |
+| alona-turel | אלונה טוראל | 1961 | 1961 | solo/1 | female | other | 433 | tel-aviv-area |
+| ofer-levi | עופר לוי | 1988 | 1988 | solo/1 | male | mizrahi | 44 | tel-aviv-area |
+| amir-kertes | אמיר קרטס | 1991 | 1991 | solo/1 | male | other | 947 | center |
+| maya-isacowitz | מאיה איזקוביץ | 2009 | 2009 | solo/1 | female | other | 592 | center |
+| kinderlach | קינדרלעך | 2005 | 2005 | band/0 | mixed | other | 941 | center |
+| zohara | זוהרה | 2012 | 2012 | solo/1 | female | other | 429 | tel-aviv-area |
+| oren-lavie | אורן לביא | 1997 | 1997 | solo/1 | male | folk-israeli | 211 | tel-aviv-area |
+| adam-scheflan | אדם שפלן | 2025 | 2025 | solo/1 | male | other | 865 | center |
+| chen-porati | חן פורתי | 2024 | 2024 | solo/1 | male | other | 862 | center |
+| daniel-zilberstein | דניאל זילברשטיין | 2006 | 2006 | solo/1 | male | pop | 976 | center |
+| tova-gertner | טובה גרטנר | 1986 | 1986 | solo/1 | female | indie-alt | 439 | tel-aviv-area |
+| shimon-gershon | שמעון גרשון | 2010 | 2010 | solo/1 | male | pop | 373 | tel-aviv-area |
+| chaim-banet | חיים בנט | 1970 | 1970 | solo/1 | male | other | 367 | abroad |
+| eddie-butler | אדי בטלר | 2021 | 2021 | solo/1 | male | pop | 268 | south |
+| yehuda-saado | יהודה סעדו | 2005 | 2005 | solo/1 | male | folk-israeli | 481 | jerusalem |
+| assaf-harush | אסף הרוש | 2018 | 2018 | solo/1 | male | other | 740 | center |
+| ori-kaplan | אורי קפלן | 2021 | 2021 | solo/1 | male | jazz-soul | 495 | tel-aviv-area |
+| samuel-budagov | שמוליק בודגוב | 1969 | 1969 | solo/1 | male | other | 298 | tel-aviv-area |
+| ketreyah | כיתריה | 2018 | 2018 | solo/1 | female | pop | 879 | south |
+| binyamin-landau | ביני לנדאו | 1998 | 1998 | solo/1 | male | religious-pop | 446 | center |
+| nathan-slor | נתן סלור | 2006 | 2006 | solo/1 | male | other | 598 | tel-aviv-area |
+| eyal-barkan | אייל ברקן | 1998 | 1998 | solo/1 | male | electronic | 467 | center |
+| drora-havkin | דרורה חבקין | 2006 | 2006 | solo/1 | female | other | 638 | center |
+| daniel-barenboim | דניאל בארנבוים | 1950 | 1950 | solo/1 | male | jazz-soul | 23 | center |
+| sima-amiel | סימה עמיאל | 2023 | 2023 | solo/1 | female | other | 877 | center |
+| daniel-salomon | דניאל סלומון | 1998 | 1998 | solo/1 | male | pop | 223 | center |
+| -95 | להקת פרה אדומה | 2003 | 2007 | band/0 | mixed | other | 1000 | center |
+| orit-wolf | אורית וולף | 2019 | 2019 | solo/1 | female | other | 625 | tel-aviv-area |
+| habanot-nechama | הבנות נחמה | 2004 | 2004 | band/0 | female | folk-israeli | 126 | center |
+| -149 | ניגון ירושלמי | 2008 | 2008 | band/0 | mixed | folk-israeli | 980 | center |
+| helem-tarbut | הלם תרבות | 2016 | 2016 | band/0 | male | hiphop | 691 | center |
+| tzukush | צוקוש | 2016 | 2016 | solo/1 | male | hiphop | 654 | tel-aviv-area |
+| carakukly | כרקוקלי | 2013 | 2013 | band/0 | mixed | pop | 376 | center |
+| -92 | אטלנטיקה | 2006 | 2006 | band/0 | mixed | other | 997 | center |
+| teddy-neguse | טדי נגוסה | 2016 | 2016 | solo/1 | male | hiphop | 760 | tel-aviv-area |
+| igi-dayan | איגי דיין | 1992 | 1992 | solo/1 | male | other | 320 | tel-aviv-area |
 | samy-birnbach | סמי בירנבך | 1989 | 1989 | solo/1 | male | pop | 633 | tel-aviv-area |
+| izhar-ashdot | יזהר אשדות | 1973 | 1973 | solo/1 | male | rock | 46 | jerusalem |
+| naftali-hershtik | נפתלי הרשטיק | 2003 | 2003 | solo/1 | male | religious-pop | 676 | center |
+| shi-360 | שי 360 | 2001 | 2001 | solo/1 | male | hiphop | 115 | center |
+| mark-eliyahu | מארק אליהו | 1998 | 1998 | solo/1 | male | folk-israeli | 10 | center |
+| naomi-shemer | נעמי שמר | 1951 | 1951 | solo/1 | female | folk-israeli | 396 | haifa-north |
+| -106 | פאנקנשטיין | 1998 | 2005 | band/0 | mixed | other | 713 | center |
+| amir-benayoun | עמיר בניון | 1999 | 1999 | solo/1 | male | mizrahi | 204 | south |
+| idan-yaniv | עידן יניב | 2005 | 2005 | solo/1 | male | pop | 698 | tel-aviv-area |
+| quami-de-la-fox | קוואמי | 1990 | 1990 | solo/1 | male | hiphop | 132 | center |
+| liad-meir | ליעד מאיר | 2018 | 2018 | solo/1 | male | other | 149 | center |
+| sasson-ifram-shaulov | ששון איפרם שאולוב | 2020 | 2020 | solo/1 | male | mizrahi | 22 | jerusalem |
+| hasmachot | השמחות | 1996 | 1998 | band/0 | mixed | rock | 568 | center |
+| motty-steinmets | מוטי שטיינמץ | 2012 | 2012 | solo/1 | male | religious-pop | 26 | center |
+| mordechai-ben-david | מרדכי בן דוד | 1973 | 1973 | solo/1 | male | religious-pop | 25 | abroad |
+| distorted-harmony | Distorted Harmony | 2009 | 2009 | band/0 | mixed | rock | 657 | center |
+| elai-botner | עילי בוטנר | 2007 | 2007 | solo/1 | male | rock | 156 | center |
+| aharon-razel | אהרן רזאל | 1997 | 1997 | solo/1 | male | religious-pop | 195 | abroad |
+| mendel-roth | מענדל ראטה | 2014 | 2014 | solo/1 | male | other | 725 | center |
+| simcha-friedman | שמחה פרידמן | 2020 | 2020 | solo/1 | male | other | 421 | haifa-north |
+| shlomo-zach | שלמה צח | 1962 | 1962 | solo/1 | male | other | 278 | haifa-north |
+| orphaned-land | אורפנד לנד | 1991 | 1992 | band/0 | mixed | rock | 58 | tel-aviv-area |
+| ethnix | אתניקס | 1984 | 1984 | band/0 | mixed | rock | 49 | tel-aviv-area |
+| kim-connection | קים קונקשיין | 1996 | 1996 | solo/1 | male | electronic | 966 | center |
+| garden-city-movement | גארדן סיטי מובמנט | 2013 | 2013 | band/0 | mixed | electronic | 412 | center |
+| aris-san | אריס סאן | 1957 | 1957 | solo/1 | male | mizrahi | 80 | abroad |
+| anna-rf | Anna RF | 2011 | 2011 | band/0 | mixed | other | 844 | center |
+| nissim-menachem | ניסים מנחם | 1960 | 1960 | solo/1 | male | other | 515 | center |
+| omer-meir-wellber | עומר מאיר ולבר | 2017 | 2017 | solo/1 | male | other | 404 | south |
+| infy-snow | אינפי סנואו | 2012 | 2012 | solo/1 | female | rock | 778 | center |
+| moshe-lahav | משה להב | 2017 | 2017 | solo/1 | male | other | 632 | jerusalem |
+| yair-rosenblum | יאיר רוזנבלום | 1962 | 1962 | solo/1 | male | other | 352 | tel-aviv-area |
+| dani-litai | דני ליטאי | 1982 | 1982 | solo/1 | male | other | 441 | tel-aviv-area |
+| -50 | נעמה כהן | 2011 | 2011 | solo/1 | female | other | 833 | haifa-north |
+| balkan-beat-box | בלקן ביט בוקס | 2003 | 2003 | band/0 | mixed | ethnic-world | 48 | abroad |
+| -38 | שימי רון | 1985 | 1985 | solo/1 | male | mizrahi | 835 | center |
+| -121 | לא אכפת להם | 1992 | 1992 | band/0 | mixed | other | 934 | center |
+| tiny-fingers | Tiny Fingers | 2008 | 2008 | band/0 | mixed | indie-alt | 531 | center |
+| gilad-potolsky | גלעד פוטולסקי | 1984 | 1984 | solo/1 | male | other | 883 | center |
+| nikka | ניקה | 2005 | 2005 | solo/1 | female | other | 314 | center |
+| sara-beck | שרה ב"ק | 2012 | 2012 | solo/1 | female | other | 277 | center |
+| sfatayim | שפתיים (להקה) | 1985 | 1985 | band/0 | mixed | mizrahi | 315 | center |
+| shira-margalit | שירה מרגלית | 2013 | 2013 | solo/1 | female | other | 415 | center |
+| bat-ella | בת אלה | 1985 | 1985 | solo/1 | female | other | 897 | south |
+| ben-tzur | בן צור | 2019 | 2019 | solo/1 | male | mizrahi | 97 | haifa-north |
+| zamira-chen | זמירה חן | 1985 | 1985 | solo/1 | female | other | 984 | tel-aviv-area |
+| noa-bellhasen | נועה בלחסן | 2010 | 2010 | solo/1 | female | other | 961 | center |
+| gavriel-belhassen | גבריאל בלחסן | 1995 | 1995 | solo/1 | male | rock | 250 | center |
+| adi-ran | עדי רן | 1993 | 1993 | solo/1 | male | other | 401 | tel-aviv-area |
+| hanna-aharoni | חנה אהרוני | 1960 | 1960 | solo/1 | female | other | 772 | center |
+| shirley-yuval-yair | שירלי יובל-יאיר | 1992 | 1992 | solo/1 | female | other | 265 | tel-aviv-area |
+| peter-roth | פיטר רוט | 1992 | 1992 | solo/1 | male | rock | 105 | tel-aviv-area |
+| ori-shochat | אורי שוחט | 1999 | 1999 | solo/1 | male | hiphop | 109 | haifa-north |
+| maya-avraham | מאיה אברהם | 1998 | 1998 | solo/1 | female | other | 333 | center |
+| shlomit-aharon | שלומית אהרון | 1965 | 1965 | solo/1 | female | other | 229 | tel-aviv-area |
+| amir | עמיר חדד | 2006 | 2006 | solo/1 | male | pop | 66 | abroad |
+| ari-hill | ארי היל | 2016 | 2016 | solo/1 | male | religious-pop | 593 | center |
+| johnny-shuali | ג'וני שועלי | 1991 | 1991 | solo/1 | male | rock | 436 | center |
+| -123 | שלישיית אדלר | 1963 | 1963 | band/0 | mixed | other | 969 | center |
+| eitan-masuri | איתן מסורי | 1979 | 1979 | solo/1 | male | other | 341 | tel-aviv-area |
+| aveva-dese | אבבה דסה | 2013 | 2013 | solo/1 | female | pop | 823 | center |
+| infected-mushroom | אינפקטד מאשרום | 1996 | 1996 | band/0 | mixed | electronic | 5 | haifa-north |
+| sharona-nastovich | שרונה נסטוביץ' | 2006 | 2006 | solo/1 | female | other | 955 | tel-aviv-area |
+| yael-german | יעל גרמן | 1976 | 1976 | solo/1 | female | folk-israeli | 893 | center |
+| daniel-shalit | דניאל שליט | 2023 | 2023 | solo/1 | male | jazz-soul | 738 | center |
+| micha-biton | מיכה ביטון | 1994 | 1994 | solo/1 | male | other | 692 | center |
+| yam-refaeli | ים רפאלי | 2018 | 2018 | solo/1 | male | pop | 226 | south |
+| beit-habubot | בית הבובות | 2004 | 2005 | band/0 | mixed | rock | 120 | center |
+| dor-daniel | דור דניאל | 2005 | 2005 | solo/1 | male | pop | 193 | center |
+| alien-project | אליין פרוג'קט | 1994 | 1994 | solo/1 | male | electronic | 398 | center |
+| noga-eshed | נגה אשד | 1969 | 1969 | solo/1 | female | folk-israeli | 956 | tel-aviv-area |
+| avi-sinuani | אבי סינואני | 1981 | 1981 | solo/1 | male | mizrahi | 514 | tel-aviv-area |
+| yossi-hari | יוסי הרי | 2001 | 2001 | solo/1 | male | other | 748 | tel-aviv-area |
+| mili-miran | מילי מירן | 1982 | 1982 | solo/1 | female | other | 920 | center |
+| michael-cohen | מיכאל כהן | 2008 | 2008 | solo/1 | male | hiphop | 230 | tel-aviv-area |
+| benaia-barabi | בניה ברבי | 2015 | 2015 | solo/1 | male | other | 47 | haifa-north |
+| -152 | אלף.דלת | 2014 | 2014 | band/0 | mixed | indie-alt | 996 | center |
+| axum | אקסום | 2003 | 2007 | band/0 | mixed | hiphop | 304 | center |
+| quarter-to-africa | רבע לאפריקה | 2014 | 2014 | band/0 | mixed | other | 658 | center |
+| yoni-poliker | יוני פוליקר | 2008 | 2008 | solo/1 | male | other | 642 | center |
+| rona-kenan | רונה קינן | 1990 | 1990 | solo/1 | female | rock | 54 | tel-aviv-area |
+| beni-el | בני אל | 1982 | 1982 | solo/1 | male | other | 957 | center |
+| lior-farhi | ליאור פרחי | 1986 | 1986 | solo/1 | male | other | 313 | center |
+| alma | עלמא | 2000 | 2001 | band/0 | mixed | religious-pop | 933 | center |
+| eden | עדן | 1996 | 1996 | band/0 | mixed | pop | 488 | center |
+| ha-m-ulliel | חיים אוליאל | 2000 | 2000 | solo/1 | male | mizrahi | 323 | center |
+| nurit-hirsh | נורית הירש | 1960 | 1960 | solo/1 | female | other | 171 | tel-aviv-area |
+| yehuda-keisar | יהודה קיסר | 2000 | 2000 | solo/1 | male | mizrahi | 425 | tel-aviv-area |
+| elai-botner-and-the-outside-kids | עילי בוטנר וילדי החוץ | 2011 | 2012 | band/0 | mixed | rock | 355 | center |
+| abatte-barihun | אבטה בריהון | 1983 | 1983 | solo/1 | male | jazz-soul | 562 | center |
+| gil-vain | גיל ויין | 2010 | 2010 | solo/1 | male | other | 177 | center |
+| shimon-cohen | שמעון כהן | 2023 | 2023 | solo/1 | male | folk-israeli | 863 | center |
+| hedva-amrani | חדוה עמרני | 1960 | 1960 | solo/1 | female | other | 618 | abroad |
+| the-white-screen | המסך הלבן | 2016 | 2016 | band/0 | mixed | indie-alt | 423 | tel-aviv-area |
+| voca-people | ווקה פיפל | 2009 | 2009 | band/0 | mixed | pop | 71 | center |
+| osnat-paz | אסנת פז | 1967 | 1967 | solo/1 | female | pop | 962 | center |
+| peter-wertheimer | פטר ורטהיימר | 1973 | 1973 | solo/1 | male | jazz-soul | 539 | center |
+| emi-rudner | חמי רודנר | 1985 | 1985 | solo/1 | male | rock | 152 | center |
+| echo | אקו | 2011 | 2011 | solo/1 | female | hiphop | 356 | abroad |
+| -122 | כלא שש (הרכב) | 1998 | 1998 | band/0 | mixed | hiphop | 407 | center |
+| theangelcy | TheAngelcy | 2011 | 2011 | band/0 | mixed | jazz-soul | 147 | center |
+| -112 | צלילי הכרם | 1972 | 1972 | band/0 | male | mizrahi | 681 | center |
+| nati-levi | נתי לוי | 1987 | 1987 | solo/1 | male | mizrahi | 372 | center |
+| ilan-and-ilanit | אילן ואילנית | 1965 | 1965 | band/0 | mixed | folk-israeli | 932 | center |
+| nimrod-shickler | נמרוד שיקלר | 2005 | 2005 | solo/1 | male | other | 990 | center |
+| ami-maimon | עמי מימון | 2021 | 2021 | solo/1 | male | other | 872 | tel-aviv-area |
+| yoshi | יושי | 2021 | 2021 | solo/1 | male | other | 349 | center |
+| paul-ben-haim | פאול בן חיים | 1992 | 1992 | solo/1 | male | jazz-soul | 386 | center |
+| erez-sharon | איזי | 2001 | 2001 | solo/1 | male | hiphop | 85 | center |
+| avi-avital | אבי אביטל | 2012 | 2012 | solo/1 | male | other | 242 | south |
+| yael-deckelbaum | יעל דקלבאום | 1995 | 1995 | solo/1 | female | other | 145 | jerusalem |
+| the-friends-of-natasha | החברים של נטאשה | 1987 | 1987 | band/0 | mixed | rock | 378 | center |
+| smadar-akray | סמדר אקראי | 2021 | 2021 | solo/1 | female | pop | 643 | jerusalem |
+| eliav-zohar | אליאב זוהר | 2018 | 2018 | solo/1 | male | other | 390 | center |
+| max-gat-mor | מקס גת-מור | 2022 | 2022 | solo/1 | male | other | 960 | center |
+| may-sfadia | מאי ספדיה | 2011 | 2011 | solo/1 | female | other | 732 | center |
+| kathleen-reiter | קטלין רייטר | 2011 | 2011 | solo/1 | female | pop | 466 | center |
+| avraham-fried | אברהם פריד | 1981 | 1981 | solo/1 | male | religious-pop | 33 | abroad |
+| yonatan-cnaan | יונתן כנען | 2012 | 2012 | solo/1 | male | pop | 866 | tel-aviv-area |
+| avraham-zigman | אברהם זיגמן | 1965 | 1965 | solo/1 | male | other | 737 | center |
+| itzik-dadya | איציק דדיה | 2002 | 2002 | solo/1 | male | mizrahi | 261 | haifa-north |
+| -128 | הטוב הרע והנערה | 1972 | 1972 | band/0 | mixed | other | 896 | center |
+| orit-shahaf | אורית שחף | 1992 | 1992 | solo/1 | female | rock | 392 | south |
+| eden-ben-zaken | עדן בן זקן | 2013 | 2013 | solo/1 | female | mizrahi | 6 | jerusalem |
+| mika-moshe | מיקה משה | 2020 | 2020 | solo/1 | female | other | 747 | center |
+| marsh-dondurma | מארש דונדורמה | 2005 | 2005 | band/0 | mixed | jazz-soul | 670 | center |
+| moran-mazor | מורן מזור | 2011 | 2011 | solo/1 | female | pop | 188 | tel-aviv-area |
+| noam-horev | נעם חורב | 2022 | 2022 | solo/1 | male | other | 522 | center |
+| vibe-ish | וייב איש | 2017 | 2017 | solo/1 | male | hiphop | 348 | tel-aviv-area |
+| dedi-graucher | דדי גראוכר | 1990 | 1990 | solo/1 | male | religious-pop | 548 | center |
+| nitzan-kaikov | ניצן קייקוב | 2005 | 2005 | solo/1 | male | pop | 917 | tel-aviv-area |
+| avi-mesika | אבי מסיקה | 2004 | 2004 | solo/1 | male | hiphop | 297 | tel-aviv-area |
+| kfir-tsafrir | כפיר צפריר | 2021 | 2021 | solo/1 | male | other | 153 | center |
+| eldad-zitrin | אלדד ציטרין | 1999 | 1999 | solo/1 | male | other | 680 | tel-aviv-area |
+| shay-amar | שי עמר | 2001 | 2001 | solo/1 | male | other | 774 | center |
+| netanela | נתנאלה | 1973 | 1973 | solo/1 | female | rock | 377 | tel-aviv-area |
+| amir-yeruham | מירו | 2019 | 2019 | solo/1 | male | other | 287 | tel-aviv-area |
+| baldi-olier | באלדי אולייר | 1977 | 1977 | solo/1 | male | folk-rock | 500 | abroad |
+| einav-jackson-cohen | עינב ג'קסון כהן | 2011 | 2011 | solo/1 | female | other | 707 | tel-aviv-area |
+| leyli | ליילי | 2017 | 2017 | band/0 | male | rock | 637 | center |
+| kosha-dillz | קושה דילז | 2005 | 2005 | solo/1 | male | hiphop | 572 | center |
+| artist | יציאת חירום | 1997 | 1998 | band/0 | mixed | rock | 612 | center |
+| produx | פרודוקס | 2003 | 2003 | band/0 | mixed | hiphop | 576 | center |
+| bo-az-ma-uda | בועז מעודה | 2007 | 2007 | solo/1 | male | pop | 51 | haifa-north |
+| yitzchak-fuchs | יצחק פוקס | 1985 | 1985 | solo/1 | male | other | 608 | center |
+| the-brothers-the-sisters | האחים והאחיות | 1971 | 1971 | band/0 | mixed | other | 533 | center |
+| tal-segev | טל שגב | 1990 | 1990 | solo/1 | male | pop | 354 | tel-aviv-area |
+| roni-bar-hadas | רוני בר הדס | 2020 | 2020 | solo/1 | female | pop | 394 | tel-aviv-area |
+| eti-levy | אתי לוי | 1992 | 1992 | solo/1 | female | mizrahi | 154 | south |
+| david-broza | דוד ברוזה | 1977 | 1977 | solo/1 | male | folk-israeli | 485 | haifa-north |
+| omri-glikman | עומרי גליקמן | 2000 | 2000 | solo/1 | male | hiphop | 206 | center |
+| the-revivo-project | הפרויקט של רביבו | 2012 | 2012 | band/0 | mixed | mizrahi | 141 | center |
+| -29 | יהוא ירון | 2001 | 2001 | solo/1 | male | other | 818 | jerusalem |
+| ori-ben-ari | אורי בן ארי | 2017 | 2017 | solo/1 | male | pop | 252 | center |
+| -63 | משה קליין | 2015 | 2015 | solo/1 | male | religious-pop | 469 | center |
+| michael-ben-david | מיכאל בן דוד | 2022 | 2022 | solo/1 | male | pop | 530 | center |
+| -65 | מאיר אדלר | 2013 | 2013 | solo/1 | male | other | 950 | center |
+| betzefer | בצפר | 1998 | 1998 | band/0 | mixed | other | 342 | center |
+| ohad-moskowitz | אוהד מושקוביץ | 2003 | 2003 | solo/1 | male | religious-pop | 303 | center |
+| naor-ormia | נאור אורמיה | 2009 | 2009 | solo/1 | male | mizrahi | 619 | center |
+| avi-belleli | אבי בללי | 1981 | 1981 | solo/1 | male | rock | 179 | tel-aviv-area |
+| avi-peretz | אבי פרץ (זמר) | 1993 | 1993 | solo/1 | male | other | 517 | tel-aviv-area |
+| -61 | סתיו שמש | 2013 | 2013 | solo/1 | female | pop | 886 | center |
+| sheva | שבע | 1995 | 1996 | band/0 | male | other | 567 | center |
+| nessim-saroussi | ניסים סרוסי | 2016 | 2016 | solo/1 | male | pop | 459 | center |
+| israel-bar-on | ישראל בר-און | 2007 | 2007 | solo/1 | male | pop | 331 | south |
+| hakol-over-habibi | הכל עובר חביבי | 1975 | 1975 | band/0 | mixed | pop | 144 | center |
+| -107 | צעירי תל אביב | 1984 | 1984 | band/0 | mixed | pop | 497 | tel-aviv-area |
+| shmulik-succot | שמוליק סוכות | 2022 | 2022 | solo/1 | male | other | 240 | center |
+| eli-lulai | אלי לולאי | 1988 | 1988 | solo/1 | male | rock | 435 | center |
+| maya-rotman | מאיה רוטמן | 2006 | 2006 | solo/1 | female | rock | 703 | center |
+| beni-elbaz | בני אלבז | 1984 | 1984 | solo/1 | male | other | 276 | center |
+| -119 | כיף התקווה הטובה | 1970 | 1970 | band/0 | mixed | rock | 809 | center |
+| ziv-yehezkel | זיו יחזקאל | 2013 | 2013 | solo/1 | male | other | 585 | tel-aviv-area |
+| shani-hazan | שני חזן | 2018 | 2018 | solo/1 | female | other | 786 | tel-aviv-area |
+| dalia-cohen | דליה כהן (זמרת) | 1968 | 1968 | solo/1 | female | other | 621 | tel-aviv-area |
+| david-krivoshei | דוד קריבושי | 1968 | 1968 | solo/1 | male | other | 712 | tel-aviv-area |
+| shekel | שקל | 2017 | 2017 | solo/1 | male | electronic | 234 | tel-aviv-area |
+| roni-ginosar | רוני גינוסר | 2007 | 2007 | solo/1 | female | jazz-soul | 930 | center |
+| meital-de-razon | מיטל דה רזון | 2012 | 2012 | solo/1 | female | other | 615 | center |
+| ella-lee | אלה לי להב | 2019 | 2019 | solo/1 | female | folk-rock | 125 | center |
+| -47 | אהרון ירימי | 1986 | 1986 | solo/1 | male | other | 855 | center |
+| ram-orion | רם אוריון | 1982 | 1982 | solo/1 | male | rock | 437 | tel-aviv-area |
+| matan-porat | מתן פורת | 2013 | 2013 | solo/1 | male | other | 420 | tel-aviv-area |
+| yeled | ילד. | 2022 | 2022 | solo/1 | male | other | 146 | center |
+| isolier-band | איזולירבנד | 1982 | 1982 | band/0 | mixed | pop | 758 | center |
+| tslil-kalifi | צליל קליפי | 2002 | 2002 | solo/1 | female | pop | 546 | center |
+| yom-tov-ehrlich | יום-טוב עהרליך | 1960 | 1960 | solo/1 | male | other | 409 | center |
+| dorit-reuveni | דורית ראובני | 1973 | 1973 | solo/1 | female | other | 635 | center |
+| j-lamotta | J.Lamotta | 2014 | 2014 | solo/1 | female | jazz-soul | 570 | tel-aviv-area |
+| lea-shabat | לאה שבת | 1986 | 1986 | solo/1 | female | pop | 163 | center |
+| ori-zakh | אורי זך | 2004 | 2004 | solo/1 | male | pop | 207 | center |
+| sherry | שרי (זמרת) | 1976 | 1976 | solo/1 | female | pop | 561 | center |
+| -117 | משפחת אלייב | 2007 | 2007 | band/0 | mixed | other | 900 | center |
+| stav-beger | סתיו בגר | 2011 | 2015 | solo/1 | male | pop | 257 | center |
+| avi-benjamin | אבי בנימין | 2000 | 2000 | solo/1 | male | other | 395 | center |
+| shalva-band | להקת שלוה | 2006 | 2006 | band/0 | mixed | other | 558 | center |
+| inbar-hets-rony | ענבר חצרוני | 2020 | 2020 | solo/1 | female | other | 977 | center |
+| yitzhak-klepter | יצחק קלפטר | 1966 | 1966 | solo/1 | male | rock | 53 | center |
+| ehud-banai | אהוד בנאי | 1977 | 1977 | solo/1 | male | rock | 8 | jerusalem |
+| shazamat | שאזאמאט | 2017 | 2017 | band/0 | male | hiphop | 221 | center |
+| doron-miran | דורון מירן | 1987 | 1987 | solo/1 | male | mizrahi | 274 | center |
+| karni-eldad | קרני אלדד | 2006 | 2006 | solo/1 | female | other | 931 | jerusalem |
+| eden-golan | עדן גולן | 2015 | 2015 | solo/1 | female | pop | 50 | center |
+| ofira-ravit-yosefi | אופירה ורוית יוספי | 1989 | 1989 | band/0 | female | other | 705 | center |
+| eli-magen | אלי מגן | 1987 | 1987 | solo/1 | male | jazz-soul | 451 | tel-aviv-area |
+| liat-itzhaki | ליאת יצחקי | 2002 | 2002 | solo/1 | female | other | 819 | center |
+| lidor-yosefi | לידור יוספי | 1997 | 1997 | solo/1 | male | mizrahi | 722 | center |
 | omri-keren | עמרי קרן | 0 | 0 | solo/1 | male | other | 888 | center |
+| yafa-yarkoni | יפה ירקוני | 0 | 0 | solo/1 | female | folk-israeli | 75 | tel-aviv-area |
 | miriam-segal | מרים סגל | 0 | 0 | solo/1 | female | other | 337 | center |
 | m-jde-hepokur | מוג'דה | 0 | 0 | solo/1 | female | other | 344 | abroad |
 | yael-shoshana-cohen | יעל שושנה כהן | 0 | 0 | solo/1 | female | other | 652 | center |
+| sasha-argov | סשה ארגוב | 0 | 0 | solo/1 | male | other | 202 | abroad |
 | ari-pepper | ארי פפר | 0 | 0 | solo/1 | male | other | 112 | center |
 | uri-revach | אורי רווח | 0 | 0 | solo/1 | male | other | 814 | jerusalem |
 | mickyagi | מיקיאגי | 0 | 0 | solo/1 | male | other | 255 | center |
-| dov-seltzer | דובי זלצר | 0 | 1945 | solo/1 | male | other | 362 | center |
+| dov-seltzer | דובי זלצר | 0 | 0 | solo/1 | male | other | 362 | center |
 | -60 | פאדי כיוף | 0 | 0 | solo/1 | male | other | 426 | center |
 | l-szl-roth | לסלו רוט | 0 | 0 | solo/1 | male | other | 607 | center |
 | -118 | חלוצי החלל (מוזיקה) | 0 | 0 | band/0 | mixed | hiphop | 474 | center |
 | ori-harpaz | אורי הרפז | 0 | 0 | solo/1 | male | other | 553 | center |
 | -74 | אסף לביא צנעני | 0 | 0 | solo/1 | male | other | 365 | tel-aviv-area |
 | -28 | משה כהן (זמר) | 0 | 0 | solo/1 | male | mizrahi | 549 | center |
+| moshe-wilensky | משה וילנסקי | 0 | 0 | solo/1 | male | other | 124 | center |
 | jonathan-levin | יונתן לוין | 0 | 0 | solo/1 | male | other | 656 | center |
 | salva-barzellai | סלבה ברזילאי | 0 | 0 | solo/1 | male | other | 388 | center |
 | yossi-chori | יוסי חורי | 0 | 0 | solo/1 | male | other | 596 | center |
+| -36 | רגב הוד | 0 | 0 | solo/1 | male | mizrahi | 599 | center |
 | dorit-farkash | דורית פרקש | 0 | 0 | solo/1 | female | other | 831 | center |
 | -23 | דנידין | 0 | 0 | solo/1 | male | hiphop | 617 | tel-aviv-area |
 | yuval-ben-ami | יובל בן-עמי | 0 | 0 | solo/1 | male | other | 766 | jerusalem |
@@ -6882,13 +6866,12 @@ Generated for 1000 artists.
 | yael-cohen | יעל כהן | 0 | 0 | solo/1 | female | other | 922 | center |
 | maayan-linik | מעיין ליניק | 0 | 0 | solo/1 | female | other | 744 | tel-aviv-area |
 | yoad-nevo | יועד נבו | 0 | 0 | solo/1 | male | pop | 236 | jerusalem |
-| -126 | משפחת ואך | 2005 | 2005 | band/0 | mixed | folk-israeli | 821 | center |
-| max-brod | מקס ברוד | 0 | 1906 | solo/1 | male | other | 164 | center |
+| max-brod | מקס ברוד | 0 | 0 | solo/1 | male | other | 164 | center |
 | josef-sarig | יוסף שריג | 0 | 0 | solo/1 | male | other | 336 | center |
 | jango | ג'נגו | 0 | 0 | solo/1 | male | other | 408 | center |
-| shlomo-cohen | סולימאן הגדול | 0 | 1933 | solo/1 | male | other | 604 | center |
+| shlomo-cohen | סולימאן הגדול | 0 | 0 | solo/1 | male | other | 604 | center |
 | mordechai-zeira | מרדכי זעירא | 0 | 0 | solo/1 | male | other | 490 | center |
-| david-zehavi | דוד זהבי | 0 | 1925 | solo/1 | male | other | 699 | tel-aviv-area |
+| david-zehavi | דוד זהבי | 0 | 0 | solo/1 | male | other | 699 | tel-aviv-area |
 | naama-nardi | נעמה נרדי | 0 | 0 | solo/1 | female | other | 700 | center |
 | harella-ber | הראלה בר | 0 | 0 | solo/1 | female | other | 538 | abroad |
 | rachel-haramati | רחל הרמתי | 0 | 0 | solo/1 | female | other | 550 | tel-aviv-area |
@@ -6897,6 +6880,7 @@ Generated for 1000 artists.
 | peretz-eliyahu | פרץ אליהו | 0 | 0 | solo/1 | male | other | 309 | center |
 | lilach-gliksman | לילך גליקסמן | 0 | 0 | solo/1 | female | other | 949 | tel-aviv-area |
 | pnina-brick | פנינה בריק | 0 | 0 | solo/1 | female | other | 952 | center |
+| aryeh-levanon | אריה לבנון | 0 | 0 | solo/1 | male | other | 571 | center |
 | dani-veseli | דני וסלי | 0 | 0 | solo/1 | male | other | 577 | tel-aviv-area |
 | yinam-leef | ינעם ליף | 0 | 0 | solo/1 | male | other | 769 | jerusalem |
 | maayan-licht | מעיין ליכט | 0 | 0 | solo/1 | male | other | 264 | center |
@@ -6919,7 +6903,6 @@ Generated for 1000 artists.
 | vag-papian | ואג פפיאן | 0 | 0 | solo/1 | male | jazz-soul | 696 | center |
 | dana-likvornik | דנה ליקוורניק | 0 | 0 | solo/1 | female | other | 767 | center |
 | david-tal | דוד טל (זמר) | 0 | 0 | solo/1 | male | other | 892 | center |
-| -117 | משפחת אלייב | 2007 | 2007 | band/0 | mixed | other | 900 | center |
 | yitzhak-isaac-levy | יצחק לוי | 0 | 0 | solo/1 | male | other | 427 | center |
 | yedidiah-admon | ידידיה אדמון | 0 | 0 | solo/1 | male | other | 511 | center |
 | -108 | השובלים | 0 | 0 | band/0 | mixed | other | 909 | center |
@@ -6930,12 +6913,11 @@ Generated for 1000 artists.
 | zohar-wagner | זהר וגנר | 0 | 0 | solo/1 | female | other | 905 | center |
 | shmuel-gogol | שמואל גוגול | 0 | 0 | solo/1 | male | other | 563 | center |
 | szmuel-elijahu-taub | שמואל אליהו טאוב | 0 | 0 | solo/1 | male | other | 685 | center |
-| -30 | לירן טל | 0 | 2004 | solo/1 | male | other | 929 | center |
-| -121 | לא אכפת להם | 1992 | 1992 | band/0 | mixed | other | 934 | center |
+| -30 | לירן טל | 0 | 0 | solo/1 | male | other | 929 | center |
 | ofer-shriki | עופר שריקי | 0 | 0 | solo/1 | male | other | 940 | jerusalem |
 | ori-ronen | אורי רונן | 0 | 0 | solo/1 | male | other | 858 | center |
 | joe-moustaki | יוסי מוסטקי | 0 | 0 | solo/1 | male | other | 859 | center |
-| emanuel-amiran-pougatchov | עמנואל עמירן | 0 | 1928 | solo/1 | male | other | 591 | center |
+| emanuel-amiran-pougatchov | עמנואל עמירן | 0 | 0 | solo/1 | male | other | 591 | center |
 | verdina-shlonsky | ורדינה שלונסקי | 0 | 0 | solo/1 | female | other | 582 | center |
 | -137 | שאטגאנז | 0 | 0 | band/0 | mixed | other | 967 | center |
 | meir-noy | מאיר נוי | 0 | 0 | solo/1 | male | other | 873 | center |

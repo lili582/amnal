@@ -50,6 +50,16 @@ export function run(): { artists: Artist[]; hard: string[]; warns: string[] } {
       `debutYear ${a.debutYear} precedes birthYear ${a.birthYear} for ${a.nameHe}`,
       true,
     )
+    check(
+      !(a.breakthroughYear > 0 && a.birthYear > 0 && a.breakthroughYear < a.birthYear),
+      `breakthroughYear ${a.breakthroughYear} precedes birthYear ${a.birthYear} for ${a.nameHe}`,
+      true,
+    )
+    check(
+      !(a.breakthroughYear > 0 && a.debutYear > 0 && a.breakthroughYear < a.debutYear),
+      `breakthroughYear ${a.breakthroughYear} precedes debutYear ${a.debutYear} for ${a.nameHe}`,
+      true,
+    )
     const rankOk = Number.isInteger(a.popularityRank) && a.popularityRank >= 1 && a.popularityRank <= artists.length
     if (a.answerEligible) check(rankOk, `invalid popularityRank for ${a.nameHe}`, true)
     else check(rankOk, `invalid popularityRank for ${a.nameHe} (not eligible)`, false)
