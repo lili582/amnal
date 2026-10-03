@@ -598,6 +598,57 @@ body {
   text-decoration: underline;
 }
 
+/* ---------- artist detail table ---------- */
+
+.artist-table {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  background: var(--surface);
+  margin-bottom: 10px;
+}
+
+.artist-table-title {
+  margin: 0 0 12px 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--text-dim);
+}
+
+.artist-params-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.artist-params-table tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.artist-params-table tr:last-child {
+  border-bottom: none;
+}
+
+.artist-params-table td {
+  padding: 8px 4px;
+  vertical-align: top;
+}
+
+.artist-params-table td.param-label {
+  font-weight: 700;
+  width: 30%;
+  color: var(--text-dim);
+}
+
+.artist-params-table td.param-value {
+  color: var(--text);
+}
+
+.artist-params-table td.colspan-2 {
+  width: 100%;
+  color: var(--text);
+}
+
 .primary-btn {
   min-height: 44px;
   padding: 10px 18px;
