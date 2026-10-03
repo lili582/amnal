@@ -81,6 +81,7 @@ Repo layout:
       06-merge.ts              merge + ranking -> src/data/artists.json
       07-validate.ts           schema check + missing-field report
       08-build-schedule.ts     seeded shuffle -> src/data/schedule.json
+      09-curation-sheet.ts     owner worklist for the gaps automation cannot fill
     src/
       config.ts                GAME_NAME, MAX_GUESSES=10, LAUNCH_DATE, TZ
       strings.he.ts            all UI text

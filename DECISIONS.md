@@ -355,3 +355,24 @@ Re-running the audit reports zero false "correct" tiles.
 The audit script was a throwaway. If this needs guarding in future, the
 invariant worth a permanent test is the cheap version: for each tile field, a
 pair whose value is unknown on both sides must never be "correct".
+## The curation worksheet (scripts/09-curation-sheet.ts)
+
+Two gaps need a human with real sources and cannot be automated (see the
+negative results above), so the pipeline now emits the worklist instead of
+leaving it implicit in review-report.md:
+
+    data/curation-worksheet.md
+
+It regenerates from public/data/artists.json on every `data:merge` run, so it
+cannot go stale, and it lists the 87 artists with no debut year and the 188
+bands with no member count. Each row carries what a lookup actually needs - id,
+Hebrew and Latin name, birth year, death year, Wikidata QID, MusicBrainz id and
+the popularity rank - plus an empty `value` column to fill in.
+
+The point of generating it rather than hand-writing it is that the identifiers
+in the row are the *safe* join keys. The Deezer attempt failed precisely because
+it joined on a name; here the owner starts from a QID or MBID and looks up the
+date, which is what makes the result trustworthy.
+
+Values go into data/overrides.json keyed by the Hebrew name, then re-run the
+pipeline. The worksheet itself must not be edited.

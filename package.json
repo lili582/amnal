@@ -12,9 +12,9 @@
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "data:validate": "tsx scripts/07-validate.ts",
-    "data": "tsx scripts/00-kworb.ts && tsx scripts/01-wikidata.ts && tsx scripts/02-musicbrainz.ts && tsx scripts/03-deezer.ts && tsx scripts/04-lastfm.ts && tsx scripts/05-pageviews.ts && tsx scripts/05b-hecats.ts && tsx scripts/05c-deezer-debut.ts && tsx scripts/06-merge.ts && tsx scripts/07-validate.ts && tsx scripts/08-build-schedule.ts",
+    "data": "tsx scripts/00-kworb.ts && tsx scripts/01-wikidata.ts && tsx scripts/02-musicbrainz.ts && tsx scripts/03-deezer.ts && tsx scripts/04-lastfm.ts && tsx scripts/05-pageviews.ts && tsx scripts/05b-hecats.ts && tsx scripts/05c-deezer-debut.ts && tsx scripts/06-merge.ts && tsx scripts/07-validate.ts && tsx scripts/08-build-schedule.ts && tsx scripts/09-curation-sheet.ts",
     "data:stages": "tsx scripts/00-kworb.ts && tsx scripts/01-wikidata.ts && tsx scripts/02-musicbrainz.ts && tsx scripts/03-deezer.ts && tsx scripts/04-lastfm.ts && tsx scripts/05-pageviews.ts && tsx scripts/05b-hecats.ts && tsx scripts/05c-deezer-debut.ts",
-    "data:merge": "tsx scripts/06-merge.ts && tsx scripts/07-validate.ts && tsx scripts/08-build-schedule.ts"
+    "data:merge": "tsx scripts/06-merge.ts && tsx scripts/07-validate.ts && tsx scripts/08-build-schedule.ts && tsx scripts/09-curation-sheet.ts"
   },
   "dependencies": {
     "react": "^19.2.8",
