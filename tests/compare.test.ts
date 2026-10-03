@@ -114,22 +114,27 @@ describe('compareArtist', () => {
   })
 
   describe('popularity', () => {
-    const tier5 = fixturesById.get('pop-alpha')! // tier 5
-    const tier4 = fixturesById.get('pop-beta')! // tier 4
-    const tier1 = fixturesById.get('rock-duo')! // tier 1
+    const rank1 = fixturesById.get('pop-alpha')! // rank 1 = most popular
+    const rank40 = fixturesById.get('pop-beta')! // rank 40, inside the close band
+    const rank900 = fixturesById.get('rock-duo')! // rank 900
 
-    it('same tier is correct', () => {
-      expect(compareArtist(tier5, tier5)[5].match).toBe('correct')
+    it('same rank is correct', () => {
+      expect(compareArtist(rank1, rank1)[5].match).toBe('correct')
     })
-    it('adjacent tier is close with an arrow', () => {
-      const t = compareArtist(tier4, tier5)[5]
+    it('nearby rank is close with an arrow', () => {
+      const t = compareArtist(rank40, rank1)[5]
       expect(t.match).toBe('close')
-      expect(t.arrow).toBe('up') // target tier 5 > guess 4
+      expect(t.arrow).toBe('up') // target rank 1 is more popular than guess rank 40
     })
-    it('far tier is wrong', () => {
-      const t = compareArtist(tier1, tier5)[5]
+    it('distant rank is wrong', () => {
+      const t = compareArtist(rank900, rank1)[5]
       expect(t.match).toBe('wrong')
       expect(t.arrow).toBe('up')
+    })
+    it('a less popular guess points down when the target is lower ranked', () => {
+      const t = compareArtist(rank1, rank900)[5]
+      expect(t.match).toBe('wrong')
+      expect(t.arrow).toBe('down')
     })
   })
 
@@ -140,7 +145,7 @@ describe('compareArtist', () => {
       ...a,
       id: 'impostor',
       nameHe: 'אותו הדבר',
-      popularityTier: a.popularityTier,
+      popularityRank: a.popularityRank,
       debutYear: a.debutYear,
       breakthroughYear: a.breakthroughYear,
       type: a.type,

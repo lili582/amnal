@@ -45,7 +45,7 @@ export interface Artist {
   gender: Gender // for groups: 'mixed' if both genders present
   primaryGenre: Genre
   secondaryGenres: Genre[] // 0-2 items, used for "close" matches
-  popularityTier: 1 | 2 | 3 | 4 | 5 // 5 = most popular
+  popularityRank: number // 1 = most popular in the pool, POOL_SIZE = least popular
   region: Region
   answerEligible: boolean // may be picked as a daily answer
   famousSong?: FamousSong // revealed after the round ends

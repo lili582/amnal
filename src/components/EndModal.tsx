@@ -6,6 +6,7 @@ import { buildShareText, shareText } from '../lib/share'
 import { reportLink } from '../lib/report'
 import { soundcloudEmbedUrl, soundcloudSearchUrl } from '../lib/soundcloud'
 import { Modal } from './Modal'
+import type { ArtistType, Gender, Genre, Region } from '../types'
 
 interface EndModalProps {
   status: 'won' | 'lost'
@@ -98,6 +99,111 @@ function useCountdown(): string {
   return formatClock(midnight - nowMs)
 }
 
+function getArtistTypeLabel(type: ArtistType): string {
+  switch (type) {
+    case 'solo': return strings.lineupValues.solo
+    case 'duo': return strings.lineupValues.duo
+    case 'band': return strings.lineupValues.band.replace('{n}', String(type))
+  }
+}
+
+function getGenderLabel(gender: Gender): string {
+  switch (gender) {
+    case 'male': return strings.genderValues.male
+    case 'female': return strings.genderValues.female
+    case 'mixed': return strings.genderValues.mixed
+  }
+}
+
+function getGenreLabels(genres: Genre[]): string {
+  return genres.map(g => strings.genreValues[g] ?? g).join(' · ')
+}
+
+function getRegionLabel(region: Region): string {
+  switch (region) {
+    case 'tel-aviv-area': return 'גוש דן'
+    case 'center': return 'שרון / שפלה / מרכז'
+    case 'jerusalem': return 'ירושלים והסביבה'
+    case 'haifa-north': return 'חיפה, קריות, צפון'
+    case 'south': return 'באר שבע, נגב, אילת, דרום'
+    case 'abroad': return 'נולד/הוקם מחוץ לישראל'
+  }
+}
+
+function ArtistDetailTable({ artist }: { artist: Artist }) {
+  const ageAtDeath = artist.diedYear ? artist.birthYear ? artist.diedYear - artist.birthYear : '??' : undefined
+  const song = artist.famousSong
+
+  return (
+    <div className="artist-table">
+      <h3 className="artist-table-title">{strings.revealCardTitle}</h3>
+      <table className="artist-params-table">
+        <tbody>
+          <tr>
+            <td className="param-label">שם עברי</td>
+            <td className="param-value">{artist.nameHe}</td>
+          </tr>
+          {artist.nameEn && (
+            <tr>
+              <td className="param-label">שם אנגלי</td>
+              <td className="param-value">{artist.nameEn}</td>
+            </tr>
+          )}
+          {artist.aliases.length > 0 && (
+            <tr>
+              <td className="param-label">כינויים</td>
+              <td className="param-value">{artist.aliases.join(' • ')}</td>
+            </tr>
+          )}
+          <tr>
+            <td className="param-label">גיל / משך פעילות</td>
+            <td className="param-value">
+              {artist.debutYear}
+              {ageAtDeath ? ` - ${ageAtDeath} (${strings.ageDeceased.male.replace('{age}', String(ageAtDeath))})` : ''}
+            </td>
+          </tr>
+          <tr>
+            <td className="param-label">שנת פריצה</td>
+            <td className="param-value">{artist.breakthroughYear}</td>
+          </tr>
+          <tr>
+            <td className="param-label">הרכב</td>
+            <td className="param-value">{getArtistTypeLabel(artist.type)}</td>
+          </tr>
+          <tr>
+            <td className="param-label">מגדר</td>
+            <td className="param-value">{getGenderLabel(artist.gender)}</td>
+          </tr>
+          <tr>
+            <td className="param-label">ז׳אנר ראשי</td>
+            <td className="param-value">{strings.genreValues[artist.primaryGenre] ?? artist.primaryGenre}</td>
+          </tr>
+          {artist.secondaryGenres.length > 0 && (
+            <tr>
+              <td className="param-label">ז׳אנרים נוספים</td>
+              <td className="param-value">{getGenreLabels(artist.secondaryGenres)}</td>
+            </tr>
+          )}
+          <tr>
+            <td className="param-label">פופולריות</td>
+            <td className="param-value">{strings.popularityText.replace('{n}', String(artist.popularityRank))}</td>
+          </tr>
+          <tr>
+            <td className="param-label">אזור</td>
+            <td className="param-value">{getRegionLabel(artist.region)}</td>
+          </tr>
+          {song && (
+            <tr>
+              <td className="param-label">הלהיט הגדול</td>
+              <td className="param-value" colSpan={2}>{song.title}</td>
+            </tr>
+          )}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 export function EndModal({
   status,
   artist,
@@ -131,6 +237,7 @@ export function EndModal({
   return (
     <Modal title={status === 'won' ? strings.winShort : strings.loseShort} onClose={onClose}>
       <RevealCard artist={artist} />
+      <ArtistDetailTable artist={artist} />
       <p className="end-headline">{head}</p>
       <p className="end-sub">{sub}</p>
       <p className="countdown">{strings.nextIn.replace('{time}', countdown)}</p>

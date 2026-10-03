@@ -65,7 +65,7 @@ export const strings = {
     'jazz-soul': 'ג׳אז/סול',
     other: 'אחר',
   },
-  popularityText: 'עוצמת פופולריות {n}/5',
+  popularityText: 'מקום בפופולריות: {n}',
   stats: {
     played: 'שיחקתם',
     winRate: 'אחוז ניצחונות',

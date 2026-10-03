@@ -19,7 +19,7 @@ const artistA: Artist = {
   gender: 'male',
   primaryGenre: 'mizrahi',
   secondaryGenres: [],
-  popularityTier: 4,
+  popularityRank: 4,
   region: 'center',
   answerEligible: true,
   ids: {},

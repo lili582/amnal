@@ -32,7 +32,7 @@ interface Override {
   type?: T.ArtistType
   members?: number
   gender?: T.Gender
-  popularityTier?: 1 | 2 | 3 | 4 | 5
+  popularityRank?: number
   answerEligible?: boolean
   forceKeep?: boolean // bypass the actor filter for this artist
   exclude?: boolean // drop from the pool entirely (wrong entity / not a performer)
@@ -321,7 +321,7 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       gender: gender ?? 'male',
       primaryGenre,
       secondaryGenres,
-      popularityTier: 3, // provisional; tiered below
+      popularityRank: 0, // provisional; ranked below, after the pool is final
       region,
       answerEligible: true, // provisional; decided after tiering
       famousSong: famousSongs?.[qid] ?? famousSongs?.[w.en ?? ''] ?? famousSongs?.[he],
@@ -334,26 +334,25 @@ export function run(): { artists: T.Artist[]; review: string[] } {
       },
       metrics,
     }
-    const o = ov.popularityTier
-    if (o) artist.popularityTier = o
+    const o = ov.popularityRank
+    if (o) artist.popularityRank = o
     if (ov.answerEligible !== undefined) artist.answerEligible = ov.answerEligible
 
     artists.push(artist)
   }
 
-  // ---- popularity tiering (within-dataset percentiles, weighted) ----
-  // Spotify listenership is now the dominant signal (see tierArtists below).
-  tierArtists(artists, review)
+  // ---- popularity scoring ----
+  // Produces the weighted popularity score used to rank the pool. The rank
+  // itself is assigned only after the pool is final (see rankArtists below).
+  scoreArtists(artists, review)
 
   // ---- answerEligible ----
 // Eligibility answers "can this artist be a daily answer?", which is about data
 // completeness, not relative popularity: we need a real debut year to render
 // the debut tile, and at least one measured interest signal so the artist is
-// actually trending. It deliberately does *not* use popularityTier, because
-// tier is a within-pool percentile and can therefore never admit the whole
-// pool - by construction only the top ~60-85% ever reach tier >= 3, so a
-// 1000-artist answerable pool is impossible under a tier-based rule.
-// popularityTier still drives hint strength and guess ordering.
+// actually trending. It deliberately does *not* use popularityRank, because
+// rank is a within-pool percentile and would otherwise couple eligibility to
+// the arbitrary pool cut-off. popularityRank drives guess ordering only.
 const nowYear = new Date().getFullYear()
   const debutOk = (a: T.Artist): boolean => a.debutYear >= 1948 && a.debutYear <= nowYear
   const hasTrendSignal = (a: T.Artist): boolean => {
@@ -382,6 +381,12 @@ const nowYear = new Date().getFullYear()
   artists.push(...pool)
   if (droppedCount > 0) review.push(`pool-dropped: ${droppedCount} artists removed to cap the pool at ${POOL_SIZE}`)
 
+  // ---- popularity rank ----
+  // Assigned here, not before forcePool, so the ranks span exactly 1..POOL_SIZE
+  // over the artists that actually ship. Ranking the full candidate list first
+  // would leave gaps in the middle wherever a dropped artist used to sit.
+  rankArtists(artists, overrides, review)
+
   // genre sanity: primary must not appear in secondary
   for (const a of artists) {
     a.secondaryGenres = a.secondaryGenres.filter((g) => g !== a.primaryGenre).slice(0, 2)
@@ -400,7 +405,11 @@ const nowYear = new Date().getFullYear()
   return { artists, review }
 }
 
-function tierArtists(artists: T.Artist[], review: string[]): void {
+// Weighted popularity score, stored privately on each artist as __popScore.
+// Each signal is first turned into a within-dataset percentile so that signals
+// with wildly different units (streams vs. pageviews) can be blended, and the
+// weights are renormalised over whichever signals an artist actually has.
+function scoreArtists(artists: T.Artist[], review: string[]): void {
   const signalWeights = [
     { key: 'spotifyStreams' as const, w: 0.45 },
     { key: 'hewikiPageviews90d' as const, w: 0.25 },
@@ -420,7 +429,6 @@ function tierArtists(artists: T.Artist[], review: string[]): void {
     }
   }
 
-  const scores: Array<{ artist: T.Artist; score: number }> = []
   for (const a of artists) {
     const m = a.metrics as Record<string, unknown>
     let wsum = 0
@@ -433,24 +441,58 @@ function tierArtists(artists: T.Artist[], review: string[]): void {
       }
     }
     if (wsum === 0) {
-      review.push(`tier-no-signal: ${a.nameHe}`)
-      scores.push({ artist: a, score: 0.5 })
+      review.push(`pop-no-signal: ${a.nameHe}`)
+      m.__popScore = 0
       continue
     }
-    scores.push({ artist: a, score: weighted / wsum })
+    m.__popScore = weighted / wsum
+  }
+}
+
+// Turn scores into a dense 1..N popularity rank, 1 = most popular. Runs after
+// forcePool so the range matches the shipped pool exactly. A curated
+// popularityRank in data/overrides.json wins over the computed order and the
+// remaining artists are ranked around it.
+function rankArtists(artists: T.Artist[], overrides: Record<string, Override>, review: string[]): void {
+  const popScore = (a: T.Artist): number => {
+    const v = (a.metrics as Record<string, unknown> | undefined)?.__popScore
+    return typeof v === 'number' ? v : 0
   }
 
-  scores.sort((x, y) => x.score - y.score)
-  const n = scores.length
-  for (let i = 0; i < n; i++) {
-    const tier = Math.max(1, Math.min(5, Math.ceil(((i + 1) / n) * 5)))
-    scores[i].artist.popularityTier = tier
+  const pinned: T.Artist[] = []
+  const auto: T.Artist[] = []
+  for (const a of artists) {
+    const ov = overrides[a.nameHe] ?? overrides[a.nameEn ?? ''] ?? {}
+    if (typeof ov.popularityRank === 'number' && ov.popularityRank > 0) {
+      a.popularityRank = ov.popularityRank
+      pinned.push(a)
+    } else {
+      auto.push(a)
+    }
   }
 
-  // clean the private percentile fields
+  const pinnedRanks = new Set(pinned.map((a) => a.popularityRank))
+  if (pinnedRanks.size !== pinned.length) {
+    review.push(`pop-rank-duplicate: ${pinned.length - pinnedRanks.size} curated popularityRank values collide`)
+  }
+
+  // Highest score first: rank 1 is the most popular artist.
+  auto.sort((x, y) => popScore(y) - popScore(x) || x.nameHe.localeCompare(y.nameHe, 'he'))
+
+  let next = 1
+  const nextFree = (): number => {
+    while (pinnedRanks.has(next)) next++
+    const v = next
+    next++
+    return v
+  }
+  for (const a of auto) a.popularityRank = nextFree()
+
+  // clean the private score/percentile fields
   for (const a of artists) {
     const m = a.metrics as Record<string, unknown> | undefined
-    if (m) for (const k of Object.keys(m)) if (k.startsWith('__pct_')) delete m[k]
+    if (!m) continue
+    for (const k of Object.keys(m)) if (k.startsWith('__pct_') || k === '__popScore') delete m[k]
   }
 }
 

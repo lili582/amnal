@@ -43,6 +43,9 @@ export function run(): { artists: Artist[]; hard: string[]; warns: string[] } {
     if (a.answerEligible) check(okMembers, `type/members inconsistent for ${a.nameHe}`, true)
     else check(okMembers, `type/members inconsistent for ${a.nameHe} (not eligible)`, false)
     check(!a.secondaryGenres.includes(a.primaryGenre), `primary genre listed as secondary for ${a.nameHe}`, true)
+    const rankOk = Number.isInteger(a.popularityRank) && a.popularityRank >= 1 && a.popularityRank <= artists.length
+    if (a.answerEligible) check(rankOk, `invalid popularityRank for ${a.nameHe}`, true)
+    else check(rankOk, `invalid popularityRank for ${a.nameHe} (not eligible)`, false)
     if (a.nameEn) {
       const latinAlias = [a.nameEn, ...a.aliases].some((x) => /^[a-z&.\s-]+$/i.test(x ?? ''))
       check(latinAlias, `no latin-script alias for ${a.nameHe}`, false)
@@ -96,7 +99,7 @@ function writeReviewReport(artists: Artist[], lines: string[], hard: string[]): 
   md.push('## All artists', '', '| id | nameHe | debut | breakthrough | type | gender | genre | tier | region |', '|---|--------|-------|--------------|------|--------|-------|------|--------|')
   for (const a of artists) {
     md.push(
-      `| ${a.id} | ${a.nameHe} | ${a.debutYear} | ${a.breakthroughYear} | ${a.type}/${a.members} | ${a.gender} | ${a.primaryGenre} | ${a.popularityTier} | ${a.region} |`,
+      `| ${a.id} | ${a.nameHe} | ${a.debutYear} | ${a.breakthroughYear} | ${a.type}/${a.members} | ${a.gender} | ${a.primaryGenre} | ${a.popularityRank} | ${a.region} |`,
     )
   }
   mkdirSync(join(ROOT, 'data'), { recursive: true })

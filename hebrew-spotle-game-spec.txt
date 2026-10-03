@@ -78,7 +78,7 @@ Repo layout:
       03-deezer.ts
       04-lastfm.ts
       05-pageviews.ts
-      06-merge.ts              merge + tiering -> src/data/artists.json
+      06-merge.ts              merge + ranking -> src/data/artists.json
       07-validate.ts           schema check + missing-field report
       08-build-schedule.ts     seeded shuffle -> src/data/schedule.json
     src/
@@ -143,7 +143,7 @@ export interface Artist {
   gender: Gender;                // for groups: 'mixed' if both genders present
   primaryGenre: Genre;
   secondaryGenres: Genre[];      // 0-2 items, used for "close" matches
-  popularityTier: 1 | 2 | 3 | 4 | 5;   // 5 = most popular (section 7)
+  popularityRank: number;                 // 1 = most popular in the pool (section 7)
   region: Region;
   talentShow: TalentShow;
   answerEligible: boolean;       // may be picked as a daily answer
@@ -153,7 +153,7 @@ export interface Artist {
     deezer?: number;
     lastfm?: string;
   };
-  metrics?: {                    // raw numbers used for tiering (not shown)
+  metrics?: {                    // raw numbers used for ranking (not shown)
     deezerFans?: number;
     lastfmListeners?: number;
     hewikiPageviews90d?: number;
@@ -179,7 +179,7 @@ Tiles (right-to-left order on screen, i.e. first column is the rightmost):
   2. הרכב               type + members
   3. מגדר               gender
   4. ז'אנר              primaryGenre (+ secondaryGenres for "close")
-  5. פופולריות          popularityTier
+  5. פופולריות          popularityRank
   6. אזור               region
   7. תוכנית ריאליטי     talentShow
 
@@ -446,7 +446,7 @@ Groups and duos
 
 6.6a SPOTIFY CHART MIRROR (kworb.net)  -  USE for the artist pool + ranking
   - The pool is the top-1000 most-streamed artists on the Israeli Spotify chart,
-    so listenership must drive both pool membership and popularityTier.
+    so listenership must drive both pool membership and popularityRank.
   - Spotify's own API is unusable (6.6), but kworb.net mirrors the public
     Spotify chart totals. Source:
       https://kworb.net/spotify/country/il_weekly_totals.html
@@ -458,7 +458,7 @@ Groups and duos
   - Stage scripts/01-wikidata.ts resolves each chart artist name to a Wikidata
     QID (same Israeli validation as seeds) and writes data/raw/spotify.json.
     scripts/06-merge.ts then sets ids.spotify, metrics.spotifyStreams and
-    metrics.spotifyRank, and weights spotifyStreams as the dominant tier
+    metrics.spotifyRank, and weights spotifyStreams as the dominant rank
     signal (0.45) ahead of pageviews/deezer/sitelinks.
   - The pool is then forced to exactly 1000 artists (POOL_SIZE in 06-merge.ts):
     Spotify-ranked artists first, previously-scheduled artists always kept,
@@ -530,7 +530,7 @@ ENV FILE (.env.example)
 
 
 --------------------------------------------------------------------------------
-7. DATA PIPELINE (scripts/) AND TIERING
+7. DATA PIPELINE (scripts/) AND RANKING
 --------------------------------------------------------------------------------
 Every script: reads the previous stage's file, caches raw responses in
 data/raw/, is re-runnable (skip already-cached entries), throttles per the
@@ -544,7 +544,7 @@ limits above, and logs unresolved names to data/raw/unresolved.json.
   04-lastfm.ts       listeners/playcount + top tags (needs LASTFM_API_KEY)
   05-pageviews.ts    hewiki 90-day pageviews
   06-merge.ts        merge all sources into Artist[], apply data/genre-map.json
-                     and data/city-region.json, compute popularityTier, then
+                     and data/city-region.json, compute popularityRank, then
                      apply data/overrides.json LAST (manual data always wins)
   07-validate.ts     section 3 validation + review report
   08-build-schedule.ts  section 9
@@ -564,27 +564,36 @@ FIELD PROVENANCE
                 overrides for alumni of כוכב נולד / הכוכב הבא / others.
   aliases       Hebrew label + English label + MusicBrainz aliases + manual.
 
-POPULARITY TIER (1-5)
-  1. For each artist compute the available signals: spotifyStreams,
-     hewikiPageviews90d, deezerFans, wikidataSitelinks.
-  2. Convert each signal to a percentile rank WITHIN THE ISRAELI DATASET
-     (do not use global thresholds).
-  3. score = weighted mean of the available percentiles:
+POPULARITY RANK (1 = most popular, up to POOL_SIZE)
+   1. For each artist compute the available signals: spotifyStreams,
+      hewikiPageviews90d, deezerFans, wikidataSitelinks.
+   2. Convert each signal to a percentile rank WITHIN THE ISRAELI DATASET
+      (do not use global thresholds).
+   3. score = weighted mean of the available percentiles:
         spotify 0.45, hewiki 0.25, deezer 0.20, sitelinks 0.10
-     (renormalize weights over the signals that exist for that artist).
-     Spotify listenership (metrics.spotifyStreams) is the primary signal; it is
-     present only for chart artists, so non-chart artists are ranked by their
-     remaining signals. lastfm was dropped (no key, API unused).
-  4. Tiers by score quintile: top 20% => 5 ... bottom 20% => 1.
-  5. Overrides may set the tier by hand - the owner will fix obvious errors.
-  6. answerEligible requires a valid debut year so a daily answer can never
-     render an "unknown" debut tile, AND at least one measured interest signal
-     (Spotify streams, 90-day hewiki pageviews or Deezer fans), so every daily
-     answer is a currently-trending artist.
-      - It deliberately does NOT use popularityTier. Tier is a within-pool
-        percentile, so at most ~60-85% of the pool can ever reach tier >= 3 and
-        a 1000-artist answerable pool would be impossible. Tier still drives
-        hint strength and guess ordering.
+      (renormalize weights over the signals that exist for that artist).
+      Spotify listenership (metrics.spotifyStreams) is the primary signal; it is
+      present only for chart artists, so non-chart artists are ranked by their
+      remaining signals. lastfm was dropped (no key, API unused).
+   4. Sort by score descending and assign a dense rank 1..N, so rank 1 is the
+      most popular artist in the pool and rank N the least. Ranking happens
+      AFTER the pool is capped at POOL_SIZE, so the ranks span exactly
+      1..POOL_SIZE with no gaps left by dropped artists.
+   5. Overrides may set popularityRank by hand (data/overrides.json) - the owner
+      will fix obvious errors. A pinned rank is kept and the remaining artists
+      are ranked around it.
+   6. The popularity tile grades a guess against the target by rank distance:
+      equal ranks are "correct", a gap of up to POPULARITY_CLOSE_SPAN (50,
+      ~5% of the pool) is "close", anything wider is "wrong". The arrow points
+      toward the target: rank 1 is the top, so a guess with a HIGHER rank number
+      than the target is the less popular one and the arrow is "up".
+   7. answerEligible requires a valid debut year so a daily answer can never
+      render an "unknown" debut tile, AND at least one measured interest signal
+      (Spotify streams, 90-day hewiki pageviews or Deezer fans), so every daily
+      answer is a currently-trending artist.
+       - It deliberately does NOT use popularityRank, to keep eligibility
+         independent of the arbitrary pool cut-off. popularityRank drives
+         autocomplete ordering only.
       - Debut year sources, in order: override, MusicBrainz begin (groups),
         Wikidata P2031 work period start, MusicBrainz first release (persons),
         Deezer earliest album release year (stage 05c-deezer-debut.ts), then
@@ -620,7 +629,7 @@ search(query, artists, alreadyGuessedIds) -> up to 8 results, ranked:
   2. any word of the name starts with the query
   3. skeleton form contains the skeleton of the query
   4. fuzzy: Levenshtein distance <= 1 per token (only if query length >= 4)
-Exclude already-guessed artists. Stable secondary sort: popularityTier desc.
+Exclude already-guessed artists. Stable secondary sort: popularityRank asc (1 = most popular).
 Latin-script queries ("omer", "hadag") must work via nameEn/aliases.
 
 Rendering: wrap Latin text inside Hebrew strings with <bdi> so punctuation does
@@ -718,7 +727,7 @@ Strings (src/strings.he.ts) - centralize ALL text. Starter set:
                    אתנו/עולם | שיר עברי | אינדי | פופ דתי | ג'אז/סול | אחר
   region values    גוש דן | מרכז | ירושלים | חיפה והצפון | דרום | חו"ל
   talentShow       כוכב נולד | הכוכב הבא | תוכנית אחרת | ללא
-  popularity       show as 1-5 stars: ★☆☆☆☆ ... ★★★★★
+  popularity       show as rank: ★☆☆☆☆ ... ★★★★★
   help title       "איך משחקים?"
   stats title      "סטטיסטיקה"
   footer           "נתונים: Wikidata, MusicBrainz, Last.fm, Deezer"

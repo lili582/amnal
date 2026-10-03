@@ -45,12 +45,21 @@ function genreTile(guess: Artist, target: Artist): TileResult {
   return { field, match: cross || shared ? 'close' : 'wrong' }
 }
 
+// How close two popularity ranks must be to count as "close". popularityRank
+// spans the whole pool (1..POOL_SIZE), so the old "adjacent tier" rule has no
+// direct equivalent: a fixed 1-position gap is far too strict on a 1000-wide
+// scale. 50 positions (~5% of the pool) is the point where two artists still
+// feel comparable to a player. Tune here if the tile feels too tight or loose.
+const POPULARITY_CLOSE_SPAN = 50
+
 function popularityTile(guess: Artist, target: Artist): TileResult {
   const field = 'popularity' as const
-  if (guess.popularityTier === target.popularityTier) return { field, match: 'correct' }
-  const diff = Math.abs(guess.popularityTier - target.popularityTier)
-  const match: Match = diff === 1 ? 'close' : 'wrong'
-  const arrow = guess.popularityTier < target.popularityTier ? 'up' : 'down'
+  if (guess.popularityRank === target.popularityRank) return { field, match: 'correct' }
+  const diff = Math.abs(guess.popularityRank - target.popularityRank)
+  const match: Match = diff <= POPULARITY_CLOSE_SPAN ? 'close' : 'wrong'
+  // Rank 1 is the most popular, so a guess with the larger rank is the less
+  // popular one and the player has to move "up" the list to reach the target.
+  const arrow = guess.popularityRank > target.popularityRank ? 'up' : 'down'
   return { field, match, arrow }
 }
 

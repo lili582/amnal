@@ -112,11 +112,12 @@ export function searchArtists(
     }
   }
 
-  // Stable order: rank asc, then popularityTier desc, then name (locale he).
+  // Stable order: rank asc, then popularityRank asc (1 = most popular), then
+  // name (locale he).
   scored.sort((a, b) => {
     if (a.rank !== b.rank) return a.rank - b.rank
-    if (a.artist.popularityTier !== b.artist.popularityTier) {
-      return b.artist.popularityTier - a.artist.popularityTier
+    if (a.artist.popularityRank !== b.artist.popularityRank) {
+      return a.artist.popularityRank - b.artist.popularityRank
     }
     return a.artist.nameHe.localeCompare(b.artist.nameHe, 'he')
   })

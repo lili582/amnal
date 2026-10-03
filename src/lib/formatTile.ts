@@ -33,11 +33,11 @@ export function tileValue(artist: Artist, field: TileField, refYear = new Date()
     case 'genre':
       return strings.genreValues[artist.primaryGenre] ?? strings.genreValues.other
     case 'popularity':
-      return stars(artist.popularityTier)
+      return rankLabel(artist.popularityRank)
   }
 }
 
-function stars(tier: number): string {
-  const clamped = Math.max(0, Math.min(5, tier))
-  return '★'.repeat(clamped) + '☆'.repeat(5 - clamped)
+// 1 = most popular, so the number reads as a placing ("#1" is the top artist).
+function rankLabel(rank: number): string {
+  return `#${Math.max(1, Math.round(rank))}`
 }

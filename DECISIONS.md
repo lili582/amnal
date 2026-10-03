@@ -118,7 +118,7 @@
 
 17. **Pool = top 1000 Israeli Spotify artists (2026-09-30).** The artist pool
     is now the **1000 most-listened Israeli/Hebrew artists on Spotify**, and
-    listenership drives both pool membership and `popularityTier`.
+    listenership drives both pool membership and `popularityRank`.
     - Spotify's Web API is unusable (Feb 2026 removed artist `popularity`/
       `followers` for dev apps - see spec 6.6), so stage `scripts/00-kworb.ts`
       scrapes the public chart mirror `kworb.net/spotify/country/
@@ -135,7 +135,7 @@
       moved its 1.15s MusicBrainz throttle into `cachedFetch`'s `delayMs` so
       cached artists skip the wait and re-runs are resumable.
     - `scripts/06-merge.ts` attaches `ids.spotify`, `metrics.spotifyStreams`,
-      `metrics.spotifyRank`, weights Spotify as the dominant tier signal
+      `metrics.spotifyRank`, weights Spotify as the dominant rank signal
       (0.45, ahead of hewiki 0.25 / deezer 0.20 / sitelinks 0.10; lastfm
       dropped), then forces the pool to **exactly 1000** artists: Spotify-ranked
       artists first, previously-scheduled artists always kept, best of the rest
@@ -144,9 +144,9 @@
 - `answerEligible` requires a valid debut year *and* at least one measured
       interest signal (Spotify streams, 90-day hewiki pageviews or Deezer fans),
       so every daily answer is a currently-trending artist. It does not use
-      `popularityTier`: tier is a within-pool percentile, so at most ~60-85% of
-      the pool can ever reach tier >= 3, which makes a 1000-artist answerable
-      pool impossible. Tier still drives hint strength and guess ordering.
+      `popularityRank`: rank is a within-pool ordering, and eligibility should not
+      depend on where the arbitrary pool cut-off fell. popularityRank drives
+      autocomplete ordering only.
       - Debut year sources, in order: override, MusicBrainz begin (groups),
         Wikidata P2031, MusicBrainz first release (persons), Deezer earliest
         album release (new stage `scripts/05c-deezer-debut.ts`, 194 artists
@@ -239,3 +239,31 @@ Gate 2 (is actually a musician) - P106 cannot express this. A TV actor who
       (Hasidic singer-composers who also have poet/rabbi categories), מקס ברוד
       and יוסף שריג (singers who also write), יובל בן-עמי (a real
       percussionist who also writes), דניאל בארנבוים.
+## Popularity is a 1..1000 rank, not a 1-5 tier
+
+The tier model was replaced. `popularityTier: 1|2|3|4|5` is now
+`popularityRank: number`, where 1 is the most popular artist in the pool and
+1000 (POOL_SIZE) the least. The game UI shows `#12`, not five stars.
+
+Why: five buckets collapse a 1000-artist pool into groups of ~200, so the tile
+could not distinguish a near miss from a wild guess, and the "out of 5" framing
+communicated nothing about how many artists were being compared. A rank is
+directly interpretable and scales with the pool.
+
+- Ranking runs *after* `forcePool`, not before. Ranking the ~2200 candidates
+  first and then capping the pool left gaps in the middle wherever a dropped
+  artist used to sit; ranking the final pool makes the range exactly 1..1000
+  with no holes. Verified dense and unique after the change.
+- The score is unchanged (weighted within-dataset percentiles: spotify 0.45,
+  hewiki 0.25, deezer 0.20, sitelinks 0.10, renormalized over present signals).
+  Only the bucketing changed.
+- "Close" needed redefinition: on a 1-5 scale an adjacent tier was one step, but
+  on a 1-1000 scale any fixed small gap is meaningless. `POPULARITY_CLOSE_SPAN`
+  in src/lib/compare.ts is 50 (~5% of the pool) and is a single tunable
+  constant. This is a game-feel guess, not a measured value - adjust after
+  playing it.
+- The arrow direction inverted, because rank 1 is now the top: a guess with a
+  higher rank number than the target is the *less* popular one.
+- `data/overrides.json` accepts `popularityRank` for hand-curated fixes. Pinned
+  ranks are honoured and the rest are ranked around them.
+- `metrics.spotifyRank` remains diagnostic only and is unrelated to this field.

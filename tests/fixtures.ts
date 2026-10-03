@@ -25,7 +25,7 @@ export const fixtures: Artist[] = [
     members: 1,
     gender: 'male',
     primaryGenre: 'pop',
-    popularityTier: 5,
+    popularityRank: 1,
     region: 'tel-aviv-area',
   }),
   makeArtist({
@@ -39,7 +39,7 @@ export const fixtures: Artist[] = [
     members: 1,
     gender: 'female',
     primaryGenre: 'pop',
-    popularityTier: 4,
+    popularityRank: 40,
     region: 'tel-aviv-area',
   }),
   makeArtist({
@@ -54,7 +54,7 @@ export const fixtures: Artist[] = [
     gender: 'male',
     primaryGenre: 'mizrahi',
     secondaryGenres: ['pop'],
-    popularityTier: 3,
+    popularityRank: 200,
     region: 'south',
   }),
   makeArtist({
@@ -68,7 +68,7 @@ export const fixtures: Artist[] = [
     members: 4,
     gender: 'mixed',
     primaryGenre: 'rock',
-    popularityTier: 2,
+    popularityRank: 500,
     region: 'center',
   }),
   makeArtist({
@@ -83,7 +83,7 @@ export const fixtures: Artist[] = [
     gender: 'male',
     primaryGenre: 'rock',
     secondaryGenres: ['indie-alt', 'pop'],
-    popularityTier: 3,
+    popularityRank: 240,
     region: 'center',
   }),
   makeArtist({
@@ -97,7 +97,7 @@ export const fixtures: Artist[] = [
     members: 2,
     gender: 'male',
     primaryGenre: 'rock',
-    popularityTier: 1,
+    popularityRank: 900,
     region: 'jerusalem',
   }),
   makeArtist({
@@ -112,7 +112,7 @@ export const fixtures: Artist[] = [
     gender: 'male',
     primaryGenre: 'hiphop',
     secondaryGenres: ['mediterranean'],
-    popularityTier: 4,
+    popularityRank: 60,
     region: 'tel-aviv-area',
   }),
   makeArtist({
@@ -127,7 +127,7 @@ export const fixtures: Artist[] = [
     gender: 'mixed',
     primaryGenre: 'electronic',
     secondaryGenres: ['indie-alt'],
-    popularityTier: 3,
+    popularityRank: 280,
     region: 'haifa-north',
   }),
   makeArtist({
@@ -141,7 +141,7 @@ export const fixtures: Artist[] = [
     members: 1,
     gender: 'male',
     primaryGenre: 'folk-israeli',
-    popularityTier: 2,
+    popularityRank: 600,
     region: 'south',
   }),
   makeArtist({
@@ -156,7 +156,7 @@ export const fixtures: Artist[] = [
     gender: 'female',
     primaryGenre: 'jazz-soul',
     secondaryGenres: ['pop'],
-    popularityTier: 4,
+    popularityRank: 80,
     region: 'abroad',
   }),
   makeArtist({
@@ -170,7 +170,7 @@ export const fixtures: Artist[] = [
     members: 5,
     gender: 'mixed',
     primaryGenre: 'indie-alt',
-    popularityTier: 1,
+    popularityRank: 950,
     region: 'tel-aviv-area',
   }),
   makeArtist({
@@ -184,7 +184,7 @@ export const fixtures: Artist[] = [
     members: 1,
     gender: 'male',
     primaryGenre: 'religious-pop',
-    popularityTier: 3,
+    popularityRank: 320,
     region: 'jerusalem',
   }),
 ]

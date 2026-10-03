@@ -56,6 +56,9 @@ export function validateGameData(json: unknown): GameData | null {
     if (typeof x.nameHe !== 'string' || !x.nameHe) return null
     if (typeof x.debutYear !== 'number' || !Number.isFinite(x.debutYear)) return null
     if (typeof x.type !== 'string') return null
+    if (typeof x.popularityRank !== 'number' || !Number.isInteger(x.popularityRank) || x.popularityRank < 1) {
+      return null
+    }
     ids.add(x.id)
   }
 

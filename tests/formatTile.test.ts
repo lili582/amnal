@@ -14,7 +14,7 @@ function artist(partial: Partial<Artist>): Artist {
     gender: 'male',
     primaryGenre: 'pop',
     secondaryGenres: [],
-    popularityTier: 3,
+    popularityRank: 1,
     region: 'tel-aviv-area',
     answerEligible: true,
     ids: {},
@@ -59,10 +59,11 @@ describe('tileValue', () => {
     expect(tileValue(artist({ primaryGenre: 'other' }), 'genre')).toBe('אחר')
   })
 
-  it('popularity renders as 1-5 stars clamped to [1,5]', () => {
-    expect(tileValue(artist({ popularityTier: 5 }), 'popularity')).toBe('★★★★★')
-    expect(tileValue(artist({ popularityTier: 2 }), 'popularity')).toBe('★★☆☆☆')
-    // @ts-expect-error invalid tier forced on purpose
-    expect(tileValue(artist({ popularityTier: 9 }), 'popularity')).toBe('★★★★★')
+  it('popularity renders as a rank label, 1 = most popular', () => {
+    expect(tileValue(artist({ popularityRank: 1 }), 'popularity')).toBe('#1')
+    expect(tileValue(artist({ popularityRank: 250 }), 'popularity')).toBe('#250')
+    // a rank below 1 would be meaningless, so it is clamped up to the top spot
+    // @ts-expect-error invalid rank forced on purpose
+    expect(tileValue(artist({ popularityRank: 0 }), 'popularity')).toBe('#1')
   })
 })
