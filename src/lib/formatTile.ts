@@ -23,7 +23,11 @@ export function tileValue(artist: Artist, field: TileField, refYear = new Date()
     case 'lineup':
       if (artist.type === 'solo') return strings.lineupValues.solo
       if (artist.type === 'duo') return strings.lineupValues.duo
-      return strings.lineupValues.band.replace('{n}', String(artist.members))
+      // members === 0 is the "unknown" sentinel, so interpolating it printed
+      // "להקה (0)". Show the bare label until the count is actually known.
+      return artist.members > 0
+        ? strings.lineupValues.band.replace('{n}', String(artist.members))
+        : strings.lineupValues.bandUnknown
     case 'gender': {
       // A solo artist is never 'mixed' (data also enforces it); keep a safe
       // fallback so the word always renders instead of an empty tile.

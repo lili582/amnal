@@ -302,3 +302,25 @@ So this needs manual curation in data/overrides.json (a real source per
 artist), not another scraper. If a future automated attempt does get built, it
 must key on an identifier rather than a name and must reject any candidate
 later than the artist's death year.
+## members === 0 means unknown, and it was corrupting the lineup tile
+
+`members` uses 0 as its "unknown" sentinel (07-validate.ts relies on this: it
+accepts `type !== 'solo' && members === 0`). Nothing in the UI or the game logic
+honoured that, and all 188 bands in the pool have an unknown count, so every
+band was affected.
+
+- Display: `formatTile` interpolated the sentinel, so the lineup tile showed
+  **"???? (0)"** - a band with zero members - for all 188 bands. It now renders
+  the bare "????" until a count is known.
+- Logic (the real bug): `lineupTile` awarded "correct" when
+  `guess.members === target.members`, and `0 === 0`, so **any two unrelated
+  bands scored a correct lineup tile** for a number nobody measured. It also
+  emitted a direction arrow from `0 < 0`, which is always false and so always
+  pointed "down". A tile must never be decided by a sentinel. Both members must
+  now be real numbers before the tile can be "correct" or show an arrow;
+  otherwise two groups are "close" and nothing more.
+
+Regression tests cover unknown-vs-unknown, unknown-vs-known, and unknown
+against a real solo. The underlying data gap is unchanged - band member counts
+still need curating in data/overrides.json - but the game no longer invents an
+answer from the sentinel.

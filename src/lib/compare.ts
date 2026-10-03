@@ -13,16 +13,26 @@ function yearTiles(
   return { field, match, arrow }
 }
 
+// members === 0 means "unknown", not "zero members". In the current dataset
+// that is every band in the pool, so two unknowns must never be treated as a
+// match: doing so hands out a "correct" tile for a number nobody measured.
 function lineupTile(guess: Artist, target: Artist): TileResult {
   const field = 'lineup' as const
-  if (guess.type === target.type && guess.members === target.members) {
+  const guessKnown = guess.members > 0
+  const targetKnown = target.members > 0
+
+  if (guess.type === target.type && guessKnown && targetKnown && guess.members === target.members) {
     return { field, match: 'correct' }
   }
   const bothGroups = guess.type !== 'solo' && target.type !== 'solo'
   if (bothGroups) {
-    const match: Match = 'close'
-    const arrow = guess.members < target.members ? 'up' : 'down'
-    return { field, match, arrow }
+    // Only claim a direction when both counts are real numbers.
+    if (guessKnown && targetKnown) {
+      const match: Match = 'close'
+      const arrow = guess.members < target.members ? 'up' : 'down'
+      return { field, match, arrow }
+    }
+    return { field, match: 'close' }
   }
   return { field, match: 'wrong' }
 }

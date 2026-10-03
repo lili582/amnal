@@ -77,6 +77,23 @@ describe('compareArtist', () => {
       expect(compareArtist(solo, band4)[2].match).toBe('wrong')
       expect(compareArtist(band4, solo)[2].match).toBe('wrong')
     })
+
+    // members === 0 is the "unknown" sentinel, and every band in the shipped
+    // dataset is unknown. Two unknowns must not read as a match, or the tile
+    // awards "correct" for a member count nobody measured.
+    it('two bands with unknown counts are close, never correct', () => {
+      const unknownA = { ...band4, members: 0 }
+      const unknownB = { ...band3, members: 0 }
+      expect(compareArtist(unknownA, unknownB)[2].match).toBe('close')
+    })
+    it('unknown vs known band count is close with no arrow', () => {
+      const t = compareArtist({ ...band4, members: 0 }, band3)[2]
+      expect(t.match).toBe('close')
+      expect(t.arrow).toBeUndefined()
+    })
+    it('unknown count never beats a real solo', () => {
+      expect(compareArtist({ ...band4, members: 0 }, solo)[2].match).toBe('wrong')
+    })
   })
 
   describe('gender', () => {

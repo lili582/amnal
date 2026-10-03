@@ -50,6 +50,12 @@ describe('tileValue', () => {
     expect(tileValue(artist({ type: 'band', members: 4 }), 'lineup')).toBe('להקה (4)')
   })
 
+  // members === 0 is the "unknown" sentinel. Interpolating it rendered
+  // "להקה (0)", i.e. a band with zero members.
+  it('band with an unknown member count omits the count', () => {
+    expect(tileValue(artist({ type: 'band', members: 0 }), 'lineup')).toBe('להקה')
+  })
+
   it('gender and genre map to Hebrew labels', () => {
     expect(tileValue(artist({ gender: 'female' }), 'gender')).toBe('אישה')
     expect(tileValue(artist({ primaryGenre: 'rock' }), 'genre')).toBe('רוק')

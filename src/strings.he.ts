@@ -40,6 +40,7 @@ export const strings = {
     solo: 'סולו',
     duo: 'צמד',
     band: 'להקה ({n})',
+    bandUnknown: 'להקה',
   },
   genderValues: {
     male: 'גבר',
