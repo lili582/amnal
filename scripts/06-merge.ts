@@ -219,21 +219,39 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     // Wikidata item has no P2031/P571 at all.
     const mbBeginYear = m?.begin ? Number(m.begin) : undefined
     const mbFirstReleaseYear = m?.firstRelease ? Number(m.firstRelease) : undefined
-    // Sources that record an actual release (MusicBrainz first release, Deezer
-    // earliest album) outrank P2031. P2031 "work period start" is a hand-edited
-    // Wikidata property describing when someone became active, not a release,
-    // and it supplies 621 of the 1000 pool debut years - so where a real release
-    // date exists it is the better measurement.
-    let debutYear =
-      ov.debutYear ??
-      (m?.type === 'group' && mbBeginYear ? mbBeginYear : undefined) ??
-      (m?.type === 'person' ? mbFirstReleaseYear : undefined) ??
-      (deezerDebut[qid] ? deezerDebut[qid] : undefined) ??
-      (w.activeSince ? Number(w.activeSince) : undefined) ??
-      (w.inception ? Number(w.inception.slice(0, 4)) : undefined)
+    // P2031 (work period start) and MusicBrainz first-release are both proxies
+    // for a debut, and they fail in OPPOSITE directions:
+    //   - P2031 is hand-edited and lands too early. It put רגב הוד (b. 2000) at
+    //     1996, i.e. before he was born.
+    //   - MusicBrainz only knows catalogued releases, so it lands too late for
+    //     anyone whose early career was in a band, on TV or as a child. Tel
+    //     Senedek reads 2021 instead of 2000 (Kokhav Nolad), Laser Lloyd 2004
+    //     instead of 1981 (Hevet Haim), Tamar Muskat 2011 instead of 1980.
+    // MB is later than P2031 for 328 artists and earlier for only 141, which is
+    // the catalogue gap showing through.
+    // So take the EARLIEST machine candidate and let the birth-year guard below
+    // remove the impossible ones. An earlier claim is the recoverable error;
+    // a later one silently rewrites a career that demonstrably started earlier.
+    const machineCandidates = [
+      m?.type === 'group' ? mbBeginYear : undefined,
+      mbFirstReleaseYear,
+      deezerDebut[qid],
+      w.activeSince ? Number(w.activeSince) : undefined,
+      w.inception ? Number(w.inception.slice(0, 4)) : undefined,
+    ].filter((y): y is number => typeof y === 'number' && y > 0)
+    const earliest = machineCandidates.length ? Math.min(...machineCandidates) : undefined
+    let debutYear = ov.debutYear ?? earliest
     if (!debutYear || debutYear < 1948 || debutYear > new Date().getFullYear()) {
       debutYear = ov.debutYear ?? 0
       review.push(`debutYear-missing: ${he}`)
+    }
+    // Surface the cases where the sources disagree enough that a human should
+    // look, rather than pretending the pipeline resolved them.
+    if (!ov.debutYear && machineCandidates.length > 1) {
+      const latest = Math.max(...machineCandidates)
+      if (latest - earliest >= 6) {
+        review.push(`debutYear-disagreement: ${he} (${earliest}..${latest})`)
+      }
     }
 
     // ---- birth year ----

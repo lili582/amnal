@@ -431,3 +431,44 @@ They now pass a sanity guard, but sanity is not accuracy. `data/curation-workshe
 does not list them because they are not *missing*, only suspect - if the debut
 tile matters to the game, spot-checking the top ~200 by popularity rank is the
 highest-value curation remaining.
+## Correction: P2031 and MusicBrainz fail in opposite directions
+
+The previous entry oversold the case against P2031. Two claims in it were wrong
+and are retracted:
+
+- "MusicBrainz supplies 0 pool debut years" - false. It was a broken probe of
+  mine: I looked the cache up by artist id when `data/raw/musicbrainz.json` is
+  keyed by MBID. Real coverage is 698 pool artists.
+- "P2031 is the weakest source" - not defensible. Both sources are proxies for a
+  debut and they fail in *opposite* directions.
+
+The reorder that put a "real release" above P2031 was a net negative. For the
+469 artists where both exist, the gap is <=1y for 172, 2-5y for 94, 6-10y for 93
+and >10y for 110. MusicBrainz is the *later* value for 328 of them and the
+earlier one for only 141, because MusicBrainz only knows catalogued releases and
+misses early band, TV and child appearances. Checked against ground truth:
+
+| artist | P2031 | MB | reality |
+|---|---|---|---|
+| ?? ????? | 2000 | 2021 | won Kokhav Nolad 2000 |
+| ????? ???? | 1981 | 2004 | in ???? ?? ???? from 1981 |
+| ???? ????? | 1980 | 2011 | performing from ~age 8 |
+| ???? ???? | 1978 | 1995 | MB looks better here |
+
+So the reorder fixed the impossible values and broke three verifiable ones. The
+rule now is: take the **earliest** machine candidate (MusicBrainz begin for
+groups, MusicBrainz first release, Deezer earliest album, P2031, P571), then
+let the birth-year guard reject the impossible ones. An early claim is a
+recoverable error; a late one silently rewrites a career that demonstrably
+started earlier. With that rule ?? ????? reads 2000, ????? ???? 1981 and
+???? ????? 1980 again, and ??? ??? is still rejected to 0.
+
+Because the pipeline no longer pretends to resolve this, artists whose sources
+disagree by 6+ years are reported as `debutYear-disagreement` (275 of them) for
+a human to settle in data/overrides.json.
+
+Honest residual: 11 artists still imply a career start before age 10, and
+???? ???? is one I believe is wrong at 1978. Earliest-wins is a heuristic, not
+a fact, and the disagreement flag is the honest output of that.
+
+Result: pool 1000, 914 answer-eligible, 86 missing a debut year.
