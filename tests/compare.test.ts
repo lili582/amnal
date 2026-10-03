@@ -96,6 +96,28 @@ describe('compareArtist', () => {
     })
   })
 
+  // 0 is the "unknown" sentinel for both year tiles. 75 pool artists have no
+  // breakthrough year, and 11 have neither birth nor debut year, so these were
+  // awarding "correct" for two matching unknowns across thousands of pairs.
+  describe('unknown years are never a match', () => {
+    const known = fixturesById.get('pop-alpha')!
+
+    it('two unknown breakthrough years are not correct', () => {
+      const g = { ...known, breakthroughYear: 0 }
+      const t = { ...known, id: 'y', nameHe: 'y', breakthroughYear: 0 }
+      expect(compareArtist(g, t)[1].match).not.toBe('correct')
+    })
+    it('unknown breakthrough year has no direction arrow', () => {
+      const g = { ...known, breakthroughYear: 0 }
+      expect(compareArtist(g, known)[1].arrow).toBeUndefined()
+    })
+    it('unknown debut age is not correct', () => {
+      const g = { ...known, birthYear: undefined, debutYear: 0 }
+      const t = { ...known, id: 'y', nameHe: 'y', birthYear: undefined, debutYear: 0 }
+      expect(compareArtist(g, t)[0].match).not.toBe('correct')
+    })
+  })
+
   describe('gender', () => {
     const mixed = fixturesById.get('rock-band')! // mixed
     const male = fixturesById.get('pop-alpha')! // male

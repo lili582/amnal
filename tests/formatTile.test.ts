@@ -40,8 +40,10 @@ describe('tileValue', () => {
     expect(tileValue(artist({ birthYear: 1955, diedYear: 2024, gender: 'female' }), 'debutYear', 2026)).toBe('נפטרה בגיל 69')
   })
 
-  it('deceased artist without origin year falls back to normal age', () => {
-    expect(tileValue(artist({ birthYear: undefined, debutYear: 0, diedYear: 1964 }), 'debutYear', 2026)).toBe('2026')
+  // debutYear 0 is the "unknown" sentinel, so birthYear ?? debutYear fell
+  // through to 0 and the tile rendered an age of 2026. It must show a dash.
+  it('deceased artist without origin year shows a dash, not a bogus age', () => {
+    expect(tileValue(artist({ birthYear: undefined, debutYear: 0, diedYear: 1964 }), 'debutYear', 2026)).toBe('—')
   })
 
   it('lineup renders solo / duo / band with member count', () => {

@@ -6,6 +6,11 @@ function yearTiles(
   targetValue: number,
   field: 'debutYear' | 'breakthrough',
 ): TileResult {
+  // 0 is this codebase's "unknown" sentinel. Two unknowns must never read as a
+  // match, and the distance between a real year and 0 is meaningless, so an
+  // unknown side yields "wrong" with no direction. 75 pool artists have no
+  // breakthrough year and 11 have neither birth nor debut year.
+  if (guessValue <= 0 || targetValue <= 0) return { field, match: 'wrong' }
   if (guessValue === targetValue) return { field, match: 'correct' }
   const diff = Math.abs(guessValue - targetValue)
   const match: Match = diff <= 3 ? 'close' : 'wrong'

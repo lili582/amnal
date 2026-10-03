@@ -324,3 +324,34 @@ Regression tests cover unknown-vs-unknown, unknown-vs-known, and unknown
 against a real solo. The underlying data gap is unchanged - band member counts
 still need curating in data/overrides.json - but the game no longer invents an
 answer from the sentinel.
+## Unknown values were deciding tiles (the 0-sentinel audit)
+
+Follow-up to the `members` bug: 0 is this codebase's "unknown" sentinel
+(`debutYear`, `breakthroughYear`, `members`), and `age.ts` also falls through
+`birthYear ?? debutYear`. Nothing distinguished "we do not know this" from a
+real value when scoring tiles.
+
+I audited every unordered pair in the pool (499,500 pairs) for tiles that
+report "correct" only because two *unknown* values are equal:
+
+| field | false "correct" pairs |
+|---|---|
+| breakthrough | 2,775 |
+| debutYear | 55 |
+| lineup | 188 bands (fixed earlier) |
+
+- `yearTiles` now returns "wrong" with no arrow if either side is <= 0. A real
+  year compared against 0 produced a meaningless diff, and 0 === 0 produced a
+  free "correct". 75 pool artists have no breakthrough year, so this was the
+  single largest source of unearned credit.
+- `artistAge` guards the sentinel: with both `birthYear` and `debutYear`
+  missing, `refYear - 0` rendered an age of **2026** for 11 artists (??? ???,
+  ??? ????, ?????? and others). It now returns 0 so the tile shows "-".
+- One existing test asserted the buggy output (`toBe('2026')` for an artist
+  with no origin year). It was codifying the bug, so it now asserts "-".
+
+Re-running the audit reports zero false "correct" tiles.
+
+The audit script was a throwaway. If this needs guarding in future, the
+invariant worth a permanent test is the cheap version: for each tile field, a
+pair whose value is unknown on both sides must never be "correct".
