@@ -2029,10 +2029,13 @@ Generated for 1000 artists.
 - [ ] breakthrough-defaulted: אלף.דלת (now 2014)
 - [ ] breakthrough-defaulted: לוסיל קרו (now 2012)
 
-### debutYear-missing (335)
+### debutYear-before-birth (1)
+
+- [ ] debutYear-before-birth: לירן טל (2004 < 2005)
+
+### debutYear-missing (329)
 
 - [ ] debutYear-missing: עמרי קרן
-- [ ] debutYear-missing: יפה ירקוני
 - [ ] debutYear-missing: נחמה ליפשיץ
 - [ ] debutYear-missing: יצחק לוי
 - [ ] debutYear-missing: לייבו לוין
@@ -2043,7 +2046,6 @@ Generated for 1000 artists.
 - [ ] debutYear-missing: אלה מילך-שריף
 - [ ] debutYear-missing: קראל שלמון
 - [ ] debutYear-missing: זלטה רזדולינה
-- [ ] debutYear-missing: מישה אלכסנדרוביץ
 - [ ] debutYear-missing: אווה בן צבי
 - [ ] debutYear-missing: Teymur Mirzoyev
 - [ ] debutYear-missing: זהר וגנר
@@ -2190,7 +2192,6 @@ Generated for 1000 artists.
 - [ ] debutYear-missing: יאיר פולישוק
 - [ ] debutYear-missing: פולינה מאיופיס
 - [ ] debutYear-missing: מקס ברוד
-- [ ] debutYear-missing: אוטו קלמפרר
 - [ ] debutYear-missing: עליזה הרץ-זומר
 - [ ] debutYear-missing: יוסף טל
 - [ ] debutYear-missing: ארקדי לוקסמבורג
@@ -2198,7 +2199,6 @@ Generated for 1000 artists.
 - [ ] debutYear-missing: ולנטין ביביק
 - [ ] debutYear-missing: בן-ציון אורגד
 - [ ] debutYear-missing: מרדכי סתר
-- [ ] debutYear-missing: סשה ארגוב
 - [ ] debutYear-missing: ניר צדקיהו
 - [ ] debutYear-missing: יהויכין סטוצ'בסקי
 - [ ] debutYear-missing: יוסף קמינסקי
@@ -2206,7 +2206,6 @@ Generated for 1000 artists.
 - [ ] debutYear-missing: מרק קופיטמן
 - [ ] debutYear-missing: קלוד אברבנאל
 - [ ] debutYear-missing: מרדכי זעירא
-- [ ] debutYear-missing: משה וילנסקי
 - [ ] debutYear-missing: סרג'יו נטרא
 - [ ] debutYear-missing: בנימין רביץ
 - [ ] debutYear-missing: וסאם ג'ובראן
@@ -2319,7 +2318,6 @@ Generated for 1000 artists.
 - [ ] debutYear-missing: מאיר מינדל
 - [ ] debutYear-missing: יוסי מוסטקי
 - [ ] debutYear-missing: מאיר הרניק
-- [ ] debutYear-missing: אריה לבנון
 - [ ] debutYear-missing: מאיר נוי
 - [ ] debutYear-missing: אהרן שפי
 - [ ] debutYear-missing: שלמה רביץ
@@ -5551,103 +5549,103 @@ Generated for 1000 artists.
 
 ### validate-warns (112)
 
-- [ ] validate-warns: no latin-script alias for התקווה 6
-- [ ] validate-warns: no latin-script alias for אחד חלקי אחד
-- [ ] validate-warns: no latin-script alias for נתנאל ששון
-- [ ] validate-warns: no latin-script alias for דורלקס סדלקס
-- [ ] validate-warns: no latin-script alias for ניצה טרמין
-- [ ] validate-warns: no latin-script alias for רמי דנוך
-- [ ] validate-warns: no latin-script alias for צעירי תל אביב
-- [ ] validate-warns: no latin-script alias for הבוסתנאים
-- [ ] validate-warns: no latin-script alias for שוקולד מנטה מסטיק
-- [ ] validate-warns: no latin-script alias for סגול 59
-- [ ] validate-warns: no latin-script alias for שלישיית הופל'ה
-- [ ] validate-warns: no latin-script alias for התעויוט
-- [ ] validate-warns: no latin-script alias for רגב הוד
-- [ ] validate-warns: no latin-script alias for יואל לרנר
-- [ ] validate-warns: no latin-script alias for שרון הולצמן
-- [ ] validate-warns: no latin-script alias for גילי מסמי
-- [ ] validate-warns: no latin-script alias for לונא אבו נסאר
-- [ ] validate-warns: no latin-script alias for נערי רפול (להקה)
-- [ ] validate-warns: no latin-script alias for שלום הציבור (להקה)
-- [ ] validate-warns: no latin-script alias for בלאגן
-- [ ] validate-warns: no latin-script alias for להקת פרה אדומה
-- [ ] validate-warns: no latin-script alias for המושבה (להקה)
-- [ ] validate-warns: no latin-script alias for זאב נחמה
-- [ ] validate-warns: no latin-script alias for משה הלל
-- [ ] validate-warns: no latin-script alias for להקת חופים
-- [ ] validate-warns: no latin-script alias for חזי פניאן
-- [ ] validate-warns: no latin-script alias for קין והבל 90210
-- [ ] validate-warns: no latin-script alias for ניגון ירושלמי
-- [ ] validate-warns: no latin-script alias for סיוון (זמרת)
-- [ ] validate-warns: no latin-script alias for ויתרתי
 - [ ] validate-warns: no latin-script alias for מלכה באיה
-- [ ] validate-warns: no latin-script alias for איציק שמלי
-- [ ] validate-warns: no latin-script alias for מאיר אדלר
-- [ ] validate-warns: no latin-script alias for מלי ברונשטיין
-- [ ] validate-warns: no latin-script alias for אלי לוזון
-- [ ] validate-warns: no latin-script alias for בועז מעודה
-- [ ] validate-warns: no latin-script alias for אהרון ירימי
-- [ ] validate-warns: no latin-script alias for חמי רודנר
-- [ ] validate-warns: no latin-script alias for נכי נאצה
-- [ ] validate-warns: no latin-script alias for דוד ד'אור
-- [ ] validate-warns: no latin-script alias for קטב מרירי (להקה)
-- [ ] validate-warns: no latin-script alias for כלא שש (הרכב)
-- [ ] validate-warns: no latin-script alias for גבריאל באטלר
-- [ ] validate-warns: no latin-script alias for האירוסים - זמרי בית אלפא
-- [ ] validate-warns: no latin-script alias for בוא לבר
-- [ ] validate-warns: no latin-script alias for שאנן סטריט
-- [ ] validate-warns: no latin-script alias for אייל קופמן
-- [ ] validate-warns: no latin-script alias for כל החתיכים אצלי
-- [ ] validate-warns: no latin-script alias for אבי אילסון
-- [ ] validate-warns: no latin-script alias for עדן פרטוש
-- [ ] validate-warns: no latin-script alias for הפונדקאים
-- [ ] validate-warns: no latin-script alias for יציאת חירום
-- [ ] validate-warns: no latin-script alias for סתיו שמש
-- [ ] validate-warns: no latin-script alias for כשניקו תתחיל לדבר
-- [ ] validate-warns: no latin-script alias for גאיה (להקה)
-- [ ] validate-warns: no latin-script alias for ניצן-חן רזאל
-- [ ] validate-warns: no latin-script alias for שיקו חייק
-- [ ] validate-warns: no latin-script alias for להקת חיל התותחנים
-- [ ] validate-warns: no latin-script alias for חובבי ציון (להקה)
-- [ ] validate-warns: no latin-script alias for חיים אוליאל
-- [ ] validate-warns: no latin-script alias for שלישיית המעפיל
-- [ ] validate-warns: no latin-script alias for מושיקו מור
-- [ ] validate-warns: no latin-script alias for שמואל פרדניק
-- [ ] validate-warns: no latin-script alias for אלמנה שחורה (להקה)
-- [ ] validate-warns: no latin-script alias for יהוא ירון
-- [ ] validate-warns: no latin-script alias for קובי אפללו
-- [ ] validate-warns: no latin-script alias for כפיר בן ליש
-- [ ] validate-warns: no latin-script alias for 21 (להקה)
-- [ ] validate-warns: no latin-script alias for שמוליק צ'יזיק
-- [ ] validate-warns: no latin-script alias for עמית ליסטוונד
-- [ ] validate-warns: no latin-script alias for שלישיית אדלר
-- [ ] validate-warns: duplicate latin name Avishai Cohen
-- [ ] validate-warns: no latin-script alias for ברוש (להקה)
-- [ ] validate-warns: no latin-script alias for יניב ד'אור
-- [ ] validate-warns: no latin-script alias for הטוב הרע והנערה
-- [ ] validate-warns: no latin-script alias for אבי בניון
-- [ ] validate-warns: no latin-script alias for דורית שדה
-- [ ] validate-warns: no latin-script alias for שלישיית התאומים
-- [ ] validate-warns: no latin-script alias for 951
-- [ ] validate-warns: no latin-script alias for לירן טל
-- [ ] validate-warns: no latin-script alias for להקת מגפיים
-- [ ] validate-warns: no latin-script alias for משה קליין
-- [ ] validate-warns: no latin-script alias for הזאבות
-- [ ] validate-warns: no latin-script alias for השכנים של צ'יץ'
-- [ ] validate-warns: no latin-script alias for זבולון דאב סיסטם
-- [ ] validate-warns: no latin-script alias for אוריאל שלומי
-- [ ] validate-warns: no latin-script alias for כיף התקווה הטובה
+- [ ] validate-warns: no latin-script alias for התקווה 6
 - [ ] validate-warns: no latin-script alias for רובי חן
-- [ ] validate-warns: no latin-script alias for אלף.דלת
-- [ ] validate-warns: no latin-script alias for אטלנטיקה
-- [ ] validate-warns: no latin-script alias for נעמה כהן
+- [ ] validate-warns: no latin-script alias for סיוון (זמרת)
+- [ ] validate-warns: no latin-script alias for דורית שדה
+- [ ] validate-warns: no latin-script alias for כיף התקווה הטובה
+- [ ] validate-warns: no latin-script alias for צעירי תל אביב
+- [ ] validate-warns: no latin-script alias for חובבי ציון (להקה)
+- [ ] validate-warns: no latin-script alias for משה הלל
+- [ ] validate-warns: no latin-script alias for אלמנה שחורה (להקה)
+- [ ] validate-warns: no latin-script alias for נערי רפול (להקה)
+- [ ] validate-warns: no latin-script alias for 21 (להקה)
+- [ ] validate-warns: no latin-script alias for שלום הציבור (להקה)
+- [ ] validate-warns: no latin-script alias for סגול 59
+- [ ] validate-warns: no latin-script alias for מאיר אדלר
+- [ ] validate-warns: no latin-script alias for אלי לוזון
+- [ ] validate-warns: no latin-script alias for שוקולד מנטה מסטיק
 - [ ] validate-warns: no latin-script alias for שימי רון
-- [ ] validate-warns: no latin-script alias for צלילי הכרם
+- [ ] validate-warns: no latin-script alias for כל החתיכים אצלי
+- [ ] validate-warns: no latin-script alias for שאנן סטריט
+- [ ] validate-warns: no latin-script alias for המושבה (להקה)
+- [ ] validate-warns: no latin-script alias for איציק שמלי
+- [ ] validate-warns: no latin-script alias for הזאבות
+- [ ] validate-warns: no latin-script alias for גבריאל באטלר
+- [ ] validate-warns: no latin-script alias for כלא שש (הרכב)
+- [ ] validate-warns: no latin-script alias for להקת פרה אדומה
+- [ ] validate-warns: no latin-script alias for זבולון דאב סיסטם
+- [ ] validate-warns: no latin-script alias for קין והבל 90210
+- [ ] validate-warns: no latin-script alias for יניב ד'אור
+- [ ] validate-warns: no latin-script alias for בלאגן
+- [ ] validate-warns: no latin-script alias for כשניקו תתחיל לדבר
+- [ ] validate-warns: no latin-script alias for גילי מסמי
+- [ ] validate-warns: no latin-script alias for עדן פרטוש
+- [ ] validate-warns: no latin-script alias for דורלקס סדלקס
+- [ ] validate-warns: no latin-script alias for שמואל פרדניק
+- [ ] validate-warns: no latin-script alias for חמי רודנר
+- [ ] validate-warns: no latin-script alias for עמית ליסטוונד
+- [ ] validate-warns: no latin-script alias for שלישיית התאומים
+- [ ] validate-warns: no latin-script alias for בוא לבר
+- [ ] validate-warns: no latin-script alias for בועז מעודה
+- [ ] validate-warns: no latin-script alias for לונא אבו נסאר
+- [ ] validate-warns: no latin-script alias for שלישיית הופל'ה
+- [ ] validate-warns: no latin-script alias for האירוסים - זמרי בית אלפא
+- [ ] validate-warns: no latin-script alias for הפונדקאים
 - [ ] validate-warns: no latin-script alias for פאנקנשטיין
-- [ ] validate-warns: no latin-script alias for שליחי הבלוז
+- [ ] validate-warns: no latin-script alias for כפיר בן ליש
+- [ ] validate-warns: no latin-script alias for שמוליק צ'יזיק
+- [ ] validate-warns: no latin-script alias for שרון הולצמן
+- [ ] validate-warns: no latin-script alias for נעמה כהן
+- [ ] validate-warns: no latin-script alias for קטב מרירי (להקה)
 - [ ] validate-warns: no latin-script alias for שי 360
+- [ ] validate-warns: no latin-script alias for אטלנטיקה
+- [ ] validate-warns: no latin-script alias for יהוא ירון
+- [ ] validate-warns: no latin-script alias for ניגון ירושלמי
+- [ ] validate-warns: no latin-script alias for אהרון ירימי
+- [ ] validate-warns: no latin-script alias for ניצן-חן רזאל
+- [ ] validate-warns: no latin-script alias for להקת חיל התותחנים
+- [ ] validate-warns: no latin-script alias for סתיו שמש
+- [ ] validate-warns: no latin-script alias for ברוש (להקה)
+- [ ] validate-warns: no latin-script alias for יציאת חירום
+- [ ] validate-warns: no latin-script alias for לירן טל
+- [ ] validate-warns: no latin-script alias for אבי בניון
+- [ ] validate-warns: no latin-script alias for דוד ד'אור
+- [ ] validate-warns: no latin-script alias for התעויוט
+- [ ] validate-warns: no latin-script alias for ניצה טרמין
+- [ ] validate-warns: no latin-script alias for אייל קופמן
+- [ ] validate-warns: no latin-script alias for גאיה (להקה)
+- [ ] validate-warns: no latin-script alias for מושיקו מור
+- [ ] validate-warns: no latin-script alias for השכנים של צ'יץ'
+- [ ] validate-warns: no latin-script alias for הבוסתנאים
+- [ ] validate-warns: no latin-script alias for אלף.דלת
 - [ ] validate-warns: no latin-script alias for שי להב
+- [ ] validate-warns: no latin-script alias for יואל לרנר
+- [ ] validate-warns: no latin-script alias for קובי אפללו
+- [ ] validate-warns: no latin-script alias for מלי ברונשטיין
+- [ ] validate-warns: no latin-script alias for חיים אוליאל
+- [ ] validate-warns: no latin-script alias for אבי אילסון
+- [ ] validate-warns: no latin-script alias for שלישיית אדלר
+- [ ] validate-warns: no latin-script alias for להקת חופים
+- [ ] validate-warns: no latin-script alias for אחד חלקי אחד
+- [ ] validate-warns: no latin-script alias for 951
+- [ ] validate-warns: no latin-script alias for הטוב הרע והנערה
+- [ ] validate-warns: no latin-script alias for ויתרתי
+- [ ] validate-warns: no latin-script alias for להקת מגפיים
+- [ ] validate-warns: no latin-script alias for חזי פניאן
+- [ ] validate-warns: no latin-script alias for זאב נחמה
+- [ ] validate-warns: no latin-script alias for משה קליין
+- [ ] validate-warns: no latin-script alias for רמי דנוך
+- [ ] validate-warns: no latin-script alias for אוריאל שלומי
+- [ ] validate-warns: no latin-script alias for נתנאל ששון
+- [ ] validate-warns: duplicate latin name Avishai Cohen
+- [ ] validate-warns: no latin-script alias for רגב הוד
+- [ ] validate-warns: no latin-script alias for צלילי הכרם
+- [ ] validate-warns: no latin-script alias for שלישיית המעפיל
+- [ ] validate-warns: no latin-script alias for שיקו חייק
+- [ ] validate-warns: no latin-script alias for שליחי הבלוז
+- [ ] validate-warns: no latin-script alias for נכי נאצה
 - [ ] validate-warns: no latin-script alias for מוג'דה
 - [ ] validate-warns: no latin-script alias for פאדי כיוף
 - [ ] validate-warns: no latin-script alias for לסלו רוט
@@ -5668,924 +5666,925 @@ Generated for 1000 artists.
 
 | id | nameHe | debut | breakthrough | type | gender | genre | tier | region |
 |---|--------|-------|--------------|------|--------|-------|------|--------|
-| miriam-toukan | מרים טוקאן | 2020 | 2020 | solo/1 | female | other | 581 | center |
-| roee-sendler | רועי סנדלר | 2014 | 2014 | solo/1 | male | pop | 942 | center |
-| ariel-zilber | אריאל זילבר | 1967 | 1967 | solo/1 | male | rock | 203 | tel-aviv-area |
-| eden-gabay | עדן גבאי | 2013 | 2013 | solo/1 | male | other | 672 | haifa-north |
-| ben-snof | בן סנוף | 1993 | 1993 | solo/1 | male | other | 272 | haifa-north |
-| tilda-rejwan | טילדה רג'ואן | 2020 | 2020 | solo/1 | female | other | 780 | abroad |
-| roni-ginosar | רוני גינוסר | 2007 | 2007 | solo/1 | female | jazz-soul | 930 | center |
-| gilad-segev | גלעד שגב | 1991 | 1991 | solo/1 | male | rock | 379 | tel-aviv-area |
-| smadar-akray | סמדר אקראי | 2021 | 2021 | solo/1 | female | pop | 643 | jerusalem |
-| benny-amdursky | בני אמדורסקי | 1956 | 1956 | solo/1 | male | other | 289 | jerusalem |
-| j-lamotta | J.Lamotta | 2014 | 2014 | solo/1 | female | jazz-soul | 570 | tel-aviv-area |
-| young-boiz | יאנג בויז | 2017 | 2017 | band/0 | mixed | hiphop | 726 | center |
-| hatikva-6 | התקווה 6 | 2003 | 2003 | band/0 | mixed | jazz-soul | 83 | center |
-| guy-gerber | גיא גרבר | 2002 | 2002 | solo/1 | male | electronic | 327 | tel-aviv-area |
-| yair-rosenblum | יאיר רוזנבלום | 1962 | 1962 | solo/1 | male | other | 352 | tel-aviv-area |
-| geva-alon | גבע אלון | 2000 | 2000 | solo/1 | male | indie-alt | 328 | center |
-| noam-rotem | נעם רותם | 1993 | 1993 | solo/1 | male | rock | 166 | center |
-| avi-sinuani | אבי סינואני | 1981 | 1981 | solo/1 | male | mizrahi | 514 | tel-aviv-area |
-| hillel-slovak | הלל סלובק | 1976 | 1976 | solo/1 | male | indie-alt | 67 | center |
-| gil-shohat | גיל שוחט | 2004 | 2004 | solo/1 | male | jazz-soul | 316 | tel-aviv-area |
-| lea-shabat | לאה שבת | 1986 | 1986 | solo/1 | female | pop | 163 | center |
-| garden-city-movement | גארדן סיטי מובמנט | 2013 | 2013 | band/0 | mixed | electronic | 412 | center |
-| -151 | אחד חלקי אחד | 2006 | 2006 | band/0 | mixed | rock | 856 | center |
-| -53 | נתנאל ששון | 2013 | 2013 | solo/1 | male | folk-israeli | 589 | haifa-north |
-| yagel-oshri | יגל אושרי | 2020 | 2020 | solo/1 | male | other | 418 | center |
-| karolina | קרולינה | 1999 | 1999 | solo/1 | female | indie-alt | 60 | tel-aviv-area |
-| holy-wigs | פאות קדושות | 2004 | 2004 | band/0 | mixed | other | 523 | center |
-| ofer-bashan | עפר בשן | 2002 | 2002 | solo/1 | male | pop | 954 | tel-aviv-area |
-| ella-lee | אלה לי להב | 2019 | 2019 | solo/1 | female | folk-rock | 125 | center |
-| lucille-crew | לוסיל קרו | 2012 | 2012 | band/0 | mixed | hiphop | 503 | center |
-| astrix | אסטריקס | 1995 | 1995 | solo/1 | male | electronic | 155 | center |
-| the-sixties | הסיקסטיז | 1984 | 1984 | band/0 | mixed | other | 631 | center |
-| -89 | דורלקס סדלקס | 1983 | 1983 | band/0 | mixed | indie-alt | 935 | center |
-| roy-kafri | רועי כפרי | 2007 | 2007 | solo/1 | male | other | 191 | center |
-| eti-bitton | אתי ביטון | 2007 | 2007 | solo/1 | female | mizrahi | 554 | south |
-| shlomit-aharon | שלומית אהרון | 1965 | 1965 | solo/1 | female | other | 229 | tel-aviv-area |
-| avi-mesika | אבי מסיקה | 2004 | 2004 | solo/1 | male | hiphop | 297 | tel-aviv-area |
-| haim-louk | חיים לוק | 2015 | 2015 | solo/1 | male | other | 432 | center |
-| naor-ormia | נאור אורמיה | 2009 | 2009 | solo/1 | male | mizrahi | 619 | center |
-| roy-doron | רועי דורון | 2021 | 2021 | solo/1 | male | other | 675 | tel-aviv-area |
-| ran-eliran | רן אלירן | 1952 | 1952 | solo/1 | male | other | 605 | center |
-| eddie-butler | אדי בטלר | 2021 | 2021 | solo/1 | male | pop | 268 | south |
-| yoni-rechter | יוני רכטר | 1972 | 1972 | solo/1 | male | rock | 445 | tel-aviv-area |
-| simcha-friedman | שמחה פרידמן | 2020 | 2020 | solo/1 | male | other | 421 | haifa-north |
-| nitza-termin | ניצה טרמין | 1992 | 1992 | solo/1 | female | other | 925 | center |
-| or-cohen | אור כהן | 2024 | 2024 | solo/1 | female | other | 894 | center |
-| hedva-amrani | חדוה עמרני | 1960 | 1960 | solo/1 | female | other | 618 | abroad |
-| shirley-yuval-yair | שירלי יובל-יאיר | 1992 | 1992 | solo/1 | female | other | 265 | tel-aviv-area |
-| narkis | נרקיס | 2016 | 2016 | solo/1 | female | pop | 305 | center |
-| benaia-barabi | בניה ברבי | 2015 | 2015 | solo/1 | male | other | 47 | haifa-north |
-| alon-de-loco | אלון דה לוקו | 2005 | 2005 | solo/1 | male | hiphop | 134 | south |
-| jonathan-bar-giora | יונתן בר גיורא | 1990 | 1990 | solo/1 | male | other | 630 | jerusalem |
-| moshe-habusha | משה חבושה | 1998 | 1998 | solo/1 | male | other | 291 | jerusalem |
-| stalos | סטלוס | 1976 | 1976 | solo/1 | male | other | 527 | center |
-| shimon-buskila | שמעון בוסקילה | 1988 | 1988 | solo/1 | male | pop | 92 | haifa-north |
-| amit-erez | עמית ארז | 2003 | 2003 | solo/1 | male | indie-alt | 601 | tel-aviv-area |
 | rafi-kadishzon | רפי קדישזון | 1977 | 1977 | solo/1 | male | jazz-soul | 953 | center |
-| ellyott | אליוט | 1985 | 1985 | solo/1 | female | rock | 794 | tel-aviv-area |
-| ahuva-zadok | אהובה צדוק | 1948 | 1948 | solo/1 | female | other | 843 | tel-aviv-area |
-| bimot-troupe | חבורת בימות | 1972 | 1972 | band/0 | mixed | pop | 988 | center |
-| haim-el | חיים אל | 1989 | 1989 | solo/1 | male | other | 750 | center |
-| iggy-waxman | איגי וקסמן | 1986 | 1986 | solo/1 | female | rock | 245 | center |
-| the-white-screen | המסך הלבן | 2016 | 2016 | band/0 | mixed | indie-alt | 423 | tel-aviv-area |
-| -58 | רמי דנוך | 1967 | 1967 | solo/1 | male | other | 590 | center |
-| ilan-virtzberg | אילן וירצברג | 1971 | 1971 | solo/1 | male | rock | 228 | south |
-| maureen-nehedar | מורין נהדר | 1995 | 1995 | solo/1 | female | other | 489 | center |
-| maya-casabianca | מאיה קזביאנקה | 1969 | 1969 | solo/1 | female | other | 338 | center |
-| sun-tailor | ארנון נאור | 2008 | 2008 | solo/1 | male | indie-alt | 623 | center |
-| -107 | צעירי תל אביב | 1984 | 1984 | band/0 | mixed | pop | 497 | tel-aviv-area |
-| vibe-ish | וייב איש | 2017 | 2017 | solo/1 | male | hiphop | 348 | tel-aviv-area |
-| eden-dersso | עדן דרסו | 2017 | 2017 | solo/1 | female | hiphop | 351 | center |
-| ha-bustanaim | הבוסתנאים | 2002 | 2002 | band/0 | mixed | folk-israeli | 928 | center |
-| shalva-band | להקת שלוה | 2006 | 2006 | band/0 | mixed | other | 558 | center |
-| lazer-lloyd | לייזר לויד | 1981 | 1981 | solo/1 | male | other | 343 | abroad |
-| useless-id | יוסלס איי.די | 1995 | 1994 | band/0 | mixed | indie-alt | 172 | center |
-| avi-avital | אבי אביטל | 2012 | 2012 | solo/1 | male | other | 242 | south |
-| the-churchills | הצ'רצ'ילים | 1965 | 1965 | band/0 | mixed | other | 131 | center |
-| eli-jaffe | אלי יפה | 2006 | 2006 | solo/1 | male | jazz-soul | 697 | jerusalem |
-| edna-goren | עדנה גורן | 1959 | 1959 | solo/1 | female | other | 547 | tel-aviv-area |
-| noa-gruman | נועה גרומן | 2024 | 2024 | solo/1 | female | other | 588 | jerusalem |
-| leah-lupatin | לאה לופטין | 1969 | 1969 | solo/1 | female | other | 70 | center |
-| navah-baruchin | נאוה ברוכין | 2007 | 2007 | solo/1 | female | other | 765 | center |
-| nathan-cohen | נתן כהן | 1970 | 1970 | solo/1 | male | rock | 595 | tel-aviv-area |
-| dudi-bar-david | דודי בר דוד | 2019 | 2019 | solo/1 | male | other | 939 | center |
-| josef-bardanashvili | יוסף ברדנשווילי | 2023 | 2023 | solo/1 | male | jazz-soul | 869 | center |
-| alphabeta | אלפא-ביתא | 1978 | 1978 | band/0 | mixed | other | 569 | center |
-| chocolat-menta-mastik | שוקולד מנטה מסטיק | 1971 | 1972 | band/0 | mixed | pop | 157 | tel-aviv-area |
-| sagol-59 | סגול 59 | 2000 | 2000 | solo/1 | male | hiphop | 181 | center |
-| jaroslav-jakubovic | ירוסלב יעקובוביץ' | 2009 | 2009 | solo/1 | male | jazz-soul | 628 | center |
-| oren-lavie | אורן לביא | 1997 | 1997 | solo/1 | male | folk-israeli | 211 | tel-aviv-area |
-| -86 | שלישיית הופל'ה | 1997 | 1997 | band/0 | mixed | other | 970 | center |
-| orian-shukrun | אוריין שוקרון | 2022 | 2022 | solo/1 | male | other | 781 | center |
-| -77 | התעויוט | 1992 | 1991 | band/0 | mixed | rock | 690 | center |
-| eden-golan | עדן גולן | 2015 | 2015 | solo/1 | female | pop | 50 | center |
-| yoel-dikman | יואלי דיקמן | 2022 | 2022 | solo/1 | male | jazz-soul | 532 | center |
-| marsh-dondurma | מארש דונדורמה | 2005 | 2005 | band/0 | mixed | jazz-soul | 670 | center |
-| dorit-reuveni | דורית ראובני | 1973 | 1973 | solo/1 | female | other | 635 | center |
-| lidor-yosefi | לידור יוספי | 1997 | 1997 | solo/1 | male | mizrahi | 722 | center |
-| yeled | ילד. | 2022 | 2022 | solo/1 | male | other | 146 | center |
-| liora-itzhak | ליאורה יצחק | 2013 | 2013 | solo/1 | female | other | 329 | center |
-| danny-robas | דני רובס | 1983 | 1983 | solo/1 | male | rock | 262 | south |
-| ariel-horowitz | אריאל הורוביץ | 1998 | 1998 | solo/1 | male | rock | 84 | center |
-| didi-erez | דידי ארז | 1999 | 1999 | solo/1 | male | rock | 771 | tel-aviv-area |
-| rivka-zohar | רבקה זהר | 1972 | 1972 | solo/1 | female | other | 140 | haifa-north |
-| shuki-levy | שוקי לוי | 1983 | 1983 | solo/1 | male | pop | 118 | tel-aviv-area |
-| chaim-banet | חיים בנט | 1970 | 1970 | solo/1 | male | other | 367 | abroad |
-| nachum-heiman | נחום היימן | 1951 | 1951 | solo/1 | male | folk-israeli | 167 | center |
-| aliza-kashi | עליזה קשי | 1955 | 1955 | solo/1 | female | other | 757 | tel-aviv-area |
-| ziv-cojocaru | זיו קוז'וקרו | 2019 | 2019 | solo/1 | male | other | 610 | south |
-| moran-magal | מורן מגל | 2016 | 2016 | solo/1 | female | other | 491 | center |
-| abatte-barihun | אבטה בריהון | 1983 | 1983 | solo/1 | male | jazz-soul | 562 | center |
-| betzefer | בצפר | 1998 | 1998 | band/0 | mixed | other | 342 | center |
-| leyli | ליילי | 2017 | 2017 | band/0 | male | rock | 637 | center |
-| benni-bashan | בני בשן | 1996 | 1996 | solo/1 | male | other | 677 | center |
-| nikka | ניקה | 2005 | 2005 | solo/1 | female | other | 314 | center |
-| temper-city | טמפר סיטי | 2026 | 2026 | band/0 | mixed | indie-alt | 116 | abroad |
-| bentzi-stein | בנצי שטיין | 2023 | 2023 | solo/1 | male | other | 846 | center |
-| nimrod-shickler | נמרוד שיקלר | 2005 | 2005 | solo/1 | male | other | 990 | center |
-| -36 | רגב הוד | 1996 | 1996 | solo/1 | male | mizrahi | 599 | center |
-| nofia-yedidya | נופיה | 2025 | 2025 | solo/1 | female | other | 739 | center |
-| naftali-hershtik | נפתלי הרשטיק | 2003 | 2003 | solo/1 | male | religious-pop | 676 | center |
-| red-band | רד בנד | 2005 | 2005 | band/0 | mixed | other | 162 | center |
-| akiva-turgeman | עקיבא תורג'מן | 2009 | 2009 | solo/1 | male | rock | 196 | south |
-| shira-gavrielov | שירה גבריאלוב | 2004 | 2004 | solo/1 | female | pop | 507 | center |
-| omri-glikman | עומרי גליקמן | 2000 | 2000 | solo/1 | male | hiphop | 206 | center |
-| daniel-zilberstein | דניאל זילברשטיין | 2006 | 2006 | solo/1 | male | pop | 976 | center |
-| carakukly | כרקוקלי | 2013 | 2013 | band/0 | mixed | pop | 376 | center |
-| chilik-frank | חיליק פרנק | 1998 | 1998 | solo/1 | male | folk-israeli | 509 | center |
-| jackie-mekaiten | ג'קי מקייטן | 1998 | 1998 | solo/1 | male | other | 508 | center |
-| kfir-tsafrir | כפיר צפריר | 2021 | 2021 | solo/1 | male | other | 153 | center |
-| michael-ben-david | מיכאל בן דוד | 2022 | 2022 | solo/1 | male | pop | 530 | center |
-| itzik-dadya | איציק דדיה | 2002 | 2002 | solo/1 | male | mizrahi | 261 | haifa-north |
-| mordechai-sobol | מרדכי סובול | 2007 | 2007 | solo/1 | male | religious-pop | 784 | tel-aviv-area |
-| danny-ben-israel | דני בן ישראל | 1962 | 1962 | solo/1 | male | other | 768 | center |
-| ciam | סיאם | 1983 | 1983 | band/0 | mixed | rock | 655 | center |
-| avner-strauss | אבנר שטראוס | 1987 | 1987 | solo/1 | male | other | 788 | center |
-| monica-sex | מוניקה סקס | 1993 | 1993 | band/0 | mixed | rock | 353 | tel-aviv-area |
-| yuval-raphael | יובל רפאל | 2024 | 2024 | solo/1 | female | pop | 197 | tel-aviv-area |
-| riki-manor | ריקי מנור | 1975 | 1975 | solo/1 | female | other | 761 | center |
-| ben-tzur | בן צור | 2019 | 2019 | solo/1 | male | mizrahi | 97 | haifa-north |
-| ahrele-samet | אהרלה סמט | 2008 | 2008 | solo/1 | male | other | 565 | center |
-| tamar-aphek | תמר אפק | 2007 | 2007 | solo/1 | female | other | 487 | jerusalem |
-| the-revivo-project | הפרויקט של רביבו | 2012 | 2012 | band/0 | mixed | mizrahi | 141 | center |
-| dana-rishpy | דנה רישפי | 2003 | 2003 | solo/1 | female | other | 322 | center |
-| ishay-berger | ישי ברגר | 1994 | 1994 | solo/1 | male | rock | 840 | center |
-| yoav-talmi | יואב תלמי | 1988 | 1988 | solo/1 | male | jazz-soul | 282 | center |
-| paul-ben-haim | פאול בן חיים | 1992 | 1992 | solo/1 | male | jazz-soul | 386 | center |
-| sara-sharon | שרה'לה שרון | 1979 | 1979 | solo/1 | female | pop | 110 | center |
-| adi-ran | עדי רן | 1993 | 1993 | solo/1 | male | other | 401 | tel-aviv-area |
-| sasson-ifram-shaulov | ששון איפרם שאולוב | 2020 | 2020 | solo/1 | male | mizrahi | 22 | jerusalem |
-| ifat-nets | יפעת נץ | 1990 | 1990 | solo/1 | female | other | 586 | center |
-| gevolt | Gevolt | 2001 | 2001 | band/0 | mixed | other | 518 | center |
-| hahazer-haahorit | החצר האחורית | 2013 | 2013 | band/0 | mixed | rock | 350 | center |
-| evyatar-banai | אביתר בנאי | 1997 | 1997 | solo/1 | male | rock | 24 | south |
-| berry-sakharof | ברי סחרוף | 1973 | 1973 | solo/1 | male | rock | 87 | abroad |
-| gili-yalo | גילי יאלו | 2017 | 2017 | solo/1 | male | jazz-soul | 293 | center |
-| micha-shitrit | מיכה שטרית | 1980 | 1980 | solo/1 | male | rock | 189 | haifa-north |
-| uziya-tzadok | עוזיה צדוק | 2014 | 2014 | solo/1 | male | other | 224 | center |
-| -43 | יואל לרנר | 1979 | 1979 | solo/1 | male | rock | 919 | center |
-| kaveret | כוורת | 1973 | 1973 | band/0 | mixed | rock | 13 | tel-aviv-area |
-| danny-maseng | דני מסנג | 1965 | 1965 | solo/1 | male | pop | 729 | tel-aviv-area |
-| shaul-zirlin | שאול צירלין | 1989 | 1989 | solo/1 | male | other | 938 | tel-aviv-area |
-| mordechai-ben-david | מרדכי בן דוד | 1973 | 1973 | solo/1 | male | religious-pop | 25 | abroad |
-| idan-amsalem | עידן אמסלם | 2014 | 2014 | solo/1 | male | rock | 734 | center |
-| ruth-mense | רות מנזה | 2018 | 2018 | solo/1 | female | other | 795 | tel-aviv-area |
-| daniella-pick | דניאלה פיק | 2004 | 2004 | solo/1 | female | other | 260 | center |
-| yoni | יוני נמרי | 1974 | 1974 | solo/1 | male | pop | 804 | center |
-| kfir-atia | כפיר עטיה | 2005 | 2005 | solo/1 | male | mizrahi | 671 | tel-aviv-area |
-| -39 | שרון הולצמן | 2001 | 2001 | solo/1 | male | other | 706 | center |
-| shmemel | שממל | 2007 | 2011 | band/0 | mixed | other | 773 | center |
-| karni-eldad | קרני אלדד | 2006 | 2006 | solo/1 | female | other | 931 | jerusalem |
-| gila-hassid | גילה חסיד | 2022 | 2022 | solo/1 | female | other | 992 | center |
-| josef-hadar | יוסף הדר | 2013 | 2013 | solo/1 | male | other | 482 | tel-aviv-area |
-| jo-amar | ג'ו עמר | 1956 | 1956 | solo/1 | male | mizrahi | 161 | center |
-| hapsagot | להקת הפסגות | 1973 | 1973 | band/0 | mixed | mizrahi | 870 | center |
-| -33 | גילי מסמי | 2003 | 2003 | solo/1 | male | pop | 945 | center |
-| yehuda-saado | יהודה סעדו | 2005 | 2005 | solo/1 | male | folk-israeli | 481 | jerusalem |
-| -55 | לונא אבו נסאר | 2013 | 2013 | solo/1 | female | folk-israeli | 963 | haifa-north |
-| tzila-dagan | צילה דגן | 1971 | 1971 | solo/1 | female | folk-israeli | 318 | center |
-| corinne-allal | קורין אלאל | 1973 | 1973 | solo/1 | female | rock | 37 | abroad |
-| -78 | נערי רפול (להקה) | 1999 | 1999 | band/0 | mixed | mizrahi | 651 | center |
-| tamir-muskat | תמיר מוסקט | 1980 | 1980 | solo/1 | male | rock | 259 | center |
-| danny-sanderson | דני סנדרסון | 1966 | 1966 | solo/1 | male | rock | 194 | haifa-north |
-| moran-mazuz | מורן מזוז | 2013 | 2013 | solo/1 | female | pop | 653 | haifa-north |
-| mendi-jerufi | מנדי ג'רופי | 1995 | 1995 | solo/1 | male | other | 796 | center |
-| moshe-korsia | משה כורסיה | 2017 | 2017 | solo/1 | male | other | 244 | center |
-| assaf-harush | אסף הרוש | 2018 | 2018 | solo/1 | male | other | 740 | center |
-| -129 | שלום הציבור (להקה) | 1984 | 1984 | band/0 | mixed | rock | 985 | center |
-| morgenshtern | מורגנשטרן | 2010 | 2010 | solo/1 | male | rock | 16 | center |
-| a-wa | אה-ווה | 2015 | 2015 | band/0 | mixed | ethnic-world | 102 | center |
-| arkadi-duchin | ארקדי דוכין | 1980 | 1980 | solo/1 | male | rock | 39 | abroad |
-| anat-moshkovski | ענת מושקובסקי | 2010 | 2010 | solo/1 | female | other | 473 | tel-aviv-area |
-| orphaned-land | אורפנד לנד | 1991 | 1992 | band/0 | mixed | rock | 58 | tel-aviv-area |
-| yonatan-cnaan | יונתן כנען | 2012 | 2012 | solo/1 | male | pop | 866 | tel-aviv-area |
-| nisim-garame | ניסים גרמה | 1978 | 1978 | solo/1 | male | other | 686 | center |
-| yom-tov-ehrlich | יום-טוב עהרליך | 1960 | 1960 | solo/1 | male | other | 409 | center |
-| system-ali | סיסטם עאלי | 2010 | 2010 | band/0 | mixed | hiphop | 907 | center |
-| guy-mardel | Guy Mardel | 1965 | 1965 | solo/1 | male | pop | 43 | abroad |
-| alexandra | אלכסנדרה | 1967 | 1967 | solo/1 | female | other | 453 | center |
-| plastic-venus | פלסטיק ונוס | 1990 | 1990 | band/0 | mixed | other | 845 | center |
-| matt-schwartz | מאט שוורץ | 1995 | 1995 | solo/1 | male | electronic | 543 | center |
-| mona-rosenblum | משה מרדכי רוזנבלום | 1982 | 1982 | solo/1 | male | other | 526 | tel-aviv-area |
-| shlomo-ydov | שלמה יידוב | 1972 | 1972 | solo/1 | male | pop | 133 | center |
-| ohad-moskowitz | אוהד מושקוביץ | 2003 | 2003 | solo/1 | male | religious-pop | 303 | center |
-| oren-luttenberg | אורן לוטנברג | 2024 | 2024 | solo/1 | male | rock | 828 | tel-aviv-area |
-| dafna-bar-zion | דפנה בר ציון | 1985 | 1985 | solo/1 | female | rock | 978 | tel-aviv-area |
-| mika-moshe | מיקה משה | 2020 | 2020 | solo/1 | female | other | 747 | center |
-| amir-kertes | אמיר קרטס | 1991 | 1991 | solo/1 | male | other | 947 | center |
-| tair-haim | תאיר חיים | 2013 | 2013 | solo/1 | female | pop | 753 | center |
-| tova-gertner | טובה גרטנר | 1986 | 1986 | solo/1 | female | indie-alt | 439 | tel-aviv-area |
-| -96 | בלאגן | 1990 | 1990 | band/0 | mixed | rock | 827 | center |
-| raphael-nathan | רפאל נתן | 2015 | 2015 | solo/1 | male | other | 777 | center |
-| -95 | להקת פרה אדומה | 2003 | 2007 | band/0 | mixed | other | 1000 | center |
-| orr-amrami-brockman | אור עמרמי ברוקמן | 2018 | 2018 | solo/1 | male | other | 876 | center |
-| ehud-banai | אהוד בנאי | 1977 | 1977 | solo/1 | male | rock | 8 | jerusalem |
-| -100 | המושבה (להקה) | 2005 | 2005 | band/0 | mixed | rock | 994 | center |
-| ze-ev-ne-amah | זאב נחמה | 1985 | 1985 | solo/1 | male | other | 516 | tel-aviv-area |
-| oren-barzilay | אורן ברזילי | 2017 | 2017 | solo/1 | male | other | 347 | center |
-| voca-people | ווקה פיפל | 2009 | 2009 | band/0 | mixed | pop | 71 | center |
-| shay-amar | שי עמר | 2001 | 2001 | solo/1 | male | other | 774 | center |
-| ron-buhnik | רון בוחניק | 2016 | 2016 | solo/1 | male | pop | 301 | center |
-| yishay-swissa | ישי סוויסה | 2023 | 2023 | solo/1 | male | hiphop | 629 | tel-aviv-area |
-| shotei-hanevuah | שוטי הנבואה | 1994 | 1994 | band/0 | mixed | ethnic-world | 275 | center |
-| avi-toledano | אבי טולדנו | 1965 | 1965 | solo/1 | male | pop | 62 | abroad |
-| shar-el | שר-אל | 2004 | 2004 | solo/1 | male | mizrahi | 639 | center |
-| meni-philip | מנחם פיליפ | 1991 | 1991 | solo/1 | male | other | 779 | center |
-| father-of-peace | פאד'ר אוף פיס | 2024 | 2024 | band/0 | mixed | indie-alt | 63 | center |
-| guy-mar | גיא מר | 1997 | 1997 | solo/1 | male | hiphop | 246 | jerusalem |
-| gal-de-paz | גל דה פז | 2010 | 2010 | solo/1 | female | rock | 122 | south |
-| shaked-komemy | שקד קוממי | 2012 | 2012 | solo/1 | male | pop | 824 | center |
-| -46 | משה הלל | 1996 | 1996 | solo/1 | male | other | 847 | center |
-| bnot-yaakov | בנות יעקב | 1995 | 1995 | band/0 | mixed | pop | 927 | center |
-| ron-shuval | רון שובל | 1985 | 1985 | solo/1 | male | pop | 247 | tel-aviv-area |
-| -94 | להקת חופים | 1984 | 1984 | band/0 | mixed | other | 854 | center |
-| guy-yahel | גיא ויהל | 2011 | 2011 | band/0 | mixed | indie-alt | 501 | center |
-| stav-beger | סתיו בגר | 2015 | 2015 | solo/1 | male | pop | 257 | center |
-| igi-dayan | איגי דיין | 1992 | 1992 | solo/1 | male | other | 320 | tel-aviv-area |
-| maya-avraham | מאיה אברהם | 1998 | 1998 | solo/1 | female | other | 333 | center |
-| -5 | חזי פניאן | 1986 | 1986 | solo/1 | male | other | 849 | center |
-| helem-tarbut | הלם תרבות | 2016 | 2016 | band/0 | male | hiphop | 691 | center |
-| gal-adam | גל אדם | 2018 | 2018 | solo/1 | male | pop | 65 | center |
-| yehuda-elias | יהודה אליאס | 1983 | 1983 | solo/1 | male | other | 476 | center |
-| gabi-berlin | גבי ברלין | 1954 | 1954 | solo/1 | male | other | 716 | tel-aviv-area |
-| rami-kleinstein | רמי קלינשטיין | 1978 | 1978 | solo/1 | male | rock | 21 | abroad |
-| jane-bordeaux | ג'יין בורדו | 2012 | 2012 | band/0 | mixed | folk-rock | 72 | center |
-| shahar-even-tzur | שחר אבן צור | 2003 | 2003 | solo/1 | male | other | 173 | tel-aviv-area |
-| rose-fostanes | רוז פוסטאנס | 2013 | 2013 | solo/1 | female | pop | 217 | center |
-| meital-de-razon | מיטל דה רזון | 2012 | 2012 | solo/1 | female | other | 615 | center |
-| roni-bar-hadas | רוני בר הדס | 2020 | 2020 | solo/1 | female | pop | 394 | tel-aviv-area |
-| shalva-berti | שלווה ברטי | 1986 | 1986 | solo/1 | female | other | 914 | center |
-| david-lavi | דוד לביא (זמר) | 2008 | 2008 | solo/1 | male | rock | 368 | south |
-| aaron-shust | Aaron Shust | 2005 | 2005 | solo/1 | male | religious-pop | 34 | abroad |
-| tal-sondak | טל סונדק | 2000 | 2000 | solo/1 | male | pop | 281 | tel-aviv-area |
-| shuki-salomon | שוקי סלומון | 2022 | 2022 | solo/1 | male | other | 641 | center |
-| teddy-neguse | טדי נגוסה | 2016 | 2016 | solo/1 | male | hiphop | 760 | tel-aviv-area |
-| the-doppler-effect | תופעת דופלר (להקה) | 1982 | 1993 | band/0 | mixed | pop | 468 | center |
-| the-brothers-the-sisters | האחים והאחיות | 1971 | 1971 | band/0 | mixed | other | 533 | center |
-| ronit-shahar | רונית שחר | 1996 | 1996 | solo/1 | female | other | 389 | haifa-north |
-| itamar-rotschild | איתמר רוטשילד | 2002 | 2002 | solo/1 | male | folk-israeli | 659 | center |
-| chen-porati | חן פורתי | 2024 | 2024 | solo/1 | male | other | 862 | center |
-| nag-hammadi | נאג' חמאדי | 2005 | 2005 | band/0 | male | rock | 958 | center |
-| liam-golan | ליאם גולן | 2024 | 2024 | solo/1 | male | mizrahi | 946 | center |
-| hi-five | היי פייב | 1996 | 1996 | band/0 | mixed | pop | 76 | center |
-| zion-golan | ציון גולן | 1978 | 1978 | solo/1 | male | mizrahi | 113 | center |
-| ofer-levi | עופר לוי | 1988 | 1988 | solo/1 | male | mizrahi | 44 | tel-aviv-area |
-| ami-maimon | עמי מימון | 2021 | 2021 | solo/1 | male | other | 872 | tel-aviv-area |
-| nunu | נונו | 2016 | 2016 | solo/1 | female | pop | 137 | tel-aviv-area |
-| elai-botner | עילי בוטנר | 2007 | 2007 | solo/1 | male | rock | 156 | center |
-| zuhair-francis | זוהיר פרנסיס | 2018 | 2018 | solo/1 | male | other | 754 | center |
-| bustan-abraham | בוסתן אברהם | 1991 | 1992 | band/0 | mixed | mizrahi | 662 | center |
-| udi-davidi | אודי דוידי | 2004 | 2004 | solo/1 | male | religious-pop | 150 | tel-aviv-area |
-| kobi-oshrat | קובי אשרת | 1962 | 1962 | solo/1 | male | other | 317 | center |
-| yossi-hari | יוסי הרי | 2001 | 2001 | solo/1 | male | other | 748 | tel-aviv-area |
-| aris-san | אריס סאן | 1957 | 1957 | solo/1 | male | mizrahi | 80 | abroad |
-| may-sfadia | מאי ספדיה | 2011 | 2011 | solo/1 | female | other | 732 | center |
-| rachel-yaron | רחל ירון | 2014 | 2014 | solo/1 | female | rock | 544 | tel-aviv-area |
-| samuel-budagov | שמוליק בודגוב | 1969 | 1969 | solo/1 | male | other | 298 | tel-aviv-area |
-| galit-bell | גלית בל | 1996 | 1996 | solo/1 | female | pop | 710 | center |
-| cain-abel-90210 | קין והבל 90210 | 2007 | 2007 | band/0 | mixed | rock | 462 | center |
-| tania-vinokur | טניה וינוקור | 2001 | 2001 | solo/1 | female | other | 438 | center |
-| alon-eder | אלון עדר | 2011 | 2011 | solo/1 | male | indie-alt | 294 | center |
-| samy-birnbach | סמי בירנבך | 1989 | 1989 | solo/1 | male | pop | 633 | tel-aviv-area |
-| distorted-harmony | Distorted Harmony | 2009 | 2009 | band/0 | mixed | rock | 657 | center |
-| gadi-altman | גדי אלטמן | 2003 | 2003 | solo/1 | male | rock | 666 | center |
-| george-bar | ג'ורג' בר | 2001 | 2001 | solo/1 | male | mizrahi | 834 | tel-aviv-area |
-| -149 | ניגון ירושלמי | 2008 | 2008 | band/0 | mixed | folk-israeli | 980 | center |
-| idan-yaniv | עידן יניב | 2005 | 2005 | solo/1 | male | pop | 698 | tel-aviv-area |
-| -3 | סיוון (זמרת) | 2002 | 2002 | solo/1 | female | hiphop | 574 | tel-aviv-area |
-| yonatan-shainfeld | יונתן שינפלד | 2012 | 2012 | solo/1 | male | other | 371 | center |
-| uzi-fox | עוזי פוקס | 1962 | 1962 | solo/1 | male | rock | 363 | abroad |
-| vini-vici | Vini Vici | 2013 | 2013 | band/0 | mixed | electronic | 52 | tel-aviv-area |
-| niv-demirel | ניב דמירל | 2014 | 2014 | solo/1 | male | other | 528 | center |
-| betty-pablo | בטי פבלו | 1989 | 1989 | solo/1 | female | rock | 852 | tel-aviv-area |
-| reuven-erez | ראובן ארז | 1995 | 1995 | solo/1 | male | other | 951 | tel-aviv-area |
-| dalia-cohen | דליה כהן (זמרת) | 1968 | 1968 | solo/1 | female | other | 621 | tel-aviv-area |
-| mashina | משינה | 1985 | 1983 | band/0 | mixed | rock | 183 | tel-aviv-area |
-| yoni-roe | יוני רועה | 1998 | 1998 | solo/1 | male | other | 640 | center |
-| roi-levi | רואי לוי | 1997 | 1997 | solo/1 | male | other | 646 | center |
-| sesto-sento | ססטו סנטו | 2001 | 2001 | band/0 | mixed | electronic | 483 | center |
-| -148 | ויתרתי | 2011 | 2011 | band/0 | mixed | rock | 842 | center |
-| tslil-kalifi | צליל קליפי | 2002 | 2002 | solo/1 | female | pop | 546 | center |
-| zanvil-weinberger | זאנוויל ויינברגר | 2016 | 2016 | solo/1 | male | other | 324 | jerusalem |
-| pingpong | פינג פונג | 1999 | 1999 | band/0 | mixed | pop | 237 | center |
-| lazy-bams | הבטלנים | 1987 | 1987 | band/0 | male | other | 898 | center |
-| hatarnegolim | התרנגולים | 1960 | 1960 | band/0 | mixed | folk-israeli | 752 | center |
-| -91 | מלכה באיה | 1997 | 1997 | band/0 | mixed | other | 813 | center |
-| the-friends-of-natasha | החברים של נטאשה | 1987 | 1987 | band/0 | mixed | rock | 378 | center |
-| yair-elitzur | יאיר אליצור | 2018 | 2018 | solo/1 | male | other | 119 | center |
-| doron-salomon | דורון סלומון | 2013 | 2013 | solo/1 | male | jazz-soul | 673 | center |
-| sputnik-hi-fi | ספוטניק היי פיי | 2014 | 2014 | band/0 | mixed | other | 793 | center |
-| -25 | איציק שמלי | 2002 | 2002 | solo/1 | male | hiphop | 669 | center |
-| effi-netzer | אפי נצר | 1952 | 1952 | solo/1 | male | other | 213 | center |
-| amaseffer | עם הספר | 2004 | 2004 | band/0 | mixed | rock | 521 | center |
-| skazi | סקאזי | 1998 | 1998 | band/0 | mixed | electronic | 15 | center |
-| netta-barzilai | נטע ברזילי | 2012 | 2012 | solo/1 | female | pop | 180 | center |
-| raviv-kaner | רביב כנר | 2019 | 2019 | solo/1 | male | pop | 95 | tel-aviv-area |
-| tsippi-fleischer | ציפי פליישר | 1992 | 1992 | solo/1 | female | other | 838 | center |
-| atar-mayner | עטר מיינר | 2016 | 2016 | solo/1 | male | other | 718 | center |
-| offer-nissim | עופר ניסים | 1983 | 1983 | solo/1 | male | other | 7 | tel-aviv-area |
-| ketreyah | כיתריה | 2018 | 2018 | solo/1 | female | pop | 879 | south |
-| jasmin-even | יסמין אבן | 2004 | 2004 | solo/1 | female | other | 817 | tel-aviv-area |
-| nurit-hirsh | נורית הירש | 1960 | 1960 | solo/1 | female | other | 171 | tel-aviv-area |
-| mike-brant | מייק בראנט | 1969 | 1969 | solo/1 | male | pop | 17 | abroad |
-| ronit-ophir | רונית אופיר | 1972 | 1972 | solo/1 | female | folk-israeli | 910 | center |
-| rotem-or | רותם אור | 2008 | 2008 | solo/1 | female | indie-alt | 139 | tel-aviv-area |
-| yosi-edenn | יוסי עדן | 1998 | 1998 | solo/1 | male | other | 807 | center |
-| liora | ליאורה | 1989 | 1989 | solo/1 | female | other | 693 | center |
-| noam-pinhasov | נועם פנחסוב | 2009 | 2009 | solo/1 | male | rock | 982 | center |
-| omer-klein | עומר קליין | 2007 | 2007 | solo/1 | male | jazz-soul | 271 | center |
-| dror-feiler | דרור פיילר | 1996 | 1996 | solo/1 | male | other | 510 | tel-aviv-area |
-| prey-for-nothing | Prey For Nothing | 2005 | 2005 | band/0 | mixed | other | 494 | center |
-| doron-eyal | דורון אייל | 2019 | 2019 | solo/1 | male | rock | 733 | tel-aviv-area |
-| shimshon-bar-noy | שמשון בר-נוי | 2009 | 2009 | solo/1 | male | other | 989 | center |
-| jacko-eisenberg | ג'קו אייזנברג | 1996 | 1996 | solo/1 | male | rock | 335 | center |
-| -65 | מאיר אדלר | 2013 | 2013 | solo/1 | male | other | 950 | center |
-| kol-israel-arabic-orchestra | תזמורת קול ישראל בערבית | 1984 | 1984 | band/0 | mixed | other | 868 | center |
-| eldad-zitrin | אלדד ציטרין | 1999 | 1999 | solo/1 | male | other | 680 | tel-aviv-area |
-| hani-livne | חני ליבנה | 1984 | 1984 | solo/1 | female | other | 759 | abroad |
-| ayala-ingedashet | איילה אינגדשט | 2006 | 2006 | solo/1 | female | pop | 584 | center |
-| af-ozen-garon | אף אוזן גרון | 1970 | 1975 | band/0 | male | other | 975 | center |
-| yaron-gottfried | ירון גוטפריד | 2002 | 2002 | solo/1 | male | other | 797 | jerusalem |
-| dedi-graucher | דדי גראוכר | 1990 | 1990 | solo/1 | male | religious-pop | 548 | center |
-| ziv-yehezkel | זיו יחזקאל | 2013 | 2013 | solo/1 | male | other | 585 | tel-aviv-area |
-| -31 | מלי ברונשטיין | 1973 | 1973 | solo/1 | female | pop | 904 | center |
-| rona-kenan | רונה קינן | 1990 | 1990 | solo/1 | female | rock | 54 | tel-aviv-area |
-| hakol-over-habibi | הכל עובר חביבי | 1975 | 1975 | band/0 | mixed | pop | 144 | center |
-| zohar-fresco | זוהר פרסקו | 1992 | 1992 | solo/1 | male | jazz-soul | 310 | center |
-| shlomo-zach | שלמה צח | 1962 | 1962 | solo/1 | male | other | 278 | haifa-north |
-| gavriel-belhassen | גבריאל בלחסן | 1995 | 1995 | solo/1 | male | rock | 250 | center |
-| daniela-spector | דניאלה ספקטור | 2006 | 2006 | solo/1 | female | pop | 300 | center |
-| avi-peretz | אבי פרץ (זמר) | 1993 | 1993 | solo/1 | male | other | 517 | tel-aviv-area |
-| mc-abdul | MC Abdul | 2020 | 2020 | solo/1 | male | hiphop | 28 | center |
-| tal-segev | טל שגב | 1990 | 1990 | solo/1 | male | pop | 354 | tel-aviv-area |
-| -26 | אלי לוזון | 1979 | 1979 | solo/1 | male | mizrahi | 375 | center |
-| monotonix | מונוטוניקס | 2005 | 2005 | band/0 | mixed | rock | 502 | center |
-| bo-az-ma-uda | בועז מעודה | 2007 | 2007 | solo/1 | male | pop | 51 | haifa-north |
-| yonatan-kalimi | יונתן קלימי | 2021 | 2021 | solo/1 | male | other | 286 | center |
-| balkan-beat-box | בלקן ביט בוקס | 2003 | 2003 | band/0 | mixed | ethnic-world | 48 | abroad |
-| matan-porat | מתן פורת | 2013 | 2013 | solo/1 | male | other | 420 | tel-aviv-area |
-| ovadia-hamama | עובדיה חממה | 1991 | 1991 | solo/1 | male | religious-pop | 688 | center |
-| oforia | עופר דיקובסקי | 1994 | 1994 | solo/1 | male | electronic | 391 | tel-aviv-area |
-| gil-vain | גיל ויין | 2010 | 2010 | solo/1 | male | other | 177 | center |
-| shai-tsabari | שי צברי | 2001 | 2001 | solo/1 | male | rock | 714 | center |
-| sarit-hadad | שרית חדד | 1994 | 1994 | solo/1 | female | mizrahi | 69 | haifa-north |
-| -47 | אהרון ירימי | 1986 | 1986 | solo/1 | male | other | 855 | center |
-| emi-rudner | חמי רודנר | 1985 | 1985 | solo/1 | male | rock | 152 | center |
-| -90 | נכי נאצה | 1990 | 1990 | band/0 | mixed | other | 839 | center |
-| borgore | בורגור | 2009 | 2009 | solo/1 | male | electronic | 174 | tel-aviv-area |
-| yoram-chazan | יורם חזן | 1990 | 1990 | solo/1 | male | other | 806 | center |
-| dan-shatzberg | דן שצברג | 1998 | 1998 | solo/1 | male | other | 634 | center |
-| ronnie-peterson | רוני פיטרסון | 1974 | 1974 | solo/1 | male | jazz-soul | 728 | center |
-| daniel-shalit | דניאל שליט | 2023 | 2023 | solo/1 | male | jazz-soul | 738 | center |
-| yinon-yahel | ינון יהל | 2001 | 2001 | solo/1 | male | electronic | 136 | center |
-| kfir-artzi | חמי | 1992 | 1992 | solo/1 | male | hiphop | 168 | center |
-| hasmachot | השמחות | 1996 | 1998 | band/0 | mixed | rock | 568 | center |
-| yuval-dor | יובל דור | 1969 | 1969 | solo/1 | male | other | 99 | tel-aviv-area |
-| kobi-brummer | קובי ברומר | 2013 | 2013 | solo/1 | male | other | 661 | center |
-| michal-tal | מיכל טל (זמרת) | 1975 | 1975 | solo/1 | female | other | 682 | center |
-| yaara-shaulian | יערה שאוליאן | 2020 | 2020 | solo/1 | female | other | 829 | tel-aviv-area |
-| keren-tannenbaum | קרן טננבאום | 1986 | 1986 | solo/1 | female | other | 918 | center |
-| david-d-or | דוד ד'אור | 1985 | 1985 | solo/1 | male | folk-israeli | 38 | tel-aviv-area |
-| doron-medalie | דורון מדלי | 2001 | 2001 | solo/1 | male | pop | 383 | center |
-| oif-simchas | אוף שימחעס | 1996 | 1996 | band/0 | mixed | other | 719 | center |
-| teapacks | טיפקס | 1990 | 1988 | band/0 | mixed | rock | 35 | south |
-| avner-kenner | אבנר קנר | 1976 | 1976 | solo/1 | male | other | 616 | center |
-| einav-jackson-cohen | עינב ג'קסון כהן | 2011 | 2011 | solo/1 | female | other | 707 | tel-aviv-area |
-| -120 | קטב מרירי (להקה) | 2008 | 2008 | band/0 | mixed | other | 995 | center |
-| erez-sharon | איזי | 2001 | 2001 | solo/1 | male | hiphop | 85 | center |
-| -122 | כלא שש (הרכב) | 1998 | 1998 | band/0 | mixed | hiphop | 407 | center |
-| -57 | גבריאל באטלר | 2021 | 2021 | solo/1 | male | other | 689 | center |
-| -133 | האירוסים - זמרי בית אלפא | 1977 | 1977 | band/0 | mixed | folk-israeli | 999 | center |
-| meni-beger | מני בגר | 1978 | 1978 | solo/1 | male | other | 263 | center |
-| -88 | בוא לבר | 2005 | 2005 | band/0 | mixed | rock | 881 | center |
-| ilan-and-ilanit | אילן ואילנית | 1966 | 1965 | band/0 | mixed | folk-israeli | 932 | center |
-| alma | עלמא | 2000 | 2001 | band/0 | mixed | religious-pop | 933 | center |
-| roei-adam | רואי אדם | 2022 | 2022 | solo/1 | male | other | 129 | center |
-| shuli-natan | שולי נתן | 1967 | 1967 | solo/1 | female | folk-israeli | 205 | center |
-| sha-anan-streett | שאנן סטריט | 2007 | 2007 | solo/1 | male | other | 143 | jerusalem |
-| moran-mazor | מורן מזור | 2011 | 2011 | solo/1 | female | pop | 188 | tel-aviv-area |
-| liron-amram | לירון עמרם | 2014 | 2014 | solo/1 | male | indie-alt | 906 | center |
-| liat-itzhaki | ליאת יצחקי | 2002 | 2002 | solo/1 | female | other | 819 | center |
-| oded-ben-hur | עודד בן חור | 1979 | 1979 | solo/1 | male | other | 983 | center |
-| david-broza | דוד ברוזה | 1977 | 1977 | solo/1 | male | folk-israeli | 485 | haifa-north |
-| the-shadow | הצל | 1999 | 1999 | solo/1 | male | hiphop | 36 | haifa-north |
-| eden | עדן | 1998 | 1996 | band/0 | mixed | pop | 488 | center |
-| rema-samsonov | רמה סמסונוב | 1952 | 1952 | solo/1 | female | other | 825 | jerusalem |
-| naomi-shemer | נעמי שמר | 1951 | 1951 | solo/1 | female | folk-israeli | 396 | haifa-north |
-| amir-benayoun | עמיר בניון | 1999 | 1999 | solo/1 | male | mizrahi | 204 | south |
-| -40 | אייל קופמן | 1991 | 1991 | solo/1 | male | rock | 973 | tel-aviv-area |
-| theangelcy | TheAngelcy | 2011 | 2011 | band/0 | mixed | jazz-soul | 147 | center |
-| yosi-piamenta | יוסי פיאמנטה | 1972 | 1972 | solo/1 | male | other | 325 | jerusalem |
-| omer-avital | עומר אביטל | 1992 | 1992 | solo/1 | male | jazz-soul | 209 | tel-aviv-area |
-| ravid-plotnik | רביד פלוטניק | 2003 | 2003 | solo/1 | male | hiphop | 20 | center |
-| moshe-zorman | משה זורמן | 2017 | 2017 | solo/1 | male | other | 913 | tel-aviv-area |
-| yehuda-green | יהודה גרין | 2007 | 2007 | solo/1 | male | other | 478 | jerusalem |
-| the-idan-raichel-project | הפרויקט של עידן רייכל | 2003 | 2002 | band/0 | mixed | ethnic-world | 93 | center |
-| eva-francis | אווה פרנסיס | 2018 | 2018 | solo/1 | female | other | 923 | center |
-| odeya | אודיה | 2017 | 2017 | solo/1 | female | pop | 12 | tel-aviv-area |
-| tamar-yahalomi | תמר יהלומי | 2011 | 2011 | solo/1 | female | pop | 198 | tel-aviv-area |
-| tsliley-haaud | צלילי העוד | 1974 | 1974 | band/0 | male | mizrahi | 627 | center |
-| ari-gorali | ארי גורלי | 2004 | 2004 | solo/1 | male | other | 782 | center |
-| avraham-fried | אברהם פריד | 1981 | 1981 | solo/1 | male | religious-pop | 33 | abroad |
-| -84 | כל החתיכים אצלי | 2007 | 2007 | band/0 | mixed | rock | 730 | center |
-| echo | אקו | 2011 | 2011 | solo/1 | female | hiphop | 356 | abroad |
-| erez-lev-ari | ארז לב ארי | 1996 | 1996 | solo/1 | male | other | 471 | center |
-| rotem-chen | רותם חן | 2017 | 2017 | solo/1 | male | mizrahi | 964 | center |
-| eyal-golan | אייל גולן | 1978 | 1978 | solo/1 | male | mizrahi | 4 | tel-aviv-area |
-| meydad-tasa | מידד טסה | 2006 | 2006 | solo/1 | male | mizrahi | 106 | haifa-north |
-| -8 | אבי אילסון | 2018 | 2018 | solo/1 | male | other | 663 | jerusalem |
-| infected-mushroom | אינפקטד מאשרום | 1996 | 1996 | band/0 | mixed | electronic | 5 | haifa-north |
-| d-n-p-rtos | עדן פרטוש | 1996 | 1996 | solo/1 | male | jazz-soul | 524 | center |
-| ori-coltov | אורי כלטוב | 2024 | 2024 | solo/1 | male | other | 422 | jerusalem |
-| tamouz | תמוז (להקה) | 1974 | 1974 | band/0 | mixed | rock | 107 | center |
-| shimrit-orr | שמרית אור | 1966 | 1966 | solo/1 | female | other | 579 | jerusalem |
-| kim-connection | קים קונקשיין | 1996 | 1996 | solo/1 | male | electronic | 966 | center |
-| yael-german | יעל גרמן | 1976 | 1976 | solo/1 | female | folk-israeli | 893 | center |
-| vered-r-klepter | ורד קלפטר | 1981 | 1981 | solo/1 | female | rock | 783 | center |
-| ron-hayon | רון חיון | 2024 | 2024 | solo/1 | male | other | 192 | center |
-| habrera-hativit | הברירה הטבעית | 1977 | 1977 | band/0 | male | other | 452 | center |
-| kabra-kasai | כברה קסאי | 2003 | 2003 | solo/1 | female | folk-israeli | 555 | center |
-| eden-ben-zaken | עדן בן זקן | 2013 | 2013 | solo/1 | female | mizrahi | 6 | jerusalem |
-| dor-daniel | דור דניאל | 2005 | 2005 | solo/1 | male | pop | 193 | center |
-| sharona-aron | שרונה אהרון | 1955 | 1955 | solo/1 | female | other | 971 | tel-aviv-area |
-| gidi-shamur | גידי שמור | 1989 | 1989 | solo/1 | male | other | 762 | center |
-| kutiman | קותימאן | 2006 | 2006 | solo/1 | male | jazz-soul | 130 | jerusalem |
-| elai-botner-and-the-outside-kids | עילי בוטנר וילדי החוץ | 2011 | 2012 | band/0 | mixed | rock | 355 | center |
-| -83 | הפונדקאים | 1976 | 1976 | band/0 | mixed | other | 993 | center |
-| arafel | ערפל (להקה) | 1997 | 1997 | band/0 | mixed | rock | 665 | center |
-| ohad-shragai | אוהד שרגאי | 2019 | 2019 | solo/1 | male | pop | 573 | center |
-| tom-petrover | תום פטרובר | 2019 | 2019 | solo/1 | male | other | 498 | center |
-| ruth-dolores-weiss | רות דולורס וייס | 2002 | 2002 | solo/1 | female | indie-alt | 413 | center |
-| arik-sinai | אריק סיני | 1968 | 1968 | solo/1 | male | pop | 89 | center |
-| daniel-zamir | דניאל זמיר | 2000 | 2000 | solo/1 | male | jazz-soul | 158 | center |
-| artist | יציאת חירום | 1997 | 1998 | band/0 | mixed | rock | 612 | center |
-| yair-levi | יאיר לוי | 2016 | 2016 | solo/1 | male | jazz-soul | 545 | haifa-north |
-| -61 | סתיו שמש | 2013 | 2013 | solo/1 | female | pop | 886 | center |
-| chulu | צ'ולו | 1995 | 1995 | solo/1 | male | hiphop | 219 | abroad |
-| kinderlach | קינדרלעך | 2005 | 2005 | band/0 | mixed | other | 941 | center |
-| alona-daniel | אלונה דניאל | 1990 | 1990 | solo/1 | female | rock | 525 | center |
-| northern-command-variety-ensemble | להקת פיקוד הצפון | 1954 | 1954 | band/0 | mixed | other | 566 | center |
-| nadav-hanzis | נדב חנציס | 2025 | 2025 | solo/1 | male | other | 98 | center |
-| eitan-masuri | איתן מסורי | 1979 | 1979 | solo/1 | male | other | 341 | tel-aviv-area |
-| mazzie-cohen | מזי כהן | 1979 | 1979 | solo/1 | female | other | 160 | jerusalem |
-| shlomi-shabat | שלומי שבת | 1985 | 1985 | solo/1 | male | mizrahi | 117 | center |
-| miriam-avigal | מרים אביגל | 1955 | 1955 | solo/1 | female | folk-israeli | 915 | tel-aviv-area |
-| gedy-ronen | גדי רונן | 2017 | 2017 | solo/1 | male | rock | 679 | center |
-| ben-zini | בן זיני | 2017 | 2017 | solo/1 | male | rock | 159 | center |
-| dam | דאם | 1999 | 1999 | band/0 | mixed | hiphop | 419 | center |
-| mendy-weiss | מנדי וייס | 2019 | 2019 | solo/1 | male | other | 749 | center |
-| peter-wertheimer | פטר ורטהיימר | 1973 | 1973 | solo/1 | male | jazz-soul | 539 | center |
-| tal-ramon | טל רמון | 2016 | 2016 | solo/1 | male | rock | 613 | center |
-| alma-zohar | עלמה זהר | 2007 | 2007 | solo/1 | female | pop | 199 | center |
-| aharon-amram | אהרן עמרם | 2007 | 2007 | solo/1 | male | other | 461 | center |
-| moti-taka | מוטי טקה | 2013 | 2013 | solo/1 | male | mizrahi | 470 | haifa-north |
-| karni-postel | קרני פוסטל | 1986 | 1986 | solo/1 | female | rock | 387 | tel-aviv-area |
-| eli-mohar | עלי מוהר | 1966 | 1966 | solo/1 | male | other | 254 | tel-aviv-area |
-| nissim-menachem | ניסים מנחם | 1960 | 1960 | solo/1 | male | other | 515 | center |
-| shovevey-zion | שובבי ציון | 1970 | 1970 | band/0 | male | rock | 968 | center |
-| aharon-razel | אהרן רזאל | 1997 | 1997 | solo/1 | male | religious-pop | 195 | abroad |
-| yitzhak-klepter | יצחק קלפטר | 1966 | 1966 | solo/1 | male | rock | 53 | center |
-| itzik-kala | איציק קלה | 1971 | 1971 | solo/1 | male | mizrahi | 103 | jerusalem |
-| tararam | טררם | 1996 | 1996 | band/0 | mixed | other | 981 | center |
-| yoni-genut | יוני גנוט | 2000 | 2000 | solo/1 | male | other | 763 | center |
-| -132 | כשניקו תתחיל לדבר | 1992 | 1992 | band/0 | mixed | rock | 791 | center |
-| shlishiyat-gesher-hayarkon | שלישיית גשר הירקון | 1963 | 1963 | band/0 | male | folk-israeli | 238 | center |
-| omer-meir-wellber | עומר מאיר ולבר | 2017 | 2017 | solo/1 | male | other | 404 | south |
-| axum | אקסום | 2007 | 2007 | band/0 | mixed | hiphop | 304 | center |
-| trifonas | טריפונס | 1982 | 1982 | solo/1 | male | other | 283 | center |
-| -99 | גאיה (להקה) | 1998 | 1999 | band/0 | mixed | other | 811 | center |
-| yarona-caspi | ירונה כספי | 1990 | 1990 | solo/1 | female | rock | 908 | tel-aviv-area |
-| moshe-louk | משה לוק | 2020 | 2020 | solo/1 | male | other | 411 | tel-aviv-area |
-| noga-eshed | נגה אשד | 1969 | 1969 | solo/1 | female | folk-israeli | 956 | tel-aviv-area |
-| yahel-sherman | יהל שרמן | 1999 | 1999 | solo/1 | male | electronic | 232 | center |
-| ishay-levi | ישי לוי | 1976 | 1976 | solo/1 | male | mizrahi | 311 | center |
-| yehoshua-sofer | יהושע סופר | 1963 | 1963 | solo/1 | male | folk-israeli | 19 | abroad |
-| mor-reveii | מור | 2019 | 2019 | solo/1 | female | other | 90 | center |
-| the-ultras | האולטראס | 2004 | 2004 | band/0 | mixed | hiphop | 731 | center |
-| noa-brenner | נועה ברנר | 2016 | 2016 | solo/1 | female | other | 709 | tel-aviv-area |
-| shalom-gad | שלום גד | 1988 | 1988 | solo/1 | male | other | 602 | center |
-| noam-dadon | נועם דדון | 2015 | 2015 | solo/1 | male | other | 587 | south |
-| elnatan-shalom | אלנתן שלום | 2018 | 2018 | solo/1 | male | other | 895 | center |
-| ahuva-ozeri | אהובה עוזרי | 1973 | 1973 | solo/1 | female | mizrahi | 61 | tel-aviv-area |
-| yagel-haroush | יגל הרוש | 2020 | 2020 | solo/1 | male | other | 400 | south |
-| tiny-fingers | Tiny Fingers | 2008 | 2008 | band/0 | mixed | indie-alt | 531 | center |
-| uzi-navon-acquaintances | עוזי נבון ומכרים | 2007 | 2007 | band/0 | mixed | other | 227 | center |
-| assaf-talmudi | אסף תלמודי | 2025 | 2025 | solo/1 | male | other | 735 | center |
-| misha-segal | מישה סגל | 1991 | 1991 | solo/1 | male | other | 492 | center |
-| doron-mazar | דורון מזר | 1985 | 1985 | solo/1 | male | folk-israeli | 520 | center |
-| omer-adam | עומר אדם | 2009 | 2009 | solo/1 | male | mizrahi | 1 | haifa-north |
-| isolier-band | איזולירבנד | 1982 | 1982 | band/0 | mixed | pop | 758 | center |
-| nitsan-khen-raz-el | ניצן-חן רזאל | 1996 | 1996 | solo/1 | male | religious-pop | 880 | jerusalem |
-| nitzan-kaikov | ניצן קייקוב | 2005 | 2005 | solo/1 | male | pop | 917 | tel-aviv-area |
-| neta-elkayam | נטע אלקיים | 2023 | 2023 | solo/1 | female | other | 284 | haifa-north |
-| simcha-gueta | שמחה גואטה | 2015 | 2015 | solo/1 | female | other | 222 | center |
-| linet | לינט | 1985 | 1985 | solo/1 | female | mizrahi | 79 | tel-aviv-area |
-| sima-amiel | סימה עמיאל | 2023 | 2023 | solo/1 | female | other | 877 | center |
-| nicol-raidman | ניקול ראידמן | 2017 | 2017 | solo/1 | female | pop | 405 | center |
-| dudi-kalish | דודי קאליש | 1995 | 1995 | solo/1 | male | other | 741 | center |
-| reuven-gvirtz | ראובן גבירץ | 1979 | 1979 | solo/1 | male | other | 871 | center |
-| zohar-argov | זוהר ארגוב | 1977 | 1977 | solo/1 | male | mizrahi | 14 | center |
-| erez-halevi | ארז הלוי | 1984 | 1984 | solo/1 | male | other | 645 | center |
-| benny-berman | בני ברמן | 1991 | 1991 | solo/1 | male | folk-israeli | 647 | center |
-| -35 | שיקו חייק | 1998 | 1998 | solo/1 | male | mizrahi | 770 | center |
-| shani-hazan | שני חזן | 2018 | 2018 | solo/1 | female | other | 786 | tel-aviv-area |
-| noam-sheriff | נעם שריף | 1953 | 1953 | solo/1 | male | other | 580 | tel-aviv-area |
-| dudaim | הדודאים | 1958 | 1957 | band/0 | male | folk-israeli | 176 | center |
-| tzukush | צוקוש | 2016 | 2016 | solo/1 | male | hiphop | 654 | tel-aviv-area |
-| khalas | חלאס | 1999 | 1999 | band/0 | mixed | rock | 403 | center |
-| sivan-talmor | סיון טלמור | 1998 | 1998 | solo/1 | female | other | 142 | south |
-| habanot-nechama | הבנות נחמה | 2004 | 2004 | band/0 | female | folk-israeli | 126 | center |
-| netanela | נתנאלה | 1973 | 1973 | solo/1 | female | rock | 377 | tel-aviv-area |
-| matan-hassan | מתן חסן | 2023 | 2023 | solo/1 | male | other | 597 | center |
-| eliav-zohar | אליאב זוהר | 2018 | 2018 | solo/1 | male | other | 390 | center |
-| yitzchak-meir | יצחק מאיר (זמר) | 2010 | 2010 | solo/1 | male | other | 450 | center |
-| tamar-eisenman | תמר אייזנמן | 2001 | 2001 | solo/1 | female | folk-israeli | 292 | jerusalem |
-| ofira-ravit-yosefi | אופירה ורוית יוספי | 1989 | 1989 | band/0 | female | other | 705 | center |
-| ori-shochat | אורי שוחט | 1999 | 1999 | solo/1 | male | hiphop | 109 | haifa-north |
-| kosha-dillz | קושה דילז | 2005 | 2005 | solo/1 | male | hiphop | 572 | center |
-| eden-hason | עדן חסון | 2017 | 2017 | solo/1 | male | mizrahi | 3 | center |
-| nadav-aharoni | נדב אהרוני | 2021 | 2021 | solo/1 | male | other | 361 | haifa-north |
-| amir | עמיר חדד | 2006 | 2006 | solo/1 | male | pop | 66 | abroad |
-| inbal-perlmuter | ענבל פרלמוטר | 1992 | 1992 | solo/1 | female | rock | 182 | center |
-| ouri-chevakh | אורי שבח | 1972 | 1972 | solo/1 | male | other | 606 | center |
-| kobi-farhi | קובי פרחי | 1991 | 1991 | solo/1 | male | rock | 258 | tel-aviv-area |
-| michael-cohen | מיכאל כהן | 2008 | 2008 | solo/1 | male | hiphop | 230 | tel-aviv-area |
-| sarit-avitan | שרית אביטן | 2010 | 2010 | solo/1 | female | mizrahi | 299 | center |
-| sharon-lifshitz | שרון ליפשיץ | 1983 | 1983 | solo/1 | female | pop | 428 | center |
-| udi-damari | אודי דמארי | 2016 | 2016 | solo/1 | male | other | 701 | center |
-| adam-ben-ezra | אדם בן עזרא | 2000 | 2000 | solo/1 | male | jazz-soul | 369 | tel-aviv-area |
-| peter-roth | פיטר רוט | 1992 | 1992 | solo/1 | male | rock | 105 | tel-aviv-area |
-| -130 | להקת חיל התותחנים | 1969 | 1969 | band/0 | mixed | other | 991 | center |
-| mika-karni | מיקה קרני | 1997 | 1997 | solo/1 | female | rock | 169 | center |
-| hanan-ya-israel-bohadana | חנן-יה ישראל בוהדנה | 2009 | 2009 | solo/1 | male | other | 594 | south |
-| peer-tasi | פאר טסי | 2009 | 2009 | solo/1 | male | mizrahi | 11 | center |
-| hopa-hey | הופה היי | 1985 | 1985 | band/0 | mixed | other | 664 | center |
-| gilad-potolsky | גלעד פוטולסקי | 1984 | 1984 | solo/1 | male | other | 883 | center |
-| guy-mazig | גיא מזיג | 1999 | 1999 | solo/1 | male | rock | 465 | center |
-| eyal-barkan | אייל ברקן | 1998 | 1998 | solo/1 | male | electronic | 467 | center |
-| lilia | ליליה | 2019 | 2019 | solo/1 | female | other | 937 | center |
-| milk-and-honey | חלב ודבש | 1979 | 1979 | band/0 | mixed | pop | 127 | center |
-| yossi-fine | יוסי פיין | 1981 | 1981 | solo/1 | male | other | 94 | abroad |
-| daklon | דקלון | 1950 | 1950 | solo/1 | male | mizrahi | 74 | tel-aviv-area |
-| motty-weiss | מוטי וייס | 2017 | 2017 | solo/1 | male | other | 416 | center |
-| yishai-ribo | ישי ריבו | 2007 | 2007 | solo/1 | male | religious-pop | 78 | center |
-| sharona-nastovich | שרונה נסטוביץ' | 2006 | 2006 | solo/1 | female | other | 955 | tel-aviv-area |
-| henree | הנרי (מוזיקאי) | 2002 | 2002 | solo/1 | male | other | 406 | center |
-| samir-shukry | סמיר שוקרי | 1994 | 1994 | solo/1 | male | other | 380 | haifa-north |
-| israela-krovoshey | ישראלה קריבושה | 1971 | 1971 | solo/1 | female | pop | 808 | center |
-| yehuda-glantz | יהודה גלאנץ | 1977 | 1977 | solo/1 | male | religious-pop | 460 | center |
-| noa-faran | נועה פארן | 1997 | 1997 | solo/1 | female | hiphop | 536 | center |
-| ruli-dikman | רולי דיקמן | 2014 | 2014 | solo/1 | male | other | 751 | center |
-| ari-hill | ארי היל | 2016 | 2016 | solo/1 | male | religious-pop | 593 | center |
-| tamar-giladi | תמר גלעדי | 1998 | 1998 | solo/1 | female | jazz-soul | 225 | center |
-| merav-siman-tov | מרב סמן טוב | 2003 | 2003 | solo/1 | female | other | 965 | jerusalem |
-| ethnix | אתניקס | 1989 | 1984 | band/0 | mixed | rock | 49 | tel-aviv-area |
-| gary-bertini | גארי ברתיני | 1974 | 1974 | solo/1 | male | jazz-soul | 486 | center |
-| avihai-hollender | אביחי הולנדר | 2022 | 2022 | solo/1 | male | other | 832 | center |
-| danny-granott | דני גרנות | 1969 | 1969 | solo/1 | male | other | 851 | center |
-| daniel-barenboim | דניאל בארנבוים | 1950 | 1950 | solo/1 | male | jazz-soul | 23 | center |
-| moran-aharoni | מורן אהרוני | 1997 | 1997 | solo/1 | female | jazz-soul | 674 | tel-aviv-area |
-| ben-artzi | בן ארצי | 1998 | 1998 | solo/1 | male | other | 187 | tel-aviv-area |
-| -124 | חובבי ציון (להקה) | 2006 | 2006 | band/0 | male | other | 850 | center |
-| patrick-sebag | פטריק סבג | 2007 | 2007 | solo/1 | male | other | 410 | center |
-| pablo-rosenberg | פבלו רוזנברג | 1980 | 1980 | solo/1 | male | rock | 108 | center |
-| ha-m-ulliel | חיים אוליאל | 2000 | 2000 | solo/1 | male | mizrahi | 323 | center |
-| yoel-levi | יואל לוי | 1975 | 1975 | solo/1 | male | jazz-soul | 560 | center |
-| ram-orion | רם אוריון | 1982 | 1982 | solo/1 | male | rock | 437 | tel-aviv-area |
-| the-ariel-brothers | האחים אריאל | 2017 | 2017 | solo/1 | male | other | 448 | center |
-| yoni-bloch | יוני בלוך | 2003 | 2003 | solo/1 | male | rock | 40 | south |
-| -111 | שלישיית המעפיל | 1965 | 2014 | band/0 | mixed | folk-israeli | 890 | center |
-| ori-toledano | אורי טולדנו | 2006 | 2006 | solo/1 | male | other | 382 | tel-aviv-area |
-| central-command-band | להקת פיקוד המרכז | 1953 | 1969 | band/0 | mixed | other | 370 | center |
-| lior-narkis | ליאור נרקיס | 1992 | 1992 | solo/1 | male | mizrahi | 256 | tel-aviv-area |
-| tamir-gal | תמיר גל | 1995 | 1995 | solo/1 | male | mizrahi | 201 | jerusalem |
-| hamsa | חמסה | 2001 | 2000 | band/0 | mixed | pop | 266 | center |
-| alon-ohel | אלון אהל | 2026 | 2026 | solo/1 | male | other | 484 | center |
-| avner-gadassi | אבנר גדסי | 1970 | 1970 | solo/1 | male | mizrahi | 233 | center |
-| maya-isacowitz | מאיה איזקוביץ | 2009 | 2009 | solo/1 | female | other | 592 | center |
-| sagiv-cohen | סגיב כהן | 2001 | 2001 | solo/1 | male | jazz-soul | 151 | center |
-| jonathan-bitton | יונתן ביטון | 2016 | 2016 | solo/1 | male | other | 867 | center |
-| -7 | מושיקו מור | 2011 | 2011 | solo/1 | male | pop | 215 | center |
-| desert | Desert | 2002 | 2002 | band/0 | mixed | rock | 513 | center |
-| moran-david | מורן דוד | 2018 | 2018 | solo/1 | female | pop | 901 | center |
-| yehuda-poliker | יהודה פוליקר | 1980 | 1980 | solo/1 | male | rock | 9 | haifa-north |
-| harel-moyal | הראל מויאל | 2000 | 2000 | solo/1 | male | pop | 88 | center |
-| eran-zur | ערן צור | 1986 | 1986 | solo/1 | male | rock | 121 | haifa-north |
-| -68 | שמואל פרדניק | 2016 | 2016 | solo/1 | male | other | 742 | center |
-| avishai-cohen | אבישי כהן | 1993 | 1993 | solo/1 | male | jazz-soul | 57 | haifa-north |
-| -76 | אלמנה שחורה (להקה) | 1991 | 1991 | band/0 | mixed | other | 926 | center |
-| idan-raichel | עידן רייכל | 1998 | 1998 | solo/1 | male | folk-israeli | 29 | center |
-| yorik-ben-david | יוריק בן דוד | 1978 | 1978 | solo/1 | male | other | 884 | tel-aviv-area |
-| ran-shem-tov | רן שם טוב | 1989 | 1989 | solo/1 | male | rock | 882 | center |
-| hofni-cohen | חופני כהן | 1975 | 1975 | solo/1 | male | other | 552 | tel-aviv-area |
-| yaron-cohen | ירון כהן | 2004 | 2004 | solo/1 | male | other | 885 | center |
-| itzik-eshel | איציק אשל | 1999 | 1999 | solo/1 | male | mizrahi | 711 | center |
-| bnot-pesia | בנות פסיה | 1995 | 1995 | band/0 | mixed | other | 874 | center |
-| gary-eckstein | גרי אקשטיין | 1964 | 1964 | solo/1 | male | rock | 339 | center |
-| bezalel-aloni | בצלאל אלוני | 1961 | 1961 | solo/1 | male | other | 200 | center |
-| shimon-gershon | שמעון גרשון | 2010 | 2010 | solo/1 | male | pop | 373 | tel-aviv-area |
-| shani-izhari | שני יצהרי | 2010 | 2010 | solo/1 | female | mizrahi | 649 | center |
-| zeev-tene | זאב טנא | 1975 | 1975 | solo/1 | male | rock | 340 | center |
-| -29 | יהוא ירון | 2001 | 2001 | solo/1 | male | other | 818 | jerusalem |
-| infy-snow | אינפי סנואו | 2012 | 2012 | solo/1 | female | rock | 778 | center |
-| johnny-goldstein | ג'וני גולדשטיין | 2004 | 2004 | solo/1 | male | rock | 578 | center |
-| obi-aflalo | קובי אפללו | 2001 | 2001 | solo/1 | male | other | 111 | center |
-| -15 | כפיר בן ליש | 2014 | 2014 | solo/1 | male | other | 815 | center |
-| 21 | 21 (להקה) | 2000 | 2000 | band/0 | mixed | jazz-soul | 878 | center |
-| yehonatan-geffen | יהונתן גפן | 1967 | 1967 | solo/1 | male | other | 624 | center |
-| hanna-aharoni | חנה אהרוני | 1960 | 1960 | solo/1 | female | other | 772 | center |
-| -34 | שמוליק צ'יזיק | 1984 | 1984 | solo/1 | male | other | 861 | center |
-| eti-levy | אתי לוי | 1992 | 1992 | solo/1 | female | mizrahi | 154 | south |
-| alien-project | אליין פרוג'קט | 1994 | 1994 | solo/1 | male | electronic | 398 | center |
-| ilana-rovina | אילנה רובינא | 1959 | 1959 | solo/1 | female | other | 267 | tel-aviv-area |
-| haivriot | העבריות | 2020 | 2020 | band/0 | mixed | folk-israeli | 288 | center |
-| sami-lazmi | סמי לזמי | 2023 | 2023 | solo/1 | male | other | 816 | abroad |
-| liad-meir | ליעד מאיר | 2018 | 2018 | solo/1 | male | other | 149 | center |
-| meir-israel | מאיר ישראל | 2011 | 2011 | solo/1 | male | other | 248 | center |
-| boaz-banai | בעז בנאי | 2007 | 2007 | solo/1 | male | other | 214 | center |
-| kathleen-reiter | קטלין רייטר | 2011 | 2011 | solo/1 | female | pop | 466 | center |
-| -4 | עמית ליסטוונד | 1995 | 1995 | solo/1 | male | other | 724 | center |
-| mendel-roth | מענדל ראטה | 2014 | 2014 | solo/1 | male | other | 725 | center |
-| ori-ben-ari | אורי בן ארי | 2017 | 2017 | solo/1 | male | pop | 252 | center |
-| gil-dor | גיל דור | 1981 | 1981 | solo/1 | male | pop | 455 | tel-aviv-area |
-| uri-fineman | אורי פיינמן | 1990 | 1990 | solo/1 | male | rock | 519 | tel-aviv-area |
-| mickey-shaviv | מיקי שביב | 1966 | 1966 | solo/1 | male | rock | 583 | tel-aviv-area |
-| beni-elbaz | בני אלבז | 1984 | 1984 | solo/1 | male | other | 276 | center |
-| deaf-chonky | דף צ'ונקי | 2016 | 2016 | band/0 | mixed | rock | 695 | center |
-| naarot-reines | נערות ריינס | 2004 | 2009 | band/0 | mixed | rock | 801 | center |
-| alona-turel | אלונה טוראל | 1961 | 1961 | solo/1 | female | other | 433 | tel-aviv-area |
-| boaz-sharabi | בעז שרעבי | 1964 | 1964 | solo/1 | male | mizrahi | 55 | tel-aviv-area |
-| terry-poison | טרי פויזן | 2004 | 2003 | band/0 | mixed | other | 374 | center |
-| micha-biton | מיכה ביטון | 1994 | 1994 | solo/1 | male | other | 692 | center |
-| beit-habubot | בית הבובות | 2005 | 2005 | band/0 | mixed | rock | 120 | center |
-| dani-litai | דני ליטאי | 1982 | 1982 | solo/1 | male | other | 441 | tel-aviv-area |
-| rafi-persky | רפי פרסקי | 1988 | 1988 | solo/1 | male | other | 360 | center |
-| yosef-karduner | יוסף קרדונר | 2000 | 2000 | solo/1 | male | other | 270 | center |
-| israel-bar-on | ישראל בר-און | 2007 | 2007 | solo/1 | male | pop | 331 | south |
-| sarid-trio | שלישיית שריד | 1960 | 1960 | band/0 | mixed | folk-israeli | 959 | center |
-| bentzy-kletzkin | בנצי קלצקין | 2022 | 2022 | solo/1 | male | other | 902 | center |
-| yehoshua-engelman | יהושע אנגלמן | 1988 | 1988 | solo/1 | male | other | 944 | center |
-| talisman | טליסמאן | 2016 | 2016 | solo/1 | male | hiphop | 381 | abroad |
-| haim-saban | חיים סבן | 1983 | 1983 | solo/1 | male | folk-israeli | 101 | center |
-| ruhama-raz | רוחמה רז | 1977 | 1977 | solo/1 | female | folk-israeli | 210 | center |
-| haim-moshe | חיים משה | 1975 | 1975 | solo/1 | male | mizrahi | 45 | center |
-| elam-rotem | עילם רותם | 2008 | 2008 | solo/1 | male | other | 504 | center |
-| asaf-avidan | אסף אבידן | 2002 | 2002 | solo/1 | male | folk-israeli | 2 | jerusalem |
-| -123 | שלישיית אדלר | 1963 | 1963 | band/0 | mixed | other | 969 | center |
-| avishai-cohen-2 | אבישי כהן | 1999 | 1999 | solo/1 | male | jazz-soul | 128 | haifa-north |
-| hagit-yaso | חגית יאסו | 2009 | 2009 | solo/1 | female | pop | 296 | center |
-| guy-mintus | גיא מינטוס | 2015 | 2015 | solo/1 | male | other | 357 | center |
-| -82 | ברוש (להקה) | 1978 | 1978 | band/0 | mixed | rock | 650 | center |
-| uri-bashan | אורי בשן | 2000 | 2000 | solo/1 | male | other | 678 | center |
-| osnat-paz | אסנת פז | 1967 | 1967 | solo/1 | female | pop | 962 | center |
-| snir-yamin | שניר ימין | 2006 | 2006 | solo/1 | male | pop | 891 | center |
-| hani-dinur | חני דינור | 1980 | 1980 | solo/1 | female | rock | 889 | center |
-| sfatayim | שפתיים (להקה) | 1985 | 1985 | band/0 | mixed | mizrahi | 315 | center |
-| yair-dalal | יאיר דלאל | 1996 | 1996 | solo/1 | male | folk-israeli | 184 | center |
-| yam-refaeli | ים רפאלי | 2018 | 2018 | solo/1 | male | pop | 226 | south |
-| shimon-cohen | שמעון כהן | 2023 | 2023 | solo/1 | male | folk-israeli | 863 | center |
-| meir-ariel | מאיר אריאל | 1967 | 1967 | solo/1 | male | folk-israeli | 358 | center |
-| gitit-shoval | גיתית שובל | 2008 | 2008 | solo/1 | female | other | 454 | tel-aviv-area |
-| vardina-cohen | ורדינה כהן | 1988 | 1988 | solo/1 | female | other | 826 | tel-aviv-area |
-| avi-benedi | אבי בנדי | 2001 | 2001 | solo/1 | male | pop | 708 | center |
-| emil-zrihan | אמיל זריהן | 1986 | 1986 | solo/1 | male | other | 723 | center |
-| vibe-tribe | Vibe Tribe | 2002 | 2002 | band/0 | mixed | electronic | 463 | center |
-| ori-kaplan | אורי קפלן | 2021 | 2021 | solo/1 | male | jazz-soul | 495 | tel-aviv-area |
-| yoshi | יושי | 2021 | 2021 | solo/1 | male | other | 349 | center |
-| hadag-nahash | הדג נחש | 1996 | 1996 | band/0 | mixed | hiphop | 218 | jerusalem |
-| salem | Salem | 1985 | 1985 | band/0 | mixed | rock | 185 | center |
-| shuki-dorit | שוקי ודורית | 1980 | 1980 | band/0 | female | other | 776 | center |
-| yaniv-d-or | יניב ד'אור | 2012 | 2012 | solo/1 | male | jazz-soul | 537 | tel-aviv-area |
-| galit-burg | גלית בורג | 1989 | 1989 | solo/1 | female | other | 251 | tel-aviv-area |
-| shahar-saul | שחר סאול | 2017 | 2017 | solo/1 | male | hiphop | 178 | tel-aviv-area |
-| yitzchak-fuchs | יצחק פוקס | 1985 | 1985 | solo/1 | male | other | 608 | center |
-| david-krivoshei | דוד קריבושי | 1968 | 1968 | solo/1 | male | other | 712 | tel-aviv-area |
-| din-din-aviv | דין דין אביב | 1998 | 1998 | solo/1 | female | other | 148 | center |
-| -128 | הטוב הרע והנערה | 1972 | 1972 | band/0 | mixed | other | 896 | center |
-| ohad-hitman | אוהד חיטמן | 1995 | 1995 | solo/1 | male | pop | 456 | tel-aviv-area |
-| tatran | Tatran | 2011 | 2011 | band/0 | mixed | other | 600 | center |
-| ivri-lider | עברי לידר | 1997 | 1997 | solo/1 | male | pop | 104 | center |
-| osher-cohen | אושר כהן | 2014 | 2014 | solo/1 | male | mizrahi | 27 | haifa-north |
-| avraham-pereira | אברהם פררה | 1952 | 1952 | solo/1 | male | other | 702 | jerusalem |
-| orit-shahaf | אורית שחף | 1992 | 1992 | solo/1 | female | rock | 392 | south |
-| lior-elmaleh | ליאור אלמליח | 2008 | 2008 | solo/1 | male | other | 458 | center |
-| roy-arad | רועי צ'יקי ארד | 2004 | 2004 | solo/1 | male | other | 253 | south |
 | sara-beck | שרה ב"ק | 2012 | 2012 | solo/1 | female | other | 277 | center |
-| avraham-tal | אברהם טל | 1998 | 1998 | solo/1 | male | pop | 42 | center |
-| yossi-babliki | יוסי בבליקי | 1996 | 1996 | solo/1 | male | other | 822 | center |
-| yehuda-keisar | יהודה קיסר | 2000 | 2000 | solo/1 | male | mizrahi | 425 | tel-aviv-area |
-| yoni-poliker | יוני פוליקר | 2008 | 2008 | solo/1 | male | other | 642 | center |
-| sheila-ferber | שילה פרבר | 2003 | 2003 | solo/1 | female | rock | 704 | tel-aviv-area |
-| -2 | אבי בניון | 2002 | 2002 | solo/1 | male | mizrahi | 559 | south |
-| mili-miran | מילי מירן | 1982 | 1982 | solo/1 | female | other | 920 | center |
-| dorit-sade | דורית שדה | 1975 | 1975 | solo/1 | female | other | 648 | tel-aviv-area |
-| habiluim | הבילויים | 1997 | 1997 | band/0 | mixed | rock | 135 | center |
-| dxm | DXM | 1984 | 1984 | band/0 | mixed | rock | 755 | center |
-| ortal-ofek | אורטל אופק | 2002 | 2002 | solo/1 | female | pop | 506 | tel-aviv-area |
-| fortisakharof | פורטיסחרוף | 1988 | 1988 | band/0 | mixed | rock | 243 | center |
-| adam-scheflan | אדם שפלן | 2025 | 2025 | solo/1 | male | other | 865 | center |
-| izhar-ashdot | יזהר אשדות | 1973 | 1973 | solo/1 | male | rock | 46 | jerusalem |
-| maya-rotman | מאיה רוטמן | 2006 | 2006 | solo/1 | female | rock | 703 | center |
-| lior-farhi | ליאור פרחי | 1986 | 1986 | solo/1 | male | other | 313 | center |
-| noam-bettan | נועם בתן | 2017 | 2017 | solo/1 | male | pop | 30 | center |
-| yossi-elephant | יוסי אלפנט | 1983 | 1983 | solo/1 | male | rock | 402 | tel-aviv-area |
-| baldi-olier | באלדי אולייר | 1977 | 1977 | solo/1 | male | folk-rock | 500 | abroad |
-| noam-kaniel | נועם קניאל | 1971 | 1971 | solo/1 | male | pop | 123 | tel-aviv-area |
-| shira-margalit | שירה מרגלית | 2013 | 2013 | solo/1 | female | other | 415 | center |
-| avior-malasa | אביאור מלסה | 2015 | 2015 | solo/1 | male | other | 916 | center |
-| motty-steinmets | מוטי שטיינמץ | 2012 | 2012 | solo/1 | male | religious-pop | 26 | center |
-| puncher | פנצ'ר (להקה) | 1987 | 1987 | band/0 | male | other | 836 | center |
-| maya-dunietz | מאיה דוניץ | 2021 | 2021 | solo/1 | female | other | 249 | tel-aviv-area |
-| yehudit-ravitz | יהודית רביץ | 1976 | 1976 | solo/1 | female | rock | 399 | south |
-| alma-gov | עלמה גוב | 2021 | 2021 | solo/1 | female | other | 302 | center |
-| -125 | שלישיית התאומים | 1966 | 1966 | band/0 | mixed | other | 803 | center |
-| shye-ben-tzur | שי בן צור | 2003 | 2003 | solo/1 | male | other | 212 | abroad |
-| aviv-guedj | אביב גדג' | 1995 | 1995 | solo/1 | male | rock | 345 | center |
-| cosma | קוסמה | 2000 | 2000 | solo/1 | male | other | 837 | center |
-| moshe-giat | משה גיאת | 1982 | 1982 | solo/1 | male | mizrahi | 493 | center |
-| sharif | שריףף | 1992 | 1992 | solo/1 | male | mizrahi | 366 | south |
-| jasmin-moallem | יסמין מועלם | 2020 | 2020 | solo/1 | female | hiphop | 56 | jerusalem |
-| shazamat | שאזאמאט | 2017 | 2017 | band/0 | male | hiphop | 221 | center |
-| nati-levi | נתי לוי | 1987 | 1987 | solo/1 | male | mizrahi | 372 | center |
-| dana-lapidot | דנה לפידות | 2008 | 2008 | solo/1 | female | pop | 285 | south |
-| gili-galit | גילי וגלית | 1989 | 1989 | band/0 | mixed | other | 603 | center |
-| 951 | 951 | 1999 | 1999 | band/0 | mixed | rock | 556 | center |
-| ilanit | אילנית | 1964 | 1964 | solo/1 | female | pop | 442 | tel-aviv-area |
-| shefi-yishai | שפי ישי | 1992 | 1992 | solo/1 | male | other | 431 | jerusalem |
-| ido-malka | עידו מלכה | 2023 | 2023 | solo/1 | male | other | 397 | center |
-| shem-tov-levi | שם טוב לוי | 1969 | 1969 | solo/1 | male | jazz-soul | 81 | center |
-| dennis-lloyd | דניס לויד | 2015 | 2015 | solo/1 | male | pop | 96 | tel-aviv-area |
-| moshik-afia | מושיק עפיה | 1998 | 1998 | solo/1 | male | mizrahi | 73 | tel-aviv-area |
-| tal-vaknin | טל ועקנין | 1992 | 1992 | solo/1 | male | mizrahi | 609 | jerusalem |
-| nessim-saroussi | ניסים סרוסי | 2016 | 2016 | solo/1 | male | pop | 459 | center |
-| taiseer-elias | תייסיר אליאס | 2025 | 2025 | solo/1 | male | other | 943 | haifa-north |
-| ha-shelosharim | השלושרים | 1969 | 1969 | band/0 | male | pop | 414 | center |
-| yitzchak-meir-helfgot | יצחק מאיר הלפגוט | 2003 | 2003 | solo/1 | male | religious-pop | 440 | center |
-| sheva | שבע | 1995 | 1996 | band/0 | male | other | 567 | center |
-| foreign-affair | פוריין אפייר | 1988 | 1988 | band/0 | mixed | rock | 764 | center |
-| dudu-zakai | דודו זכאי | 1967 | 1967 | solo/1 | male | other | 921 | center |
-| chizbatron | הצ'יזבטרון | 1948 | 1948 | band/0 | mixed | other | 820 | center |
-| sherry | שרי (זמרת) | 1976 | 1976 | solo/1 | female | pop | 561 | center |
-| acollective | הקולקטיב | 2008 | 2008 | band/0 | male | rock | 479 | center |
-| -30 | לירן טל | 2004 | 2004 | solo/1 | male | other | 929 | center |
-| -80 | להקת מגפיים | 1978 | 1978 | band/0 | mixed | folk-israeli | 986 | center |
-| anna-rf | Anna RF | 2011 | 2011 | band/0 | mixed | other | 844 | center |
-| zohara | זוהרה | 2012 | 2012 | solo/1 | female | other | 429 | tel-aviv-area |
-| roman-sharon | רומן שרון | 1969 | 1969 | solo/1 | male | other | 557 | center |
-| yael-deckelbaum | יעל דקלבאום | 1995 | 1995 | solo/1 | female | other | 145 | jerusalem |
-| -63 | משה קליין | 2015 | 2015 | solo/1 | male | religious-pop | 469 | center |
-| peled | פלד | 2004 | 2004 | solo/1 | male | hiphop | 100 | center |
-| haze-evot | הזאבות | 2012 | 2012 | band/0 | female | rock | 312 | center |
-| yogev-glusman | יוגב גלוסמן | 2019 | 2019 | solo/1 | male | indie-alt | 715 | south |
-| hadassa-sigalov | הדסה סיגלוב | 1968 | 1968 | solo/1 | female | other | 979 | tel-aviv-area |
-| avigail-roz | אביגייל רוז | 2008 | 2008 | solo/1 | female | other | 683 | center |
-| sinai-tor | סיני תור | 1997 | 1997 | solo/1 | male | rock | 564 | center |
-| kiki-rothstein | קיקי רוטשטיין | 1971 | 1971 | solo/1 | male | other | 449 | center |
-| asaf-amdursky | אסף אמדורסקי | 1988 | 1988 | solo/1 | male | rock | 534 | tel-aviv-area |
-| yonatan-miller | יונתן מילר | 1985 | 1985 | solo/1 | male | other | 746 | center |
-| inbal-raz | ענבל רז | 2018 | 2018 | solo/1 | female | other | 551 | center |
-| edna-lev | עדנה לב | 1966 | 1966 | solo/1 | female | other | 417 | center |
-| shmulik-succot | שמוליק סוכות | 2022 | 2022 | solo/1 | male | other | 240 | center |
-| yael-levy | יעל לוי | 1973 | 1973 | solo/1 | female | other | 393 | haifa-north |
-| kobi-peretz | קובי פרץ | 1992 | 1992 | solo/1 | male | mizrahi | 614 | tel-aviv-area |
-| mark-eliyahu | מארק אליהו | 1998 | 1998 | solo/1 | male | folk-israeli | 10 | center |
-| sheshet | ששת | 1977 | 1977 | band/0 | mixed | other | 475 | center |
-| israel-parnas | ישראל פרנס | 2022 | 2022 | solo/1 | male | other | 789 | tel-aviv-area |
-| yoav-itzhak | יואב יצחק (זמר) | 1990 | 1990 | solo/1 | male | mizrahi | 239 | center |
-| danny-golan | דני גולן | 1967 | 1967 | solo/1 | male | folk-israeli | 512 | tel-aviv-area |
-| johnny-shuali | ג'וני שועלי | 1991 | 1991 | solo/1 | male | rock | 436 | center |
-| eyal-shachar | אייל שחר | 1996 | 1996 | solo/1 | male | other | 736 | center |
-| asala-yousef | אסאלה יוסף | 2006 | 2006 | solo/1 | female | other | 499 | center |
-| guy-bocati | גיא בוקאטי | 1985 | 1985 | solo/1 | male | jazz-soul | 974 | center |
-| ori-zakh | אורי זך | 2004 | 2004 | solo/1 | male | pop | 207 | center |
-| tuned-tone | צליל מכוון | 1979 | 1979 | band/0 | mixed | other | 444 | center |
-| drora-havkin | דרורה חבקין | 2006 | 2006 | solo/1 | female | other | 638 | center |
-| -79 | השכנים של צ'יץ' | 1991 | 1991 | band/0 | mixed | other | 620 | center |
-| akiva-nof | עקיבא נוף | 2011 | 2011 | solo/1 | male | other | 668 | tel-aviv-area |
-| the-pure-souls | הנשמות הטהורות | 1972 | 1972 | band/0 | mixed | folk-israeli | 290 | center |
-| is-hop | IS הופ | 1994 | 1994 | band/0 | mixed | hiphop | 745 | center |
-| loren-peled | לורן פלד | 2020 | 2020 | solo/1 | male | other | 480 | abroad |
-| ilan-damti | אילן דמתי | 2023 | 2023 | solo/1 | male | other | 860 | center |
-| noam-horev | נעם חורב | 2022 | 2022 | solo/1 | male | other | 522 | center |
-| haim-israel | חיים סהר ישראל | 1999 | 1999 | solo/1 | male | mizrahi | 165 | center |
-| binyamin-landau | ביני לנדאו | 1998 | 1998 | solo/1 | male | religious-pop | 446 | center |
-| dudi-levi | דודי לוי | 1986 | 1986 | solo/1 | male | rock | 346 | tel-aviv-area |
-| aya-korem | איה כורם | 2006 | 2006 | solo/1 | female | indie-alt | 64 | haifa-north |
-| charlie-megira | צ'רלי מגירה | 2001 | 2001 | solo/1 | male | rock | 241 | center |
-| malka-spigel | מלכה שפיגל | 1980 | 1980 | solo/1 | female | indie-alt | 430 | center |
-| -97 | זבולון דאב סיסטם | 2006 | 2006 | band/0 | mixed | other | 998 | center |
-| geula-gill | גאולה גיל | 1950 | 1950 | solo/1 | female | folk-israeli | 529 | tel-aviv-area |
-| rafi-biton | רפי ביטון | 2024 | 2024 | solo/1 | male | other | 540 | center |
-| quami-de-la-fox | קוואמי | 1990 | 1990 | solo/1 | male | hiphop | 132 | center |
-| keren-hecht | קרן הכט | 1993 | 1993 | solo/1 | female | other | 903 | tel-aviv-area |
-| -22 | אוריאל שלומי | 1977 | 1977 | solo/1 | male | mizrahi | 912 | tel-aviv-area |
-| -119 | כיף התקווה הטובה | 1970 | 1970 | band/0 | mixed | rock | 809 | center |
-| adi-ulmansky | עדי אולמנסקי | 2007 | 2007 | solo/1 | female | hiphop | 805 | jerusalem |
-| cookie-levanna | קוקי לבנה | 2011 | 2011 | band/0 | mixed | other | 936 | center |
-| mika-sade | מיקה שדה | 2013 | 2013 | solo/1 | female | other | 334 | tel-aviv-area |
-| dudu-aharon | דודו אהרון | 2007 | 2007 | solo/1 | male | mizrahi | 82 | center |
-| doron-miran | דורון מירן | 1987 | 1987 | solo/1 | male | mizrahi | 274 | center |
-| avi-belleli | אבי בללי | 1981 | 1981 | solo/1 | male | rock | 179 | tel-aviv-area |
-| nurit-galron | נורית גלרון | 1970 | 1970 | solo/1 | female | rock | 59 | tel-aviv-area |
-| blastoyz | בלסטויז | 2003 | 2003 | solo/1 | male | other | 308 | center |
-| daniel-salomon | דניאל סלומון | 1998 | 1998 | solo/1 | male | pop | 223 | center |
-| -27 | רובי חן | 1978 | 1978 | solo/1 | male | mizrahi | 948 | tel-aviv-area |
-| silverdon | סילברדון | 1990 | 1990 | solo/1 | male | other | 972 | center |
-| omer-fedi | עומר פדי | 2018 | 2018 | solo/1 | male | hiphop | 77 | tel-aviv-area |
-| astral-projection | אסטרל פרוג'קשן | 1993 | 1995 | band/0 | mixed | electronic | 208 | center |
-| bint-el-funk | בינת אל פאנק | 2012 | 2012 | band/0 | mixed | other | 721 | center |
-| boom-pam | בום פם | 2003 | 2003 | band/0 | male | rock | 91 | center |
-| andre-hajdu | אנדרה היידו | 1996 | 1996 | solo/1 | male | other | 295 | center |
-| gili-argov | גילי ארגוב | 1989 | 1989 | solo/1 | male | other | 321 | center |
-| yonatan-razel | יונתן רזאל | 2007 | 2007 | solo/1 | male | religious-pop | 68 | abroad |
-| inon-zur | ינון צור | 1994 | 1994 | solo/1 | male | folk-israeli | 330 | center |
-| adar-gold | אדר גולד | 2019 | 2019 | solo/1 | female | pop | 472 | center |
-| jackie-maika | ג'קי מייקה | 1979 | 1979 | solo/1 | male | other | 785 | center |
-| noa-bellhasen | נועה בלחסן | 2010 | 2010 | solo/1 | female | other | 961 | center |
-| zamira-chen | זמירה חן | 1985 | 1985 | solo/1 | female | other | 984 | tel-aviv-area |
-| victoria-hanna | ויקטוריה חנה | 2015 | 2015 | solo/1 | female | other | 231 | jerusalem |
-| mor-karbasi | מור קרבסי | 2008 | 2008 | solo/1 | female | other | 326 | jerusalem |
-| zohra-al-fassiya | זוהרה אלפסיה | 1982 | 1982 | solo/1 | female | other | 269 | center |
-| shlomi-bracha | שלומי ברכה | 1985 | 1985 | solo/1 | male | rock | 273 | tel-aviv-area |
-| eli-lulai | אלי לולאי | 1988 | 1988 | solo/1 | male | rock | 435 | center |
-| shrekdimc | שרק | 2016 | 2016 | solo/1 | male | hiphop | 541 | center |
-| rami-fortis | רמי פורטיס | 1975 | 1975 | solo/1 | male | rock | 32 | tel-aviv-area |
-| eli-magen | אלי מגן | 1987 | 1987 | solo/1 | male | jazz-soul | 451 | tel-aviv-area |
-| nathan-slor | נתן סלור | 2006 | 2006 | solo/1 | male | other | 598 | tel-aviv-area |
-| sharon-moldavi | שרון מולדאבי | 1995 | 1995 | solo/1 | male | other | 626 | tel-aviv-area |
-| nahum-nardi | נחום נרדי | 1974 | 1974 | solo/1 | male | folk-israeli | 220 | center |
-| yair-ziv | יאיר זיו | 2009 | 2009 | solo/1 | male | rock | 899 | center |
-| shekel | שקל | 2017 | 2017 | solo/1 | male | electronic | 234 | tel-aviv-area |
-| irit-dotan | עירית דותן | 1974 | 1974 | solo/1 | female | other | 775 | center |
-| doron-raphaeli | דורון רפאלי | 2011 | 2011 | solo/1 | male | other | 887 | jerusalem |
-| yehezkel-braun | יחזקאל בראון | 2023 | 2023 | solo/1 | male | other | 802 | center |
-| max-gat-mor | מקס גת-מור | 2022 | 2022 | solo/1 | male | other | 960 | center |
-| -152 | אלף.דלת | 2014 | 2014 | band/0 | mixed | indie-alt | 996 | center |
-| -92 | אטלנטיקה | 2006 | 2006 | band/0 | mixed | other | 997 | center |
-| yohanan-zarai | יוחנן זראי | 1964 | 1964 | solo/1 | male | other | 364 | center |
-| melechesh | מלכאש | 1993 | 1993 | band/0 | mixed | rock | 306 | jerusalem |
-| quarter-to-africa | רבע לאפריקה | 2014 | 2014 | band/0 | mixed | other | 658 | center |
-| bat-ella | בת אלה | 1985 | 1985 | solo/1 | female | other | 897 | south |
-| yosef-chaim-shwekey | יוסף חיים שוואקי | 2008 | 2008 | solo/1 | male | other | 660 | jerusalem |
-| dani-dothan | דני דותן | 1996 | 1996 | solo/1 | male | other | 720 | jerusalem |
-| avraham-zigman | אברהם זיגמן | 1965 | 1965 | solo/1 | male | other | 737 | center |
-| -50 | נעמה כהן | 2011 | 2011 | solo/1 | female | other | 833 | haifa-north |
-| doli-penn | דולי ופן | 2014 | 2014 | band/0 | male | pop | 86 | center |
-| ilana-eliya | אילנה אליה | 1992 | 1992 | solo/1 | female | folk-israeli | 684 | jerusalem |
-| yehudit-tamir | יהודית תמיר | 1991 | 1991 | solo/1 | female | other | 611 | center |
-| maya-dadon | מאיה דדון | 2022 | 2022 | solo/1 | female | other | 332 | center |
-| noy-fadlon | נוי פדלון | 2012 | 2012 | solo/1 | female | mizrahi | 384 | center |
-| ido-ofek | עידו אופק | 1999 | 1999 | solo/1 | male | rock | 622 | center |
-| astar-shamir | אסתר שמיר | 1977 | 1977 | solo/1 | female | folk-israeli | 279 | jerusalem |
-| -38 | שימי רון | 1985 | 1985 | solo/1 | male | mizrahi | 835 | center |
-| ilan-chester | אילן צ'סטר | 1965 | 1965 | solo/1 | male | other | 496 | tel-aviv-area |
-| irit-bulka | עירית בולקא | 1970 | 1970 | solo/1 | female | pop | 911 | center |
-| ron-nesher | רון נשר | 2003 | 2003 | solo/1 | male | hiphop | 41 | tel-aviv-area |
-| maor-edry | מאור אדרי | 2008 | 2008 | solo/1 | male | mizrahi | 175 | center |
-| yoshi-sade | יושי שדה | 1984 | 1984 | solo/1 | male | rock | 359 | center |
-| nathan-salomon | נתן סלומון | 1997 | 1997 | solo/1 | male | rock | 505 | center |
-| amir-yeruham | מירו | 2019 | 2019 | solo/1 | male | other | 287 | tel-aviv-area |
-| cheikh-mwijo | שייך מואיז'ו | 1962 | 1962 | solo/1 | male | other | 434 | center |
-| alexander-tamir | אלכסנדר תמיר | 1965 | 1965 | solo/1 | male | other | 542 | center |
-| eran-mitelman | ערן מיטלמן | 1993 | 1993 | solo/1 | male | other | 717 | center |
-| adir-getz | אדיר גץ | 2010 | 2010 | solo/1 | male | pop | 235 | center |
-| -112 | צלילי הכרם | 1972 | 1972 | band/0 | male | mizrahi | 681 | center |
-| -106 | פאנקנשטיין | 1998 | 2005 | band/0 | mixed | other | 713 | center |
-| shir-levi | שיר לוי | 2005 | 2005 | solo/1 | male | folk-israeli | 280 | center |
-| rotem-cohen | רותם כהן | 2002 | 2002 | solo/1 | male | folk-israeli | 170 | center |
-| produx | פרודוקס | 2003 | 2003 | band/0 | mixed | hiphop | 576 | center |
-| aveva-dese | אבבה דסה | 2013 | 2013 | solo/1 | female | pop | 823 | center |
-| maor-ashkenazi | מאור אשכנזי | 2018 | 2018 | solo/1 | male | other | 667 | center |
-| rinat-bar | רינת בר | 1996 | 1996 | solo/1 | female | pop | 138 | center |
-| avi-benjamin | אבי בנימין | 2000 | 2000 | solo/1 | male | other | 395 | center |
-| orit-wolf | אורית וולף | 2019 | 2019 | solo/1 | female | other | 625 | tel-aviv-area |
-| shlomo-gronich | שלמה גרוניך | 1969 | 1969 | solo/1 | male | jazz-soul | 447 | center |
-| gili | גילי נתנאל | 2002 | 2002 | solo/1 | male | other | 443 | center |
-| moshe-lahav | משה להב | 2017 | 2017 | solo/1 | male | other | 632 | jerusalem |
-| yonathan-avishai | יונתן אבישי | 2002 | 2002 | solo/1 | male | jazz-soul | 424 | tel-aviv-area |
-| haya-samir | חיה סמיר | 1992 | 1992 | solo/1 | female | other | 798 | jerusalem |
-| -85 | שליחי הבלוז | 1993 | 1993 | band/0 | mixed | rock | 857 | center |
-| static-ben-el | סטטיק ובן אל | 2015 | 2015 | band/0 | male | pop | 31 | center |
-| ephraim-shamir | אפרים שמיר | 1970 | 1970 | solo/1 | male | rock | 114 | center |
-| inbar-hets-rony | ענבר חצרוני | 2020 | 2020 | solo/1 | female | other | 977 | center |
+| einav-jackson-cohen | עינב ג'קסון כהן | 2011 | 2011 | solo/1 | female | other | 707 | tel-aviv-area |
+| eli-jaffe | אלי יפה | 2006 | 2006 | solo/1 | male | jazz-soul | 697 | jerusalem |
 | avihu-shabat | אביהו שבת | 2009 | 2009 | solo/1 | male | pop | 216 | center |
-| maya-simantov | מאיה סימנטוב | 2004 | 2004 | solo/1 | female | electronic | 186 | tel-aviv-area |
-| shi-360 | שי 360 | 2001 | 2001 | solo/1 | male | hiphop | 115 | center |
-| shlomi-shaban | שלומי שבן | 1998 | 1998 | solo/1 | male | rock | 687 | tel-aviv-area |
-| ur-kasdim | אור כשדים | 1992 | 1991 | band/0 | male | rock | 924 | center |
+| baldi-olier | באלדי אולייר | 1987 | 1977 | solo/1 | male | folk-rock | 500 | abroad |
+| moshe-giat | משה גיאת | 1982 | 1982 | solo/1 | male | mizrahi | 493 | center |
+| hatarnegolim | התרנגולים | 1960 | 1960 | band/0 | mixed | folk-israeli | 752 | center |
+| lior-narkis | ליאור נרקיס | 1994 | 1992 | solo/1 | male | mizrahi | 256 | tel-aviv-area |
+| nissim-menachem | ניסים מנחם | 1960 | 1960 | solo/1 | male | other | 515 | center |
+| eden-gabay | עדן גבאי | 2016 | 2013 | solo/1 | male | other | 672 | haifa-north |
+| central-command-band | להקת פיקוד המרכז | 1953 | 1969 | band/0 | mixed | other | 370 | center |
+| tamir-muskat | תמיר מוסקט | 2011 | 1980 | solo/1 | male | rock | 259 | center |
+| -91 | מלכה באיה | 1997 | 1997 | band/0 | mixed | other | 813 | center |
 | beni-el | בני אל | 1982 | 1982 | solo/1 | male | other | 957 | center |
-| matti-caspi | מתי כספי | 1973 | 1973 | solo/1 | male | jazz-soul | 319 | center |
-| achinoam-nini | אחינועם ניני | 1990 | 1990 | solo/1 | female | pop | 18 | tel-aviv-area |
+| hatikva-6 | התקווה 6 | 2003 | 2003 | band/0 | mixed | jazz-soul | 83 | center |
+| doron-medalie | דורון מדלי | 2008 | 2001 | solo/1 | male | pop | 383 | center |
+| noam-horev | נעם חורב | 2022 | 2022 | solo/1 | male | other | 522 | center |
+| danny-ben-israel | דני בן ישראל | 1962 | 1962 | solo/1 | male | other | 768 | center |
+| jane-bordeaux | ג'יין בורדו | 2012 | 2012 | band/0 | mixed | folk-rock | 72 | center |
+| narkis | נרקיס | 2017 | 2016 | solo/1 | female | pop | 305 | center |
+| prey-for-nothing | Prey For Nothing | 2005 | 2005 | band/0 | mixed | other | 494 | center |
+| paul-ben-haim | פאול בן חיים | 1992 | 1992 | solo/1 | male | jazz-soul | 386 | center |
+| henree | הנרי (מוזיקאי) | 2005 | 2002 | solo/1 | male | other | 406 | center |
+| lucille-crew | לוסיל קרו | 2012 | 2012 | band/0 | mixed | hiphop | 503 | center |
+| noa-brenner | נועה ברנר | 2016 | 2016 | solo/1 | female | other | 709 | tel-aviv-area |
+| reuven-erez | ראובן ארז | 1995 | 1995 | solo/1 | male | other | 951 | tel-aviv-area |
+| the-friends-of-natasha | החברים של נטאשה | 1987 | 1987 | band/0 | mixed | rock | 378 | center |
+| sfatayim | שפתיים (להקה) | 1985 | 1985 | band/0 | mixed | mizrahi | 315 | center |
+| erez-lev-ari | ארז לב ארי | 2007 | 1996 | solo/1 | male | other | 471 | center |
+| omer-fedi | עומר פדי | 2018 | 2018 | solo/1 | male | hiphop | 77 | tel-aviv-area |
+| holy-wigs | פאות קדושות | 2004 | 2004 | band/0 | mixed | other | 523 | center |
+| yehuda-saado | יהודה סעדו | 2007 | 2005 | solo/1 | male | folk-israeli | 481 | jerusalem |
+| benny-amdursky | בני אמדורסקי | 1964 | 1956 | solo/1 | male | other | 289 | jerusalem |
+| yoni-poliker | יוני פוליקר | 2008 | 2008 | solo/1 | male | other | 642 | center |
+| ben-snof | בן סנוף | 2009 | 1993 | solo/1 | male | other | 272 | haifa-north |
+| galit-bell | גלית בל | 1996 | 1996 | solo/1 | female | pop | 710 | center |
+| hasmachot | השמחות | 1996 | 1998 | band/0 | mixed | rock | 568 | center |
+| omer-avital | עומר אביטל | 2002 | 1992 | solo/1 | male | jazz-soul | 209 | tel-aviv-area |
+| tiny-fingers | Tiny Fingers | 2008 | 2008 | band/0 | mixed | indie-alt | 531 | center |
+| alon-eder | אלון עדר | 2010 | 2011 | solo/1 | male | indie-alt | 294 | center |
+| tom-petrover | תום פטרובר | 2019 | 2019 | solo/1 | male | other | 498 | center |
+| tova-gertner | טובה גרטנר | 1986 | 1986 | solo/1 | female | indie-alt | 439 | tel-aviv-area |
+| noam-kaniel | נועם קניאל | 1975 | 1971 | solo/1 | male | pop | 123 | tel-aviv-area |
+| bnot-yaakov | בנות יעקב | 1995 | 1995 | band/0 | mixed | pop | 927 | center |
+| ofer-levi | עופר לוי | 1992 | 1988 | solo/1 | male | mizrahi | 44 | tel-aviv-area |
+| -27 | רובי חן | 1984 | 1978 | solo/1 | male | mizrahi | 948 | tel-aviv-area |
+| tal-sondak | טל סונדק | 2021 | 2000 | solo/1 | male | pop | 281 | tel-aviv-area |
+| merav-siman-tov | מרב סמן טוב | 2003 | 2003 | solo/1 | female | other | 965 | jerusalem |
+| ariel-horowitz | אריאל הורוביץ | 1998 | 1998 | solo/1 | male | rock | 84 | center |
+| shir-levi | שיר לוי | 2005 | 2005 | solo/1 | male | folk-israeli | 280 | center |
+| moshe-habusha | משה חבושה | 1998 | 1998 | solo/1 | male | other | 291 | jerusalem |
+| amit-erez | עמית ארז | 2003 | 2003 | solo/1 | male | indie-alt | 601 | tel-aviv-area |
+| yaron-cohen | ירון כהן | 2004 | 2004 | solo/1 | male | other | 885 | center |
+| aveva-dese | אבבה דסה | 2019 | 2013 | solo/1 | female | pop | 823 | center |
+| shuki-salomon | שוקי סלומון | 2022 | 2022 | solo/1 | male | other | 641 | center |
+| eden-hason | עדן חסון | 2019 | 2017 | solo/1 | male | mizrahi | 3 | center |
+| adi-ran | עדי רן | 1998 | 1993 | solo/1 | male | other | 401 | tel-aviv-area |
+| hi-five | היי פייב | 1996 | 1996 | band/0 | mixed | pop | 76 | center |
+| itzik-dadya | איציק דדיה | 2012 | 2002 | solo/1 | male | mizrahi | 261 | haifa-north |
+| ariel-zilber | אריאל זילבר | 1971 | 1967 | solo/1 | male | rock | 203 | tel-aviv-area |
+| izhar-ashdot | יזהר אשדות | 1985 | 1973 | solo/1 | male | rock | 46 | jerusalem |
+| monotonix | מונוטוניקס | 2005 | 2005 | band/0 | mixed | rock | 502 | center |
+| gidi-shamur | גידי שמור | 1989 | 1989 | solo/1 | male | other | 762 | center |
+| alon-ohel | אלון אהל | 2026 | 2026 | solo/1 | male | other | 484 | center |
+| -3 | סיוון (זמרת) | 2009 | 2002 | solo/1 | female | hiphop | 574 | tel-aviv-area |
+| yitzchak-meir-helfgot | יצחק מאיר הלפגוט | 2003 | 2003 | solo/1 | male | religious-pop | 440 | center |
+| ha-shelosharim | השלושרים | 1969 | 1969 | band/0 | male | pop | 414 | center |
+| dorit-sade | דורית שדה | 1975 | 1975 | solo/1 | female | other | 648 | tel-aviv-area |
+| yoel-dikman | יואלי דיקמן | 2022 | 2022 | solo/1 | male | jazz-soul | 532 | center |
+| miriam-avigal | מרים אביגל | 1955 | 1955 | solo/1 | female | folk-israeli | 915 | tel-aviv-area |
+| -119 | כיף התקווה הטובה | 1970 | 1970 | band/0 | mixed | rock | 809 | center |
+| moran-mazuz | מורן מזוז | 2013 | 2013 | solo/1 | female | pop | 653 | haifa-north |
+| -107 | צעירי תל אביב | 1984 | 1984 | band/0 | mixed | pop | 497 | tel-aviv-area |
+| harel-moyal | הראל מויאל | 2005 | 2000 | solo/1 | male | pop | 88 | center |
+| lea-shabat | לאה שבת | 1990 | 1986 | solo/1 | female | pop | 163 | center |
+| ron-nesher | רון נשר | 2015 | 2003 | solo/1 | male | hiphop | 41 | tel-aviv-area |
+| galit-burg | גלית בורג | 1989 | 1989 | solo/1 | female | other | 251 | tel-aviv-area |
+| ohad-moskowitz | אוהד מושקוביץ | 2003 | 2003 | solo/1 | male | religious-pop | 303 | center |
+| hillel-slovak | הלל סלובק | 1976 | 1976 | solo/1 | male | indie-alt | 67 | center |
+| yonatan-cnaan | יונתן כנען | 2012 | 2012 | solo/1 | male | pop | 866 | tel-aviv-area |
+| mickey-shaviv | מיקי שביב | 1966 | 1966 | solo/1 | male | rock | 583 | tel-aviv-area |
+| doron-raphaeli | דורון רפאלי | 2011 | 2011 | solo/1 | male | other | 887 | jerusalem |
+| elam-rotem | עילם רותם | 2014 | 2008 | solo/1 | male | other | 504 | center |
+| kfir-artzi | חמי | 1992 | 1992 | solo/1 | male | hiphop | 168 | center |
+| lazer-lloyd | לייזר לויד | 2004 | 1981 | solo/1 | male | other | 343 | abroad |
+| omer-klein | עומר קליין | 2007 | 2007 | solo/1 | male | jazz-soul | 271 | center |
+| ron-hayon | רון חיון | 2024 | 2024 | solo/1 | male | other | 192 | center |
+| nicol-raidman | ניקול ראידמן | 2017 | 2017 | solo/1 | female | pop | 405 | center |
+| nahum-nardi | נחום נרדי | 1974 | 1974 | solo/1 | male | folk-israeli | 220 | center |
+| -124 | חובבי ציון (להקה) | 2006 | 2006 | band/0 | male | other | 850 | center |
+| shimshon-bar-noy | שמשון בר-נוי | 2009 | 2009 | solo/1 | male | other | 989 | center |
+| shovevey-zion | שובבי ציון | 1970 | 1970 | band/0 | male | rock | 968 | center |
+| roy-doron | רועי דורון | 2021 | 2021 | solo/1 | male | other | 675 | tel-aviv-area |
+| ronit-shahar | רונית שחר | 1996 | 1996 | solo/1 | female | other | 389 | haifa-north |
+| northern-command-variety-ensemble | להקת פיקוד הצפון | 1954 | 1954 | band/0 | mixed | other | 566 | center |
+| -46 | משה הלל | 1996 | 1996 | solo/1 | male | other | 847 | center |
+| elai-botner-and-the-outside-kids | עילי בוטנר וילדי החוץ | 2011 | 2012 | band/0 | mixed | rock | 355 | center |
+| kabra-kasai | כברה קסאי | 2003 | 2003 | solo/1 | female | folk-israeli | 555 | center |
+| nurit-galron | נורית גלרון | 1978 | 1970 | solo/1 | female | rock | 59 | tel-aviv-area |
+| -76 | אלמנה שחורה (להקה) | 1991 | 1991 | band/0 | mixed | other | 926 | center |
+| tamir-gal | תמיר גל | 1995 | 1995 | solo/1 | male | mizrahi | 201 | jerusalem |
+| lior-elmaleh | ליאור אלמליח | 2008 | 2008 | solo/1 | male | other | 458 | center |
+| -78 | נערי רפול (להקה) | 1999 | 1999 | band/0 | mixed | mizrahi | 651 | center |
+| desert | Desert | 2002 | 2002 | band/0 | mixed | rock | 513 | center |
+| hofni-cohen | חופני כהן | 1975 | 1975 | solo/1 | male | other | 552 | tel-aviv-area |
+| zion-golan | ציון גולן | 1978 | 1978 | solo/1 | male | mizrahi | 113 | center |
+| avner-gadassi | אבנר גדסי | 1978 | 1970 | solo/1 | male | mizrahi | 233 | center |
+| avi-toledano | אבי טולדנו | 1974 | 1965 | solo/1 | male | pop | 62 | abroad |
+| liat-itzhaki | ליאת יצחקי | 2016 | 2002 | solo/1 | female | other | 819 | center |
+| rami-kleinstein | רמי קלינשטיין | 1988 | 1978 | solo/1 | male | rock | 21 | abroad |
+| josef-hadar | יוסף הדר | 2013 | 2013 | solo/1 | male | other | 482 | tel-aviv-area |
+| rotem-or | רותם אור | 2014 | 2008 | solo/1 | female | indie-alt | 139 | tel-aviv-area |
+| eden-ben-zaken | עדן בן זקן | 2015 | 2013 | solo/1 | female | mizrahi | 6 | jerusalem |
+| mor-karbasi | מור קרבסי | 2008 | 2008 | solo/1 | female | other | 326 | jerusalem |
+| red-band | רד בנד | 2005 | 2005 | band/0 | mixed | other | 162 | center |
+| echo | אקו | 2013 | 2011 | solo/1 | female | hiphop | 356 | abroad |
+| yinon-yahel | ינון יהל | 2015 | 2001 | solo/1 | male | electronic | 136 | center |
+| the-idan-raichel-project | הפרויקט של עידן רייכל | 2003 | 2002 | band/0 | mixed | ethnic-world | 93 | center |
+| 21 | 21 (להקה) | 2000 | 2000 | band/0 | mixed | jazz-soul | 878 | center |
+| corinne-allal | קורין אלאל | 1978 | 1973 | solo/1 | female | rock | 37 | abroad |
+| eyal-golan | אייל גולן | 1995 | 1978 | solo/1 | male | mizrahi | 4 | tel-aviv-area |
+| shahar-even-tzur | שחר אבן צור | 2003 | 2003 | solo/1 | male | other | 173 | tel-aviv-area |
+| oren-lavie | אורן לביא | 2007 | 1997 | solo/1 | male | folk-israeli | 211 | tel-aviv-area |
+| jackie-mekaiten | ג'קי מקייטן | 1998 | 1998 | solo/1 | male | other | 508 | center |
+| kosha-dillz | קושה דילז | 2008 | 2005 | solo/1 | male | hiphop | 572 | center |
+| eti-levy | אתי לוי | 1999 | 1992 | solo/1 | female | mizrahi | 154 | south |
+| -129 | שלום הציבור (להקה) | 1984 | 1984 | band/0 | mixed | rock | 985 | center |
+| aya-korem | איה כורם | 2006 | 2006 | solo/1 | female | indie-alt | 64 | haifa-north |
+| yagel-haroush | יגל הרוש | 2020 | 2020 | solo/1 | male | other | 400 | south |
+| ouri-chevakh | אורי שבח | 1972 | 1972 | solo/1 | male | other | 606 | center |
+| moran-david | מורן דוד | 2018 | 2018 | solo/1 | female | pop | 901 | center |
+| aviv-guedj | אביב גדג' | 2009 | 1995 | solo/1 | male | rock | 345 | center |
+| atar-mayner | עטר מיינר | 2018 | 2016 | solo/1 | male | other | 718 | center |
+| eden-dersso | עדן דרסו | 2021 | 2017 | solo/1 | female | hiphop | 351 | center |
+| morgenshtern | מורגנשטרן | 2018 | 2010 | solo/1 | male | rock | 16 | center |
+| yossi-elephant | יוסי אלפנט | 1991 | 1983 | solo/1 | male | rock | 402 | tel-aviv-area |
+| danny-robas | דני רובס | 1983 | 1983 | solo/1 | male | rock | 262 | south |
+| avior-malasa | אביאור מלסה | 2017 | 2015 | solo/1 | male | other | 916 | center |
+| shlomo-ydov | שלמה יידוב | 1981 | 1972 | solo/1 | male | pop | 133 | center |
+| naor-ormia | נאור אורמיה | 2010 | 2009 | solo/1 | male | mizrahi | 619 | center |
+| hagit-yaso | חגית יאסו | 2025 | 2009 | solo/1 | female | pop | 296 | center |
+| daniela-spector | דניאלה ספקטור | 2009 | 2006 | solo/1 | female | pop | 300 | center |
+| sagol-59 | סגול 59 | 2000 | 2000 | solo/1 | male | hiphop | 181 | center |
+| or-cohen | אור כהן | 2024 | 2024 | solo/1 | female | other | 894 | center |
+| haya-samir | חיה סמיר | 1992 | 1992 | solo/1 | female | other | 798 | jerusalem |
+| dan-shatzberg | דן שצברג | 1998 | 1998 | solo/1 | male | other | 634 | center |
+| roman-sharon | רומן שרון | 1969 | 1969 | solo/1 | male | other | 557 | center |
+| didi-erez | דידי ארז | 2007 | 1999 | solo/1 | male | rock | 771 | tel-aviv-area |
+| idan-amsalem | עידן אמסלם | 2014 | 2014 | solo/1 | male | rock | 734 | center |
+| geva-alon | גבע אלון | 2006 | 2000 | solo/1 | male | indie-alt | 328 | center |
+| jasmin-moallem | יסמין מועלם | 2020 | 2020 | solo/1 | female | hiphop | 56 | jerusalem |
+| bint-el-funk | בינת אל פאנק | 2012 | 2012 | band/0 | mixed | other | 721 | center |
+| mika-moshe | מיקה משה | 2020 | 2020 | solo/1 | female | other | 747 | center |
+| yehuda-glantz | יהודה גלאנץ | 1992 | 1977 | solo/1 | male | religious-pop | 460 | center |
+| -65 | מאיר אדלר | 2013 | 2013 | solo/1 | male | other | 950 | center |
+| jasmin-even | יסמין אבן | 2004 | 2004 | solo/1 | female | other | 817 | tel-aviv-area |
+| matan-hassan | מתן חסן | 2023 | 2023 | solo/1 | male | other | 597 | center |
+| benaia-barabi | בניה ברבי | 2015 | 2015 | solo/1 | male | other | 47 | haifa-north |
+| ephraim-shamir | אפרים שמיר | 1971 | 1970 | solo/1 | male | rock | 114 | center |
+| samuel-budagov | שמוליק בודגוב | 1969 | 1969 | solo/1 | male | other | 298 | tel-aviv-area |
+| uzi-fox | עוזי פוקס | 1974 | 1962 | solo/1 | male | rock | 363 | abroad |
+| guy-bocati | גיא בוקאטי | 2007 | 1985 | solo/1 | male | jazz-soul | 974 | center |
+| tania-vinokur | טניה וינוקור | 2019 | 2001 | solo/1 | female | other | 438 | center |
+| yishai-ribo | ישי ריבו | 2014 | 2007 | solo/1 | male | religious-pop | 78 | center |
+| fortisakharof | פורטיסחרוף | 1988 | 1988 | band/0 | mixed | rock | 243 | center |
+| michael-cohen | מיכאל כהן | 2016 | 2008 | solo/1 | male | hiphop | 230 | tel-aviv-area |
+| yonatan-razel | יונתן רזאל | 2007 | 2007 | solo/1 | male | religious-pop | 68 | abroad |
+| nati-levi | נתי לוי | 1987 | 1987 | solo/1 | male | mizrahi | 372 | center |
+| rinat-bar | רינת בר | 1998 | 1996 | solo/1 | female | pop | 138 | center |
+| ilana-eliya | אילנה אליה | 1992 | 1992 | solo/1 | female | folk-israeli | 684 | jerusalem |
+| ran-shem-tov | רן שם טוב | 1989 | 1989 | solo/1 | male | rock | 882 | center |
+| gil-dor | גיל דור | 1991 | 1981 | solo/1 | male | pop | 455 | tel-aviv-area |
+| alien-project | אליין פרוג'קט | 1998 | 1994 | solo/1 | male | electronic | 398 | center |
+| mona-rosenblum | משה מרדכי רוזנבלום | 1982 | 1982 | solo/1 | male | other | 526 | tel-aviv-area |
+| shar-el | שר-אל | 2004 | 2004 | solo/1 | male | mizrahi | 639 | center |
+| reuven-gvirtz | ראובן גבירץ | 1979 | 1979 | solo/1 | male | other | 871 | center |
+| ari-hill | ארי היל | 2020 | 2016 | solo/1 | male | religious-pop | 593 | center |
+| snir-yamin | שניר ימין | 2013 | 2006 | solo/1 | male | pop | 891 | center |
+| charlie-megira | צ'רלי מגירה | 2001 | 2001 | solo/1 | male | rock | 241 | center |
+| avi-avital | אבי אביטל | 2012 | 2012 | solo/1 | male | other | 242 | south |
+| yosi-piamenta | יוסי פיאמנטה | 2003 | 1972 | solo/1 | male | other | 325 | jerusalem |
+| yishay-swissa | ישי סוויסה | 2023 | 2023 | solo/1 | male | hiphop | 629 | tel-aviv-area |
+| roy-arad | רועי צ'יקי ארד | 2004 | 2004 | solo/1 | male | other | 253 | south |
+| -26 | אלי לוזון | 1987 | 1979 | solo/1 | male | mizrahi | 375 | center |
+| moran-magal | מורן מגל | 2016 | 2016 | solo/1 | female | other | 491 | center |
+| igi-dayan | איגי דיין | 1992 | 1992 | solo/1 | male | other | 320 | tel-aviv-area |
+| danny-granott | דני גרנות | 1969 | 1969 | solo/1 | male | other | 851 | center |
+| sharona-nastovich | שרונה נסטוביץ' | 2006 | 2006 | solo/1 | female | other | 955 | tel-aviv-area |
+| israel-parnas | ישראל פרנס | 2022 | 2022 | solo/1 | male | other | 789 | tel-aviv-area |
+| chocolat-menta-mastik | שוקולד מנטה מסטיק | 1971 | 1972 | band/0 | mixed | pop | 157 | tel-aviv-area |
+| gili-galit | גילי וגלית | 1989 | 1989 | band/0 | mixed | other | 603 | center |
+| shem-tov-levi | שם טוב לוי | 1976 | 1969 | solo/1 | male | jazz-soul | 81 | center |
+| bezalel-aloni | בצלאל אלוני | 1961 | 1961 | solo/1 | male | other | 200 | center |
+| ori-zakh | אורי זך | 2004 | 2004 | solo/1 | male | pop | 207 | center |
+| sasson-ifram-shaulov | ששון איפרם שאולוב | 2024 | 2020 | solo/1 | male | mizrahi | 22 | jerusalem |
+| habiluim | הבילויים | 1997 | 1997 | band/0 | mixed | rock | 135 | center |
+| -38 | שימי רון | 1985 | 1985 | solo/1 | male | mizrahi | 835 | center |
+| navah-baruchin | נאוה ברוכין | 2007 | 2007 | solo/1 | female | other | 765 | center |
+| j-lamotta | J.Lamotta | 2017 | 2014 | solo/1 | female | jazz-soul | 570 | tel-aviv-area |
+| eyal-barkan | אייל ברקן | 1998 | 1998 | solo/1 | male | electronic | 467 | center |
+| gavriel-belhassen | גבריאל בלחסן | 1999 | 1995 | solo/1 | male | rock | 250 | center |
+| noam-dadon | נועם דדון | 2015 | 2015 | solo/1 | male | other | 587 | south |
+| -84 | כל החתיכים אצלי | 2007 | 2007 | band/0 | mixed | rock | 730 | center |
+| sha-anan-streett | שאנן סטריט | 2007 | 2007 | solo/1 | male | other | 143 | jerusalem |
+| gil-shohat | גיל שוחט | 2004 | 2004 | solo/1 | male | jazz-soul | 316 | tel-aviv-area |
+| -100 | המושבה (להקה) | 2005 | 2005 | band/0 | mixed | rock | 994 | center |
+| ethnix | אתניקס | 1989 | 1984 | band/0 | mixed | rock | 49 | tel-aviv-area |
+| peter-wertheimer | פטר ורטהיימר | 1973 | 1973 | solo/1 | male | jazz-soul | 539 | center |
+| eti-bitton | אתי ביטון | 2022 | 2007 | solo/1 | female | mizrahi | 554 | south |
+| sputnik-hi-fi | ספוטניק היי פיי | 2014 | 2014 | band/0 | mixed | other | 793 | center |
+| shira-gavrielov | שירה גבריאלוב | 2006 | 2004 | solo/1 | female | pop | 507 | center |
+| sagiv-cohen | סגיב כהן | 2003 | 2001 | solo/1 | male | jazz-soul | 151 | center |
+| jackie-maika | ג'קי מייקה | 1979 | 1979 | solo/1 | male | other | 785 | center |
+| skazi | סקאזי | 1998 | 1998 | band/0 | mixed | electronic | 15 | center |
+| amir | עמיר חדד | 2013 | 2006 | solo/1 | male | pop | 66 | abroad |
+| zamira-chen | זמירה חן | 1985 | 1985 | solo/1 | female | other | 984 | tel-aviv-area |
+| -25 | איציק שמלי | 2007 | 2002 | solo/1 | male | hiphop | 669 | center |
+| simcha-gueta | שמחה גואטה | 2015 | 2015 | solo/1 | female | other | 222 | center |
+| sheila-ferber | שילה פרבר | 2004 | 2003 | solo/1 | female | rock | 704 | tel-aviv-area |
+| is-hop | IS הופ | 1994 | 1994 | band/0 | mixed | hiphop | 745 | center |
+| hadassa-sigalov | הדסה סיגלוב | 1968 | 1968 | solo/1 | female | other | 979 | tel-aviv-area |
+| haze-evot | הזאבות | 2012 | 2012 | band/0 | female | rock | 312 | center |
+| -57 | גבריאל באטלר | 2021 | 2021 | solo/1 | male | other | 689 | center |
+| axum | אקסום | 2007 | 2007 | band/0 | mixed | hiphop | 304 | center |
+| -122 | כלא שש (הרכב) | 1998 | 1998 | band/0 | mixed | hiphop | 407 | center |
+| rafi-biton | רפי ביטון | 2024 | 2024 | solo/1 | male | other | 540 | center |
+| -95 | להקת פרה אדומה | 2003 | 2007 | band/0 | mixed | other | 1000 | center |
+| shaul-zirlin | שאול צירלין | 1989 | 1989 | solo/1 | male | other | 938 | tel-aviv-area |
+| tamar-yahalomi | תמר יהלומי | 2026 | 2011 | solo/1 | female | pop | 198 | tel-aviv-area |
+| shotei-hanevuah | שוטי הנבואה | 1994 | 1994 | band/0 | mixed | ethnic-world | 275 | center |
+| yehezkel-braun | יחזקאל בראון | 2023 | 2023 | solo/1 | male | other | 802 | center |
+| niv-demirel | ניב דמירל | 2017 | 2014 | solo/1 | male | other | 528 | center |
+| sun-tailor | ארנון נאור | 2008 | 2008 | solo/1 | male | indie-alt | 623 | center |
+| ilana-rovina | אילנה רובינא | 1960 | 1959 | solo/1 | female | other | 267 | tel-aviv-area |
+| peer-tasi | פאר טסי | 2013 | 2009 | solo/1 | male | mizrahi | 11 | center |
+| guy-mazig | גיא מזיג | 2015 | 1999 | solo/1 | male | rock | 465 | center |
+| nathan-salomon | נתן סלומון | 1997 | 1997 | solo/1 | male | rock | 505 | center |
+| ronit-ophir | רונית אופיר | 2024 | 1972 | solo/1 | female | folk-israeli | 910 | center |
+| shay-amar | שי עמר | 2001 | 2001 | solo/1 | male | other | 774 | center |
+| yossi-fine | יוסי פיין | 1981 | 1981 | solo/1 | male | other | 94 | abroad |
+| ori-coltov | אורי כלטוב | 2024 | 2024 | solo/1 | male | other | 422 | jerusalem |
+| foreign-affair | פוריין אפייר | 1988 | 1988 | band/0 | mixed | rock | 764 | center |
+| mordechai-ben-david | מרדכי בן דוד | 1973 | 1973 | solo/1 | male | religious-pop | 25 | abroad |
+| meir-israel | מאיר ישראל | 2011 | 2011 | solo/1 | male | other | 248 | center |
+| dedi-graucher | דדי גראוכר | 1994 | 1990 | solo/1 | male | religious-pop | 548 | center |
+| kobi-oshrat | קובי אשרת | 1974 | 1962 | solo/1 | male | other | 317 | center |
+| maya-dadon | מאיה דדון | 2022 | 2022 | solo/1 | female | other | 332 | center |
+| -97 | זבולון דאב סיסטם | 2006 | 2006 | band/0 | mixed | other | 998 | center |
+| nachum-heiman | נחום היימן | 1972 | 1951 | solo/1 | male | folk-israeli | 167 | center |
+| dam | דאם | 1999 | 1999 | band/0 | mixed | hiphop | 419 | center |
+| kobi-brummer | קובי ברומר | 2019 | 2013 | solo/1 | male | other | 661 | center |
+| ruli-dikman | רולי דיקמן | 2014 | 2014 | solo/1 | male | other | 751 | center |
+| shimrit-orr | שמרית אור | 2004 | 1966 | solo/1 | female | other | 579 | jerusalem |
+| dor-daniel | דור דניאל | 2009 | 2005 | solo/1 | male | pop | 193 | center |
+| dudi-kalish | דודי קאליש | 2003 | 1995 | solo/1 | male | other | 741 | center |
+| yair-elitzur | יאיר אליצור | 2018 | 2018 | solo/1 | male | other | 119 | center |
+| shimon-buskila | שמעון בוסקילה | 2007 | 1988 | solo/1 | male | pop | 92 | haifa-north |
+| habrera-hativit | הברירה הטבעית | 1977 | 1977 | band/0 | male | other | 452 | center |
+| cain-abel-90210 | קין והבל 90210 | 2007 | 2007 | band/0 | mixed | rock | 462 | center |
+| sarid-trio | שלישיית שריד | 1960 | 1960 | band/0 | mixed | folk-israeli | 959 | center |
+| af-ozen-garon | אף אוזן גרון | 1970 | 1975 | band/0 | male | other | 975 | center |
+| meir-ariel | מאיר אריאל | 1967 | 1967 | solo/1 | male | folk-israeli | 358 | center |
+| eva-francis | אווה פרנסיס | 2018 | 2018 | solo/1 | female | other | 923 | center |
+| astral-projection | אסטרל פרוג'קשן | 1993 | 1995 | band/0 | mixed | electronic | 208 | center |
+| ori-toledano | אורי טולדנו | 2006 | 2006 | solo/1 | male | other | 382 | tel-aviv-area |
+| kathleen-reiter | קטלין רייטר | 2011 | 2011 | solo/1 | female | pop | 466 | center |
+| the-ariel-brothers | האחים אריאל | 2017 | 2017 | solo/1 | male | other | 448 | center |
+| oren-barzilay | אורן ברזילי | 2017 | 2017 | solo/1 | male | other | 347 | center |
+| yaniv-d-or | יניב ד'אור | 2012 | 2012 | solo/1 | male | jazz-soul | 537 | tel-aviv-area |
+| roy-kafri | רועי כפרי | 2011 | 2007 | solo/1 | male | other | 191 | center |
+| stav-beger | סתיו בגר | 2011 | 2015 | solo/1 | male | pop | 257 | center |
+| shirley-yuval-yair | שירלי יובל-יאיר | 1992 | 1992 | solo/1 | female | other | 265 | tel-aviv-area |
+| gal-adam | גל אדם | 2020 | 2018 | solo/1 | male | pop | 65 | center |
+| -96 | בלאגן | 1990 | 1990 | band/0 | mixed | rock | 827 | center |
+| shuki-dorit | שוקי ודורית | 1980 | 1980 | band/0 | female | other | 776 | center |
+| amir-kertes | אמיר קרטס | 2003 | 1991 | solo/1 | male | other | 947 | center |
+| ido-ofek | עידו אופק | 1999 | 1999 | solo/1 | male | rock | 622 | center |
+| -132 | כשניקו תתחיל לדבר | 1992 | 1992 | band/0 | mixed | rock | 791 | center |
+| dalia-cohen | דליה כהן (זמרת) | 1988 | 1968 | solo/1 | female | other | 621 | tel-aviv-area |
+| betzefer | בצפר | 1998 | 1998 | band/0 | mixed | other | 342 | center |
+| erez-sharon | איזי | 2012 | 2001 | solo/1 | male | hiphop | 85 | center |
+| yoav-talmi | יואב תלמי | 1988 | 1988 | solo/1 | male | jazz-soul | 282 | center |
+| nadav-hanzis | נדב חנציס | 2025 | 2025 | solo/1 | male | other | 98 | center |
+| shaked-komemy | שקד קוממי | 2016 | 2012 | solo/1 | male | pop | 824 | center |
+| nimrod-shickler | נמרוד שיקלר | 2005 | 2005 | solo/1 | male | other | 990 | center |
+| assaf-talmudi | אסף תלמודי | 2025 | 2025 | solo/1 | male | other | 735 | center |
+| vered-r-klepter | ורד קלפטר | 1990 | 1981 | solo/1 | female | rock | 783 | center |
+| ishay-berger | ישי ברגר | 1994 | 1994 | solo/1 | male | rock | 840 | center |
+| ben-zini | בן זיני | 2024 | 2017 | solo/1 | male | rock | 159 | center |
+| ovadia-hamama | עובדיה חממה | 1991 | 1991 | solo/1 | male | religious-pop | 688 | center |
+| max-gat-mor | מקס גת-מור | 2022 | 2022 | solo/1 | male | other | 960 | center |
+| asala-yousef | אסאלה יוסף | 2006 | 2006 | solo/1 | female | other | 499 | center |
+| tilda-rejwan | טילדה רג'ואן | 2020 | 2020 | solo/1 | female | other | 780 | abroad |
+| teapacks | טיפקס | 1990 | 1988 | band/0 | mixed | rock | 35 | south |
+| evyatar-banai | אביתר בנאי | 1997 | 1997 | solo/1 | male | rock | 24 | south |
+| idan-raichel | עידן רייכל | 2015 | 1998 | solo/1 | male | folk-israeli | 29 | center |
+| yosef-karduner | יוסף קרדונר | 2000 | 2000 | solo/1 | male | other | 270 | center |
+| -33 | גילי מסמי | 2003 | 2003 | solo/1 | male | pop | 945 | center |
+| assaf-harush | אסף הרוש | 2018 | 2018 | solo/1 | male | other | 740 | center |
+| d-n-p-rtos | עדן פרטוש | 1996 | 1996 | solo/1 | male | jazz-soul | 524 | center |
+| amir-benayoun | עמיר בניון | 1999 | 1999 | solo/1 | male | mizrahi | 204 | south |
+| -89 | דורלקס סדלקס | 1983 | 1983 | band/0 | mixed | indie-alt | 935 | center |
+| shrekdimc | שרק | 2022 | 2016 | solo/1 | male | hiphop | 541 | center |
+| maya-simantov | מאיה סימנטוב | 2009 | 2004 | solo/1 | female | electronic | 186 | tel-aviv-area |
+| aharon-amram | אהרן עמרם | 2007 | 2007 | solo/1 | male | other | 461 | center |
+| noa-bellhasen | נועה בלחסן | 2018 | 2010 | solo/1 | female | other | 961 | center |
+| alona-daniel | אלונה דניאל | 1990 | 1990 | solo/1 | female | rock | 525 | center |
+| dudi-bar-david | דודי בר דוד | 2019 | 2019 | solo/1 | male | other | 939 | center |
+| benni-bashan | בני בשן | 2004 | 1996 | solo/1 | male | other | 677 | center |
+| ori-shochat | אורי שוחט | 2010 | 1999 | solo/1 | male | hiphop | 109 | haifa-north |
+| eden-golan | עדן גולן | 2022 | 2015 | solo/1 | female | pop | 50 | center |
+| samir-shukry | סמיר שוקרי | 1994 | 1994 | solo/1 | male | other | 380 | haifa-north |
+| leyli | ליילי | 2017 | 2017 | band/0 | male | rock | 637 | center |
+| gilad-potolsky | גלעד פוטולסקי | 1998 | 1984 | solo/1 | male | other | 883 | center |
+| yogev-glusman | יוגב גלוסמן | 2019 | 2019 | solo/1 | male | indie-alt | 715 | south |
+| ben-tzur | בן צור | 2019 | 2019 | solo/1 | male | mizrahi | 97 | haifa-north |
+| tslil-kalifi | צליל קליפי | 2002 | 2002 | solo/1 | female | pop | 546 | center |
+| motty-weiss | מוטי וייס | 2018 | 2017 | solo/1 | male | other | 416 | center |
+| akiva-nof | עקיבא נוף | 2011 | 2011 | solo/1 | male | other | 668 | tel-aviv-area |
+| yael-levy | יעל לוי | 1981 | 1973 | solo/1 | female | other | 393 | haifa-north |
+| -68 | שמואל פרדניק | 2016 | 2016 | solo/1 | male | other | 742 | center |
+| shalom-gad | שלום גד | 1996 | 1988 | solo/1 | male | other | 602 | center |
+| oded-ben-hur | עודד בן חור | 1979 | 1979 | solo/1 | male | other | 983 | center |
+| nunu | נונו | 2022 | 2016 | solo/1 | female | pop | 137 | tel-aviv-area |
+| habanot-nechama | הבנות נחמה | 2004 | 2004 | band/0 | female | folk-israeli | 126 | center |
+| matan-porat | מתן פורת | 2013 | 2013 | solo/1 | male | other | 420 | tel-aviv-area |
+| netanela | נתנאלה | 1976 | 1973 | solo/1 | female | rock | 377 | tel-aviv-area |
+| maya-rotman | מאיה רוטמן | 2007 | 2006 | solo/1 | female | rock | 703 | center |
+| alon-de-loco | אלון דה לוקו | 2007 | 2005 | solo/1 | male | hiphop | 134 | south |
+| emi-rudner | חמי רודנר | 2000 | 1985 | solo/1 | male | rock | 152 | center |
+| avi-sinuani | אבי סינואני | 1991 | 1981 | solo/1 | male | mizrahi | 514 | tel-aviv-area |
+| neta-elkayam | נטע אלקיים | 2023 | 2023 | solo/1 | female | other | 284 | haifa-north |
+| kaveret | כוורת | 1973 | 1973 | band/0 | mixed | rock | 13 | tel-aviv-area |
+| -4 | עמית ליסטוונד | 2002 | 1995 | solo/1 | male | other | 724 | center |
+| boom-pam | בום פם | 2003 | 2003 | band/0 | male | rock | 91 | center |
+| quami-de-la-fox | קוואמי | 2005 | 1990 | solo/1 | male | hiphop | 132 | center |
+| -125 | שלישיית התאומים | 1966 | 1966 | band/0 | mixed | other | 803 | center |
+| yeled | ילד. | 2022 | 2022 | solo/1 | male | other | 146 | center |
+| rose-fostanes | רוז פוסטאנס | 2014 | 2013 | solo/1 | female | pop | 217 | center |
+| irit-bulka | עירית בולקא | 1970 | 1970 | solo/1 | female | pop | 911 | center |
+| the-ultras | האולטראס | 2004 | 2004 | band/0 | mixed | hiphop | 731 | center |
+| -88 | בוא לבר | 2005 | 2005 | band/0 | mixed | rock | 881 | center |
+| alma-zohar | עלמה זהר | 2008 | 2007 | solo/1 | female | pop | 199 | center |
+| ilan-and-ilanit | אילן ואילנית | 1966 | 1965 | band/0 | mixed | folk-israeli | 932 | center |
+| shai-tsabari | שי צברי | 2015 | 2001 | solo/1 | male | rock | 714 | center |
+| bo-az-ma-uda | בועז מעודה | 2009 | 2007 | solo/1 | male | pop | 51 | haifa-north |
+| danny-sanderson | דני סנדרסון | 1971 | 1966 | solo/1 | male | rock | 194 | haifa-north |
+| system-ali | סיסטם עאלי | 2010 | 2010 | band/0 | mixed | hiphop | 907 | center |
+| ofer-bashan | עפר בשן | 2002 | 2002 | solo/1 | male | pop | 954 | tel-aviv-area |
+| omer-meir-wellber | עומר מאיר ולבר | 2017 | 2017 | solo/1 | male | other | 404 | south |
+| deaf-chonky | דף צ'ונקי | 2016 | 2016 | band/0 | mixed | rock | 695 | center |
+| the-revivo-project | הפרויקט של רביבו | 2012 | 2012 | band/0 | mixed | mizrahi | 141 | center |
+| pablo-rosenberg | פבלו רוזנברג | 1996 | 1980 | solo/1 | male | rock | 108 | center |
+| -55 | לונא אבו נסאר | 2013 | 2013 | solo/1 | female | folk-israeli | 963 | haifa-north |
+| avraham-zigman | אברהם זיגמן | 2002 | 1965 | solo/1 | male | other | 737 | center |
+| noam-bettan | נועם בתן | 2023 | 2017 | solo/1 | male | pop | 30 | center |
+| yoav-itzhak | יואב יצחק (זמר) | 1990 | 1990 | solo/1 | male | mizrahi | 239 | center |
+| anat-moshkovski | ענת מושקובסקי | 2025 | 2010 | solo/1 | female | other | 473 | tel-aviv-area |
+| dana-lapidot | דנה לפידות | 2008 | 2008 | solo/1 | female | pop | 285 | south |
+| uzi-navon-acquaintances | עוזי נבון ומכרים | 2007 | 2007 | band/0 | mixed | other | 227 | center |
+| yoshi | יושי | 2021 | 2021 | solo/1 | male | other | 349 | center |
+| lior-farhi | ליאור פרחי | 1994 | 1986 | solo/1 | male | other | 313 | center |
+| nikka | ניקה | 2005 | 2005 | solo/1 | female | other | 314 | center |
+| nitzan-kaikov | ניצן קייקוב | 2005 | 2005 | solo/1 | male | pop | 917 | tel-aviv-area |
+| peled | פלד | 2012 | 2004 | solo/1 | male | hiphop | 100 | center |
+| eli-magen | אלי מגן | 1987 | 1987 | solo/1 | male | jazz-soul | 451 | tel-aviv-area |
+| oforia | עופר דיקובסקי | 1998 | 1994 | solo/1 | male | electronic | 391 | tel-aviv-area |
+| shlomi-bracha | שלומי ברכה | 1998 | 1985 | solo/1 | male | rock | 273 | tel-aviv-area |
+| terry-poison | טרי פויזן | 2004 | 2003 | band/0 | mixed | other | 374 | center |
+| -86 | שלישיית הופל'ה | 1997 | 1997 | band/0 | mixed | other | 970 | center |
+| naftali-hershtik | נפתלי הרשטיק | 2003 | 2003 | solo/1 | male | religious-pop | 676 | center |
+| michal-tal | מיכל טל (זמרת) | 1975 | 1975 | solo/1 | female | other | 682 | center |
+| adar-gold | אדר גולד | 2019 | 2019 | solo/1 | female | pop | 472 | center |
+| idan-yaniv | עידן יניב | 2006 | 2005 | solo/1 | male | pop | 698 | tel-aviv-area |
+| aliza-kashi | עליזה קשי | 1955 | 1955 | solo/1 | female | other | 757 | tel-aviv-area |
+| naarot-reines | נערות ריינס | 2004 | 2009 | band/0 | mixed | rock | 801 | center |
+| yair-levi | יאיר לוי | 2016 | 2016 | solo/1 | male | jazz-soul | 545 | haifa-north |
+| the-brothers-the-sisters | האחים והאחיות | 1971 | 1971 | band/0 | mixed | other | 533 | center |
+| carakukly | כרקוקלי | 2013 | 2013 | band/0 | mixed | pop | 376 | center |
+| -133 | האירוסים - זמרי בית אלפא | 1977 | 1977 | band/0 | mixed | folk-israeli | 999 | center |
+| zohara | זוהרה | 2012 | 2012 | solo/1 | female | other | 429 | tel-aviv-area |
+| liron-amram | לירון עמרם | 2018 | 2014 | solo/1 | male | indie-alt | 906 | center |
+| may-sfadia | מאי ספדיה | 2024 | 2011 | solo/1 | female | other | 732 | center |
+| -83 | הפונדקאים | 1976 | 1976 | band/0 | mixed | other | 993 | center |
+| sharif | שריףף | 1992 | 1992 | solo/1 | male | mizrahi | 366 | south |
+| johnny-shuali | ג'וני שועלי | 1995 | 1991 | solo/1 | male | rock | 436 | center |
+| doron-mazar | דורון מזר | 1985 | 1985 | solo/1 | male | folk-israeli | 520 | center |
+| produx | פרודוקס | 2003 | 2003 | band/0 | mixed | hiphop | 576 | center |
+| naomi-shemer | נעמי שמר | 1966 | 1951 | solo/1 | female | folk-israeli | 396 | haifa-north |
+| jonathan-bar-giora | יונתן בר גיורא | 1990 | 1990 | solo/1 | male | other | 630 | jerusalem |
+| -106 | פאנקנשטיין | 1998 | 2005 | band/0 | mixed | other | 713 | center |
+| chen-porati | חן פורתי | 2024 | 2024 | solo/1 | male | other | 862 | center |
+| -15 | כפיר בן ליש | 2014 | 2014 | solo/1 | male | other | 815 | center |
+| tararam | טררם | 1996 | 1996 | band/0 | mixed | other | 981 | center |
+| daniel-zamir | דניאל זמיר | 2000 | 2000 | solo/1 | male | jazz-soul | 158 | center |
+| useless-id | יוסלס איי.די | 1995 | 1994 | band/0 | mixed | indie-alt | 172 | center |
+| daniel-salomon | דניאל סלומון | 2002 | 1998 | solo/1 | male | pop | 223 | center |
+| meni-beger | מני בגר | 1981 | 1978 | solo/1 | male | other | 263 | center |
+| -34 | שמוליק צ'יזיק | 1984 | 1984 | solo/1 | male | other | 861 | center |
+| orr-amrami-brockman | אור עמרמי ברוקמן | 2026 | 2018 | solo/1 | male | other | 876 | center |
+| dennis-lloyd | דניס לויד | 2015 | 2015 | solo/1 | male | pop | 96 | tel-aviv-area |
+| adam-ben-ezra | אדם בן עזרא | 2013 | 2000 | solo/1 | male | jazz-soul | 369 | tel-aviv-area |
+| osher-cohen | אושר כהן | 2000 | 2014 | solo/1 | male | mizrahi | 27 | haifa-north |
+| ortal-ofek | אורטל אופק | 2002 | 2002 | solo/1 | female | pop | 506 | tel-aviv-area |
+| leah-lupatin | לאה לופטין | 1992 | 1969 | solo/1 | female | other | 70 | center |
+| -39 | שרון הולצמן | 2001 | 2001 | solo/1 | male | other | 706 | center |
+| doron-eyal | דורון אייל | 2019 | 2019 | solo/1 | male | rock | 733 | tel-aviv-area |
+| -50 | נעמה כהן | 2025 | 2011 | solo/1 | female | other | 833 | haifa-north |
+| the-churchills | הצ'רצ'ילים | 1965 | 1965 | band/0 | mixed | other | 131 | center |
+| liam-golan | ליאם גולן | 2024 | 2024 | solo/1 | male | mizrahi | 946 | center |
+| daniel-shalit | דניאל שליט | 2023 | 2023 | solo/1 | male | jazz-soul | 738 | center |
+| yael-german | יעל גרמן | 1976 | 1976 | solo/1 | female | folk-israeli | 893 | center |
+| yehuda-keisar | יהודה קיסר | 2000 | 2000 | solo/1 | male | mizrahi | 425 | tel-aviv-area |
+| alona-turel | אלונה טוראל | 1961 | 1961 | solo/1 | female | other | 433 | tel-aviv-area |
+| haim-louk | חיים לוק | 2015 | 2015 | solo/1 | male | other | 432 | center |
+| eddie-butler | אדי בטלר | 2021 | 2021 | solo/1 | male | pop | 268 | south |
+| alexander-tamir | אלכסנדר תמיר | 1965 | 1965 | solo/1 | male | other | 542 | center |
+| astrix | אסטריקס | 2002 | 1995 | solo/1 | male | electronic | 155 | center |
+| yonatan-shainfeld | יונתן שינפלד | 2009 | 2012 | solo/1 | male | other | 371 | center |
+| cookie-levanna | קוקי לבנה | 2011 | 2011 | band/0 | mixed | other | 936 | center |
+| ahuva-zadok | אהובה צדוק | 1948 | 1948 | solo/1 | female | other | 843 | tel-aviv-area |
+| mark-eliyahu | מארק אליהו | 2006 | 1998 | solo/1 | male | folk-israeli | 10 | center |
+| bat-ella | בת אלה | 1997 | 1985 | solo/1 | female | other | 897 | south |
+| boaz-sharabi | בעז שרעבי | 1971 | 1964 | solo/1 | male | mizrahi | 55 | tel-aviv-area |
+| shimon-cohen | שמעון כהן | 2023 | 2023 | solo/1 | male | folk-israeli | 863 | center |
+| hani-dinur | חני דינור | 2016 | 1980 | solo/1 | female | rock | 889 | center |
+| -120 | קטב מרירי (להקה) | 2008 | 2008 | band/0 | mixed | other | 995 | center |
+| young-boiz | יאנג בויז | 2017 | 2017 | band/0 | mixed | hiphop | 726 | center |
+| lidor-yosefi | לידור יוספי | 1997 | 1997 | solo/1 | male | mizrahi | 722 | center |
+| avi-benedi | אבי בנדי | 2020 | 2001 | solo/1 | male | pop | 708 | center |
+| achinoam-nini | אחינועם ניני | 1991 | 1990 | solo/1 | female | pop | 18 | tel-aviv-area |
+| bnot-pesia | בנות פסיה | 1995 | 1995 | band/0 | mixed | other | 874 | center |
+| shye-ben-tzur | שי בן צור | 2003 | 2003 | solo/1 | male | other | 212 | abroad |
+| hani-livne | חני ליבנה | 1984 | 1984 | solo/1 | female | other | 759 | abroad |
+| avihai-hollender | אביחי הולנדר | 2022 | 2022 | solo/1 | male | other | 832 | center |
+| vibe-tribe | Vibe Tribe | 2002 | 2002 | band/0 | mixed | electronic | 463 | center |
+| avishai-cohen | אבישי כהן | 1998 | 1993 | solo/1 | male | jazz-soul | 57 | haifa-north |
+| chaim-banet | חיים בנט | 1977 | 1970 | solo/1 | male | other | 367 | abroad |
+| shi-360 | שי 360 | 2005 | 2001 | solo/1 | male | hiphop | 115 | center |
+| yonatan-miller | יונתן מילר | 1985 | 1985 | solo/1 | male | other | 746 | center |
+| rotem-chen | רותם חן | 2017 | 2017 | solo/1 | male | mizrahi | 964 | center |
+| liora | ליאורה | 1996 | 1989 | solo/1 | female | other | 693 | center |
+| inbal-perlmuter | ענבל פרלמוטר | 1998 | 1992 | solo/1 | female | rock | 182 | center |
+| mazzie-cohen | מזי כהן | 1979 | 1979 | solo/1 | female | other | 160 | jerusalem |
+| temper-city | טמפר סיטי | 2026 | 2026 | band/0 | mixed | indie-alt | 116 | abroad |
+| hamsa | חמסה | 2001 | 2000 | band/0 | mixed | pop | 266 | center |
+| arkadi-duchin | ארקדי דוכין | 1990 | 1980 | solo/1 | male | rock | 39 | abroad |
+| eran-zur | ערן צור | 1997 | 1986 | solo/1 | male | rock | 121 | haifa-north |
+| dorit-reuveni | דורית ראובני | 1973 | 1973 | solo/1 | female | other | 635 | center |
+| avi-benjamin | אבי בנימין | 2000 | 2000 | solo/1 | male | other | 395 | center |
+| cheikh-mwijo | שייך מואיז'ו | 1962 | 1962 | solo/1 | male | other | 434 | center |
+| ahrele-samet | אהרלה סמט | 2007 | 2008 | solo/1 | male | other | 565 | center |
+| gary-eckstein | גרי אקשטיין | 1977 | 1964 | solo/1 | male | rock | 339 | center |
+| simcha-friedman | שמחה פרידמן | 2020 | 2020 | solo/1 | male | other | 421 | haifa-north |
+| dudi-levi | דודי לוי | 1997 | 1986 | solo/1 | male | rock | 346 | tel-aviv-area |
+| rivka-zohar | רבקה זהר | 1972 | 1972 | solo/1 | female | other | 140 | haifa-north |
+| daniel-barenboim | דניאל בארנבוים | 1958 | 1950 | solo/1 | male | jazz-soul | 23 | center |
+| maya-casabianca | מאיה קזביאנקה | 1969 | 1969 | solo/1 | female | other | 338 | center |
+| mendy-weiss | מנדי וייס | 2019 | 2019 | solo/1 | male | other | 749 | center |
+| yuval-dor | יובל דור | 1969 | 1969 | solo/1 | male | other | 99 | tel-aviv-area |
+| hahazer-haahorit | החצר האחורית | 2013 | 2013 | band/0 | mixed | rock | 350 | center |
+| micha-shitrit | מיכה שטרית | 1993 | 1980 | solo/1 | male | rock | 189 | haifa-north |
+| yoni-genut | יוני גנוט | 2012 | 2000 | solo/1 | male | other | 763 | center |
+| mendi-jerufi | מנדי ג'רופי | 2018 | 1995 | solo/1 | male | other | 796 | center |
+| bustan-abraham | בוסתן אברהם | 1991 | 1992 | band/0 | mixed | mizrahi | 662 | center |
+| yehoshua-sofer | יהושע סופר | 1963 | 1963 | solo/1 | male | folk-israeli | 19 | abroad |
+| danny-maseng | דני מסנג | 1975 | 1965 | solo/1 | male | pop | 729 | tel-aviv-area |
+| static-ben-el | סטטיק ובן אל | 2015 | 2015 | band/0 | male | pop | 31 | center |
+| yehuda-elias | יהודה אליאס | 1983 | 1983 | solo/1 | male | other | 476 | center |
+| nathan-slor | נתן סלור | 2006 | 2006 | solo/1 | male | other | 598 | tel-aviv-area |
+| nofia-yedidya | נופיה | 2025 | 2025 | solo/1 | female | other | 739 | center |
+| yoel-levi | יואל לוי | 1984 | 1975 | solo/1 | male | jazz-soul | 560 | center |
+| daniella-pick | דניאלה פיק | 2004 | 2004 | solo/1 | female | other | 260 | center |
+| udi-davidi | אודי דוידי | 2004 | 2004 | solo/1 | male | religious-pop | 150 | tel-aviv-area |
+| talisman | טליסמאן | 2016 | 2016 | solo/1 | male | hiphop | 381 | abroad |
+| osnat-paz | אסנת פז | 1967 | 1967 | solo/1 | female | pop | 962 | center |
+| ketreyah | כיתריה | 2018 | 2018 | solo/1 | female | pop | 879 | south |
+| maor-edry | מאור אדרי | 2012 | 2008 | solo/1 | male | mizrahi | 175 | center |
+| sharona-aron | שרונה אהרון | 1955 | 1955 | solo/1 | female | other | 971 | tel-aviv-area |
+| yorik-ben-david | יוריק בן דוד | 1978 | 1978 | solo/1 | male | other | 884 | tel-aviv-area |
+| eitan-masuri | איתן מסורי | 1979 | 1979 | solo/1 | male | other | 341 | tel-aviv-area |
+| gili | גילי נתנאל | 2002 | 2002 | solo/1 | male | other | 443 | center |
+| rami-fortis | רמי פורטיס | 1978 | 1975 | solo/1 | male | rock | 32 | tel-aviv-area |
+| -92 | אטלנטיקה | 2006 | 2006 | band/0 | mixed | other | 997 | center |
+| isolier-band | איזולירבנד | 1982 | 1982 | band/0 | mixed | pop | 758 | center |
+| guy-mardel | Guy Mardel | 1965 | 1965 | solo/1 | male | pop | 43 | abroad |
+| avraham-fried | אברהם פריד | 1981 | 1981 | solo/1 | male | religious-pop | 33 | abroad |
+| zohar-argov | זוהר ארגוב | 1980 | 1977 | solo/1 | male | mizrahi | 14 | center |
+| quarter-to-africa | רבע לאפריקה | 2014 | 2014 | band/0 | mixed | other | 658 | center |
+| yahel-sherman | יהל שרמן | 2000 | 1999 | solo/1 | male | electronic | 232 | center |
+| beni-elbaz | בני אלבז | 1984 | 1984 | solo/1 | male | other | 276 | center |
+| orit-wolf | אורית וולף | 2019 | 2019 | solo/1 | female | other | 625 | tel-aviv-area |
+| plastic-venus | פלסטיק ונוס | 1990 | 1990 | band/0 | mixed | other | 845 | center |
+| distorted-harmony | Distorted Harmony | 2009 | 2009 | band/0 | mixed | rock | 657 | center |
+| patrick-sebag | פטריק סבג | 2007 | 2007 | solo/1 | male | other | 410 | center |
+| gili-argov | גילי ארגוב | 1989 | 1989 | solo/1 | male | other | 321 | center |
+| -29 | יהוא ירון | 2008 | 2001 | solo/1 | male | other | 818 | jerusalem |
+| boaz-banai | בעז בנאי | 2008 | 2007 | solo/1 | male | other | 214 | center |
+| keren-tannenbaum | קרן טננבאום | 1986 | 1986 | solo/1 | female | other | 918 | center |
+| ellyott | אליוט | 2013 | 1985 | solo/1 | female | rock | 794 | tel-aviv-area |
+| riki-manor | ריקי מנור | 1975 | 1975 | solo/1 | female | other | 761 | center |
+| ran-eliran | רן אלירן | 1963 | 1952 | solo/1 | male | other | 605 | center |
+| tzukush | צוקוש | 2017 | 2016 | solo/1 | male | hiphop | 654 | tel-aviv-area |
+| josef-bardanashvili | יוסף ברדנשווילי | 2023 | 2023 | solo/1 | male | jazz-soul | 869 | center |
+| sharon-moldavi | שרון מולדאבי | 1995 | 1995 | solo/1 | male | other | 626 | tel-aviv-area |
+| shalva-band | להקת שלוה | 2006 | 2006 | band/0 | mixed | other | 558 | center |
+| puncher | פנצ'ר (להקה) | 1987 | 1987 | band/0 | male | other | 836 | center |
+| dudu-zakai | דודו זכאי | 1975 | 1967 | solo/1 | male | other | 921 | center |
+| gedy-ronen | גדי רונן | 2017 | 2017 | solo/1 | male | rock | 679 | center |
+| ishay-levi | ישי לוי | 1989 | 1976 | solo/1 | male | mizrahi | 311 | center |
+| sarit-hadad | שרית חדד | 1995 | 1994 | solo/1 | female | mizrahi | 69 | haifa-north |
+| elnatan-shalom | אלנתן שלום | 2018 | 2018 | solo/1 | male | other | 895 | center |
+| avner-strauss | אבנר שטראוס | 1987 | 1987 | solo/1 | male | other | 788 | center |
+| -149 | ניגון ירושלמי | 2008 | 2008 | band/0 | mixed | folk-israeli | 980 | center |
+| rotem-cohen | רותם כהן | 2014 | 2002 | solo/1 | male | folk-israeli | 170 | center |
+| -47 | אהרון ירימי | 1986 | 1986 | solo/1 | male | other | 855 | center |
+| yoram-chazan | יורם חזן | 2016 | 1990 | solo/1 | male | other | 806 | center |
+| yoshi-sade | יושי שדה | 1984 | 1984 | solo/1 | male | rock | 359 | center |
+| infected-mushroom | אינפקטד מאשרום | 1996 | 1996 | band/0 | mixed | electronic | 5 | haifa-north |
+| hopa-hey | הופה היי | 1985 | 1985 | band/0 | mixed | other | 664 | center |
+| shahar-saul | שחר סאול | 2017 | 2017 | solo/1 | male | hiphop | 178 | tel-aviv-area |
+| shmulik-succot | שמוליק סוכות | 2022 | 2022 | solo/1 | male | other | 240 | center |
+| yehuda-poliker | יהודה פוליקר | 1985 | 1980 | solo/1 | male | rock | 9 | haifa-north |
+| ofira-ravit-yosefi | אופירה ורוית יוספי | 1989 | 1989 | band/0 | female | other | 705 | center |
+| odeya | אודיה | 2021 | 2017 | solo/1 | female | pop | 12 | tel-aviv-area |
+| yuval-raphael | יובל רפאל | 2025 | 2024 | solo/1 | female | pop | 197 | tel-aviv-area |
+| ravid-plotnik | רביד פלוטניק | 2011 | 2003 | solo/1 | male | hiphop | 20 | center |
+| ehud-banai | אהוד בנאי | 1986 | 1977 | solo/1 | male | rock | 8 | jerusalem |
+| peter-roth | פיטר רוט | 2005 | 1992 | solo/1 | male | rock | 105 | tel-aviv-area |
+| shuli-natan | שולי נתן | 1967 | 1967 | solo/1 | female | folk-israeli | 205 | center |
+| yair-ziv | יאיר זיו | 2009 | 2009 | solo/1 | male | rock | 899 | center |
+| theangelcy | TheAngelcy | 2011 | 2011 | band/0 | mixed | jazz-soul | 147 | center |
+| gil-vain | גיל ויין | 2019 | 2010 | solo/1 | male | other | 177 | center |
+| anna-rf | Anna RF | 2011 | 2011 | band/0 | mixed | other | 844 | center |
+| nitsan-khen-raz-el | ניצן-חן רזאל | 2013 | 1996 | solo/1 | male | religious-pop | 880 | jerusalem |
+| chulu | צ'ולו | 1995 | 1995 | solo/1 | male | hiphop | 219 | abroad |
+| yehonatan-geffen | יהונתן גפן | 1975 | 1967 | solo/1 | male | other | 624 | center |
+| yossi-hari | יוסי הרי | 2001 | 2001 | solo/1 | male | other | 748 | tel-aviv-area |
+| rachel-yaron | רחל ירון | 2016 | 2014 | solo/1 | female | rock | 544 | tel-aviv-area |
+| -130 | להקת חיל התותחנים | 1969 | 1969 | band/0 | mixed | other | 991 | center |
+| shalva-berti | שלווה ברטי | 1986 | 1986 | solo/1 | female | other | 914 | center |
+| shlomo-zach | שלמה צח | 1962 | 1962 | solo/1 | male | other | 278 | haifa-north |
+| -61 | סתיו שמש | 2013 | 2013 | solo/1 | female | pop | 886 | center |
+| the-pure-souls | הנשמות הטהורות | 1972 | 1972 | band/0 | mixed | folk-israeli | 290 | center |
+| mika-karni | מיקה קרני | 1997 | 1997 | solo/1 | female | rock | 169 | center |
+| inbar-hets-rony | ענבר חצרוני | 2020 | 2020 | solo/1 | female | other | 977 | center |
+| shlomo-gronich | שלמה גרוניך | 1971 | 1969 | solo/1 | male | jazz-soul | 447 | center |
+| kinderlach | קינדרלעך | 2005 | 2005 | band/0 | mixed | other | 941 | center |
+| erez-halevi | ארז הלוי | 1984 | 1984 | solo/1 | male | other | 645 | center |
+| alphabeta | אלפא-ביתא | 1978 | 1978 | band/0 | mixed | other | 569 | center |
+| maor-ashkenazi | מאור אשכנזי | 2020 | 2018 | solo/1 | male | other | 667 | center |
+| guy-mar | גיא מר | 2009 | 1997 | solo/1 | male | hiphop | 246 | jerusalem |
+| smadar-akray | סמדר אקראי | 2021 | 2021 | solo/1 | female | pop | 643 | jerusalem |
+| avi-peretz | אבי פרץ (זמר) | 1993 | 1993 | solo/1 | male | other | 517 | tel-aviv-area |
+| dani-litai | דני ליטאי | 1982 | 1982 | solo/1 | male | other | 441 | tel-aviv-area |
+| yitzhak-klepter | יצחק קלפטר | 1979 | 1966 | solo/1 | male | rock | 53 | center |
+| dxm | DXM | 1984 | 1984 | band/0 | mixed | rock | 755 | center |
+| ziv-cojocaru | זיו קוז'וקרו | 2019 | 2019 | solo/1 | male | other | 610 | south |
+| ilan-chester | אילן צ'סטר | 1987 | 1965 | solo/1 | male | other | 496 | tel-aviv-area |
+| yair-dalal | יאיר דלאל | 1996 | 1996 | solo/1 | male | folk-israeli | 184 | center |
+| moshe-korsia | משה כורסיה | 2017 | 2017 | solo/1 | male | other | 244 | center |
+| guy-yahel | גיא ויהל | 2011 | 2011 | band/0 | mixed | indie-alt | 501 | center |
+| noam-sheriff | נעם שריף | 1969 | 1953 | solo/1 | male | other | 580 | tel-aviv-area |
+| -82 | ברוש (להקה) | 1978 | 1978 | band/0 | mixed | rock | 650 | center |
+| hedva-amrani | חדוה עמרני | 1967 | 1960 | solo/1 | female | other | 618 | abroad |
+| david-lavi | דוד לביא (זמר) | 2011 | 2008 | solo/1 | male | rock | 368 | south |
+| matt-schwartz | מאט שוורץ | 2003 | 1995 | solo/1 | male | electronic | 543 | center |
+| the-white-screen | המסך הלבן | 2016 | 2016 | band/0 | mixed | indie-alt | 423 | tel-aviv-area |
+| yehudit-ravitz | יהודית רביץ | 1978 | 1976 | solo/1 | female | rock | 399 | south |
+| kutiman | קותימאן | 2007 | 2006 | solo/1 | male | jazz-soul | 130 | jerusalem |
+| berry-sakharof | ברי סחרוף | 1991 | 1973 | solo/1 | male | rock | 87 | abroad |
+| binyamin-landau | ביני לנדאו | 2018 | 1998 | solo/1 | male | religious-pop | 446 | center |
+| artist | יציאת חירום | 1997 | 1998 | band/0 | mixed | rock | 612 | center |
+| yael-deckelbaum | יעל דקלבאום | 2009 | 1995 | solo/1 | female | other | 145 | jerusalem |
+| bimot-troupe | חבורת בימות | 1972 | 1972 | band/0 | mixed | pop | 988 | center |
+| gila-hassid | גילה חסיד | 2022 | 2022 | solo/1 | female | other | 992 | center |
+| abatte-barihun | אבטה בריהון | 2020 | 1983 | solo/1 | male | jazz-soul | 562 | center |
+| -30 | לירן טל | 0 | 2004 | solo/1 | male | other | 929 | center |
+| rona-kenan | רונה קינן | 2000 | 1990 | solo/1 | female | rock | 54 | tel-aviv-area |
+| yossi-babliki | יוסי בבליקי | 1996 | 1996 | solo/1 | male | other | 822 | center |
+| tzila-dagan | צילה דגן | 1971 | 1971 | solo/1 | female | folk-israeli | 318 | center |
+| elai-botner | עילי בוטנר | 2007 | 2007 | solo/1 | male | rock | 156 | center |
+| shani-hazan | שני חזן | 2018 | 2018 | solo/1 | female | other | 786 | tel-aviv-area |
+| ari-gorali | ארי גורלי | 2004 | 2004 | solo/1 | male | other | 782 | center |
+| edna-lev | עדנה לב | 1971 | 1966 | solo/1 | female | other | 417 | center |
+| yitzchak-fuchs | יצחק פוקס | 1985 | 1985 | solo/1 | male | other | 608 | center |
+| -2 | אבי בניון | 2008 | 2002 | solo/1 | male | mizrahi | 559 | south |
+| mike-brant | מייק בראנט | 1970 | 1969 | solo/1 | male | pop | 17 | abroad |
+| alma-gov | עלמה גוב | 2021 | 2021 | solo/1 | female | other | 302 | center |
+| dani-dothan | דני דותן | 1996 | 1996 | solo/1 | male | other | 720 | jerusalem |
+| mordechai-sobol | מרדכי סובול | 2007 | 2007 | solo/1 | male | religious-pop | 784 | tel-aviv-area |
+| alma | עלמא | 2000 | 2001 | band/0 | mixed | religious-pop | 933 | center |
+| the-sixties | הסיקסטיז | 1984 | 1984 | band/0 | mixed | other | 631 | center |
+| david-d-or | דוד ד'אור | 1995 | 1985 | solo/1 | male | folk-israeli | 38 | tel-aviv-area |
+| tamouz | תמוז (להקה) | 1974 | 1974 | band/0 | mixed | rock | 107 | center |
+| nathan-cohen | נתן כהן | 1983 | 1970 | solo/1 | male | rock | 595 | tel-aviv-area |
+| inbal-raz | ענבל רז | 2018 | 2018 | solo/1 | female | other | 551 | center |
+| ami-maimon | עמי מימון | 2021 | 2021 | solo/1 | male | other | 872 | tel-aviv-area |
+| ilan-virtzberg | אילן וירצברג | 1982 | 1971 | solo/1 | male | rock | 228 | south |
+| geula-gill | גאולה גיל | 1958 | 1950 | solo/1 | female | folk-israeli | 529 | tel-aviv-area |
+| sheshet | ששת | 1977 | 1977 | band/0 | mixed | other | 475 | center |
+| yam-refaeli | ים רפאלי | 2018 | 2018 | solo/1 | male | pop | 226 | south |
+| sima-amiel | סימה עמיאל | 2023 | 2023 | solo/1 | female | other | 877 | center |
+| doli-penn | דולי ופן | 2014 | 2014 | band/0 | male | pop | 86 | center |
+| maya-isacowitz | מאיה איזקוביץ | 2011 | 2009 | solo/1 | female | other | 592 | center |
+| adam-scheflan | אדם שפלן | 2025 | 2025 | solo/1 | male | other | 865 | center |
+| hapsagot | להקת הפסגות | 1973 | 1973 | band/0 | mixed | mizrahi | 870 | center |
+| -77 | התעויוט | 1992 | 1991 | band/0 | mixed | rock | 690 | center |
+| yehudit-tamir | יהודית תמיר | 1991 | 1991 | solo/1 | female | other | 611 | center |
+| tsliley-haaud | צלילי העוד | 1974 | 1974 | band/0 | male | mizrahi | 627 | center |
+| avi-mesika | אבי מסיקה | 2004 | 2004 | solo/1 | male | hiphop | 297 | tel-aviv-area |
+| shefi-yishai | שפי ישי | 1992 | 1992 | solo/1 | male | other | 431 | jerusalem |
+| meital-de-razon | מיטל דה רזון | 2012 | 2012 | solo/1 | female | other | 615 | center |
+| kfir-atia | כפיר עטיה | 2005 | 2005 | solo/1 | male | mizrahi | 671 | tel-aviv-area |
+| avigail-roz | אביגייל רוז | 2008 | 2008 | solo/1 | female | other | 683 | center |
+| omer-adam | עומר אדם | 2010 | 2009 | solo/1 | male | mizrahi | 1 | haifa-north |
+| arik-sinai | אריק סיני | 1979 | 1968 | solo/1 | male | pop | 89 | center |
+| yosi-edenn | יוסי עדן | 1998 | 1998 | solo/1 | male | other | 807 | center |
+| ifat-nets | יפעת נץ | 2022 | 1990 | solo/1 | female | other | 586 | center |
+| nitza-termin | ניצה טרמין | 1992 | 1992 | solo/1 | female | other | 925 | center |
+| andre-hajdu | אנדרה היידו | 1996 | 1996 | solo/1 | male | other | 295 | center |
+| david-broza | דוד ברוזה | 1978 | 1977 | solo/1 | male | folk-israeli | 485 | haifa-north |
+| zohra-al-fassiya | זוהרה אלפסיה | 1982 | 1982 | solo/1 | female | other | 269 | center |
+| sinai-tor | סיני תור | 2004 | 1997 | solo/1 | male | rock | 564 | center |
+| -40 | אייל קופמן | 1991 | 1991 | solo/1 | male | rock | 973 | tel-aviv-area |
+| orit-shahaf | אורית שחף | 1992 | 1992 | solo/1 | female | rock | 392 | south |
+| ciam | סיאם | 1983 | 1983 | band/0 | mixed | rock | 655 | center |
+| aharon-razel | אהרן רזאל | 1999 | 1997 | solo/1 | male | religious-pop | 195 | abroad |
+| eliav-zohar | אליאב זוהר | 2023 | 2018 | solo/1 | male | other | 390 | center |
+| -99 | גאיה (להקה) | 1998 | 1999 | band/0 | mixed | other | 811 | center |
+| kobi-peretz | קובי פרץ | 1992 | 1992 | solo/1 | male | mizrahi | 614 | tel-aviv-area |
+| orphaned-land | אורפנד לנד | 1991 | 1992 | band/0 | mixed | rock | 58 | tel-aviv-area |
+| eli-lulai | אלי לולאי | 2007 | 1988 | solo/1 | male | rock | 435 | center |
+| inon-zur | ינון צור | 2001 | 1994 | solo/1 | male | folk-israeli | 330 | center |
+| astar-shamir | אסתר שמיר | 1977 | 1977 | solo/1 | female | folk-israeli | 279 | jerusalem |
+| -7 | מושיקו מור | 2022 | 2011 | solo/1 | male | pop | 215 | center |
+| doron-miran | דורון מירן | 1988 | 1987 | solo/1 | male | mizrahi | 274 | center |
+| -79 | השכנים של צ'יץ' | 1991 | 1991 | band/0 | mixed | other | 620 | center |
+| shmemel | שממל | 2007 | 2011 | band/0 | mixed | other | 773 | center |
+| yoni-roe | יוני רועה | 1998 | 1998 | solo/1 | male | other | 640 | center |
+| meydad-tasa | מידד טסה | 2008 | 2006 | solo/1 | male | mizrahi | 106 | haifa-north |
+| david-krivoshei | דוד קריבושי | 1968 | 1968 | solo/1 | male | other | 712 | tel-aviv-area |
+| alexandra | אלכסנדרה | 1967 | 1967 | solo/1 | female | other | 453 | center |
+| samy-birnbach | סמי בירנבך | 1989 | 1989 | solo/1 | male | pop | 633 | tel-aviv-area |
+| tal-vaknin | טל ועקנין | 2019 | 1992 | solo/1 | male | mizrahi | 609 | jerusalem |
+| asaf-amdursky | אסף אמדורסקי | 1994 | 1988 | solo/1 | male | rock | 534 | tel-aviv-area |
+| eyal-shachar | אייל שחר | 1996 | 1996 | solo/1 | male | other | 736 | center |
+| adir-getz | אדיר גץ | 2017 | 2010 | solo/1 | male | pop | 235 | center |
+| ronnie-peterson | רוני פיטרסון | 1998 | 1974 | solo/1 | male | jazz-soul | 728 | center |
+| bentzi-stein | בנצי שטיין | 2023 | 2023 | solo/1 | male | other | 846 | center |
+| akiva-turgeman | עקיבא תורג'מן | 2016 | 2009 | solo/1 | male | rock | 196 | south |
+| vini-vici | Vini Vici | 2013 | 2013 | band/0 | mixed | electronic | 52 | tel-aviv-area |
+| ayala-ingedashet | איילה אינגדשט | 2006 | 2006 | solo/1 | female | pop | 584 | center |
+| moshe-lahav | משה להב | 2017 | 2017 | solo/1 | male | other | 632 | jerusalem |
+| haim-israel | חיים סהר ישראל | 2000 | 1999 | solo/1 | male | mizrahi | 165 | center |
+| adi-ulmansky | עדי אולמנסקי | 2013 | 2007 | solo/1 | female | hiphop | 805 | jerusalem |
+| hadag-nahash | הדג נחש | 1996 | 1996 | band/0 | mixed | hiphop | 218 | jerusalem |
+| george-bar | ג'ורג' בר | 2001 | 2001 | solo/1 | male | mizrahi | 834 | tel-aviv-area |
+| yoni-bloch | יוני בלוך | 2004 | 2003 | solo/1 | male | rock | 40 | south |
+| tair-haim | תאיר חיים | 2025 | 2013 | solo/1 | female | pop | 753 | center |
+| ha-bustanaim | הבוסתנאים | 2002 | 2002 | band/0 | mixed | folk-israeli | 928 | center |
+| trifonas | טריפונס | 1982 | 1982 | solo/1 | male | other | 283 | center |
+| shlishiyat-gesher-hayarkon | שלישיית גשר הירקון | 1963 | 1963 | band/0 | male | folk-israeli | 238 | center |
+| amaseffer | עם הספר | 2004 | 2004 | band/0 | mixed | rock | 521 | center |
+| iggy-waxman | איגי וקסמן | 1995 | 1986 | solo/1 | female | rock | 245 | center |
+| hanan-ya-israel-bohadana | חנן-יה ישראל בוהדנה | 2019 | 2009 | solo/1 | male | other | 594 | south |
+| arafel | ערפל (להקה) | 1997 | 1997 | band/0 | mixed | rock | 665 | center |
+| eden | עדן | 1998 | 1996 | band/0 | mixed | pop | 488 | center |
+| khalas | חלאס | 1999 | 1999 | band/0 | mixed | rock | 403 | center |
+| zeev-tene | זאב טנא | 1987 | 1975 | solo/1 | male | rock | 340 | center |
+| -152 | אלף.דלת | 2014 | 2014 | band/0 | mixed | indie-alt | 996 | center |
+| yaron-gottfried | ירון גוטפריד | 2002 | 2002 | solo/1 | male | other | 797 | jerusalem |
+| victoria-hanna | ויקטוריה חנה | 2017 | 2015 | solo/1 | female | other | 231 | jerusalem |
+| taiseer-elias | תייסיר אליאס | 2025 | 2025 | solo/1 | male | other | 943 | haifa-north |
+| yosef-chaim-shwekey | יוסף חיים שוואקי | 2010 | 2008 | solo/1 | male | other | 660 | jerusalem |
+| uziya-tzadok | עוזיה צדוק | 2014 | 2014 | solo/1 | male | other | 224 | center |
+| meni-philip | מנחם פיליפ | 1991 | 1991 | solo/1 | male | other | 779 | center |
+| tamar-aphek | תמר אפק | 2019 | 2007 | solo/1 | female | other | 487 | jerusalem |
 | -19 | שי להב | 2004 | 2004 | solo/1 | male | other | 636 | center |
+| yagel-oshri | יגל אושרי | 2023 | 2020 | solo/1 | male | other | 418 | center |
+| -43 | יואל לרנר | 1979 | 1979 | solo/1 | male | rock | 919 | center |
+| obi-aflalo | קובי אפללו | 2005 | 2001 | solo/1 | male | other | 111 | center |
+| shuki-levy | שוקי לוי | 1983 | 1983 | solo/1 | male | pop | 118 | tel-aviv-area |
+| noy-fadlon | נוי פדלון | 2020 | 2012 | solo/1 | female | mizrahi | 384 | center |
+| karni-postel | קרני פוסטל | 2001 | 1986 | solo/1 | female | rock | 387 | tel-aviv-area |
+| amir-yeruham | מירו | 2019 | 2019 | solo/1 | male | other | 287 | tel-aviv-area |
+| nessim-saroussi | ניסים סרוסי | 2016 | 2016 | solo/1 | male | pop | 459 | center |
+| maureen-nehedar | מורין נהדר | 2016 | 1995 | solo/1 | female | other | 489 | center |
+| kol-israel-arabic-orchestra | תזמורת קול ישראל בערבית | 1984 | 1984 | band/0 | mixed | other | 868 | center |
+| roni-bar-hadas | רוני בר הדס | 2020 | 2020 | solo/1 | female | pop | 394 | tel-aviv-area |
+| moshe-louk | משה לוק | 2020 | 2020 | solo/1 | male | other | 411 | tel-aviv-area |
+| kobi-farhi | קובי פרחי | 1991 | 1991 | solo/1 | male | rock | 258 | tel-aviv-area |
+| karni-eldad | קרני אלדד | 2006 | 2006 | solo/1 | female | other | 931 | jerusalem |
+| avraham-pereira | אברהם פררה | 1952 | 1952 | solo/1 | male | other | 702 | jerusalem |
+| chizbatron | הצ'יזבטרון | 1948 | 1948 | band/0 | mixed | other | 820 | center |
+| nisim-garame | ניסים גרמה | 1978 | 1978 | solo/1 | male | other | 686 | center |
+| yair-rosenblum | יאיר רוזנבלום | 1978 | 1962 | solo/1 | male | other | 352 | tel-aviv-area |
+| zohar-fresco | זוהר פרסקו | 2005 | 1992 | solo/1 | male | jazz-soul | 310 | center |
+| -31 | מלי ברונשטיין | 1974 | 1973 | solo/1 | female | pop | 904 | center |
+| moshik-afia | מושיק עפיה | 1995 | 1998 | solo/1 | male | mizrahi | 73 | tel-aviv-area |
+| ido-malka | עידו מלכה | 2023 | 2023 | solo/1 | male | other | 397 | center |
+| roei-adam | רואי אדם | 2022 | 2022 | solo/1 | male | other | 129 | center |
+| haivriot | העבריות | 2020 | 2020 | band/0 | mixed | folk-israeli | 288 | center |
+| daklon | דקלון | 1987 | 1950 | solo/1 | male | mizrahi | 74 | tel-aviv-area |
+| matti-caspi | מתי כספי | 1973 | 1973 | solo/1 | male | jazz-soul | 319 | center |
+| maya-dunietz | מאיה דוניץ | 2021 | 2021 | solo/1 | female | other | 249 | tel-aviv-area |
+| orian-shukrun | אוריין שוקרון | 2022 | 2022 | solo/1 | male | other | 781 | center |
+| effi-netzer | אפי נצר | 1965 | 1952 | solo/1 | male | other | 213 | center |
+| ha-m-ulliel | חיים אוליאל | 2000 | 2000 | solo/1 | male | mizrahi | 323 | center |
+| -8 | אבי אילסון | 2018 | 2018 | solo/1 | male | other | 663 | jerusalem |
+| dafna-bar-zion | דפנה בר ציון | 1985 | 1985 | solo/1 | female | rock | 978 | tel-aviv-area |
+| itzik-kala | איציק קלה | 1985 | 1971 | solo/1 | male | mizrahi | 103 | jerusalem |
+| moshe-zorman | משה זורמן | 2017 | 2017 | solo/1 | male | other | 913 | tel-aviv-area |
+| salem | Salem | 1985 | 1985 | band/0 | mixed | rock | 185 | center |
+| garden-city-movement | גארדן סיטי מובמנט | 2013 | 2013 | band/0 | mixed | electronic | 412 | center |
+| netta-barzilai | נטע ברזילי | 2018 | 2012 | solo/1 | female | pop | 180 | center |
+| jo-amar | ג'ו עמר | 1956 | 1956 | solo/1 | male | mizrahi | 161 | center |
+| shani-izhari | שני יצהרי | 2010 | 2010 | solo/1 | female | mizrahi | 649 | center |
+| benny-berman | בני ברמן | 1991 | 1991 | solo/1 | male | folk-israeli | 647 | center |
+| kim-connection | קים קונקשיין | 1996 | 1996 | solo/1 | male | electronic | 966 | center |
+| yonatan-kalimi | יונתן קלימי | 2021 | 2021 | solo/1 | male | other | 286 | center |
+| vardina-cohen | ורדינה כהן | 1988 | 1988 | solo/1 | female | other | 826 | tel-aviv-area |
+| tsippi-fleischer | ציפי פליישר | 1992 | 1992 | solo/1 | female | other | 838 | center |
+| oren-luttenberg | אורן לוטנברג | 2024 | 2024 | solo/1 | male | rock | 828 | tel-aviv-area |
+| uri-bashan | אורי בשן | 2000 | 2000 | solo/1 | male | other | 678 | center |
+| acollective | הקולקטיב | 2008 | 2008 | band/0 | male | rock | 479 | center |
+| roee-sendler | רועי סנדלר | 2014 | 2014 | solo/1 | male | pop | 942 | center |
+| rema-samsonov | רמה סמסונוב | 1952 | 1952 | solo/1 | female | other | 825 | jerusalem |
+| kiki-rothstein | קיקי רוטשטיין | 1971 | 1971 | solo/1 | male | other | 449 | center |
+| roi-levi | רואי לוי | 1997 | 1997 | solo/1 | male | other | 646 | center |
+| daniel-zilberstein | דניאל זילברשטיין | 2006 | 2006 | solo/1 | male | pop | 976 | center |
+| roni-ginosar | רוני גינוסר | 2007 | 2007 | solo/1 | female | jazz-soul | 930 | center |
+| haim-el | חיים אל | 1989 | 1989 | solo/1 | male | other | 750 | center |
+| noga-eshed | נגה אשד | 1969 | 1969 | solo/1 | female | folk-israeli | 956 | tel-aviv-area |
+| ilan-damti | אילן דמתי | 2023 | 2023 | solo/1 | male | other | 860 | center |
+| ram-orion | רם אוריון | 2005 | 1982 | solo/1 | male | rock | 437 | tel-aviv-area |
+| -123 | שלישיית אדלר | 1963 | 1963 | band/0 | mixed | other | 969 | center |
+| -94 | להקת חופים | 1984 | 1984 | band/0 | mixed | other | 854 | center |
+| mor-reveii | מור | 2019 | 2019 | solo/1 | female | other | 90 | center |
+| ziv-yehezkel | זיו יחזקאל | 2013 | 2013 | solo/1 | male | other | 585 | tel-aviv-area |
+| nussi-liberman | נותי ליברמן | 2023 | 2023 | solo/1 | male | other | 864 | jerusalem |
+| dana-rishpy | דנה רישפי | 2003 | 2003 | solo/1 | female | other | 322 | center |
+| -151 | אחד חלקי אחד | 2006 | 2006 | band/0 | mixed | rock | 856 | center |
+| tamar-eisenman | תמר אייזנמן | 2004 | 2001 | solo/1 | female | folk-israeli | 292 | jerusalem |
+| shira-margalit | שירה מרגלית | 2024 | 2013 | solo/1 | female | other | 415 | center |
+| 951 | 951 | 1999 | 1999 | band/0 | mixed | rock | 556 | center |
+| ella-lee | אלה לי להב | 2020 | 2019 | solo/1 | female | folk-rock | 125 | center |
+| yarona-caspi | ירונה כספי | 2005 | 1990 | solo/1 | female | rock | 908 | tel-aviv-area |
+| silverdon | סילברדון | 2003 | 1990 | solo/1 | male | other | 972 | center |
+| yaara-shaulian | יערה שאוליאן | 2020 | 2020 | solo/1 | female | other | 829 | tel-aviv-area |
+| gilad-segev | גלעד שגב | 2004 | 1991 | solo/1 | male | rock | 379 | tel-aviv-area |
+| israela-krovoshey | ישראלה קריבושה | 1971 | 1971 | solo/1 | female | pop | 808 | center |
+| ahuva-ozeri | אהובה עוזרי | 1976 | 1973 | solo/1 | female | mizrahi | 61 | tel-aviv-area |
+| -128 | הטוב הרע והנערה | 1972 | 1972 | band/0 | mixed | other | 896 | center |
+| eli-mohar | עלי מוהר | 1986 | 1966 | solo/1 | male | other | 254 | tel-aviv-area |
+| guy-mintus | גיא מינטוס | 2015 | 2015 | solo/1 | male | other | 357 | center |
+| itamar-rotschild | איתמר רוטשילד | 2008 | 2002 | solo/1 | male | folk-israeli | 659 | center |
+| shlomi-shaban | שלומי שבן | 2000 | 1998 | solo/1 | male | rock | 687 | tel-aviv-area |
+| sami-lazmi | סמי לזמי | 2023 | 2023 | solo/1 | male | other | 816 | abroad |
+| sivan-talmor | סיון טלמור | 2013 | 1998 | solo/1 | female | other | 142 | south |
+| -148 | ויתרתי | 2011 | 2011 | band/0 | mixed | rock | 842 | center |
+| father-of-peace | פאד'ר אוף פיס | 2024 | 2024 | band/0 | mixed | indie-alt | 63 | center |
+| asaf-avidan | אסף אבידן | 2006 | 2002 | solo/1 | male | folk-israeli | 2 | jerusalem |
+| hanna-aharoni | חנה אהרוני | 1960 | 1960 | solo/1 | female | other | 772 | center |
+| doron-salomon | דורון סלומון | 2013 | 2013 | solo/1 | male | jazz-soul | 673 | center |
+| yoni | יוני נמרי | 1974 | 1974 | solo/1 | male | pop | 804 | center |
+| zanvil-weinberger | זאנוויל ויינברגר | 2016 | 2016 | solo/1 | male | other | 324 | jerusalem |
+| avner-kenner | אבנר קנר | 1976 | 1976 | solo/1 | male | other | 616 | center |
+| yitzchak-meir | יצחק מאיר (זמר) | 2010 | 2010 | solo/1 | male | other | 450 | center |
+| ori-kaplan | אורי קפלן | 2021 | 2021 | solo/1 | male | jazz-soul | 495 | tel-aviv-area |
+| dudu-aharon | דודו אהרון | 2007 | 2007 | solo/1 | male | mizrahi | 82 | center |
+| israel-bar-on | ישראל בר-און | 2007 | 2007 | solo/1 | male | pop | 331 | south |
+| pingpong | פינג פונג | 1999 | 1999 | band/0 | mixed | pop | 237 | center |
+| yehuda-green | יהודה גרין | 2007 | 2007 | solo/1 | male | other | 478 | jerusalem |
+| mendel-roth | מענדל ראטה | 2016 | 2014 | solo/1 | male | other | 725 | center |
+| gal-de-paz | גל דה פז | 2010 | 2010 | solo/1 | female | rock | 122 | south |
+| dudaim | הדודאים | 1958 | 1957 | band/0 | male | folk-israeli | 176 | center |
+| mili-miran | מילי מירן | 1982 | 1982 | solo/1 | female | other | 920 | center |
+| -80 | להקת מגפיים | 1978 | 1978 | band/0 | mixed | folk-israeli | 986 | center |
+| gitit-shoval | גיתית שובל | 2008 | 2008 | solo/1 | female | other | 454 | tel-aviv-area |
+| liad-meir | ליעד מאיר | 2023 | 2018 | solo/1 | male | other | 149 | center |
+| raphael-nathan | רפאל נתן | 2015 | 2015 | solo/1 | male | other | 777 | center |
+| ruhama-raz | רוחמה רז | 2003 | 1977 | solo/1 | female | folk-israeli | 210 | center |
+| liora-itzhak | ליאורה יצחק | 2022 | 2013 | solo/1 | female | other | 329 | center |
+| the-shadow | הצל | 1999 | 1999 | solo/1 | male | hiphop | 36 | haifa-north |
+| ohad-hitman | אוהד חיטמן | 2005 | 1995 | solo/1 | male | pop | 456 | tel-aviv-area |
+| betty-pablo | בטי פבלו | 1989 | 1989 | solo/1 | female | rock | 852 | tel-aviv-area |
+| eran-mitelman | ערן מיטלמן | 1993 | 1993 | solo/1 | male | other | 717 | center |
+| sherry | שרי (זמרת) | 1978 | 1976 | solo/1 | female | pop | 561 | center |
+| noam-pinhasov | נועם פנחסוב | 2009 | 2009 | solo/1 | male | rock | 982 | center |
+| aris-san | אריס סאן | 1966 | 1957 | solo/1 | male | mizrahi | 80 | abroad |
+| balkan-beat-box | בלקן ביט בוקס | 2003 | 2003 | band/0 | mixed | ethnic-world | 48 | abroad |
+| ruth-dolores-weiss | רות דולורס וייס | 2002 | 2002 | solo/1 | female | indie-alt | 413 | center |
+| blastoyz | בלסטויז | 2012 | 2003 | solo/1 | male | other | 308 | center |
+| omri-glikman | עומרי גליקמן | 2000 | 2000 | solo/1 | male | hiphop | 206 | center |
+| jacko-eisenberg | ג'קו אייזנברג | 2008 | 1996 | solo/1 | male | rock | 335 | center |
+| edna-goren | עדנה גורן | 1967 | 1959 | solo/1 | female | other | 547 | tel-aviv-area |
+| sara-sharon | שרה'לה שרון | 1979 | 1979 | solo/1 | female | pop | 110 | center |
+| keren-hecht | קרן הכט | 1993 | 1993 | solo/1 | female | other | 903 | tel-aviv-area |
+| monica-sex | מוניקה סקס | 1993 | 1993 | band/0 | mixed | rock | 353 | tel-aviv-area |
+| zuhair-francis | זוהיר פרנסיס | 2018 | 2018 | solo/1 | male | other | 754 | center |
+| ben-artzi | בן ארצי | 1998 | 1998 | solo/1 | male | other | 187 | tel-aviv-area |
+| micha-biton | מיכה ביטון | 2005 | 1994 | solo/1 | male | other | 692 | center |
+| ron-shuval | רון שובל | 1986 | 1985 | solo/1 | male | pop | 247 | tel-aviv-area |
+| noam-rotem | נעם רותם | 2004 | 1993 | solo/1 | male | rock | 166 | center |
+| moti-taka | מוטי טקה | 2015 | 2013 | solo/1 | male | mizrahi | 470 | haifa-north |
+| itzik-eshel | איציק אשל | 1999 | 1999 | solo/1 | male | mizrahi | 711 | center |
+| tatran | Tatran | 2011 | 2011 | band/0 | mixed | other | 600 | center |
+| bentzy-kletzkin | בנצי קלצקין | 2022 | 2022 | solo/1 | male | other | 902 | center |
+| -5 | חזי פניאן | 1986 | 1986 | solo/1 | male | other | 849 | center |
+| ur-kasdim | אור כשדים | 1992 | 1991 | band/0 | male | rock | 924 | center |
+| shazamat | שאזאמאט | 2017 | 2017 | band/0 | male | hiphop | 221 | center |
+| nag-hammadi | נאג' חמאדי | 2005 | 2005 | band/0 | male | rock | 958 | center |
+| miriam-toukan | מרים טוקאן | 2020 | 2020 | solo/1 | female | other | 581 | center |
+| melechesh | מלכאש | 1993 | 1993 | band/0 | mixed | rock | 306 | jerusalem |
+| mc-abdul | MC Abdul | 2021 | 2020 | solo/1 | male | hiphop | 28 | center |
+| ze-ev-ne-amah | זאב נחמה | 2024 | 1985 | solo/1 | male | other | 516 | tel-aviv-area |
+| noa-gruman | נועה גרומן | 2024 | 2024 | solo/1 | female | other | 588 | jerusalem |
+| beit-habubot | בית הבובות | 2005 | 2005 | band/0 | mixed | rock | 120 | center |
+| ohad-shragai | אוהד שרגאי | 2019 | 2019 | solo/1 | male | pop | 573 | center |
+| jonathan-bitton | יונתן ביטון | 2023 | 2016 | solo/1 | male | other | 867 | center |
+| haim-moshe | חיים משה | 1984 | 1975 | solo/1 | male | mizrahi | 45 | center |
+| -63 | משה קליין | 2016 | 2015 | solo/1 | male | religious-pop | 469 | center |
+| the-doppler-effect | תופעת דופלר (להקה) | 1982 | 1993 | band/0 | mixed | pop | 468 | center |
+| gary-bertini | גארי ברתיני | 1974 | 1974 | solo/1 | male | jazz-soul | 486 | center |
+| ivri-lider | עברי לידר | 1997 | 1997 | solo/1 | male | pop | 104 | center |
+| irit-dotan | עירית דותן | 1974 | 1974 | solo/1 | female | other | 775 | center |
+| raviv-kaner | רביב כנר | 2020 | 2019 | solo/1 | male | pop | 95 | tel-aviv-area |
+| shlomi-shabat | שלומי שבת | 1987 | 1985 | solo/1 | male | mizrahi | 117 | center |
+| karolina | קרולינה | 2009 | 1999 | solo/1 | female | indie-alt | 60 | tel-aviv-area |
+| yom-tov-ehrlich | יום-טוב עהרליך | 1960 | 1960 | solo/1 | male | other | 409 | center |
+| lazy-bams | הבטלנים | 1987 | 1987 | band/0 | male | other | 898 | center |
+| yonathan-avishai | יונתן אבישי | 2002 | 2002 | solo/1 | male | jazz-soul | 424 | tel-aviv-area |
+| vibe-ish | וייב איש | 2020 | 2017 | solo/1 | male | hiphop | 348 | tel-aviv-area |
+| borgore | בורגור | 2009 | 2009 | solo/1 | male | electronic | 174 | tel-aviv-area |
+| stalos | סטלוס | 1986 | 1976 | solo/1 | male | other | 527 | center |
+| yehoshua-engelman | יהושע אנגלמן | 1988 | 1988 | solo/1 | male | other | 944 | center |
+| rafi-persky | רפי פרסקי | 1989 | 1988 | solo/1 | male | other | 360 | center |
+| malka-spigel | מלכה שפיגל | 1993 | 1980 | solo/1 | female | indie-alt | 430 | center |
+| shimon-gershon | שמעון גרשון | 2010 | 2010 | solo/1 | male | pop | 373 | tel-aviv-area |
+| sharon-lifshitz | שרון ליפשיץ | 1982 | 1983 | solo/1 | female | pop | 428 | center |
+| mashina | משינה | 1985 | 1983 | band/0 | mixed | rock | 183 | tel-aviv-area |
+| -58 | רמי דנוך | 1967 | 1967 | solo/1 | male | other | 590 | center |
+| avraham-tal | אברהם טל | 2008 | 1998 | solo/1 | male | pop | 42 | center |
+| tuned-tone | צליל מכוון | 1979 | 1979 | band/0 | mixed | other | 444 | center |
+| teddy-neguse | טדי נגוסה | 2017 | 2016 | solo/1 | male | hiphop | 760 | tel-aviv-area |
+| gili-yalo | גילי יאלו | 2017 | 2017 | solo/1 | male | jazz-soul | 293 | center |
+| moran-aharoni | מורן אהרוני | 2025 | 1997 | solo/1 | female | jazz-soul | 674 | tel-aviv-area |
+| gevolt | Gevolt | 2001 | 2001 | band/0 | mixed | other | 518 | center |
+| aaron-shust | Aaron Shust | 2005 | 2005 | solo/1 | male | religious-pop | 34 | abroad |
+| dror-feiler | דרור פיילר | 1996 | 1996 | solo/1 | male | other | 510 | tel-aviv-area |
+| ruth-mense | רות מנזה | 2018 | 2018 | solo/1 | female | other | 795 | tel-aviv-area |
+| motty-steinmets | מוטי שטיינמץ | 2016 | 2012 | solo/1 | male | religious-pop | 26 | center |
+| johnny-goldstein | ג'וני גולדשטיין | 2004 | 2004 | solo/1 | male | rock | 578 | center |
+| nadav-aharoni | נדב אהרוני | 2021 | 2021 | solo/1 | male | other | 361 | haifa-north |
+| -22 | אוריאל שלומי | 1985 | 1977 | solo/1 | male | mizrahi | 912 | tel-aviv-area |
+| cosma | קוסמה | 2000 | 2000 | solo/1 | male | other | 837 | center |
+| shlomit-aharon | שלומית אהרון | 1971 | 1965 | solo/1 | female | other | 229 | tel-aviv-area |
+| -53 | נתנאל ששון | 2013 | 2013 | solo/1 | male | folk-israeli | 589 | haifa-north |
+| linet | לינט | 1995 | 1985 | solo/1 | female | mizrahi | 79 | tel-aviv-area |
+| tamar-giladi | תמר גלעדי | 2000 | 1998 | solo/1 | female | jazz-soul | 225 | center |
+| voca-people | ווקה פיפל | 2009 | 2009 | band/0 | mixed | pop | 71 | center |
+| drora-havkin | דרורה חבקין | 2006 | 2006 | solo/1 | female | other | 638 | center |
+| offer-nissim | עופר ניסים | 2002 | 1983 | solo/1 | male | other | 7 | tel-aviv-area |
+| guy-gerber | גיא גרבר | 2004 | 2002 | solo/1 | male | electronic | 327 | tel-aviv-area |
+| sarit-avitan | שרית אביטן | 2012 | 2010 | solo/1 | female | mizrahi | 299 | center |
+| misha-segal | מישה סגל | 1991 | 1991 | solo/1 | male | other | 492 | center |
+| udi-damari | אודי דמארי | 2016 | 2016 | solo/1 | male | other | 701 | center |
+| emil-zrihan | אמיל זריהן | 1986 | 1986 | solo/1 | male | other | 723 | center |
+| avi-belleli | אבי בללי | 2002 | 1981 | solo/1 | male | rock | 179 | tel-aviv-area |
+| avishai-cohen-2 | אבישי כהן | 1999 | 1999 | solo/1 | male | jazz-soul | 128 | haifa-north |
+| sesto-sento | ססטו סנטו | 2001 | 2001 | band/0 | mixed | electronic | 483 | center |
+| ron-buhnik | רון בוחניק | 2020 | 2016 | solo/1 | male | pop | 301 | center |
+| hakol-over-habibi | הכל עובר חביבי | 1975 | 1975 | band/0 | mixed | pop | 144 | center |
+| danny-golan | דני גולן | 1967 | 1967 | solo/1 | male | folk-israeli | 512 | tel-aviv-area |
+| ilanit | אילנית | 1969 | 1964 | solo/1 | female | pop | 442 | tel-aviv-area |
+| haim-saban | חיים סבן | 1983 | 1983 | solo/1 | male | folk-israeli | 101 | center |
+| noa-faran | נועה פארן | 1997 | 1997 | solo/1 | female | hiphop | 536 | center |
+| loren-peled | לורן פלד | 2020 | 2020 | solo/1 | male | other | 480 | abroad |
+| chilik-frank | חיליק פרנק | 2009 | 1998 | solo/1 | male | folk-israeli | 509 | center |
+| -36 | רגב הוד | 2001 | 1996 | solo/1 | male | mizrahi | 599 | center |
+| -112 | צלילי הכרם | 1972 | 1972 | band/0 | male | mizrahi | 681 | center |
+| shekel | שקל | 2017 | 2017 | solo/1 | male | electronic | 234 | tel-aviv-area |
+| gadi-altman | גדי אלטמן | 2003 | 2003 | solo/1 | male | rock | 666 | center |
+| a-wa | אה-ווה | 2015 | 2015 | band/0 | mixed | ethnic-world | 102 | center |
+| yohanan-zarai | יוחנן זראי | 1964 | 1964 | solo/1 | male | other | 364 | center |
+| -111 | שלישיית המעפיל | 1965 | 2014 | band/0 | mixed | folk-israeli | 890 | center |
+| helem-tarbut | הלם תרבות | 2016 | 2016 | band/0 | male | hiphop | 691 | center |
+| tal-ramon | טל רמון | 2016 | 2016 | solo/1 | male | rock | 613 | center |
+| michael-ben-david | מיכאל בן דוד | 2022 | 2022 | solo/1 | male | pop | 530 | center |
+| kfir-tsafrir | כפיר צפריר | 2021 | 2021 | solo/1 | male | other | 153 | center |
+| jaroslav-jakubovic | ירוסלב יעקובוביץ' | 2009 | 2009 | solo/1 | male | jazz-soul | 628 | center |
+| mika-sade | מיקה שדה | 2013 | 2013 | solo/1 | female | other | 334 | tel-aviv-area |
+| uri-fineman | אורי פיינמן | 1990 | 1990 | solo/1 | male | rock | 519 | tel-aviv-area |
+| moran-mazor | מורן מזור | 2013 | 2011 | solo/1 | female | pop | 188 | tel-aviv-area |
+| din-din-aviv | דין דין אביב | 2006 | 1998 | solo/1 | female | other | 148 | center |
+| infy-snow | אינפי סנואו | 2015 | 2012 | solo/1 | female | rock | 778 | center |
+| milk-and-honey | חלב ודבש | 1979 | 1979 | band/0 | mixed | pop | 127 | center |
+| tal-segev | טל שגב | 2001 | 1990 | solo/1 | male | pop | 354 | tel-aviv-area |
+| eldad-zitrin | אלדד ציטרין | 2016 | 1999 | solo/1 | male | other | 680 | tel-aviv-area |
+| yoni-rechter | יוני רכטר | 1976 | 1972 | solo/1 | male | rock | 445 | tel-aviv-area |
+| -35 | שיקו חייק | 1998 | 1998 | solo/1 | male | mizrahi | 770 | center |
+| maya-avraham | מאיה אברהם | 2007 | 1998 | solo/1 | female | other | 333 | center |
+| marsh-dondurma | מארש דונדורמה | 2005 | 2005 | band/0 | mixed | jazz-soul | 670 | center |
+| gabi-berlin | גבי ברלין | 1954 | 1954 | solo/1 | male | other | 716 | tel-aviv-area |
+| sheva | שבע | 1995 | 1996 | band/0 | male | other | 567 | center |
+| nurit-hirsh | נורית הירש | 1971 | 1960 | solo/1 | female | other | 171 | tel-aviv-area |
+| oif-simchas | אוף שימחעס | 1996 | 1996 | band/0 | mixed | other | 719 | center |
+| -85 | שליחי הבלוז | 1993 | 1993 | band/0 | mixed | rock | 857 | center |
+| -90 | נכי נאצה | 1990 | 1990 | band/0 | mixed | other | 839 | center |
+| lilia | ליליה | 2019 | 2019 | solo/1 | female | other | 937 | center |
+| ori-ben-ari | אורי בן ארי | 2017 | 2017 | solo/1 | male | pop | 252 | center |
 | omri-keren | עמרי קרן | 0 | 0 | solo/1 | male | other | 888 | center |
-| yafa-yarkoni | יפה ירקוני | 0 | 1933 | solo/1 | female | folk-israeli | 75 | tel-aviv-area |
+| yafa-yarkoni | יפה ירקוני | 1956 | 1933 | solo/1 | female | folk-israeli | 75 | tel-aviv-area |
 | miriam-segal | מרים סגל | 0 | 0 | solo/1 | female | other | 337 | center |
 | m-jde-hepokur | מוג'דה | 0 | 0 | solo/1 | female | other | 344 | abroad |
 | yael-shoshana-cohen | יעל שושנה כהן | 0 | 0 | solo/1 | female | other | 652 | center |
-| sasha-argov | סשה ארגוב | 0 | 1935 | solo/1 | male | other | 202 | abroad |
+| sasha-argov | סשה ארגוב | 1961 | 1935 | solo/1 | male | other | 202 | abroad |
 | ari-pepper | ארי פפר | 0 | 0 | solo/1 | male | other | 112 | center |
 | uri-revach | אורי רווח | 0 | 0 | solo/1 | male | other | 814 | jerusalem |
 | mickyagi | מיקיאגי | 0 | 0 | solo/1 | male | other | 255 | center |
@@ -6596,7 +6595,7 @@ Generated for 1000 artists.
 | ori-harpaz | אורי הרפז | 0 | 0 | solo/1 | male | other | 553 | center |
 | -74 | אסף לביא צנעני | 0 | 0 | solo/1 | male | other | 365 | tel-aviv-area |
 | -28 | משה כהן (זמר) | 0 | 0 | solo/1 | male | mizrahi | 549 | center |
-| moshe-wilensky | משה וילנסקי | 0 | 1932 | solo/1 | male | other | 124 | center |
+| moshe-wilensky | משה וילנסקי | 1961 | 1932 | solo/1 | male | other | 124 | center |
 | jonathan-levin | יונתן לוין | 0 | 0 | solo/1 | male | other | 656 | center |
 | salva-barzellai | סלבה ברזילאי | 0 | 0 | solo/1 | male | other | 388 | center |
 | yossi-chori | יוסי חורי | 0 | 0 | solo/1 | male | other | 596 | center |
@@ -6625,7 +6624,7 @@ Generated for 1000 artists.
 | peretz-eliyahu | פרץ אליהו | 0 | 0 | solo/1 | male | other | 309 | center |
 | lilach-gliksman | לילך גליקסמן | 0 | 0 | solo/1 | female | other | 949 | tel-aviv-area |
 | pnina-brick | פנינה בריק | 0 | 0 | solo/1 | female | other | 952 | center |
-| aryeh-levanon | אריה לבנון | 0 | 1947 | solo/1 | male | other | 571 | center |
+| aryeh-levanon | אריה לבנון | 2022 | 1947 | solo/1 | male | other | 571 | center |
 | dani-veseli | דני וסלי | 0 | 0 | solo/1 | male | other | 577 | tel-aviv-area |
 | yinam-leef | ינעם ליף | 0 | 0 | solo/1 | male | other | 769 | jerusalem |
 | maayan-licht | מעיין ליכט | 0 | 0 | solo/1 | male | other | 264 | center |
@@ -6667,4 +6666,3 @@ Generated for 1000 artists.
 | verdina-shlonsky | ורדינה שלונסקי | 0 | 0 | solo/1 | female | other | 582 | center |
 | -137 | שאטגאנז | 0 | 0 | band/0 | mixed | other | 967 | center |
 | meir-noy | מאיר נוי | 0 | 0 | solo/1 | male | other | 873 | center |
-| nussi-liberman | נותי ליברמן | 2023 | 2023 | solo/1 | male | other | 864 | jerusalem |

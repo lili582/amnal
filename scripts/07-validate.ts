@@ -43,6 +43,13 @@ export function run(): { artists: Artist[]; hard: string[]; warns: string[] } {
     if (a.answerEligible) check(okMembers, `type/members inconsistent for ${a.nameHe}`, true)
     else check(okMembers, `type/members inconsistent for ${a.nameHe} (not eligible)`, false)
     check(!a.secondaryGenres.includes(a.primaryGenre), `primary genre listed as secondary for ${a.nameHe}`, true)
+    // A debut before the birth year is impossible, not merely unlikely, so it is
+    // a hard error rather than a warning.
+    check(
+      !(a.debutYear > 0 && a.birthYear > 0 && a.debutYear < a.birthYear),
+      `debutYear ${a.debutYear} precedes birthYear ${a.birthYear} for ${a.nameHe}`,
+      true,
+    )
     const rankOk = Number.isInteger(a.popularityRank) && a.popularityRank >= 1 && a.popularityRank <= artists.length
     if (a.answerEligible) check(rankOk, `invalid popularityRank for ${a.nameHe}`, true)
     else check(rankOk, `invalid popularityRank for ${a.nameHe} (not eligible)`, false)

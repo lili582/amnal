@@ -219,12 +219,17 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     // Wikidata item has no P2031/P571 at all.
     const mbBeginYear = m?.begin ? Number(m.begin) : undefined
     const mbFirstReleaseYear = m?.firstRelease ? Number(m.firstRelease) : undefined
+    // Sources that record an actual release (MusicBrainz first release, Deezer
+    // earliest album) outrank P2031. P2031 "work period start" is a hand-edited
+    // Wikidata property describing when someone became active, not a release,
+    // and it supplies 621 of the 1000 pool debut years - so where a real release
+    // date exists it is the better measurement.
     let debutYear =
       ov.debutYear ??
       (m?.type === 'group' && mbBeginYear ? mbBeginYear : undefined) ??
-      (w.activeSince ? Number(w.activeSince) : undefined) ??
       (m?.type === 'person' ? mbFirstReleaseYear : undefined) ??
       (deezerDebut[qid] ? deezerDebut[qid] : undefined) ??
+      (w.activeSince ? Number(w.activeSince) : undefined) ??
       (w.inception ? Number(w.inception.slice(0, 4)) : undefined)
     if (!debutYear || debutYear < 1948 || debutYear > new Date().getFullYear()) {
       debutYear = ov.debutYear ?? 0
@@ -235,6 +240,16 @@ export function run(): { artists: T.Artist[]; review: string[] } {
     const birthYear = ov.birthYear ?? (w.birth ? Number(w.birth) : undefined)
     if (!birthYear || birthYear < 1900 || birthYear > new Date().getFullYear()) {
       review.push(`birthYear-missing: ${he}`)
+    }
+
+    // A career cannot begin before the artist was born. P2031 is loose enough to
+    // produce this: it put רגב הוד (b. 2000) at 1996 and לירן טל (b. 2005) at
+    // 2004, and both were answerEligible, so the impossibility was reachable as
+    // a daily answer. Only applies to derived years - a curated override is the
+    // owner's call and is trusted.
+    if (debutYear > 0 && birthYear > 0 && debutYear < birthYear && !ov.debutYear) {
+      review.push(`debutYear-before-birth: ${he} (${debutYear} < ${birthYear})`)
+      debutYear = 0
     }
 
     // ---- breakthrough year (the year the artist became famous) ----

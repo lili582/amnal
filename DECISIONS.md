@@ -376,3 +376,58 @@ date, which is what makes the result trustworthy.
 
 Values go into data/overrides.json keyed by the Hebrew name, then re-run the
 pipeline. The worksheet itself must not be edited.
+## Wikidata P2031 is the weakest source but supplied 62% of the pool
+
+Chasing the pre-1948 question turned up something worse than the 1948 gate.
+
+`debutYear` sources, in the order 06-merge.ts applies them: MusicBrainz `begin`
+(groups only), **Wikidata P2031 work-period start**, MusicBrainz first release,
+Deezer earliest album, Wikidata P571.
+
+P2031 outranked both sources that record an *actual release*. That matters
+because of the coverage:
+
+| binding source | pool artists |
+|---|---|
+| wikidata-p2031 (work period start) | 621 |
+| deezer earliest album | 68 |
+| wikidata-p571 inception | 14 |
+| MusicBrainz (either field) | 0 |
+
+So 62% of the pool got its headline "career start" number from the vaguest
+source, and MusicBrainz contributed nothing at all. P2031 shows the signs of a
+field that is not measuring what the game needs:
+
+- `activeSince - birthYear` clusters hard: 70% of the 940 artists with both fall
+  in +15..+24, median exactly +20. A real career-start distribution is far wider.
+- 2 artists have `activeSince` *before* their birth year, which is impossible.
+- It produced **debut years before birth** in the shipped data: ??? ???
+  (b. 2000) at 1996 and ???? ?? (b. 2005) at 2004. Both were
+  `answerEligible`, so "debuted four years before he was born" was reachable as
+  a daily answer.
+
+Fixes:
+
+- **Reordered** the sources so a real release (MusicBrainz first release, Deezer
+  earliest album) outranks P2031. In practice this recovered 3 artists
+  (913 -> 916 eligible, 87 -> 84 missing) because it rescued names whose only
+  other source was an out-of-range P2031 value. ??? ??? now reads 2001 from
+  Deezer instead of 1996 from P2031.
+- **Added a hard guard**: a derived debut year earlier than the birth year is
+  rejected to 0 and reported as `debutYear-before-birth`. Curated overrides are
+  exempt, since that is the owner's call. ???? ?? is now 0 and flagged.
+- **Added the same check to 07-validate as a hard error**, so the class of bug
+  cannot come back silently rather than depending on the merge stage.
+
+What I did *not* do: widen the >= 1948 gate. It is not what blocks the 84 missing
+years - those are mostly modern artists with no date at all - and the pre-1948
+candidates it would admit come from P2031, which is the unreliable source. Nine
+of them have an `activeSince` before 1948 (???? ????? 1947, ???? ???? 1945) and
+those may well be real pre-statehood careers, but they need a human to confirm
+before the gate moves.
+
+Residual risk, stated plainly: the 621 P2031-sourced debut years are unverified.
+They now pass a sanity guard, but sanity is not accuracy. `data/curation-worksheet.md`
+does not list them because they are not *missing*, only suspect - if the debut
+tile matters to the game, spot-checking the top ~200 by popularity rank is the
+highest-value curation remaining.
